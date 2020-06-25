@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_87_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xd;
+	  <Node id="5"/>“En todo caso, es necesario seguir investigando con el objetivo  que sigan apareciendo nuevas <Node id="99"/>terapias<Node id="107"/> frente a la <Node id="120"/>esclerosis múltiple<Node id="139"/>,  sobre todo en <Node id="156"/>fármacos<Node id="164"/> que consigan frenar la progresión, ya que la cura  de la <Node id="222"/>enfermedad<Node id="232"/> aún parece lejana”, concluye la <Node id="265"/>doctora<Node id="272"/> <Node id="273"/>Moral<Node id="278"/>. “Ser  capaces de individualizar cada vez más los <Node id="329"/>tratamientos<Node id="341"/> y los avances  que se den en la <Node id="374"/>investigación<Node id="387"/> de <Node id="391"/>fármacos<Node id="399"/> <Node id="400"/>inmunomoduladores<Node id="417"/>,  <Node id="420"/>neuroprotectores<Node id="436"/>, <Node id="438"/>neurorreparadores<Node id="455"/> o <Node id="458"/>terapias<Node id="466"/> con <Node id="471"/>células madre<Node id="484"/> podrían  marcar el futuro de esta <Node id="519"/>enfermedad<Node id="529"/>”.&#xd;
+<Node id="533"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="99" EndNode="107">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="120" EndNode="139">
+</Annotation>
+<Annotation Id="12" Type="DRUG" StartNode="156" EndNode="164">
+</Annotation>
+<Annotation Id="13" Type="DISEASE" StartNode="222" EndNode="232">
+</Annotation>
+<Annotation Id="14" Type="JOB" StartNode="265" EndNode="272">
+</Annotation>
+<Annotation Id="15" Type="PER" StartNode="273" EndNode="278">
+</Annotation>
+<Annotation Id="16" Type="MEDTERM" StartNode="329" EndNode="341">
+</Annotation>
+<Annotation Id="17" Type="SCITERM" StartNode="374" EndNode="387">
+</Annotation>
+<Annotation Id="18" Type="DRUG" StartNode="391" EndNode="399">
+</Annotation>
+<Annotation Id="19" Type="SCITERM" StartNode="400" EndNode="417">
+</Annotation>
+<Annotation Id="20" Type="SCITERM" StartNode="420" EndNode="436">
+</Annotation>
+<Annotation Id="21" Type="SCITERM" StartNode="438" EndNode="455">
+</Annotation>
+<Annotation Id="22" Type="MEDTERM" StartNode="458" EndNode="466">
+</Annotation>
+<Annotation Id="23" Type="MEDTERM" StartNode="471" EndNode="484">
+</Annotation>
+<Annotation Id="24" Type="DISEASE" StartNode="519" EndNode="529">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="5" EndNode="533">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

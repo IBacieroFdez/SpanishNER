@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_48_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>Comité Organizador<Node id="21"/> confirmó que decidió posponer la <Node id="55"/>WSI<Node id="58"/> para las fechas del <Node id="79"/>25 al 27 de agosto del 2021<Node id="106"/> luego de evaluar la situación de la <Node id="143"/>pandemia<Node id="151"/> en <Node id="155"/>México<Node id="161"/>, <Node id="163"/>país<Node id="167"/> en donde se registran al <Node id="193"/>día<Node id="196"/> de <Node id="200"/>hoy<Node id="203"/> <Node id="204"/>5.014<Node id="209"/> contagios y <Node id="222"/>332<Node id="225"/> fallecimientos por el <Node id="248"/>coronavirus<Node id="259"/>.
+<Node id="261"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="55" EndNode="58">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="79" EndNode="106">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="143" EndNode="151">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="155" EndNode="161">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="163" EndNode="167">
+</Annotation>
+<Annotation Id="9" Type="TIME" StartNode="193" EndNode="196">
+</Annotation>
+<Annotation Id="10" Type="TIME" StartNode="200" EndNode="203">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="204" EndNode="209">
+</Annotation>
+<Annotation Id="13" Type="QUANT" StartNode="222" EndNode="225">
+</Annotation>
+<Annotation Id="14" Type="DISEASE" StartNode="248" EndNode="259">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="261">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

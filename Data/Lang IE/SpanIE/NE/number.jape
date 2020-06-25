@@ -1,0 +1,166 @@
+/*
+*  number.jape
+*
+* Copyright (c) 1998-2004, The University of Sheffield.
+*
+*  This file is part of GATE (see http://gate.ac.uk/), and is free
+*  software, licenced under the GNU Library General Public License,
+*  Version 2, June 1991 (in the distribution as file licence.html,
+*  and also available at http://gate.ac.uk/gate/licence.html).
+*
+*  Diana Maynard, 02 Aug 2001
+*
+*  $Id: number.jape 18115 2014-06-23 11:19:17Z dgmaynard $
+*/
+
+
+Phase:	Number
+Input: Token Lookup
+Options: control = appelt
+
+///////////////////////////////////////////////////////////////
+//Money Rules
+
+
+Macro: MILLION_BILLION
+//note: now includes T for trillion
+({Token.string == "m"}|
+{Token.string == "millón"}|
+{Token.string == "millones"}|
+{Token.string == "Millón"}|
+{Token.string == "b"}|
+{Token.string == "billón"}|
+{Token.string == "billones"}|
+{Token.string == "Billón"}|
+{Token.string == "bn"}|
+{Token.string == "k"}|
+{Token.string == "K"}|
+{Token.string == "T"}
+)
+
+Macro: NUMBER_WORDS
+// two hundred and thirty five
+// twenty five
+
+(
+ (({Lookup.majorType == number}
+   ({Token.string == "-"})?
+  )*
+   {Lookup.majorType == number}
+   {Token.string == "y"}
+ )*
+ ({Lookup.majorType == number}
+  ({Token.string == "-"})?
+ )*
+   {Lookup.majorType == number}
+)
+
+
+Macro: AMOUNT_NUMBER
+// enables commas, decimal points and million/billion
+// to be included in a number
+
+(({Token.kind == number}
+  (({Token.string == ","}|
+    {Token.string == "."}
+   )
+   {Token.kind == number}
+  )*
+  |
+  (NUMBER_WORDS)
+ )
+ (MILLION_BILLION)?
+)
+
+
+Rule:	MoneyCurrencyUnit
+// 30 pounds
+  (
+      (AMOUNT_NUMBER)
+      ({Lookup.majorType == currency_unit,Lookup.minorType == post_amount})
+  )
+:number -->
+  :number.Money = {kind = "number", rule = "MoneyCurrencyUnit"}
+
+
+Rule:	MoneySymbolUnit
+
+// $30
+// $30 US
+// not $1$21
+// $20US
+
+
+(
+ (AMOUNT_NUMBER)
+ ({Token.symbolkind == currency}|
+  {Lookup.majorType == currency_unit})
+ (
+  {Lookup.majorType == currency_unit, Lookup.minorType == post_amount}
+ )?
+)
+:number
+
+ -->
+  :number.Money = {kind = "number", rule = "MoneySymbolUnit"}
+
+  Rule:	MoneyUnitSymbol
+
+// US $30
+
+(
+ {Lookup.majorType == currency_unit, Lookup.minorType == pre_amount}
+ ({Token.symbolkind == currency}|
+  {Lookup.majorType == currency_unit, Lookup.minorType == post_amount})
+ (AMOUNT_NUMBER)
+)
+:number
+
+ -->
+  :number.Money = {kind = "number", rule = "MoneyUnitSymbol"}
+
+
+//////////////////////////////////////////////////////////////
+
+// Percentage Rules
+
+Macro: PERCENT
+({Token.string == "%"} |
+ {Token.string == "porciento"}|
+ ({Token.string == "por"}
+ {Token.string == "ciento"})
+)
+
+
+Rule: PercentBasic
+// +20%
+// minus 10 percent
+// two point four percent
+
+(
+ ({Token.string == "+"}|
+  {Token.string == "-"}|
+  {Token.string == "menos"}
+ )?
+  ((AMOUNT_NUMBER|NUMBER_WORDS)
+  {Token.string == "punto"}
+ )?
+ (AMOUNT_NUMBER|NUMBER_WORDS)
+ (PERCENT)
+)
+:number -->
+  :number.Percent = {rule = "PercentBasic"}
+
+Rule: PercentSpan
+// 20-30%
+// two to four percent
+
+(
+ (AMOUNT_NUMBER|NUMBER_WORDS)
+ ({Token.string == "-"} |
+  {Token.string == "a"})
+ (AMOUNT_NUMBER|NUMBER_WORDS)
+ (PERCENT)
+)
+:number -->
+  :number.Percent = {rule = "PercentSpan"}

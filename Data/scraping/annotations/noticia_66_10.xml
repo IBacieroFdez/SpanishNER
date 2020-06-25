@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_66_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Mientras que, hasta la entrada en vigor de esta orden, la <Node id="58"/>UME<Node id="61"/> desinfectaba <Node id="75"/>residencias<Node id="86"/> con "unos <Node id="97"/>compuestos químicos<Node id="116"/> en <Node id="120"/>líquido<Node id="127"/>", ahora la nueva norma habilita "para usar <Node id="171"/>aerosoles<Node id="180"/>", precisaba así el <Node id="200"/>general<Node id="207"/> <Node id="208"/>Villarroya<Node id="218"/>. 
+<Node id="221"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="58" EndNode="61">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="75" EndNode="86">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="97" EndNode="116">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="120" EndNode="127">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="171" EndNode="180">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="200" EndNode="207">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="208" EndNode="218">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="221">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

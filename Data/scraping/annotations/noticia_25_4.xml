@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_25_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Para los <Node id="9"/>científicos<Node id="20"/>, este estudio es comparable al hallazgo de un fósil para entender la historia de la evolución, pero, a diferencia de los <Node id="142"/>huesos<Node id="148"/>, los <Node id="154"/>cerebros<Node id="162"/> no se fosilizaron.
+<Node id="182"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="9" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="142" EndNode="148">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="154" EndNode="162">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="182">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

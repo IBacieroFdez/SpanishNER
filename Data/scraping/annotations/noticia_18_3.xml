@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_18_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ni la <Node id="6"/>Casa Blanca<Node id="17"/> ni el <Node id="24"/>Departamento de Seguridad Nacional<Node id="58"/> (<Node id="60"/>DHS<Node id="63"/>), encargado de la gestión de la inmigración, ofrecieron detalles más allá del tuit del <Node id="151"/>presidente<Node id="161"/>, generando dudas sobre el efecto real que el anuncio pueda tener. 
+<Node id="229"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="FAC" StartNode="6" EndNode="17">
+</Annotation>
+<Annotation Id="19" Type="ORG" StartNode="24" EndNode="58">
+</Annotation>
+<Annotation Id="20" Type="ORG" StartNode="60" EndNode="63">
+</Annotation>
+<Annotation Id="21" Type="JOB" StartNode="151" EndNode="161">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="229">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

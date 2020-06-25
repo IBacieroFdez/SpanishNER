@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_34_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>reina<Node id="8"/> espera recibir las felicitaciones de su familia y amigos de manera virtual, al mantener una rigurosa <Node id="110"/>cuarentena<Node id="120"/> debido a su avanzada edad, y no habrá <Node id="159"/>salvas de cañón<Node id="174"/>, como es tradición, ni tampoco la <Node id="209"/>celebración<Node id="220"/> oficial de su <Node id="235"/>cumpleaños<Node id="245"/> en <Node id="249"/>junio<Node id="254"/>.
+<Node id="256"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="110" EndNode="120">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="159" EndNode="174">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="209" EndNode="220">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="249" EndNode="254">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="235" EndNode="245">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="256">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

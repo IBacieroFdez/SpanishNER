@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Así se pronuncia también el <Node id="28"/>experto<Node id="35"/> en <Node id="39"/>otorrinolaringología<Node id="59"/> del <Node id="64"/>Hospital <Node id="73"/>12 de Octubre<Node id="86"/> de <Node id="90"/>Madrid<Node id="96"/> <Node id="97"/>Alfredo García<Node id="111"/>, quien coincide en que aún se desconoce por qué en <Node id="163"/>China<Node id="168"/> no ha habido apenas positivos por <Node id="203"/>coronavirus<Node id="214"/> que hayan perdido el <Node id="236"/>olfato<Node id="242"/>.
+<Node id="244"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="28" EndNode="35">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="39" EndNode="59">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="64" EndNode="86">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="73" EndNode="86">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="90" EndNode="96">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="97" EndNode="111">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="163" EndNode="168">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="203" EndNode="214">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="236" EndNode="242">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="244">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

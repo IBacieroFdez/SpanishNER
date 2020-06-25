@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Aunque no logró evitar que el <Node id="30"/>bloque soviético<Node id="46"/> devolviese el <Node id="61"/>boicot<Node id="67"/> <Node id="68"/>cuatro<Node id="74"/> <Node id="75"/>años<Node id="79"/> después en <Node id="91"/>Los Ángeles<Node id="102"/> 1984<Node id="107"/>, estos fueron los primeros <Node id="135"/>Juegos<Node id="141"/> de la historia con superávit económico. Comenzó una etapa de bonanza en la que fue determinante la firma de contratos de <Node id="263"/>televisión<Node id="273"/> a largo plazo, que garantizaban la estabilidad financiera de los <Node id="339"/>Juegos<Node id="345"/> con varias ediciones de adelanto.
+<Node id="380"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="30" EndNode="46">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="61" EndNode="67">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="68" EndNode="74">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="75" EndNode="79">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="91" EndNode="102">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="91" EndNode="107">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="135" EndNode="141">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="263" EndNode="273">
+</Annotation>
+<Annotation Id="9" Type="EVENT" StartNode="339" EndNode="345">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="380">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

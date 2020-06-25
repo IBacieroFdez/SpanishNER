@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_98_21.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Aun así, se recomienda que los enfermos de <Node id="43"/>COVID‑19<Node id="51"/> y las personas de riesgo limiten el contacto con sus <Node id="105"/>mascotas<Node id="113"/> y otros <Node id="122"/>animales<Node id="130"/>. Al tocar <Node id="141"/>animales<Node id="149"/> y cuidar de ellos se deben adoptar siempre las medidas básicas de <Node id="216"/>higiene<Node id="223"/>. Esto incluye
+    lavarse las manos después de tocar a los <Node id="283"/>animales<Node id="291"/>, su <Node id="296"/>comida<Node id="302"/> o sus <Node id="309"/>objetos<Node id="316"/>, así como evitar besos, lametazos o compartir <Node id="363"/>alimentos<Node id="372"/>. 
+<Node id="375"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="43" EndNode="51">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="105" EndNode="113">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="122" EndNode="130">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="141" EndNode="149">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="283" EndNode="291">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="296" EndNode="302">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="309" EndNode="316">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="363" EndNode="372">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="216" EndNode="223">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="375">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

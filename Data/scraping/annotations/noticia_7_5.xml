@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>ministro<Node id="11"/> de <Node id="15"/>Sanidad<Node id="22"/>, <Node id="24"/>Salvador Illa<Node id="37"/>, ha tenido que comparecer para salir al paso de la <Node id="89"/>primera<Node id="96"/> decisión dada a conocer por el <Node id="128"/>Gobierno<Node id="136"/> con la expresión “sabemos escuchar” y el compromiso de hacer públicas próximamente las recomendaciones que regularán esos paseos.
+<Node id="267"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="15" EndNode="22">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="24" EndNode="37">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="89" EndNode="96">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="128" EndNode="136">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="267">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

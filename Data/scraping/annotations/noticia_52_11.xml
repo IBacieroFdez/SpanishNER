@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_52_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Al responder a una pregunta de <Node id="31"/>Efe<Node id="34"/> sobre los contactos con <Node id="59"/>El Prado<Node id="67"/> en tiempos de <Node id="82"/>coronavirus<Node id="93"/>, el <Node id="98"/>director<Node id="106"/> del <Node id="111"/>Hermitage<Node id="120"/> recordó que a los dos <Node id="143"/>museos<Node id="149"/> les une una buena y larga historia de relaciones que "se retomará plenamente" después de la <Node id="242"/>pandemia<Node id="250"/>.
+<Node id="252"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="31" EndNode="34">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="59" EndNode="67">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="82" EndNode="93">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="98" EndNode="106">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="111" EndNode="120">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="143" EndNode="149">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="242" EndNode="250">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="252">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

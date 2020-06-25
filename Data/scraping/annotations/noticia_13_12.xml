@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_13_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>También critica el intento de algunas <Node id="38"/>autoridades nacionales<Node id="60"/> de instrumentalizar el poder judicial y "amenazar a los <Node id="117"/>jueces<Node id="123"/> que, haciendo uso de su libertad de expresión, dan su opinión sobre una cuestión de interés público en el terreno judicial".
+<Node id="249"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="38" EndNode="60">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="117" EndNode="123">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="249">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

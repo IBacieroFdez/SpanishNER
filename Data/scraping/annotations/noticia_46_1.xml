@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_46_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>presidente<Node id="13"/> de <Node id="17"/>Iberdrola<Node id="26"/>, <Node id="28"/>Ignacio  Sánchez Galán<Node id="50"/>, ha anunciado este <Node id="70"/>jueves<Node id="76"/> ante la <Node id="85"/>junta general<Node id="98"/> de <Node id="102"/>accionistas<Node id="113"/>, la <Node id="118"/>primera<Node id="125"/> <Node id="126"/>100 %<Node id="131"/> telemática de la historia de la <Node id="164"/>compañía<Node id="172"/> y que , ha registrado un quorum del <Node id="209"/>77,04 %<Node id="216"/> del capital social, que acelerarán las inversiones "tan pronto sea posible para contribuir a la actividad económica y fomentar el <Node id="347"/>empleo<Node id="353"/>”.
+<Node id="356"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="17" EndNode="26">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="28" EndNode="50">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="70" EndNode="76">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="85" EndNode="98">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="102" EndNode="113">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="126" EndNode="131">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="118" EndNode="125">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="164" EndNode="172">
+</Annotation>
+<Annotation Id="10" Type="PERCENT" StartNode="209" EndNode="216">
+</Annotation>
+<Annotation Id="11" Type="JOB" StartNode="347" EndNode="353">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="356">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

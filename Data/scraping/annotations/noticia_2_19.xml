@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_2_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Entre los datos dados a conocer <Node id="32"/>este lunes<Node id="42"/>, muchas <Node id="51"/>comunidades autónomas<Node id="72"/> incluyen ya las <Node id="89"/>pruebas diagnósticas<Node id="109"/> hechas en las <Node id="124"/>24 horas<Node id="132"/> precedentes, que en este caso han sido <Node id="172"/>191.164<Node id="179"/>  del tipo <Node id="190"/>PCR<Node id="193"/>, las más fiables para detectar el <Node id="228"/>virus<Node id="233"/>, y <Node id="237"/>9.046<Node id="242"/>  de <Node id="247"/>anticuerpos<Node id="258"/>, lo que supone <Node id="274"/>2.585<Node id="279"/> y <Node id="282"/>1.681 más<Node id="291"/>, respectivamente, <Node id="310"/>en un solo día<Node id="324"/>.
+<Node id="326"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="QUANT" StartNode="282" EndNode="291">
+</Annotation>
+<Annotation Id="1" Type="DATE" StartNode="32" EndNode="42">
+</Annotation>
+<Annotation Id="17" Type="TIME" StartNode="310" EndNode="324">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="51" EndNode="72">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="89" EndNode="109">
+</Annotation>
+<Annotation Id="9" Type="TIME" StartNode="124" EndNode="132">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="172" EndNode="179">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="190" EndNode="193">
+</Annotation>
+<Annotation Id="12" Type="MEDTERM" StartNode="228" EndNode="233">
+</Annotation>
+<Annotation Id="13" Type="QUANT" StartNode="237" EndNode="242">
+</Annotation>
+<Annotation Id="14" Type="MEDTERM" StartNode="247" EndNode="258">
+</Annotation>
+<Annotation Id="15" Type="QUANT" StartNode="274" EndNode="279">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="326">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

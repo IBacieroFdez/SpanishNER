@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Según algunas informaciones, las personas sin <Node id="46"/>síntomas<Node id="54"/> pueden transmitir el <Node id="76"/>virus<Node id="81"/>. Aún no se sabe con qué frecuencia ocurre. La <Node id="128"/>OMS<Node id="131"/> está estudiando las <Node id="152"/>investigaciones<Node id="167"/> en curso sobre esta cuestión y seguirá
+    informando sobre las conclusiones que se vayan obteniendo.
+<Node id="270"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="46" EndNode="54">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="76" EndNode="81">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="128" EndNode="131">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="152" EndNode="167">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="270">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

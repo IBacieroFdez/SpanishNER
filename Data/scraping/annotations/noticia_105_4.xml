@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_105_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Porque lo <Node id="10"/>primero<Node id="17"/> que tenemos que saber es que en el <Node id="53"/>Hollywood<Node id="62"/> que aparece en esta serie no todo es lujo y glamour. Hablamos de una <Node id="132"/>industria<Node id="141"/> en la que sus personajes buscan con todas sus fuerzas alcanzar el sueño de triunfar a costa de lo que sea y que se acaban dando de bruces con las injusticias y prejuicios derivados de la raza, género y sexo. Lo que hace diferente a esta serie es que echa mano de la imaginación y nos plantea cómo hubiese sido un <Node id="455"/>Hollywood<Node id="464"/> abierto a la diversidad, sin censura y donde los homosexuales, negros y mujeres no hubiesen estado apartados de las <Node id="581"/>películas<Node id="590"/> por el solo hecho de ser "distintos". Y para explicarlo parte de la posibilidad de qué hubiese pasado si se hubiera estrenado una <Node id="721"/>película<Node id="729"/>, <Node id="731"/>Meg<Node id="734"/>, protagonizada por una <Node id="758"/>actriz<Node id="764"/> negra, con guión de un <Node id="788"/>autor<Node id="793"/> de color, avalada por un gran estudio dirigido por una mujer y premiada en una <Node id="873"/>ceremonia<Node id="882"/> de los <Node id="890"/>Oscar<Node id="895"/> en la que algunos de los invitados aprovecharan para salir del <Node id="959"/>armario<Node id="966"/>. Vamos, algo improbable en esa <Node id="998"/>época<Node id="1003"/> en la que, por hacernos una idea, hasta el propio <Node id="1054"/>Rock Hudson<Node id="1065"/>, que aparece en la serie, mantuvo en secreto su homosexualidad hasta <Node id="1135"/>1985<Node id="1139"/>, cuando ya no pudo ocultar que había contraído el <Node id="1190"/>sida<Node id="1194"/>.<Node id="1195"/>
+
+
+	<Node id="1199"/> 
+<Node id="1201"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="QUANT" StartNode="10" EndNode="17">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="53" EndNode="62">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="132" EndNode="141">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="455" EndNode="464">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="581" EndNode="590">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="721" EndNode="729">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="731" EndNode="734">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="758" EndNode="764">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="788" EndNode="793">
+</Annotation>
+<Annotation Id="11" Type="EVENT" StartNode="873" EndNode="882">
+</Annotation>
+<Annotation Id="12" Type="PER" StartNode="890" EndNode="895">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="959" EndNode="966">
+</Annotation>
+<Annotation Id="14" Type="TIME" StartNode="998" EndNode="1003">
+</Annotation>
+<Annotation Id="15" Type="PER" StartNode="1054" EndNode="1065">
+</Annotation>
+<Annotation Id="16" Type="DATE" StartNode="1135" EndNode="1139">
+</Annotation>
+<Annotation Id="17" Type="DISEASE" StartNode="1190" EndNode="1194">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="1195">
+</Annotation>
+<Annotation Id="1" Type="paragraph" StartNode="1199" EndNode="1201">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

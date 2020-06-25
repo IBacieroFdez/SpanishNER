@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/dataset/noticia_81_35.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Manténgase al día de la información más reciente sobre el <Node id="58"/>brote<Node id="63"/> de <Node id="67"/>COVID‑19<Node id="75"/>, a la que puede acceder en el <Node id="106"/>sitio web<Node id="115"/> de la <Node id="122"/>OMS<Node id="125"/> y a través de las <Node id="144"/>autoridades<Node id="155"/> de <Node id="159"/>salud pública<Node id="172"/> a nivel nacional y local. Se han registrado
+    casos en la mayoría de los <Node id="248"/>países<Node id="254"/> del <Node id="259"/>mundo<Node id="264"/>, y en muchos de ellos se han producido <Node id="304"/>brotes<Node id="310"/>. Las <Node id="316"/>autoridades<Node id="327"/> de algunos <Node id="339"/>países<Node id="345"/> han conseguido ralentizar el avance de los <Node id="389"/>brotes<Node id="395"/>, pero la situación es impredecible y es necesario
+    comprobar con regularidad las noticias más recientes.
+<Node id="504"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="58" EndNode="63">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="67" EndNode="75">
+</Annotation>
+<Annotation Id="3" Type="ADDRESS" StartNode="106" EndNode="115">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="122" EndNode="125">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="144" EndNode="155">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="159" EndNode="172">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="248" EndNode="254">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="259" EndNode="264">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="304" EndNode="310">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="316" EndNode="327">
+</Annotation>
+<Annotation Id="12" Type="LOC" StartNode="339" EndNode="345">
+</Annotation>
+<Annotation Id="13" Type="DISEASE" StartNode="389" EndNode="395">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="504">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

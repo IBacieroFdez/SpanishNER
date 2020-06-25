@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_78_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Impact Hub<Node id="10"/> <Node id="11"/>Madrid<Node id="17"/> es la primera compañía de coworking <Node id="54"/>española<Node id="62"/> con el sello de <Node id="79"/>empresa<Node id="86"/> sostenible B Corp. <Node id="106"/>madrid.impacthub.net<Node id="126"/>
+<Node id="127"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="11" EndNode="17">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="54" EndNode="62">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="79" EndNode="86">
+</Annotation>
+<Annotation Id="5" Type="ADDRESS" StartNode="106" EndNode="126">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="127">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

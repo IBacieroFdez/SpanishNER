@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_21_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>presidente<Node id="13"/> del <Node id="18"/>Gobierno<Node id="26"/> <Node id="27"/>italiano<Node id="35"/>, <Node id="37"/>Giuseppe Conte<Node id="51"/>, anunció que a finales de esta <Node id="83"/>semana<Node id="89"/> comunicará el plan de <Node id="112"/>reapertura<Node id="122"/> del <Node id="127"/>país<Node id="131"/> ante la <Node id="140"/>epidemia<Node id="148"/> del <Node id="153"/>coronavirus<Node id="164"/> y que prevé que comience a aplicarse a partir del <Node id="215"/>4 de mayo<Node id="224"/>.
+<Node id="226"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="18" EndNode="26">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="27" EndNode="35">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="37" EndNode="51">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="83" EndNode="89">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="112" EndNode="122">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="127" EndNode="131">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="140" EndNode="148">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="153" EndNode="164">
+</Annotation>
+<Annotation Id="10" Type="DATE" StartNode="215" EndNode="224">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="226">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

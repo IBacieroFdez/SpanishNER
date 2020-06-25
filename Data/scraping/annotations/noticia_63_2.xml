@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Con la expansión mundial del nuevo <Node id="35"/>virus<Node id="40"/> descubierto en la <Node id="59"/>ciudad<Node id="65"/> <Node id="66"/>china<Node id="71"/> de <Node id="75"/>Wuhan<Node id="80"/> ha cobrado gran difusión la tesis que atribuye el origen y la propagación de la <Node id="161"/>COVID-19<Node id="169"/> al despliegue de las <Node id="191"/>redes de telecomunicaciones<Node id="218"/> de <Node id="222"/>quinta<Node id="228"/> generación, conocidas como <Node id="256"/>redes 5G<Node id="264"/>.
+<Node id="266"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="35" EndNode="40">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="59" EndNode="65">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="66" EndNode="71">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="75" EndNode="80">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="161" EndNode="169">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="191" EndNode="218">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="222" EndNode="228">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="256" EndNode="264">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="266">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

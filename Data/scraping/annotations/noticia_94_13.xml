@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>A medida que la <Node id="16"/>pandemia<Node id="24"/> se iba expandiendo por el viejo <Node id="57"/>continente<Node id="67"/>, algunos <Node id="77"/>gobiernos<Node id="86"/> han recurrido a <Node id="103"/>China<Node id="108"/> para conseguir <Node id="124"/>productos sanitarios<Node id="144"/> básicos que luego han tenido que desechar o devolver entre denuncias de problemas de fiabilidad.
+<Node id="242"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="16" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="57" EndNode="67">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="77" EndNode="86">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="103" EndNode="108">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="124" EndNode="144">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="242">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

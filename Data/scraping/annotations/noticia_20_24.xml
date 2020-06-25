@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_20_24.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los ataques en este <Node id="20"/>país<Node id="24"/> de mayoría <Node id="36"/>budista<Node id="43"/> abrieron una profunda herida en la minoría <Node id="87"/>cristiana<Node id="96"/> y desataron la incertidumbre por posibles represalias entre la comunidad <Node id="170"/>musulmana<Node id="179"/>. Pero también impactaron un sector <Node id="215"/>turístico<Node id="224"/> al alza en esta paradisíaca isla desde el final, <Node id="274"/>hace más de una década<Node id="296"/>, de la <Node id="304"/>guerra civil<Node id="316"/> contra los <Node id="328"/>Tigres Tamiles<Node id="342"/> (<Node id="344"/>LTTE<Node id="348"/>).
+<Node id="351"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="20" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="36" EndNode="43">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="87" EndNode="96">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="170" EndNode="179">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="215" EndNode="224">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="274" EndNode="296">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="304" EndNode="316">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="328" EndNode="342">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="344" EndNode="348">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="351">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

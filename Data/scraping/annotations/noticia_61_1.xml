@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_61_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>consellera<Node id="13"/> de la <Node id="20"/>Presidencia<Node id="31"/>, <Node id="33"/>Meritxell Budó<Node id="47"/>, ha evitado este <Node id="65"/>martes<Node id="71"/> hacer un llamamiento a las familias <Node id="108"/>catalanas<Node id="117"/> a desobedecer las instrucciones del <Node id="154"/>Estado<Node id="160"/> sobre <Node id="167"/>desconfinamiento<Node id="183"/>, si bien ha reclamado que se devuelvan al <Node id="226"/>Govern<Node id="232"/> las competencias para poder gestionar este proceso.
+<Node id="285"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="20" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="33" EndNode="47">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="65" EndNode="71">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="108" EndNode="117">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="154" EndNode="160">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="167" EndNode="183">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="226" EndNode="232">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="285">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

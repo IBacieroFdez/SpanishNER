@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_86_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Para su publicación inmediata:
+<Node id="31"/>30 de marzo, 2020<Node id="48"/>.
+Contacto: Departamento de Relaciones con los Medios de Comunicación de los <Node id="125"/>CDC<Node id="128"/>
+<Node id="129"/>(404) 639-3286<Node id="143"/>
+<Node id="144"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="31" EndNode="48">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="125" EndNode="128">
+</Annotation>
+<Annotation Id="4" Type="PHONE" StartNode="129" EndNode="143">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="144">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

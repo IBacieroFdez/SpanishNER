@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Delegado<Node id="8"/> nacional de <Node id="21"/>Educación Física y Deportes<Node id="48"/> entre <Node id="55"/>1966<Node id="59"/> y <Node id="62"/>1970<Node id="66"/>, <Node id="68"/>procurador<Node id="78"/> en <Node id="82"/>Cortes<Node id="88"/> de <Node id="92"/>1967<Node id="96"/> a <Node id="99"/>1977<Node id="103"/> y <Node id="106"/>presidente<Node id="116"/> de la <Node id="123"/>Diputación<Node id="133"/> de <Node id="137"/>Barcelona<Node id="146"/> entre <Node id="153"/>1973<Node id="157"/> y <Node id="160"/>1977<Node id="164"/>, hasta su nombramiento como <Node id="193"/>embajador<Node id="202"/> en la <Node id="209"/>Unión Soviética<Node id="224"/>, sus cargos en la <Node id="243"/>administración franquista<Node id="268"/> no permitían adivinar que como <Node id="300"/>dirigente<Node id="309"/> olímpico sería un revolucionario y el motor que transformó el deporte mundial.
+<Node id="389"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="0" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="21" EndNode="48">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="55" EndNode="59">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="62" EndNode="66">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="68" EndNode="78">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="82" EndNode="88">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="92" EndNode="96">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="99" EndNode="103">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="106" EndNode="116">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="123" EndNode="133">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="137" EndNode="146">
+</Annotation>
+<Annotation Id="12" Type="DATE" StartNode="153" EndNode="157">
+</Annotation>
+<Annotation Id="13" Type="DATE" StartNode="160" EndNode="164">
+</Annotation>
+<Annotation Id="14" Type="JOB" StartNode="193" EndNode="202">
+</Annotation>
+<Annotation Id="15" Type="GPE" StartNode="209" EndNode="224">
+</Annotation>
+<Annotation Id="16" Type="ORG" StartNode="243" EndNode="268">
+</Annotation>
+<Annotation Id="17" Type="JOB" StartNode="300" EndNode="309">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="389">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

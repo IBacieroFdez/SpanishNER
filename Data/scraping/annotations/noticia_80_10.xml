@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_80_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El documento de <Node id="16"/>Mitjà<Node id="21"/> prevé un primer estudio <Node id="46"/>serológico<Node id="56"/> a <Node id="59"/>30.000<Node id="65"/> personas, con representatividad "de todos los <Node id="112"/>territorios<Node id="123"/> y franjas de edad", para conocer el <Node id="160"/>porcentaje<Node id="170"/> de personas seropositivas ante el <Node id="205"/>coronavirus<Node id="216"/>.
+<Node id="218"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="16" EndNode="21">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="46" EndNode="56">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="59" EndNode="65">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="112" EndNode="123">
+</Annotation>
+<Annotation Id="5" Type="PERCENT" StartNode="160" EndNode="170">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="205" EndNode="216">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="218">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_98_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>¿Por qué? Las manos tocan muchas superficies y pueden recoger <Node id="62"/>virus<Node id="67"/>. Una vez contaminadas, las manos pueden transferir el <Node id="122"/>virus<Node id="127"/> a los ojos, la nariz o la boca. Desde allí, el <Node id="175"/>virus<Node id="180"/> puede entrar en su cuerpo y
+    causarle la <Node id="225"/>enfermedad<Node id="235"/>.
+<Node id="237"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="62" EndNode="67">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="122" EndNode="127">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="175" EndNode="180">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="225" EndNode="235">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="237">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

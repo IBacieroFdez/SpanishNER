@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_38_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>DecorAcción<Node id="11"/> el evento urbano de interiorismo que se celebra en <Node id="63"/>Madrid<Node id="69"/>, cada <Node id="76"/>año<Node id="79"/> en <Node id="83"/>primavera<Node id="92"/>, y que cumple en <Node id="110"/>2020<Node id="114"/> su <Node id="118"/>decimoprimera<Node id="131"/> edición, se pospone a después de <Node id="165"/>verano<Node id="171"/>.
+<Node id="173"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="0" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="63" EndNode="69">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="76" EndNode="79">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="83" EndNode="92">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="110" EndNode="114">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="118" EndNode="131">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="165" EndNode="171">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="173">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

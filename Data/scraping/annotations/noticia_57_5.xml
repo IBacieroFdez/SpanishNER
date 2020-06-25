@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_57_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Precisamente, en la <Node id="20"/>Comunidad de Madrid<Node id="39"/> la situación de <Node id="56"/>cuatro<Node id="62"/> <Node id="63"/>residencias<Node id="74"/> de la <Node id="81"/>localidad<Node id="90"/> de <Node id="94"/>Alcorcón<Node id="102"/>, con <Node id="108"/>116<Node id="111"/> mayores fallecidos desde el <Node id="140"/>29 de marzo<Node id="151"/>, ha llevado a un <Node id="169"/>tribunal<Node id="177"/> a ordenar a la <Node id="193"/>administración autonómica<Node id="218"/> que dote a estos centros del <Node id="248"/>personal sanitario<Node id="266"/> necesario y de los medios precisos para desarrollar pruebas de <Node id="330"/>COVID-19<Node id="338"/>.
+<Node id="340"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="20" EndNode="39">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="56" EndNode="62">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="63" EndNode="74">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="81" EndNode="90">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="94" EndNode="102">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="108" EndNode="111">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="140" EndNode="151">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="169" EndNode="177">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="193" EndNode="218">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="248" EndNode="266">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="330" EndNode="338">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="340">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

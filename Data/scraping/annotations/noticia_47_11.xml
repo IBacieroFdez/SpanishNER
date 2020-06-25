@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_47_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Millán-Astray<Node id="13"/> ha subrayado que "si algo ha demostrado el <Node id="57"/>sector de la distribución<Node id="82"/>" en esta <Node id="92"/>crisis<Node id="98"/> es que "es extraordinariamente eficiente y competitivo".
+<Node id="156"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="57" EndNode="82">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="92" EndNode="98">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="156">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

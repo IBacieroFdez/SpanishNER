@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_13_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Para <Node id="5"/>Mijatovic<Node id="14"/>, "la normalización creciente de las expulsiones ilegales y los actos que deshumanizan a las <Node id="107"/>personas<Node id="115"/> que intentan cruzar las <Node id="140"/>fronteras<Node id="149"/> son inquietantes", así como la "decisión imprudente" de restringir los rescates en el <Node id="236"/>Mediterráneo<Node id="248"/>.
+<Node id="250"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="5" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="107" EndNode="115">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="250">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="140" EndNode="149">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="236" EndNode="248">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

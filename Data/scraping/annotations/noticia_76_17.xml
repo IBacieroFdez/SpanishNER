@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_76_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>“El incremento de las comisiones en los últimos <Node id="48"/>meses<Node id="53"/> por parte de las <Node id="71"/>entidades bancarias<Node id="90"/> está haciendo que muchas <Node id="116"/>pymes<Node id="121"/> y <Node id="124"/>startups<Node id="132"/> valoren otras opciones. Si esto se suma la necesidad de operar de forma digital <Node id="213"/>durante<Node id="220"/> varias <Node id="228"/>semanas<Node id="235"/>, los <Node id="241"/>neobancos<Node id="250"/> podemos convertirnos en piezas claves de sus <Node id="296"/>negocios<Node id="304"/> a medio plazo”, afirma el <Node id="331"/>Country Manager<Node id="346"/> de <Node id="350"/>Qonto<Node id="355"/>.
+<Node id="357"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="48" EndNode="53">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="71" EndNode="90">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="116" EndNode="121">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="124" EndNode="132">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="228" EndNode="235">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="213" EndNode="220">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="241" EndNode="250">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="296" EndNode="304">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="350" EndNode="355">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="331" EndNode="346">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="357">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

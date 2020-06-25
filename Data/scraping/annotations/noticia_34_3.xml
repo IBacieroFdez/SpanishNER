@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_34_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>reina<Node id="8"/>, que hace unas <Node id="24"/>semanas<Node id="31"/> pronunció un discurso para animar a los <Node id="72"/>británicos<Node id="82"/>, tiene en <Node id="93"/>Windsor<Node id="100"/> un reducido número de <Node id="123"/>personas<Node id="131"/> que la atienden para evitar el riesgo de <Node id="173"/>contagio<Node id="181"/>, según han indicado fuentes de la realeza a los <Node id="230"/>medios locales<Node id="244"/>. 
+<Node id="247"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="24" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="72" EndNode="82">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="93" EndNode="100">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="123" EndNode="131">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="173" EndNode="181">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="230" EndNode="244">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="247">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

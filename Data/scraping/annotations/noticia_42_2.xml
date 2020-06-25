@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_42_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Según han detallado este <Node id="25"/>lunes<Node id="30"/> la <Node id="34"/>compañía<Node id="42"/> y <Node id="45"/>fuentes sindicales<Node id="63"/> a <Node id="66"/>Efe<Node id="69"/>, el <Node id="74"/>presidente<Node id="84"/> y <Node id="87"/>consejero delegado<Node id="105"/> del <Node id="110"/>grupo<Node id="115"/>, <Node id="117"/>Jaume Miquel<Node id="129"/>, ha informado a través de una carta que van a continuar complementando la prestación de desempleo en <Node id="231"/>abril<Node id="236"/> al igual que hicieron en <Node id="262"/>marzo<Node id="267"/> y que, debido a los retrasos para percibir las prestaciones del <Node id="332"/>Servicio Público de Empleo<Node id="358"/> (<Node id="360"/>SEPE<Node id="364"/>), facilitarán microcréditos a los <Node id="399"/>empleados<Node id="408"/> que lo soliciten. 
+<Node id="428"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="25" EndNode="30">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="34" EndNode="42">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="45" EndNode="63">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="66" EndNode="69">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="74" EndNode="84">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="87" EndNode="105">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="110" EndNode="115">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="117" EndNode="129">
+</Annotation>
+<Annotation Id="9" Type="DATE" StartNode="231" EndNode="236">
+</Annotation>
+<Annotation Id="11" Type="DATE" StartNode="262" EndNode="267">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="332" EndNode="358">
+</Annotation>
+<Annotation Id="13" Type="ORG" StartNode="360" EndNode="364">
+</Annotation>
+<Annotation Id="14" Type="JOB" StartNode="399" EndNode="408">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="428">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

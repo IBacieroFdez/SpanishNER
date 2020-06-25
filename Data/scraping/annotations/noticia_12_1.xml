@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_12_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>Comunidad de Madrid<Node id="22"/> ha registrado <Node id="37"/>109<Node id="40"/> fallecidos más <Node id="56"/>en las últimas 24 horas<Node id="79"/>, lo que eleva el total a <Node id="105"/>7.460<Node id="110"/> muertos, y <Node id="122"/>1.034<Node id="127"/> nuevos contagios, según informa <Node id="160"/>este martes<Node id="171"/> el <Node id="175"/>Ministerio de Sanidad<Node id="196"/>.
+<Node id="198"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="3" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="37" EndNode="40">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="56" EndNode="79">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="105" EndNode="110">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="122" EndNode="127">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="160" EndNode="171">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="175" EndNode="196">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="198">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

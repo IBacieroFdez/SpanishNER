@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_18.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>R: Lo que está pasando a nivel internacional es bastante chocante. Está eso que llaman la <Node id="90"/>Unión Europea<Node id="103"/>. Escuchamos la palabra “unión”. Vale, mira <Node id="147"/>Alemania<Node id="155"/>, que está gestionando la crisis muy bien… En <Node id="201"/>Italia<Node id="207"/> la crisis es aguda… ¿Están recibiendo ayuda de <Node id="255"/>Alemania<Node id="263"/>? Afortunadamente están recibiendo ayuda, pero de una "superpotencia" como <Node id="338"/>Cuba<Node id="342"/>, que está mandado <Node id="361"/>médicos<Node id="368"/>. O <Node id="372"/>China<Node id="377"/>, que envía <Node id="389"/>material<Node id="397"/> y ayuda. Pero no reciben asistencia de los países ricos de la <Node id="460"/>Unión Europea<Node id="473"/>. Eso dice algo…
+<Node id="490"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="90" EndNode="103">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="147" EndNode="155">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="201" EndNode="207">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="255" EndNode="263">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="338" EndNode="342">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="361" EndNode="368">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="372" EndNode="377">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="389" EndNode="397">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="460" EndNode="473">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="490">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

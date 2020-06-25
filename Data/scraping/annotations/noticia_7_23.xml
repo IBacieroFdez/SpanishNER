@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_23.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>También se ha acordado, además de prorrogar durante otros <Node id="58"/>dos meses<Node id="67"/> el <Node id="71"/>teletrabajo<Node id="82"/> como modalidad preferente, la supresión del IVA al <Node id="134"/>material sanitario<Node id="152"/> y una reducción hasta el <Node id="178"/>4 por ciento<Node id="190"/> del de los libros y del de la prensa digital.
+<Node id="237"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="58" EndNode="67">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="71" EndNode="82">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="134" EndNode="152">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="178" EndNode="190">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="237">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

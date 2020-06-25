@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_4_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En una comparecencia telemática ante la <Node id="40"/>comisión<Node id="48"/> del ramo de la <Node id="64"/>Asamblea de Madrid<Node id="82"/>, <Node id="84"/>Reyero<Node id="90"/> ha reconocido que "sin ninguna duda" habría "tomado alguna medida antes" para paliar la <Node id="179"/>propagación<Node id="190"/> del <Node id="195"/>coronavirus<Node id="206"/> en las <Node id="214"/>residencias<Node id="225"/>, pero ha afirmado que si lo hubiera hecho "con toda probabilidad habría encontrado una enorme resistencia".
+<Node id="334"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="40" EndNode="48">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="64" EndNode="82">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="84" EndNode="90">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="179" EndNode="190">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="195" EndNode="206">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="214" EndNode="225">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="334">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

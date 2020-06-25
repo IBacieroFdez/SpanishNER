@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_37_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Condé Nast<Node id="10"/> ya adelantó en el mes de <Node id="36"/>abril<Node id="41"/> sus números en versión digital, llegando a las <Node id="89"/>300.0000<Node id="97"/> descargas.<Node id="108"/>EFE<Node id="111"/>
+<Node id="112"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="10">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="36" EndNode="41">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="89" EndNode="97">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="108" EndNode="111">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="112">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

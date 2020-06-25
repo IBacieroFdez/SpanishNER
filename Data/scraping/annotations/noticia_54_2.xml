@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_54_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Efe<Node id="3"/> ha tenido acceso a dicha enmienda, una más de las que registrará <Node id="69"/>mañana<Node id="75"/> para cambiar el contenido de lo que en principio fue un decreto ley aprobado en <Node id="156"/>Consejo de Ministros<Node id="176"/> el <Node id="180"/>17 de marzo<Node id="191"/>.
+<Node id="193"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="3">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="69" EndNode="75">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="156" EndNode="176">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="180" EndNode="191">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="193">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

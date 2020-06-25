@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_20_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Las <Node id="4"/>autoridades<Node id="15"/> <Node id="16"/>esrilanquesas<Node id="29"/> atribuyeron a la poco conocida formación local <Node id="77"/>NTJ<Node id="80"/> la autoría de los ataques, que reivindicó el <Node id="126"/>EI<Node id="128"/>.
+<Node id="130"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LANG" StartNode="16" EndNode="29">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="4" EndNode="15">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="77" EndNode="80">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="126" EndNode="128">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="130">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

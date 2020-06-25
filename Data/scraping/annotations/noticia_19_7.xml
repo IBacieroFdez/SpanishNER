@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_19_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Pekín<Node id="5"/>, este <Node id="12"/>lunes<Node id="17"/>, rechazó el escepticismo mostrado por la <Node id="59"/>ministra<Node id="67"/> e insistió en que ha actuado con transparencia.
+<Node id="116"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="12" EndNode="17">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="59" EndNode="67">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="116">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

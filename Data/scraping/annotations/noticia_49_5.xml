@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_49_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La producción de <Node id="17"/>11,6 millones de litros<Node id="40"/> de <Node id="44"/>gel<Node id="47"/> es la prioridad ahora de los ingenios azucareros situados en el suroriental <Node id="124"/>estado<Node id="130"/> <Node id="131"/>mexicano<Node id="139"/> de <Node id="143"/>Chiapas<Node id="150"/> para suplir el <Node id="166"/>desabastecimiento<Node id="183"/> durante la <Node id="195"/>pandemia<Node id="203"/>.
+<Node id="205"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="PRODUCT" StartNode="44" EndNode="47">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="131" EndNode="139">
+</Annotation>
+<Annotation Id="4" Type="LANG" StartNode="124" EndNode="130">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="17" EndNode="40">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="143" EndNode="150">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="195" EndNode="203">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="166" EndNode="183">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="205">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

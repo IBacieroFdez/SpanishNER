@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_32.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>mundo<Node id="8"/> se acerca a los <Node id="25"/>3 millones<Node id="35"/> de <Node id="39"/>contagios<Node id="48"/> por <Node id="53"/>coronavirus<Node id="64"/>, <Node id="66"/>un tercio<Node id="75"/> en <Node id="79"/>EEUU<Node id="83"/>
+<Node id="84"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="25" EndNode="35">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="39" EndNode="48">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="53" EndNode="64">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="66" EndNode="75">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="79" EndNode="83">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="3" EndNode="8">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="84">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

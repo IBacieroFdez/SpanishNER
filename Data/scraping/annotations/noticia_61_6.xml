@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_61_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Preguntada por si, en caso de contradicción entre los criterios de <Node id="67"/>desconfinamiento<Node id="83"/> de ambos <Node id="93"/>ejecutivos<Node id="103"/>, aceptará las instrucciones del <Node id="136"/>Estado<Node id="142"/>, <Node id="144"/>Budó<Node id="148"/> ha asegurado que la <Node id="169"/>Generalitat<Node id="180"/> quiere "trabajar de manera coordinada y consensuada con el <Node id="240"/>Gobierno<Node id="248"/> del <Node id="253"/>Estado<Node id="259"/> <Node id="260"/>español<Node id="267"/>".
+<Node id="270"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="67" EndNode="83">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="93" EndNode="103">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="136" EndNode="142">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="144" EndNode="148">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="169" EndNode="180">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="240" EndNode="248">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="253" EndNode="259">
+</Annotation>
+<Annotation Id="8" Type="LANG" StartNode="260" EndNode="267">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="270">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

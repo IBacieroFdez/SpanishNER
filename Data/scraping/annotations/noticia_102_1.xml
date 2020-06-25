@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_102_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>América<Node id="7"/> entra en el momento más álgido de la <Node id="45"/>pandemia<Node id="53"/>. <Node id="55"/>Estados Unidos<Node id="69"/> se mantiene como el foco rojo de la <Node id="106"/>enfermedad<Node id="116"/> en el <Node id="123"/>mundo<Node id="128"/>, con más de <Node id="141"/>1,3 millones<Node id="153"/> de <Node id="157"/>contagios<Node id="166"/> y <Node id="169"/>84.119<Node id="175"/> muertos. El <Node id="188"/>doctor<Node id="194"/> <Node id="195"/>Fauci<Node id="200"/>, cara visible de la divulgación de información sobre el <Node id="257"/>virus<Node id="262"/> en ese <Node id="270"/>país<Node id="274"/>, admitió que cree que las muertes son “probablemente” más que las que registran los datos oficiales. El epicentro <Node id="389"/>latinoamericano<Node id="404"/> está en <Node id="413"/>Brasil<Node id="419"/>, con <Node id="425"/>13.149<Node id="431"/> muertes y más de <Node id="449"/>180.000<Node id="456"/> <Node id="457"/>contagios<Node id="466"/>, hasta ahora, con una tasa muy baja de <Node id="506"/>test<Node id="510"/>. En <Node id="515"/>Perú<Node id="519"/>, donde ya hay <Node id="534"/>76.306<Node id="540"/> casos y <Node id="549"/>2.169<Node id="554"/> fallecidos, persisten las protestas del <Node id="595"/>personal sanitario<Node id="613"/>, que cuentan casi <Node id="632"/>200<Node id="635"/> <Node id="636"/>contagios<Node id="645"/>. <Node id="647"/>México<Node id="653"/>, con <Node id="659"/>4.220<Node id="664"/> fallecidos y <Node id="678"/>40.196<Node id="684"/> casos, planea iniciar una reactivación económica escalada a partir del <Node id="756"/>18 de mayo<Node id="766"/>. En ese <Node id="775"/>país<Node id="779"/>, se reportó el <Node id="795"/>martes<Node id="801"/> la pérdida de más de <Node id="823"/>medio millón<Node id="835"/> de empleos a causa de la <Node id="861"/>crisis<Node id="867"/>.
+<Node id="869"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="0" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="45" EndNode="53">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="55" EndNode="69">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="106" EndNode="116">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="123" EndNode="128">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="141" EndNode="153">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="157" EndNode="166">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="169" EndNode="175">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="188" EndNode="194">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="195" EndNode="200">
+</Annotation>
+<Annotation Id="11" Type="SCITERM" StartNode="257" EndNode="262">
+</Annotation>
+<Annotation Id="12" Type="LOC" StartNode="270" EndNode="274">
+</Annotation>
+<Annotation Id="13" Type="LANG" StartNode="389" EndNode="404">
+</Annotation>
+<Annotation Id="14" Type="GPE" StartNode="413" EndNode="419">
+</Annotation>
+<Annotation Id="15" Type="QUANT" StartNode="425" EndNode="431">
+</Annotation>
+<Annotation Id="16" Type="QUANT" StartNode="449" EndNode="456">
+</Annotation>
+<Annotation Id="18" Type="QUANT" StartNode="534" EndNode="540">
+</Annotation>
+<Annotation Id="19" Type="QUANT" StartNode="549" EndNode="554">
+</Annotation>
+<Annotation Id="20" Type="QUANT" StartNode="632" EndNode="635">
+</Annotation>
+<Annotation Id="21" Type="QUANT" StartNode="659" EndNode="664">
+</Annotation>
+<Annotation Id="22" Type="QUANT" StartNode="678" EndNode="684">
+</Annotation>
+<Annotation Id="23" Type="DISEASE" StartNode="457" EndNode="466">
+</Annotation>
+<Annotation Id="24" Type="SCITERM" StartNode="506" EndNode="510">
+</Annotation>
+<Annotation Id="25" Type="GPE" StartNode="515" EndNode="519">
+</Annotation>
+<Annotation Id="26" Type="JOB" StartNode="595" EndNode="613">
+</Annotation>
+<Annotation Id="27" Type="DISEASE" StartNode="636" EndNode="645">
+</Annotation>
+<Annotation Id="28" Type="GPE" StartNode="647" EndNode="653">
+</Annotation>
+<Annotation Id="29" Type="DATE" StartNode="756" EndNode="766">
+</Annotation>
+<Annotation Id="30" Type="LOC" StartNode="775" EndNode="779">
+</Annotation>
+<Annotation Id="31" Type="DATE" StartNode="795" EndNode="801">
+</Annotation>
+<Annotation Id="32" Type="QUANT" StartNode="823" EndNode="835">
+</Annotation>
+<Annotation Id="33" Type="EVENT" StartNode="861" EndNode="867">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="869">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

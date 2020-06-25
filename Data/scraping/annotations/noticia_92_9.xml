@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_92_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El sistema de <Node id="14"/>Cappelle-la-Grande<Node id="32"/> es un <Node id="39"/>laboratorio<Node id="50"/> viviente creado por la <Node id="74"/>compañía energética<Node id="93"/> <Node id="94"/>francesa<Node id="102"/> <Node id="103"/>Engie<Node id="108"/>. La <Node id="113"/>empresa<Node id="120"/> prevé un gran aumento de la <Node id="149"/>energía<Node id="156"/> basada en <Node id="167"/>hidrógeno<Node id="176"/> a medida que siga disminuyendo el coste de los <Node id="224"/>electrolizadores<Node id="240"/> y de las <Node id="250"/>energías renovables<Node id="269"/>. Si <Node id="274"/>Engie<Node id="279"/> está en lo cierto, introducir <Node id="310"/>hidrógeno<Node id="319"/> en las redes locales de distribución de <Node id="360"/>gas<Node id="363"/> podría acelerar la transición de la <Node id="400"/>energía fósil<Node id="413"/> a la limpia.
+<Node id="427"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="14" EndNode="32">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="39" EndNode="50">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="74" EndNode="93">
+</Annotation>
+<Annotation Id="4" Type="LANG" StartNode="94" EndNode="102">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="103" EndNode="108">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="113" EndNode="120">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="149" EndNode="156">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="167" EndNode="176">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="224" EndNode="240">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="250" EndNode="269">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="274" EndNode="279">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="310" EndNode="319">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="360" EndNode="363">
+</Annotation>
+<Annotation Id="14" Type="SCITERM" StartNode="400" EndNode="413">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="427">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_70_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La internacional de las <Node id="24"/>Leonas XV<Node id="33"/> y la <Node id="39"/>jugadora<Node id="47"/> que más 'caps' tiene con las <Node id="77"/>Leonas7s<Node id="85"/>, <Node id="87"/>342<Node id="90"/>, por las <Node id="100"/>323<Node id="103"/> de <Node id="107"/>Barbara Plà<Node id="118"/>, ha escogido algunos de sus <Node id="147"/>partidos<Node id="155"/> favoritos, aquellos que guarda especialmente en el recuerdo y que compartirá con todos los aficionados y aficionadas. 
+<Node id="275"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="24" EndNode="33">
+</Annotation>
+<Annotation Id="5" Type="SPORT" StartNode="39" EndNode="47">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="77" EndNode="85">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="87" EndNode="90">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="100" EndNode="103">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="107" EndNode="118">
+</Annotation>
+<Annotation Id="10" Type="EVENT" StartNode="147" EndNode="155">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="275">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

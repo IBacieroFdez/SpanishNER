@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_56_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En una <Node id="7"/>conferencia<Node id="18"/> de prensa telemática sobre la evolución de la <Node id="65"/>pandemia<Node id="73"/> del <Node id="78"/>coronavirus<Node id="89"/>, <Node id="91"/>Núñez Feijóo<Node id="103"/> ha confiado en que el <Node id="126"/>presidente<Node id="136"/> del <Node id="141"/>Gobierno<Node id="149"/>, <Node id="151"/>Pedro Sánchez<Node id="164"/>, ponga "de su parte" en la anunciada comisión de reconstrucción para buscar "entre todos respuestas a la multitud de problemas de <Node id="295"/>España<Node id="301"/>".
+<Node id="304"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="7" EndNode="18">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="65" EndNode="73">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="78" EndNode="89">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="91" EndNode="103">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="126" EndNode="136">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="141" EndNode="149">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="151" EndNode="164">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="295" EndNode="301">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="304">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

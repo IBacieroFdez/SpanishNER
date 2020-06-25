@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_3_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Díaz Ayuso<Node id="10"/> ha precisado durante una visita a la <Node id="48"/>sede<Node id="52"/> de la <Node id="59"/>Agencia de Seguridad y Emergencias Madrid 112<Node id="104"/>, en <Node id="109"/>Pozuelo de Alarcón<Node id="127"/>, que la compra de la primera partida se aprobará <Node id="177"/>este miércoles<Node id="191"/> en el <Node id="198"/>Consejo de Gobierno<Node id="217"/>.
+<Node id="219"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="48" EndNode="52">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="59" EndNode="104">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="109" EndNode="127">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="177" EndNode="191">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="198" EndNode="217">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="219">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

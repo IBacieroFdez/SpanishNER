@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_35_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Jaen Birkin<Node id="11"/> posa en el mítico <Node id="30"/>coche<Node id="35"/> de la <Node id="42"/>casa<Node id="46"/> <Node id="47"/>Citroën<Node id="54"/>.
+	   
+<Node id="61"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="11">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="30" EndNode="35">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="42" EndNode="46">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="47" EndNode="54">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="61">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

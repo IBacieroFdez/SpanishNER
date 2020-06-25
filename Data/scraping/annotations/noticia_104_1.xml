@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_104_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Blue Origin<Node id="11"/>, el equipo espacial de <Node id="35"/>Jeff Bezos<Node id="45"/>; <Node id="47"/>Dynetics<Node id="55"/>, una subsidiaria de <Node id="76"/>Leidos<Node id="82"/>, <Node id="84"/>empresa<Node id="91"/> de tecnología de la información con <Node id="128"/>sede<Node id="132"/> en <Node id="136"/>Reston<Node id="142"/>, <Node id="144"/>Virginia<Node id="152"/>; y <Node id="156"/>SpaceX<Node id="162"/> de <Node id="166"/>Elon Musk<Node id="175"/> ganaron los contratos, dando a la <Node id="210"/>NASA<Node id="214"/> tres opciones que competirían entre sí mientras la <Node id="266"/>agencia<Node id="273"/> <Node id="274"/>estadounidense<Node id="288"/> busca cumplir un ambicioso proyecto de la <Node id="331"/>Casa Blanca<Node id="342"/> de ubicar humanos en la <Node id="367"/>Luna<Node id="371"/> en el <Node id="378"/>año 2024<Node id="386"/>.
+<Node id="388"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="35" EndNode="45">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="47" EndNode="55">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="76" EndNode="82">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="84" EndNode="91">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="128" EndNode="132">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="136" EndNode="142">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="144" EndNode="152">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="156" EndNode="162">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="166" EndNode="175">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="210" EndNode="214">
+</Annotation>
+<Annotation Id="13" Type="ORG" StartNode="266" EndNode="273">
+</Annotation>
+<Annotation Id="14" Type="LANG" StartNode="274" EndNode="288">
+</Annotation>
+<Annotation Id="15" Type="LOC" StartNode="331" EndNode="342">
+</Annotation>
+<Annotation Id="16" Type="LOC" StartNode="367" EndNode="371">
+</Annotation>
+<Annotation Id="17" Type="DATE" StartNode="378" EndNode="386">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="388">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

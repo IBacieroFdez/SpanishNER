@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_103_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>condado<Node id="10"/> de <Node id="14"/>Alameda<Node id="21"/>, en <Node id="26"/>California<Node id="36"/>, es donde se encuentra una de las <Node id="71"/>fábrica<Node id="78"/> de <Node id="82"/>Tesla<Node id="87"/>. En <Node id="92"/>Fremont<Node id="99"/>, para ser exactos. Debido a la <Node id="131"/>pandemia<Node id="139"/> del <Node id="144"/>coronavirus<Node id="155"/>, <Node id="157"/>Alameda<Node id="164"/> (y gran parte de la <Node id="185"/>zona<Node id="189"/> de la <Node id="196"/>Bahía<Node id="201"/> de <Node id="205"/>San Francisco<Node id="218"/>) se encuentra en <Node id="236"/>cuarentena<Node id="246"/> y, si bien se esperaba que el <Node id="277"/>confinamiento<Node id="290"/> acabase el <Node id="302"/>3 de mayo<Node id="311"/>, este ha sido extendido hasta finales de <Node id="353"/>mes<Node id="356"/>. Eso significa que los <Node id="380"/>trabajadores<Node id="392"/> de <Node id="396"/>Tesla<Node id="401"/> no pueden volver a trabajar a la <Node id="435"/>fábrica<Node id="442"/> de <Node id="446"/>Fremont<Node id="453"/> hasta entonces, pero a <Node id="477"/>Elon Musk<Node id="486"/>, <Node id="488"/>CEO<Node id="491"/> de <Node id="495"/>Tesla<Node id="500"/> y <Node id="503"/>SpaceX<Node id="509"/>, no le parece bien y ha ordenado reabrir la <Node id="554"/>planta<Node id="560"/>.
+<Node id="562"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="3" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="14" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="26" EndNode="36">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="71" EndNode="78">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="82" EndNode="87">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="92" EndNode="99">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="131" EndNode="139">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="144" EndNode="155">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="157" EndNode="164">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="185" EndNode="189">
+</Annotation>
+<Annotation Id="11" Type="LOC" StartNode="196" EndNode="201">
+</Annotation>
+<Annotation Id="12" Type="GPE" StartNode="205" EndNode="218">
+</Annotation>
+<Annotation Id="13" Type="EVENT" StartNode="236" EndNode="246">
+</Annotation>
+<Annotation Id="14" Type="EVENT" StartNode="277" EndNode="290">
+</Annotation>
+<Annotation Id="15" Type="DATE" StartNode="302" EndNode="311">
+</Annotation>
+<Annotation Id="16" Type="TIME" StartNode="353" EndNode="356">
+</Annotation>
+<Annotation Id="17" Type="JOB" StartNode="380" EndNode="392">
+</Annotation>
+<Annotation Id="18" Type="ORG" StartNode="396" EndNode="401">
+</Annotation>
+<Annotation Id="19" Type="FAC" StartNode="435" EndNode="442">
+</Annotation>
+<Annotation Id="20" Type="GPE" StartNode="446" EndNode="453">
+</Annotation>
+<Annotation Id="21" Type="PER" StartNode="477" EndNode="486">
+</Annotation>
+<Annotation Id="22" Type="JOB" StartNode="488" EndNode="491">
+</Annotation>
+<Annotation Id="23" Type="ORG" StartNode="495" EndNode="500">
+</Annotation>
+<Annotation Id="24" Type="ORG" StartNode="503" EndNode="509">
+</Annotation>
+<Annotation Id="25" Type="FAC" StartNode="554" EndNode="560">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="562">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

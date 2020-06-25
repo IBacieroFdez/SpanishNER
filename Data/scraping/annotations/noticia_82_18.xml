@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_82_18.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>2019-nCoV<Node id="12"/> es tan nuevo y diferente que es necesario desarrollar una <Node id="71"/>vacuna<Node id="77"/> específica, en la que ya se está trabajando con el apoyo de la <Node id="141"/>OMS<Node id="144"/>.
+<Node id="146"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="3" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="DRUG" StartNode="71" EndNode="77">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="141" EndNode="144">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="146">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

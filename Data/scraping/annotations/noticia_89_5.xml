@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_89_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xd;
+	 <Node id="4"/>"Si aprovechamos la respuesta al <Node id="37"/>placebo<Node id="44"/> para mejorar  los beneficios de los <Node id="81"/>tratamientos<Node id="93"/>, podríamos reducir las <Node id="117"/>dosis<Node id="122"/> y,  posiblemente, los <Node id="145"/>efectos secundarios<Node id="164"/>", indica <Node id="174"/>Espay<Node id="179"/>.&#xd;
+<Node id="182"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="37" EndNode="44">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="81" EndNode="93">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="117" EndNode="122">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="145" EndNode="164">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="174" EndNode="179">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="4" EndNode="182">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

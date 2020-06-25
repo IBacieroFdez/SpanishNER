@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_17_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>No es la <Node id="9"/>primera vez<Node id="20"/> que se especula con el <Node id="44"/>estado de salud<Node id="59"/> de los <Node id="67"/>líderes<Node id="74"/> del <Node id="79"/>régimen<Node id="86"/> <Node id="87"/>norcoreano<Node id="97"/> ante el tradicional secretismo y fascinación que rodea a la familia <Node id="166"/>Kim<Node id="169"/>.
+<Node id="171"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="9" EndNode="20">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="44" EndNode="59">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="67" EndNode="74">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="79" EndNode="86">
+</Annotation>
+<Annotation Id="11" Type="LANG" StartNode="87" EndNode="97">
+</Annotation>
+<Annotation Id="12" Type="PER" StartNode="166" EndNode="169">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="171">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_104_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>De todas maneras, afirmó que el anuncio de los contratos para los <Node id="66"/>vehículos<Node id="75"/> de alunizaje- los <Node id="94"/>primeros<Node id="102"/> contratos de <Node id="116"/>naves<Node id="121"/> lunares que la <Node id="137"/>NASA<Node id="141"/> ha otorgado desde la <Node id="163"/>era<Node id="166"/> Apolo de los <Node id="180"/>años<Node id="184"/> <Node id="185"/>60<Node id="187"/> - es un paso significativo para llevar rápidamente a las <Node id="245"/>tripulaciones<Node id="258"/> <Node id="259"/>estadounidenses<Node id="274"/> a la <Node id="280"/>Luna<Node id="284"/> y continuar trabajando en lo que la <Node id="321"/>NASA<Node id="325"/> espera que se convierta en una presencia permanente en la superficie lunar.
+<Node id="402"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="66" EndNode="75">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="137" EndNode="141">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="94" EndNode="102">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="116" EndNode="121">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="163" EndNode="166">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="185" EndNode="187">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="180" EndNode="184">
+</Annotation>
+<Annotation Id="8" Type="LANG" StartNode="259" EndNode="274">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="245" EndNode="258">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="280" EndNode="284">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="321" EndNode="325">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="402">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

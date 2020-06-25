@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_73_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En plena <Node id="9"/>pandemia<Node id="17"/> del <Node id="22"/>virus<Node id="27"/> ha decidido hacer un <Node id="49"/>reto<Node id="53"/> y el próximo <Node id="67"/>25 de abril<Node id="78"/> intentará completar un <Node id="102"/>Medio<Node id="107"/> <Node id="108"/>Ironman<Node id="115"/> solidario desde su <Node id="135"/>casa<Node id="139"/> para recaudar fondos y ayudar a los <Node id="176"/>sanitarios<Node id="186"/> que combaten la <Node id="203"/>Covid-19<Node id="211"/>.
+<Node id="213"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="9" EndNode="17">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="22" EndNode="27">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="49" EndNode="53">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="67" EndNode="78">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="102" EndNode="107">
+</Annotation>
+<Annotation Id="6" Type="SPORT" StartNode="108" EndNode="115">
+</Annotation>
+<Annotation Id="7" Type="LANG" StartNode="135" EndNode="139">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="176" EndNode="186">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="203" EndNode="211">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="213">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

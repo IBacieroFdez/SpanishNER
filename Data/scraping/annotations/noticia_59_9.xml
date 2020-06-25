@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_59_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La investigación se desarrolló cuando los <Node id="42"/>agentes<Node id="49"/> trabajaban sobre la posibilidad de que este terrorista tuviese la intención de retornar a <Node id="140"/>Europa<Node id="146"/> a través de <Node id="159"/>España<Node id="165"/>, por lo que se activaron diversas líneas de investigación para averiguar su posible llegada clandestina al <Node id="273"/>país<Node id="277"/> y localizar el <Node id="293"/>lugar<Node id="298"/> escogido para ocultarse.
+<Node id="324"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="42" EndNode="49">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="140" EndNode="146">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="159" EndNode="165">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="273" EndNode="277">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="293" EndNode="298">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="324">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

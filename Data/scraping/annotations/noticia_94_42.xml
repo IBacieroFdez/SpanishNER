@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_42.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Una <Node id="4"/>alarma<Node id="10"/> entre la <Node id="20"/>población<Node id="29"/> en <Node id="33"/>República Checa<Node id="48"/> inició luego de que <Node id="69"/>medios de comunicación<Node id="91"/> locales reportaron que hasta <Node id="121"/>80%<Node id="124"/> de los <Node id="132"/>kits<Node id="136"/> de <Node id="140"/>diagnóstico<Node id="151"/> rápido enviados desde <Node id="174"/>China<Node id="179"/> tenían problemas.
+<Node id="198"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="4" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="20" EndNode="29">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="33" EndNode="48">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="69" EndNode="91">
+</Annotation>
+<Annotation Id="5" Type="PERCENT" StartNode="121" EndNode="124">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="132" EndNode="136">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="140" EndNode="151">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="174" EndNode="179">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="198">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_58_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En una entrevista en <Node id="21"/>RNE<Node id="24"/>, ha considerado que la <Node id="48"/>presidencia<Node id="59"/> para el <Node id="68"/>PP<Node id="70"/> forma parte de los "equilibrios razonables" entre el <Node id="124"/>Gobierno<Node id="132"/> y la <Node id="138"/>oposición<Node id="147"/>, de la que el <Node id="162"/>PP<Node id="164"/> es el principal <Node id="181"/>partido<Node id="188"/>, y es una "opción razonable y sensata" que tiene previsto plantear esta tarde en la <Node id="273"/>reunión<Node id="280"/> de la <Node id="287"/>Junta de Portavoces<Node id="306"/>.
+<Node id="308"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="21" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="48" EndNode="59">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="68" EndNode="70">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="124" EndNode="132">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="138" EndNode="147">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="162" EndNode="164">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="181" EndNode="188">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="287" EndNode="306">
+</Annotation>
+<Annotation Id="9" Type="EVENT" StartNode="273" EndNode="280">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="308">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_90_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El HeH+ ha pasado a engrosar las filas de las <Node id="46"/>moléculas<Node id="55"/> <Node id="56"/>extraterrestres<Node id="71"/>. Los <Node id="77"/>científicos<Node id="88"/> ya han detectado más de <Node id="113"/>200<Node id="116"/> <Node id="117"/>especies<Node id="125"/> <Node id="126"/>moleculares<Node id="137"/> en el <Node id="144"/>espacio<Node id="151"/>. El estudio de la <Node id="170"/>química<Node id="177"/> más allá de nuestro <Node id="198"/>planeta<Node id="205"/>, o <Node id="209"/>astroquímica<Node id="221"/>, pretende dilucidar qué <Node id="246"/>moléculas<Node id="255"/> existen en el <Node id="270"/>espacio<Node id="277"/>, cómo se forman y las implicaciones de su <Node id="320"/>evolución<Node id="329"/> para la <Node id="338"/>astrofísica<Node id="349"/> observacional y teórica. Muchas de las <Node id="389"/>astromoléculas<Node id="403"/> que conocemos, como el <Node id="427"/>agua<Node id="431"/>, el <Node id="436"/>amoníaco<Node id="444"/> y el <Node id="450"/>formaldehído<Node id="462"/>, son comunes aquí en la <Node id="487"/>Tierra<Node id="493"/>. Pero otras nos resultan extrañas, como el <Node id="537"/>ácido clorhídrico<Node id="554"/> con un <Node id="562"/>protón<Node id="568"/> adicional o el <Node id="584"/>peróxido de hidrógeno<Node id="605"/> sin uno de sus <Node id="621"/>átomos<Node id="627"/> de <Node id="631"/>hidrógeno<Node id="640"/>. También se han observado <Node id="667"/>moléculas<Node id="676"/> cargadas, sistemas con <Node id="700"/>electrones<Node id="710"/> desapareados y configuraciones extrañas de <Node id="754"/>átomos<Node id="760"/> en <Node id="764"/>moléculas<Node id="773"/> por lo demás corrientes. Y hemos visto incluso <Node id="821"/>compuestos<Node id="831"/> en los que participan los llamados gases nobles inertes, como el ArH+ (una combinación de <Node id="922"/>argón<Node id="927"/> e <Node id="930"/>hidrógeno<Node id="939"/>) o el recientemente registrado HeH+.
+<Node id="977"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="46" EndNode="55">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="56" EndNode="71">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="77" EndNode="88">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="113" EndNode="116">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="117" EndNode="125">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="126" EndNode="137">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="144" EndNode="151">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="170" EndNode="177">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="198" EndNode="205">
+</Annotation>
+<Annotation Id="11" Type="SCITERM" StartNode="209" EndNode="221">
+</Annotation>
+<Annotation Id="13" Type="SCITERM" StartNode="246" EndNode="255">
+</Annotation>
+<Annotation Id="14" Type="LOC" StartNode="270" EndNode="277">
+</Annotation>
+<Annotation Id="15" Type="SCITERM" StartNode="320" EndNode="329">
+</Annotation>
+<Annotation Id="16" Type="SCITERM" StartNode="338" EndNode="349">
+</Annotation>
+<Annotation Id="17" Type="SCITERM" StartNode="389" EndNode="403">
+</Annotation>
+<Annotation Id="18" Type="PRODUCT" StartNode="427" EndNode="431">
+</Annotation>
+<Annotation Id="19" Type="SCITERM" StartNode="450" EndNode="462">
+</Annotation>
+<Annotation Id="20" Type="SCITERM" StartNode="436" EndNode="444">
+</Annotation>
+<Annotation Id="21" Type="LOC" StartNode="487" EndNode="493">
+</Annotation>
+<Annotation Id="22" Type="SCITERM" StartNode="537" EndNode="554">
+</Annotation>
+<Annotation Id="23" Type="SCITERM" StartNode="562" EndNode="568">
+</Annotation>
+<Annotation Id="24" Type="SCITERM" StartNode="584" EndNode="605">
+</Annotation>
+<Annotation Id="25" Type="SCITERM" StartNode="621" EndNode="627">
+</Annotation>
+<Annotation Id="26" Type="PRODUCT" StartNode="631" EndNode="640">
+</Annotation>
+<Annotation Id="27" Type="SCITERM" StartNode="667" EndNode="676">
+</Annotation>
+<Annotation Id="28" Type="SCITERM" StartNode="700" EndNode="710">
+</Annotation>
+<Annotation Id="30" Type="SCITERM" StartNode="754" EndNode="760">
+</Annotation>
+<Annotation Id="31" Type="SCITERM" StartNode="764" EndNode="773">
+</Annotation>
+<Annotation Id="32" Type="SCITERM" StartNode="821" EndNode="831">
+</Annotation>
+<Annotation Id="33" Type="PRODUCT" StartNode="922" EndNode="927">
+</Annotation>
+<Annotation Id="34" Type="PRODUCT" StartNode="930" EndNode="939">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="977">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

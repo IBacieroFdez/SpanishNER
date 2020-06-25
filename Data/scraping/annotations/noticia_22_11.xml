@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_22_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Frente a la disminución global, <Node id="32"/>Oriente Medio<Node id="45"/> y el <Node id="51"/>Norte de África<Node id="66"/> registró una subida del <Node id="91"/>16 %<Node id="95"/> en el <Node id="102"/>número<Node id="108"/> de ejecuciones, al pasar de <Node id="137"/>501<Node id="140"/> a <Node id="143"/>579<Node id="146"/>, principalmente por el aumento de las <Node id="185"/>cifras<Node id="191"/> en <Node id="195"/>Irak<Node id="199"/> (<Node id="201"/>92 %<Node id="205"/> más que en <Node id="217"/>2018<Node id="221"/>) y <Node id="225"/>Arabia Saudí<Node id="237"/> (<Node id="239"/>23 %<Node id="243"/>).
+<Node id="246"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="32" EndNode="45">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="51" EndNode="66">
+</Annotation>
+<Annotation Id="3" Type="PERCENT" StartNode="91" EndNode="95">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="102" EndNode="108">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="137" EndNode="140">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="143" EndNode="146">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="185" EndNode="191">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="195" EndNode="199">
+</Annotation>
+<Annotation Id="9" Type="PERCENT" StartNode="201" EndNode="205">
+</Annotation>
+<Annotation Id="10" Type="DATE" StartNode="217" EndNode="221">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="225" EndNode="237">
+</Annotation>
+<Annotation Id="12" Type="PERCENT" StartNode="239" EndNode="243">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="246">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

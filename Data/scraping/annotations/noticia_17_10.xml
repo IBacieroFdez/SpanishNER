@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_17_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En 2014<Node id="7"/>, <Node id="9"/>Kim Jong-un<Node id="20"/> (que ha ganado abundante peso <Node id="51"/>con los años<Node id="63"/> y que carga con un historial familiar de <Node id="105"/>problemas coronarios<Node id="125"/>) estuvo ausente de los focos unos <Node id="160"/>40 días<Node id="167"/> generando todo tipo de conjeturas antes de reaparecer cojeando (la inteligencia <Node id="248"/>surcoreana<Node id="258"/> aseguró finalmente que se <Node id="285"/>operó<Node id="290"/> de un <Node id="297"/>tobillo<Node id="304"/>).
+<Node id="307"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="0" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="9" EndNode="20">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="51" EndNode="63">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="105" EndNode="125">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="160" EndNode="167">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="248" EndNode="258">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="297" EndNode="304">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="285" EndNode="290">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="307">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

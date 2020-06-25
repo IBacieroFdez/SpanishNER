@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_22_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Apenas <Node id="7"/>una veintena<Node id="19"/> de <Node id="23"/>países<Node id="29"/> llevaron a cabo todas las ejecuciones ocurridas en <Node id="81"/>2019<Node id="85"/>, de acuerdo con la <Node id="105"/>organización<Node id="117"/>.
+<Node id="119"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="7" EndNode="19">
+</Annotation>
+<Annotation Id="12" Type="LOC" StartNode="23" EndNode="29">
+</Annotation>
+<Annotation Id="13" Type="DATE" StartNode="81" EndNode="85">
+</Annotation>
+<Annotation Id="14" Type="ORG" StartNode="105" EndNode="117">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="119">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

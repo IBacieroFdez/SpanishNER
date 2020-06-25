@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_30_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>UE<Node id="5"/> continuó como principal destino, con unas cifras de ventas de <Node id="68"/>14.970 millones de euros<Node id="92"/>, lo que representa una cuota de mercado del <Node id="137"/>72,1 %<Node id="143"/> sobre la cifra global, pese a que las ventas descendieron allí un <Node id="210"/>1,9 %<Node id="215"/> respecto a <Node id="227"/>2018<Node id="231"/>.
+<Node id="233"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="3" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="MONEY" StartNode="68" EndNode="92">
+</Annotation>
+<Annotation Id="3" Type="PERCENT" StartNode="137" EndNode="143">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="210" EndNode="215">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="227" EndNode="231">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="233">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_74_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El gigante aeronáutico <Node id="23"/>Boeing<Node id="29"/> va a comenzar a ofrecer entre su <Node id="63"/>plantilla<Node id="72"/> jubilaciones anticipadas y salidas incentivadas ante el impacto que la <Node id="144"/>crisis<Node id="150"/> del <Node id="155"/>coronavirus<Node id="166"/> está teniendo en el <Node id="187"/>sector<Node id="193"/>, según un mensaje a los <Node id="218"/>empleados<Node id="227"/> al que tuvieron acceso varios medios <Node id="265"/>estadounidenses<Node id="280"/>. 
+<Node id="283"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="23" EndNode="29">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="63" EndNode="72">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="144" EndNode="150">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="155" EndNode="166">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="187" EndNode="193">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="218" EndNode="227">
+</Annotation>
+<Annotation Id="7" Type="LANG" StartNode="265" EndNode="280">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="283">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_50_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Intel<Node id="5"/> también colabora con la <Node id="30"/>Asociación Nacional de Empresas de Software y Servicios<Node id="85"/> de la <Node id="92"/>India<Node id="97"/> para construir un ecosistema de <Node id="130"/>aplicaciones<Node id="142"/> y un "back end" multi-nube que permita realizar <Node id="191"/>diagnósticos<Node id="203"/> de <Node id="207"/>COVID-19<Node id="215"/> a escala poblacional, predecir <Node id="247"/>brotes<Node id="253"/> y mejorar la gestión y administración de la <Node id="298"/>atención médica<Node id="313"/>.
+<Node id="315"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="MEDTERM" StartNode="298" EndNode="313">
+</Annotation>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="30" EndNode="85">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="92" EndNode="97">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="130" EndNode="142">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="191" EndNode="203">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="207" EndNode="215">
+</Annotation>
+<Annotation Id="15" Type="DISEASE" StartNode="247" EndNode="253">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="315">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

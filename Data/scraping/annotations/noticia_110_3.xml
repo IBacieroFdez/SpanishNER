@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/nolotil_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Este <Node id="5"/>medicamento<Node id="16"/> debe administrarse por vía <Node id="44"/>oral<Node id="48"/>. Las <Node id="54"/>cápsulas<Node id="62"/> deben ingerirse enteras, sin masticar, con ayuda de un poco de <Node id="126"/>líquido<Node id="133"/>. La <Node id="138"/>dosis<Node id="143"/> se establece en función de la intensidad del <Node id="189"/>dolor<Node id="194"/> o la <Node id="200"/>fiebre<Node id="206"/> y de la sensibilidad de cada persona al <Node id="247"/>tratamiento<Node id="258"/> con <Node id="263"/>Nolotil<Node id="270"/>. Siempre se debe seleccionar la <Node id="303"/>dosis<Node id="308"/> más baja necesaria para controlar el <Node id="346"/>dolor<Node id="351"/> y la <Node id="357"/>fiebre<Node id="363"/>. Su <Node id="368"/>médico<Node id="374"/> le indicará cómo debe tomar <Node id="403"/>Nolotil<Node id="410"/>. La <Node id="415"/>dosis<Node id="420"/> máxima diaria es de <Node id="441"/>3.450<Node id="446"/> mg (correspondiente a <Node id="469"/>6<Node id="470"/> cápsulas). El efecto del <Node id="496"/>medicamento<Node id="507"/> suele aparecer entre los <Node id="533"/>30<Node id="535"/> y <Node id="538"/>60 minutos<Node id="548"/> después de la administración <Node id="578"/>oral<Node id="582"/>. 
+<Node id="585"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="5" EndNode="16">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="44" EndNode="48">
+</Annotation>
+<Annotation Id="3" Type="DRUG" StartNode="54" EndNode="62">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="126" EndNode="133">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="138" EndNode="143">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="200" EndNode="206">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="189" EndNode="194">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="247" EndNode="258">
+</Annotation>
+<Annotation Id="9" Type="DRUG" StartNode="263" EndNode="270">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="303" EndNode="308">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="346" EndNode="351">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="357" EndNode="363">
+</Annotation>
+<Annotation Id="13" Type="JOB" StartNode="368" EndNode="374">
+</Annotation>
+<Annotation Id="14" Type="DRUG" StartNode="403" EndNode="410">
+</Annotation>
+<Annotation Id="15" Type="SCITERM" StartNode="415" EndNode="420">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="585">
+</Annotation>
+<Annotation Id="16" Type="QUANT" StartNode="441" EndNode="446">
+</Annotation>
+<Annotation Id="17" Type="QUANT" StartNode="469" EndNode="470">
+</Annotation>
+<Annotation Id="18" Type="QUANT" StartNode="533" EndNode="535">
+</Annotation>
+<Annotation Id="19" Type="TIME" StartNode="538" EndNode="548">
+</Annotation>
+<Annotation Id="20" Type="MEDTERM" StartNode="578" EndNode="582">
+</Annotation>
+<Annotation Id="21" Type="DRUG" StartNode="496" EndNode="507">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

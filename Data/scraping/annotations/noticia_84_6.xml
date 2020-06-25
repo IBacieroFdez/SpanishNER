@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_84_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Las <Node id="4"/>gallinas<Node id="12"/> ya padecían la <Node id="28"/>enfermedad<Node id="38"/> cuando <Node id="46"/>Yoshihiro Kawaoka<Node id="63"/> llegó a <Node id="72"/>EE.UU.<Node id="78"/>, en <Node id="83"/>agosto de 1983<Node id="97"/>. Pocos <Node id="105"/>meses<Node id="110"/> <Node id="111"/>antes<Node id="116"/>, en <Node id="121"/>abril<Node id="126"/>, un <Node id="131"/>virus<Node id="136"/> de la <Node id="143"/>gripe aviar<Node id="154"/> había aparecido en las <Node id="178"/>granjas<Node id="185"/> avícolas del <Node id="199"/>este<Node id="203"/> de <Node id="207"/>Pensilvania<Node id="218"/>, pero los <Node id="229"/>veterinarios<Node id="241"/> lo habían considerado de baja <Node id="272"/>patogenicidad<Node id="285"/>, es decir, hacía enfermar a las <Node id="318"/>aves<Node id="322"/> pero apenas mataba a algunas de ellas. Sin embargo, mientras el <Node id="387"/>virus<Node id="392"/> se extendía por las <Node id="413"/>granjas<Node id="420"/> avícolas, se formó una <Node id="444"/>cepa<Node id="448"/> nueva. Las <Node id="460"/>gallinas<Node id="468"/> empezaron a morir en grandes cantidades y los <Node id="515"/>granjeros<Node id="524"/> comenzaron a temer por su medio de vida. El <Node id="569"/>estado<Node id="575"/> llamó al <Node id="585"/>Departamento de Agricultura<Node id="612"/> de <Node id="616"/>EE.UU.<Node id="622"/>, que estableció un centro de mando y control temporal en un centro comercial a las afueras de <Node id="717"/>Lancaster<Node id="726"/>. Con el fin de contener la <Node id="754"/>epidemia<Node id="762"/>, se sacrificaron <Node id="780"/>17 millones<Node id="791"/> de <Node id="795"/>aves<Node id="799"/> desde <Node id="806"/>Pensilvania<Node id="817"/> hasta <Node id="824"/>Virginia<Node id="832"/>.
+<Node id="834"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="4" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="28" EndNode="38">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="46" EndNode="63">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="72" EndNode="78">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="83" EndNode="97">
+</Annotation>
+<Annotation Id="8" Type="TIME" StartNode="105" EndNode="110">
+</Annotation>
+<Annotation Id="9" Type="TIME" StartNode="111" EndNode="116">
+</Annotation>
+<Annotation Id="10" Type="DATE" StartNode="121" EndNode="126">
+</Annotation>
+<Annotation Id="11" Type="SCITERM" StartNode="131" EndNode="136">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="143" EndNode="154">
+</Annotation>
+<Annotation Id="13" Type="LOC" StartNode="178" EndNode="185">
+</Annotation>
+<Annotation Id="14" Type="LOC" StartNode="199" EndNode="203">
+</Annotation>
+<Annotation Id="15" Type="GPE" StartNode="207" EndNode="218">
+</Annotation>
+<Annotation Id="16" Type="JOB" StartNode="229" EndNode="241">
+</Annotation>
+<Annotation Id="17" Type="SCITERM" StartNode="272" EndNode="285">
+</Annotation>
+<Annotation Id="18" Type="PRODUCT" StartNode="318" EndNode="322">
+</Annotation>
+<Annotation Id="19" Type="SCITERM" StartNode="387" EndNode="392">
+</Annotation>
+<Annotation Id="21" Type="LOC" StartNode="413" EndNode="420">
+</Annotation>
+<Annotation Id="22" Type="SCITERM" StartNode="444" EndNode="448">
+</Annotation>
+<Annotation Id="23" Type="PRODUCT" StartNode="460" EndNode="468">
+</Annotation>
+<Annotation Id="24" Type="JOB" StartNode="515" EndNode="524">
+</Annotation>
+<Annotation Id="25" Type="ORG" StartNode="569" EndNode="575">
+</Annotation>
+<Annotation Id="26" Type="ORG" StartNode="585" EndNode="612">
+</Annotation>
+<Annotation Id="27" Type="GPE" StartNode="616" EndNode="622">
+</Annotation>
+<Annotation Id="28" Type="GPE" StartNode="717" EndNode="726">
+</Annotation>
+<Annotation Id="29" Type="DISEASE" StartNode="754" EndNode="762">
+</Annotation>
+<Annotation Id="30" Type="QUANT" StartNode="780" EndNode="791">
+</Annotation>
+<Annotation Id="31" Type="PRODUCT" StartNode="795" EndNode="799">
+</Annotation>
+<Annotation Id="32" Type="GPE" StartNode="806" EndNode="817">
+</Annotation>
+<Annotation Id="33" Type="GPE" StartNode="824" EndNode="832">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="834">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_20_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Pero, a su pesar, se han visto obligados a rendir homenaje sin grandes <Node id="71"/>actos solemnes<Node id="85"/> ni el abrazo de la <Node id="105"/>comunidad<Node id="114"/>, fruto de las restricciones impuestas para frenar la expansión del <Node id="182"/>coronavirus<Node id="193"/> en un <Node id="200"/>país<Node id="204"/> que cuenta con unos <Node id="225"/>240<Node id="228"/> casos y <Node id="237"/>siete<Node id="242"/> fallecidos.
+<Node id="255"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="71" EndNode="85">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="105" EndNode="114">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="182" EndNode="193">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="200" EndNode="204">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="225" EndNode="228">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="237" EndNode="242">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="255">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

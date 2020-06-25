@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_29_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Además, el <Node id="11"/>Grupo BMW<Node id="20"/> ha reestructurado sus cadenas de suministro para poder abastecer a los <Node id="92"/>dos<Node id="95"/> <Node id="96"/>fabricantes<Node id="107"/> de la próxima <Node id="122"/>quinta<Node id="128"/> generación de <Node id="143"/>celdas de batería<Node id="160"/>, las <Node id="166"/>compañías<Node id="175"/> <Node id="176"/>china<Node id="181"/> <Node id="182"/>CATL<Node id="186"/> y la <Node id="192"/>surcoreana<Node id="202"/> <Node id="203"/>Samsung<Node id="210"/> <Node id="211"/>SDI<Node id="214"/>. 
+<Node id="217"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="11" EndNode="20">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="92" EndNode="95">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="96" EndNode="107">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="122" EndNode="128">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="143" EndNode="160">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="166" EndNode="175">
+</Annotation>
+<Annotation Id="8" Type="LANG" StartNode="176" EndNode="181">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="182" EndNode="186">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="203" EndNode="210">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="211" EndNode="214">
+</Annotation>
+<Annotation Id="12" Type="LANG" StartNode="192" EndNode="202">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="217">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

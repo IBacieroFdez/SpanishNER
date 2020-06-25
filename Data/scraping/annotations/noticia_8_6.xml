@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_8_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Y aunque aún faltan <Node id="20"/>dos<Node id="23"/> meses <Node id="30"/>y medio<Node id="37"/> para el<Node id="45"/> 6 de julio<Node id="56"/>, ha señalado que “parece evidente, y creo que ese es el sentir de la opinión pública, que nuestras queridas <Node id="165"/>fiestas<Node id="172"/> están muy reñidas con el <Node id="198"/>coronavirus<Node id="209"/>”,  por lo que el <Node id="227"/>Consistorio<Node id="238"/>, en consenso con todos los <Node id="266"/>grupos municipales<Node id="284"/>, ha adoptado esta decisión.
+<Node id="313"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="20" EndNode="37">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="45" EndNode="56">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="20" EndNode="23">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="30" EndNode="37">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="165" EndNode="172">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="198" EndNode="209">
+</Annotation>
+<Annotation Id="7" Type="FAC" StartNode="227" EndNode="238">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="266" EndNode="284">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="313">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

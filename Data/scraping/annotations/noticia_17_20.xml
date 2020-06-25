@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_17_20.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"No me sorprendería que <Node id="24"/>ahora mismo<Node id="35"/> <Node id="36"/>Kim<Node id="39"/> estuviese en un lugar de retiro", indicó <Node id="81"/>Shim<Node id="85"/>, añadiendo que el <Node id="104"/>coronavirus<Node id="115"/> "es un factor creíble" a la hora de justificar las últimas ausencias públicas del <Node id="198"/>dictador<Node id="206"/>.
+<Node id="208"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="36" EndNode="39">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="24" EndNode="35">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="81" EndNode="85">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="104" EndNode="115">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="198" EndNode="206">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="208">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

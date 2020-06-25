@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_101_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>Real Madrid<Node id="14"/> se entrenó este <Node id="31"/>martes<Node id="37"/> por <Node id="42"/>segundo<Node id="49"/> <Node id="50"/>día<Node id="53"/> en la <Node id="60"/>ciudad deportiva<Node id="76"/> de <Node id="80"/>Valdebebas<Node id="90"/> con vistas a la vuelta a la <Node id="119"/>competición<Node id="130"/> el próximo <Node id="142"/>mes<Node id="145"/> de <Node id="149"/>junio<Node id="154"/>.
+<Node id="156"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="31" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="42" EndNode="49">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="50" EndNode="53">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="60" EndNode="76">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="80" EndNode="90">
+</Annotation>
+<Annotation Id="7" Type="SPORT" StartNode="119" EndNode="130">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="142" EndNode="145">
+</Annotation>
+<Annotation Id="9" Type="DATE" StartNode="149" EndNode="154">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="156">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

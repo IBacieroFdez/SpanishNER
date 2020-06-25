@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_77_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Actualmente, <Node id="13"/>Carmen<Node id="19"/> es <Node id="23"/>presidenta<Node id="33"/> del <Node id="38"/>Comité de Auditoría<Node id="57"/> de <Node id="61"/>CAF<Node id="64"/>, y anteriormente fue <Node id="86"/>presidenta<Node id="96"/> del <Node id="101"/>Comité de Auditoría<Node id="120"/> de <Node id="124"/>Natra<Node id="129"/>. Ambas <Node id="137"/>empresas<Node id="145"/> cotizan en el Mercado de Valores <Node id="179"/>Español<Node id="186"/>. 
+<Node id="189"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="13" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="23" EndNode="33">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="38" EndNode="57">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="61" EndNode="64">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="86" EndNode="96">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="101" EndNode="120">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="124" EndNode="129">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="137" EndNode="145">
+</Annotation>
+<Annotation Id="9" Type="LANG" StartNode="179" EndNode="186">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="189">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

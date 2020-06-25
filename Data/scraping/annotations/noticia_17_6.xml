@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_17_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>primera<Node id="10"/> información, publicada <Node id="34"/>en la víspera<Node id="47"/>, cita a una sola fuente que asegura que el <Node id="91"/>líder<Node id="96"/> norcoreano (cuya edad está entre los <Node id="134"/>36<Node id="136"/> o <Node id="139"/>37 años<Node id="146"/>) "se sometió recientemente a un <Node id="179"/>operación cardíaca<Node id="197"/>" y que especula que la <Node id="221"/>cirugía<Node id="228"/> se debería al "<Node id="244"/>tabaquismo<Node id="254"/>, la <Node id="259"/>obesidad<Node id="267"/> y el <Node id="273"/>sobreesfuerzo<Node id="286"/>".
+<Node id="289"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="3" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="34" EndNode="47">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="91" EndNode="96">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="134" EndNode="136">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="139" EndNode="146">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="179" EndNode="197">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="221" EndNode="228">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="244" EndNode="254">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="259" EndNode="267">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="273" EndNode="286">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="289">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

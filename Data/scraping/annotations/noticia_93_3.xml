@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_93_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El siguiente <Node id="13"/>virus pandémico<Node id="28"/> podría estar circulando por las <Node id="61"/>granjas porcinas<Node id="77"/> de <Node id="81"/>EE.UU.<Node id="87"/>, pero la vigilancia de esa amenaza resulta deficiente.
+<Node id="143"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="13" EndNode="28">
+</Annotation>
+<Annotation Id="12" Type="LOC" StartNode="61" EndNode="77">
+</Annotation>
+<Annotation Id="13" Type="GPE" StartNode="81" EndNode="87">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="143">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

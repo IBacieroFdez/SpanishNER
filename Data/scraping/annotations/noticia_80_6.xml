@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_80_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Y en los <Node id="9"/>sanitarios<Node id="19"/>, el documento fija que la ocupación de las <Node id="63"/>ucis<Node id="67"/> de enfermos de <Node id="83"/>coronavirus<Node id="94"/> debería estar por debajo del <Node id="124"/>20 %<Node id="128"/> y que los <Node id="139"/>hospitales<Node id="149"/> deben mantener la capacidad de prestar su atención habitual "incluso en un contexto de incremento de casos".
+<Node id="259"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="9" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="63" EndNode="67">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="83" EndNode="94">
+</Annotation>
+<Annotation Id="5" Type="PERCENT" StartNode="124" EndNode="128">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="139" EndNode="149">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="259">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

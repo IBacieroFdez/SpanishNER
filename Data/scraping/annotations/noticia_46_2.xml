@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_46_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Sánchez Galán<Node id="13"/> ha anunciado desde la <Node id="36"/>Torre<Node id="41"/> <Node id="42"/>Iberdrola<Node id="51"/> de <Node id="55"/>Bilbao<Node id="61"/> que en los <Node id="73"/>últimos días<Node id="85"/> han  "adelantado pedidos a miles de <Node id="122"/>proveedores<Node id="133"/> por más de <Node id="145"/>3.800 millones de euros<Node id="168"/>, con lo que los acuerdos en curso para entrega hasta <Node id="222"/>2023<Node id="226"/> superan los <Node id="239"/>20.000 millones de euros<Node id="263"/>”.
+<Node id="266"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="13">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="36" EndNode="41">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="42" EndNode="51">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="55" EndNode="61">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="73" EndNode="85">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="122" EndNode="133">
+</Annotation>
+<Annotation Id="8" Type="MONEY" StartNode="145" EndNode="168">
+</Annotation>
+<Annotation Id="9" Type="DATE" StartNode="222" EndNode="226">
+</Annotation>
+<Annotation Id="10" Type="MONEY" StartNode="239" EndNode="263">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="266">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

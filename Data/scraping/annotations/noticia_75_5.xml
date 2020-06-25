@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_75_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Durante un <Node id="11"/>mes<Node id="14"/>, los <Node id="20"/>vendedores profesionales<Node id="44"/> ya presentes en la plataforma podrán publicar nuevos anuncios y realizar las ventas correspondientes a coste cero, sin pagar ninguna comisión, mientras que los nuevos <Node id="212"/>vendedores<Node id="222"/> podrán disfrutar del mismo beneficio <Node id="260"/>durante<Node id="267"/> <Node id="268"/>90<Node id="270"/> <Node id="271"/>días<Node id="275"/>. 
+<Node id="278"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="11" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="20" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="212" EndNode="222">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="268" EndNode="270">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="271" EndNode="275">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="260" EndNode="267">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="278">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

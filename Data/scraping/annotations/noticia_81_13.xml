@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La principal forma de propagación de la <Node id="40"/>COVID‑19<Node id="48"/> es a través de las <Node id="68"/>gotículas<Node id="77"/> respiratorias expelidas por alguien que tose o que tiene otros <Node id="141"/>síntomas<Node id="149"/> como <Node id="155"/>fiebre<Node id="161"/> o <Node id="164"/>cansancio<Node id="173"/>. Muchas personas con <Node id="195"/>COVID‑19<Node id="203"/> presentan solo <Node id="219"/>síntomas<Node id="227"/>
+    leves. Esto es particularmente cierto en las primeras etapas de la <Node id="299"/>enfermedad<Node id="309"/>. Es posible contagiarse de alguien que solamente tenga una <Node id="369"/>tos<Node id="372"/> leve y no se sienta enfermo. 
+<Node id="403"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="40" EndNode="48">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="68" EndNode="77">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="141" EndNode="149">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="155" EndNode="161">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="164" EndNode="173">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="195" EndNode="203">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="219" EndNode="227">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="299" EndNode="309">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="369" EndNode="372">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="403">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

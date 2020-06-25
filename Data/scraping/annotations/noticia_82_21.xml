@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_82_21.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Aunque algunas <Node id="15"/>pruebas<Node id="22"/> indican que enjuagarse la nariz regularmente con <Node id="72"/>solución salina<Node id="87"/> puede acelerar la recuperación tras un <Node id="127"/>resfriado<Node id="136"/> común, no se ha demostrado que prevenga las <Node id="181"/>infecciones<Node id="192"/> <Node id="193"/>respiratorias<Node id="206"/>.
+<Node id="208"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="15" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="72" EndNode="87">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="127" EndNode="136">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="181" EndNode="192">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="193" EndNode="206">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="208">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

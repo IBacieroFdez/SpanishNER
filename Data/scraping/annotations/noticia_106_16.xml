@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_106_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Las <Node id="4"/>Nike<Node id="8"/> <Node id="9"/>Air Force 1<Node id="20"/> blancas más bonitas, las <Node id="46"/>adidas<Node id="52"/> Yeezy Boost perfectas para <Node id="80"/>mayo<Node id="84"/> y otros lanzamientos de la <Node id="112"/>semana<Node id="118"/>
+<Node id="119"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="4" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="9" EndNode="20">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="46" EndNode="52">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="80" EndNode="84">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="112" EndNode="118">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="119">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

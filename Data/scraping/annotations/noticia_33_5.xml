@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_33_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Tal es el optimismo que transmiten los <Node id="39"/>calcetines<Node id="49"/> coloristas y estampados que la firma <Node id="87"/>Jimmy Lion<Node id="97"/> ha creado una iniciativa solidaria que consiste en donar <Node id="155"/>calcetines<Node id="165"/> a <Node id="168"/>médicos<Node id="175"/>, <Node id="177"/>enfermeros<Node id="187"/> y <Node id="190"/>personal sanitario<Node id="208"/> que arriesga su <Node id="225"/>salud<Node id="230"/> cada <Node id="236"/>día<Node id="239"/> para cuidar a la <Node id="257"/>sociedad<Node id="265"/>.
+<Node id="267"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="39" EndNode="49">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="87" EndNode="97">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="168" EndNode="175">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="177" EndNode="187">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="190" EndNode="208">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="155" EndNode="165">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="225" EndNode="230">
+</Annotation>
+<Annotation Id="8" Type="TIME" StartNode="236" EndNode="239">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="257" EndNode="265">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="267">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

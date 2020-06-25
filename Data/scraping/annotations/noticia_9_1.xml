@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_9_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>ministro<Node id="11"/> <Node id="12"/>francés<Node id="19"/> de <Node id="23"/>Educación<Node id="32"/>, <Node id="34"/>Jean-Michel Blanquer<Node id="54"/>, planteó <Node id="64"/>este martes<Node id="75"/> una reapertura paulatina de las <Node id="108"/>escuelas<Node id="116"/> <Node id="117"/>a partir del 11 de mayo<Node id="140"/>, escalonada en <Node id="156"/>tres<Node id="160"/> semanas<Node id="168"/> y organizada de forma que ninguna clase tenga <Node id="215"/>más de 15<Node id="224"/> <Node id="225"/>alumnos<Node id="232"/>.
+<Node id="234"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="12" EndNode="19">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="23" EndNode="32">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="34" EndNode="54">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="64" EndNode="75">
+</Annotation>
+<Annotation Id="7" Type="FAC" StartNode="108" EndNode="116">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="117" EndNode="140">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="156" EndNode="168">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="156" EndNode="160">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="215" EndNode="224">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="234">
+</Annotation>
+<Annotation Id="12" Type="PER" StartNode="225" EndNode="232">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

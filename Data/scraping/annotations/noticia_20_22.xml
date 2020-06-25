@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_20_22.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por el momento, el <Node id="19"/>departamento de investigaciones criminales<Node id="61"/> ha detenido a <Node id="76"/>119<Node id="79"/> <Node id="80"/>sospechosos<Node id="91"/>, <Node id="93"/>cuarenta<Node id="101"/> de los cuales<Node id="115"/> siguen detenidos, por su supuesta participación en los ataques. La <Node id="183"/>división antiterrorista<Node id="206"/> ha detenido a otra <Node id="226"/>78<Node id="228"/> <Node id="229"/>personas<Node id="237"/>.
+<Node id="239"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="19" EndNode="61">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="76" EndNode="79">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="80" EndNode="91">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="93" EndNode="101">
+</Annotation>
+<Annotation Id="6" Type="PERCENT" StartNode="93" EndNode="115">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="183" EndNode="206">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="226" EndNode="228">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="229" EndNode="237">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="239">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

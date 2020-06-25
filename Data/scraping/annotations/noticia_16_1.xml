@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Fotografía de archivo fechada el <Node id="33"/>14 de septiembre de 2018<Node id="57"/>, <Node id="59"/>dell intelectual<Node id="75"/> <Node id="76"/>estadounidense<Node id="90"/> <Node id="91"/>Noam <Node id="96"/>Chomsky<Node id="103"/>.EFE<Node id="107"/>/<Node id="108"/>Fernando Bizerra Jr.<Node id="128"/>/Archivo
+	   
+<Node id="142"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="33" EndNode="57">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="59" EndNode="75">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="76" EndNode="90">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="91" EndNode="103">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="96" EndNode="107">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="108" EndNode="128">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="142">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

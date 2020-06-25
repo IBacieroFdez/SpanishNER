@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_42_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>grupo Tendam<Node id="15"/>, al que pertenecen <Node id="35"/>Cortefiel<Node id="44"/>, <Node id="46"/>Pedro del Hierro<Node id="62"/> o <Node id="65"/>Springfield<Node id="76"/>, garantizará el <Node id="93"/>100 %<Node id="98"/> del <Node id="103"/>salario<Node id="110"/> de <Node id="114"/>abril<Node id="119"/> a los <Node id="126"/>7.000<Node id="131"/> <Node id="132"/>empleados<Node id="141"/> de <Node id="145"/>tiendas<Node id="152"/> y <Node id="155"/>oficinas<Node id="163"/> afectados por el Expediente de Regulación Temporal de Empleo (ERTE) y les facilitará <Node id="249"/>microcréditos<Node id="262"/> sin intereses. 
+<Node id="279"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="QUANT" StartNode="126" EndNode="131">
+</Annotation>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="15">
+</Annotation>
+<Annotation Id="17" Type="JOB" StartNode="132" EndNode="141">
+</Annotation>
+<Annotation Id="18" Type="LOC" StartNode="145" EndNode="152">
+</Annotation>
+<Annotation Id="19" Type="LOC" StartNode="155" EndNode="163">
+</Annotation>
+<Annotation Id="20" Type="MONEY" StartNode="249" EndNode="262">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="35" EndNode="44">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="46" EndNode="62">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="65" EndNode="76">
+</Annotation>
+<Annotation Id="13" Type="PERCENT" StartNode="93" EndNode="98">
+</Annotation>
+<Annotation Id="14" Type="MONEY" StartNode="103" EndNode="110">
+</Annotation>
+<Annotation Id="15" Type="DATE" StartNode="114" EndNode="119">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="279">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_22_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Irán<Node id="4"/>, el <Node id="9"/>segundo<Node id="16"/> <Node id="17"/>país<Node id="21"/> del <Node id="26"/>mundo<Node id="31"/> en la puesta en práctica de la pena capital, ahorcó en <Node id="87"/>2019<Node id="91"/> a <Node id="94"/>dos<Node id="97"/> <Node id="98"/>presos<Node id="104"/> menos que en los <Node id="122"/>doce meses previos<Node id="140"/>: <Node id="142"/>251<Node id="145"/> <Node id="146"/>personas<Node id="154"/>, en su mayoría por cargos de asesinato y sólo <Node id="201"/>30<Node id="203"/> de ellas por <Node id="217"/>narcotráfico<Node id="229"/>.
+<Node id="231"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="9" EndNode="16">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="17" EndNode="21">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="26" EndNode="31">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="87" EndNode="91">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="94" EndNode="97">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="98" EndNode="104">
+</Annotation>
+<Annotation Id="9" Type="TIME" StartNode="122" EndNode="140">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="142" EndNode="145">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="146" EndNode="154">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="201" EndNode="203">
+</Annotation>
+<Annotation Id="13" Type="NORP" StartNode="217" EndNode="229">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="231">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

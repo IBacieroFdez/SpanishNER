@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_30_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Según ha informado este <Node id="24"/>martes<Node id="30"/> la <Node id="34"/>Asociación Española de Proveedores de Automoción<Node id="82"/>, <Node id="84"/>Sernauto<Node id="92"/>, pese a la incertidumbre y los desafíos geopolíticos, las exportaciones de <Node id="168"/>componentes<Node id="179"/> han logrado mantenerse por encima los <Node id="218"/>20.000 millones de euros<Node id="242"/>.
+<Node id="244"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="24" EndNode="30">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="34" EndNode="82">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="84" EndNode="92">
+</Annotation>
+<Annotation Id="4" Type="MONEY" StartNode="218" EndNode="242">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="168" EndNode="179">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="244">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

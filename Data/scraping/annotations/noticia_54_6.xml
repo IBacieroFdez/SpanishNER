@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_54_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Para sorpresa del <Node id="18"/>Gobierno<Node id="26"/> y de los <Node id="36"/>grupos parlamentarios<Node id="57"/> que lo apoyan, <Node id="73"/>PSOE<Node id="77"/> y <Node id="80"/>Unidas Podemos<Node id="94"/>, esta votación salió a favor del trámite como proyecto de ley, y en consecuencia, abrió la puerta a que en el <Node id="205"/>Congreso<Node id="213"/> se cambiara el contenido.
+<Node id="240"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="18" EndNode="26">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="36" EndNode="57">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="73" EndNode="77">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="80" EndNode="94">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="205" EndNode="213">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="240">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

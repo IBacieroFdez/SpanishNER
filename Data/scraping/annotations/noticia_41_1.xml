@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_41_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El grupo <Node id="9"/>Inditex<Node id="16"/>, propietario de marcas como <Node id="45"/>Zara<Node id="49"/> o <Node id="52"/>Massimo Dutti<Node id="65"/>, no aplicará un Expediente de Regulación Temporal de Empleo (ERTE) en <Node id="136"/>abril<Node id="141"/> y seguirá sufragando con recursos propios la retribución de toda su <Node id="210"/>plantilla<Node id="219"/> en <Node id="223"/>España<Node id="229"/> 
+<Node id="231"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="9" EndNode="16">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="45" EndNode="49">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="52" EndNode="65">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="136" EndNode="141">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="223" EndNode="229">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="210" EndNode="219">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="231">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

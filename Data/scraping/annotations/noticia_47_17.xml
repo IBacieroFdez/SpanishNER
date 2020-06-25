@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_47_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Asimismo, se plantea ell establecimiento de una especie de "<Node id="60"/>puente<Node id="66"/>" entre los ERTE por fuerza mayor y la recuperación de la actividad habilitando que se pueda negociar con los <Node id="176"/>sindicatos<Node id="186"/> un proceso "híbrido" en el que no haga falta proceder a abrir un ERTE por causas ETOP ( económicas, técnicas, organizativas, o de producción), sino que la propia <Node id="349"/>pandemia<Node id="357"/> sea una causa productiva.
+<Node id="384"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="60" EndNode="66">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="176" EndNode="186">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="349" EndNode="357">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="384">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

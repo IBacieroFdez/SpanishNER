@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_67_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Aún así, el <Node id="12"/>campeón<Node id="19"/> de <Node id="23"/>19<Node id="25"/> <Node id="26"/>grandes<Node id="33"/> añadió que esta es una situación muy crítica, que el <Node id="87"/>Gobierno<Node id="95"/> está "desbordado" por unos momentos sin precedentes y que en lo último que están preocupados es en "quién puede entrenar o quién no".
+<Node id="230"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="23" EndNode="25">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="87" EndNode="95">
+</Annotation>
+<Annotation Id="3" Type="SPORT" StartNode="12" EndNode="19">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="26" EndNode="33">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="230">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

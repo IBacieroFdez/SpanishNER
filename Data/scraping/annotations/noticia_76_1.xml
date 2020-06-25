@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_76_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Para <Node id="5"/>pymes<Node id="10"/> y <Node id="13"/>startups<Node id="21"/>, poder trabajar con una <Node id="46"/>entidad financier<Node id="63"/>a que les ofrezca los <Node id="85"/>servicios<Node id="94"/> y <Node id="97"/>productos<Node id="106"/> que necesitan es clave para el desarrollo de su propio negocio, pero en estos <Node id="185"/>días<Node id="189"/> también ha cobrado especial importancia el acceso a la información desde cualquier <Node id="273"/>lugar<Node id="278"/>. 
+<Node id="281"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="5" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="13" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="46" EndNode="63">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="85" EndNode="94">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="97" EndNode="106">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="185" EndNode="189">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="273" EndNode="278">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="281">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

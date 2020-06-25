@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_82_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>No. Las <Node id="8"/>vacunas<Node id="15"/> contra la <Node id="26"/>neumonía<Node id="34"/>, como la <Node id="44"/>neumocócica<Node id="55"/> y la <Node id="61"/>vacuna<Node id="67"/> contra <Node id="75"/>Haemophilus influenzae<Node id="97"/> de tipo B (<Node id="109"/>Hib<Node id="112"/>), no protegen contra el nuevo <Node id="143"/>coronavirus<Node id="154"/>.
+<Node id="156"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="8" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="26" EndNode="34">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="44" EndNode="55">
+</Annotation>
+<Annotation Id="4" Type="DRUG" StartNode="61" EndNode="67">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="75" EndNode="97">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="109" EndNode="112">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="143" EndNode="154">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="156">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

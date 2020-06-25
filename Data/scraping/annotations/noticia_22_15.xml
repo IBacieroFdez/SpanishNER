@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_22_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Como nota positiva, el <Node id="23"/>número<Node id="29"/> de condenas a muerte dictadas en los <Node id="67"/>tribunales<Node id="77"/> descendió un <Node id="91"/>40 %<Node id="95"/> en la región el <Node id="112"/>pasado año<Node id="122"/> hasta las <Node id="133"/>707<Node id="136"/> sentencias, mientras que en <Node id="165"/>2018<Node id="169"/> habían ascendido a <Node id="189"/>1.170<Node id="194"/>, según el informe.
+<Node id="214"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="23" EndNode="29">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="67" EndNode="77">
+</Annotation>
+<Annotation Id="3" Type="PERCENT" StartNode="91" EndNode="95">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="133" EndNode="136">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="112" EndNode="122">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="165" EndNode="169">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="189" EndNode="194">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="214">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

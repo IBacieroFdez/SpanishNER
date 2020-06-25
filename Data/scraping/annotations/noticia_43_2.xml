@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_43_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La campaña denominada "Esta Semana Santa, planifica tus compras" pretende animar a los ciudadanos elegir el <Node id="108"/>comercio<Node id="116"/> de proximidad para seguir reduciendo la movilidad y evitar así los desplazamientos, según ha informado el <Node id="223"/>ministerio<Node id="233"/> a través de una nota de prensa.
+<Node id="266"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="108" EndNode="116">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="223" EndNode="233">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="266">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

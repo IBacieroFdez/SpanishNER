@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_73_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Héctor Catalá<Node id="13"/>, de <Node id="18"/>31<Node id="20"/> años y <Node id="28"/>licenciado<Node id="38"/> en <Node id="42"/>Ingeniería Industrial<Node id="63"/>, vive en <Node id="73"/>Serra<Node id="78"/>, un pequeño <Node id="91"/>pueblo<Node id="97"/> <Node id="98"/>valenciano<Node id="108"/> dentro del <Node id="120"/>Parque Natural<Node id="134"/> de la <Node id="141"/>Sierra Calderona<Node id="157"/>. "Mi <Node id="163"/>pueblo<Node id="169"/> me ha dado mucho, incluso el <Node id="199"/>polideportivo<Node id="212"/> <Node id="213"/>municipal<Node id="222"/> lleva mi nombre, y quiero ayudar a la gente que lo pueda necesitar".
+<Node id="292"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="18" EndNode="20">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="28" EndNode="38">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="42" EndNode="63">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="73" EndNode="78">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="91" EndNode="97">
+</Annotation>
+<Annotation Id="7" Type="LANG" StartNode="98" EndNode="108">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="120" EndNode="134">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="141" EndNode="157">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="163" EndNode="169">
+</Annotation>
+<Annotation Id="11" Type="FAC" StartNode="199" EndNode="212">
+</Annotation>
+<Annotation Id="12" Type="FAC" StartNode="213" EndNode="222">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="292">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

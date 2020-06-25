@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_104_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Jim Bridenstine<Node id="15"/>, <Node id="17"/>administrador<Node id="30"/> de la <Node id="37"/>NASA<Node id="41"/>, dijo al <Node id="51"/>Washington Post<Node id="66"/> que sigue confiando en que la <Node id="97"/>agencia espacial<Node id="113"/> de <Node id="117"/>EEUU<Node id="121"/> será capaz de cumplir con el plazo de <Node id="160"/>2024<Node id="164"/>, aunque informó que el primer vuelo del Sistema de Lanzamiento Espacial, el <Node id="241"/>cohete<Node id="247"/> construido por <Node id="263"/>Boeing<Node id="269"/> que lanzaría <Node id="283"/>astronautas<Node id="294"/> a la <Node id="300"/>Luna<Node id="304"/>, se retrasará de nuevo, esta vez hasta <Node id="344"/>noviembre de 2021<Node id="361"/>.
+<Node id="363"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="17" EndNode="30">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="37" EndNode="41">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="51" EndNode="66">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="97" EndNode="113">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="117" EndNode="121">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="160" EndNode="164">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="241" EndNode="247">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="263" EndNode="269">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="283" EndNode="294">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="300" EndNode="304">
+</Annotation>
+<Annotation Id="12" Type="DATE" StartNode="344" EndNode="361">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="363">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

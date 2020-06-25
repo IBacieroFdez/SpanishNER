@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>Después de que lo reclamasen con insistencia diversas <Node id="54"/>comunidades autónomas<Node id="75"/> y que lo anunciara <Node id="95"/>Pedro Sánchez<Node id="108"/> <Node id="109"/>el pasado fin de semana<Node id="132"/>, la <Node id="137"/>ministra portavoz<Node id="154"/> del <Node id="159"/>Gobierno<Node id="167"/>, <Node id="169"/>María Jesús Montero<Node id="188"/>, ha informado hoy de que los <Node id="218"/>menores<Node id="225"/> de <Node id="229"/>14<Node id="231"/> años podrían salir a la <Node id="256"/>calle<Node id="261"/>, pero no para dar un paseo, sino acompañando a un <Node id="312"/>adulto<Node id="318"/> en sus salidas autorizadas, que en su practica totalidad consisten en ir al <Node id="395"/>supermercado<Node id="407"/>, la <Node id="412"/>farmacia<Node id="420"/> o el <Node id="426"/>banco<Node id="431"/>.
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="54" EndNode="75">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="95" EndNode="108">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="109" EndNode="132">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="137" EndNode="154">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="159" EndNode="167">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="169" EndNode="188">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="218" EndNode="225">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="8" Type="QUANT" StartNode="229" EndNode="231">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="256" EndNode="261">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="312" EndNode="318">
+</Annotation>
+<Annotation Id="11" Type="LOC" StartNode="395" EndNode="407">
+</Annotation>
+<Annotation Id="12" Type="LOC" StartNode="412" EndNode="420">
+</Annotation>
+<Annotation Id="13" Type="LOC" StartNode="426" EndNode="431">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

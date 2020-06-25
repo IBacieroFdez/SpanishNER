@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_91_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Tomar el camino directo al <Node id="27"/>recipiente<Node id="37"/> de <Node id="41"/>comida<Node id="47"/> a la primera podría parecer trivial, pero en su momento, desde la perspectiva de los <Node id="133"/>psicólogos<Node id="143"/> conductistas, la capacidad de orientación de la <Node id="192"/>rata<Node id="196"/> era una proeza remarcable. La corriente principal del aprendizaje <Node id="263"/>animal<Node id="269"/> en esa época creía que la conducta demostrada por la <Node id="323"/>rata<Node id="327"/> en el <Node id="334"/>laberinto<Node id="343"/> era un tema de simples asociaciones <Node id="380"/>estímulo-respuesta<Node id="398"/>. Cuando los <Node id="411"/>estímulos<Node id="420"/> ambientales suelen derivar casi siempre en una respuesta acertada, las <Node id="492"/>conexiones neuronales<Node id="513"/> que codifican esa asociación se refuerzan.
+<Node id="557"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="41" EndNode="47">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="27" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="133" EndNode="143">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="192" EndNode="196">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="263" EndNode="269">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="323" EndNode="327">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="334" EndNode="343">
+</Annotation>
+<Annotation Id="8" Type="SCITERM" StartNode="411" EndNode="420">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="380" EndNode="398">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="492" EndNode="513">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="557">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

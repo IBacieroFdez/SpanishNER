@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_66_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>También el <Node id="11"/>equipo de voluntarios digitales en emergencias<Node id="57"/> (<Node id="59"/>VOST<Node id="63"/>) de la <Node id="71"/>Comunidad Valenciana<Node id="91"/> , <Node id="94"/>VOST<Node id="98"/>, ha salido al paso de este bulo en <Node id="134"/>Twitter<Node id="141"/> y ha dejado claro que el uso de los biocidas por "medios aéreos" quiere decir "diseminándolos en el aire", no empleando "<Node id="263"/>aviones<Node id="270"/> para fumigar".
+<Node id="286"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="11" EndNode="57">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="59" EndNode="63">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="71" EndNode="91">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="94" EndNode="98">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="134" EndNode="141">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="263" EndNode="270">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="286">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/aspirina_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Si usted consume habitualmente <Node id="31"/>alcohol<Node id="38"/> (<Node id="40"/>tres<Node id="44"/> o más <Node id="51"/>bebidas alcohólicas<Node id="70"/> –<Node id="72"/>cerveza<Node id="79"/>, <Node id="81"/>vino<Node id="85"/>, <Node id="87"/>licor<Node id="92"/>, … - al día) tomar <Node id="112"/>ASPIRINA C<Node id="122"/> le puede provocar una <Node id="145"/>hemorragia<Node id="155"/> de <Node id="159"/>estómago<Node id="167"/>. En condiciones normales no necesitan administrarse en el <Node id="226"/>embarazo<Node id="234"/> <Node id="235"/>dosis<Node id="240"/> superiores a los <Node id="258"/>100<Node id="261"/> mg al <Node id="268"/>día<Node id="271"/> de <Node id="275"/>vitamina C<Node id="285"/> y, en cualquier caso, siempre por indicación del <Node id="335"/>médico<Node id="341"/>. Aunque no hay evidencia de efectos perjudiciales, la seguridad fetal de las <Node id="419"/>dosis<Node id="424"/> altas de <Node id="434"/>vitamina C<Node id="444"/> no ha sido establecida. <Node id="469"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="31" EndNode="38">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="40" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="51" EndNode="70">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="72" EndNode="79">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="81" EndNode="85">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="87" EndNode="92">
+</Annotation>
+<Annotation Id="7" Type="DRUG" StartNode="112" EndNode="122">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="145" EndNode="155">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="159" EndNode="167">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="226" EndNode="234">
+</Annotation>
+<Annotation Id="11" Type="SCITERM" StartNode="235" EndNode="240">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="258" EndNode="261">
+</Annotation>
+<Annotation Id="13" Type="TIME" StartNode="268" EndNode="271">
+</Annotation>
+<Annotation Id="14" Type="SCITERM" StartNode="275" EndNode="285">
+</Annotation>
+<Annotation Id="15" Type="JOB" StartNode="335" EndNode="341">
+</Annotation>
+<Annotation Id="16" Type="SCITERM" StartNode="419" EndNode="424">
+</Annotation>
+<Annotation Id="17" Type="SCITERM" StartNode="434" EndNode="444">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="469">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

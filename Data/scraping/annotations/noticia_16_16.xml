@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>R: Eso depende de la <Node id="21"/>gente joven<Node id="32"/>. Depende de cómo la <Node id="53"/>población mundial<Node id="70"/> reaccione. Esto nos podría llevar a <Node id="107"/>estados<Node id="114"/> altamente autoritarios y represivos que expandan el manual neoliberal incluso más que ahora. Recuerde: la clase capitalista no cede. Piden más financiación para los <Node id="280"/>combustibles fósiles<Node id="300"/>, destruyen las regulaciones que ofrecen algo de protección… En medio de la <Node id="376"/>pandemia<Node id="384"/> en <Node id="388"/>EEUU<Node id="392"/> se han eliminado normas que restringían la emisión de <Node id="447"/>mercurio<Node id="455"/> y otros contaminantes… Eso significa matar a más <Node id="505"/>niños<Node id="510"/> estadounidenses, destruir el medio ambiente. No paran. Y si no hay contrafuerzas, es el <Node id="599"/>mundo<Node id="604"/> que nos quedará.
+<Node id="622"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="21" EndNode="32">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="53" EndNode="70">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="107" EndNode="114">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="280" EndNode="300">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="376" EndNode="384">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="388" EndNode="392">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="447" EndNode="455">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="505" EndNode="510">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="599" EndNode="604">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="622">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

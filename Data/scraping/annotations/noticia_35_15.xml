@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_35_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Sean Connery<Node id="12"/>, <Node id="14"/>Cary Grant<Node id="24"/> o <Node id="27"/>Kirk Douglas<Node id="39"/> han sido algunos de los galanas del cine que han utilizado y posado con  este llamativo <Node id="128"/>vehículo<Node id="136"/> que también uso un joven <Node id="162"/>Jeremy Irons<Node id="174"/>. 
+<Node id="177"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="12">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="14" EndNode="24">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="27" EndNode="39">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="128" EndNode="136">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="162" EndNode="174">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="177">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

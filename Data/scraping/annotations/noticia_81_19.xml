@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Sin embargo, si usted vive en una zona con <Node id="43"/>paludismo<Node id="52"/> (<Node id="54"/>malaria<Node id="61"/>) o <Node id="65"/>dengue<Node id="71"/>, es importante que no ignore la <Node id="104"/>fiebre<Node id="110"/>. Busque <Node id="119"/>ayuda médica<Node id="131"/>. Cuando acuda al <Node id="149"/>centro de salud<Node id="164"/> lleve <Node id="171"/>mascarilla<Node id="181"/> si es posible, manténgase al menos a un metro de distancia
+    de las demás personas y no toque las superficies con las manos. En caso de que el enfermo sea un niño, ayúdelo a seguir este consejo. 
+<Node id="380"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="43" EndNode="52">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="54" EndNode="61">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="65" EndNode="71">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="104" EndNode="110">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="119" EndNode="131">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="149" EndNode="164">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="171" EndNode="181">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="380">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

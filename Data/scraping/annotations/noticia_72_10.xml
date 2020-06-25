@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_72_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>“El <Node id="4"/>año<Node id="7"/> de aplazamiento nos da la oportunidad de acercarnos a ellos”, a <Node id="72"/>austriacios<Node id="83"/> y <Node id="86"/>neozelandeses<Node id="99"/>, los grandes rivales de la <Node id="127"/>pareja<Node id="133"/> <Node id="134"/>española<Node id="142"/> en la lucha por las <Node id="163"/>medallas<Node id="171"/>. <Node id="173"/>Peter Burling<Node id="186"/> y <Node id="189"/>Blair Tuke<Node id="199"/>, <Node id="201"/>seis<Node id="205"/> veces <Node id="212"/>campeones<Node id="221"/> del <Node id="226"/>mundo<Node id="231"/> y actuales <Node id="243"/>campeones<Node id="252"/> <Node id="253"/>olímpicos<Node id="262"/> son los grandes candidatos al <Node id="293"/>oro<Node id="296"/>.
+<Node id="298"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="4" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="72" EndNode="83">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="86" EndNode="99">
+</Annotation>
+<Annotation Id="4" Type="LANG" StartNode="134" EndNode="142">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="127" EndNode="133">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="163" EndNode="171">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="173" EndNode="186">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="189" EndNode="199">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="201" EndNode="205">
+</Annotation>
+<Annotation Id="10" Type="LANG" StartNode="226" EndNode="231">
+</Annotation>
+<Annotation Id="11" Type="SPORT" StartNode="212" EndNode="221">
+</Annotation>
+<Annotation Id="12" Type="SPORT" StartNode="243" EndNode="252">
+</Annotation>
+<Annotation Id="13" Type="SPORT" StartNode="253" EndNode="262">
+</Annotation>
+<Annotation Id="14" Type="PRODUCT" StartNode="293" EndNode="296">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="298">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

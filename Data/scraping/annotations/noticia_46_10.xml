@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_46_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En total, <Node id="10"/>107<Node id="13"/> medidas implementadas por el <Node id="43"/>grupo<Node id="48"/> a nivel <Node id="57"/>global<Node id="63"/> durante esta <Node id="77"/>crisis<Node id="83"/>, en la que más de un <Node id="105"/>90 %<Node id="109"/> de la <Node id="116"/>plantilla<Node id="125"/> de <Node id="129"/>oficina<Node id="136"/> se encuentra teletrabajando y en la que se ha reorganizado el trabajo de <Node id="210"/>personal<Node id="218"/> de exterior de las centrales y de las redes de transporte y distribución.
+<Node id="293"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="10" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="43" EndNode="48">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="77" EndNode="83">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="105" EndNode="109">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="129" EndNode="136">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="210" EndNode="218">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="116" EndNode="125">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="57" EndNode="63">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="293">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

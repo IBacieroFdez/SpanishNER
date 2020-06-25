@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_106_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En <Node id="3"/>2012<Node id="7"/>, <Node id="9"/>Jordan Geller<Node id="22"/> ofertó en una <Node id="37"/>subasta<Node id="44"/> por uno de los <Node id="60"/>zapatos<Node id="67"/> más importantes en la historia de las <Node id="106"/>zapatillas<Node id="116"/>. Se ofrecieron un par de <Node id="142"/>Air Jordan 1<Node id="154"/> usadas ​​y firmadas por <Node id="179"/>Michael Jordan<Node id="193"/>. Finalmente, <Node id="207"/>Geller<Node id="213"/> ganó el lote publicado en <Node id="240"/>eBay<Node id="244"/>. Ahora, <Node id="253"/>ocho<Node id="257"/> <Node id="258"/>años<Node id="262"/> después, las <Node id="276"/>zapatillas<Node id="286"/> se subastarán nuevamente, esta vez de la deslumbrante <Node id="341"/>casa<Node id="345"/> de <Node id="349"/>subastas<Node id="357"/> <Node id="358"/>Sotheby's<Node id="367"/>, más conocida por vender <Node id="393"/>pulseras<Node id="401"/> multimillonarias de <Node id="422"/>Monets<Node id="428"/> y <Node id="431"/>Cartier<Node id="438"/>. (Y, más recientemente, <Node id="463"/>tablas<Node id="469"/> de <Node id="473"/>skate<Node id="478"/> <Node id="479"/>Supreme<Node id="486"/>).
+<Node id="489"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="3" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="9" EndNode="22">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="37" EndNode="44">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="60" EndNode="67">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="106" EndNode="116">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="142" EndNode="154">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="179" EndNode="193">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="207" EndNode="213">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="240" EndNode="244">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="253" EndNode="257">
+</Annotation>
+<Annotation Id="13" Type="TIME" StartNode="258" EndNode="262">
+</Annotation>
+<Annotation Id="14" Type="PER" StartNode="276" EndNode="286">
+</Annotation>
+<Annotation Id="15" Type="LOC" StartNode="341" EndNode="345">
+</Annotation>
+<Annotation Id="16" Type="EVENT" StartNode="349" EndNode="357">
+</Annotation>
+<Annotation Id="17" Type="ORG" StartNode="358" EndNode="367">
+</Annotation>
+<Annotation Id="18" Type="PRODUCT" StartNode="393" EndNode="401">
+</Annotation>
+<Annotation Id="19" Type="ORG" StartNode="422" EndNode="428">
+</Annotation>
+<Annotation Id="20" Type="ORG" StartNode="431" EndNode="438">
+</Annotation>
+<Annotation Id="21" Type="SPORT" StartNode="473" EndNode="478">
+</Annotation>
+<Annotation Id="22" Type="ORG" StartNode="479" EndNode="486">
+</Annotation>
+<Annotation Id="23" Type="PRODUCT" StartNode="463" EndNode="469">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="489">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

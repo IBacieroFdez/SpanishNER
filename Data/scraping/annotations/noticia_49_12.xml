@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_49_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"<Node id="1"/>Ahora<Node id="6"/> precisamente estamos haciendo todos los cálculos y preparándonos para poder trabajar por un <Node id="99"/>mes<Node id="102"/> más y seguir dando <Node id="122"/>producto<Node id="130"/> al mercado, dado que se necesita por la contingencia". mencionó <Node id="195"/>Ozuna Ruiz<Node id="205"/>.
+<Node id="207"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="1" EndNode="6">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="99" EndNode="102">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="122" EndNode="130">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="195" EndNode="205">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="207">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

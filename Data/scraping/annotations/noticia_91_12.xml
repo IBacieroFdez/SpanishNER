@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_91_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Desde esta visión, el <Node id="22"/>cerebro<Node id="29"/> opera como una <Node id="45"/>centralita<Node id="55"/> telefónica que mantiene solo las conexiones que son fiables entre las llamadas entrantes de nuestros <Node id="157"/>órganos<Node id="164"/> <Node id="165"/>sensoriales<Node id="176"/> y los mensajes salientes destinados a los <Node id="219"/>músculos<Node id="227"/>. Pero la centralita conductual no explicaba la habilidad de dar con un atajo de buenas a primeras, sin haber recorrido esa ruta concreta. Esa y otras muchas observaciones intrigantes en esta línea respaldaron a la escuela de pensamiento rival, promulgada por quienes creen que en el curso del aprendizaje la <Node id="536"/>rata<Node id="540"/> crea un <Node id="549"/>mapa<Node id="553"/> en su <Node id="560"/>cerebro<Node id="567"/>. <Node id="569"/>Tolman<Node id="575"/>, defensor de esa <Node id="593"/>escuela<Node id="600"/>, acuñó el término «mapa cognitivo».
+<Node id="637"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="22" EndNode="29">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="45" EndNode="55">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="157" EndNode="164">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="165" EndNode="176">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="219" EndNode="227">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="560" EndNode="567">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="536" EndNode="540">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="569" EndNode="575">
+</Annotation>
+<Annotation Id="9" Type="FAC" StartNode="593" EndNode="600">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="549" EndNode="553">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="637">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

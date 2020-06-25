@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Estados Unidos<Node id="14"/> es una <Node id="22"/>catástrofe<Node id="32"/> por el juego que se traen en <Node id="62"/>Washington<Node id="72"/>. Saben cómo culpar a todo el mundo excepto a ellos mismos, a pesar de que son los responsables. Somos ahora el <Node id="184"/>epicentro<Node id="193"/>, en un <Node id="201"/>país<Node id="205"/> que es tan disfuncional que ni siquiera puede proveer de información sobre la infección a la <Node id="299"/>Organización Mundial de la Salud<Node id="331"/> (<Node id="333"/>OMS<Node id="336"/>).
+<Node id="339"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="0" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="22" EndNode="32">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="62" EndNode="72">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="184" EndNode="193">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="201" EndNode="205">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="299" EndNode="331">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="333" EndNode="336">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="339">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

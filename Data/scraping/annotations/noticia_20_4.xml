@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_20_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Shenobe Charles<Node id="15"/> recuerda el desgarrador sonido de la explosión que hace <Node id="72"/>hoy<Node id="75"/> <Node id="76"/>un año<Node id="82"/> sacudió la <Node id="94"/>iglesia<Node id="101"/> de <Node id="105"/>San Antonio<Node id="116"/> en <Node id="120"/>Colombo<Node id="127"/>, la tiró al <Node id="140"/>suelo<Node id="145"/> y dejó el icónico <Node id="164"/>templo<Node id="170"/> en llamas. Su primera reacción fue buscar a <Node id="215"/>Mary<Node id="219"/>, su madre.
+<Node id="231"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="15">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="76" EndNode="82">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="72" EndNode="75">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="94" EndNode="101">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="105" EndNode="116">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="120" EndNode="127">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="140" EndNode="145">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="164" EndNode="170">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="215" EndNode="219">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="231">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

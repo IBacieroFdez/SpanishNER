@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_107_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Estoy muy contento de poder anunciar que correré para <Node id="55"/>Scuderia <Node id="64"/>Ferrari<Node id="71"/> en <Node id="75"/>2021<Node id="79"/> y del futuro que me espera con el equipo.<Node id="121"/>Aún<Node id="124"/> tengo por delante un <Node id="146"/>año<Node id="149"/> importante con <Node id="165"/>McLaren Racing<Node id="179"/> y tengo ganas de volver a competir con ellos esta <Node id="230"/>temporada<Node id="239"/>", afirma <Node id="249"/>Carlos Sainz<Node id="261"/> en el comunicado distribuido por la <Node id="298"/>escudería<Node id="307"/> <Node id="308"/>italiana<Node id="316"/>. Su mejor resultado hasta ahora ha sido el <Node id="360"/>podio<Node id="365"/> en <Node id="369"/>Brasil<Node id="375"/> <Node id="376"/>2019<Node id="380"/> remontando desde la última <Node id="408"/>posición<Node id="416"/>, pero aquel llegó de forma milagrosa, combinando adelantamientos imposibles con incidentes entre los mejores <Node id="526"/>coches<Node id="532"/> de la <Node id="539"/>parrilla<Node id="547"/>. Ahora, el <Node id="559"/>madrileño<Node id="568"/> tendrá un <Node id="579"/>coche<Node id="584"/> que aspira a ganar desde la <Node id="613"/>primera<Node id="620"/> <Node id="621"/>carrera<Node id="628"/> de <Node id="632"/>2021<Node id="636"/>. Buenos tiempos para la <Node id="661"/>Fórmula 1<Node id="670"/> en <Node id="674"/>España<Node id="680"/>.
+<Node id="682"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="55" EndNode="71">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="64" EndNode="71">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="75" EndNode="79">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="121" EndNode="124">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="146" EndNode="149">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="165" EndNode="179">
+</Annotation>
+<Annotation Id="8" Type="TIME" StartNode="230" EndNode="239">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="249" EndNode="261">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="298" EndNode="307">
+</Annotation>
+<Annotation Id="11" Type="LANG" StartNode="308" EndNode="316">
+</Annotation>
+<Annotation Id="12" Type="SPORT" StartNode="360" EndNode="365">
+</Annotation>
+<Annotation Id="13" Type="GPE" StartNode="369" EndNode="375">
+</Annotation>
+<Annotation Id="14" Type="DATE" StartNode="376" EndNode="380">
+</Annotation>
+<Annotation Id="15" Type="SPORT" StartNode="408" EndNode="416">
+</Annotation>
+<Annotation Id="16" Type="PRODUCT" StartNode="526" EndNode="532">
+</Annotation>
+<Annotation Id="17" Type="SPORT" StartNode="539" EndNode="547">
+</Annotation>
+<Annotation Id="18" Type="LANG" StartNode="559" EndNode="568">
+</Annotation>
+<Annotation Id="19" Type="PRODUCT" StartNode="579" EndNode="584">
+</Annotation>
+<Annotation Id="20" Type="SPORT" StartNode="621" EndNode="628">
+</Annotation>
+<Annotation Id="21" Type="QUANT" StartNode="613" EndNode="620">
+</Annotation>
+<Annotation Id="22" Type="DATE" StartNode="632" EndNode="636">
+</Annotation>
+<Annotation Id="23" Type="SPORT" StartNode="661" EndNode="670">
+</Annotation>
+<Annotation Id="24" Type="GPE" StartNode="674" EndNode="680">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="682">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

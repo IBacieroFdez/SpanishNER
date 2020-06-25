@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_52_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En la <Node id="6"/>conferencia<Node id="17"/>, organizada por la <Node id="37"/>agencia TASS<Node id="49"/>, <Node id="51"/>Piotrovski<Node id="61"/> relató cómo vive el <Node id="82"/>museo<Node id="87"/> en ausencia de las personas que lo abarrotaban habitualmente y subrayó que en la actualidad su prioridad es "preservar la salud de sus colecciones" para que los amantes de la cultura puedan volver a disfrutar del legado del <Node id="312"/>Hermitage<Node id="321"/> una vez que acabe la <Node id="343"/>pandemia<Node id="351"/>.
+<Node id="353"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="37" EndNode="49">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="51" EndNode="61">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="6" EndNode="17">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="82" EndNode="87">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="312" EndNode="321">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="343" EndNode="351">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="353">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

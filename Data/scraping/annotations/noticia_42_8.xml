@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_42_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En el tema de protección de <Node id="28"/>salud<Node id="33"/> y seguridad de <Node id="49"/>empleados<Node id="58"/>, el <Node id="63"/>presidente<Node id="73"/> de <Node id="77"/>Tendam<Node id="83"/> ha dicho que, en estos momentos, les constan "menos de <Node id="139"/>15<Node id="141"/> casos positivos dentro de un colectivo de más de <Node id="191"/>11.000<Node id="197"/> personas". 
+<Node id="210"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="28" EndNode="33">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="49" EndNode="58">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="63" EndNode="73">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="77" EndNode="83">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="139" EndNode="141">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="191" EndNode="197">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="210">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

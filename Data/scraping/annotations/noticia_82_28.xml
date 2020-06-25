@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_82_28.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por el momento, no se recomienda ningún <Node id="40"/>medicamento<Node id="51"/> específico para prevenir o tratar la <Node id="89"/>infección<Node id="98"/> por el nuevo <Node id="112"/>coronavirus<Node id="123"/> (<Node id="125"/>2019-nCoV<Node id="134"/>).
+<Node id="137"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="40" EndNode="51">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="89" EndNode="98">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="112" EndNode="123">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="125" EndNode="134">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="137">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_34.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Nuestros números de <Node id="21"/>prueba<Node id="27"/> son bajos. Ciertamente no estábamos preparados. Los <Node id="80"/>países<Node id="86"/> que están listos deben tener altos números de <Node id="133"/>prueba<Node id="139"/>", dijo <Node id="147"/>Sinan Adiyaman<Node id="161"/>, <Node id="163"/>presidente<Node id="173"/> de la <Node id="180"/>Asociación de Médicos<Node id="201"/> de <Node id="205"/>Turquía<Node id="212"/> (<Node id="214"/>TTB<Node id="217"/>) a la <Node id="224"/>agencia Reuters<Node id="239"/>.
+<Node id="241"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="21" EndNode="27">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="80" EndNode="86">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="133" EndNode="139">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="147" EndNode="161">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="163" EndNode="173">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="180" EndNode="201">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="205" EndNode="212">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="214" EndNode="217">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="224" EndNode="239">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="241">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

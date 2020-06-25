@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_40_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Según han informado <Node id="20"/>fuentes sindicales<Node id="38"/> a <Node id="41"/>Efe<Node id="44"/>, el ERTE que ha sido aprobado en la <Node id="81"/>noche<Node id="86"/> de este <Node id="95"/>viernes<Node id="102"/> se presentará el <Node id="120"/>lunes<Node id="125"/> ante la autoridad laboral y tendrá fecha de vigencia desde ese <Node id="189"/>día<Node id="192"/>.
+<Node id="194"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="41" EndNode="44">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="81" EndNode="86">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="95" EndNode="102">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="120" EndNode="125">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="189" EndNode="192">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="20" EndNode="38">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="194">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

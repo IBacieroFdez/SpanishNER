@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_66_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Es falso que se haya encargado al <Node id="34"/>Ejército<Node id="42"/> fumigar a la población desde <Node id="72"/>aviones<Node id="79"/>. La realidad es que, para hacer frente a la <Node id="124"/>crisis<Node id="130"/> <Node id="131"/>sanitaria<Node id="140"/> ocasionada por la <Node id="159"/>COVID-19<Node id="167"/>, las <Node id="173"/>Fuerzas Armadas<Node id="188"/> podrán usar los <Node id="205"/>productos químicos<Node id="223"/> <Node id="224"/>biocidas<Node id="232"/> ya autorizados para dispersarlos en ambientes cerrados por medio de <Node id="301"/>aerosoles<Node id="310"/>.
+<Node id="312"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="34" EndNode="42">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="72" EndNode="79">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="124" EndNode="130">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="131" EndNode="140">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="159" EndNode="167">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="173" EndNode="188">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="205" EndNode="223">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="224" EndNode="232">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="301" EndNode="310">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="312">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

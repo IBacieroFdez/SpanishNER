@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>coordinador<Node id="14"/> de <Node id="18"/>YO-IFOS<Node id="25"/> de la <Node id="32"/>SEORL-CCC<Node id="41"/>, <Node id="43"/>Carlos Chiesa<Node id="56"/>, apunta varias hipótesis como que haya algo de “<Node id="105"/>estirpe genética<Node id="121"/>” que diferencia a las <Node id="144"/>poblaciones<Node id="155"/> afectadas en <Node id="169"/>Europa<Node id="175"/> y en <Node id="181"/>Asia<Node id="185"/> o algún tipo de diferencia del propio <Node id="224"/>virus<Node id="229"/>, ya que los estudios del <Node id="255"/>COVID-19<Node id="263"/> revelan hasta <Node id="278"/>quince<Node id="284"/> <Node id="285"/>variaciones genéticas<Node id="306"/> en relación con el que se describió por <Node id="347"/>primera<Node id="354"/> vez en <Node id="362"/>China<Node id="367"/>.
+<Node id="369"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="18" EndNode="25">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="3" EndNode="14">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="32" EndNode="41">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="43" EndNode="56">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="105" EndNode="121">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="169" EndNode="175">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="181" EndNode="185">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="144" EndNode="155">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="224" EndNode="229">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="255" EndNode="263">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="347" EndNode="354">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="278" EndNode="284">
+</Annotation>
+<Annotation Id="13" Type="MEDTERM" StartNode="285" EndNode="306">
+</Annotation>
+<Annotation Id="14" Type="GPE" StartNode="362" EndNode="367">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="369">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

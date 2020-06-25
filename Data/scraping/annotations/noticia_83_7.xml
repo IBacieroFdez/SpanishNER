@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_83_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Una manera fácil de contraer la mayoría de las <Node id="47"/>enfermedades<Node id="59"/> <Node id="60"/>infecciosas<Node id="71"/> es entrar en contacto con una persona o un animal infectado. Las <Node id="137"/>enfermedades<Node id="149"/> <Node id="150"/>infecciosas<Node id="161"/> pueden transmitirse a través del contacto directo, por ejemplo:
+<Node id="226"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="47" EndNode="59">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="60" EndNode="71">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="137" EndNode="149">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="150" EndNode="161">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="226">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

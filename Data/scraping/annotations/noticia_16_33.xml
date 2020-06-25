@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_33.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>R: Es muy interesante ver esa discusión. Los programas de <Node id="58"/>Sanders<Node id="65"/>, por ejemplo, <Node id="80"/>sanidad<Node id="87"/> universal, tasas universitarias gratuitas… Lo critican en todo el espectro -ideológico-. Las críticas más interesantes vienen de <Node id="217"/>la izquierda<Node id="229"/>. Los <Node id="235"/>columnistas<Node id="246"/> más <Node id="251"/>liberales<Node id="260"/> del <Node id="265"/>New York Times<Node id="279"/>, <Node id="281"/>CNN<Node id="284"/> y todos ellos… Dicen que son buenas ideas, pero no para los estadounidenses.
+<Node id="362"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="58" EndNode="65">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="80" EndNode="87">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="217" EndNode="229">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="235" EndNode="246">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="251" EndNode="260">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="265" EndNode="279">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="281" EndNode="284">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="362">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_3_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>presidenta madrileña<Node id="23"/> ha visitado, acompañada por el <Node id="55"/>consejero<Node id="64"/> de <Node id="68"/>Justicia<Node id="76"/>, <Node id="78"/>Interior<Node id="86"/>, y <Node id="90"/>Víctimas<Node id="98"/>, <Node id="100"/>Enrique López<Node id="113"/>, la <Node id="118"/>Agencia de Seguridad y Emergencias Madrid 112<Node id="163"/> para conocer "de primera mano" el plan de choque, con el que se ha actuado en <Node id="242"/>463<Node id="245"/> <Node id="246"/>residencias<Node id="257"/> de la <Node id="264"/>Comunidad de Madrid<Node id="283"/>.
+<Node id="285"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="PER" StartNode="100" EndNode="113">
+</Annotation>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="23">
+</Annotation>
+<Annotation Id="17" Type="ORG" StartNode="118" EndNode="163">
+</Annotation>
+<Annotation Id="18" Type="QUANT" StartNode="242" EndNode="245">
+</Annotation>
+<Annotation Id="19" Type="FAC" StartNode="246" EndNode="257">
+</Annotation>
+<Annotation Id="20" Type="GPE" StartNode="264" EndNode="283">
+</Annotation>
+<Annotation Id="12" Type="JOB" StartNode="55" EndNode="64">
+</Annotation>
+<Annotation Id="13" Type="ORG" StartNode="68" EndNode="76">
+</Annotation>
+<Annotation Id="14" Type="ORG" StartNode="78" EndNode="86">
+</Annotation>
+<Annotation Id="15" Type="ORG" StartNode="90" EndNode="98">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="285">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

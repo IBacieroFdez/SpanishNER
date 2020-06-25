@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_31_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Según han informado a <Node id="22"/>EFE<Node id="25"/> <Node id="26"/>fuentes sindicales<Node id="44"/>, la dirección de <Node id="62"/>Renault<Node id="69"/> <Node id="70"/>España<Node id="76"/> ha comunicado esta <Node id="96"/>mañana<Node id="102"/> al <Node id="106"/>comité intercentros<Node id="125"/> que el próximo <Node id="141"/>lunes<Node id="146"/> y el <Node id="152"/>martes<Node id="158"/> impartirá formación a un <Node id="184"/>grupo de mandos<Node id="199"/> y <Node id="202"/>trabajadores<Node id="214"/> de la <Node id="221"/>planta<Node id="227"/> de <Node id="231"/>Palencia<Node id="239"/> y de la <Node id="248"/>factoría<Node id="256"/> de <Node id="260"/>carrocerías-montaj<Node id="278"/>e, en <Node id="284"/>Valladolid<Node id="294"/>, para que la producción arranque de nuevo el <Node id="340"/>miércoles<Node id="349"/>.
+<Node id="351"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="22" EndNode="25">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="26" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="62" EndNode="69">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="70" EndNode="76">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="96" EndNode="102">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="106" EndNode="125">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="141" EndNode="146">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="152" EndNode="158">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="184" EndNode="199">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="202" EndNode="214">
+</Annotation>
+<Annotation Id="11" Type="FAC" StartNode="221" EndNode="227">
+</Annotation>
+<Annotation Id="12" Type="GPE" StartNode="231" EndNode="239">
+</Annotation>
+<Annotation Id="13" Type="FAC" StartNode="248" EndNode="256">
+</Annotation>
+<Annotation Id="14" Type="PRODUCT" StartNode="260" EndNode="278">
+</Annotation>
+<Annotation Id="15" Type="GPE" StartNode="284" EndNode="294">
+</Annotation>
+<Annotation Id="16" Type="DATE" StartNode="340" EndNode="349">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="351">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

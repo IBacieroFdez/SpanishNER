@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_42_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>sindicatos<Node id="14"/> han señalado que, la <Node id="36"/>compañía<Node id="44"/> les ha comunicado que se pone a disposición de los <Node id="96"/>empleados<Node id="105"/> "un anticipo máximo de <Node id="129"/>300 euros<Node id="138"/>, que deberá pedirse antes del próximo <Node id="177"/>23 de abril<Node id="188"/>, debido a que hasta principios de <Node id="223"/>mayo<Node id="227"/> no se van a percibir las prestaciones por desempleo. 
+<Node id="282"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="4" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="36" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="96" EndNode="105">
+</Annotation>
+<Annotation Id="4" Type="MONEY" StartNode="129" EndNode="138">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="177" EndNode="188">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="223" EndNode="227">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="282">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

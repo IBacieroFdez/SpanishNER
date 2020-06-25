@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_57_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Son datos actualizados a <Node id="25"/>20 de abril<Node id="36"/> y ofrecidos este martes por la <Node id="68"/>Fiscalía General del Estado<Node id="95"/> que demuestran que <Node id="115"/>Madrid<Node id="121"/> registra, de lejos, el mayor número de <Node id="161"/>centros<Node id="168"/> investigados, <Node id="183"/>40<Node id="185"/>, doblando a la siguiente <Node id="211"/>comunidad<Node id="220"/> en la lista, <Node id="234"/>Cataluña<Node id="242"/>, donde <Node id="250"/>18<Node id="252"/> de las <Node id="260"/>20<Node id="262"/> diligencias se desarrollan en la <Node id="296"/>provincia de Barcelona<Node id="318"/>.
+<Node id="320"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="25" EndNode="36">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="68" EndNode="95">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="115" EndNode="121">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="161" EndNode="168">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="183" EndNode="185">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="234" EndNode="242">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="211" EndNode="220">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="250" EndNode="252">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="260" EndNode="262">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="296" EndNode="318">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="320">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

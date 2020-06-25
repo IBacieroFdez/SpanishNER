@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_47_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>También solicitan modificar las condiciones de <Node id="47"/>jornada<Node id="54"/> de los <Node id="62"/>trabajadores<Node id="74"/>, con mayor flexibilidad para adaptar la oferta a los requerimientos <Node id="143"/>sanitarios<Node id="153"/> y la activación de entrada y salida de los <Node id="197"/>empleados<Node id="206"/> en los ERTE por fuerza mayor, y se propone la aplicación a <Node id="266"/>vacaciones<Node id="276"/> de los momentos de inactividad y facilitar una distribución de <Node id="340"/>jornada<Node id="347"/> plurianual de manera irregular llevando más allá del <Node id="401"/>31 de diciembre de 2020<Node id="424"/> la posibilidad de recuperación de las <Node id="463"/>horas<Node id="468"/> no trabajadas.
+<Node id="484"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="62" EndNode="74">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="143" EndNode="153">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="197" EndNode="206">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="266" EndNode="276">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="340" EndNode="347">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="47" EndNode="54">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="401" EndNode="424">
+</Annotation>
+<Annotation Id="8" Type="TIME" StartNode="463" EndNode="468">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="484">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

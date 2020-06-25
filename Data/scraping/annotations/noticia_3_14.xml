@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_3_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Gracias a este dispositivo se han realizado <Node id="44"/>1.871<Node id="49"/> entregas de <Node id="62"/>material de protección<Node id="84"/> en <Node id="88"/>residencias<Node id="99"/>: <Node id="101"/>1,1 millones<Node id="113"/> de <Node id="117"/>pares<Node id="122"/> de <Node id="126"/>guantes<Node id="133"/>, <Node id="135"/>750.000<Node id="142"/> <Node id="143"/>mascarillas<Node id="154"/>, <Node id="156"/>119.000<Node id="163"/> <Node id="164"/>calzas<Node id="170"/>, <Node id="172"/>14.200<Node id="178"/> <Node id="179"/>gorros<Node id="185"/> y <Node id="188"/>53.000<Node id="194"/> <Node id="195"/>batas<Node id="200"/>, entre otros elementos.
+<Node id="225"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="44" EndNode="49">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="62" EndNode="84">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="88" EndNode="99">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="101" EndNode="113">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="135" EndNode="142">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="156" EndNode="163">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="172" EndNode="178">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="188" EndNode="194">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="117" EndNode="122">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="126" EndNode="133">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="143" EndNode="154">
+</Annotation>
+<Annotation Id="12" Type="MEDTERM" StartNode="164" EndNode="170">
+</Annotation>
+<Annotation Id="13" Type="MEDTERM" StartNode="179" EndNode="185">
+</Annotation>
+<Annotation Id="14" Type="MEDTERM" StartNode="195" EndNode="200">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="225">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

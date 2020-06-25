@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_62_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>vicepresidente<Node id="17"/> del <Node id="22"/>Ejecutivo<Node id="31"/> <Node id="32"/>comunitario<Node id="43"/> ha subrayado que tras la <Node id="69"/>crisis<Node id="75"/> <Node id="76"/>sanitaria<Node id="85"/>, al hacer frente a la <Node id="108"/>crisis<Node id="114"/> económica, será importante "recuperar salud y recuperar el optimismo porque muchas personas perderán su puesto de <Node id="229"/>trabajo<Node id="236"/> y sienten miedo, y necesitamos que ese <Node id="276"/>desempleo<Node id="285"/> sea lo más breve posible" y crear "puestos de <Node id="332"/>trabajo<Node id="339"/> sostenibles".
+<Node id="354"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="17">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="22" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="32" EndNode="43">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="69" EndNode="75">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="76" EndNode="85">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="108" EndNode="114">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="229" EndNode="236">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="276" EndNode="285">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="332" EndNode="339">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="354">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

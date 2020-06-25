@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>No hay evidencia <Node id="17"/>científica<Node id="27"/> alguna que permita vincular la extensión de las <Node id="76"/>redes de telecomunicaciones<Node id="103"/> <Node id="104"/>5G<Node id="106"/> con la propagación del <Node id="130"/>coronavirus<Node id="141"/>, como afirma una teoría promovida por un supuesto <Node id="192"/>doctor<Node id="198"/> y compartida por figuras conocidas del mundo del <Node id="248"/>cine<Node id="252"/>, la <Node id="257"/>canción<Node id="264"/> y el <Node id="270"/>boxeo<Node id="275"/>.
+<Node id="277"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="104" EndNode="106">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="130" EndNode="141">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="17" EndNode="27">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="76" EndNode="103">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="277">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="192" EndNode="198">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="248" EndNode="252">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="257" EndNode="264">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="270" EndNode="275">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>España<Node id="6"/>, <Node id="8"/>Turquía<Node id="15"/> y <Node id="18"/>República Checa<Node id="33"/> recibieron <Node id="45"/>decenas de miles<Node id="61"/> de <Node id="65"/>kits<Node id="69"/> de <Node id="73"/>diagnóstico rápido<Node id="91"/> que desecharon por inservibles, mientras que <Node id="137"/>Holanda<Node id="144"/> tuvo que retirar rápidamente <Node id="174"/>miles<Node id="179"/> de <Node id="183"/>mascarillas<Node id="194"/> que distribuyó entre <Node id="216"/>personal<Node id="224"/> de <Node id="228"/>sanidad<Node id="235"/> porque no protegían contra el <Node id="266"/>virus<Node id="271"/>.
+<Node id="273"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="0" EndNode="6">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="8" EndNode="15">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="18" EndNode="33">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="45" EndNode="61">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="65" EndNode="69">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="73" EndNode="91">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="137" EndNode="144">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="174" EndNode="179">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="183" EndNode="194">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="216" EndNode="224">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="228" EndNode="235">
+</Annotation>
+<Annotation Id="12" Type="SCITERM" StartNode="266" EndNode="271">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="273">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

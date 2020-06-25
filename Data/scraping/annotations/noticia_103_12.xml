@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_103_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Pero fue más allá. Contestando a un usuario en <Node id="47"/>Twitter<Node id="54"/>, <Node id="56"/>Musk<Node id="60"/> dijo que "esto es el colmo" y que "<Node id="96"/>Tesla<Node id="101"/> trasladará ahora su <Node id="122"/>sede<Node id="126"/> y sus futuros programas a <Node id="153"/>Texas<Node id="158"/>/<Node id="159"/>Nevada<Node id="165"/> inmediatamente. Si mantenemos la actividad de fabricación de <Node id="227"/>Fremont<Node id="234"/>, dependerá de cómo se trate a <Node id="265"/>Tesla<Node id="270"/> en el <Node id="277"/>futuro<Node id="283"/>" porque "<Node id="293"/>Tesla<Node id="298"/> es el último fabricante de <Node id="326"/>coches<Node id="332"/> que queda en <Node id="346"/>California<Node id="356"/>". Cabe destacar que la <Node id="380"/>fábrica<Node id="387"/> de <Node id="391"/>Tesla<Node id="396"/> ubicada en el <Node id="411"/>condado<Node id="418"/> de <Node id="422"/>San Joaquin<Node id="433"/>, ubicado al <Node id="446"/>Este<Node id="450"/> de <Node id="454"/>Alameda<Node id="461"/>, sí está funcionando, pero volvemos a lo mismo, las restricciones pueden variar entre <Node id="548"/>condados<Node id="556"/> de un mismo <Node id="569"/>Estado<Node id="575"/>.
+<Node id="577"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="47" EndNode="54">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="56" EndNode="60">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="96" EndNode="101">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="122" EndNode="126">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="153" EndNode="158">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="159" EndNode="165">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="227" EndNode="234">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="265" EndNode="270">
+</Annotation>
+<Annotation Id="9" Type="TIME" StartNode="277" EndNode="283">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="293" EndNode="298">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="326" EndNode="332">
+</Annotation>
+<Annotation Id="12" Type="GPE" StartNode="346" EndNode="356">
+</Annotation>
+<Annotation Id="13" Type="FAC" StartNode="380" EndNode="387">
+</Annotation>
+<Annotation Id="15" Type="ORG" StartNode="391" EndNode="396">
+</Annotation>
+<Annotation Id="16" Type="LOC" StartNode="411" EndNode="418">
+</Annotation>
+<Annotation Id="17" Type="GPE" StartNode="422" EndNode="433">
+</Annotation>
+<Annotation Id="18" Type="GPE" StartNode="454" EndNode="461">
+</Annotation>
+<Annotation Id="19" Type="LOC" StartNode="446" EndNode="450">
+</Annotation>
+<Annotation Id="20" Type="LOC" StartNode="548" EndNode="556">
+</Annotation>
+<Annotation Id="21" Type="LOC" StartNode="569" EndNode="575">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="577">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

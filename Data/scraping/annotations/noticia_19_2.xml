@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_19_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>primer ministro<Node id="18"/> <Node id="19"/>australiano<Node id="30"/>, <Node id="32"/>Scott Morrison<Node id="46"/>, reiteró este <Node id="61"/>martes<Node id="67"/> la importancia de que se realice una investigación "transparente" sobre el origen de la <Node id="156"/>COVID-19<Node id="164"/>, que según los <Node id="180"/>expertos<Node id="188"/> brotó en la <Node id="201"/>ciudad<Node id="207"/> <Node id="208"/>china<Node id="213"/> de <Node id="217"/>Wuhan<Node id="222"/>.
+<Node id="224"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="18">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="19" EndNode="30">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="32" EndNode="46">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="156" EndNode="164">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="61" EndNode="67">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="208" EndNode="213">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="217" EndNode="222">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="201" EndNode="207">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="180" EndNode="188">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="224">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

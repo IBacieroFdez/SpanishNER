@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_2_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>También sigue una evolución claramente a la baja las <Node id="53"/>hospitalizaciones<Node id="70"/> y las llegadas a las <Node id="92"/>ucis<Node id="96"/>, con aumentos del <Node id="115"/>0,7 y del 0,8 por ciento<Node id="139"/>, sin contabilizar, porque no da los datos acumulados, a <Node id="196"/>Madrid<Node id="202"/>, donde <Node id="210"/>desde hace tres semanas<Node id="233"/> los <Node id="238"/>ingresos<Node id="246"/> <Node id="247"/>hospitalarios<Node id="260"/>, cuantificados en más de <Node id="286"/>15.000<Node id="292"/> personas, se han reducido a la <Node id="324"/>mitad<Node id="329"/>.
+<Node id="331"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="53" EndNode="70">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="92" EndNode="96">
+</Annotation>
+<Annotation Id="3" Type="PERCENT" StartNode="115" EndNode="139">
+</Annotation>
+<Annotation Id="41" Type="GPE" StartNode="196" EndNode="202">
+</Annotation>
+<Annotation Id="42" Type="TIME" StartNode="210" EndNode="233">
+</Annotation>
+<Annotation Id="43" Type="MEDTERM" StartNode="238" EndNode="246">
+</Annotation>
+<Annotation Id="44" Type="MEDTERM" StartNode="247" EndNode="260">
+</Annotation>
+<Annotation Id="45" Type="QUANT" StartNode="286" EndNode="292">
+</Annotation>
+<Annotation Id="46" Type="QUANT" StartNode="324" EndNode="329">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="331">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

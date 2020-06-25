@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_55_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por su parte, el <Node id="17"/>Consejo General de Enfermería<Node id="46"/> ha calificado de "situación muy grave" y ha advertido de que los <Node id="112"/>profesionales<Node id="125"/> han usado estas <Node id="142"/>mascarillas<Node id="153"/> durante al menos <Node id="171"/>10<Node id="173"/> <Node id="174"/>días<Node id="178"/> pensando que estaban protegidos.
+<Node id="212"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="17" EndNode="46">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="112" EndNode="125">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="142" EndNode="153">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="171" EndNode="173">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="174" EndNode="178">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="212">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

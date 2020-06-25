@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La vuelta a la <Node id="15"/>calle<Node id="20"/> de los <Node id="28"/>niños<Node id="33"/> se espera <Node id="44"/>desde hace tiempo<Node id="61"/> como señal del principio del fin del confinamiento. Ha cambiado el <Node id="129"/>día<Node id="132"/>, que ahora será el <Node id="152"/>domingo 26 de abril<Node id="171"/>, y ha rectificado el <Node id="193"/>Gobierno<Node id="201"/>, después de las críticas unánimes a su <Node id="241"/>primera<Node id="248"/> comunicación, que circunscribía las salidas a acompañar a un <Node id="310"/>adulto<Node id="316"/> en los desplazamientos autorizados, como ir a comprar. Los <Node id="376"/>6,8 millones<Node id="388"/> de <Node id="392"/>menores<Node id="399"/> de <Node id="403"/>14<Node id="405"/> años podrán finalmente dar paseos.
+<Node id="441"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="15" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="28" EndNode="33">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="44" EndNode="61">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="129" EndNode="132">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="152" EndNode="171">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="193" EndNode="201">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="241" EndNode="248">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="310" EndNode="316">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="376" EndNode="388">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="392" EndNode="399">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="403" EndNode="405">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="441">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

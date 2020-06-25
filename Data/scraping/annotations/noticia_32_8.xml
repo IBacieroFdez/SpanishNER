@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_32_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Gracias a la tecnología textil como base de negocio, las <Node id="57"/>camisas<Node id="64"/>, <Node id="66"/>polos<Node id="71"/> o <Node id="74"/>camisetas<Node id="83"/> no acumulan malos olores, no requieren <Node id="123"/>plancha<Node id="130"/> y repelen las manchas. Las <Node id="158"/>prendas<Node id="165"/> de <Node id="169"/>Sepiia<Node id="175"/> reducen hasta un <Node id="193"/>70%<Node id="196"/> los lavados de las <Node id="216"/>prendas<Node id="223"/>. 
+<Node id="226"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="57" EndNode="64">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="66" EndNode="71">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="74" EndNode="83">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="123" EndNode="130">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="158" EndNode="165">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="169" EndNode="175">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="193" EndNode="196">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="216" EndNode="223">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="226">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

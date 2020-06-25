@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_55_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>Ministerio de Sanidad<Node id="24"/> achaca el "alto contagio" de <Node id="54"/>profesionales sanitarios<Node id="78"/> -<Node id="80"/>31.388<Node id="86"/> en <Node id="90"/>España<Node id="96"/>, según los últimos datos- a la "escasa" protección por el "grave" problema mundial de desabastecimiento, a lo que se suma el uso de <Node id="229"/>mascarillas<Node id="240"/> defectuosas, según han denunciado varias <Node id="282"/>organizaciones<Node id="296"/>.
+<Node id="298"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="54" EndNode="78">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="80" EndNode="86">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="90" EndNode="96">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="229" EndNode="240">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="282" EndNode="296">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="298">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

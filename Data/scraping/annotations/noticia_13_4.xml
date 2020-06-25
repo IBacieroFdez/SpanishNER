@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_13_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El informe debería haber sido presentado <Node id="41"/>esta semana<Node id="52"/> ante la <Node id="61"/>Asamblea Parlamentaria<Node id="83"/> del <Node id="88"/>Consejo de Europa<Node id="105"/>, pero la anulación de la sesión plenaria por la <Node id="154"/>pandemia<Node id="162"/> de <Node id="166"/>COVID-19<Node id="174"/> lo ha imposibilitado.
+<Node id="197"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="41" EndNode="52">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="61" EndNode="83">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="88" EndNode="105">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="154" EndNode="162">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="166" EndNode="174">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="197">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

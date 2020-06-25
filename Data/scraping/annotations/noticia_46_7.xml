@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_46_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Asimismo, ha destacado que la actividad de <Node id="43"/>Iberdrola<Node id="52"/> "repercutirá también en todos los <Node id="87"/>ciudadanos<Node id="97"/> de los <Node id="105"/>países<Node id="111"/>" en los que están presentes. 
+<Node id="142"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="43" EndNode="52">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="105" EndNode="111">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="87" EndNode="97">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="142">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

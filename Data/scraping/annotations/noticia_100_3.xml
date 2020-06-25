@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_100_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Añadida a la mezcla de <Node id="23"/>geopolímero<Node id="34"/>, un <Node id="39"/>material<Node id="47"/> de construcción similar al <Node id="75"/>hormigón<Node id="83"/>, la <Node id="88"/>orina<Node id="93"/> funciona mejor que otros <Node id="119"/>plastificantes<Node id="133"/> comunes como el <Node id="150"/>naftanelo<Node id="159"/> o el <Node id="165"/>policarboxilato<Node id="180"/>, para reducir la necesidad de <Node id="211"/>agua<Node id="215"/>.
+<Node id="217"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="23" EndNode="34">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="75" EndNode="83">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="39" EndNode="47">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="88" EndNode="93">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="119" EndNode="133">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="150" EndNode="159">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="165" EndNode="180">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="211" EndNode="215">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="217">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

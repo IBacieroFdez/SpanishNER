@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_26_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Si el aire está en movimiento, los contaminantes cerca del <Node id="59"/>suelo<Node id="64"/> también están más diseminados, pero si el aire tiende a permanecer cerca del <Node id="142"/>suelo<Node id="147"/>, eso “también se aplicará a los contaminantes del aire, que entonces es más probable que sean inhalados por los <Node id="260"/>seres humanos<Node id="273"/> en <Node id="277"/>mayores cantidades<Node id="295"/> y, por tanto, conducir a problemas de <Node id="334"/>salud<Node id="339"/>”, agrega la nota.
+<Node id="358"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="59" EndNode="64">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="142" EndNode="147">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="260" EndNode="273">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="277" EndNode="295">
+</Annotation>
+<Annotation Id="27" Type="MEDTERM" StartNode="334" EndNode="339">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="358">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

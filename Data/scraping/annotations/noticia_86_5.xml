@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_86_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Se reduce la brecha racial, pero todavía quedan diferencias
+A pesar de las mejoras en la identificación del autismo entre los niños de raza negra, el <Node id="150"/>análisis<Node id="158"/> muestra que todavía existen diferencias respecto de otros grupos. En los niños <Node id="238"/>hispanos<Node id="246"/>, las <Node id="252"/>tasas<Node id="257"/> de identificación del <Node id="280"/>autismo<Node id="287"/> son más bajas que en los de raza negra o raza blanca. Por otro lado, entre los niños en los que se identificó <Node id="398"/>autismo<Node id="405"/>, los de raza negra y los <Node id="431"/>hispanos<Node id="439"/> recibieron evaluaciones a edades mayores que los de raza blanca. Esto significa que los niños de raza negra y los <Node id="554"/>hispanos<Node id="562"/> con <Node id="567"/>autismo<Node id="574"/> que no tienen <Node id="589"/>discapacidad intelectual<Node id="613"/> podrían no identificarse a las mismas <Node id="652"/>tasas<Node id="657"/> que los de raza blanca.
+<Node id="682"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="150" EndNode="158">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="238" EndNode="246">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="280" EndNode="287">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="252" EndNode="257">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="398" EndNode="405">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="431" EndNode="439">
+</Annotation>
+<Annotation Id="7" Type="LANG" StartNode="554" EndNode="562">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="567" EndNode="574">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="589" EndNode="613">
+</Annotation>
+<Annotation Id="10" Type="PERCENT" StartNode="652" EndNode="657">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="682">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_86_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Esta <Node id="5"/>estimación<Node id="15"/> es más alta que la anterior, la cual se basó en datos del <Node id="74"/>2014<Node id="78"/> y halló una prevalencia de <Node id="106"/>1 de cada 59<Node id="118"/> entre los niños de <Node id="138"/>8<Node id="139"/> años. Los datos provienen de <Node id="169"/>11<Node id="171"/> <Node id="172"/>comunidades<Node id="183"/> de los <Node id="191"/>EE. UU.<Node id="198"/> que están en la <Node id="215"/>Red de Vigilancia del <Node id="237"/>Autismo<Node id="244"/> y las <Node id="251"/>Discapacidades<Node id="265"/> del Desarrollo<Node id="280"/> (<Node id="282"/>ADDM<Node id="286"/>) de los <Node id="295"/>CDC<Node id="298"/>. Los datos del <Node id="314"/>2016<Node id="318"/> también muestran que se está evaluando a más niños y se está identificando el <Node id="397"/>autismo<Node id="404"/> a edades más tempranas. Los últimos hallazgos parten de los datos de <Node id="474"/>dos<Node id="477"/> <Node id="478"/>informes<Node id="486"/> distintos, uno de niños de <Node id="514"/>8<Node id="515"/> años y el otro de niños de <Node id="543"/>4<Node id="544"/> años.
+<Node id="551"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="5" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="74" EndNode="78">
+</Annotation>
+<Annotation Id="3" Type="PERCENT" StartNode="106" EndNode="118">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="138" EndNode="139">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="169" EndNode="171">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="172" EndNode="183">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="191" EndNode="198">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="237" EndNode="244">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="251" EndNode="265">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="295" EndNode="298">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="215" EndNode="280">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="282" EndNode="286">
+</Annotation>
+<Annotation Id="13" Type="DATE" StartNode="314" EndNode="318">
+</Annotation>
+<Annotation Id="14" Type="DISEASE" StartNode="397" EndNode="404">
+</Annotation>
+<Annotation Id="15" Type="QUANT" StartNode="514" EndNode="515">
+</Annotation>
+<Annotation Id="16" Type="QUANT" StartNode="543" EndNode="544">
+</Annotation>
+<Annotation Id="17" Type="QUANT" StartNode="474" EndNode="477">
+</Annotation>
+<Annotation Id="18" Type="SCITERM" StartNode="478" EndNode="486">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="551">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

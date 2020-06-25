@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_2_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El otro vector del <Node id="19"/>desconfinamiento<Node id="35"/> es el <Node id="42"/>sistema sanitario<Node id="59"/>, que debe estar preparado para hacer frente de forma eficaz y rápida a cualquier <Node id="141"/>rebrote<Node id="148"/> de la <Node id="155"/>epidemia<Node id="163"/> -con los servicios de <Node id="186"/>atención primaria<Node id="203"/> en primera línea- al tiempo que debe comenzar a atender todas aquellas <Node id="275"/>patologías<Node id="285"/> que han ido quedando en un segundo plano <Node id="327"/>durante las semanas<Node id="346"/> más duras de la <Node id="363"/>pandemia<Node id="371"/>, al evitar los <Node id="387"/>pacientes<Node id="396"/> acudir a unas <Node id="411"/>urgencias<Node id="420"/> saturadas y que infundían temor.
+<Node id="454"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="19" EndNode="35">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="42" EndNode="59">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="141" EndNode="148">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="155" EndNode="163">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="186" EndNode="203">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="275" EndNode="285">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="327" EndNode="346">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="363" EndNode="371">
+</Annotation>
+<Annotation Id="9" Type="FAC" StartNode="411" EndNode="420">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="387" EndNode="396">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="454">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_2_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Murcia<Node id="6"/>, <Node id="8"/>Andalucía<Node id="17"/>, <Node id="19"/>Galicia<Node id="26"/> y <Node id="29"/>Baleares<Node id="37"/> son las siguientes <Node id="57"/>comunidades<Node id="68"/> con el grado más bajo de repercusión de la <Node id="112"/>epidemia<Node id="120"/>, seguidas de <Node id="134"/>Asturias<Node id="142"/>, <Node id="144"/>Comunidad Valenciana<Node id="164"/>, <Node id="166"/>Cantabria<Node id="175"/> y <Node id="178"/>Extremadura<Node id="189"/>. <Node id="191"/>Madrid<Node id="197"/>, <Node id="199"/>Castilla-La Mancha<Node id="217"/>, <Node id="219"/>La Rioja<Node id="227"/>, <Node id="229"/>Cataluña<Node id="237"/>, <Node id="239"/>País Vasco<Node id="249"/>, <Node id="251"/>Castilla y León<Node id="266"/>, <Node id="268"/>Aragón<Node id="274"/> y <Node id="277"/>Navarra<Node id="284"/> son las más afectadas.
+<Node id="308"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="0" EndNode="6">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="8" EndNode="17">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="19" EndNode="26">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="29" EndNode="37">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="57" EndNode="68">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="112" EndNode="120">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="134" EndNode="142">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="144" EndNode="164">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="166" EndNode="175">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="178" EndNode="189">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="191" EndNode="197">
+</Annotation>
+<Annotation Id="12" Type="GPE" StartNode="199" EndNode="217">
+</Annotation>
+<Annotation Id="13" Type="GPE" StartNode="219" EndNode="227">
+</Annotation>
+<Annotation Id="15" Type="GPE" StartNode="229" EndNode="237">
+</Annotation>
+<Annotation Id="16" Type="GPE" StartNode="239" EndNode="249">
+</Annotation>
+<Annotation Id="17" Type="GPE" StartNode="251" EndNode="266">
+</Annotation>
+<Annotation Id="18" Type="GPE" StartNode="277" EndNode="284">
+</Annotation>
+<Annotation Id="19" Type="GPE" StartNode="268" EndNode="274">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="308">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

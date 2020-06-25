@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_17_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Es tradición que cada <Node id="22"/>15 de abril<Node id="33"/>, aniversario del nacimiento de su abuelo y principal festividad del país, <Node id="108"/>Kim Jong-un<Node id="119"/> visite el <Node id="130"/>Palacio del Sol<Node id="145"/> de <Node id="149"/>Kumsusan<Node id="157"/> y rinda tributo al <Node id="177"/>fundador<Node id="185"/> de <Node id="189"/>Corea del Norte<Node id="204"/>, unos fastos que los aparatos de propaganda del <Node id="253"/>régimen<Node id="260"/> suelen cubrir ampliamente.
+<Node id="288"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="22" EndNode="33">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="108" EndNode="119">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="130" EndNode="145">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="149" EndNode="157">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="189" EndNode="204">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="177" EndNode="185">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="253" EndNode="260">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="288">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

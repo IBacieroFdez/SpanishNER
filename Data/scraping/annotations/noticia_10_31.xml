@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_31.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Más de <Node id="7"/>100.000<Node id="14"/> curados de <Node id="26"/>COVID-19<Node id="34"/> y <Node id="37"/>Sanidad<Node id="44"/> advierte ante la salida de los <Node id="76"/>niños<Node id="81"/>
+<Node id="82"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="7" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="26" EndNode="34">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="37" EndNode="44">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="76" EndNode="81">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="82">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

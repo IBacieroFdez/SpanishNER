@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_100_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"En la <Node id="7"/>Tierra<Node id="13"/>, la <Node id="18"/>urea<Node id="22"/> se produce a escala industrial y es muy utilizada como <Node id="78"/>fertilizante<Node id="90"/> y como <Node id="98"/>materia prima<Node id="111"/> por <Node id="116"/>empresas químicas<Node id="133"/> y <Node id="136"/>farmacéuticas<Node id="149"/>", recordó la <Node id="163"/>ESA<Node id="166"/>.
+<Node id="168"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="7" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="18" EndNode="22">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="78" EndNode="90">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="98" EndNode="111">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="116" EndNode="133">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="136" EndNode="149">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="163" EndNode="166">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="168">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_96_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>-¿Cómo se transmite el <Node id="23"/>coronavirus<Node id="34"/> y en qué <Node id="44"/>materiales<Node id="54"/> sobrevive más <Node id="69"/>tiempo<Node id="75"/>?
+<Node id="77"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="23" EndNode="34">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="44" EndNode="54">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="69" EndNode="75">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="77">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

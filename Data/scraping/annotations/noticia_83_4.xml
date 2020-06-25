@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_83_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Cada <Node id="5"/>enfermedad<Node id="15"/> <Node id="16"/>infecciosa<Node id="26"/> tiene sus signos y <Node id="46"/>síntomas<Node id="54"/> específicos. Entre los signos y <Node id="87"/>síntomas<Node id="95"/> generales que son frecuentes en muchas <Node id="135"/>enfermedades<Node id="147"/> <Node id="148"/>infecciosas<Node id="159"/> se incluyen:
+<Node id="173"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="5" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="16" EndNode="26">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="46" EndNode="54">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="87" EndNode="95">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="135" EndNode="147">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="148" EndNode="159">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="173">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

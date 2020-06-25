@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>COI<Node id="6"/> fue inflexible con la <Node id="29"/>Sudáfrica<Node id="38"/> del '<Node id="44"/>apartheid<Node id="53"/>', pero favoreció el acercamiento entre las dos <Node id="101"/>Coreas<Node id="107"/>, reconoció de inmediato a los <Node id="138"/>comités<Node id="145"/> de las nuevas <Node id="160"/>repúblicas exsoviéticas<Node id="183"/> y <Node id="186"/>exyugoslavas<Node id="198"/> y permitió la participación bajo bandera olímpica de cualquier <Node id="262"/>deportista<Node id="272"/> cuyo <Node id="278"/>país<Node id="282"/> estuviera sancionado internacionalmente.
+<Node id="324"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="6">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="29" EndNode="38">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="44" EndNode="53">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="101" EndNode="107">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="160" EndNode="183">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="186" EndNode="198">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="138" EndNode="145">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="262" EndNode="272">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="278" EndNode="282">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="324">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

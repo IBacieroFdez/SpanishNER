@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_106_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Estas <Node id="6"/>Air Jordan 1<Node id="18"/> pueden convertirse en las <Node id="45"/>zapatillas<Node id="55"/> más caras de la historia y todo por la magia y el influjo de <Node id="117"/>Michael Jordan<Node id="131"/>. Esto es lo que las hace tan especiales. 
+<Node id="174"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="6" EndNode="18">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="45" EndNode="55">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="117" EndNode="131">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="174">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

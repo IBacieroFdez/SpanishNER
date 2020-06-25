@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_15_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Según explica <Node id="14"/>Igualdad<Node id="22"/>, entre las medidas dirigidas a víctimas de trata, explotación sexual y <Node id="94"/>mujeres<Node id="101"/> muy vulnerables en contexto de prostitución, se contempla durante el<Node id="170"/> estado de alarma<Node id="187"/> reforzar la difusión de los <Node id="216"/>teléfonos<Node id="225"/> de información, la alternativa habitacional en situaciones de <Node id="288"/>emergencia<Node id="298"/>, así como la posibilidad de acceder al <Node id="338"/>ingreso<Node id="345"/> mínimo vital.
+<Node id="360"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="14" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="94" EndNode="101">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="170" EndNode="187">
+</Annotation>
+<Annotation Id="4" Type="PHONE" StartNode="216" EndNode="225">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="288" EndNode="298">
+</Annotation>
+<Annotation Id="6" Type="MONEY" StartNode="338" EndNode="345">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="360">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

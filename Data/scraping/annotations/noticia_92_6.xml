@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_92_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los excedentes de <Node id="18"/>energía solar<Node id="31"/> y <Node id="34"/>eólica<Node id="40"/> pueden hacer funcionar <Node id="64"/>electrolizadores<Node id="80"/> que convierten el <Node id="99"/>agua<Node id="103"/> en <Node id="107"/>hidrógeno<Node id="116"/>, el cual se podría almacenar para reconvertirlo en <Node id="168"/>electricidad<Node id="180"/> cuando se necesite.
+<Node id="201"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="18" EndNode="31">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="34" EndNode="40">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="64" EndNode="80">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="99" EndNode="103">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="107" EndNode="116">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="168" EndNode="180">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="201">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

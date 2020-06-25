@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_66_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En un hilo de <Node id="14"/>Twitter<Node id="21"/>, <Node id="23"/>VOST<Node id="27"/>-<Node id="28"/>Comunidad Valenciana<Node id="48"/> aclara que las técnicas de micronizado o nebulizado consiguen "que un <Node id="119"/>biocida<Node id="126"/> cubra toda una <Node id="142"/>estancia<Node id="150"/> o <Node id="153"/>vehículo<Node id="161"/>" y llegue "incluso a zonas inaccesibles". En el caso de la nebulización, "las microgotas son tan pequeñas que se comportan como un gas" y, por tanto, no dejan resquicio sin cubrir.
+<Node id="343"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="14" EndNode="21">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="23" EndNode="27">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="28" EndNode="48">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="119" EndNode="126">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="153" EndNode="161">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="142" EndNode="150">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="343">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

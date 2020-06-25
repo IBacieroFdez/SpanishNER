@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_50_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Precisó que la <Node id="15"/>primera<Node id="22"/> iniciativa proporcionará financiación para acelerar los avances de los clientes y <Node id="105"/>socios<Node id="111"/> en el <Node id="118"/>diagnóstico<Node id="129"/>, el <Node id="134"/>tratamiento<Node id="145"/> y el desarrollo de <Node id="165"/>vacunas<Node id="172"/>, apalancando tecnologías como la <Node id="206"/>inteligencia artificial<Node id="229"/> (<Node id="231"/>IA<Node id="233"/>), computación de alto desempeño y la prestación de servicios de "<Node id="299"/>edge-to-cloud<Node id="312"/>".
+<Node id="315"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="15" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="105" EndNode="111">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="118" EndNode="129">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="134" EndNode="145">
+</Annotation>
+<Annotation Id="5" Type="DRUG" StartNode="165" EndNode="172">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="206" EndNode="229">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="231" EndNode="233">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="299" EndNode="312">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="315">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

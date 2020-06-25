@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_60_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Tiene que ser asimétrica", ha subrayado <Node id="41"/>Erkoreka<Node id="49"/> durante una rueda de prensa tras el <Node id="86"/>Consejo de Gobierno<Node id="105"/> en la que ha defendido la singularidad de <Node id="148"/>Euskadi<Node id="155"/> para establecer su propio plan de vuelta a la normalidad tras el <Node id="221"/>estado de alarma<Node id="237"/> por la <Node id="245"/>crisis<Node id="251"/> de la <Node id="258"/>pandemia<Node id="266"/> del <Node id="271"/>coronavirus<Node id="282"/>. 
+<Node id="285"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="41" EndNode="49">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="86" EndNode="105">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="148" EndNode="155">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="221" EndNode="237">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="245" EndNode="251">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="258" EndNode="266">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="271" EndNode="282">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="285">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

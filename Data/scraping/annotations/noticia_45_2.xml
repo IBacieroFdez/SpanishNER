@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_45_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Lamentamos profundamente el fallecimiento de <Node id="46"/>Alfonso Cortina<Node id="61"/>, que fue <Node id="71"/>presidente<Node id="81"/> de <Node id="85"/>Repsol<Node id="91"/> desde el año <Node id="105"/>1996<Node id="109"/> al <Node id="113"/>2004<Node id="117"/>. Trasladamos nuestras más sentidas condolencias a su esposa e hijos. <Node id="187"/>#DEP<Node id="191"/>", ha indicado <Node id="206"/>Repsol<Node id="212"/> en su <Node id="219"/>cuenta<Node id="225"/> en la <Node id="232"/>red social<Node id="242"/>.
+<Node id="244"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="46" EndNode="61">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="71" EndNode="81">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="85" EndNode="91">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="105" EndNode="109">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="113" EndNode="117">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="187" EndNode="191">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="206" EndNode="212">
+</Annotation>
+<Annotation Id="8" Type="ADDRESS" StartNode="232" EndNode="242">
+</Annotation>
+<Annotation Id="9" Type="ADDRESS" StartNode="219" EndNode="225">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="244">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

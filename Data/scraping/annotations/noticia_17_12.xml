@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_17_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Las <Node id="4"/>dos<Node id="7"/> informaciones en cuestión se han publicado después de que el <Node id="69"/>11 de abril<Node id="80"/> el propio <Node id="91"/>Kim<Node id="94"/> presidiera una reunión del <Node id="122"/>buró político<Node id="135"/> del <Node id="140"/>Partido de los Trabajadores<Node id="167"/> en la que nombró a su hermana, <Node id="199"/>Kim Yo-jong<Node id="210"/>, miembro suplente de este órgano que funciona como brazo <Node id="268"/>ejecutivo<Node id="277"/> de la <Node id="284"/>formación oficialista<Node id="305"/> <Node id="306"/>norcoreana<Node id="316"/>.
+<Node id="318"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="4" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="69" EndNode="80">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="91" EndNode="94">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="122" EndNode="135">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="140" EndNode="167">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="199" EndNode="210">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="268" EndNode="277">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="284" EndNode="305">
+</Annotation>
+<Annotation Id="9" Type="LANG" StartNode="306" EndNode="316">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="318">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

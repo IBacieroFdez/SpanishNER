@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_17_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>A su vez, la pieza de la <Node id="25"/>CNN<Node id="28"/> asegura que "<Node id="42"/>EE.UU<Node id="47"/>. está confirmando información con respecto a que el <Node id="100"/>líder<Node id="105"/> de <Node id="109"/>Corea del Norte<Node id="124"/>, <Node id="126"/>Kim Jong-un<Node id="137"/>, está en grave peligro después de una <Node id="176"/>cirugía<Node id="183"/>" sin aportar más detalles.
+<Node id="211"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="25" EndNode="28">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="42" EndNode="47">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="100" EndNode="105">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="109" EndNode="124">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="126" EndNode="137">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="176" EndNode="183">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="211">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

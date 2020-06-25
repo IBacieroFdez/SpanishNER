@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_53_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La defensa argumentó ante los <Node id="30"/>tres<Node id="34"/> <Node id="35"/>jueces<Node id="41"/> de la sala que los demandantes quieren "exportar un conflicto político que se desarrolla en <Node id="134"/>España<Node id="140"/> (...) intentando que la <Node id="165"/>Justicia<Node id="173"/> <Node id="174"/>belga<Node id="179"/> se inmiscuya en el funcionamiento de la <Node id="220"/>Justicia<Node id="228"/> <Node id="229"/>española<Node id="237"/>" de manera "oportunista".
+<Node id="264"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="30" EndNode="34">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="35" EndNode="41">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="134" EndNode="140">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="165" EndNode="173">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="174" EndNode="179">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="220" EndNode="228">
+</Annotation>
+<Annotation Id="7" Type="LANG" StartNode="229" EndNode="237">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="264">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

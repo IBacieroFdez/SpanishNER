@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_60_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>portavoz<Node id="11"/> del <Node id="16"/>Ejecutivo<Node id="25"/> <Node id="26"/>vasco<Node id="31"/>, <Node id="33"/>Josu Erkoreka<Node id="46"/>, ha asegurado este <Node id="66"/>martes<Node id="72"/> que no tiene sentido que la <Node id="101"/>desescalada<Node id="112"/> se produzca en el <Node id="131"/>Estado<Node id="137"/> con unas pautas únicas, comunes y homogéneas para todas las <Node id="198"/>comunidades autonómas<Node id="219"/> ni que se lleve a cabo con un "pilotaje centralizado" por parte del <Node id="288"/>Gobierno<Node id="296"/>. 
+<Node id="299"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="16" EndNode="25">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="26" EndNode="31">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="33" EndNode="46">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="66" EndNode="72">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="101" EndNode="112">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="131" EndNode="137">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="198" EndNode="219">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="288" EndNode="296">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="299">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_103_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>7 de mayo<Node id="12"/> <Node id="13"/>Gavin Newsom<Node id="25"/>, <Node id="27"/>Gobernador<Node id="37"/> de <Node id="41"/>California<Node id="51"/>, dijo que el <Node id="65"/>estado<Node id="71"/> de <Node id="75"/>California<Node id="85"/> permitiría a algunas <Node id="107"/>industrias<Node id="117"/> comenzar a operar, incluyendo las <Node id="152"/>fábricas<Node id="160"/> y la logística asociada. <Node id="186"/>Elon Musk<Node id="195"/> respondió al mensaje de <Node id="220"/>Newsom<Node id="226"/> con un "Yeah!!". El problema es que <Node id="263"/>Newsom<Node id="269"/> dijo que las <Node id="283"/>autoridades locales<Node id="302"/> podrían mantenerse más restrictivas que el <Node id="346"/>Estado<Node id="352"/>, y ya sabemos que los <Node id="375"/>condados<Node id="383"/> del <Node id="388"/>área<Node id="392"/> de la <Node id="399"/>Bahía<Node id="404"/> de <Node id="408"/>San Francisco<Node id="421"/> extendieron el <Node id="437"/>confinamiento<Node id="450"/> hasta finales de <Node id="468"/>mayo<Node id="472"/>.
+<Node id="474"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="3" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="13" EndNode="25">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="27" EndNode="37">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="41" EndNode="51">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="75" EndNode="85">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="65" EndNode="71">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="107" EndNode="117">
+</Annotation>
+<Annotation Id="8" Type="FAC" StartNode="152" EndNode="160">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="186" EndNode="195">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="220" EndNode="226">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="263" EndNode="269">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="283" EndNode="302">
+</Annotation>
+<Annotation Id="13" Type="ORG" StartNode="346" EndNode="352">
+</Annotation>
+<Annotation Id="14" Type="LOC" StartNode="375" EndNode="383">
+</Annotation>
+<Annotation Id="15" Type="LOC" StartNode="388" EndNode="392">
+</Annotation>
+<Annotation Id="16" Type="LOC" StartNode="399" EndNode="404">
+</Annotation>
+<Annotation Id="17" Type="GPE" StartNode="408" EndNode="421">
+</Annotation>
+<Annotation Id="18" Type="EVENT" StartNode="437" EndNode="450">
+</Annotation>
+<Annotation Id="19" Type="DATE" StartNode="468" EndNode="472">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="474">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

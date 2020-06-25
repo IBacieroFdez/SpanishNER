@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_59_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La operación se incluye en la estrategia de la <Node id="47"/>Policía Nacional<Node id="63"/> dirigida a la detección y neutralización del posible retorno a nuestro <Node id="135"/>país<Node id="139"/> de terroristas procedentes de <Node id="170"/>zonas<Node id="175"/> de conflicto.
+<Node id="190"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="47" EndNode="63">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="135" EndNode="139">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="170" EndNode="175">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="190">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

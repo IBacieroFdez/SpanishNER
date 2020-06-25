@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Durante<Node id="7"/> su mandato, <Node id="20"/>Samaranch<Node id="29"/> dio varios acelerones a la lucha contra el dopaje. La descalificación de <Node id="103"/>Ben Johnson<Node id="114"/> en los <Node id="122"/>Juegos<Node id="128"/> de <Node id="132"/>Seúl'88<Node id="139"/> tuvo un impacto brutal, pero en la trastienda los tramposos siguieron campando por sus fueros. El <Node id="238"/>COI<Node id="241"/> impulsó y financió la creación de la <Node id="279"/>Agencia Mundial Antidopaje<Node id="305"/> en <Node id="309"/>1999<Node id="313"/>, aunque lo que parecía la solución definitiva tampoco lo fue. La trama <Node id="385"/>rusa<Node id="389"/> descubierta hace <Node id="407"/>cuatro<Node id="413"/> <Node id="414"/>años<Node id="418"/> puso a la luz las carencias de un sistema en el que todos los controles fallaron. También los del <Node id="517"/>organismo olímpico<Node id="535"/>.
+<Node id="537"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="0" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="20" EndNode="29">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="103" EndNode="114">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="122" EndNode="128">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="132" EndNode="139">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="238" EndNode="241">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="279" EndNode="305">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="309" EndNode="313">
+</Annotation>
+<Annotation Id="9" Type="LANG" StartNode="385" EndNode="389">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="407" EndNode="413">
+</Annotation>
+<Annotation Id="11" Type="TIME" StartNode="414" EndNode="418">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="517" EndNode="535">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="537">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_27_22.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Y sobre cuándo volveremos a la normalidad, pues depende, “si por esa normalidad entendemos coger un <Node id="100"/>avión<Node id="105"/> e irse a la otra punta del <Node id="133"/>mundo<Node id="138"/> o irse de <Node id="149"/>vacaciones<Node id="159"/> a la <Node id="165"/>playa<Node id="170"/> con otras <Node id="181"/>15.000<Node id="187"/> <Node id="188"/>personas<Node id="196"/>, a ese estilo de vida tardaremos, esto no va a ser este <Node id="253"/>verano<Node id="259"/>”. <Node id="262"/>EFEfuturo<Node id="271"/>
+<Node id="272"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="FAC" StartNode="100" EndNode="105">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="133" EndNode="138">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="149" EndNode="159">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="165" EndNode="170">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="181" EndNode="187">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="188" EndNode="196">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="253" EndNode="259">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="262" EndNode="271">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="272">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

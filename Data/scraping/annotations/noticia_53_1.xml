@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_53_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>expresidente<Node id="15"/> de la <Node id="22"/>Generalitat<Node id="33"/> <Node id="34"/>Carles Puigdemont<Node id="51"/>, en un <Node id="59"/>acto<Node id="63"/> <Node id="64"/>político<Node id="72"/> celebrado en <Node id="86"/>Perpiñán<Node id="94"/>, <Node id="96"/>Francia<Node id="103"/>, el <Node id="108"/>pasado 29 de febrero<Node id="128"/>. <Node id="130"/>EFE<Node id="133"/>/<Node id="134"/>QUIQUE GARCÍA<Node id="147"/>/Archivo
+	   
+<Node id="161"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="22" EndNode="33">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="34" EndNode="51">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="59" EndNode="63">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="64" EndNode="72">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="86" EndNode="94">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="96" EndNode="103">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="108" EndNode="128">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="130" EndNode="133">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="134" EndNode="147">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="161">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

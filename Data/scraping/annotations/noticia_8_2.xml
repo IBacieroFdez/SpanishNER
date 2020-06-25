@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_8_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Una <Node id="4"/>mujer<Node id="9"/> y un <Node id="15"/>niño<Node id="19"/> pasan por delante de la <Node id="44"/>hornacina<Node id="53"/> de <Node id="57"/>San Fermín<Node id="67"/> <Node id="68"/>en la cuesta de Santo Domingo<Node id="97"/> de <Node id="101"/>Pamplona<Node id="109"/>, primer tramo del <Node id="128"/>encierro de los Sanfermines<Node id="155"/>, en una jornada en la que el <Node id="185"/>Ayuntamiento de <Node id="201"/>Pamplona<Node id="209"/> ha anunciado la suspensión de las <Node id="244"/>fiestas<Node id="251"/> de <Node id="255"/>2020<Node id="259"/> por la <Node id="267"/>crisis<Node id="273"/> del <Node id="278"/>coronavirus<Node id="289"/>. <Node id="291"/>EFE<Node id="294"/>/<Node id="295"/>Villar López<Node id="307"/>.
+	   
+<Node id="314"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="15" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="4" EndNode="9">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="44" EndNode="53">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="57" EndNode="67">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="68" EndNode="97">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="101" EndNode="109">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="128" EndNode="155">
+</Annotation>
+<Annotation Id="8" Type="FAC" StartNode="185" EndNode="209">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="201" EndNode="209">
+</Annotation>
+<Annotation Id="22" Type="EVENT" StartNode="244" EndNode="251">
+</Annotation>
+<Annotation Id="23" Type="DATE" StartNode="255" EndNode="259">
+</Annotation>
+<Annotation Id="24" Type="EVENT" StartNode="267" EndNode="273">
+</Annotation>
+<Annotation Id="25" Type="DISEASE" StartNode="278" EndNode="289">
+</Annotation>
+<Annotation Id="26" Type="ORG" StartNode="291" EndNode="294">
+</Annotation>
+<Annotation Id="27" Type="PER" StartNode="295" EndNode="307">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="314">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

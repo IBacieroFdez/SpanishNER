@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_20_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Cuando dejaron atrás los <Node id="25"/>muros<Node id="30"/> blancos de <Node id="42"/>San Antonio<Node id="53"/> y las <Node id="60"/>grúas<Node id="65"/> del <Node id="70"/>puerto<Node id="76"/> capitalino, <Node id="89"/>Mary<Node id="93"/> seguía inconsciente pero con vida. No llegó al <Node id="141"/>hospital<Node id="149"/>.
+<Node id="151"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="42" EndNode="53">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="25" EndNode="30">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="60" EndNode="65">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="70" EndNode="76">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="89" EndNode="93">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="141" EndNode="149">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="151">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

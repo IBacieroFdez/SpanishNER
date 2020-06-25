@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_57_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>mitad<Node id="8"/> de los <Node id="16"/>2.047<Node id="21"/> fallecidos en esa <Node id="40"/>comunidad<Node id="49"/> desde el <Node id="59"/>1 de marzo<Node id="69"/> con la <Node id="77"/>prueba<Node id="83"/> de la <Node id="90"/>COVID-19<Node id="98"/> positiva eran usuarios de <Node id="125"/>residencias<Node id="136"/> o de <Node id="142"/>viviendas<Node id="151"/> tuteladas.
+<Node id="163"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="3" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="16" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="40" EndNode="49">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="59" EndNode="69">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="77" EndNode="83">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="90" EndNode="98">
+</Annotation>
+<Annotation Id="7" Type="FAC" StartNode="125" EndNode="136">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="142" EndNode="151">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="163">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

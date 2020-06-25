@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_72_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Diego Botín<Node id="11"/> comentó que “el tema del diseño naval” es algo que siempre le ha interesado, pero no ha tenido <Node id="107"/>tiempo<Node id="113"/> para meterse de lleno a ello. Aunque comenta haber “hecho un curso de diseño” y ser “mucho de números”, es “algo muy interesante”, destacó.
+<Node id="254"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="11">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="107" EndNode="113">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="254">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

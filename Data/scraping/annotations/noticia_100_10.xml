@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_100_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los responsables del <Node id="21"/>estudio<Node id="28"/> consideran que la <Node id="47"/>urea<Node id="51"/> es capaz de romper <Node id="71"/>enlaces<Node id="78"/> de <Node id="82"/>hidrógeno<Node id="91"/> y reducir la <Node id="105"/>viscosidad<Node id="115"/> de las <Node id="123"/>mezclas fluidas<Node id="138"/> y, además, contiene <Node id="159"/>minerales<Node id="168"/> de <Node id="172"/>calcio<Node id="178"/> que ayudan al proceso de <Node id="204"/>fraguado<Node id="212"/>.
+<Node id="214"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="SCITERM" StartNode="21" EndNode="28">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="47" EndNode="51">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="71" EndNode="78">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="82" EndNode="91">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="105" EndNode="115">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="123" EndNode="138">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="159" EndNode="168">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="172" EndNode="178">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="204" EndNode="212">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="214">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

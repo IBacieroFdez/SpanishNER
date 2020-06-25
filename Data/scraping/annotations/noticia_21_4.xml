@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_21_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Porque las características y métodos de <Node id="41"/>transporte<Node id="51"/> en <Node id="55"/>Basilicata<Node id="65"/> no son solo los mismos que en <Node id="96"/>Lombardía<Node id="105"/>. Además, la receptividad de las estructuras <Node id="150"/>hospitalarias<Node id="163"/> cambia de <Node id="174"/>región<Node id="180"/> a <Node id="183"/>región<Node id="189"/> y debe ser constantemente <Node id="216"/>proporcional<Node id="228"/> al número de <Node id="242"/>pacientes<Node id="251"/> <Node id="252"/>infectados<Node id="262"/> y con la <Node id="272"/>COVID-19<Node id="280"/>", aclaró.
+<Node id="291"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="55" EndNode="65">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="41" EndNode="51">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="183" EndNode="189">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="96" EndNode="105">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="150" EndNode="163">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="174" EndNode="180">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="216" EndNode="228">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="242" EndNode="251">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="252" EndNode="262">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="272" EndNode="280">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="291">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

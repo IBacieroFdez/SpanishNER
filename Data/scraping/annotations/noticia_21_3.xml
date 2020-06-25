@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_21_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Señaló que el programa tendrá "una huella nacional, ya que debe ofrecer una reorganización de los métodos de prestación de servicios de <Node id="136"/>trabajo<Node id="143"/>, un replanteamiento de los modos de <Node id="180"/>transporte<Node id="190"/>, nuevas reglas para las actividades <Node id="227"/>comerciales<Node id="238"/>", pero teniendo en cuenta las características de cada <Node id="293"/>región<Node id="299"/>.
+<Node id="301"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="136" EndNode="143">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="180" EndNode="190">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="227" EndNode="238">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="293" EndNode="299">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="301">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_49_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Adalberto Zaleta Trinidad<Node id="25"/> explicó que la zafra (el periodo de recolección de la <Node id="80"/>caña de azúcar<Node id="94"/>) "está programada a fin de <Node id="122"/>mes<Node id="125"/>" cuando "se molerá mas de <Node id="152"/>millón y medio de toneladas<Node id="179"/>".
+<Node id="182"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="25">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="80" EndNode="94">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="122" EndNode="125">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="152" EndNode="179">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="182">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

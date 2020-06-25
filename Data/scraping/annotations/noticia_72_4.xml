@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_72_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Su objetivo no es el de la <Node id="27"/>vela<Node id="31"/> oceánica. Sino algo más <Node id="56"/>olímpico<Node id="64"/>. “A mí me gustan las <Node id="86"/>regatas<Node id="93"/> ‘inshore’ que son más cortas y rápidas. Lo que más me llama es la <Node id="160"/>vela<Node id="164"/> <Node id="165"/>olímpica<Node id="173"/>, la <Node id="178"/>Copa América<Node id="190"/> o el <Node id="196"/>Circuito de <Node id="208"/>catamaranes<Node id="219"/> <Node id="220"/>SailGP<Node id="226"/>”.
+<Node id="229"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SPORT" StartNode="27" EndNode="31">
+</Annotation>
+<Annotation Id="2" Type="SPORT" StartNode="56" EndNode="64">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="229">
+</Annotation>
+<Annotation Id="3" Type="SPORT" StartNode="86" EndNode="93">
+</Annotation>
+<Annotation Id="4" Type="SPORT" StartNode="160" EndNode="164">
+</Annotation>
+<Annotation Id="5" Type="SPORT" StartNode="165" EndNode="173">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="178" EndNode="190">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="196" EndNode="219">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="220" EndNode="226">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="208" EndNode="219">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_69_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La posibilidad que tiene este <Node id="30"/>deporte<Node id="37"/> de poderse jugar online, "sin comprometer la calidad", está permitiendo la <Node id="113"/>organización<Node id="125"/> de estos <Node id="135"/>campeonatos<Node id="146"/>. De hecho, la propia <Node id="168"/>federación<Node id="178"/> destaca el aumento que está experimentando este <Node id="227"/>deporte<Node id="234"/> desde la <Node id="244"/>crisis<Node id="250"/> <Node id="251"/>sanitaria<Node id="260"/>. "Los clubes de ajedrez en línea han sido testigos de un número récord de juegos que se juegan". 
+<Node id="359"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="30" EndNode="37">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="113" EndNode="125">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="135" EndNode="146">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="168" EndNode="178">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="227" EndNode="234">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="244" EndNode="250">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="251" EndNode="260">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="359">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_66_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En la comparecencia informativa posterior a la reunión del <Node id="59"/>Comité Técnico<Node id="73"/> del <Node id="78"/>Coronavirus<Node id="89"/> celebrada el <Node id="103"/>domingo<Node id="110"/>, el <Node id="115"/>jefe<Node id="119"/> de <Node id="123"/>Estado Mayor de la Defensa<Node id="149"/> (<Node id="151"/>Jemad<Node id="156"/>), <Node id="159"/>general<Node id="166"/> <Node id="167"/>Miguel Ángel Villarroya<Node id="190"/>, se refirió expresamente a la supuesta fumigación desde <Node id="247"/>aviones<Node id="254"/> y aclaró que se trata de un bulo "rotundamente falso".
+<Node id="310"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="59" EndNode="73">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="78" EndNode="89">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="103" EndNode="110">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="115" EndNode="119">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="123" EndNode="149">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="151" EndNode="156">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="159" EndNode="166">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="167" EndNode="190">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="247" EndNode="254">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="310">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

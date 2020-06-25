@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_86_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Red de <Node id="7"/>ADDM<Node id="11"/>
+La Red de <Node id="22"/>ADDM<Node id="26"/> de los <Node id="34"/>CDC<Node id="37"/> es un sistema de seguimiento que provee estimaciones sobre la prevalencia y las características del <Node id="138"/>autismo<Node id="145"/> entre más de <Node id="159"/>300 000<Node id="166"/> niños de <Node id="176"/>8<Node id="177"/> años en <Node id="186"/>11<Node id="188"/> <Node id="189"/>comunidades<Node id="200"/> en <Node id="204"/>Arizona<Node id="211"/>, <Node id="213"/>Arkansas<Node id="221"/>, <Node id="223"/>Carolina del Norte<Node id="241"/>, <Node id="243"/>Colorado<Node id="251"/>, <Node id="253"/>Georgia<Node id="260"/>, <Node id="262"/>Maryland<Node id="270"/>, <Node id="272"/>Minnesota<Node id="281"/>, <Node id="283"/>Misuri<Node id="289"/>, <Node id="291"/>Nueva Jersey<Node id="303"/>, <Node id="305"/>Tennessee<Node id="314"/> y <Node id="317"/>Wisconsin<Node id="326"/>. Los datos de los niños de <Node id="354"/>4<Node id="355"/> años provienen de la Red <Node id="381"/>ADDM<Node id="385"/> Temprana, que es un subconjunto de <Node id="421"/>comunidades<Node id="432"/> en <Node id="436"/>Arizona<Node id="443"/>, <Node id="445"/>Carolina del Norte<Node id="463"/>, <Node id="465"/>Colorado<Node id="473"/>, <Node id="475"/>Misuri<Node id="481"/>, <Node id="483"/>Nueva Jersey<Node id="495"/> y <Node id="498"/>Wisconsin<Node id="507"/>.
+<Node id="509"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="7" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="22" EndNode="26">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="34" EndNode="37">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="138" EndNode="145">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="159" EndNode="166">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="186" EndNode="188">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="176" EndNode="177">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="354" EndNode="355">
+</Annotation>
+<Annotation Id="10" Type="NORP" StartNode="189" EndNode="200">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="204" EndNode="211">
+</Annotation>
+<Annotation Id="12" Type="GPE" StartNode="213" EndNode="221">
+</Annotation>
+<Annotation Id="13" Type="GPE" StartNode="223" EndNode="241">
+</Annotation>
+<Annotation Id="14" Type="GPE" StartNode="243" EndNode="251">
+</Annotation>
+<Annotation Id="15" Type="GPE" StartNode="253" EndNode="260">
+</Annotation>
+<Annotation Id="16" Type="GPE" StartNode="262" EndNode="270">
+</Annotation>
+<Annotation Id="17" Type="GPE" StartNode="272" EndNode="281">
+</Annotation>
+<Annotation Id="18" Type="GPE" StartNode="283" EndNode="289">
+</Annotation>
+<Annotation Id="20" Type="GPE" StartNode="291" EndNode="303">
+</Annotation>
+<Annotation Id="21" Type="GPE" StartNode="305" EndNode="314">
+</Annotation>
+<Annotation Id="22" Type="GPE" StartNode="317" EndNode="326">
+</Annotation>
+<Annotation Id="23" Type="ORG" StartNode="381" EndNode="385">
+</Annotation>
+<Annotation Id="24" Type="NORP" StartNode="421" EndNode="432">
+</Annotation>
+<Annotation Id="25" Type="GPE" StartNode="436" EndNode="443">
+</Annotation>
+<Annotation Id="26" Type="GPE" StartNode="445" EndNode="463">
+</Annotation>
+<Annotation Id="27" Type="GPE" StartNode="465" EndNode="473">
+</Annotation>
+<Annotation Id="28" Type="GPE" StartNode="475" EndNode="481">
+</Annotation>
+<Annotation Id="29" Type="GPE" StartNode="483" EndNode="495">
+</Annotation>
+<Annotation Id="30" Type="GPE" StartNode="498" EndNode="507">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="509">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

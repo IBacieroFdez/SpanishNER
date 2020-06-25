@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_91_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>¿Cómo intuyen los atajos los <Node id="29"/>animales<Node id="37"/> y el ser humano cuando se mueven de un <Node id="77"/>lugar<Node id="82"/> a otro? En el <Node id="97"/>cerebro<Node id="104"/> se han descubierto <Node id="124"/>mapas<Node id="129"/> <Node id="130"/>mentales<Node id="138"/> que ayudan a trazar las mejores <Node id="171"/>rutas<Node id="176"/> a partir de un modelo del entorno físico.
+<Node id="219"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="29" EndNode="37">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="77" EndNode="82">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="97" EndNode="104">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="124" EndNode="129">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="130" EndNode="138">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="171" EndNode="176">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="219">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

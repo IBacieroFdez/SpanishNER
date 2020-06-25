@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_2_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>Se trata de <Node id="12"/>problemas <Node id="22"/>cardiacos<Node id="31"/> o <Node id="34"/>neuronales<Node id="44"/>, que llegan ahora a muchos <Node id="72"/>centros hospitalarios<Node id="93"/> con unos <Node id="103"/>cuadros clínicos<Node id="119"/> agravados por el retraso y el miedo, como señalan desde la <Node id="179"/>Sociedad Española de Cardiología<Node id="211"/>, tras constatar que se han detectado un <Node id="252"/>40 por ciento<Node id="265"/> menos de <Node id="275"/>infartos<Node id="283"/>, más allá de los <Node id="301"/>miles<Node id="306"/> <Node id="307"/>pruebas diagnósticas<Node id="327"/> pospuestas en relación con <Node id="355"/>enfermedades<Node id="367"/>, como el <Node id="377"/>cáncer<Node id="383"/>, que muchas veces precisan intervenciones inmediatas.
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="22" EndNode="31">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="34" EndNode="44">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="3" Type="FAC" StartNode="72" EndNode="93">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="103" EndNode="119">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="12" EndNode="44">
+</Annotation>
+<Annotation Id="24" Type="ORG" StartNode="179" EndNode="211">
+</Annotation>
+<Annotation Id="25" Type="PERCENT" StartNode="252" EndNode="265">
+</Annotation>
+<Annotation Id="27" Type="DISEASE" StartNode="275" EndNode="283">
+</Annotation>
+<Annotation Id="28" Type="QUANT" StartNode="301" EndNode="306">
+</Annotation>
+<Annotation Id="29" Type="MEDTERM" StartNode="307" EndNode="327">
+</Annotation>
+<Annotation Id="30" Type="DISEASE" StartNode="355" EndNode="367">
+</Annotation>
+<Annotation Id="31" Type="DISEASE" StartNode="377" EndNode="383">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

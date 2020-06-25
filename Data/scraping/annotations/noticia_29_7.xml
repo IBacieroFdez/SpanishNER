@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_29_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En <Node id="3"/>2019<Node id="7"/>, las ventas de <Node id="23"/>modelos electrificados<Node id="45"/> en el <Node id="52"/>Grupo BMW<Node id="61"/> representaron el <Node id="79"/>8%<Node id="81"/> del total (matriculó <Node id="103"/>2.520.307<Node id="112"/> <Node id="113"/>vehículos<Node id="122"/>, el <Node id="127"/>1,25<Node id="131"/> más que un <Node id="143"/>año<Node id="146"/> antes), una cifra que en los dos primeros <Node id="189"/>meses<Node id="194"/> de <Node id="198"/>2020<Node id="202"/> han ascendido al <Node id="220"/>10%<Node id="223"/>.
+<Node id="225"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="3" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="23" EndNode="45">
+</Annotation>
+<Annotation Id="18" Type="ORG" StartNode="52" EndNode="61">
+</Annotation>
+<Annotation Id="19" Type="PERCENT" StartNode="79" EndNode="81">
+</Annotation>
+<Annotation Id="20" Type="QUANT" StartNode="103" EndNode="112">
+</Annotation>
+<Annotation Id="21" Type="PRODUCT" StartNode="113" EndNode="122">
+</Annotation>
+<Annotation Id="22" Type="QUANT" StartNode="127" EndNode="131">
+</Annotation>
+<Annotation Id="25" Type="DATE" StartNode="198" EndNode="202">
+</Annotation>
+<Annotation Id="26" Type="PERCENT" StartNode="220" EndNode="223">
+</Annotation>
+<Annotation Id="27" Type="TIME" StartNode="143" EndNode="146">
+</Annotation>
+<Annotation Id="28" Type="TIME" StartNode="189" EndNode="194">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="225">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

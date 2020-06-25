@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_17_21.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Aunque el <Node id="10"/>régimen<Node id="17"/> insiste en que no ha detectado ni un solo caso de <Node id="68"/>COVID-19<Node id="76"/> en su <Node id="83"/>territorio<Node id="93"/>, muchos <Node id="102"/>expertos<Node id="110"/> creen que ha podido propagarse por el <Node id="149"/>país<Node id="153"/> debido, por ejemplo, a su escasa capacidad para testar a sus <Node id="215"/>ciudadanos<Node id="225"/>.
+<Node id="227"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="10" EndNode="17">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="68" EndNode="76">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="83" EndNode="93">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="102" EndNode="110">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="149" EndNode="153">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="215" EndNode="225">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="227">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

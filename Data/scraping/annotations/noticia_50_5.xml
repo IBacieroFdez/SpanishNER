@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_50_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Con ello esperan que, al compartir su experiencia, recursos y tecnología, se pueda ayudar "a acelerar el trabajo que salva vidas y amplía el acceso a los servicios críticos en todo el <Node id="184"/>mundo<Node id="189"/> durante este momento tan desafiante", apuntó <Node id="235"/>Swan<Node id="239"/>.
+<Node id="241"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="184" EndNode="189">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="235" EndNode="239">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="241">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

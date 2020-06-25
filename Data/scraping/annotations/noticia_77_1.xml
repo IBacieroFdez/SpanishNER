@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_77_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>eDreams<Node id="7"/> <Node id="8"/>ODIGEO<Node id="14"/>, la agencia de viajes online más grande de <Node id="58"/>Europa<Node id="64"/> y una de las mayores <Node id="86"/>empresas<Node id="94"/> <Node id="95"/>europeas<Node id="103"/> de comercio electrónico, ha anunciado hoy su plan de trasladar el <Node id="170"/>domicilio social<Node id="186"/> del <Node id="191"/>Grupo<Node id="196"/> de <Node id="200"/>Luxemburgo<Node id="210"/> a <Node id="213"/>España<Node id="219"/>, con el objetivo de lograr eficiencias organizativas y de costes. 
+<Node id="287"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="GPE" StartNode="213" EndNode="219">
+</Annotation>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="8" EndNode="14">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="58" EndNode="64">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="86" EndNode="94">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="95" EndNode="103">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="170" EndNode="186">
+</Annotation>
+<Annotation Id="14" Type="ORG" StartNode="191" EndNode="196">
+</Annotation>
+<Annotation Id="15" Type="GPE" StartNode="200" EndNode="210">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="287">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

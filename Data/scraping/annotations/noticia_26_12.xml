@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_26_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La ventaja de su análisis, destaca el comunicado, es que se basa en <Node id="68"/>regiones<Node id="76"/> individuales y no solo compara <Node id="108"/>países<Node id="114"/>. "Aunque podemos obtener el valor medio de la contaminación atmosférica de un <Node id="193"/>país<Node id="197"/>, esta cifra podría variar enormemente de una <Node id="243"/>región<Node id="249"/> a otra y, por lo tanto, no ser un indicador fiable".
+<Node id="303"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="68" EndNode="76">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="108" EndNode="114">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="193" EndNode="197">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="243" EndNode="249">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="303">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_71_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Carolina Marín<Node id="14"/> y su lesión de rodilla, la pérdida de todos los <Node id="63"/>patrocinadores<Node id="77"/> en el caso de <Node id="92"/>Blanca Manchón<Node id="106"/>, los pronósticos en contra de <Node id="137"/>Miguel Ángel Jiménez<Node id="157"/>, el <Node id="162"/>coronavirus<Node id="173"/> en <Node id="177"/>primera<Node id="184"/> persona como en el caso de <Node id="212"/>Alfonso Reyes<Node id="225"/>, el tener que abandonar tu tierra como <Node id="265"/>Brahim Díaz<Node id="276"/> o una <Node id="283"/>operación<Node id="292"/> que terminó en <Node id="308"/>silla de ruedas<Node id="323"/> para <Node id="329"/>José Manuel Quintero<Node id="349"/> son las dificultades que han dejado a estos <Node id="394"/>deportistas<Node id="405"/> en la lucha, y son ellos los que han mostrado como esos valores les han ayudado a seguir adelante.
+<Node id="505"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="63" EndNode="77">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="92" EndNode="106">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="137" EndNode="157">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="162" EndNode="173">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="177" EndNode="184">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="212" EndNode="225">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="265" EndNode="276">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="329" EndNode="349">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="283" EndNode="292">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="308" EndNode="323">
+</Annotation>
+<Annotation Id="12" Type="SPORT" StartNode="394" EndNode="405">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="505">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

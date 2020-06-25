@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_108_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>A la familia <Node id="13"/>Tebas Medrano<Node id="26"/>, el <Node id="31"/>coronavirus<Node id="42"/> y sus efectos en la vida diaria les están dando bastante tarea. Mientras, <Node id="117"/>Javier<Node id="123"/>, <Node id="125"/>presidente<Node id="135"/> de <Node id="139"/>LaLiga<Node id="145"/>, trata de buscar una solución para que vuelva el <Node id="195"/>fútbol<Node id="201"/> de la manera más segura, <Node id="227"/>Pablo<Node id="232"/>, su hermano, está dirigiendo un equipo en la <Node id="278"/>Universidad de Pensilvania<Node id="304"/> que investiga y avanza con firmeza para conseguir una <Node id="359"/>vacuna<Node id="365"/> para el <Node id="374"/>coronavirus<Node id="385"/> además de asesorar a <Node id="407"/>Javier<Node id="413"/> en la <Node id="420"/>desescalada<Node id="431"/> del <Node id="436"/>fútbol<Node id="442"/>. 
+<Node id="445"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="13" EndNode="26">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="31" EndNode="42">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="117" EndNode="123">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="445">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="125" EndNode="135">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="139" EndNode="145">
+</Annotation>
+<Annotation Id="6" Type="SPORT" StartNode="195" EndNode="201">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="227" EndNode="232">
+</Annotation>
+<Annotation Id="8" Type="FAC" StartNode="278" EndNode="304">
+</Annotation>
+<Annotation Id="9" Type="DRUG" StartNode="359" EndNode="365">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="374" EndNode="385">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="407" EndNode="413">
+</Annotation>
+<Annotation Id="12" Type="EVENT" StartNode="420" EndNode="431">
+</Annotation>
+<Annotation Id="13" Type="SPORT" StartNode="436" EndNode="442">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

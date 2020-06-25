@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_75_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Además, sus ventas estarán exentas de comisiones <Node id="49"/>durante<Node id="56"/> <Node id="57"/>tres<Node id="61"/> <Node id="62"/>meses<Node id="67"/> y contarán en todo momento con el soporte telefónico necesario para crear una <Node id="146"/>tienda<Node id="152"/> en <Node id="156"/>eBay<Node id="160"/>. 
+<Node id="163"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="49" EndNode="56">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="62" EndNode="67">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="57" EndNode="61">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="146" EndNode="152">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="156" EndNode="160">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="163">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

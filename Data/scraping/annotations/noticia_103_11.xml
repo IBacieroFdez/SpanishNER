@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_103_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ante estas palabras, <Node id="21"/>Elon Musk<Node id="30"/> atacó a la propia oficial a través de su <Node id="72"/>Twitter<Node id="79"/> y anunció que iba a demandar al <Node id="112"/>condado<Node id="119"/> de <Node id="123"/>Alameda<Node id="130"/>. El tweet dice lo siguiente: "<Node id="161"/>Tesla<Node id="166"/> va a presentar una demanda contra el <Node id="204"/>condado<Node id="211"/> de <Node id="215"/>Alameda<Node id="222"/> de inmediato. ¡El ‘<Node id="242"/>Oficial<Node id="249"/> interino de <Node id="262"/>Salud<Node id="267"/>’ no electo e ignorante de <Node id="294"/>Alameda<Node id="301"/> está actuando en contra del <Node id="330"/>Gobernador<Node id="340"/>, el <Node id="345"/>Presidente<Node id="355"/>, nuestras libertades constitucionales y simplemente el sentido común!". Añadió que "<Node id="440"/>Tesla<Node id="445"/> sabe mucho más sobre lo que se debe hacer para estar seguro a través de nuestra experiencia en la <Node id="544"/>fábrica<Node id="551"/> de <Node id="555"/>Tesla<Node id="560"/> en <Node id="564"/>China<Node id="569"/> que un <Node id="577"/>funcionario<Node id="588"/> interino (no electo) en el <Node id="616"/>condado<Node id="623"/> de <Node id="627"/>Alameda<Node id="634"/>". La demanda puede leerse aquí.
+<Node id="667"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="21" EndNode="30">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="72" EndNode="79">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="112" EndNode="119">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="123" EndNode="130">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="161" EndNode="166">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="204" EndNode="211">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="215" EndNode="222">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="242" EndNode="249">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="262" EndNode="267">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="294" EndNode="301">
+</Annotation>
+<Annotation Id="12" Type="JOB" StartNode="330" EndNode="340">
+</Annotation>
+<Annotation Id="13" Type="JOB" StartNode="345" EndNode="355">
+</Annotation>
+<Annotation Id="14" Type="ORG" StartNode="440" EndNode="445">
+</Annotation>
+<Annotation Id="15" Type="FAC" StartNode="544" EndNode="551">
+</Annotation>
+<Annotation Id="16" Type="ORG" StartNode="555" EndNode="560">
+</Annotation>
+<Annotation Id="17" Type="GPE" StartNode="564" EndNode="569">
+</Annotation>
+<Annotation Id="18" Type="JOB" StartNode="577" EndNode="588">
+</Annotation>
+<Annotation Id="19" Type="LOC" StartNode="616" EndNode="623">
+</Annotation>
+<Annotation Id="20" Type="GPE" StartNode="627" EndNode="634">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="667">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

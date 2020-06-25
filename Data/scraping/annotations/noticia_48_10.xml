@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_48_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>Gobierno<Node id="11"/> <Node id="12"/>mexicano<Node id="20"/> estableció una serie medidas de prevención ante la <Node id="72"/>pandemia<Node id="80"/> que van desde recomendaciones para quedarse en <Node id="128"/>casa<Node id="132"/> para disminuir la propagación del <Node id="167"/>virus<Node id="172"/> y la suspensión de las actividades no esenciales en todos los <Node id="235"/>sectores<Node id="243"/> de la economía.
+<Node id="260"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="12" EndNode="20">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="72" EndNode="80">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="128" EndNode="132">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="167" EndNode="172">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="235" EndNode="243">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="260">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

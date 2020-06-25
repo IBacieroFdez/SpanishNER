@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_51_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>secretario general<Node id="21"/> del <Node id="26"/>BEI<Node id="29"/>, <Node id="31"/>Dimitri Kerkentzes<Node id="49"/>, se mostró convencido de que en las nuevas <Node id="93"/>fechas<Node id="99"/> la <Node id="103"/>Expo<Node id="107"/> cumplirá su papel de "unir los esfuerzos colectivos con el objetivo compartido del progreso de la <Node id="206"/>humanidad<Node id="215"/>".
+<Node id="218"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="21">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="26" EndNode="29">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="31" EndNode="49">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="93" EndNode="99">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="103" EndNode="107">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="206" EndNode="215">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="218">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_49_18.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Del negocio del <Node id="16"/>azúcar<Node id="22"/> viven <Node id="29"/>6.000<Node id="34"/> familias de <Node id="47"/>cañeros<Node id="54"/>; <Node id="56"/>2,800<Node id="61"/> <Node id="62"/>cortadores<Node id="72"/> de <Node id="76"/>caña<Node id="80"/>, <Node id="82"/>jornaleros<Node id="92"/> y <Node id="95"/>1,500<Node id="100"/> <Node id="101"/>operadores<Node id="111"/> de caminos.
+<Node id="124"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="16" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="29" EndNode="34">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="47" EndNode="54">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="56" EndNode="61">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="62" EndNode="72">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="76" EndNode="80">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="82" EndNode="92">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="95" EndNode="100">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="101" EndNode="111">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="124">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

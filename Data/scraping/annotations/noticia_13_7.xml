@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_13_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Señala que el <Node id="14"/>antisemitismo<Node id="27"/>, la <Node id="32"/>islamofobia<Node id="43"/> y el <Node id="49"/>antigitanismo<Node id="62"/> han alcanzado niveles alarmantes e incide en que "las agresiones a <Node id="130"/>personas<Node id="138"/> con símbolos <Node id="152"/>religiosos<Node id="162"/> y los ataques a <Node id="179"/>lugares de culto<Node id="195"/> se han hecho periódicos en <Node id="223"/>muchos<Node id="229"/> <Node id="230"/>países europeos<Node id="245"/>".
+<Node id="248"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="130" EndNode="138">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="14" EndNode="27">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="32" EndNode="43">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="49" EndNode="62">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="152" EndNode="162">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="179" EndNode="195">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="230" EndNode="245">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="223" EndNode="229">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="248">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_99_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Cuando intentaron seguir el cuestionamiento, <Node id="45"/>Trump<Node id="50"/> le dio la palabra a otro <Node id="76"/>reportero<Node id="85"/>, que le cedió su lugar a la <Node id="114"/>corresponsal<Node id="126"/> de <Node id="130"/>CBS News<Node id="138"/> para que terminara de cuestionarlo, sin embargo, esto causó la molestia de <Node id="214"/>Trump<Node id="219"/> y terminó la <Node id="233"/>conferencia<Node id="244"/> abruptamente. 
+<Node id="260"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="45" EndNode="50">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="76" EndNode="85">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="114" EndNode="126">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="130" EndNode="138">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="214" EndNode="219">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="233" EndNode="244">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="260">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

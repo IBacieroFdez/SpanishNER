@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_51_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>ministra<Node id="11"/> <Node id="12"/>emiratí<Node id="19"/> de <Node id="23"/>Cooperación Internacional<Node id="48"/> y <Node id="51"/>directora general<Node id="68"/> de la <Node id="75"/>Expo<Node id="79"/>, <Node id="81"/>Reem Al Hashimy<Node id="96"/>, aseguró que trabajará con los <Node id="128"/>países<Node id="134"/> miembros para acomodar los esfuerzos a las nuevas <Node id="185"/>fechas<Node id="191"/>".
+<Node id="194"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="12" EndNode="19">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="23" EndNode="48">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="51" EndNode="68">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="75" EndNode="79">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="81" EndNode="96">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="128" EndNode="134">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="185" EndNode="191">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="194">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

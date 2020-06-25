@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_98_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>tiempo<Node id="9"/> que transcurre entre la exposición a la <Node id="50"/>COVID‑19<Node id="58"/> y el momento en que comienzan los <Node id="93"/>síntomas<Node id="101"/> suele ser de alrededor de <Node id="128"/>cinco<Node id="133"/> o <Node id="136"/>seis<Node id="140"/> <Node id="141"/>días<Node id="145"/>, pero puede variar entre <Node id="171"/>1<Node id="172"/> y <Node id="175"/>14<Node id="177"/> <Node id="178"/>días<Node id="182"/>.
+<Node id="184"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="3" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="50" EndNode="58">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="93" EndNode="101">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="128" EndNode="133">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="136" EndNode="140">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="141" EndNode="145">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="171" EndNode="172">
+</Annotation>
+<Annotation Id="8" Type="TIME" StartNode="178" EndNode="182">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="175" EndNode="177">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="184">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

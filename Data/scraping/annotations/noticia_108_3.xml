@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_108_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Pablo Tebas Medrano<Node id="19"/> pasó por 'Hoy por hoy' de la <Node id="49"/>Cadena SER<Node id="59"/> para explicar como es su trabajo al frente de este equipo y analizar la situación a la que se enfrenta tanto <Node id="169"/>España<Node id="175"/> como el <Node id="184"/>mundo<Node id="189"/>, Desde las ondas, el <Node id="211"/>doctor<Node id="217"/> instó a la colaboración internacional para lograr esta <Node id="273"/>vacuna<Node id="279"/> contra la <Node id="290"/>Covid-19<Node id="298"/>. "Hay cierto grado de urgencia pero no es una competición. No habrá un ganador de la carrera de <Node id="395"/>vacunas<Node id="402"/>. No hay nadie que pueda generar <Node id="435"/>miles de millones<Node id="452"/> de <Node id="456"/>vacunas<Node id="463"/>. Habría que vacunar a <Node id="486"/>miles de millones<Node id="503"/> para generar la <Node id="520"/>inmunidad<Node id="529"/> de grupo y nadie puede fabricarlas solo <Node id="570"/>ahora<Node id="575"/>", aseguró.
+<Node id="587"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="49" EndNode="59">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="169" EndNode="175">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="184" EndNode="189">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="211" EndNode="217">
+</Annotation>
+<Annotation Id="7" Type="DRUG" StartNode="273" EndNode="279">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="290" EndNode="298">
+</Annotation>
+<Annotation Id="9" Type="DRUG" StartNode="395" EndNode="402">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="435" EndNode="452">
+</Annotation>
+<Annotation Id="11" Type="DRUG" StartNode="456" EndNode="463">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="486" EndNode="503">
+</Annotation>
+<Annotation Id="13" Type="MEDTERM" StartNode="520" EndNode="529">
+</Annotation>
+<Annotation Id="14" Type="TIME" StartNode="570" EndNode="575">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="587">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

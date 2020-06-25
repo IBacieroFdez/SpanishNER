@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_48_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los organizadores de la <Node id="24"/>World Seafood Industry<Node id="46"/> (<Node id="48"/>WSI<Node id="51"/>) <Node id="53"/>2020<Node id="57"/>, la única <Node id="68"/>feria<Node id="73"/> del <Node id="78"/>sector pesquero y acuícola<Node id="104"/> en <Node id="108"/>México<Node id="114"/>, anunciaron este <Node id="132"/>martes<Node id="138"/> su aplazamiento para <Node id="160"/>agosto de 2021<Node id="174"/> ante la evolución en el <Node id="199"/>país<Node id="203"/> de la <Node id="210"/>pandemia<Node id="218"/> de <Node id="222"/>COVID-19<Node id="230"/>.
+<Node id="232"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="24" EndNode="46">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="48" EndNode="51">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="53" EndNode="57">
+</Annotation>
+<Annotation Id="20" Type="DATE" StartNode="132" EndNode="138">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="68" EndNode="73">
+</Annotation>
+<Annotation Id="21" Type="DATE" StartNode="160" EndNode="174">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="78" EndNode="104">
+</Annotation>
+<Annotation Id="22" Type="LOC" StartNode="199" EndNode="203">
+</Annotation>
+<Annotation Id="23" Type="DISEASE" StartNode="210" EndNode="218">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="108" EndNode="114">
+</Annotation>
+<Annotation Id="24" Type="DISEASE" StartNode="222" EndNode="230">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="232">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_1_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ha negado que lo acordado por el <Node id="33"/>Consejo de Ministros<Node id="53"/> contradiga las palabras del <Node id="82"/>presidente<Node id="92"/> del <Node id="97"/>Gobierno<Node id="105"/>, <Node id="107"/>Pedro Sánchez<Node id="120"/>, cuando anunció el <Node id="140"/>pasado sábado<Node id="153"/> el alivio parcial del confinamiento de los <Node id="197"/>niños<Node id="202"/>.
+<Node id="204"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="33" EndNode="53">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="82" EndNode="92">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="97" EndNode="105">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="107" EndNode="120">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="140" EndNode="153">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="197" EndNode="202">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="204">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

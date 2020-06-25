@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_11_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Fruto de esta cooperación entre los distintos servicios de <Node id="59"/>aduanas<Node id="66"/> se pudo saber que un <Node id="88"/>gran cargamento<Node id="103"/> de <Node id="107"/>cocaína<Node id="114"/> procedente de <Node id="129"/>Ecuador<Node id="136"/> podría tener como destino el <Node id="166"/>puerto<Node id="172"/> de <Node id="176"/>Bilbao<Node id="182"/> <Node id="183"/>en estas fechas<Node id="198"/>.
+<Node id="200"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="59" EndNode="66">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="88" EndNode="103">
+</Annotation>
+<Annotation Id="3" Type="DRUG" StartNode="107" EndNode="114">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="129" EndNode="136">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="166" EndNode="172">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="176" EndNode="182">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="183" EndNode="198">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="200">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

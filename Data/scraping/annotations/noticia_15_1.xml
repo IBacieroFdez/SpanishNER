@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_15_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>Gobierno<Node id="11"/> ha reforzado el plan de contingencia contra la violencia de género ante la <Node id="87"/>COVID-19<Node id="95"/> para ampliar la protección a las <Node id="129"/>víctimas de trata y explotación sexual<Node id="167"/>, en el que se incluye la posibilidad de que estas víctimas y las <Node id="233"/>mujeres<Node id="240"/> en contexto de prostitución con extrema vulnerabilidad puedan ser beneficiarias del <Node id="325"/>ingreso<Node id="332"/> mínimo vital.
+<Node id="347"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="87" EndNode="95">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="129" EndNode="167">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="233" EndNode="240">
+</Annotation>
+<Annotation Id="5" Type="MONEY" StartNode="325" EndNode="332">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="347">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

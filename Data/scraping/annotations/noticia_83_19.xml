@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_83_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Prepara los <Node id="12"/>alimentos<Node id="21"/> de manera segura. Mantén los mostradores y otras superficies de la <Node id="89"/>cocina<Node id="95"/> limpios cuando prepares las <Node id="124"/>comidas<Node id="131"/>. Cocina los <Node id="144"/>alimentos<Node id="153"/> a la <Node id="159"/>temperatura<Node id="170"/> adecuada, y usa un <Node id="190"/>termómetro<Node id="200"/> para <Node id="206"/>alimentos<Node id="215"/> para verificar si están bien cocidos. Para las <Node id="263"/>carnes molidas<Node id="277"/>, esto significa al menos <Node id="303"/>160<Node id="306"/> <Node id="307"/>ºF<Node id="309"/> (<Node id="311"/>71<Node id="313"/> <Node id="314"/>ºC<Node id="316"/>); para las <Node id="328"/>carnes<Node id="334"/> de <Node id="338"/>aves<Node id="342"/>, <Node id="344"/>165<Node id="347"/> <Node id="348"/>ºF<Node id="350"/> (<Node id="352"/>74<Node id="354"/> <Node id="355"/>ºC<Node id="357"/>); y para la mayoría de las demás <Node id="391"/>carnes<Node id="397"/>, al menos <Node id="408"/>145<Node id="411"/> ºF (<Node id="416"/>63<Node id="418"/> <Node id="419"/>ºC<Node id="421"/>).
+<Node id="424"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="12" EndNode="21">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="89" EndNode="95">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="124" EndNode="131">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="424">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="144" EndNode="153">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="159" EndNode="170">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="190" EndNode="200">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="206" EndNode="215">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="263" EndNode="277">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="303" EndNode="306">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="311" EndNode="313">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="344" EndNode="347">
+</Annotation>
+<Annotation Id="13" Type="QUANT" StartNode="352" EndNode="354">
+</Annotation>
+<Annotation Id="14" Type="QUANT" StartNode="416" EndNode="418">
+</Annotation>
+<Annotation Id="15" Type="QUANT" StartNode="408" EndNode="411">
+</Annotation>
+<Annotation Id="16" Type="PRODUCT" StartNode="328" EndNode="334">
+</Annotation>
+<Annotation Id="17" Type="PRODUCT" StartNode="338" EndNode="342">
+</Annotation>
+<Annotation Id="18" Type="PRODUCT" StartNode="391" EndNode="397">
+</Annotation>
+<Annotation Id="19" Type="SCITERM" StartNode="307" EndNode="309">
+</Annotation>
+<Annotation Id="20" Type="SCITERM" StartNode="314" EndNode="316">
+</Annotation>
+<Annotation Id="21" Type="SCITERM" StartNode="348" EndNode="350">
+</Annotation>
+<Annotation Id="22" Type="SCITERM" StartNode="419" EndNode="421">
+</Annotation>
+<Annotation Id="23" Type="SCITERM" StartNode="355" EndNode="357">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

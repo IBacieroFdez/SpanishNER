@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_20_26.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Nuestra industria turística se estaba recuperando de los ataques. Ahora que estábamos volviendo a una casi normalidad, ha llegado la <Node id="134"/>pandemia<Node id="142"/>", dijo a <Node id="152"/>Efe<Node id="155"/> el <Node id="159"/>especialista<Node id="171"/> en turismo <Node id="183"/>Srilal Mittapala<Node id="199"/>.
+<Node id="201"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="134" EndNode="142">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="152" EndNode="155">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="159" EndNode="171">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="183" EndNode="199">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="201">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

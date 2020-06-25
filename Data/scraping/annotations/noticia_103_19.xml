@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_103_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>condado<Node id="10"/> de <Node id="14"/>Alameda<Node id="21"/>, por su parte, emitió un comunicado el mismo día diciendo que <Node id="84"/>Tesla<Node id="89"/> solo puede mantener unas "operaciones mínimas básicas" y que está afrontando esta situación de la misma forma que lo ha hecho con otras <Node id="226"/>empresas<Node id="234"/> que han violado la orden en el pasado. "Esperamos que <Node id="289"/>Tesla<Node id="294"/> pueda cumplir sin más medidas de aplicación de la ley", aseguran. Con todo, medios locales como <Node id="391"/>FOX<Node id="394"/> KTVU aseguran que el <Node id="416"/>parking<Node id="423"/> de la <Node id="430"/>fábrica<Node id="437"/> ha aparecido esta <Node id="456"/>mañana<Node id="462"/> lleno de <Node id="472"/>coches<Node id="478"/>, por lo que parece que <Node id="502"/>Musk<Node id="506"/> ha cumplido su palabra. Habrá que esperar a ver cómo se desarrollan los hechos.
+<Node id="587"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="3" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="14" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="84" EndNode="89">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="226" EndNode="234">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="289" EndNode="294">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="391" EndNode="394">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="416" EndNode="423">
+</Annotation>
+<Annotation Id="8" Type="FAC" StartNode="430" EndNode="437">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="472" EndNode="478">
+</Annotation>
+<Annotation Id="10" Type="TIME" StartNode="456" EndNode="462">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="502" EndNode="506">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="587">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

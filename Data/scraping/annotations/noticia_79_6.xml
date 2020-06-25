@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_79_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Rosen<Node id="5"/> detalla que la <Node id="21"/>red social<Node id="31"/> ha dirigido a más de <Node id="53"/>2.000 millones<Node id="67"/> de personas a fuentes de la <Node id="96"/>OMS<Node id="99"/> y <Node id="102"/>autoridades sanitarias<Node id="124"/> a través de su <Node id="140"/>Centro de Información<Node id="161"/> sobre <Node id="168"/>Covid-19<Node id="176"/>, y más de <Node id="187"/>350 millones<Node id="199"/> de personas han pinchado en ventanas emergentes (pop-ups) en <Node id="261"/>Facebook<Node id="269"/> e <Node id="272"/>Instagram<Node id="281"/> para obtener más información de la <Node id="317"/>pandemia<Node id="325"/>.
+<Node id="327"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="53" EndNode="67">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="21" EndNode="31">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="96" EndNode="99">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="102" EndNode="124">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="140" EndNode="161">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="168" EndNode="176">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="187" EndNode="199">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="261" EndNode="269">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="272" EndNode="281">
+</Annotation>
+<Annotation Id="11" Type="EVENT" StartNode="317" EndNode="325">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="327">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

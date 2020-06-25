@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_21_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>"<Node id="1"/>Antes<Node id="6"/> del final de <Node id="20"/>esta semana<Node id="31"/>, espero comunicarles este plan y explicarle los detalles de este complejo programa. Una predicción razonable es que la aplicaremos a partir del <Node id="176"/>4 de mayo<Node id="185"/>", adelantó <Node id="197"/>Conte<Node id="202"/> en un mensaje escrito en su página de <Node id="241"/>Facebook<Node id="249"/>.
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="20" EndNode="31">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="1" EndNode="6">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="3" Type="TIME" StartNode="176" EndNode="185">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="197" EndNode="202">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="241" EndNode="249">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

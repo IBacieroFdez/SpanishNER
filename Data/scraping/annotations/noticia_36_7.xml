@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_36_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes> <Node id="1"/>Loves, I've accepted the <Node id="26"/>#ALLINCHALLENGE<Node id="41"/> <Node id="42"/>@allinchallenge<Node id="57"/>. Watch this video then check <Node id="87"/>https://bit.ly/thaliaallinchallenge<Node id="122"/> (<Node id="124"/>link<Node id="128"/> in Bio!) to see what I’m donating. Let’s come together to help the most vulnerable during this difficult time! <Node id="240"/>100%<Node id="244"/> of the funds will help the following organizations: <Node id="297"/>@nokidhungry<Node id="309"/>, <Node id="311"/>@mealsonwheelsamerica<Node id="332"/>, <Node id="334"/>@feedingamerica<Node id="349"/> and <Node id="354"/>@wckitchen<Node id="364"/> (<Node id="366"/>@americasfoodfund<Node id="383"/>). Thank you so much! Now, I nominate my dearest friend <Node id="439"/>@Maluma<Node id="446"/> - ARE YOU ALL IN?! ?? Link in Bio ?????????? ¡Cariños, me he unido al <Node id="517"/>#ALLINCHALLENGE<Node id="532"/>! <Node id="534"/>@allinchallenge<Node id="549"/> En estos momentos de crisis, unamos fuerzas para ayudar a los que más lo necesitan. Por eso estoy donando la oportunidad de que uno de ustedes participe en uno de mis próximos videos musicales. Miren el link en mi BIO para más detalles y para que hagan su contribución y participen. El <Node id="836"/>100%<Node id="840"/> de los fondos recaudados apoyarán a las siguientes organizaciones: <Node id="908"/>@nokidhungry<Node id="920"/>, <Node id="922"/>@mealsonwheelsamerica<Node id="943"/>, <Node id="945"/>@feedingamerica<Node id="960"/> and <Node id="965"/>@wckitchen<Node id="975"/> (<Node id="977"/>@americasfoodfund<Node id="994"/>). ¡Muchas muchas gracias! ¡Ahora, nomino a mi querido amigo <Node id="1055"/>@Maluma<Node id="1062"/>! ?? <Node id="1067"/>Enlace<Node id="1073"/> en mi BIO
+<Node id="1084"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="26" EndNode="41">
+</Annotation>
+<Annotation Id="2" Type="ADDRESS" StartNode="42" EndNode="57">
+</Annotation>
+<Annotation Id="3" Type="ADDRESS" StartNode="87" EndNode="122">
+</Annotation>
+<Annotation Id="4" Type="ADDRESS" StartNode="124" EndNode="128">
+</Annotation>
+<Annotation Id="5" Type="PERCENT" StartNode="240" EndNode="244">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="297" EndNode="309">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="311" EndNode="332">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="334" EndNode="349">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="354" EndNode="364">
+</Annotation>
+<Annotation Id="10" Type="NORP" StartNode="366" EndNode="383">
+</Annotation>
+<Annotation Id="11" Type="EVENT" StartNode="517" EndNode="532">
+</Annotation>
+<Annotation Id="12" Type="ADDRESS" StartNode="439" EndNode="446">
+</Annotation>
+<Annotation Id="13" Type="EVENT" StartNode="534" EndNode="549">
+</Annotation>
+<Annotation Id="14" Type="NORP" StartNode="908" EndNode="920">
+</Annotation>
+<Annotation Id="15" Type="NORP" StartNode="922" EndNode="943">
+</Annotation>
+<Annotation Id="16" Type="NORP" StartNode="945" EndNode="960">
+</Annotation>
+<Annotation Id="17" Type="NORP" StartNode="965" EndNode="975">
+</Annotation>
+<Annotation Id="18" Type="NORP" StartNode="977" EndNode="994">
+</Annotation>
+<Annotation Id="19" Type="ADDRESS" StartNode="1055" EndNode="1062">
+</Annotation>
+<Annotation Id="20" Type="PERCENT" StartNode="836" EndNode="840">
+</Annotation>
+<Annotation Id="21" Type="ADDRESS" StartNode="1067" EndNode="1073">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="1" EndNode="1084">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

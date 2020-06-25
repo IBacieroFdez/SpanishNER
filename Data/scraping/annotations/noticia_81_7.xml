@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>síntomas<Node id="12"/> más habituales de la <Node id="34"/>COVID-19<Node id="42"/> son la <Node id="50"/>fiebre<Node id="56"/>, la <Node id="61"/>tos<Node id="64"/> seca y el <Node id="75"/>cansancio<Node id="84"/>. Otros <Node id="92"/>síntomas<Node id="100"/> menos frecuentes que afectan a algunos <Node id="140"/>pacientes<Node id="149"/> son los <Node id="158"/>dolores<Node id="165"/> y <Node id="168"/>molestias<Node id="177"/>, la <Node id="182"/>congestión nasal<Node id="198"/>, el <Node id="203"/>dolor<Node id="208"/> de cabeza, la <Node id="223"/>conjuntivitis<Node id="236"/>, el <Node id="241"/>dolor de garganta<Node id="258"/>, la <Node id="263"/>diarrea<Node id="270"/>, la pérdida del gusto o el olfato y las <Node id="311"/>erupciones cutáneas<Node id="330"/> o cambios de color en los dedos de las manos o los pies. Estos <Node id="394"/>síntomas<Node id="402"/> suelen ser leves y comienzan gradualmente. Algunas de las personas <Node id="470"/>infectadas<Node id="480"/> solo presentan <Node id="496"/>síntomas<Node id="504"/> levísimos.
+<Node id="516"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="4" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="34" EndNode="42">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="50" EndNode="56">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="61" EndNode="64">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="75" EndNode="84">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="92" EndNode="100">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="140" EndNode="149">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="158" EndNode="165">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="168" EndNode="177">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="182" EndNode="198">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="203" EndNode="208">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="223" EndNode="236">
+</Annotation>
+<Annotation Id="13" Type="DISEASE" StartNode="241" EndNode="258">
+</Annotation>
+<Annotation Id="14" Type="DISEASE" StartNode="263" EndNode="270">
+</Annotation>
+<Annotation Id="15" Type="DISEASE" StartNode="311" EndNode="330">
+</Annotation>
+<Annotation Id="16" Type="MEDTERM" StartNode="394" EndNode="402">
+</Annotation>
+<Annotation Id="17" Type="DISEASE" StartNode="470" EndNode="480">
+</Annotation>
+<Annotation Id="18" Type="MEDTERM" StartNode="496" EndNode="504">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="516">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

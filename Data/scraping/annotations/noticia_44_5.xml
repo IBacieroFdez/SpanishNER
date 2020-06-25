@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_44_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Francia<Node id="7"/> roza actualmente los <Node id="29"/>18.000<Node id="35"/> muertos por <Node id="48"/>coronavirus<Node id="59"/> y el impacto de la <Node id="79"/>pandemia<Node id="87"/> en otros <Node id="97"/>países<Node id="103"/> les ha llevado a paralizar temporalmente su actividad en <Node id="161"/>plantas<Node id="168"/> como las de <Node id="181"/>Alemania<Node id="189"/>, <Node id="191"/>Estados Unidos<Node id="205"/>, <Node id="207"/>Canadá<Node id="213"/> o <Node id="216"/>España<Node id="222"/>
+<Node id="223"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="GPE" StartNode="0" EndNode="7">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="29" EndNode="35">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="48" EndNode="59">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="79" EndNode="87">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="97" EndNode="103">
+</Annotation>
+<Annotation Id="7" Type="FAC" StartNode="161" EndNode="168">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="181" EndNode="189">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="191" EndNode="205">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="207" EndNode="213">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="216" EndNode="222">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="223">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

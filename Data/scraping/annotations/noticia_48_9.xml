@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_48_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Destacó que <Node id="12"/>México<Node id="18"/> cuenta con la <Node id="33"/>cuarta<Node id="39"/> <Node id="40"/>industria pesquera<Node id="58"/> más importante en el <Node id="80"/>continente<Node id="90"/> <Node id="91"/>americano<Node id="100"/>; es el <Node id="108"/>tercer<Node id="114"/> productor mundial de <Node id="136"/>pulpo<Node id="141"/>, el <Node id="146"/>cuarto<Node id="152"/> en <Node id="156"/>atún<Node id="160"/>, el <Node id="165"/>séptimo<Node id="172"/> en <Node id="176"/>camarón<Node id="183"/> y el <Node id="189"/>octavo<Node id="195"/> en <Node id="199"/>langosta<Node id="207"/>, subrayó entonces la <Node id="229"/>organización<Node id="241"/>.
+<Node id="243"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="12" EndNode="18">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="33" EndNode="39">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="40" EndNode="58">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="80" EndNode="90">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="91" EndNode="100">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="108" EndNode="114">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="136" EndNode="141">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="156" EndNode="160">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="176" EndNode="183">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="199" EndNode="207">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="229" EndNode="241">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="146" EndNode="152">
+</Annotation>
+<Annotation Id="13" Type="QUANT" StartNode="165" EndNode="172">
+</Annotation>
+<Annotation Id="14" Type="QUANT" StartNode="189" EndNode="195">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="243">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

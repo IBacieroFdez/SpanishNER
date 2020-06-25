@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_36_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En la misma línea, la <Node id="22"/>cantante<Node id="30"/> <Node id="31"/>Thalía<Node id="37"/> se ha unido al mismo <Node id="59"/>reto<Node id="63"/> <Node id="64"/>#allinchallenge<Node id="79"/> con la intención de unir "fuerzas" en estos momentos de <Node id="136"/>crisis<Node id="142"/>, dice a través de las <Node id="165"/>redes sociales<Node id="179"/> la <Node id="183"/>mexicana<Node id="191"/>.
+<Node id="193"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="22" EndNode="30">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="31" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="64" EndNode="79">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="59" EndNode="63">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="136" EndNode="142">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="165" EndNode="179">
+</Annotation>
+<Annotation Id="7" Type="LANG" StartNode="183" EndNode="191">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="193">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

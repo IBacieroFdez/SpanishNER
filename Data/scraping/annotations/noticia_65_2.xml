@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_65_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Lo cierto es que estas <Node id="23"/>imágenes<Node id="31"/> corresponden al <Node id="48"/>naufragio<Node id="57"/> que tuvo lugar frente a las <Node id="86"/>costas<Node id="92"/> de la <Node id="99"/>isla<Node id="103"/> de <Node id="107"/>Lampedusa<Node id="116"/>, al <Node id="121"/>sur<Node id="124"/> de <Node id="128"/>Italia<Node id="134"/>, el <Node id="139"/>3 de octubre de 2013<Node id="159"/>.
+<Node id="161"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="23" EndNode="31">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="48" EndNode="57">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="86" EndNode="92">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="99" EndNode="103">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="107" EndNode="116">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="128" EndNode="134">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="121" EndNode="124">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="139" EndNode="159">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="161">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

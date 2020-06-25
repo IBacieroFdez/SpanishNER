@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_91_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Las aptitudes cartográficas del <Node id="32"/>cerebro<Node id="39"/> no solo supervisan el <Node id="62"/>espacio<Node id="69"/> físico que ocupamos. También pueden resultar vitales en procesos mentales como la <Node id="152"/>memoria<Node id="159"/>, la imaginación, las deducciones y el razonamiento abstracto.
+<Node id="222"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="MEDTERM" StartNode="32" EndNode="39">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="62" EndNode="69">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="152" EndNode="159">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="222">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

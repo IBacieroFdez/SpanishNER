@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_85_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La mayoría de los <Node id="18"/>alimentos<Node id="27"/> que come se convierten en <Node id="54"/>azúcar<Node id="60"/> (también llamada <Node id="78"/>glucosa<Node id="85"/>) que se libera en el <Node id="107"/>torrente sanguíneo<Node id="125"/>. El <Node id="130"/>páncreas<Node id="138"/> produce una <Node id="151"/>hormona<Node id="158"/> llamada <Node id="167"/>insulina<Node id="175"/>, que actúa como una <Node id="196"/>llave<Node id="201"/> que permite que el <Node id="221"/>azúcar<Node id="227"/> en la <Node id="234"/>sangre<Node id="240"/> entre a las <Node id="253"/>células<Node id="260"/> del cuerpo para que estas la usen como <Node id="300"/>energía<Node id="307"/>.
+<Node id="309"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="18" EndNode="27">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="54" EndNode="60">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="78" EndNode="85">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="107" EndNode="125">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="130" EndNode="138">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="151" EndNode="158">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="167" EndNode="175">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="196" EndNode="201">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="221" EndNode="227">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="234" EndNode="240">
+</Annotation>
+<Annotation Id="11" Type="SCITERM" StartNode="253" EndNode="260">
+</Annotation>
+<Annotation Id="12" Type="SCITERM" StartNode="300" EndNode="307">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="309">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

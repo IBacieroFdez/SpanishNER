@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_78_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Para la <Node id="8"/>coordinadora<Node id="20"/> de esta nueva ventana de información financiera de <Node id="72"/>Impact Hub<Node id="82"/> <Node id="83"/>Madrid<Node id="89"/>, <Node id="91"/>Carmen García<Node id="104"/>, con el Programa Impact Care se dirigen "a un grupo muy amplio de la población que integra el músculo económico del país. Dentro de este contexto, las <Node id="256"/>personas emprendedoras<Node id="278"/> o en régimen de <Node id="295"/>autónomos<Node id="304"/>, <Node id="306"/>startups<Node id="314"/> y pequeñas y medianas <Node id="337"/>empresas<Node id="345"/> lo tienen todavía más difícil para afrontar la situación por la falta de recursos”.
+<Node id="430"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="8" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="72" EndNode="82">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="306" EndNode="314">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="337" EndNode="345">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="83" EndNode="89">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="91" EndNode="104">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="256" EndNode="278">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="295" EndNode="304">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="430">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

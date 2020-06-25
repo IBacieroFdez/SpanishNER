@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_23_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El acuerdo, que según sus <Node id="26"/>autores<Node id="33"/> fue alcanzado "a la luz del <Node id="62"/>estado de emergencia<Node id="82"/> en que se encuentra el <Node id="106"/>país<Node id="110"/> y los desafíos <Node id="126"/>médicos<Node id="133"/>, económicos y sociales que enfrenta", prevé también la creación de un "<Node id="205"/>Gabinete<Node id="213"/> del <Node id="218"/>coronavirus<Node id="229"/>".
+<Node id="232"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="26" EndNode="33">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="62" EndNode="82">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="106" EndNode="110">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="126" EndNode="133">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="205" EndNode="213">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="218" EndNode="229">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="232">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_82_25.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>No. Los <Node id="8"/>antibióticos<Node id="20"/> son eficaces contra las <Node id="45"/>bacterias<Node id="54"/>, pero no contra los <Node id="75"/>virus<Node id="80"/>.
+<Node id="82"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="8" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="45" EndNode="54">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="75" EndNode="80">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="82">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

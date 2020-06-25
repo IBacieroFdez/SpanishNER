@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_27_21.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Hay que tener claro que “probablemente mantendremos durante <Node id="60"/>muchos<Node id="66"/> <Node id="67"/>meses<Node id="72"/>” medidas con el distanciamiento social, las <Node id="117"/>mascarillas<Node id="128"/> o el <Node id="134"/>control sanitario<Node id="151"/>.
+<Node id="153"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="67" EndNode="72">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="60" EndNode="66">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="117" EndNode="128">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="134" EndNode="151">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="153">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

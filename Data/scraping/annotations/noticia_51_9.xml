@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_51_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>presidente<Node id="13"/> del <Node id="18"/>Comité Ejecutivo<Node id="34"/>, <Node id="36"/>Alain Berger<Node id="48"/>, felicitó a <Node id="61"/>Emiratos<Node id="69"/> por haber tomado las medidas necesarias para un eventual retraso, "lo que demuestra su determinación y compromiso para acoger una <Node id="200"/>Exposición Universal<Node id="220"/> auténticamente inclusiva e inspiradora".
+<Node id="262"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="18" EndNode="34">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="36" EndNode="48">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="61" EndNode="69">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="200" EndNode="220">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="262">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

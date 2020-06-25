@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Busque inmediatamente <Node id="22"/>atención médica<Node id="37"/> si tiene dificultad para respirar o siente <Node id="81"/>dolor<Node id="86"/> o <Node id="89"/>presión en el pecho<Node id="108"/>. Si es posible, llame a su dispensador de atención de la <Node id="166"/>salud<Node id="171"/> con antelación para que pueda dirigirlo hacia
+    el <Node id="225"/>centro de salud<Node id="240"/> adecuado.
+<Node id="251"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="81" EndNode="86">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="89" EndNode="108">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="166" EndNode="171">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="225" EndNode="240">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="22" EndNode="37">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="251">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/aspirina_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Las personas de edad avanzada no deben tomar este <Node id="50"/>medicamento<Node id="61"/> sin consultar a su <Node id="81"/>médico<Node id="87"/>, ya que son más propensas a padecer sus efectos adversos. Los pacientes con dietas pobres en <Node id="181"/>sodio<Node id="186"/> deben tener en cuenta que este <Node id="218"/>medicamento<Node id="229"/> contiene <Node id="239"/>471<Node id="242"/> mg (<Node id="247"/>20,5<Node id="251"/> mmol) de <Node id="261"/>sodio<Node id="266"/> por <Node id="271"/>comprimido efervescente<Node id="294"/>. Siga estas instrucciones a menos que su <Node id="336"/>médico<Node id="342"/> le haya dado otras indicaciones distintas. Este <Node id="391"/>medicamento<Node id="402"/> se administra por <Node id="421"/>vía<Node id="424"/> <Node id="425"/>oral<Node id="429"/>. Adultos y mayores de <Node id="452"/>16<Node id="454"/> años: <Node id="461"/>1<Node id="462"/> <Node id="463"/>comprimido efervescente<Node id="486"/> cada <Node id="492"/>6<Node id="493"/> <Node id="494"/>horas<Node id="499"/>, si fuera necesario.<Node id="520"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="50" EndNode="61">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="81" EndNode="87">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="181" EndNode="186">
+</Annotation>
+<Annotation Id="5" Type="DRUG" StartNode="218" EndNode="229">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="239" EndNode="242">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="247" EndNode="251">
+</Annotation>
+<Annotation Id="8" Type="SCITERM" StartNode="261" EndNode="266">
+</Annotation>
+<Annotation Id="9" Type="DRUG" StartNode="271" EndNode="294">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="336" EndNode="342">
+</Annotation>
+<Annotation Id="11" Type="DRUG" StartNode="391" EndNode="402">
+</Annotation>
+<Annotation Id="12" Type="MEDTERM" StartNode="425" EndNode="429">
+</Annotation>
+<Annotation Id="13" Type="MEDTERM" StartNode="421" EndNode="424">
+</Annotation>
+<Annotation Id="14" Type="QUANT" StartNode="452" EndNode="454">
+</Annotation>
+<Annotation Id="15" Type="QUANT" StartNode="461" EndNode="462">
+</Annotation>
+<Annotation Id="16" Type="DRUG" StartNode="463" EndNode="486">
+</Annotation>
+<Annotation Id="17" Type="QUANT" StartNode="492" EndNode="493">
+</Annotation>
+<Annotation Id="18" Type="TIME" StartNode="494" EndNode="499">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="520">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

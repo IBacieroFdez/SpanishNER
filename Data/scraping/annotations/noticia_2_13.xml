@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_2_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>Esos planes contemplan una aplicación de forma heterogénea en los distintos <Node id="76"/>territorios<Node id="87"/>, con especial atención a cada <Node id="118"/>municipio<Node id="127"/>, y casi todas las miradas se dirigen a <Node id="167"/>Canarias<Node id="175"/>, donde el índice de incidencia del <Node id="211"/>coronavirus<Node id="222"/> es del <Node id="230"/>0,095 por ciento<Node id="246"/>, con sólo <Node id="257"/>6<Node id="258"/> fallecidos por cada <Node id="279"/>100.000<Node id="286"/> <Node id="287"/>habitantes<Node id="297"/>.
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="76" EndNode="87">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="118" EndNode="127">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="167" EndNode="175">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="211" EndNode="222">
+</Annotation>
+<Annotation Id="5" Type="PERCENT" StartNode="230" EndNode="246">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="257" EndNode="258">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="279" EndNode="286">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="8" Type="PER" StartNode="287" EndNode="297">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

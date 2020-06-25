@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_85_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Con la <Node id="7"/>diabetes<Node id="15"/> tipo <Node id="21"/>2<Node id="22"/>, el cuerpo no usa la <Node id="44"/>insulina<Node id="52"/> adecuadamente y no puede mantener el <Node id="90"/>azúcar<Node id="96"/> en la <Node id="103"/>sangre<Node id="109"/> a niveles normales. Aproximadamente del <Node id="150"/>90<Node id="152"/> al <Node id="156"/>95%<Node id="159"/> de las personas con <Node id="180"/>diabetes<Node id="188"/> tiene la <Node id="198"/>diabetes<Node id="206"/> tipo <Node id="212"/>2<Node id="213"/>. Es un proceso que evoluciona a lo largo de muchos años y generalmente se diagnostica en los adultos (si bien se está presentando cada vez más en los niños, los adolescentes y los adultos jóvenes). Es posible que no sienta ningún <Node id="444"/>síntoma<Node id="451"/>; por lo tanto, es importante que se haga un <Node id="496"/>análisis<Node id="504"/> de sus niveles de <Node id="523"/>azúcar<Node id="529"/> en la <Node id="536"/>sangre<Node id="542"/> si está en riesgo. La <Node id="565"/>diabetes<Node id="573"/> tipo <Node id="579"/>2<Node id="580"/> se puede prevenir o retrasar con cambios de estilo de vida saludables, como bajar de peso si tiene <Node id="680"/>sobrepeso<Node id="689"/>, tener una alimentación <Node id="714"/>saludable<Node id="723"/> y hacer <Node id="732"/>actividad física<Node id="748"/> regularmente.
+<Node id="763"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="7" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="198" EndNode="206">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="180" EndNode="188">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="565" EndNode="573">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="21" EndNode="22">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="150" EndNode="152">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="212" EndNode="213">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="579" EndNode="580">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="763">
+</Annotation>
+<Annotation Id="16" Type="MEDTERM" StartNode="536" EndNode="542">
+</Annotation>
+<Annotation Id="17" Type="DISEASE" StartNode="680" EndNode="689">
+</Annotation>
+<Annotation Id="18" Type="SPORT" StartNode="732" EndNode="748">
+</Annotation>
+<Annotation Id="20" Type="MEDTERM" StartNode="714" EndNode="723">
+</Annotation>
+<Annotation Id="9" Type="PERCENT" StartNode="156" EndNode="159">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="44" EndNode="52">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="90" EndNode="96">
+</Annotation>
+<Annotation Id="12" Type="MEDTERM" StartNode="103" EndNode="109">
+</Annotation>
+<Annotation Id="13" Type="MEDTERM" StartNode="444" EndNode="451">
+</Annotation>
+<Annotation Id="14" Type="SCITERM" StartNode="496" EndNode="504">
+</Annotation>
+<Annotation Id="15" Type="PRODUCT" StartNode="523" EndNode="529">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

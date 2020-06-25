@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_57_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>Fiscalía<Node id="11"/> tiene abiertas al menos <Node id="36"/>86<Node id="38"/> investigaciones de carácter penal a otras tantas <Node id="88"/>residencias<Node id="99"/> distribuidas por todo el <Node id="125"/>país<Node id="129"/>, siendo <Node id="138"/>Madrid<Node id="144"/> la <Node id="148"/>comunidad<Node id="157"/> que presenta la situación más preocupante al acumular casi la <Node id="220"/>mitad<Node id="225"/> de las diligencias.
+<Node id="246"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="36" EndNode="38">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="125" EndNode="129">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="88" EndNode="99">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="138" EndNode="144">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="148" EndNode="157">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="220" EndNode="225">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="246">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

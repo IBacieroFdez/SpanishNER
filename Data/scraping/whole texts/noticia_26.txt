@@ -1,0 +1,33 @@
+Los elevados niveles de dióxido de nitrógeno en el aire “pueden” estar asociados con un alto número de muertes por COVID-19, según un estudio que analiza datos de varios lugares, entre ellos Madrid, realizado por la Universidad Martín Lutero de Halle-Witternberg (Alemania).
+
+El autor principal de la investigación, Yaron Ogen, advierte de que este es “solo un indicio inicial” sobre la correlación entre contaminación, movimiento del aire y la gravedad de los brotes de coronavirus, por lo que se debería hacer en otras regiones para “ponerse en un contexto más amplio”.
+
+
+
+El estudio, que publica Science of the Total Enviroment, combina datos de contaminación atmosférica, corrientes de aire y fallecimientos confirmados relacionados con la COVID-19 y apunta a que las regiones con niveles de contaminación permanentemente altos tienen “significativamente más muertes que otras regiones”.
+
+El dióxido de nitrógeno es un contaminante del aire que daña el tracto respiratorio y desde hace años que se sabe que causa muchos tipos de enfermedades respiratorias y cardiovasculares.
+
+
+
+El estudio combina tres tipos de datos, entre ellos los niveles de contaminación regional de dióxido de nitrógeno medidos por el satélite Sentinel 5P de la Agencia Espacial Europea (ESA), que monitoriza continuamente la contaminación del aire en la tierra.
+
+El experto elaboró con esos datos un panorama mundial de las regiones con cantidades elevadas y prolongadas de contaminación por dióxido de nitrógeno y se fijó en los valores de enero y febrero de este año, antes de que el brote de coronavirus llegara a Europa.
+
+Después combinó esos datos con otros sobre flujos verticales de aire procedentes de la Administración Nacional de Océanos y Atmósfera de Estados Unidos (NOAA).
+
+Si el aire está en movimiento, los contaminantes cerca del suelo también están más diseminados, pero si el aire tiende a permanecer cerca del suelo, eso “también se aplicará a los contaminantes del aire, que entonces es más probable que sean inhalados por los seres humanos en mayores cantidades y, por tanto, conducir a problemas de salud”, agrega la nota.
+
+
+
+Utilizando esos datos, el investigador identificó puntos calientes en todo el mundo con altos niveles de contaminación del aire y simultáneamente con bajos niveles de movimiento de aire.
+
+El siguiente paso fue compara estos datos con los de fallecimientos relacionados con la COVID-19, analizando de manera específica los de España, Italia, Francia y Alemania.
+
+El resultado fue que “las regiones con un alto número de muertes tenían también niveles particularmente altos de dióxido de nitrógeno y una cantidad particularmente baja de intercambio vertical de aire”.
+
+
+
+La ventaja de su análisis, destaca el comunicado, es que se basa en regiones individuales y no solo compara países. "Aunque podemos obtener el valor medio de la contaminación atmosférica de un país, esta cifra podría variar enormemente de una región a otra y, por lo tanto, no ser un indicador fiable".
+
+El científico “sospecha” que la contaminación atmosférica persistente en las regiones afectadas “podría haber provocado un empeoramiento general de la salud de las personas que viven allí, haciéndolas particularmente susceptibles al virus”. EFEfuturo

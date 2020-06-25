@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_32_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La búsqueda de un equilibrio entre mantener un buen estado de ánimo y llevar la <Node id="80"/>cuarentena<Node id="90"/> con el mayor optimismo posible se convierte en un auténtico desafío.Ante este cambio de paradigma, las prioridades en este sentido cambian y prima no solo "la comodidad sino también la calidad, los <Node id="289"/>tejidos<Node id="296"/> de las <Node id="304"/>prendas<Node id="311"/>, la forma en que se adaptan a nuestro cuerpo y las sensaciones que producen", añade <Node id="396"/>Federico Sainz<Node id="410"/>. 
+<Node id="413"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="80" EndNode="90">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="289" EndNode="296">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="304" EndNode="311">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="396" EndNode="410">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="413">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

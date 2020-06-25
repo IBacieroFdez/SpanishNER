@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_103_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El mismo <Node id="9"/>8 de mayo<Node id="18"/>, <Node id="20"/>Erica Pan<Node id="29"/>, <Node id="31"/>oficial<Node id="38"/> interina del <Node id="52"/>Departamento de Salud Pública<Node id="81"/> del <Node id="86"/>condado<Node id="93"/> de <Node id="97"/>Alameda<Node id="104"/>, dijo que a pesar de que <Node id="130"/>California<Node id="140"/> había relajado las restricciones a nivel estatal, "si hay órdenes locales, lo que prevalece es lo que sea más estricto". Además, afirmó que "no hemos dado luz verde [a <Node id="309"/>Tesla<Node id="314"/> para volver a la producción] y que "hemos estado trabajando con ellos mirando algunos de sus planes de seguridad. Pero no, no hemos dicho que sea apropiado avanzar". 
+<Node id="482"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="9" EndNode="18">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="20" EndNode="29">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="31" EndNode="38">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="52" EndNode="81">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="86" EndNode="93">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="97" EndNode="104">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="130" EndNode="140">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="309" EndNode="314">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="482">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

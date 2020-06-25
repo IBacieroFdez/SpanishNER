@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_96_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Mientras algunos <Node id="17"/>estados<Node id="24"/> contactados por The Associated Press, incluidos <Node id="73"/>Alabama<Node id="80"/> y <Node id="83"/>Florida<Node id="90"/>, no respondieron a las preguntas sobre la carta, otros, incluidos <Node id="157"/>Arkansas<Node id="165"/>, <Node id="167"/>Texas<Node id="172"/> y <Node id="175"/>Utah<Node id="179"/>, se limitaron a responder principalmente que no tienen los <Node id="239"/>medicamentos<Node id="251"/> en cuestión. <Node id="265"/>Tennessee<Node id="274"/> no confirmó si tiene las <Node id="300"/>sustancias<Node id="310"/> e indicó que no tiene planes de administrar <Node id="355"/>medicamentos<Node id="367"/> a <Node id="370"/>hospitales<Node id="380"/>. <Node id="382"/>Oklahoma<Node id="390"/> dijo que no había recibido ninguna solicitud de tales <Node id="445"/>medicamentos<Node id="457"/> de los <Node id="465"/>hospitales<Node id="475"/> estatales.
+<Node id="487"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="17" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="73" EndNode="80">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="83" EndNode="90">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="157" EndNode="165">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="167" EndNode="172">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="175" EndNode="179">
+</Annotation>
+<Annotation Id="7" Type="DRUG" StartNode="239" EndNode="251">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="265" EndNode="274">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="300" EndNode="310">
+</Annotation>
+<Annotation Id="10" Type="DRUG" StartNode="355" EndNode="367">
+</Annotation>
+<Annotation Id="11" Type="DRUG" StartNode="445" EndNode="457">
+</Annotation>
+<Annotation Id="12" Type="FAC" StartNode="370" EndNode="380">
+</Annotation>
+<Annotation Id="13" Type="GPE" StartNode="382" EndNode="390">
+</Annotation>
+<Annotation Id="14" Type="FAC" StartNode="465" EndNode="475">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="487">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_41_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>presidente<Node id="13"/> de <Node id="17"/>Inditex<Node id="24"/>, <Node id="26"/>Pablo Isla<Node id="36"/>, ha anunciado que la <Node id="58"/>empresa<Node id="65"/> va a seguir sosteniendo con recursos propios el pago de la retribución a toda su <Node id="147"/>plantilla<Node id="156"/> en <Node id="160"/>España<Node id="166"/>, como ha venido haciendo hasta la <Node id="201"/>fecha<Node id="206"/>. 
+<Node id="209"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="17" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="3" EndNode="13">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="26" EndNode="36">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="58" EndNode="65">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="147" EndNode="156">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="160" EndNode="166">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="201" EndNode="206">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="209">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

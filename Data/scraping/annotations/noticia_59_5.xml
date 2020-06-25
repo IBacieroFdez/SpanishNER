@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_59_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los otros <Node id="10"/>dos<Node id="13"/> detenidos, alojados en el mismo <Node id="46"/>domicilio<Node id="55"/> y cuya identidad está pendiente de verificar, le habrían acompañado durante el trayecto y actualmente se está verificando si también son terroristas retornados de <Node id="219"/>Siria<Node id="224"/>.
+<Node id="226"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="10" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="46" EndNode="55">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="219" EndNode="224">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="226">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

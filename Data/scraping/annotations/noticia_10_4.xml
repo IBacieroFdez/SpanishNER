@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Fue en <Node id="7"/>Alemania<Node id="15"/>, tal y como recuerda, en declaraciones a <Node id="57"/>Efe<Node id="60"/>, el <Node id="65"/>especialista<Node id="77"/> en <Node id="81"/>otorrinolaringología<Node id="101"/> de la <Node id="108"/>Clínica <Node id="116"/>Universidad de <Node id="131"/>Navarra<Node id="138"/> <Node id="139"/>Nicolás Pérez<Node id="152"/>, cuando comenzó la sospecha al llamar la atención entre el <Node id="212"/>personal <Node id="221"/>médico<Node id="227"/> la pérdida de <Node id="242"/>olfato<Node id="248"/> en los casos positivos de <Node id="275"/>COVID-19<Node id="283"/> en <Node id="287"/>Europa<Node id="293"/>.
+<Node id="295"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="32" Type="JOB" StartNode="212" EndNode="227">
+</Annotation>
+<Annotation Id="1" Type="GPE" StartNode="7" EndNode="15">
+</Annotation>
+<Annotation Id="33" Type="MEDTERM" StartNode="221" EndNode="227">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="57" EndNode="60">
+</Annotation>
+<Annotation Id="34" Type="MEDTERM" StartNode="242" EndNode="248">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="65" EndNode="77">
+</Annotation>
+<Annotation Id="35" Type="DISEASE" StartNode="275" EndNode="283">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="81" EndNode="101">
+</Annotation>
+<Annotation Id="36" Type="GPE" StartNode="287" EndNode="293">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="108" EndNode="138">
+</Annotation>
+<Annotation Id="29" Type="ORG" StartNode="116" EndNode="138">
+</Annotation>
+<Annotation Id="30" Type="GPE" StartNode="131" EndNode="138">
+</Annotation>
+<Annotation Id="31" Type="PER" StartNode="139" EndNode="152">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="295">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

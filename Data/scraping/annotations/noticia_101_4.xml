@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_101_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Hazard<Node id="6"/> y <Node id="9"/>Asensio<Node id="16"/> siguen dando pasos en su objetivo de regresar con el equipo para cuando se reanude la <Node id="103"/>Liga<Node id="107"/>. <Node id="109"/>Jovic<Node id="114"/>, con una <Node id="124"/>rotura<Node id="130"/> en el pie, y <Node id="144"/>Mariano<Node id="151"/>, con leves molestias, son los únicos <Node id="189"/>jugadores<Node id="198"/> que no siguieron el mismo trabajo individual del resto de <Node id="257"/>futbolistas<Node id="268"/>.
+<Node id="270"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="6">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="9" EndNode="16">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="109" EndNode="114">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="144" EndNode="151">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="103" EndNode="107">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="124" EndNode="130">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="257" EndNode="268">
+</Annotation>
+<Annotation Id="8" Type="SPORT" StartNode="189" EndNode="198">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="270">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

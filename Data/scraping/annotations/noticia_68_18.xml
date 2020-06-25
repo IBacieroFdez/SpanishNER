@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_18.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Su principal misión sigue siendo la concesión de la <Node id="52"/>sede<Node id="56"/> de los <Node id="64"/>Juegos<Node id="70"/>, la elaboración del programa deportivo y el seguimiento de los trabajos de organización por parte de la <Node id="175"/>ciudad sede<Node id="186"/>. Pero los <Node id="197"/>miembros<Node id="205"/> del <Node id="210"/>COI<Node id="213"/> se enfrentan en este <Node id="235"/>2020<Node id="239"/> a lo desconocido: el aplazamiento de los <Node id="281"/>Juegos<Node id="287"/> de <Node id="291"/>Tokio<Node id="296"/> por culpa del <Node id="311"/>coronavius<Node id="321"/>. Para eso, ni <Node id="336"/>Samaranch<Node id="345"/> habría estado preparado. 
+<Node id="372"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="52" EndNode="56">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="64" EndNode="70">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="175" EndNode="186">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="372">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="197" EndNode="205">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="210" EndNode="213">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="235" EndNode="239">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="281" EndNode="287">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="291" EndNode="296">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="311" EndNode="321">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="336" EndNode="345">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

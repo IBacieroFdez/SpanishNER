@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Su <Node id="3"/>periodo<Node id="10"/> como <Node id="16"/>presidente<Node id="26"/> dejó asimismo herencias que resultaron difíciles de gestionar para sus sucesores, como la ampliación del programa olímpico hasta límites más allá de lo razonable. Pero principalmente un sistema de elección de la <Node id="239"/>sede<Node id="243"/> de los <Node id="251"/>Juegos Olímpicos<Node id="267"/> que abrió la mayor <Node id="287"/>crisis<Node id="293"/> de la historia del <Node id="313"/>COI<Node id="316"/>, con los casos de corrupción relacionados con <Node id="363"/>Salt Lake City<Node id="377"/> <Node id="378"/>2002<Node id="382"/>.
+<Node id="384"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="3" EndNode="10">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="16" EndNode="26">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="239" EndNode="243">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="251" EndNode="267">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="287" EndNode="293">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="313" EndNode="316">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="363" EndNode="377">
+</Annotation>
+<Annotation Id="9" Type="DATE" StartNode="378" EndNode="382">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="384">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

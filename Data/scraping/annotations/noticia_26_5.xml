@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_26_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El estudio combina tres tipos de datos, entre ellos los niveles de contaminación regional de dióxido de nitrógeno medidos por el <Node id="129"/>satélite<Node id="137"/> <Node id="138"/>Sentinel 5P<Node id="149"/> de la <Node id="156"/>Agencia Espacial Europea<Node id="180"/> (<Node id="182"/>ESA<Node id="185"/>), que monitoriza continuamente la contaminación del aire en la <Node id="249"/>tierra<Node id="255"/>.
+<Node id="257"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="138" EndNode="149">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="129" EndNode="137">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="156" EndNode="180">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="182" EndNode="185">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="249" EndNode="255">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="257">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

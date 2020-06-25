@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_19_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Australia<Node id="9"/> y <Node id="12"/>China<Node id="17"/> mantienen fuertes lazos comerciales, pero chocan por asuntos vinculados a los derechos humanos y la libre navegación del <Node id="139"/>Mar de China Meridional<Node id="162"/>, así como por la influencia en la estratégica <Node id="209"/>zona del Pacífico<Node id="226"/>.
+<Node id="228"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="0" EndNode="9">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="12" EndNode="17">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="139" EndNode="162">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="209" EndNode="226">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="228">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

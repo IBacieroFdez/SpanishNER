@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_88_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xd;
+	 <Node id="4"/>Además, los <Node id="16"/>investigadores<Node id="30"/> encontraron que la severidad de los  <Node id="68"/>síntomas<Node id="76"/> está correlacionada con la intensidad de la <Node id="121"/>alteración  funcional<Node id="142"/> provocada por las <Node id="161"/>mutaciones<Node id="171"/>, lo que les lleva a sugerir que  la distinción entre <Node id="225"/>discapacidad intelectual<Node id="249"/> y <Node id="252"/>autismo<Node id="259"/> se debe, en  principio, al efecto funcional más que al <Node id="315"/>gen<Node id="318"/> o <Node id="321"/>genes<Node id="326"/> afectados en ambas  condiciones.&#xd;
+<Node id="361"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="16" EndNode="30">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="68" EndNode="76">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="121" EndNode="142">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="161" EndNode="171">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="225" EndNode="249">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="252" EndNode="259">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="315" EndNode="318">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="321" EndNode="326">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="4" EndNode="361">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

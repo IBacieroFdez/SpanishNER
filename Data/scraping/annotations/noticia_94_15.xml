@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>gobierno<Node id="11"/> de <Node id="15"/>China<Node id="20"/> asegura que investiga el origen de los <Node id="60"/>productos<Node id="69"/>, mientras que una de las firmas señaladas en el caso de las pruebas rápidas dicen que sus clientes no han sabido usar el <Node id="191"/>producto<Node id="199"/>.
+<Node id="201"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="15" EndNode="20">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="60" EndNode="69">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="191" EndNode="199">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="201">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

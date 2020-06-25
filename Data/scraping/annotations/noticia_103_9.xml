@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_103_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Eso incluye al <Node id="15"/>condado<Node id="22"/> de <Node id="26"/>Alameda<Node id="33"/>, donde se encuentra la <Node id="57"/>fábrica<Node id="64"/> de <Node id="68"/>Tesla<Node id="73"/>, por lo que <Node id="86"/>Tesla<Node id="91"/>, por ahora, no puede retomar la producción. Sin embargo, el pasado <Node id="159"/>8 de mayo<Node id="168"/> <Node id="169"/>Elon Musk<Node id="178"/> le dijo a sus <Node id="193"/>empleados<Node id="202"/> en un correo interno que <Node id="228"/>Tesla<Node id="233"/> iba a intentar retomar la producción con un <Node id="278"/>30%<Node id="281"/> de los <Node id="289"/>trabajadores<Node id="301"/> que normalmente trabajan en cada turno. Eso sí, <Node id="350"/>Musk<Node id="354"/> dijo a sus <Node id="366"/>empleados<Node id="375"/> que si sentían "incómodos" al volver a trabajar en este momento, no tenían que sentirse obligados a hacerlo.
+<Node id="485"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="15" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="26" EndNode="33">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="57" EndNode="64">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="68" EndNode="73">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="86" EndNode="91">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="159" EndNode="168">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="169" EndNode="178">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="193" EndNode="202">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="228" EndNode="233">
+</Annotation>
+<Annotation Id="10" Type="PERCENT" StartNode="278" EndNode="281">
+</Annotation>
+<Annotation Id="11" Type="JOB" StartNode="289" EndNode="301">
+</Annotation>
+<Annotation Id="12" Type="PER" StartNode="350" EndNode="354">
+</Annotation>
+<Annotation Id="13" Type="JOB" StartNode="366" EndNode="375">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="485">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

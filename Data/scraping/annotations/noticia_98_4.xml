@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_98_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>¿Por qué? Los <Node id="14"/>virus<Node id="19"/> se propagan a través de las <Node id="48"/>gotículas<Node id="57"/>. Al mantener una buena <Node id="81"/>higiene<Node id="88"/> <Node id="89"/>respiratoria<Node id="101"/> protege a las personas que lo rodean de <Node id="142"/>virus<Node id="147"/> como los del <Node id="161"/>resfriado<Node id="170"/>, la <Node id="175"/>gripe<Node id="180"/> y la <Node id="186"/>COVID‑19<Node id="194"/>.
+<Node id="196"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="14" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="48" EndNode="57">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="81" EndNode="88">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="89" EndNode="101">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="142" EndNode="147">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="161" EndNode="170">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="175" EndNode="180">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="186" EndNode="194">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="196">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

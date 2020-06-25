@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_5_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Así, en alguno de estos dibujos se pueden leer frases como "saldremos de esto juntos"; "dame <Node id="93"/>cinco<Node id="98"/> desde lejos" (<Node id="113"/>dos<Node id="116"/> <Node id="117"/>personas<Node id="125"/> tratando de chocar las manos); "¿estás bien?"; "eres mi héroe"; o "<Node id="193"/>en casa<Node id="200"/>".
+<Node id="203"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="93" EndNode="98">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="113" EndNode="116">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="117" EndNode="125">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="193" EndNode="200">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="203">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_51_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>No es la primera vez que una <Node id="29"/>Expo<Node id="33"/> tiene que cambiar sus <Node id="56"/>fechas<Node id="62"/>. En <Node id="67"/>1937<Node id="71"/>, la <Node id="76"/>Exposición Universal<Node id="96"/> de <Node id="100"/>París<Node id="105"/> abrió con varios meses de retraso, mientras que la de <Node id="160"/>Haití<Node id="165"/> de <Node id="169"/>1949<Node id="173"/> debió esperar también varios <Node id="203"/>meses<Node id="208"/> para inaugurar su parte internacional. La de <Node id="254"/>Roma<Node id="258"/> en <Node id="262"/>1942<Node id="266"/> fue suspendida pese a que un <Node id="296"/>pabellón<Node id="304"/> dedicado enteramente a <Node id="328"/>Benito Mussolini<Node id="344"/> ya había sido construido.
+<Node id="371"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="29" EndNode="33">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="56" EndNode="62">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="67" EndNode="71">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="76" EndNode="96">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="100" EndNode="105">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="160" EndNode="165">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="169" EndNode="173">
+</Annotation>
+<Annotation Id="8" Type="TIME" StartNode="203" EndNode="208">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="254" EndNode="258">
+</Annotation>
+<Annotation Id="10" Type="DATE" StartNode="262" EndNode="266">
+</Annotation>
+<Annotation Id="11" Type="LOC" StartNode="296" EndNode="304">
+</Annotation>
+<Annotation Id="12" Type="PER" StartNode="328" EndNode="344">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="371">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

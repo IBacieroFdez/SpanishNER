@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_34.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los niños y los adultos deben seguir las mismas pautas de <Node id="58"/>cuarentena<Node id="68"/> y <Node id="71"/>aislamiento<Node id="82"/> si existe el riesgo de que hayan estado expuestos o si presentan <Node id="148"/>síntomas<Node id="156"/>. Es particularmente importante que los niños eviten el contacto con personas
+    mayores y con otras personas que corran el riesgo de contraer una <Node id="304"/>enfermedad<Node id="314"/> más grave.
+<Node id="326"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="58" EndNode="68">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="71" EndNode="82">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="148" EndNode="156">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="304" EndNode="314">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="326">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

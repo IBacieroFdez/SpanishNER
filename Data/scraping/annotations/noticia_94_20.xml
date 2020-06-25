@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_20.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Este <Node id="5"/>1 de abril<Node id="15"/>, <Node id="17"/>Italia<Node id="23"/> reportaba <Node id="34"/>13.000<Node id="40"/> muertes y <Node id="51"/>110.000<Node id="58"/> contagios) y <Node id="72"/>España<Node id="78"/> (<Node id="80"/>9.000<Node id="85"/> muertos y <Node id="96"/>102.000<Node id="103"/> contagios) como los países más afectados y que incluso superan a los <Node id="173"/>números<Node id="180"/> de <Node id="184"/>China<Node id="189"/> (<Node id="191"/>82.300<Node id="197"/>/<Node id="198"/>3.300<Node id="203"/>) donde surgió el <Node id="221"/>brote<Node id="226"/>.
+<Node id="228"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="5" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="17" EndNode="23">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="34" EndNode="40">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="51" EndNode="58">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="80" EndNode="85">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="96" EndNode="103">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="191" EndNode="197">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="198" EndNode="203">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="72" EndNode="78">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="184" EndNode="189">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="173" EndNode="180">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="221" EndNode="226">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="228">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

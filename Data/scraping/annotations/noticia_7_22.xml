@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_22.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>Consejo de Ministros<Node id="23"/> ha aprobado hoy una nueva batería de medidas, entre las que figuran la ampliación de la cobertura por desempleo a <Node id="138"/>trabajadores<Node id="150"/> en prueba <Node id="161"/>despedidos<Node id="171"/> y a los que no han podido incorporarse a un nuevo puesto, así como la extensión de los expedientes de regulación temporal de empleo (<Node id="305"/>ERTE<Node id="309"/>) por fuerza mayor a sectores esenciales que han visto reducidos sus ingresos.
+<Node id="388"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="23">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="138" EndNode="150">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="161" EndNode="171">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="305" EndNode="309">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="388">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

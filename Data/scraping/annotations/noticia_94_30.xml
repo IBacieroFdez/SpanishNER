@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_30.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El lote ordenado era de unos <Node id="29"/>350.000<Node id="36"/>, pero el <Node id="46"/>gobierno<Node id="54"/> <Node id="55"/>turco<Node id="60"/> señaló que <Node id="72"/>primero<Node id="79"/> les realizó <Node id="92"/>pruebas<Node id="99"/> antes de enviarlos a los <Node id="125"/>servicios médicos<Node id="142"/>.
+<Node id="144"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="29" EndNode="36">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="46" EndNode="54">
+</Annotation>
+<Annotation Id="4" Type="LANG" StartNode="55" EndNode="60">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="72" EndNode="79">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="92" EndNode="99">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="125" EndNode="142">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="144">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

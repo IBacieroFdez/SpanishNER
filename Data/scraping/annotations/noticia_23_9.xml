@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_23_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>oposición<Node id="12"/>, que hasta hace algunas <Node id="37"/>semanas<Node id="44"/> negociaba con <Node id="59"/>Gantz<Node id="64"/> la conformación de un <Node id="87"/>Ejecutivo<Node id="96"/> sin <Node id="101"/>Netanyahu<Node id="110"/>, atacó duramente el acuerdo.
+<Node id="140"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="3" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="37" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="59" EndNode="64">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="87" EndNode="96">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="101" EndNode="110">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="140">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_28_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Durante estos <Node id="14"/>días<Node id="18"/> la <Node id="22"/>Tierra<Node id="28"/> atraviesa la nube de <Node id="50"/>partículas<Node id="60"/> que el <Node id="68"/>cometa<Node id="74"/> Thatcher (C/<Node id="87"/>1861<Node id="91"/> G1) dejó tras de sí en su última visita al perigeo terrestre, en <Node id="157"/>1861<Node id="161"/>. 
+<Node id="164"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="14" EndNode="18">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="22" EndNode="28">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="50" EndNode="60">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="68" EndNode="74">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="157" EndNode="161">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="87" EndNode="91">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="164">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

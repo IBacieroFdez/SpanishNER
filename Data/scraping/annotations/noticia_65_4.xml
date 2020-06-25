@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_65_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Al realizar una búsqueda inversa a través de los buscadores <Node id="60"/>Yandex<Node id="66"/> y <Node id="69"/>Google<Node id="75"/> Imágenes, comprobamos que los <Node id="106"/>primeros<Node id="114"/> resultados de estas <Node id="135"/>fotografías<Node id="146"/> y de otras tomadas en el mismo escenario datan de <Node id="197"/>2013<Node id="201"/> e ilustran el <Node id="216"/>hangar<Node id="222"/> del <Node id="227"/>aeropuerto<Node id="237"/> de <Node id="241"/>Lampedusa<Node id="250"/> donde se almacenaron los féretros de las víctimas mortales de este <Node id="318"/>naufragio<Node id="327"/>, que costó la vida a más de <Node id="356"/>360<Node id="359"/> personas que viajaban desde <Node id="388"/>Libia<Node id="393"/> hasta <Node id="400"/>Italia<Node id="406"/>.
+<Node id="408"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="60" EndNode="66">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="69" EndNode="75">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="135" EndNode="146">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="106" EndNode="114">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="197" EndNode="201">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="216" EndNode="222">
+</Annotation>
+<Annotation Id="7" Type="FAC" StartNode="227" EndNode="237">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="241" EndNode="250">
+</Annotation>
+<Annotation Id="9" Type="EVENT" StartNode="318" EndNode="327">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="356" EndNode="359">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="388" EndNode="393">
+</Annotation>
+<Annotation Id="12" Type="GPE" StartNode="400" EndNode="406">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="408">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

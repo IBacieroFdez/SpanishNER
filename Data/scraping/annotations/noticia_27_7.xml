@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_27_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Aún cuando ha pasado más de <Node id="28"/>mes<Node id="31"/> y <Node id="34"/>medio<Node id="39"/> desde que lo escribiera, su mensaje principal de fondo sigue siendo válido: “La ciencia está en las mejores condiciones para luchar contra esta <Node id="184"/>pandemia<Node id="192"/>”.
+<Node id="195"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="28" EndNode="31">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="34" EndNode="39">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="184" EndNode="192">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="195">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

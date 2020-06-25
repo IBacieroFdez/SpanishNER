@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_59_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El detenido llevaba varios <Node id="27"/>años<Node id="31"/> en la zona de <Node id="46"/>conflicto<Node id="55"/> <Node id="56"/>sirio-iraquí<Node id="68"/> y presenta tanto unos rasgos de personalidad muy peculiares como un perfil criminal extremadamente violento, que llamaron la atención de los <Node id="210"/>servicios policiales y de inteligencia<Node id="248"/> <Node id="249"/>europeos<Node id="257"/>.
+<Node id="259"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="TIME" StartNode="27" EndNode="31">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="46" EndNode="55">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="56" EndNode="68">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="210" EndNode="248">
+</Annotation>
+<Annotation Id="25" Type="LANG" StartNode="249" EndNode="257">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="259">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

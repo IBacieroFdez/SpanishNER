@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_47_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Además, ha destacado que van a faltar <Node id="38"/>40 millones<Node id="49"/> de consumidores en referencia a turistas que no vendrán el próximo <Node id="117"/>verano<Node id="123"/> a <Node id="126"/>España<Node id="132"/>.
+<Node id="134"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="38" EndNode="49">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="117" EndNode="123">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="126" EndNode="132">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="134">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

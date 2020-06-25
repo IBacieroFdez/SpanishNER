@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_90_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En esa <Node id="7"/>época<Node id="12"/>, el resto de la <Node id="29"/>materia<Node id="36"/> del <Node id="41"/>universo<Node id="49"/> aún consistía en gran medida en <Node id="82"/>protones<Node id="90"/> aislados, que comenzaban a sentir la falta de un <Node id="140"/>electrón<Node id="148"/>. Los <Node id="154"/>protones<Node id="162"/> se ralentizaron y empezaron a buscar compañeros de carga opuesta para volverse eléctricamente <Node id="257"/>neutros<Node id="264"/>. Pero como no les resultaba fácil captar <Node id="306"/>electrones<Node id="316"/> libres, recurrieron al <Node id="340"/>helio<Node id="345"/>, que ya poseía algunos. Pese a que el <Node id="384"/>helio<Node id="389"/> es reacio a compartir, no dejaba de encontrarse con insistentes <Node id="454"/>núcleos<Node id="461"/> de <Node id="465"/>hidrógeno<Node id="474"/> y finalmente la presión de las <Node id="506"/>colisiones<Node id="516"/> hizo que unos pocos <Node id="537"/>átomos<Node id="543"/> de <Node id="547"/>helio<Node id="552"/> compartieran sus <Node id="570"/>electrones<Node id="580"/> con los <Node id="589"/>protones<Node id="597"/>. Así se formaron los primeros <Node id="628"/>enlaces químicos<Node id="644"/>. El nuevo <Node id="655"/>compuesto<Node id="664"/> de <Node id="668"/>helio<Node id="673"/> e <Node id="676"/>hidrógeno<Node id="685"/> se denomina <Node id="698"/>hidruro de helio<Node id="714"/> (HeH+) y fue la primera <Node id="739"/>molécula<Node id="747"/> (con una abundancia sostenida) del <Node id="783"/>universo<Node id="791"/>.
+<Node id="793"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="7" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="41" EndNode="49">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="29" EndNode="36">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="82" EndNode="90">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="140" EndNode="148">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="154" EndNode="162">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="257" EndNode="264">
+</Annotation>
+<Annotation Id="8" Type="SCITERM" StartNode="306" EndNode="316">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="340" EndNode="345">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="384" EndNode="389">
+</Annotation>
+<Annotation Id="11" Type="SCITERM" StartNode="454" EndNode="461">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="465" EndNode="474">
+</Annotation>
+<Annotation Id="13" Type="SCITERM" StartNode="506" EndNode="516">
+</Annotation>
+<Annotation Id="14" Type="SCITERM" StartNode="537" EndNode="543">
+</Annotation>
+<Annotation Id="15" Type="SCITERM" StartNode="570" EndNode="580">
+</Annotation>
+<Annotation Id="16" Type="SCITERM" StartNode="589" EndNode="597">
+</Annotation>
+<Annotation Id="17" Type="MEDTERM" StartNode="547" EndNode="552">
+</Annotation>
+<Annotation Id="18" Type="SCITERM" StartNode="628" EndNode="644">
+</Annotation>
+<Annotation Id="19" Type="PRODUCT" StartNode="668" EndNode="673">
+</Annotation>
+<Annotation Id="20" Type="SCITERM" StartNode="655" EndNode="664">
+</Annotation>
+<Annotation Id="21" Type="PRODUCT" StartNode="676" EndNode="685">
+</Annotation>
+<Annotation Id="22" Type="PRODUCT" StartNode="698" EndNode="714">
+</Annotation>
+<Annotation Id="23" Type="SCITERM" StartNode="739" EndNode="747">
+</Annotation>
+<Annotation Id="24" Type="LOC" StartNode="783" EndNode="791">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="793">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

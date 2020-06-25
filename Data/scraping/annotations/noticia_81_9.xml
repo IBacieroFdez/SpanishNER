@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Si tiene <Node id="9"/>síntomas leves<Node id="23"/>, como <Node id="30"/>tos<Node id="33"/> o <Node id="36"/>fiebre leves<Node id="48"/>, generalmente no es necesario que busque <Node id="90"/>atención médica<Node id="105"/>. Quédese en <Node id="118"/>casa<Node id="122"/>, aíslese y vigile sus <Node id="145"/>síntomas<Node id="153"/>. Siga las orientaciones nacionales sobre el <Node id="198"/>autoaislamiento<Node id="213"/>.
+    Sin embargo, si vive en una <Node id="247"/>zona<Node id="251"/> con <Node id="256"/>paludismo<Node id="265"/> (<Node id="267"/>malaria<Node id="274"/>) o <Node id="278"/>dengue<Node id="284"/>, es importante que no ignore la <Node id="317"/>fiebre<Node id="323"/>. Busque <Node id="332"/>ayuda médica<Node id="344"/>. Cuando acuda al <Node id="362"/>centro de salud<Node id="377"/> lleve <Node id="384"/>mascarilla<Node id="394"/> si es posible, manténgase al menos a un metro de distancia
+    de las demás personas y no toque las superficies con las manos. En caso de que el enfermo sea un niño, ayúdelo a seguir este consejo.
+<Node id="592"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="9" EndNode="23">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="30" EndNode="33">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="36" EndNode="48">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="90" EndNode="105">
+</Annotation>
+<Annotation Id="11" Type="LOC" StartNode="118" EndNode="122">
+</Annotation>
+<Annotation Id="12" Type="MEDTERM" StartNode="145" EndNode="153">
+</Annotation>
+<Annotation Id="13" Type="EVENT" StartNode="198" EndNode="213">
+</Annotation>
+<Annotation Id="14" Type="DISEASE" StartNode="256" EndNode="265">
+</Annotation>
+<Annotation Id="15" Type="DISEASE" StartNode="267" EndNode="274">
+</Annotation>
+<Annotation Id="16" Type="DISEASE" StartNode="278" EndNode="284">
+</Annotation>
+<Annotation Id="17" Type="DISEASE" StartNode="317" EndNode="323">
+</Annotation>
+<Annotation Id="18" Type="LOC" StartNode="247" EndNode="251">
+</Annotation>
+<Annotation Id="19" Type="MEDTERM" StartNode="332" EndNode="344">
+</Annotation>
+<Annotation Id="20" Type="FAC" StartNode="362" EndNode="377">
+</Annotation>
+<Annotation Id="21" Type="MEDTERM" StartNode="384" EndNode="394">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="592">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

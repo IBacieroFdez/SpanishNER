@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_82_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Puede contraer la <Node id="18"/>COVID-19<Node id="26"/>, por muy soleado o cálido que sea el clima. Se han notificado casos de <Node id="98"/>COVID-19<Node id="106"/> en países cálidos. Para protegerse, lávese las manos con frecuencia y a fondo y evite tocarse los ojos, la boca y la
+    nariz.
+<Node id="235"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="18" EndNode="26">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="98" EndNode="106">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="235">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

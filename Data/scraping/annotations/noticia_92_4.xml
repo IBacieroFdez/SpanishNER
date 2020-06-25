@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_92_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>electrodos<Node id="14"/> de un <Node id="21"/>electrolizador<Node id="35"/> disocian las <Node id="49"/>moléculas<Node id="58"/> de <Node id="62"/>agua<Node id="66"/> en <Node id="70"/>oxígeno<Node id="77"/> (izquierda) e <Node id="92"/>hidrógeno<Node id="101"/> (derecha). Los <Node id="117"/>electrodos<Node id="127"/> miden un centímetro de alto. [<Node id="158"/>DURK GARDENIER, ALAMY<Node id="179"/>]
+<Node id="181"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="4" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="21" EndNode="35">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="49" EndNode="58">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="62" EndNode="66">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="70" EndNode="77">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="92" EndNode="101">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="117" EndNode="127">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="158" EndNode="179">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="181">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

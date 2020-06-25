@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_20_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Aquel fatídico <Node id="15"/>día<Node id="18"/> <Node id="19"/>Charles<Node id="26"/> visitó el <Node id="37"/>templo<Node id="43"/> con <Node id="48"/>18<Node id="50"/> <Node id="51"/>familiares<Node id="61"/>. Tras la explosión, buscó desesperada a su <Node id="105"/>madre<Node id="110"/>, a la que encontró inconsciente: sangraba por la <Node id="160"/>nariz<Node id="165"/> y los <Node id="172"/>oídos<Node id="177"/>, recuerda.
+<Node id="189"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="15" EndNode="18">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="19" EndNode="26">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="37" EndNode="43">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="48" EndNode="50">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="51" EndNode="61">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="105" EndNode="110">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="160" EndNode="165">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="172" EndNode="177">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="189">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

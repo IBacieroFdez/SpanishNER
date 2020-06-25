@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_24.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>gobierno<Node id="11"/> <Node id="12"/>español<Node id="19"/> hizo la compra de <Node id="38"/>640.000<Node id="45"/> <Node id="46"/>kits<Node id="50"/> a un <Node id="56"/>proveedor<Node id="65"/> certificado local que a su vez adquirió los <Node id="110"/>productos<Node id="119"/> a la <Node id="125"/>empresa<Node id="132"/> <Node id="133"/>china<Node id="138"/> <Node id="139"/>Shenzhen Bioeasy Biotechnology<Node id="169"/>, ubicada en la <Node id="185"/>provincia<Node id="194"/> de <Node id="198"/>Cantón<Node id="204"/>.
+<Node id="206"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="12" EndNode="19">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="38" EndNode="45">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="46" EndNode="50">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="56" EndNode="65">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="110" EndNode="119">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="125" EndNode="132">
+</Annotation>
+<Annotation Id="9" Type="LANG" StartNode="133" EndNode="138">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="139" EndNode="169">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="198" EndNode="204">
+</Annotation>
+<Annotation Id="12" Type="LOC" StartNode="185" EndNode="194">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="206">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

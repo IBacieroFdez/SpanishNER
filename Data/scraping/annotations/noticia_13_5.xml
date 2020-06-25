@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_13_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Sobre la misma, la <Node id="19"/>comisaria<Node id="28"/> dice que "pone en evidencia las debilidades del <Node id="77"/>sistema<Node id="84"/> de protección de derechos humanos en <Node id="122"/>Europa<Node id="128"/>" y que los recursos y esfuerzos se deben centrar ahora en la lucha contra la <Node id="206"/>pandemia<Node id="214"/>. Después, señala, habrá que centrarse en la dignidad <Node id="268"/>humana<Node id="274"/>.
+<Node id="276"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="19" EndNode="28">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="122" EndNode="128">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="77" EndNode="84">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="206" EndNode="214">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="268" EndNode="274">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="276">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

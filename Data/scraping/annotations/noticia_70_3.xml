@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_70_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Y también <Node id="10"/>jugadores<Node id="19"/> y <Node id="22"/>jugadoras<Node id="31"/> internacionales como <Node id="53"/>Isa Rico<Node id="61"/>, <Node id="63"/>María Losada<Node id="75"/>, <Node id="77"/>Marina Bravo<Node id="89"/>, <Node id="91"/>Anne Fernández de Corres<Node id="115"/>, <Node id="117"/>Julen Goia<Node id="127"/>, <Node id="129"/>Alvar Gimeno<Node id="141"/>, <Node id="143"/>Paco Hernández<Node id="157"/> y <Node id="160"/>Alejandro Alonso<Node id="176"/>, aunque el programa está y estará abierto a todos los <Node id="231"/>estamentos<Node id="241"/> que forman el <Node id="256"/>rugby<Node id="261"/> <Node id="262"/>español<Node id="269"/>, desde <Node id="277"/>federaciones autonómicas<Node id="301"/> a los <Node id="308"/>clubes<Node id="314"/> de las diferentes categorías nacionales. 
+<Node id="357"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SPORT" StartNode="10" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="SPORT" StartNode="22" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="53" EndNode="61">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="63" EndNode="75">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="77" EndNode="89">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="91" EndNode="115">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="117" EndNode="127">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="129" EndNode="141">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="143" EndNode="157">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="160" EndNode="176">
+</Annotation>
+<Annotation Id="11" Type="NORP" StartNode="231" EndNode="241">
+</Annotation>
+<Annotation Id="12" Type="SPORT" StartNode="256" EndNode="261">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="357">
+</Annotation>
+<Annotation Id="27" Type="NORP" StartNode="308" EndNode="314">
+</Annotation>
+<Annotation Id="13" Type="LANG" StartNode="262" EndNode="269">
+</Annotation>
+<Annotation Id="14" Type="NORP" StartNode="277" EndNode="301">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

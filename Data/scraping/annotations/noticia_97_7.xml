@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_97_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Se trata de una variante de la <Node id="31"/>mascarilla<Node id="41"/> de <Node id="45"/>tela<Node id="49"/> en la que no se necesita hacer ningún tipo de costura, ya que tan solo se utiliza un <Node id="135"/>pañuelo<Node id="142"/> o <Node id="145"/>bandana<Node id="152"/> doblado varias veces y un par de <Node id="186"/>gomas elásticas<Node id="201"/>.
+<Node id="203"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="31" EndNode="41">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="45" EndNode="49">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="135" EndNode="142">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="145" EndNode="152">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="186" EndNode="201">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="203">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

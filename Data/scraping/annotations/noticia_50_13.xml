@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_50_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Mientras que en el <Node id="19"/>Reino Unido<Node id="30"/>, <Node id="32"/>Intel<Node id="37"/> está trabajando con <Node id="58"/>Dyson<Node id="63"/> y la <Node id="69"/>empresa<Node id="76"/> de <Node id="80"/>consultoría<Node id="91"/> <Node id="92"/>médica<Node id="98"/> <Node id="99"/>TTP<Node id="102"/> para suministrar un nuevo <Node id="129"/>ventilador<Node id="139"/> diseñado específicamente en respuesta a la solicitud de ayuda del <Node id="206"/>gobierno<Node id="214"/> del <Node id="219"/>Reino Unido<Node id="230"/>.
+<Node id="232"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="19" EndNode="30">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="32" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="58" EndNode="63">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="69" EndNode="76">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="99" EndNode="102">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="92" EndNode="98">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="80" EndNode="91">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="129" EndNode="139">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="206" EndNode="214">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="219" EndNode="230">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="232">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

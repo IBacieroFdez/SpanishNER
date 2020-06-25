@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_51_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>Oficina Internacional de Exposiciones<Node id="40"/> (<Node id="42"/>BIE<Node id="45"/>) propuso este <Node id="60"/>martes<Node id="66"/> el retraso de un <Node id="84"/>año<Node id="87"/> de la <Node id="94"/>Exposición Universal<Node id="114"/> de <Node id="118"/>Dubái<Node id="123"/> que debía comenzar el próximo <Node id="154"/>20 de octubre<Node id="167"/>, a causa de la <Node id="183"/>pandemia<Node id="191"/> de <Node id="195"/>coronavirus<Node id="206"/>, a petición del <Node id="223"/>país<Node id="227"/> anfitrión.
+<Node id="239"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="GPE" StartNode="118" EndNode="123">
+</Annotation>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="40">
+</Annotation>
+<Annotation Id="17" Type="DATE" StartNode="154" EndNode="167">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="60" EndNode="66">
+</Annotation>
+<Annotation Id="18" Type="DISEASE" StartNode="183" EndNode="191">
+</Annotation>
+<Annotation Id="19" Type="DISEASE" StartNode="195" EndNode="206">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="42" EndNode="45">
+</Annotation>
+<Annotation Id="20" Type="LOC" StartNode="223" EndNode="227">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="84" EndNode="87">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="94" EndNode="114">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="239">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

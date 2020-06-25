@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_1_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>portavoz<Node id="11"/> ha resaltado que los <Node id="33"/>supermercados<Node id="46"/> "están muy controlados" para que no haya aglomeración de <Node id="104"/>personas<Node id="112"/> y para que las entradas sean ordenadas y se guarden las distancias de seguridad: "Igualmente hay que hacer con los <Node id="228"/>niños<Node id="233"/>", ha dicho.
+<Node id="246"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="33" EndNode="46">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="104" EndNode="112">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="228" EndNode="233">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="246">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

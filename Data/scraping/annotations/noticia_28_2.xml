@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_28_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>noche<Node id="8"/> del <Node id="13"/>21 de abril<Node id="24"/> será cuando se produzca el máximo de la <Node id="65"/>lluvia de estrellas<Node id="84"/> de las <Node id="92"/>Líridas<Node id="99"/>, que tienen este nombre porque su radiante, que es el punto del que parecen proceder estos meteoros, está en la <Node id="212"/>constelación<Node id="224"/> de la <Node id="231"/>Lira<Node id="235"/>, que se puede identificar porque contiene a la <Node id="283"/>estrella<Node id="291"/> <Node id="292"/>Vega<Node id="296"/>, una de las más brillantes del <Node id="328"/>cielo<Node id="333"/> <Node id="334"/>nocturno<Node id="342"/>. 
+<Node id="345"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="3" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="13" EndNode="24">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="65" EndNode="84">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="92" EndNode="99">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="231" EndNode="235">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="212" EndNode="224">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="283" EndNode="291">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="292" EndNode="296">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="328" EndNode="333">
+</Annotation>
+<Annotation Id="11" Type="TIME" StartNode="334" EndNode="342">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="345">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

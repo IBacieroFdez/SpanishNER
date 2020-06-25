@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_85_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En los <Node id="7"/>Estados Unidos<Node id="21"/>, <Node id="23"/>88 millones<Node id="34"/> de adultos (más de <Node id="54"/>1 de cada 3<Node id="65"/>) tienen <Node id="74"/>prediabetes<Node id="85"/>. Lo que es peor, más del <Node id="111"/>80%<Node id="114"/> de ellos no sabe que la tiene. La <Node id="149"/>prediabetes<Node id="160"/> es una <Node id="168"/>afección<Node id="176"/> grave en la que los niveles de <Node id="208"/>azúcar<Node id="214"/> en la <Node id="221"/>sangre<Node id="227"/> son más altos que lo normal, pero no han llegado a niveles lo suficientemente altos para que se diagnostique la <Node id="340"/>diabetes<Node id="348"/>. La <Node id="353"/>prediabetes<Node id="364"/> aumenta el riesgo de <Node id="386"/>diabetes<Node id="394"/> tipo 2, <Node id="403"/>enfermedad<Node id="413"/> del <Node id="418"/>corazón<Node id="425"/> y <Node id="428"/>derrame<Node id="435"/> <Node id="436"/>cerebral<Node id="444"/>. Pero, a través del Programa Nacional de Prevención de la <Node id="503"/>Diabetes<Node id="511"/> encabezado por los <Node id="531"/>CDC<Node id="534"/>, puede aprender a hacer cambios prácticos en la vida real para reducir su riesgo de tener <Node id="625"/>diabetes<Node id="633"/> tipo <Node id="639"/>2<Node id="640"/> en hasta el <Node id="653"/>58 %<Node id="657"/> (<Node id="659"/>71 %<Node id="663"/> si tiene <Node id="673"/>60<Node id="675"/> años o más).
+<Node id="689"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="7" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="23" EndNode="34">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="54" EndNode="65">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="74" EndNode="85">
+</Annotation>
+<Annotation Id="6" Type="PERCENT" StartNode="111" EndNode="114">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="149" EndNode="160">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="168" EndNode="176">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="208" EndNode="214">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="221" EndNode="227">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="340" EndNode="348">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="353" EndNode="364">
+</Annotation>
+<Annotation Id="13" Type="DISEASE" StartNode="386" EndNode="394">
+</Annotation>
+<Annotation Id="14" Type="DISEASE" StartNode="403" EndNode="413">
+</Annotation>
+<Annotation Id="15" Type="DISEASE" StartNode="428" EndNode="435">
+</Annotation>
+<Annotation Id="16" Type="ORG" StartNode="531" EndNode="534">
+</Annotation>
+<Annotation Id="17" Type="DISEASE" StartNode="503" EndNode="511">
+</Annotation>
+<Annotation Id="18" Type="DISEASE" StartNode="625" EndNode="633">
+</Annotation>
+<Annotation Id="19" Type="MEDTERM" StartNode="418" EndNode="425">
+</Annotation>
+<Annotation Id="20" Type="MEDTERM" StartNode="436" EndNode="444">
+</Annotation>
+<Annotation Id="21" Type="QUANT" StartNode="639" EndNode="640">
+</Annotation>
+<Annotation Id="22" Type="PERCENT" StartNode="653" EndNode="657">
+</Annotation>
+<Annotation Id="23" Type="PERCENT" StartNode="659" EndNode="663">
+</Annotation>
+<Annotation Id="24" Type="QUANT" StartNode="673" EndNode="675">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="689">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

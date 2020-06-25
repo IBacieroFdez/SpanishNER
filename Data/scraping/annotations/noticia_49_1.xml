@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_49_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Un hombre trabaja el <Node id="21"/>miércoles 8 de abril<Node id="41"/> en la <Node id="48"/>fábrica<Node id="55"/> de <Node id="59"/>alcohol<Node id="66"/> del ingenio azucarero <Node id="89"/>San Francisco Pujiltic<Node id="111"/>, en el <Node id="119"/>municipio<Node id="128"/> de <Node id="132"/>Venustiano Carranza<Node id="151"/>, <Node id="153"/>estado de Chiapas<Node id="170"/> (<Node id="172"/>México<Node id="178"/>). <Node id="181"/>EFE<Node id="184"/>/<Node id="185"/>Carlos López<Node id="197"/>
+	   
+<Node id="203"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="21" EndNode="41">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="48" EndNode="55">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="59" EndNode="66">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="89" EndNode="111">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="119" EndNode="128">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="132" EndNode="151">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="153" EndNode="170">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="172" EndNode="178">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="181" EndNode="184">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="185" EndNode="197">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="203">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

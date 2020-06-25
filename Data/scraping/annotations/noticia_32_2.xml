@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_32_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Camisetas<Node id="9"/>, <Node id="11"/>polos<Node id="16"/> y <Node id="19"/>camisas<Node id="26"/> para <Node id="32"/>hombres<Node id="39"/> y <Node id="42"/>mujeres<Node id="49"/> que permiten vivir el <Node id="72"/>confinamiento<Node id="85"/> con <Node id="90"/>prendas inteligentes<Node id="110"/> que combinan funcionalidad, confort y tecnología. <Node id="161"/>Sepiia<Node id="167"/> reinventa el estilo de vestir en <Node id="201"/>casa<Node id="205"/> con sus <Node id="214"/>prendas técnicas<Node id="230"/> para crear looks cómodos y estéticos, aptos para <Node id="280"/>trabajar<Node id="288"/> online y mantener buena presencia en la <Node id="329"/>vídeollamadas<Node id="342"/>.
+<Node id="344"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="0" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="11" EndNode="16">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="19" EndNode="26">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="32" EndNode="39">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="42" EndNode="49">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="72" EndNode="85">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="90" EndNode="110">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="161" EndNode="167">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="201" EndNode="205">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="214" EndNode="230">
+</Annotation>
+<Annotation Id="11" Type="JOB" StartNode="280" EndNode="288">
+</Annotation>
+<Annotation Id="12" Type="PHONE" StartNode="329" EndNode="342">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="344">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

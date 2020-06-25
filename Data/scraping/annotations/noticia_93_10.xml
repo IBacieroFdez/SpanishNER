@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_93_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>investigadores<Node id="18"/> de la <Node id="25"/>gripe<Node id="30"/> y las <Node id="37"/>autoridades sanitarias<Node id="59"/> centran sus esfuerzos en esa cuestión para hacer frente al siguiente gran <Node id="134"/>brote<Node id="139"/> que sin duda aparecerá. Los <Node id="168"/>virus<Node id="173"/> de la <Node id="180"/>gripe<Node id="185"/> mutan constantemente. De vez en cuando, esos cambios dan lugar a <Node id="251"/>virus<Node id="256"/> muy distintos de los que suelen reconocer nuestros <Node id="308"/>sistemas inmunitarios<Node id="329"/> y entonces se desencadena una <Node id="360"/>pandemia<Node id="368"/>. Algún día se descubrirá una <Node id="398"/>vacuna<Node id="404"/> que permitirá combatir todos los subtipos de <Node id="450"/>gripe<Node id="455"/>, pero ese momento queda todavía lejos. Puesto que aparecerán nuevos <Node id="524"/>virus<Node id="529"/> de <Node id="533"/>aves<Node id="537"/>, <Node id="539"/>cerdos<Node id="545"/> u otros <Node id="554"/>animales<Node id="562"/>, la mejor opción consiste en detectarlos con la suficiente antelación para fabricar a tiempo las <Node id="660"/>vacunas<Node id="667"/> dirigidas contra ellos y acortar el período que transcurre entre las primeras <Node id="746"/>infecciones<Node id="757"/> y las <Node id="764"/>inmunizaciones<Node id="778"/> masivas. Debe evitarse lo sucedido en <Node id="817"/>2009<Node id="821"/>, cuando la <Node id="833"/>vacuna<Node id="839"/> llegó justo en el momento en que el <Node id="876"/>brote<Node id="881"/> estaba alcanzando su máxima intensidad y el interés público estaba decayendo.
+<Node id="960"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="4" EndNode="18">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="25" EndNode="30">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="37" EndNode="59">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="134" EndNode="139">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="168" EndNode="173">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="180" EndNode="185">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="251" EndNode="256">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="308" EndNode="329">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="360" EndNode="368">
+</Annotation>
+<Annotation Id="10" Type="DRUG" StartNode="398" EndNode="404">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="450" EndNode="455">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="524" EndNode="529">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="533" EndNode="537">
+</Annotation>
+<Annotation Id="14" Type="PRODUCT" StartNode="539" EndNode="545">
+</Annotation>
+<Annotation Id="15" Type="PRODUCT" StartNode="554" EndNode="562">
+</Annotation>
+<Annotation Id="16" Type="DRUG" StartNode="660" EndNode="667">
+</Annotation>
+<Annotation Id="17" Type="DISEASE" StartNode="746" EndNode="757">
+</Annotation>
+<Annotation Id="18" Type="DISEASE" StartNode="764" EndNode="778">
+</Annotation>
+<Annotation Id="19" Type="DATE" StartNode="817" EndNode="821">
+</Annotation>
+<Annotation Id="20" Type="DRUG" StartNode="833" EndNode="839">
+</Annotation>
+<Annotation Id="21" Type="DISEASE" StartNode="876" EndNode="881">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="960">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

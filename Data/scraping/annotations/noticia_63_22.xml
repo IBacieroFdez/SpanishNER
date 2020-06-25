@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_22.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>- <Node id="2"/>Alberto Nájera<Node id="16"/>, <Node id="18"/>vocal<Node id="23"/> del <Node id="28"/>Comité Científico Asesor en Radiofrecuencias y Salud<Node id="80"/> (<Node id="82"/>CCARS<Node id="87"/>).
+<Node id="90"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="2" EndNode="16">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="18" EndNode="23">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="28" EndNode="80">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="82" EndNode="87">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="90">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

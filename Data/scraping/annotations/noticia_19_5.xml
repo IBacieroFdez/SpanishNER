@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_19_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Australia<Node id="9"/> se suma así a las recientes reclamaciones de <Node id="55"/>Estados Unidos<Node id="69"/> y otros <Node id="78"/>países<Node id="84"/> para esclarecer el origen de la <Node id="117"/>pandemia<Node id="125"/>, que según <Node id="137"/>Pekín<Node id="142"/> se originó en un <Node id="160"/>mercado<Node id="167"/> de la <Node id="174"/>ciudad<Node id="180"/> de <Node id="184"/>Wuhan<Node id="189"/>.
+<Node id="191"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="0" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="55" EndNode="69">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="78" EndNode="84">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="117" EndNode="125">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="137" EndNode="142">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="160" EndNode="167">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="174" EndNode="180">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="191">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="184" EndNode="189">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

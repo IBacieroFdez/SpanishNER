@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_50_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En tanto, la iniciativa de Aprendizaje en Línea "apoyará a <Node id="59"/>organizaciones sin fines de lucro<Node id="92"/>, centradas en educación y a <Node id="121"/>socios<Node id="127"/> de negocio para que proporcionen a los <Node id="167"/>estudiantes<Node id="178"/> sin acceso a la tecnología, <Node id="207"/>dispositivos<Node id="219"/> y <Node id="222"/>recursos<Node id="230"/> de aprendizaje en línea.
+<Node id="256"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="59" EndNode="92">
+</Annotation>
+<Annotation Id="21" Type="ORG" StartNode="121" EndNode="127">
+</Annotation>
+<Annotation Id="22" Type="JOB" StartNode="167" EndNode="178">
+</Annotation>
+<Annotation Id="23" Type="PRODUCT" StartNode="207" EndNode="219">
+</Annotation>
+<Annotation Id="24" Type="PRODUCT" StartNode="222" EndNode="230">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="256">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

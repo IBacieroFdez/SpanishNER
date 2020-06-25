@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_103_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Es un asunto algo complejo, así que vamos a empezar por el principio. Cuando se estableció el <Node id="94"/>confinamiento<Node id="107"/> en la <Node id="114"/>Bahía<Node id="119"/> de <Node id="123"/>San Francisco<Node id="136"/> el <Node id="140"/>16 de marzo<Node id="151"/>, <Node id="153"/>Tesla<Node id="158"/> siguió funcionando al ser considerada una "<Node id="202"/>empresa<Node id="209"/> esencial". Sin embargo, la <Node id="237"/>oficina<Node id="244"/> del <Node id="249"/>Sheriff<Node id="256"/> de <Node id="260"/>Alameda<Node id="267"/> dijo que no, que no lo era, y que si bien podía mantener unas "operaciones mínimas básicas" (inventario, nóminas y facilitar el <Node id="396"/>teletrabajo<Node id="407"/>, por ejemplo), no podía montar nuevos <Node id="446"/>coches<Node id="452"/>.  
+<Node id="456"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="94" EndNode="107">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="114" EndNode="119">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="123" EndNode="136">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="140" EndNode="151">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="153" EndNode="158">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="202" EndNode="209">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="237" EndNode="244">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="249" EndNode="256">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="260" EndNode="267">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="396" EndNode="407">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="446" EndNode="452">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="456">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

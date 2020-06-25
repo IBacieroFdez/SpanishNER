@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_56_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Cuestionado sobre si acudirá el próximo <Node id="40"/>30 de abril<Node id="51"/> al <Node id="55"/>Senado<Node id="61"/>, ha dicho que iría "gustoso si el <Node id="96"/>presidente<Node id="106"/> del <Node id="111"/>Gobierno<Node id="119"/> comparece" y no ha aclarado qué hará si acude un <Node id="169"/>ministro<Node id="177"/> en su lugar.
+<Node id="191"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="40" EndNode="51">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="55" EndNode="61">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="96" EndNode="106">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="111" EndNode="119">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="169" EndNode="177">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="191">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

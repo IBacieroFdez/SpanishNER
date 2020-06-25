@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_86_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Mejoras en la identificación temprana del <Node id="42"/>autismo<Node id="49"/>
+En un <Node id="56"/>informe<Node id="63"/> aparte, centrado en los niños de <Node id="97"/>4<Node id="98"/> años, se hallan mejoras sustanciales en la cantidad de niños a los que les hicieron sus <Node id="187"/>primeras<Node id="195"/> pruebas del desarrollo a los <Node id="225"/>36<Node id="227"/> <Node id="228"/>meses<Node id="233"/> de edad o antes. Según el informe, al <Node id="272"/>84 %<Node id="276"/> de los niños de <Node id="293"/>4<Node id="294"/> años les habían hecho las <Node id="321"/>primeras<Node id="329"/> pruebas del desarrollo a los <Node id="359"/>36<Node id="361"/> <Node id="362"/>meses<Node id="367"/> de edad o antes, comparado con el <Node id="402"/>74 %<Node id="406"/> reportado en el informe anterior que se basó en los datos del <Node id="469"/>2014<Node id="473"/>. Esto es importante porque mientras más temprano se identifique el <Node id="541"/>autismo<Node id="548"/> en los niños, más <Node id="567"/>temprano<Node id="575"/> se los podrá conectar a servicios que pueden mejorar los resultados y llevar a una mejor calidad de vida.
+<Node id="682"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="42" EndNode="49">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="97" EndNode="98">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="225" EndNode="227">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="293" EndNode="294">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="359" EndNode="361">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="321" EndNode="329">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="56" EndNode="63">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="187" EndNode="195">
+</Annotation>
+<Annotation Id="9" Type="PERCENT" StartNode="272" EndNode="276">
+</Annotation>
+<Annotation Id="10" Type="PERCENT" StartNode="402" EndNode="406">
+</Annotation>
+<Annotation Id="11" Type="TIME" StartNode="228" EndNode="233">
+</Annotation>
+<Annotation Id="12" Type="TIME" StartNode="362" EndNode="367">
+</Annotation>
+<Annotation Id="13" Type="DATE" StartNode="469" EndNode="473">
+</Annotation>
+<Annotation Id="14" Type="DISEASE" StartNode="541" EndNode="548">
+</Annotation>
+<Annotation Id="15" Type="TIME" StartNode="567" EndNode="575">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="682">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La salida de los <Node id="17"/>niños<Node id="22"/> ha sido en las <Node id="38"/>últimas semanas<Node id="53"/> uno de los principales debates en torno a las medidas intermedias antes de abordar el <Node id="140"/>desconfinamiento<Node id="156"/> cuando remita la <Node id="174"/>epidemia<Node id="182"/>, en curso descendente después de que sus principales indicadores, las muertes y los <Node id="267"/>contagios<Node id="276"/>, hayan repuntado levemente <Node id="304"/>este martes<Node id="315"/> por el llamado “efecto <Node id="339"/>fin de semana<Node id="352"/>” en menor medida que los <Node id="378"/>cuatro<Node id="384"/> <Node id="385"/>martes<Node id="391"/> anteriores.
+<Node id="404"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="17" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="38" EndNode="53">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="140" EndNode="156">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="174" EndNode="182">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="267" EndNode="276">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="304" EndNode="315">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="339" EndNode="352">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="378" EndNode="384">
+</Annotation>
+<Annotation Id="10" Type="DATE" StartNode="385" EndNode="391">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="404">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

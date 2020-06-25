@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_3_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>presidenta<Node id="13"/> de la <Node id="20"/>Comunidad de Madrid<Node id="39"/>, <Node id="41"/>Isabel Díaz Ayuso<Node id="58"/>, ha anunciado <Node id="73"/>este martes<Node id="84"/> que va a comprar <Node id="102"/>14 millones<Node id="113"/> de <Node id="117"/>mascarillas FPP2<Node id="133"/> para distribuir a todos los <Node id="162"/>madrileños<Node id="172"/> de cara a la desescalada y la vuelta progresiva a la normalidad <Node id="237"/>a partir del 9 de mayo<Node id="259"/> para que <Node id="269"/>todo el mundo<Node id="282"/> esté protegido.
+<Node id="299"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="20" EndNode="39">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="41" EndNode="58">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="73" EndNode="84">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="102" EndNode="113">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="117" EndNode="133">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="162" EndNode="172">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="237" EndNode="259">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="269" EndNode="282">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="299">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_51_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Dubai<Node id="5"/> cuenta con recibir <Node id="25"/>25 millones<Node id="36"/> de visitantes en su <Node id="57"/>Expo<Node id="61"/>, <Node id="63"/>11 millones<Node id="74"/> de ellos extranjeros, y unos ingresos de unos <Node id="121"/>30 000 millones de euros<Node id="145"/> (unos <Node id="152"/>32 600 millones de dólares<Node id="178"/>).
+<Node id="181"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="25" EndNode="36">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="57" EndNode="61">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="63" EndNode="74">
+</Annotation>
+<Annotation Id="5" Type="MONEY" StartNode="121" EndNode="145">
+</Annotation>
+<Annotation Id="6" Type="MONEY" StartNode="152" EndNode="178">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="181">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

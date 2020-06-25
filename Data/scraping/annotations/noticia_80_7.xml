@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_80_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Si se cumplen estos criterios, se podrá llevar a cabo un levantamiento gradual de las medidas en <Node id="97"/>cinco<Node id="102"/> <Node id="103"/>fases<Node id="108"/>: primero, el retorno de las personas sanas a sus <Node id="158"/>puestos de trabajo<Node id="176"/> no esenciales; <Node id="192"/>segundo<Node id="199"/>, la salida a la <Node id="216"/>calle<Node id="221"/> de personas sanas, "con especial atención menores y a la gente mayor".
+<Node id="293"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="97" EndNode="102">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="103" EndNode="108">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="158" EndNode="176">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="192" EndNode="199">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="216" EndNode="221">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="293">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

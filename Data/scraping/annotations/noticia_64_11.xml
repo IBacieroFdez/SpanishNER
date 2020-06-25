@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_64_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Más optimista, <Node id="15"/>Vladimir ZdímaL<Node id="30"/>, <Node id="32"/>jefe<Node id="36"/> del <Node id="41"/>departamento de Química y Física<Node id="73"/> de <Node id="77"/>aerosoles<Node id="86"/> en la <Node id="93"/>Academia de Ciencias<Node id="113"/> de la <Node id="120"/>República Checa<Node id="135"/>, considera que, según su experiencia profesional, “una simple <Node id="198"/>mascarilla<Node id="208"/> casera puede prevenir la dispersión de hasta el <Node id="257"/>95-100 %<Node id="265"/> de las microgotas potencialmente <Node id="299"/>infectadas<Node id="309"/>”. Así lo afirma en un vídeo <Node id="338"/>checo<Node id="343"/> que promueve el uso generalizado de <Node id="380"/>mascarillas<Node id="391"/>.
+<Node id="393"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="15" EndNode="30">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="32" EndNode="36">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="41" EndNode="73">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="77" EndNode="86">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="93" EndNode="113">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="120" EndNode="135">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="198" EndNode="208">
+</Annotation>
+<Annotation Id="8" Type="PERCENT" StartNode="257" EndNode="265">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="299" EndNode="309">
+</Annotation>
+<Annotation Id="10" Type="LANG" StartNode="338" EndNode="343">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="380" EndNode="391">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="393">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

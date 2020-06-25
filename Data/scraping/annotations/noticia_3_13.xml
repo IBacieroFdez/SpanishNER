@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_3_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Díaz Ayuso<Node id="10"/> ha expresado sus condolencias, su cariño y su solidaridad a los <Node id="75"/>familiares<Node id="85"/> de los fallecidos por <Node id="108"/>coronavirus<Node id="119"/> en las <Node id="127"/>residencias<Node id="138"/> de la región, pero ha señalado que también hay que pensar en "todas las vidas que se han salvado" gracias a este plan de choque y en los planes que se van a poner en marcha en el futuro "mientras no tengamos la certeza de que el <Node id="368"/>COVID-19<Node id="376"/> se ha ido de la <Node id="393"/>Comunidad de Madrid<Node id="412"/> y de <Node id="418"/>España<Node id="424"/>".
+<Node id="427"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="75" EndNode="85">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="427">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="108" EndNode="119">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="127" EndNode="138">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="368" EndNode="376">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="393" EndNode="412">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="418" EndNode="424">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

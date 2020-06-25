@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Nájera<Node id="6"/>, que es <Node id="15"/>profesor<Node id="23"/> en la <Node id="30"/>Facultad de Medicina<Node id="50"/> de <Node id="54"/>Albacete<Node id="62"/> (<Node id="64"/>Universidad<Node id="75"/> de <Node id="79"/>Castilla-La Mancha<Node id="97"/>) precisa además que las <Node id="122"/>redes 5G<Node id="130"/> todavía no están implantadas en <Node id="163"/>España<Node id="169"/>, y destaca la experiencia de <Node id="199"/>Corea del Sur<Node id="212"/> como ejemplo de la nula relación entre <Node id="252"/>redes<Node id="257"/> de última generación y <Node id="281"/>coronavirus<Node id="292"/>.
+<Node id="294"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="6">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="15" EndNode="23">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="30" EndNode="50">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="54" EndNode="62">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="64" EndNode="75">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="79" EndNode="97">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="122" EndNode="130">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="163" EndNode="169">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="199" EndNode="212">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="252" EndNode="257">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="281" EndNode="292">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="294">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

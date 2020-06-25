@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_55_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Entidades como el <Node id="18"/>Consejo General de Colegios Oficiales de Médicos<Node id="66"/> (<Node id="68"/>CGCOM<Node id="73"/>) señalaron que se trataba de una partida de <Node id="118"/>mascarillas FPP2<Node id="134"/> de la empresa <Node id="149"/>Garry Galaxy<Node id="161"/>, proveedor del <Node id="177"/>ministerio<Node id="187"/>, en  envoltorio de color verde, retiradas tras haberse distribuido a las <Node id="261"/>comunidades<Node id="272"/>.
+<Node id="274"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="18" EndNode="66">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="68" EndNode="73">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="118" EndNode="134">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="149" EndNode="161">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="177" EndNode="187">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="261" EndNode="272">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="274">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

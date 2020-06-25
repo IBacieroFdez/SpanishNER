@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_69_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Entre los <Node id="10"/>días<Node id="14"/> <Node id="15"/>5<Node id="16"/> y <Node id="19"/>9 de mayo<Node id="28"/> se disputará la <Node id="45"/>fase de grupos<Node id="59"/>, bajo un formato de juego rápido, de la que los <Node id="108"/>dos<Node id="111"/> mejores jugarán la <Node id="131"/>final<Node id="136"/> el <Node id="140"/>10 de mayo<Node id="150"/>.
+<Node id="152"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="10" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="15" EndNode="16">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="19" EndNode="28">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="108" EndNode="111">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="131" EndNode="136">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="45" EndNode="59">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="140" EndNode="150">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="152">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

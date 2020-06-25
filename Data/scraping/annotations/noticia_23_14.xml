@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_23_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Netanyahu<Node id="9"/> ocupará el cargo de <Node id="30"/>jefe<Node id="34"/> de <Node id="38"/>Gobierno<Node id="46"/>, que pasará a <Node id="61"/>Gantz<Node id="66"/> en el <Node id="73"/>mes<Node id="76"/> de <Node id="80"/>octubre<Node id="87"/> del <Node id="92"/>año<Node id="95"/> que viene y hasta entonces será <Node id="128"/>viceprimer ministro<Node id="147"/> y ostentará la cartera de <Node id="174"/>Defensa<Node id="181"/>.
+<Node id="183"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="30" EndNode="34">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="38" EndNode="46">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="61" EndNode="66">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="73" EndNode="76">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="80" EndNode="87">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="92" EndNode="95">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="128" EndNode="147">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="174" EndNode="181">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="183">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

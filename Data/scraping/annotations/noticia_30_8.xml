@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_30_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por el contrario, destacó el crecimiento de las ventas a <Node id="57"/>Sudáfrica<Node id="66"/>, que fue del <Node id="80"/>25,1 %<Node id="86"/>, hasta los <Node id="98"/>280 millones de euros<Node id="119"/>.
+<Node id="121"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="57" EndNode="66">
+</Annotation>
+<Annotation Id="2" Type="PERCENT" StartNode="80" EndNode="86">
+</Annotation>
+<Annotation Id="3" Type="MONEY" StartNode="98" EndNode="119">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="121">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

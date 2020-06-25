@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_67_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Además, el <Node id="11"/>tenista<Node id="18"/> de <Node id="22"/>Manacor<Node id="29"/> contó que desde su <Node id="49"/>fundación<Node id="58"/> no han parado de buscar formas de ayudar a todas las familias que lo están pasando mal a causa de esta <Node id="162"/>pandemia<Node id="170"/>. "Les damos ayuda alimenticia y de higiene para asegurarnos de que no les falta de nada en este momento. Trabajamos para ayudar en todo lo que necesiten".
+<Node id="326"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="11" EndNode="18">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="22" EndNode="29">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="49" EndNode="58">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="162" EndNode="170">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="326">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_25_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El origen del proceso lingüístico <Node id="34"/>humano<Node id="40"/> sería de aproximadamente <Node id="66"/>25 millones<Node id="77"/> de años<Node id="85"/>,<Node id="86"/> veinte millones<Node id="102"/> antes de lo estimado hasta <Node id="130"/>ahora<Node id="135"/>, según un artículo publicado este <Node id="170"/>lunes<Node id="175"/> en la revista científica <Node id="201"/>Nature Neuroscience<Node id="220"/>.
+<Node id="222"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="PER" StartNode="34" EndNode="40">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="66" EndNode="77">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="86" EndNode="102">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="130" EndNode="135">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="66" EndNode="85">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="170" EndNode="175">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="201" EndNode="220">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="222">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_86_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>¿Qué pueden hacer los padres?
+El programa de los <Node id="49"/>CDC<Node id="52"/> “Aprenda los Signos. Reaccione Pronto.” proporciona <Node id="105"/>recursos<Node id="113"/> gratuitos para el monitoreo del desarrollo de los niños, en <Node id="174"/>inglés<Node id="180"/> y <Node id="183"/>español<Node id="190"/>, para padres, <Node id="205"/>profesionales<Node id="218"/> de cuidados infantiles y <Node id="244"/>proveedores<Node id="255"/> de <Node id="259"/>atención médica<Node id="274"/>. El programa ofrece listas de verificación de los <Node id="325"/>indicadores<Node id="336"/> del desarrollo para niños a partir de los <Node id="379"/>2<Node id="380"/> <Node id="381"/>meses<Node id="386"/> de edad, que están basadas en <Node id="417"/>investigaciones<Node id="432"/> y son fáciles de usar para los padres. La aplicación de los <Node id="493"/>CDC<Node id="496"/> “Sigamos el Desarrollo” para <Node id="526"/>dispositivos móviles<Node id="546"/> puede ayudar a los padres a seguir el desarrollo de sus hijos y compartir esa información con los <Node id="645"/>proveedores<Node id="656"/> de <Node id="660"/>atención médica<Node id="675"/>. Para obtener más información, visite <Node id="714"/>www.cdc.gov/ncbddd/spanish/actearly/<Node id="750"/>.
+<Node id="752"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="49" EndNode="52">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="105" EndNode="113">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="174" EndNode="180">
+</Annotation>
+<Annotation Id="4" Type="LANG" StartNode="183" EndNode="190">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="259" EndNode="274">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="244" EndNode="255">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="205" EndNode="218">
+</Annotation>
+<Annotation Id="8" Type="SCITERM" StartNode="325" EndNode="336">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="379" EndNode="380">
+</Annotation>
+<Annotation Id="10" Type="TIME" StartNode="381" EndNode="386">
+</Annotation>
+<Annotation Id="11" Type="SCITERM" StartNode="417" EndNode="432">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="493" EndNode="496">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="526" EndNode="546">
+</Annotation>
+<Annotation Id="14" Type="JOB" StartNode="645" EndNode="656">
+</Annotation>
+<Annotation Id="15" Type="MEDTERM" StartNode="660" EndNode="675">
+</Annotation>
+<Annotation Id="16" Type="ADDRESS" StartNode="714" EndNode="750">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="752">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

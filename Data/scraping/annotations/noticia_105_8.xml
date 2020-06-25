@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_105_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Si de algo tiene fama <Node id="22"/>Ryan Murphy<Node id="33"/> es de saber dirigir muy bien a todos sus <Node id="75"/>actores<Node id="82"/> y <Node id="85"/>actrices<Node id="93"/>. Por eso es difícil elegir un personaje de todos los que pueblan <Node id="159"/>Hollywood<Node id="168"/>. Ahí está <Node id="179"/>Darren Criss<Node id="191"/> interpretando a <Node id="208"/>Raymond<Node id="215"/>, un ambicioso <Node id="230"/>director<Node id="238"/> de <Node id="242"/>cine<Node id="246"/>, <Node id="248"/>David Corenswet<Node id="263"/>, un veterano de la <Node id="283"/>Segunda Guerra Mundial<Node id="305"/> que sueña con convertirse en una estrella o <Node id="350"/>Jim Parsons<Node id="361"/>, como el controvertido <Node id="385"/>agente<Node id="391"/> de <Node id="395"/>Hollywood<Node id="404"/> <Node id="405"/>Henry Wilson<Node id="417"/>. Tampoco podemos dejar pasar a las <Node id="453"/>actrices<Node id="461"/>, especialmente <Node id="477"/>Patti LuPone<Node id="489"/>, que da vida a la ex mujer de un <Node id="523"/>productor<Node id="532"/> que hace lo posible por evitar que la industria solo acepte a personas blancas y heterosexuales. O la estupenda <Node id="645"/>Laura Harrier<Node id="658"/>, <Node id="660"/>Camille<Node id="667"/>, una <Node id="673"/>actriz<Node id="679"/> que sueña con protagonizar una <Node id="711"/>película<Node id="719"/> importante pero a la que solo le dan papeles de criada al ser negra. Y qué decir de <Node id="804"/>Maude Apatow<Node id="816"/>, interpretando a <Node id="834"/>Henrietta<Node id="843"/>, una joven esposa enamorada del hombre equivocado. Un elenco que hace suyo ese mensaje tan importante de que si los sueños se persiguen, se terminan cumpliendo. Eso sí, el precio que hay que pagar es a veces demasiado alto.
+<Node id="1068"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="22" EndNode="33">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="75" EndNode="82">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="85" EndNode="93">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="159" EndNode="168">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="179" EndNode="191">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="208" EndNode="215">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="230" EndNode="238">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="242" EndNode="246">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="248" EndNode="263">
+</Annotation>
+<Annotation Id="10" Type="EVENT" StartNode="283" EndNode="305">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="350" EndNode="361">
+</Annotation>
+<Annotation Id="12" Type="JOB" StartNode="385" EndNode="391">
+</Annotation>
+<Annotation Id="13" Type="GPE" StartNode="395" EndNode="404">
+</Annotation>
+<Annotation Id="14" Type="PER" StartNode="405" EndNode="417">
+</Annotation>
+<Annotation Id="15" Type="JOB" StartNode="453" EndNode="461">
+</Annotation>
+<Annotation Id="16" Type="PER" StartNode="477" EndNode="489">
+</Annotation>
+<Annotation Id="17" Type="JOB" StartNode="523" EndNode="532">
+</Annotation>
+<Annotation Id="18" Type="PER" StartNode="645" EndNode="658">
+</Annotation>
+<Annotation Id="19" Type="PER" StartNode="660" EndNode="667">
+</Annotation>
+<Annotation Id="20" Type="JOB" StartNode="673" EndNode="679">
+</Annotation>
+<Annotation Id="21" Type="PRODUCT" StartNode="711" EndNode="719">
+</Annotation>
+<Annotation Id="23" Type="PER" StartNode="804" EndNode="816">
+</Annotation>
+<Annotation Id="24" Type="PER" StartNode="834" EndNode="843">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="1068">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

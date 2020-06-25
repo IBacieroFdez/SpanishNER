@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_42_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Respecto a la protección de la <Node id="31"/>salud<Node id="36"/> financiera de la <Node id="54"/>compañía<Node id="62"/>, en específico su <Node id="81"/>liquidez<Node id="89"/>, <Node id="91"/>Miquel<Node id="97"/> ha señalado que "el Plan de Contingencia está ya implantado tanto a nivel de <Node id="175"/>gastos<Node id="181"/> como de <Node id="190"/>inversiones<Node id="201"/>" y "el canal on-line continúa <Node id="232"/>100 %<Node id="237"/> operativo y en franca mejoría". 
+<Node id="271"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="31" EndNode="36">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="54" EndNode="62">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="91" EndNode="97">
+</Annotation>
+<Annotation Id="4" Type="MONEY" StartNode="81" EndNode="89">
+</Annotation>
+<Annotation Id="5" Type="MONEY" StartNode="175" EndNode="181">
+</Annotation>
+<Annotation Id="6" Type="MONEY" StartNode="190" EndNode="201">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="232" EndNode="237">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="271">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

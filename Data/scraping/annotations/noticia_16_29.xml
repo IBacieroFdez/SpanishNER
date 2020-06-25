@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_29.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ahora el frágil <Node id="16"/>sistema<Node id="23"/> construido está colapsando porque no puede lidiar con algo que ha salido mal. Cuando diseñas un <Node id="120"/>sistema<Node id="127"/> frágil y centralizas la manufacturación y la producción solo en un lugar como <Node id="206"/>China<Node id="211"/>… Mira <Node id="218"/>Apple<Node id="223"/>. Hace enormes beneficios, de los que pocos se quedan en <Node id="280"/>China<Node id="285"/> o en <Node id="291"/>Taiwán<Node id="297"/>. La mayor parte de su negocio va a parar a donde probablemente han puesto una <Node id="376"/>oficina<Node id="383"/> del tamaño de mi estudio, en <Node id="413"/>Irlanda<Node id="420"/>, para pagar pocos impuestos en un <Node id="455"/>paraíso fiscal<Node id="469"/>.<Node id="470"/>
+<Node id="471"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="16" EndNode="23">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="120" EndNode="127">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="206" EndNode="211">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="218" EndNode="223">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="280" EndNode="285">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="291" EndNode="297">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="470" EndNode="471">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="376" EndNode="383">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="413" EndNode="420">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="455" EndNode="469">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="471">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

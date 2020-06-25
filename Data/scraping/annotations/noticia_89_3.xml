@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_89_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xd;
+	 <Node id="4"/>La <Node id="7"/>investigación<Node id="20"/> se llevó a cabo en <Node id="40"/>12<Node id="42"/> pacientes con esta <Node id="62"/>patología<Node id="71"/>.  Los <Node id="78"/>científicos<Node id="89"/> administraron a cada uno de ellos <Node id="124"/>dos<Node id="127"/> <Node id="128"/>dosis<Node id="133"/> de <Node id="137"/>placebo<Node id="144"/>  ­–una <Node id="152"/>solución salina<Node id="167"/>–, indicándoles que se trataba de dos <Node id="205"/>medicamentos<Node id="217"/>  diferentes, igualmente efectivos, pero de diferente <Node id="271"/>precio<Node id="277"/>, unos <Node id="284"/>90<Node id="286"/> y  <Node id="290"/>1.300 euros<Node id="301"/>, respectivamente. Antes y después de cada <Node id="344"/>toma<Node id="348"/>, los  participantes pasaron varias <Node id="384"/>pruebas<Node id="391"/> para medir sus habilidades motoras y  se sometieron a <Node id="446"/>escáneres<Node id="455"/> para medir la <Node id="470"/>actividad cerebral<Node id="488"/>.&#xd;
+<Node id="491"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="7" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="40" EndNode="42">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="62" EndNode="71">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="78" EndNode="89">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="124" EndNode="127">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="128" EndNode="133">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="137" EndNode="144">
+</Annotation>
+<Annotation Id="8" Type="SCITERM" StartNode="152" EndNode="167">
+</Annotation>
+<Annotation Id="9" Type="DRUG" StartNode="205" EndNode="217">
+</Annotation>
+<Annotation Id="10" Type="MONEY" StartNode="271" EndNode="277">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="284" EndNode="286">
+</Annotation>
+<Annotation Id="12" Type="MONEY" StartNode="290" EndNode="301">
+</Annotation>
+<Annotation Id="13" Type="DRUG" StartNode="344" EndNode="348">
+</Annotation>
+<Annotation Id="14" Type="SCITERM" StartNode="384" EndNode="391">
+</Annotation>
+<Annotation Id="15" Type="SCITERM" StartNode="446" EndNode="455">
+</Annotation>
+<Annotation Id="16" Type="MEDTERM" StartNode="470" EndNode="488">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="4" EndNode="491">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_32.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Kara<Node id="4"/> explicó que <Node id="17"/>Turquía<Node id="24"/> es uno de los <Node id="39"/>pocos<Node id="44"/> <Node id="45"/>países<Node id="51"/> del <Node id="56"/>mundo<Node id="61"/> que produce sus propias <Node id="86"/>pruebas<Node id="93"/> de <Node id="97"/>covid-19<Node id="105"/> las cuales pueden arrojar resultados confiables en <Node id="157"/>seis<Node id="161"/> <Node id="162"/>horas<Node id="167"/>. Las pruebas rápidas lo hacen en unos <Node id="206"/>15<Node id="208"/> <Node id="209"/>minutos<Node id="216"/>.
+<Node id="218"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="17" EndNode="24">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="56" EndNode="61">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="45" EndNode="51">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="39" EndNode="44">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="86" EndNode="93">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="97" EndNode="105">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="157" EndNode="161">
+</Annotation>
+<Annotation Id="9" Type="TIME" StartNode="162" EndNode="167">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="206" EndNode="208">
+</Annotation>
+<Annotation Id="11" Type="TIME" StartNode="209" EndNode="216">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="218">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

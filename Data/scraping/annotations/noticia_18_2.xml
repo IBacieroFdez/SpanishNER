@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_18_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"A la luz del ataque del enemigo invisible, así como la necesidad de proteger los trabajos de nuestros GRANDES <Node id="111"/>ciudadanos<Node id="121"/> <Node id="122"/>estadounidenses<Node id="137"/>, ¡firmaré una orden ejecutiva para suspender <Node id="183"/>temporalmente<Node id="196"/> la inmigración a los <Node id="218"/>Estados Unidos<Node id="232"/>!", afirmó <Node id="243"/>Trump<Node id="248"/>. 
+<Node id="251"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LANG" StartNode="122" EndNode="137">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="218" EndNode="232">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="243" EndNode="248">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="111" EndNode="121">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="251">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="183" EndNode="196">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

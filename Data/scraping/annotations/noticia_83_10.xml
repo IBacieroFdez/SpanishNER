@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_83_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>organismos<Node id="14"/> causantes de <Node id="28"/>enfermedades<Node id="40"/> también se pueden transmitir por contacto indirecto. Muchos <Node id="101"/>gérmenes<Node id="109"/> permanecen en <Node id="124"/>objetos<Node id="131"/> inanimados, como <Node id="149"/>mesadas<Node id="156"/>, <Node id="158"/>picaportes<Node id="168"/> o <Node id="171"/>llaves<Node id="177"/> de <Node id="181"/>grifo<Node id="186"/>.
+<Node id="188"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="28" EndNode="40">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="4" EndNode="14">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="101" EndNode="109">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="188">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="124" EndNode="131">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="149" EndNode="156">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="158" EndNode="168">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="171" EndNode="177">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="181" EndNode="186">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

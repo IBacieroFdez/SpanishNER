@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_44_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>consorcio<Node id="12"/> tiene en <Node id="22"/>Francia<Node id="29"/> <Node id="30"/>48.000<Node id="36"/> <Node id="37"/>trabajadores<Node id="49"/> y la aplicación de ese dispositivo de paro parcial, conocido en <Node id="114"/>España<Node id="120"/> como ERTE, se prolonga hasta el <Node id="153"/>17 de mayo<Node id="163"/>. 
+<Node id="166"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="22" EndNode="29">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="30" EndNode="36">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="37" EndNode="49">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="114" EndNode="120">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="153" EndNode="163">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="166">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

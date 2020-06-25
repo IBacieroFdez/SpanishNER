@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_20_25.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Con <Node id="4"/>40<Node id="6"/> <Node id="7"/>extranjeros<Node id="18"/> muertos en los atentados, el número de <Node id="58"/>turistas<Node id="66"/> cayó un <Node id="75"/>70 %<Node id="79"/> en <Node id="83"/>mayo de 2019<Node id="95"/> respecto al <Node id="108"/>mes previo<Node id="118"/> a los ataques, y en todo el <Node id="147"/>año<Node id="150"/> se registraron <Node id="166"/>1,9 millones<Node id="178"/> de visitas, un <Node id="194"/>18 %<Node id="198"/> menos que en <Node id="212"/>2018<Node id="216"/>.
+<Node id="218"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="4" EndNode="6">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="7" EndNode="18">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="58" EndNode="66">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="75" EndNode="79">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="83" EndNode="95">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="108" EndNode="118">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="147" EndNode="150">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="166" EndNode="178">
+</Annotation>
+<Annotation Id="9" Type="PERCENT" StartNode="194" EndNode="198">
+</Annotation>
+<Annotation Id="10" Type="DATE" StartNode="212" EndNode="216">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="218">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_76_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Respecto a los gastos bancarios anuales en que incurren las <Node id="60"/>empresas<Node id="68"/>, los <Node id="74"/>directivos<Node id="84"/> de las <Node id="92"/>startups<Node id="100"/> aseguran conocer con mayor certeza cuáles son, <Node id="148"/>65%<Node id="151"/>, mientras que en las <Node id="173"/>pymes<Node id="178"/> este <Node id="184"/>porcentaje<Node id="194"/> baja al <Node id="203"/>58%<Node id="206"/>.
+<Node id="208"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="60" EndNode="68">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="74" EndNode="84">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="92" EndNode="100">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="148" EndNode="151">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="173" EndNode="178">
+</Annotation>
+<Annotation Id="6" Type="PERCENT" StartNode="184" EndNode="194">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="203" EndNode="206">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="208">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

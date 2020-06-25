@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Según un estudio sobre la presencia de este <Node id="44"/>síntoma<Node id="51"/> en <Node id="55"/>pacientes<Node id="64"/> con <Node id="69"/>infección<Node id="78"/> leve o moderada de <Node id="98"/>COVID-19<Node id="106"/>, publicado en la revista <Node id="132"/>European Archives of Oto-Rhino-Laryngology<Node id="174"/>, <Node id="176"/>ocho de cada diez<Node id="193"/> constata una pérdida total del <Node id="225"/>sentido del olfato<Node id="243"/>.
+<Node id="245"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="44" EndNode="51">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="55" EndNode="64">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="69" EndNode="78">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="98" EndNode="106">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="132" EndNode="174">
+</Annotation>
+<Annotation Id="6" Type="PERCENT" StartNode="176" EndNode="193">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="225" EndNode="243">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="245">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

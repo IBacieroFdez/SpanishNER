@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_4_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Reyero<Node id="6"/> ha indicado que las <Node id="27"/>residencias<Node id="38"/> "son centros de servicios sociales" y no "<Node id="81"/>sanitarios<Node id="91"/>", por lo que "la <Node id="109"/>atención sanitaria<Node id="127"/> que en ellos se presta va orientada a cubrir las necesidades del <Node id="193"/>día a día<Node id="202"/> de los <Node id="210"/>mayores<Node id="217"/>".
+<Node id="220"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="PER" StartNode="0" EndNode="6">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="27" EndNode="38">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="81" EndNode="91">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="109" EndNode="127">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="193" EndNode="202">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="210" EndNode="217">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="220">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

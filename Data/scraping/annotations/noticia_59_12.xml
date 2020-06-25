@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_59_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los detenidos, ya en <Node id="21"/>España<Node id="27"/>, adaptaron sus comportamientos a la situación del estado de alarma como consecuencia de la <Node id="119"/>pandemia<Node id="127"/> del <Node id="132"/>COVID-19<Node id="140"/>, y hacían escasas salidas, por separado, y siempre con <Node id="196"/>mascarillas<Node id="207"/> para evitar ser detectados.
+<Node id="236"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="21" EndNode="27">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="132" EndNode="140">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="119" EndNode="127">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="196" EndNode="207">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="236">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

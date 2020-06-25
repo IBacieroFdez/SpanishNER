@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/nolotil_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Informe a su <Node id="13"/>médico<Node id="19"/> o <Node id="22"/>farmacéutico<Node id="34"/> si está utilizando o ha utilizado <Node id="69"/>recientemente<Node id="82"/> o podría tener que utilizar cualquier otro <Node id="126"/>medicamento<Node id="137"/>. Si se administra conjuntamente con <Node id="174"/>ciclosporina<Node id="186"/> (<Node id="188"/>medicamento<Node id="199"/> que previene el rechazo de los <Node id="231"/>trasplantes<Node id="242"/>), puede reducir los niveles en <Node id="274"/>sangre<Node id="280"/> de la <Node id="287"/>ciclosporina<Node id="299"/> y por lo tanto éstos se deben medir con regularidad. Si se administra conjuntamente con <Node id="388"/>ácido acetilsalicílico<Node id="410"/>, puede reducir el efecto del <Node id="440"/>ácido acetilsalicílico<Node id="462"/> para disminuir la agregación de las <Node id="499"/>plaquetas<Node id="508"/> (<Node id="510"/>antiplaquetario<Node id="525"/>) y por lo tanto se debe usar con precaución en <Node id="573"/>pacientes<Node id="582"/> que lo estén tomando para proteger el <Node id="621"/>corazón<Node id="628"/> (<Node id="630"/>cardioprotector<Node id="645"/>).
+<Node id="648"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="13" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="22" EndNode="34">
+</Annotation>
+<Annotation Id="3" Type="DRUG" StartNode="126" EndNode="137">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="69" EndNode="82">
+</Annotation>
+<Annotation Id="5" Type="DRUG" StartNode="174" EndNode="186">
+</Annotation>
+<Annotation Id="7" Type="DRUG" StartNode="188" EndNode="199">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="231" EndNode="242">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="274" EndNode="280">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="287" EndNode="299">
+</Annotation>
+<Annotation Id="11" Type="DRUG" StartNode="388" EndNode="410">
+</Annotation>
+<Annotation Id="12" Type="DRUG" StartNode="440" EndNode="462">
+</Annotation>
+<Annotation Id="13" Type="MEDTERM" StartNode="499" EndNode="508">
+</Annotation>
+<Annotation Id="14" Type="MEDTERM" StartNode="510" EndNode="525">
+</Annotation>
+<Annotation Id="15" Type="MEDTERM" StartNode="573" EndNode="582">
+</Annotation>
+<Annotation Id="16" Type="MEDTERM" StartNode="621" EndNode="628">
+</Annotation>
+<Annotation Id="17" Type="MEDTERM" StartNode="630" EndNode="645">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="648">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

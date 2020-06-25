@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_96_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>-¿Qué <Node id="6"/>tiendas<Node id="13"/> de <Node id="17"/>Estados Unidos<Node id="31"/> sí están abiertas pese a la <Node id="60"/>pandemia<Node id="68"/> de <Node id="72"/>COVID-19<Node id="80"/>?
+<Node id="82"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="6" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="17" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="60" EndNode="68">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="72" EndNode="80">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="82">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

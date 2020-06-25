@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_28.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Aseguró que material de combate al <Node id="35"/>covid-19<Node id="43"/> donado por el <Node id="58"/>gobierno<Node id="66"/> <Node id="67"/>chino<Node id="72"/> en otros envíos separados, así como la ayuda del <Node id="122"/>grupo tecnológico<Node id="139"/> y minorista <Node id="152"/>Alibaba<Node id="159"/>, no incluía productos de <Node id="185"/>Shenzhen Bioeasy<Node id="201"/>.
+<Node id="203"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="35" EndNode="43">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="58" EndNode="66">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="67" EndNode="72">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="152" EndNode="159">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="185" EndNode="201">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="122" EndNode="139">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="203">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

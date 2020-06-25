@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_88_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xd;
+	 <Node id="4"/>Por último, los análisis de <Node id="32"/>expresión génica<Node id="48"/> en <Node id="52"/>cerebro<Node id="59"/> apoyan la  <Node id="71"/>hipótesis<Node id="80"/>  de que las mujeres con <Node id="105"/>autismo<Node id="112"/>, cuya <Node id="119"/>proporción<Node id="129"/> es mucho  menor que la de los hombres, presentan <Node id="179"/>mutaciones<Node id="189"/> más dañinas. “Estos  patrones son consistentes con la idea de que existen <Node id="264"/>mecanismos<Node id="274"/> que  protegen a las mujeres,” comenta <Node id="313"/>Vitkup<Node id="319"/>. “A menudo, únicamente vemos  <Node id="350"/>síntomas<Node id="358"/> en las mujeres cuando una <Node id="385"/>mutación<Node id="393"/> altera a un <Node id="406"/>gen<Node id="409"/> muy activo”.  El <Node id="427"/>investigador<Node id="439"/> añade que puesto que las diferencias en <Node id="480"/>actividad  génica<Node id="497"/> entre los <Node id="508"/>cerebros<Node id="516"/> de ambos sexos son de un pequeño <Node id="550"/>porcentaje<Node id="560"/>,  estos resultados son muy remarcables.&#xd;
+<Node id="602"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="32" EndNode="48">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="52" EndNode="59">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="71" EndNode="80">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="105" EndNode="112">
+</Annotation>
+<Annotation Id="5" Type="PERCENT" StartNode="119" EndNode="129">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="179" EndNode="189">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="264" EndNode="274">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="313" EndNode="319">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="350" EndNode="358">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="385" EndNode="393">
+</Annotation>
+<Annotation Id="11" Type="SCITERM" StartNode="406" EndNode="409">
+</Annotation>
+<Annotation Id="12" Type="JOB" StartNode="427" EndNode="439">
+</Annotation>
+<Annotation Id="13" Type="JOB" StartNode="480" EndNode="497">
+</Annotation>
+<Annotation Id="14" Type="MEDTERM" StartNode="508" EndNode="516">
+</Annotation>
+<Annotation Id="15" Type="PERCENT" StartNode="550" EndNode="560">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="4" EndNode="602">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

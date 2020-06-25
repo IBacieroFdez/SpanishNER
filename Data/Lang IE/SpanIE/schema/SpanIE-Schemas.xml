@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<schema xmls="http://www.w3.org/2000/10/XMLSchema">
+  <include schemaLocation="AddressSchema.xml" />
+  <include schemaLocation="DateSchema.xml" />
+  <include schemaLocation="DiseaseSchema.xml" />
+  <include schemaLocation="DrugSchema.xml" />
+  <include schemaLocation="EventSchema.xml" />
+  <include schemaLocation="FacilitySchema.xml" />
+  <include schemaLocation="GpeSchema.xml" />
+  <include schemaLocation="JobSchema.xml" />
+  <include schemaLocation="LanguageSchema.xml" />
+  <include schemaLocation="LocationSchema.xml" />
+  <include schemaLocation="MedTermSchema.xml" />
+  <include schemaLocation="MoneySchema.xml" />
+  <include schemaLocation="NorpSchema.xml" />
+  <include schemaLocation="OrganizationSchema.xml" />
+  <include schemaLocation="PercentSchema.xml" />
+  <include schemaLocation="PersonSchema.xml" />
+  <include schemaLocation="PhoneSchema.xml" />
+  <include schemaLocation="ProductSchema.xml" />
+  <include schemaLocation="QuantitySchema.xml" />
+  <include schemaLocation="SportSchema.xml" />
+  <include schemaLocation="SciTermSchema.xml" />
+  <include schemaLocation="TimeSchema.xml" />
+
+</schema>

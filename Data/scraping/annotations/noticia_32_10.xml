@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_32_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Nuestras <Node id="10"/>prendas<Node id="17"/> son un <Node id="25"/>20%<Node id="28"/> más transpirable que una <Node id="54"/>prenda<Node id="60"/> de <Node id="64"/>algodón<Node id="71"/>, conseguimos que las marcas de sudor en el <Node id="115"/>tejido<Node id="121"/> sean imperceptibles, evitando el contraste de color entre las partes hu´medas y las secas", explica. 
+<Node id="224"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="10" EndNode="17">
+</Annotation>
+<Annotation Id="2" Type="PERCENT" StartNode="25" EndNode="28">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="54" EndNode="60">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="64" EndNode="71">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="115" EndNode="121">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="224">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_82_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Hay varias medidas que se pueden aplicar para protegerse del nuevo <Node id="67"/>coronavirus<Node id="78"/>. Empiece por limpiarse las manos con frecuencia con un <Node id="134"/>gel hidroalcohólico<Node id="153"/> o con <Node id="160"/>agua<Node id="164"/> y <Node id="167"/>jabón<Node id="172"/>. Puede consultar otras medidas de protección recomendadas
+    por la <Node id="242"/>OMS<Node id="245"/> en la página: <Node id="260"/>https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public<Node id="344"/>.
+<Node id="346"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="67" EndNode="78">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="134" EndNode="153">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="160" EndNode="164">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="167" EndNode="172">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="242" EndNode="245">
+</Annotation>
+<Annotation Id="6" Type="ADDRESS" StartNode="260" EndNode="344">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="346">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

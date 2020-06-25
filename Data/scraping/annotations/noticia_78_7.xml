@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_78_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Entre estos recursos podemos encontrar el de asistencia virtual de <Node id="67"/>RRHH<Node id="71"/> basada en <Node id="82"/>inteligencia artificial<Node id="105"/>, creado por <Node id="118"/>Evenbytes<Node id="127"/>; un curso de emprendimiento creativo organizado por <Node id="180"/>Factoría de Industrias Creativas<Node id="212"/>; envíos gratuitos de <Node id="234"/>alimentos ecológicos<Node id="254"/> a través de <Node id="267"/>Farmidable<Node id="277"/>; o la plataforma participativa que te permite pedir u ofrecer ayuda: Frena la curva.
+<Node id="363"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="67" EndNode="71">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="82" EndNode="105">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="118" EndNode="127">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="180" EndNode="212">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="234" EndNode="254">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="267" EndNode="277">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="363">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

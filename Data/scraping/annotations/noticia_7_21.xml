@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_21.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Entretanto, el <Node id="15"/>presidente<Node id="25"/> del <Node id="30"/>Gobierno<Node id="38"/>, <Node id="40"/>Pedro Sánchez<Node id="53"/>, prosigue con su objetivo de negociar un acuerdo de reconstrucción económica y social y, tras aceptar la propuesta del <Node id="173"/>PP<Node id="175"/> de que el debate político sobre ese acuerdo se lleve a cabo en una <Node id="243"/>comisión parlamentaria<Node id="265"/>, <Node id="267"/>este martes<Node id="278"/> ha anunciado una reunión para el <Node id="312"/>jueves<Node id="318"/> con la <Node id="326"/>patronal<Node id="334"/> y los <Node id="341"/>sindicatos<Node id="351"/>, con los que analizará también las medidas económicas aprobadas.
+<Node id="417"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="15" EndNode="25">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="30" EndNode="38">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="40" EndNode="53">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="173" EndNode="175">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="243" EndNode="265">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="267" EndNode="278">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="312" EndNode="318">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="326" EndNode="334">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="341" EndNode="351">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="417">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

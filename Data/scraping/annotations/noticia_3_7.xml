@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_3_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Las mismas fuentes han agregado que <Node id="36"/>Consejo de Gobierno<Node id="55"/> tiene previsto autorizar el gasto de <Node id="93"/>5 millones de euros<Node id="112"/> correspondiente a la contratación por <Node id="151"/>emergencia<Node id="161"/> de los medios de <Node id="179"/>transporte aéreo<Node id="195"/> necesarios para el traslado de suministros de <Node id="242"/>material sanitario<Node id="260"/> desde el <Node id="270"/>extranjero<Node id="280"/>.
+<Node id="282"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="36" EndNode="55">
+</Annotation>
+<Annotation Id="2" Type="MONEY" StartNode="93" EndNode="112">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="151" EndNode="161">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="179" EndNode="195">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="242" EndNode="260">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="270" EndNode="280">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="282">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

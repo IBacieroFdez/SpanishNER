@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_69_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>torneo<Node id="9"/> podrá seguirse en las <Node id="32"/>webs<Node id="36"/> de la <Node id="43"/>FIDE<Node id="47"/> y <Node id="50"/>Chess.com<Node id="59"/>, además de en <Node id="74"/>Twitch<Node id="80"/>, <Node id="82"/>YouTube<Node id="89"/>, <Node id="91"/>Mixer<Node id="96"/>, <Node id="98"/>Twitter<Node id="105"/> y otras plataformas internacionales de transmisión.
+<Node id="158"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="3" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="ADDRESS" StartNode="32" EndNode="36">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="43" EndNode="47">
+</Annotation>
+<Annotation Id="4" Type="ADDRESS" StartNode="50" EndNode="59">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="74" EndNode="80">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="82" EndNode="89">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="91" EndNode="96">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="98" EndNode="105">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="158">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

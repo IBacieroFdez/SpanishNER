@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_40_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>A partir del <Node id="13"/>mes<Node id="16"/> de <Node id="20"/>octubre del 2020<Node id="36"/> y hasta <Node id="45"/>febrero del 2021<Node id="61"/>, este complemento se prorrogará si la facturación acumulada a cierre del <Node id="135"/>mes<Node id="138"/> anterior se supera un <Node id="161"/>10 %<Node id="165"/> sobre las previsiones.
+<Node id="189"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="20" EndNode="36">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="45" EndNode="61">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="13" EndNode="16">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="135" EndNode="138">
+</Annotation>
+<Annotation Id="6" Type="PERCENT" StartNode="161" EndNode="165">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="189">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

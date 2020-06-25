@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_20_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Su <Node id="3"/>hija<Node id="7"/>, la <Node id="12"/>comunidad cristiana<Node id="31"/> y la <Node id="37"/>nación<Node id="43"/> <Node id="44"/>isleña<Node id="50"/> conmemoran este <Node id="67"/>martes<Node id="73"/> el <Node id="77"/>primer<Node id="83"/> aniversario de unos ataques traumáticos conducidos por la <Node id="142"/>banda islamista local<Node id="163"/> <Node id="164"/>National Thowheed Jamaath<Node id="189"/> (<Node id="191"/>NTJ<Node id="194"/>) y reivindicados por el <Node id="219"/>grupo yihadista<Node id="234"/> <Node id="235"/>Estado Islámico<Node id="250"/> (<Node id="252"/>EI<Node id="254"/>).
+<Node id="257"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="12" EndNode="31">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="3" EndNode="7">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="37" EndNode="43">
+</Annotation>
+<Annotation Id="4" Type="LANG" StartNode="44" EndNode="50">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="67" EndNode="73">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="77" EndNode="83">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="142" EndNode="163">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="164" EndNode="189">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="191" EndNode="194">
+</Annotation>
+<Annotation Id="10" Type="NORP" StartNode="219" EndNode="234">
+</Annotation>
+<Annotation Id="11" Type="NORP" StartNode="235" EndNode="250">
+</Annotation>
+<Annotation Id="12" Type="NORP" StartNode="252" EndNode="254">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="257">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

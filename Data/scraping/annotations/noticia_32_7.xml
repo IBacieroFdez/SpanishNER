@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_32_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por ello, las <Node id="14"/>prendas<Node id="21"/> de <Node id="25"/>Sepiia<Node id="31"/> se convierten en el aliado perfecto para vivir un <Node id="82"/>confinamiento<Node id="95"/> más llevadero y, sin duda, más confortable.
+<Node id="140"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="14" EndNode="21">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="25" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="82" EndNode="95">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="140">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

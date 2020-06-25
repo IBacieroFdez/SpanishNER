@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/dataset/noticia_83_24.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Se puede reimprimir una sola copia de estos <Node id="44"/>materiales<Node id="54"/> para usar en forma personal y no comercial. "<Node id="100"/>Mayo<Node id="104"/>," "<Node id="108"/>Mayo Clinic<Node id="119"/>," "<Node id="123"/>MayoClinic.org<Node id="137"/>," "<Node id="141"/>Mayo Clinic Healthy Living<Node id="167"/>," y el triple escudo que es el logotipo de <Node id="211"/>Mayo Clinic<Node id="222"/> son marcas registradas de <Node id="249"/>Mayo Foundation for Medical Education and Research<Node id="299"/>.
+<Node id="301"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="44" EndNode="54">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="100" EndNode="104">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="108" EndNode="119">
+</Annotation>
+<Annotation Id="4" Type="ADDRESS" StartNode="123" EndNode="137">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="141" EndNode="167">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="211" EndNode="222">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="249" EndNode="299">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="301">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

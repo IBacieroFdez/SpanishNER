@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_48_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Esta situación "nos ha hecho tomar esta determinación y enfocar nuestros esfuerzos para la edición <Node id="99"/>2021<Node id="103"/>" porque la salud de los visitantes, <Node id="140"/>expositores<Node id="151"/>, <Node id="153"/>socios<Node id="159"/>, <Node id="161"/>empleados<Node id="170"/>, <Node id="172"/>proveedores<Node id="183"/> e invitados, "es la prioridad número uno", explicó la organización en un comunicado.
+<Node id="269"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="99" EndNode="103">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="161" EndNode="170">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="140" EndNode="151">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="153" EndNode="159">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="172" EndNode="183">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="269">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

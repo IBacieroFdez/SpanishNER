@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_17_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por su parte, la fuente citada por <Node id="35"/>Daily NK<Node id="43"/> asevera que supuestamente a <Node id="72"/>Kim<Node id="75"/> lo habrían trasladado el <Node id="101"/>12 de abril<Node id="112"/> de <Node id="116"/>Pionyang<Node id="124"/> a un <Node id="130"/>centro médico<Node id="143"/> del <Node id="148"/>condado de Hyangsan<Node id="167"/> (<Node id="169"/>110 kilómetros<Node id="183"/> <Node id="184"/>al noreste<Node id="194"/> de la <Node id="201"/>capital<Node id="208"/> <Node id="209"/>norcoreana<Node id="219"/>), donde lo habrían intervenido y que el <Node id="260"/>líder<Node id="265"/> estaría ahora reposando al cuidado de los <Node id="308"/>médicos<Node id="315"/> en una <Node id="323"/>residencia<Node id="333"/> cercana.
+<Node id="343"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="35" EndNode="43">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="72" EndNode="75">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="101" EndNode="112">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="116" EndNode="124">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="130" EndNode="143">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="148" EndNode="167">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="169" EndNode="183">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="184" EndNode="194">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="201" EndNode="208">
+</Annotation>
+<Annotation Id="10" Type="LANG" StartNode="209" EndNode="219">
+</Annotation>
+<Annotation Id="11" Type="JOB" StartNode="260" EndNode="265">
+</Annotation>
+<Annotation Id="12" Type="JOB" StartNode="308" EndNode="315">
+</Annotation>
+<Annotation Id="13" Type="FAC" StartNode="323" EndNode="333">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="343">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

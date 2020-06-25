@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_79_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"<Node id="1"/>Facebook<Node id="9"/> está en el <Node id="21"/>epicentro<Node id="30"/> de la <Node id="37"/>crisis<Node id="43"/> de desinformación, pero la <Node id="71"/>compañía<Node id="79"/> da hoy un giro crítico al limpiar este ecosistema informativo tóxico, convirtiéndose en la primera plataforma de <Node id="193"/>redes sociales<Node id="207"/> en alertar a todos sus usuarios de que han sido expuestos a desinformación sobre el <Node id="292"/>coronavirus<Node id="303"/> y dirigirlos hacia datos que salvan vidas", resume <Node id="355"/>Fadi Quran<Node id="365"/>, <Node id="367"/>director<Node id="375"/> de campañas de <Node id="391"/>Avaaz<Node id="396"/>.
+<Node id="398"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="1" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="21" EndNode="30">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="37" EndNode="43">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="71" EndNode="79">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="193" EndNode="207">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="292" EndNode="303">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="355" EndNode="365">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="367" EndNode="375">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="391" EndNode="396">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="398">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

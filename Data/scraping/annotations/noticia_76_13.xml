@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_76_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En la <Node id="6"/>Comunidad de Madrid<Node id="25"/>, <Node id="27"/>pymes<Node id="32"/> y <Node id="35"/>startups<Node id="43"/> muestran cierto grado de satisfacción con sus <Node id="90"/>entidades bancarias<Node id="109"/>, otorgándoles un <Node id="127"/>6,45<Node id="131"/> de nota <Node id="140"/>media<Node id="145"/>, superior a la <Node id="161"/>media<Node id="166"/> nacional (<Node id="177"/>6,11<Node id="181"/>). Sin embargo, su índice de recomendación <Node id="224"/>medio<Node id="229"/> según la <Node id="239"/>metodología<Node id="250"/> <Node id="251"/>Net Promoter Score<Node id="269"/> (<Node id="271"/>NPS<Node id="274"/>) se situaría en el <Node id="294"/>-46,8<Node id="299"/>, un índice de recomendación muy similar a la <Node id="345"/>media<Node id="350"/> <Node id="351"/>española<Node id="359"/> de <Node id="363"/>-49,8<Node id="368"/>.
+<Node id="370"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="6" EndNode="25">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="27" EndNode="32">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="35" EndNode="43">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="90" EndNode="109">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="127" EndNode="131">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="140" EndNode="145">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="161" EndNode="166">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="177" EndNode="181">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="224" EndNode="229">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="251" EndNode="269">
+</Annotation>
+<Annotation Id="11" Type="SCITERM" StartNode="271" EndNode="274">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="294" EndNode="299">
+</Annotation>
+<Annotation Id="13" Type="QUANT" StartNode="363" EndNode="368">
+</Annotation>
+<Annotation Id="14" Type="QUANT" StartNode="345" EndNode="350">
+</Annotation>
+<Annotation Id="15" Type="LANG" StartNode="351" EndNode="359">
+</Annotation>
+<Annotation Id="16" Type="SCITERM" StartNode="239" EndNode="250">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="370">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

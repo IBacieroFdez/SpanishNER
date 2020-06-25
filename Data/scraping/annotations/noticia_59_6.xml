@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_59_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>Policía<Node id="10"/> subraya que esta "importante" operación se ha desarrollado dentro de la cooperación internacional y en colaboración con el <Node id="134"/>Centro Nacional de Inteligencia<Node id="165"/>", bajo la supervisión del <Node id="192"/>Juzgado Central de Instrucción<Node id="222"/> número <Node id="230"/>3<Node id="231"/> y la coordinación de la <Node id="256"/>Fiscalía de la Audiencia Nacional<Node id="289"/>.
+<Node id="291"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="134" EndNode="165">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="291">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="192" EndNode="222">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="230" EndNode="231">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="256" EndNode="289">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

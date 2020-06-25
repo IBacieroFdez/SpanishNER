@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_61_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Según <Node id="6"/>Vergés<Node id="12"/>, con sus propuestas el <Node id="36"/>Govern<Node id="42"/> vela "por la <Node id="56"/>salud<Node id="61"/> de estos niños y adolescentes" y, por ello, no comparte que se les deje salir solamente "para que puedan acompañar a los padres a comprar".
+<Node id="202"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="6" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="36" EndNode="42">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="56" EndNode="61">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="202">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

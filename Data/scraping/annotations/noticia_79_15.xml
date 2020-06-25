@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_79_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En una nota de prensa, <Node id="23"/>Avaaz<Node id="28"/> denuncia que la <Node id="45"/>red social<Node id="55"/> puede tardar hasta <Node id="75"/>22<Node id="77"/> <Node id="78"/>días<Node id="82"/> en emitir etiquetas que avisen de desinformación sobre el <Node id="141"/>coronavirus<Node id="152"/>, "con retrasos significativos incluso cuando los <Node id="202"/>socios<Node id="208"/> de <Node id="212"/>Facebook<Node id="220"/> han informado rápidamente a la plataforma sobre el contenido pernicioso".
+<Node id="295"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="23" EndNode="28">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="45" EndNode="55">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="75" EndNode="77">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="78" EndNode="82">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="141" EndNode="152">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="202" EndNode="208">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="212" EndNode="220">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="295">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

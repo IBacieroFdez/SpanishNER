@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_25.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Sin embargo, <Node id="13"/>Shenzhen Bioeasy Biotechnology<Node id="43"/> indicó que los problemas denunciados en realidad pueden deberse a la recolección incorrecta de <Node id="139"/>muestras<Node id="147"/> o al uso incorrecto del <Node id="172"/>producto<Node id="180"/>.
+<Node id="182"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="13" EndNode="43">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="139" EndNode="147">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="172" EndNode="180">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="182">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

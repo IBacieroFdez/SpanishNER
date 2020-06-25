@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_1_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Quizás eso de respirar un poco mejor el aire fresco se refería, justamente, a la capacidad de poder abandonar sus <Node id="115"/>domicilios<Node id="125"/> personas que, como no van a trabajar y no tienen <Node id="175"/>colegios<Node id="183"/>, no han visto la luz" durante el confinamiento, ha dicho <Node id="241"/>Montero<Node id="248"/>.
+<Node id="250"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="115" EndNode="125">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="175" EndNode="183">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="241" EndNode="248">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="250">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

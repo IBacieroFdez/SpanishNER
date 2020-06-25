@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_19_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Las relaciones diplomáticas entre los <Node id="38"/>dos<Node id="41"/> <Node id="42"/>países<Node id="48"/> se han tensado más con la aprobación en <Node id="89"/>2018<Node id="93"/> en <Node id="97"/>Australia<Node id="106"/> de leyes contra la interferencia extranjera y el espionaje, en alusión indirecta a <Node id="190"/>China<Node id="195"/>, tras destaparse una serie de <Node id="226"/>escándalos<Node id="236"/> de donaciones a <Node id="253"/>políticos<Node id="262"/>, y de ataques informáticos a <Node id="292"/>organismos gubernamentales<Node id="318"/> y <Node id="321"/>universidades<Node id="334"/> vinculados con <Node id="350"/>Pekín<Node id="355"/>.
+<Node id="357"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="42" EndNode="48">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="38" EndNode="41">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="89" EndNode="93">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="97" EndNode="106">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="190" EndNode="195">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="253" EndNode="262">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="226" EndNode="236">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="292" EndNode="318">
+</Annotation>
+<Annotation Id="9" Type="FAC" StartNode="321" EndNode="334">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="350" EndNode="355">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="357">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

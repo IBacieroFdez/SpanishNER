@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_26_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los elevados niveles de dióxido de nitrógeno en el aire “pueden” estar asociados con un alto <Node id="93"/>número<Node id="99"/> de muertes por <Node id="115"/>COVID-19<Node id="123"/>, según un estudio que analiza datos de varios lugares, entre ellos <Node id="191"/>Madrid<Node id="197"/>, realizado por la <Node id="216"/>Universidad Martín Lutero<Node id="241"/> de <Node id="245"/>Halle-Witternberg<Node id="262"/> (<Node id="264"/>Alemania<Node id="272"/>).
+<Node id="275"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="115" EndNode="123">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="93" EndNode="99">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="191" EndNode="197">
+</Annotation>
+<Annotation Id="11" Type="FAC" StartNode="216" EndNode="241">
+</Annotation>
+<Annotation Id="12" Type="GPE" StartNode="245" EndNode="262">
+</Annotation>
+<Annotation Id="13" Type="GPE" StartNode="264" EndNode="272">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="275">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

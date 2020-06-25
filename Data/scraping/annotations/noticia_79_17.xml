@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_79_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Fuentes de <Node id="11"/>Facebook<Node id="19"/> señalan compartir el objetivo de <Node id="53"/>Avaaz<Node id="58"/> de reducir la desinformación y aprecian su colaboración, pero advierten de que la muestra de este estudio no es representativa de la <Node id="192"/>comunidad<Node id="201"/> en la <Node id="208"/>red social<Node id="218"/> y los hallazgos no reflejan el trabajo realizado por la <Node id="275"/>compañía<Node id="283"/>. <Node id="285"/>EFE<Node id="288"/>futuro
+<Node id="295"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="11" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="53" EndNode="58">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="208" EndNode="218">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="192" EndNode="201">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="275" EndNode="283">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="285" EndNode="288">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="295">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_28_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>lluvia de estrellas<Node id="22"/> de Las <Node id="30"/>Líridas<Node id="37"/> también habrá que observarla esta <Node id="72"/>noche<Node id="77"/> desde el <Node id="87"/>confinamiento<Node id="100"/> y habrá que armarse de paciencia porque se espera que apenas se pueda ver una cada <Node id="184"/>diez<Node id="188"/> o <Node id="191"/>quince minutos<Node id="205"/>, informa el <Node id="218"/>Instituto de Astrofísica de Canarias<Node id="254"/> (<Node id="256"/>IAC<Node id="259"/>).
+<Node id="262"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="72" EndNode="77">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="87" EndNode="100">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="218" EndNode="254">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="256" EndNode="259">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="191" EndNode="205">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="184" EndNode="188">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="30" EndNode="37">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="3" EndNode="22">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="262">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_27_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por eso, considera que se puede hablar del <Node id="43"/>número<Node id="49"/> de fallecidos o de la letalidad del <Node id="86"/>virus<Node id="91"/> en <Node id="95"/>personas mayores<Node id="111"/> y, al mismo tiempo, decir que la <Node id="145"/>gente<Node id="150"/> se cura o que se está trabajando en <Node id="187"/>antivirales<Node id="198"/> y <Node id="201"/>vacunas<Node id="208"/>.
+<Node id="210"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="43" EndNode="49">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="86" EndNode="91">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="95" EndNode="111">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="145" EndNode="150">
+</Annotation>
+<Annotation Id="5" Type="DRUG" StartNode="187" EndNode="198">
+</Annotation>
+<Annotation Id="7" Type="DRUG" StartNode="201" EndNode="208">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="210">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

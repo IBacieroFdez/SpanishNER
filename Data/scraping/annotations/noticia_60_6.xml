@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_60_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ha reconocido que aún está pendiente de decidir por parte del <Node id="62"/>Gobierno central<Node id="78"/> en qué manos se van a dejar los procesos decisorios y la gobernanza para implantar medidas de vuelta a la normalidad y ha recordado que el <Node id="218"/>lehendakari<Node id="229"/>, <Node id="231"/>Iñigo Urkullu<Node id="244"/>, ya ha mostrado su desacuerdo con que este proceso se lleve a cabo con un "pilotaje centralizado". 
+<Node id="345"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="62" EndNode="78">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="218" EndNode="229">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="231" EndNode="244">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="345">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

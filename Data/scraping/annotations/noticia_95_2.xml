@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_95_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>ministra<Node id="11"/> se ha referido a un <Node id="32"/>lote<Node id="36"/> de <Node id="40"/>respiradores<Node id="52"/> que habían adquirido <Node id="74"/>administraciones públicas<Node id="99"/> <Node id="100"/>españolas<Node id="109"/> y sobre los cuales el <Node id="132"/>Ejecutivo<Node id="141"/> ha preguntado esta <Node id="161"/>semana<Node id="167"/> a las <Node id="174"/>autoridades<Node id="185"/> <Node id="186"/>turcas<Node id="192"/>, si bien la respuesta ha sido que "por ahora no van a salir de <Node id="256"/>Turquía<Node id="263"/>". "El resultado de las discusiones que hemos tenido es que hasta aquí hemos podido llegar", ha explicado.
+<Node id="370"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="32" EndNode="36">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="40" EndNode="52">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="74" EndNode="99">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="100" EndNode="109">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="132" EndNode="141">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="161" EndNode="167">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="174" EndNode="185">
+</Annotation>
+<Annotation Id="9" Type="LANG" StartNode="186" EndNode="192">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="256" EndNode="263">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="370">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

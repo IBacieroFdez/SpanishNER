@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/aspirina_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Contenido del prospecto: Este <Node id="30"/>medicamento<Node id="41"/> contiene <Node id="51"/>ácido acetilsalicílico<Node id="73"/> y <Node id="76"/>ácido ascórbico<Node id="91"/> (<Node id="93"/>vitamina C<Node id="103"/>) como <Node id="110"/>principios activos<Node id="128"/> y actúa reduciendo el <Node id="151"/>dolor<Node id="156"/> y la <Node id="162"/>fiebre<Node id="168"/>. Está indicado en el alivio <Node id="197"/>sintomático<Node id="208"/> de los <Node id="216"/>dolores<Node id="223"/> ocasionales leves o moderados, como <Node id="260"/>dolores<Node id="267"/> de <Node id="271"/>cabeza<Node id="277"/>, <Node id="279"/>dentales<Node id="287"/>, <Node id="289"/>menstruales<Node id="300"/>, <Node id="302"/>musculares<Node id="312"/> (<Node id="314"/>contracturas<Node id="326"/>) o de espalda (<Node id="342"/>lumbalgia<Node id="351"/>). <Node id="354"/>Estados febriles<Node id="370"/>. Deberá consultar con su <Node id="396"/>médico<Node id="402"/> en caso de que requiera este <Node id="432"/>medicamento<Node id="443"/>: Uso de otros <Node id="458"/>medicamentos<Node id="470"/>. Informe a su <Node id="485"/>médico<Node id="491"/> o <Node id="494"/>farmacéutico<Node id="506"/> si está utilizando o ha utilizado recientemente otros <Node id="561"/>medicamentos<Node id="573"/> incluso los adquiridos sin <Node id="601"/>receta<Node id="607"/> médica, <Node id="616"/>homeopáticos<Node id="628"/>, <Node id="630"/>plantas<Node id="637"/> <Node id="638"/>medicinales<Node id="649"/> y otros productos relacionados con la salud ya que puede ser necesario interrumpir el tratamiento o ajustar la <Node id="761"/>dosis<Node id="766"/> de alguno de ellos. <Node id="787"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="30" EndNode="41">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="51" EndNode="73">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="76" EndNode="91">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="93" EndNode="103">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="110" EndNode="128">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="162" EndNode="168">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="151" EndNode="156">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="197" EndNode="208">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="216" EndNode="223">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="260" EndNode="267">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="271" EndNode="277">
+</Annotation>
+<Annotation Id="12" Type="MEDTERM" StartNode="279" EndNode="287">
+</Annotation>
+<Annotation Id="13" Type="MEDTERM" StartNode="289" EndNode="300">
+</Annotation>
+<Annotation Id="14" Type="MEDTERM" StartNode="302" EndNode="312">
+</Annotation>
+<Annotation Id="15" Type="DISEASE" StartNode="314" EndNode="326">
+</Annotation>
+<Annotation Id="16" Type="DISEASE" StartNode="342" EndNode="351">
+</Annotation>
+<Annotation Id="17" Type="DISEASE" StartNode="354" EndNode="370">
+</Annotation>
+<Annotation Id="18" Type="JOB" StartNode="396" EndNode="402">
+</Annotation>
+<Annotation Id="19" Type="DRUG" StartNode="432" EndNode="443">
+</Annotation>
+<Annotation Id="20" Type="DRUG" StartNode="458" EndNode="470">
+</Annotation>
+<Annotation Id="21" Type="JOB" StartNode="485" EndNode="491">
+</Annotation>
+<Annotation Id="22" Type="JOB" StartNode="494" EndNode="506">
+</Annotation>
+<Annotation Id="23" Type="DRUG" StartNode="561" EndNode="573">
+</Annotation>
+<Annotation Id="24" Type="MEDTERM" StartNode="601" EndNode="607">
+</Annotation>
+<Annotation Id="25" Type="DRUG" StartNode="616" EndNode="628">
+</Annotation>
+<Annotation Id="26" Type="PRODUCT" StartNode="630" EndNode="637">
+</Annotation>
+<Annotation Id="27" Type="MEDTERM" StartNode="638" EndNode="649">
+</Annotation>
+<Annotation Id="28" Type="SCITERM" StartNode="761" EndNode="766">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="787">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

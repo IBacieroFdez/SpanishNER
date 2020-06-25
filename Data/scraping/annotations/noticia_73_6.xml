@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_73_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"La idea viene de <Node id="18"/>Jan Frodeno<Node id="29"/>. Me gustó mucho lo que hizo y resume muy bien todo lo que tengo en la cabeza", confiesa <Node id="118"/>EFE<Node id="121"/> <Node id="122"/>Catalá<Node id="128"/>, que llevaba un tiempo pensando en hacer algo para ayudar a los <Node id="193"/>sanitarios<Node id="203"/> en este tiempo.
+<Node id="220"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="18" EndNode="29">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="118" EndNode="121">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="122" EndNode="128">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="193" EndNode="203">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="220">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

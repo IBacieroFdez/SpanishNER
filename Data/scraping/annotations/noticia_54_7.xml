@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_54_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Uno de los aspectos que tanto <Node id="30"/>PP<Node id="32"/> y <Node id="35"/>Vox<Node id="38"/> como <Node id="44"/>Cs<Node id="46"/> anunciaron que intentarían modificar fue la disposición final <Node id="109"/>segunda<Node id="116"/>, ya que, a pesar de no tener nada que ver con el contenido del decreto, introducía una reforma de la Ley del <Node id="226"/>Centro Nacional de Inteligencia<Node id="257"/> de <Node id="261"/>2006<Node id="265"/>.
+<Node id="267"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="30" EndNode="32">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="35" EndNode="38">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="44" EndNode="46">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="109" EndNode="116">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="261" EndNode="265">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="226" EndNode="257">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="267">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Una persona puede contraer la <Node id="30"/>COVID‑19<Node id="38"/> por contacto con otra que esté infectada por el <Node id="87"/>virus<Node id="92"/>. La <Node id="97"/>enfermedad<Node id="107"/> se propaga principalmente de persona a persona a través de las <Node id="171"/>gotículas<Node id="180"/> que salen despedidas de la nariz o la boca de una
+    persona infectada al toser, estornudar o hablar. Estas <Node id="290"/>gotículas<Node id="299"/> son relativamente pesadas, no llegan muy lejos y caen rápidamente al suelo. Una persona puede contraer la <Node id="406"/>COVID‑19<Node id="414"/> si inhala las <Node id="429"/>gotículas<Node id="438"/> procedentes de una persona
+    infectada por el <Node id="487"/>virus<Node id="492"/>. Por eso es importante mantenerse al menos a un metro (<Node id="548"/>3<Node id="549"/> pies) de distancia de los demás. Estas <Node id="589"/>gotículas<Node id="598"/> pueden caer sobre los objetos y superficies que rodean a la persona, como <Node id="673"/>mesas<Node id="678"/>, <Node id="680"/>pomos<Node id="685"/> y <Node id="688"/>barandillas<Node id="699"/>,
+    de modo que otras personas pueden infectarse si tocan esos objetos o superficies y luego se tocan los ojos, la nariz o la boca. Por ello es importante lavarse las manos frecuentemente con <Node id="893"/>agua<Node id="897"/> y <Node id="900"/>jabón<Node id="905"/> o con un <Node id="915"/>desinfectante<Node id="928"/> a base de <Node id="939"/>alcohol<Node id="946"/>. 
+<Node id="949"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="30" EndNode="38">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="87" EndNode="92">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="97" EndNode="107">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="171" EndNode="180">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="290" EndNode="299">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="406" EndNode="414">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="429" EndNode="438">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="487" EndNode="492">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="548" EndNode="549">
+</Annotation>
+<Annotation Id="12" Type="SCITERM" StartNode="589" EndNode="598">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="673" EndNode="678">
+</Annotation>
+<Annotation Id="14" Type="PRODUCT" StartNode="680" EndNode="685">
+</Annotation>
+<Annotation Id="15" Type="PRODUCT" StartNode="688" EndNode="699">
+</Annotation>
+<Annotation Id="16" Type="PRODUCT" StartNode="893" EndNode="897">
+</Annotation>
+<Annotation Id="17" Type="PRODUCT" StartNode="900" EndNode="905">
+</Annotation>
+<Annotation Id="18" Type="PRODUCT" StartNode="915" EndNode="928">
+</Annotation>
+<Annotation Id="19" Type="PRODUCT" StartNode="939" EndNode="946">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="949">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

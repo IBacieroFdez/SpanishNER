@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_23_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"<Node id="1"/>Gantz<Node id="6"/> y (<Node id="10"/>Gabi<Node id="14"/>) <Node id="16"/>Ashkenazi<Node id="25"/> aceptaron que un <Node id="43"/>acusado<Node id="50"/> escoja los <Node id="62"/>jueces<Node id="68"/> que debatirán su caso. No hay límite para la desgracia", apuntó <Node id="133"/>Yair Lapid<Node id="143"/>, <Node id="145"/>exsocio<Node id="152"/> de <Node id="156"/>Gantz<Node id="161"/> en Azul y Blanco y a partir de ahora <Node id="199"/>líder<Node id="204"/> de la <Node id="211"/>oposición<Node id="220"/>.
+<Node id="222"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="1" EndNode="6">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="10" EndNode="14">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="16" EndNode="25">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="43" EndNode="50">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="222">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="62" EndNode="68">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="133" EndNode="143">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="145" EndNode="152">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="156" EndNode="161">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="199" EndNode="204">
+</Annotation>
+<Annotation Id="10" Type="NORP" StartNode="211" EndNode="220">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

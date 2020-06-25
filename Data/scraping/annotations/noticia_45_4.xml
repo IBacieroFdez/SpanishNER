@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_45_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>empresario<Node id="13"/> ingresó en ese <Node id="29"/>centro<Node id="35"/> el <Node id="39"/>25 de marzo<Node id="50"/>, en el que ingresó procedente de su <Node id="87"/>finca<Node id="92"/> en <Node id="96"/>Retuerta del Bullaque<Node id="117"/> (<Node id="119"/>Ciudad Real<Node id="130"/>).
+<Node id="133"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="29" EndNode="35">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="39" EndNode="50">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="87" EndNode="92">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="96" EndNode="117">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="119" EndNode="130">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="133">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

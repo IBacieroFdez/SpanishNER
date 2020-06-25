@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_47_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En relación a los datos de facturación, desde <Node id="46"/>Anged<Node id="51"/> se ha precisado que por grandes sectores, en alimentación la facturación ha crecido durante este <Node id="149"/>mes<Node id="152"/> de la <Node id="159"/>pandemia<Node id="167"/> del <Node id="172"/>coronavirus<Node id="183"/> un <Node id="187"/>25 %<Node id="191"/>, el <Node id="196"/>textil<Node id="202"/>  ha caído un <Node id="216"/>70 %<Node id="220"/> y los <Node id="227"/>productos de tecnología<Node id="250"/> para el <Node id="259"/>hogar<Node id="264"/> han descendido un <Node id="283"/>50 %<Node id="287"/>.
+<Node id="289"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="46" EndNode="51">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="159" EndNode="167">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="149" EndNode="152">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="172" EndNode="183">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="187" EndNode="191">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="216" EndNode="220">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="227" EndNode="250">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="259" EndNode="264">
+</Annotation>
+<Annotation Id="9" Type="PERCENT" StartNode="283" EndNode="287">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="196" EndNode="202">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="289">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

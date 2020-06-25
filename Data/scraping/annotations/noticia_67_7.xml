@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_67_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Respecto a su situación personal, el <Node id="37"/>deportista<Node id="47"/> <Node id="48"/>español<Node id="55"/> dijo que es "muy duro" aceptar "las cosas que ves cada <Node id="111"/>día<Node id="114"/>. Llevo más de un <Node id="132"/>mes<Node id="135"/> en <Node id="139"/>casa<Node id="143"/>, haciendo mis rutinas, trabajando en el <Node id="184"/>gimnasio<Node id="192"/>. Tengo suerte de que la gente de mi <Node id="229"/>academia<Node id="237"/> me ha enviado algunas <Node id="260"/>máquinas<Node id="268"/>. No estoy jugando al <Node id="290"/>tenis<Node id="295"/> porque no tengo una <Node id="316"/>pista<Node id="321"/> en <Node id="325"/>casa<Node id="329"/>", comentó.
+<Node id="341"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SPORT" StartNode="37" EndNode="47">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="48" EndNode="55">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="111" EndNode="114">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="132" EndNode="135">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="139" EndNode="143">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="184" EndNode="192">
+</Annotation>
+<Annotation Id="7" Type="FAC" StartNode="229" EndNode="237">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="260" EndNode="268">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="316" EndNode="321">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="325" EndNode="329">
+</Annotation>
+<Annotation Id="11" Type="SPORT" StartNode="290" EndNode="295">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="341">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

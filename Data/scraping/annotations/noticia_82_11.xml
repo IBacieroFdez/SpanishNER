@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_82_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El nuevo <Node id="9"/>coronavirus<Node id="20"/> es un <Node id="27"/>virus<Node id="32"/> <Node id="33"/>respiratorio<Node id="45"/> que se propaga principalmente por contacto con una persona infectada a través de las <Node id="131"/>gotículas<Node id="140"/> <Node id="141"/>respiratorias<Node id="154"/> que se generan cuando esta persona tose o estornuda, por ejemplo, o a través
+    de <Node id="239"/>gotículas<Node id="248"/> de saliva o <Node id="261"/>secreciones<Node id="272"/> de la nariz. Hasta la fecha no hay información ni pruebas que indiquen que el <Node id="351"/>2019-nCoV<Node id="360"/> pueda transmitirse por medio de mosquitos. Para protegerse, evite el contacto cercano con cualquier persona
+    que tenga <Node id="483"/>fiebre<Node id="489"/> y <Node id="492"/>tos<Node id="495"/>, y practique una buena higiene de las manos y de las <Node id="549"/>vías respiratorias<Node id="567"/>.
+<Node id="569"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="9" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="27" EndNode="32">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="33" EndNode="45">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="141" EndNode="154">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="131" EndNode="140">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="239" EndNode="248">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="261" EndNode="272">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="351" EndNode="360">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="483" EndNode="489">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="492" EndNode="495">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="549" EndNode="567">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="569">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

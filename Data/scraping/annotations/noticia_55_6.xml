@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_55_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Este <Node id="5"/>lunes<Node id="10"/>, <Node id="12"/>Murcia<Node id="18"/> ha informado de que <Node id="39"/>medio millar<Node id="51"/> de <Node id="55"/>sanitarios<Node id="65"/> están pendientes de que se les haga la prueba <Node id="112"/>PCR<Node id="115"/> para comprobar si se han <Node id="141"/>contagiado<Node id="151"/> tras usar <Node id="162"/>mascarillas<Node id="173"/> defectuosa enviadas por <Node id="198"/>Sanidad<Node id="205"/>, y otro número similar de <Node id="232"/>enfermeros<Node id="242"/> y <Node id="245"/>médicos<Node id="252"/> han podido regresar a su trabajo tras dar negativo.
+<Node id="305"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="5" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="12" EndNode="18">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="39" EndNode="51">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="55" EndNode="65">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="112" EndNode="115">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="141" EndNode="151">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="162" EndNode="173">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="198" EndNode="205">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="232" EndNode="242">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="245" EndNode="252">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="305">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

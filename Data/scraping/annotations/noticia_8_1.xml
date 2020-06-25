@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_8_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>Ayuntamiento<Node id="15"/> de <Node id="19"/>Pamplona<Node id="27"/> ha anunciado <Node id="41"/>este martes<Node id="52"/> en rueda de prensa la suspensión de los <Node id="93"/>Sanfermines <Node id="105"/>2020<Node id="109"/> por la <Node id="117"/>crisis<Node id="123"/> del <Node id="128"/>coronavirus<Node id="139"/>. En la imagen la escultura del Monumento al <Node id="184"/>encierro<Node id="192"/> de <Node id="196"/>Pamplona<Node id="204"/> en la que los <Node id="219"/>corredores<Node id="229"/> llevan puestas <Node id="245"/>mascarillas<Node id="256"/>. <Node id="258"/>EFE<Node id="261"/>/<Node id="262"/>Villar López<Node id="274"/>.
+
+<Node id="281"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="FAC" StartNode="3" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="19" EndNode="27">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="41" EndNode="52">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="93" EndNode="109">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="105" EndNode="109">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="117" EndNode="123">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="128" EndNode="139">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="196" EndNode="204">
+</Annotation>
+<Annotation Id="9" Type="EVENT" StartNode="184" EndNode="192">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="219" EndNode="229">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="245" EndNode="256">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="258" EndNode="261">
+</Annotation>
+<Annotation Id="13" Type="PER" StartNode="262" EndNode="274">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="281">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

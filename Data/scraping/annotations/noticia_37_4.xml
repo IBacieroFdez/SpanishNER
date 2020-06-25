@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_37_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Gamero<Node id="6"/> explica en un comunicado que su intención es mostrar "una <Node id="65"/>carta<Node id="70"/> de amor al <Node id="82"/>mundo<Node id="87"/>, recordando todo aquello por lo que merece la pena luchar”. <Node id="148"/>EFE<Node id="151"/>
+<Node id="152"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="6">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="65" EndNode="70">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="82" EndNode="87">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="148" EndNode="151">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="152">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

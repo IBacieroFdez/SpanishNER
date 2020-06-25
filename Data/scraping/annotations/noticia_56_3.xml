@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_56_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Núñez Feijóo<Node id="12"/> ha mostrado su confianza en que tras el acuerdo con el <Node id="68"/>líder<Node id="73"/> del <Node id="78"/>PP<Node id="80"/>, <Node id="82"/>Pablo Casado<Node id="94"/>, el <Node id="99"/>presidente<Node id="109"/> del <Node id="114"/>Gobierno<Node id="122"/> "cambie de postura" tanto sobre el <Node id="158"/>líder<Node id="163"/> de la <Node id="170"/>oposición<Node id="179"/> -el propio <Node id="191"/>Casado<Node id="197"/>- como sobre la información y la transparencia con el conjunto de fuerzas políticas y de <Node id="286"/>representantes<Node id="300"/> de las <Node id="308"/>administraciones públicas<Node id="333"/>.
+<Node id="335"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="68" EndNode="73">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="78" EndNode="80">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="82" EndNode="94">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="99" EndNode="109">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="114" EndNode="122">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="158" EndNode="163">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="170" EndNode="179">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="191" EndNode="197">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="286" EndNode="300">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="308" EndNode="333">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="335">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

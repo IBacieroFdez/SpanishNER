@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_47_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Millán-Astray<Node id="13"/> ha destacado que en <Node id="34"/>España<Node id="40"/> se van a perder  más ventas que todo lo que se perdió entre <Node id="101"/>2008<Node id="105"/> y <Node id="108"/>2013<Node id="112"/>, <Node id="114"/>durante<Node id="121"/> la última <Node id="132"/>crisis económica<Node id="148"/>, que registró una caída de las mismas ventas de aproximadamente el <Node id="216"/>35 %<Node id="220"/>. 
+<Node id="223"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="PERCENT" StartNode="216" EndNode="220">
+</Annotation>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="13">
+</Annotation>
+<Annotation Id="17" Type="TIME" StartNode="114" EndNode="121">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="34" EndNode="40">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="101" EndNode="105">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="108" EndNode="112">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="132" EndNode="148">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="223">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

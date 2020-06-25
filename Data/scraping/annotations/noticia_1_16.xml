@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_1_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>Además, ha señalado que la solicitud de prórroga del <Node id="53"/>estado de alarma<Node id="69"/> hasta el <Node id="79"/>9 de mayo<Node id="88"/> contempla, asimismo, que el <Node id="117"/>Ministerio de Sanidad<Node id="138"/> pueda dictar órdenes, instrucciones o guías acerca de las actividades y desplazamientos permitidos y que pueda ampliar o restringir territorialmente los <Node id="292"/>lugares<Node id="299"/>, <Node id="301"/>establecimientos<Node id="317"/> o actividades permitidos por el <Node id="350"/>decreto de alarma<Node id="367"/>.
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="53" EndNode="69">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="79" EndNode="88">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="117" EndNode="138">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="301" EndNode="317">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="292" EndNode="299">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="350" EndNode="367">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+</AnnotationSet>
+
+</GateDocument>

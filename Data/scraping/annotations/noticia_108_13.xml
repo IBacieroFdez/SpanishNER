@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_108_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes> <Node id="1"/>En <Node id="4"/>MiFarma<Node id="11"/> encontrarás todas las marcas y <Node id="43"/>productos<Node id="52"/> de <Node id="56"/>farmacia<Node id="64"/> y <Node id="67"/>parafarmacia<Node id="79"/> que necesitas. <Node id="95"/>#Quedateencasa<Node id="109"/> y compra online. Recibirás el envío en <Node id="149"/>24<Node id="151"/>h.
+<Node id="154"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="4" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="43" EndNode="52">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="56" EndNode="64">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="67" EndNode="79">
+</Annotation>
+<Annotation Id="5" Type="ADDRESS" StartNode="95" EndNode="109">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="149" EndNode="151">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="1" EndNode="154">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_29_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Gracias a un contrato con la <Node id="29"/>compañía<Node id="37"/> <Node id="38"/>china<Node id="43"/> <Node id="44"/>Ganfeng Lithium<Node id="59"/> por valor de <Node id="73"/>540 millones de euros<Node id="94"/>, el <Node id="99"/>consorcio automovilístico<Node id="124"/> <Node id="125"/>alemán<Node id="131"/> <Node id="132"/>BMW<Node id="135"/> (engloba las marcas <Node id="156"/>BMW<Node id="159"/>, <Node id="161"/>Mini<Node id="165"/>, <Node id="167"/>Rolls-Royce<Node id="178"/> y <Node id="181"/>BMW<Node id="184"/> <Node id="185"/>motos<Node id="190"/>) se ha asegurado directamente el suministro de <Node id="238"/>litio<Node id="243"/>, en un contexto en el que no para de crecer a nivel global la demanda de <Node id="317"/>vehículos<Node id="326"/> electrificados, ha recordado en una nota. 
+<Node id="370"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LANG" StartNode="38" EndNode="43">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="29" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="44" EndNode="59">
+</Annotation>
+<Annotation Id="4" Type="MONEY" StartNode="73" EndNode="94">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="99" EndNode="124">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="125" EndNode="131">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="132" EndNode="135">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="156" EndNode="159">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="161" EndNode="165">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="167" EndNode="178">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="181" EndNode="184">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="185" EndNode="190">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="238" EndNode="243">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="370">
+</Annotation>
+<Annotation Id="14" Type="PRODUCT" StartNode="317" EndNode="326">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

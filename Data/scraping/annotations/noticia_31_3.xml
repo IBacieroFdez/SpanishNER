@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_31_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Inicialmente la producción se reanudará en estas <Node id="49"/>dos<Node id="52"/> <Node id="53"/>factorías<Node id="62"/> en un solo turno y en las próximas <Node id="98"/>semanas<Node id="105"/> se decidirá la reincorporación de un <Node id="143"/>segundo<Node id="150"/> turno, con la posibilidad de que más <Node id="188"/>tarde<Node id="193"/> se abra en la de <Node id="211"/>Valladolid<Node id="221"/> el de <Node id="228"/>noche<Node id="233"/>.
+<Node id="235"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="49" EndNode="52">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="53" EndNode="62">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="98" EndNode="105">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="143" EndNode="150">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="188" EndNode="193">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="211" EndNode="221">
+</Annotation>
+<Annotation Id="8" Type="TIME" StartNode="228" EndNode="233">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="235">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

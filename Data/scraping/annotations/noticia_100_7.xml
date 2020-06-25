@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_100_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El principal ingrediente sería el <Node id="34"/>regolito<Node id="42"/> lunar, <Node id="50"/>roca<Node id="54"/> suelta de la superficie de la <Node id="85"/>Luna<Node id="89"/>, al que se añadiría la <Node id="113"/>urea<Node id="117"/> como <Node id="123"/>superplastificante<Node id="141"/>, lo que limitaría la cantidad de <Node id="175"/>agua<Node id="179"/> necesaria para la receta.
+<Node id="206"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="3" Type="SCITERM" StartNode="34" EndNode="42">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="50" EndNode="54">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="85" EndNode="89">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="113" EndNode="117">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="123" EndNode="141">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="175" EndNode="179">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="206">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

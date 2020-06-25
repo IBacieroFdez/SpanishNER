@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_105_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Estas <Node id="6"/>10<Node id="8"/> <Node id="9"/>películas<Node id="18"/> y <Node id="21"/>series<Node id="27"/> tienen los protagonistas (masculinos) más guapos de todos los tiempos
+<Node id="98"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="6" EndNode="8">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="9" EndNode="18">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="21" EndNode="27">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="98">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

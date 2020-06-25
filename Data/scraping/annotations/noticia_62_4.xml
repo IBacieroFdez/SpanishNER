@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_62_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Sin cifras ni datos, en una comparecencia más política que técnica e interrumpida frecuentemente por problemas técnicos en las conexiones, <Node id="139"/>Timmermans<Node id="149"/> ha señalado que la transición hacia una economía neutra en CO2 en <Node id="216"/>2050<Node id="220"/>, como ambiciona la <Node id="240"/>Comisión Europea<Node id="256"/>, es el único camino posible tras una <Node id="294"/>pandemia<Node id="302"/> que "seguirá durante cierto <Node id="331"/>tiempo<Node id="337"/>".
+<Node id="340"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="139" EndNode="149">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="216" EndNode="220">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="240" EndNode="256">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="294" EndNode="302">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="331" EndNode="337">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="340">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

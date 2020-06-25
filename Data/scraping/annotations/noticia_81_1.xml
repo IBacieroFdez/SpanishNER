@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>OMS<Node id="6"/> está monitoreando y respondiendo continuamente a este <Node id="61"/>brote<Node id="66"/>. Estas preguntas y respuestas se actualizarán a medida que se conozcan más datos sobre la <Node id="157"/>COVID‑19<Node id="165"/>, su modo de propagación y la forma en que está afectando a las personas en <Node id="241"/>todo el mundo<Node id="254"/>.
+<Node id="256"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="6">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="61" EndNode="66">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="157" EndNode="165">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="241" EndNode="254">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="256">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

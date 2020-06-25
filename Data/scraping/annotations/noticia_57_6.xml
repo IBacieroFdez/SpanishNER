@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_57_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Según los datos más recientes facilitados por la <Node id="49"/>Consejería<Node id="59"/> <Node id="60"/>madrileña<Node id="69"/> de <Node id="73"/>Políticas Sociales<Node id="91"/>, entre el <Node id="102"/>8 de marzo<Node id="112"/> y el <Node id="118"/>17 de abril<Node id="129"/> murieron en los centros <Node id="154"/>837<Node id="157"/> personas contagiadas, y otras <Node id="188"/>4.435<Node id="193"/> con <Node id="198"/>síntomas<Node id="206"/> compatibles con la <Node id="226"/>enfermedad<Node id="236"/>, <Node id="238"/>5.272<Node id="243"/> en total.
+<Node id="254"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="49" EndNode="59">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="60" EndNode="69">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="73" EndNode="91">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="102" EndNode="112">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="118" EndNode="129">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="154" EndNode="157">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="188" EndNode="193">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="198" EndNode="206">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="226" EndNode="236">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="238" EndNode="243">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="254">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

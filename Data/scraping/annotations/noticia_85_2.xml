@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_85_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Si una persona tiene <Node id="21"/>diabetes<Node id="29"/>, su cuerpo no produce una cantidad suficiente de <Node id="79"/>insulina<Node id="87"/> o no puede usar adecuadamente la <Node id="121"/>insulina<Node id="129"/> que produce. Cuando no hay suficiente <Node id="168"/>insulina<Node id="176"/> o las <Node id="183"/>células<Node id="190"/> dejan de responder a la <Node id="215"/>insulina<Node id="223"/>, queda demasiada <Node id="241"/>azúcar<Node id="247"/> en el <Node id="254"/>torrente sanguíneo<Node id="272"/> y, con el tiempo, esto puede causar problemas de <Node id="322"/>salud<Node id="327"/> graves, como <Node id="341"/>enfermedad<Node id="351"/> del <Node id="356"/>corazón<Node id="363"/>, pérdida de la visión y <Node id="388"/>enfermedad<Node id="398"/> de los <Node id="406"/>riñones<Node id="413"/>.
+<Node id="415"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="21" EndNode="29">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="79" EndNode="87">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="121" EndNode="129">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="168" EndNode="176">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="183" EndNode="190">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="215" EndNode="223">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="241" EndNode="247">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="254" EndNode="272">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="322" EndNode="327">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="341" EndNode="351">
+</Annotation>
+<Annotation Id="13" Type="MEDTERM" StartNode="356" EndNode="363">
+</Annotation>
+<Annotation Id="14" Type="DISEASE" StartNode="388" EndNode="398">
+</Annotation>
+<Annotation Id="15" Type="MEDTERM" StartNode="406" EndNode="413">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="415">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_27_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Al hablar de buenas noticias no se trata de banalizar -indica- porque “esta situación es muy grave”, esto es “lo más próximo a una <Node id="131"/>guerra<Node id="137"/> que la mayoría de nosotros hemos vivido”, pero la <Node id="188"/>gente<Node id="193"/> también necesita “un motivo para la esperanza”.
+<Node id="242"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="131" EndNode="137">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="188" EndNode="193">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="242">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

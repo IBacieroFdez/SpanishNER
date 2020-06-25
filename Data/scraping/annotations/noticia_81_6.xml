@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>COVID‑19<Node id="11"/> es la <Node id="18"/>enfermedad<Node id="28"/> <Node id="29"/>infecciosa<Node id="39"/> causada por el <Node id="55"/>coronavirus<Node id="66"/> que se ha descubierto más recientemente. Tanto este nuevo <Node id="125"/>virus<Node id="130"/> como la <Node id="139"/>enfermedad<Node id="149"/> que provoca eran desconocidos antes de que estallara el <Node id="206"/>brote<Node id="211"/> en <Node id="215"/>Wuhan<Node id="220"/> (<Node id="222"/>China<Node id="227"/>) en <Node id="232"/>diciembre de
+    2019<Node id="253"/>. Actualmente la <Node id="270"/>COVID‑19<Node id="278"/> es una <Node id="286"/>pandemia<Node id="294"/> que afecta a muchos <Node id="315"/>países<Node id="321"/> de todo el <Node id="333"/>mundo<Node id="338"/>.
+<Node id="340"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="18" EndNode="28">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="29" EndNode="39">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="55" EndNode="66">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="125" EndNode="130">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="139" EndNode="149">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="206" EndNode="211">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="215" EndNode="220">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="222" EndNode="227">
+</Annotation>
+<Annotation Id="11" Type="DATE" StartNode="232" EndNode="253">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="270" EndNode="278">
+</Annotation>
+<Annotation Id="13" Type="DISEASE" StartNode="286" EndNode="294">
+</Annotation>
+<Annotation Id="14" Type="LOC" StartNode="315" EndNode="321">
+</Annotation>
+<Annotation Id="15" Type="LOC" StartNode="333" EndNode="338">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="340">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

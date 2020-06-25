@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_33_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Imagen de los <Node id="14"/>calcetines<Node id="24"/> de Happy Sock ilustrados por la <Node id="57"/>artista<Node id="64"/> <Node id="65"/>neoyorquina<Node id="76"/> <Node id="77"/>Amber Vittoria<Node id="91"/> cedida por la marca. <Node id="113"/>EFE<Node id="116"/>
+	   
+<Node id="122"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="14" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="57" EndNode="64">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="65" EndNode="76">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="77" EndNode="91">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="113" EndNode="116">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="122">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_15_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Asimismo, de cara a la detección e identificación de la <Node id="56"/>víctimas de trata<Node id="73"/>, explotación sexual y <Node id="96"/>mujeres<Node id="103"/> en contexto de prostitución, durante la inspección y cierre de <Node id="167"/>hostales<Node id="175"/>, <Node id="177"/>hoteles<Node id="184"/> y <Node id="187"/>clubes<Node id="193"/>, las <Node id="199"/>fuerzas y cuerpos de seguridad del Estado<Node id="240"/> reforzarán la coordinación con las <Node id="276"/>entidades<Node id="285"/>, <Node id="287"/>organizaciones<Node id="301"/> y <Node id="304"/>servicios especializados<Node id="328"/> para asegurar la asistencia y protección a las <Node id="376"/>víctimas<Node id="384"/>.
+<Node id="386"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="96" EndNode="103">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="56" EndNode="73">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="167" EndNode="175">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="177" EndNode="184">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="187" EndNode="193">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="199" EndNode="240">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="276" EndNode="285">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="287" EndNode="301">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="376" EndNode="384">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="304" EndNode="328">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="386">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

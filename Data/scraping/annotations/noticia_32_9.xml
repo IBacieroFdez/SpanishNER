@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_32_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Gracias a la innovación, esta <Node id="30"/>firma<Node id="35"/> <Node id="36"/>española<Node id="44"/> rompe con el modelo lineal establecido en la <Node id="90"/>sociedad<Node id="98"/> de usar y tirar y fomenta un uso responsable con <Node id="148"/>prendas<Node id="155"/> pensadas para "resistirlo todo", apostando así por la sostenibilidad como parte fundamental del modelo de negocio.
+<Node id="271"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="30" EndNode="35">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="36" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="90" EndNode="98">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="148" EndNode="155">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="271">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

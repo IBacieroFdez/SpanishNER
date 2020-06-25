@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_18_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Desde el inicio<Node id="15"/> de la <Node id="22"/>pandemia<Node id="30"/>, el <Node id="35"/>Gobierno<Node id="43"/> de <Node id="47"/>Trump<Node id="52"/> ha cerrado las fronteras terrestres con <Node id="93"/>Canadá<Node id="99"/> y <Node id="102"/>México<Node id="108"/>, a la vez que el <Node id="126"/>tráfico aéreo internacional<Node id="153"/> está a la práctica suspendido y los <Node id="190"/>consulados<Node id="200"/> y <Node id="203"/>embajadas<Node id="212"/> han limitado sus servicios de visados. 
+<Node id="253"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="0" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="22" EndNode="30">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="35" EndNode="43">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="47" EndNode="52">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="93" EndNode="99">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="102" EndNode="108">
+</Annotation>
+<Annotation Id="7" Type="FAC" StartNode="126" EndNode="153">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="190" EndNode="200">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="203" EndNode="212">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="253">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

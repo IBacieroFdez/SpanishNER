@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_29_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>De paso garantiza así una total transparencia sobre el origen de las <Node id="69"/>materias primas<Node id="84"/>, ya que el <Node id="96"/>cobalto<Node id="103"/> se obtendrá directamente de las <Node id="136"/>minas<Node id="141"/> en <Node id="145"/>Australia<Node id="154"/> y <Node id="157"/>Marruecos<Node id="166"/> en el <Node id="173"/>futuro<Node id="179"/>. 
+<Node id="182"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="69" EndNode="84">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="96" EndNode="103">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="136" EndNode="141">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="145" EndNode="154">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="157" EndNode="166">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="173" EndNode="179">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="182">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

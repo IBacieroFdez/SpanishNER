@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_72_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>alimentación<Node id="15"/> es otro de los temas en los que más disciplina guarda. “Intento hacer la <Node id="89"/>comida<Node id="95"/> más <Node id="100"/>sana<Node id="104"/> posible. Eso no significa que deje de comer menos. Cuando estás compitiendo vas comiendo un poco lo que vas pillando, pero aquí como puedo fallar en eso. Es cierto que en <Node id="276"/>Santander<Node id="285"/> los <Node id="290"/>chuletones<Node id="300"/> están buenísimos, pero los intento evitar; al <Node id="347"/>pescado<Node id="354"/> si le doy”, apunta.
+<Node id="375"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="3" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="89" EndNode="95">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="100" EndNode="104">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="276" EndNode="285">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="290" EndNode="300">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="347" EndNode="354">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="375">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

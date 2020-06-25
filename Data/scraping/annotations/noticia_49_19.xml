@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_49_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>A comienzos de <Node id="15"/>abril<Node id="20"/>, el <Node id="25"/>Gobierno<Node id="33"/> <Node id="34"/>mexicano<Node id="42"/> informó que al menos <Node id="64"/>cuatro<Node id="70"/> ingenios y una alcoholera se integraron a la producción de <Node id="130"/>melaza<Node id="136"/>, <Node id="138"/>alcohol<Node id="145"/> y <Node id="148"/>gel antibacterial<Node id="165"/> para asegurar su disponibilidad al <Node id="201"/>sector salud<Node id="213"/> y evitar la especulación, el sobreprecio y desabastecimiento.
+<Node id="276"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="276">
+</Annotation>
+<Annotation Id="16" Type="NORP" StartNode="201" EndNode="213">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="15" EndNode="20">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="25" EndNode="33">
+</Annotation>
+<Annotation Id="9" Type="LANG" StartNode="34" EndNode="42">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="64" EndNode="70">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="130" EndNode="136">
+</Annotation>
+<Annotation Id="14" Type="PRODUCT" StartNode="138" EndNode="145">
+</Annotation>
+<Annotation Id="15" Type="MEDTERM" StartNode="148" EndNode="165">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

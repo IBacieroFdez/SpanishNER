@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_35.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El pasado <Node id="10"/>sábado<Node id="16"/>, el <Node id="21"/>Ministerio de Salud<Node id="40"/> de <Node id="44"/>Países Bajos<Node id="56"/> anunció el retiro de <Node id="78"/>600.000<Node id="85"/> <Node id="86"/>máscaras<Node id="94"/> llegadas de un <Node id="110"/>fabricante<Node id="120"/> <Node id="121"/>chino<Node id="126"/> el <Node id="130"/>21 de marzo<Node id="141"/>.
+<Node id="143"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="10" EndNode="16">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="21" EndNode="40">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="44" EndNode="56">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="78" EndNode="85">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="86" EndNode="94">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="110" EndNode="120">
+</Annotation>
+<Annotation Id="7" Type="LANG" StartNode="121" EndNode="126">
+</Annotation>
+<Annotation Id="9" Type="DATE" StartNode="130" EndNode="141">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="143">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

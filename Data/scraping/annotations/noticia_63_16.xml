@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"<Node id="1"/>Corea del Sur<Node id="14"/>, el <Node id="19"/>país<Node id="23"/> del <Node id="28"/>mundo<Node id="33"/> con más desarrollo del <Node id="57"/>5G<Node id="59"/>, es uno de los que mejor ha contenido la <Node id="101"/>pandemia<Node id="109"/>", argumenta este <Node id="127"/>físico<Node id="133"/>, si bien puntualiza que el propio desarrollo tecnológico <Node id="191"/>surcoreano<Node id="201"/> -<Node id="203"/>5G<Node id="205"/> incluido- ha podido contribuir a este éxito por el uso masivo de <Node id="271"/>aplicaciones<Node id="283"/> de <Node id="287"/>móvil<Node id="292"/> para controlar el movimiento de la población y reducir los <Node id="352"/>contagios<Node id="361"/>.
+<Node id="363"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="1" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="19" EndNode="23">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="28" EndNode="33">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="57" EndNode="59">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="101" EndNode="109">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="191" EndNode="201">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="127" EndNode="133">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="203" EndNode="205">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="287" EndNode="292">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="271" EndNode="283">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="352" EndNode="361">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="363">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

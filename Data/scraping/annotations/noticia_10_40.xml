@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_40.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Emergencias<Node id="11"/>: <Node id="13"/>8.000<Node id="18"/> <Node id="19"/>enfermeras<Node id="29"/> listas para actuar
+<Node id="49"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="0" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="13" EndNode="18">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="19" EndNode="29">
+</Annotation>
+</AnnotationSet>
+
+
+</GateDocument>

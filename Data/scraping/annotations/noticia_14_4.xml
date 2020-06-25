@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_14_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Asimismo, se ha incluido en el real decreto-ley la reducción del IVA de <Node id="72"/>libros<Node id="78"/>, <Node id="80"/>revistas<Node id="88"/> y <Node id="91"/>periódicos electrónicos<Node id="114"/>, que hasta ahora era del <Node id="140"/>21 %<Node id="144"/>, para adaptarlos a la tributación de aquellos de papel, que es del <Node id="212"/>4 %<Node id="215"/>.
+<Node id="217"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="PRODUCT" StartNode="72" EndNode="78">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="80" EndNode="88">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="91" EndNode="114">
+</Annotation>
+<Annotation Id="5" Type="PERCENT" StartNode="140" EndNode="144">
+</Annotation>
+<Annotation Id="6" Type="PERCENT" StartNode="212" EndNode="215">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="217">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

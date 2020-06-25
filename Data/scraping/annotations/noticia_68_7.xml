@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Samaranch<Node id="9"/> llegó a un <Node id="21"/>organismo<Node id="30"/> en el que no había mujeres, en el que <Node id="69"/>federaciones<Node id="81"/> y <Node id="84"/>comités olímpicos<Node id="101"/> nacionales actuaban de forma descoordinada y en el que los <Node id="161"/>atletas<Node id="168"/> estaban infrarrepresentados. Los <Node id="202"/>Juegos<Node id="208"/> de <Node id="212"/>Montreal<Node id="220"/> habían dejado a la <Node id="240"/>ciudad<Node id="246"/> endeudada para los siguientes <Node id="277"/>30<Node id="279"/> <Node id="280"/>años<Node id="284"/> y los de <Node id="294"/>Moscú<Node id="299"/>, en los que se inició el mandato de <Node id="336"/>Samaranch<Node id="345"/>, fueron boicoteados por <Node id="370"/>66<Node id="372"/> <Node id="373"/>países<Node id="379"/>.
+<Node id="381"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="21" EndNode="30">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="69" EndNode="81">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="84" EndNode="101">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="161" EndNode="168">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="202" EndNode="208">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="212" EndNode="220">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="240" EndNode="246">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="277" EndNode="279">
+</Annotation>
+<Annotation Id="10" Type="TIME" StartNode="280" EndNode="284">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="294" EndNode="299">
+</Annotation>
+<Annotation Id="12" Type="PER" StartNode="336" EndNode="345">
+</Annotation>
+<Annotation Id="13" Type="QUANT" StartNode="370" EndNode="372">
+</Annotation>
+<Annotation Id="14" Type="LOC" StartNode="373" EndNode="379">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="381">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

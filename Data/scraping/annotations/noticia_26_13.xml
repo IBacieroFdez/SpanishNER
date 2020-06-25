@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_26_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>científico<Node id="13"/> “sospecha” que la contaminación atmosférica persistente en las <Node id="77"/>regiones<Node id="85"/> afectadas “podría haber provocado un empeoramiento general de la <Node id="151"/>salud<Node id="156"/> de las <Node id="164"/>personas<Node id="172"/> que viven allí, haciéndolas particularmente susceptibles al <Node id="233"/>virus<Node id="238"/>”. <Node id="241"/>EFEfuturo<Node id="250"/>
+<Node id="251"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="77" EndNode="85">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="151" EndNode="156">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="164" EndNode="172">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="233" EndNode="238">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="241" EndNode="250">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="251">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

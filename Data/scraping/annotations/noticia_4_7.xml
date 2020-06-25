@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_4_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>consejero<Node id="12"/> ha lamentado "la dificultad de aislar a los <Node id="57"/>mayores<Node id="64"/> a cal y canto en sus <Node id="86"/>residencias<Node id="97"/>", la "escasez de equipos de protección individual" y "la falta de test de detección" del <Node id="187"/>coronavirus<Node id="198"/>, que el personal de los <Node id="223"/>centros<Node id="230"/> no ha tenido "en un número aceptable" hasta "<Node id="276"/>hace muy poco<Node id="289"/>".
+<Node id="292"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="57" EndNode="64">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="86" EndNode="97">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="187" EndNode="198">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="223" EndNode="230">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="276" EndNode="289">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="292">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

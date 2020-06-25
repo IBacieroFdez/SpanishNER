@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_108_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>doctor<Node id="9"/> <Node id="10"/>Tebas<Node id="15"/> trabaja para la <Node id="32"/>farmacéutica<Node id="44"/> <Node id="45"/>Inovo<Node id="50"/> en el directo financiando directamente por <Node id="94"/>Bill Gates<Node id="104"/> y su esposa <Node id="117"/>Melinda<Node id="124"/>. El <Node id="129"/>doctor<Node id="135"/> aseguró en la <Node id="150"/>SER<Node id="153"/> que los <Node id="162"/>plazos<Node id="168"/> hasta tener una <Node id="185"/>vacuna<Node id="191"/> para poner a nivel mundial serán más largos de lo deseado. "Probablemente, no estará lista para la distribución general en <Node id="315"/>otoño<Node id="320"/>. Luego el estudio pasará a fase <Node id="353"/>3<Node id="354"/>, donde se pondrán a <Node id="375"/>miles<Node id="380"/> de personas", predice. 
+<Node id="405"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="10" EndNode="15">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="32" EndNode="44">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="45" EndNode="50">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="94" EndNode="104">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="117" EndNode="124">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="129" EndNode="135">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="150" EndNode="153">
+</Annotation>
+<Annotation Id="9" Type="DRUG" StartNode="185" EndNode="191">
+</Annotation>
+<Annotation Id="10" Type="TIME" StartNode="162" EndNode="168">
+</Annotation>
+<Annotation Id="11" Type="DATE" StartNode="315" EndNode="320">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="353" EndNode="354">
+</Annotation>
+<Annotation Id="13" Type="QUANT" StartNode="375" EndNode="380">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="405">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

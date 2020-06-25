@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_106_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"El tiempo lo es todo y en este momento, sin duda, es el <Node id="57"/>momento<Node id="64"/> adecuado para ponerlos en el mercado", asegura en declaraciones concedidas a la edición <Node id="153"/>estadounidense<Node id="167"/> de <Node id="171"/>GQ<Node id="173"/>. “Hay más interés y entusiasmo en <Node id="208"/>Michael Jordan<Node id="222"/> que nunca antes. Creo que tendrá un gran impacto en la venta".
+<Node id="286"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="57" EndNode="64">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="153" EndNode="167">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="171" EndNode="173">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="208" EndNode="222">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="286">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

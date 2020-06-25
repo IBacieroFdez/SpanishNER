@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_100_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>estudios<Node id="12"/> demuestran que este tipo de <Node id="41"/>hormigón<Node id="49"/> mezclado con <Node id="63"/>urea<Node id="67"/> sería capaz de resistir las adversas condiciones espaciales, como el <Node id="137"/>vacío<Node id="142"/> o las <Node id="149"/>temperaturas<Node id="161"/> extremas, los factores que más afectan a las condiciones físicas y mecánicas de los <Node id="246"/>materiales<Node id="256"/> de construcción para la <Node id="281"/>superficie lunar<Node id="297"/>.
+<Node id="299"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="4" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="41" EndNode="49">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="63" EndNode="67">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="137" EndNode="142">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="149" EndNode="161">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="246" EndNode="256">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="281" EndNode="297">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="299">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

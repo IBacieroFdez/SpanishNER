@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_26_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El estudio, que publica <Node id="24"/>Science of the Total Enviroment<Node id="55"/>, combina datos de contaminación atmosférica, corrientes de aire y fallecimientos confirmados relacionados con la <Node id="169"/>COVID-19<Node id="177"/> y apunta a que las <Node id="197"/>regiones<Node id="205"/> con niveles de contaminación permanentemente altos tienen “significativamente más muertes que otras <Node id="306"/>regiones<Node id="314"/>”.
+<Node id="317"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="24" EndNode="55">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="169" EndNode="177">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="197" EndNode="205">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="306" EndNode="314">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="317">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

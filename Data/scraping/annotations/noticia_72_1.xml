@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_72_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Diego Botín<Node id="11"/>, el <Node id="16"/>regatista<Node id="25"/> <Node id="26"/>santanderino<Node id="38"/> que forma el <Node id="52"/>equipo<Node id="58"/> <Node id="59"/>español<Node id="66"/> de la clase 49er para los <Node id="93"/>Juegos Olímpicos<Node id="109"/> de <Node id="113"/>Tokio<Node id="118"/> <Node id="119"/>2020<Node id="123"/> con <Node id="128"/>Iago López Marra<Node id="144"/>, ha declarado a <Node id="161"/>EFE<Node id="164"/> que su objetivo es dedicarse “profesionalmente a la <Node id="217"/>vela<Node id="221"/>”.
+<Node id="224"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="SPORT" StartNode="16" EndNode="25">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="26" EndNode="38">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="52" EndNode="58">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="59" EndNode="66">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="93" EndNode="109">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="113" EndNode="118">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="119" EndNode="123">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="128" EndNode="144">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="161" EndNode="164">
+</Annotation>
+<Annotation Id="11" Type="SPORT" StartNode="217" EndNode="221">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="224">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

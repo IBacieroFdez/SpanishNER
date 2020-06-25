@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_73_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Estaba pensando que los <Node id="25"/>deportistas<Node id="36"/> éramos más un problema que una posible solución y llevaba <Node id="95"/>días<Node id="99"/> dándole vueltas a qué podía hacer y cómo podía transformarlo en <Node id="164"/>entretenimiento<Node id="179"/>. La <Node id="184"/>sociedad<Node id="192"/> <Node id="193"/>española<Node id="201"/> ha dado un ejemplo a todos los niveles, mucho más de lo que podemos esperar y yo también quiero contribuir", confiesa.
+<Node id="321"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SPORT" StartNode="25" EndNode="36">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="95" EndNode="99">
+</Annotation>
+<Annotation Id="3" Type="SPORT" StartNode="164" EndNode="179">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="184" EndNode="192">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="193" EndNode="201">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="321">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

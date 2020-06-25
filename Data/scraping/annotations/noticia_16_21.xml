@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_21.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Hay una llamada al internacionalismo progresista con la coalición que empezó <Node id="77"/>Bernie Sanders<Node id="91"/> en <Node id="95"/>Estados Unidos<Node id="109"/> o <Node id="112"/>Varoufakis<Node id="122"/> en <Node id="126"/>Europa<Node id="132"/>. Traen elementos progresistas para contrarrestar el movimiento reaccionario que se ha forjado desde la <Node id="236"/>Casa Blanca<Node id="247"/> (…) de la mano de estados brutales de <Node id="286"/>Oriente Medio<Node id="299"/>, <Node id="301"/>Israel<Node id="307"/> (…) o con <Node id="318"/>gente<Node id="323"/> como <Node id="329"/>Orban<Node id="334"/> o <Node id="337"/>Salvini<Node id="344"/>, cuyo disfrute en la vida es asegurarse de que la <Node id="395"/>gente<Node id="400"/> que huye desesperadamente de <Node id="430"/>África<Node id="436"/> se ahoga en el <Node id="452"/>Mediterráneo<Node id="464"/>.
+<Node id="466"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="77" EndNode="91">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="95" EndNode="109">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="112" EndNode="122">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="126" EndNode="132">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="236" EndNode="247">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="286" EndNode="299">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="301" EndNode="307">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="329" EndNode="334">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="337" EndNode="344">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="430" EndNode="436">
+</Annotation>
+<Annotation Id="12" Type="LOC" StartNode="452" EndNode="464">
+</Annotation>
+<Annotation Id="13" Type="PER" StartNode="395" EndNode="400">
+</Annotation>
+<Annotation Id="14" Type="PER" StartNode="318" EndNode="323">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="466">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

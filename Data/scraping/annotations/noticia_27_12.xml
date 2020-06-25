@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_27_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>países<Node id="10"/> que “mejor están saliendo de este tipo de problemas y <Node id="65"/>pandemias<Node id="74"/> son los que más habían invertido en <Node id="111"/>ciencia<Node id="118"/> y en <Node id="124"/>tecnología<Node id="134"/>”, recuerda.
+<Node id="147"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="4" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="65" EndNode="74">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="111" EndNode="118">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="124" EndNode="134">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="147">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

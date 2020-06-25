@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Las <Node id="4"/>farmacéuticas<Node id="17"/> tenían recursos y son superricas, pero no lo hacen porque los <Node id="80"/>mercados<Node id="88"/> dicen que no hay beneficios en prepararse para una <Node id="140"/>catástrofe<Node id="150"/> <Node id="151"/>a la vuelta de la esquina<Node id="176"/>. Y luego viene el martillo neoliberal. Los <Node id="220"/>Gobiernos<Node id="229"/> no pueden hacer nada. Están siendo el problema y no la solución.
+<Node id="295"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="4" EndNode="17">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="80" EndNode="88">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="140" EndNode="150">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="151" EndNode="176">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="220" EndNode="229">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="295">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

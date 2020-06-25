@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_2_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Captura de la señal institucional de <Node id="37"/>Moncloa<Node id="44"/>, del <Node id="50"/>director<Node id="58"/> del <Node id="63"/>Centro de Coordinación de Alertas y <Node id="99"/>Emergencias<Node id="110"/> <Node id="111"/>Sanitarias<Node id="121"/>, <Node id="123"/>Fernando Simón<Node id="137"/> (c), el <Node id="146"/>jefe<Node id="150"/> del <Node id="155"/>Estado Mayor de la <Node id="174"/>Guardia Civil<Node id="187"/>, <Node id="189"/>general<Node id="196"/> <Node id="197"/>José Manuel Santiago<Node id="217"/> (i), el <Node id="226"/>director adjunto operativo<Node id="252"/> (<Node id="254"/>DAO<Node id="257"/>) de la <Node id="265"/>Policía Nacional<Node id="281"/>, el <Node id="286"/>comisario principal<Node id="305"/> <Node id="306"/>José Ángel González<Node id="325"/> (2i), la <Node id="335"/>secretaria general<Node id="353"/> de <Node id="357"/>Transportes<Node id="368"/>, <Node id="370"/>María José Rallo del Olmo<Node id="395"/> (2d), y<Node id="403"/> Carlos Pérez Martínez<Node id="425"/>, <Node id="427"/>director<Node id="435"/> del <Node id="440"/>gabinete del <Node id="453"/>JEMAD<Node id="458"/> (d), <Node id="464"/>este lunes<Node id="474"/> durante la rueda de prensa ofrecida tras la reunión del gabinete técnico de seguimiento de la <Node id="569"/>crisis<Node id="575"/> del <Node id="580"/>coronavirus<Node id="591"/>.- EFE/MONCLOA
+	   
+<Node id="611"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="37" EndNode="44">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="50" EndNode="58">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="63" EndNode="121">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="99" EndNode="110">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="111" EndNode="121">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="123" EndNode="137">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="146" EndNode="150">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="155" EndNode="187">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="174" EndNode="187">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="189" EndNode="196">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="197" EndNode="217">
+</Annotation>
+<Annotation Id="12" Type="JOB" StartNode="226" EndNode="252">
+</Annotation>
+<Annotation Id="13" Type="JOB" StartNode="254" EndNode="257">
+</Annotation>
+<Annotation Id="14" Type="ORG" StartNode="265" EndNode="281">
+</Annotation>
+<Annotation Id="15" Type="JOB" StartNode="286" EndNode="305">
+</Annotation>
+<Annotation Id="16" Type="PER" StartNode="306" EndNode="325">
+</Annotation>
+<Annotation Id="17" Type="JOB" StartNode="335" EndNode="353">
+</Annotation>
+<Annotation Id="18" Type="ORG" StartNode="357" EndNode="368">
+</Annotation>
+<Annotation Id="19" Type="PER" StartNode="370" EndNode="395">
+</Annotation>
+<Annotation Id="20" Type="PER" StartNode="403" EndNode="425">
+</Annotation>
+<Annotation Id="21" Type="JOB" StartNode="427" EndNode="435">
+</Annotation>
+<Annotation Id="22" Type="ORG" StartNode="440" EndNode="458">
+</Annotation>
+<Annotation Id="23" Type="ORG" StartNode="453" EndNode="458">
+</Annotation>
+<Annotation Id="24" Type="DATE" StartNode="464" EndNode="474">
+</Annotation>
+<Annotation Id="25" Type="DISEASE" StartNode="580" EndNode="591">
+</Annotation>
+<Annotation Id="26" Type="EVENT" StartNode="569" EndNode="575">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="611">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

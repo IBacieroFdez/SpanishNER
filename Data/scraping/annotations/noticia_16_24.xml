@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_24.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>R: Se dice comúnmente que la campaña de <Node id="40"/>Sanders<Node id="47"/> fue un fracaso. Pero eso es un error total. Ha sido un enorme éxito. <Node id="117"/>Sanders<Node id="124"/> ha conseguido cambiar el ámbito de la discusión y la política y cosas muy importantes que no se podían mencionar <Node id="238"/>hace un par de años<Node id="257"/> ahora están en el centro de discusión, como el <Node id="305"/>Green New Deal<Node id="319"/>, esencial para la supervivencia.
+<Node id="353"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="40" EndNode="47">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="117" EndNode="124">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="238" EndNode="257">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="305" EndNode="319">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="353">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_85_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Existen <Node id="8"/>tres<Node id="12"/> tipos principales de <Node id="34"/>diabetes<Node id="42"/>: <Node id="44"/>diabetes<Node id="52"/> tipo <Node id="58"/>1<Node id="59"/>, <Node id="61"/>diabetes<Node id="69"/> tipo <Node id="75"/>2<Node id="76"/> y <Node id="79"/>diabetes<Node id="87"/> <Node id="88"/>gestacional<Node id="99"/> (<Node id="101"/>diabetes<Node id="109"/> durante el <Node id="121"/>embarazo<Node id="129"/>).
+<Node id="132"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="34" EndNode="42">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="8" EndNode="12">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="58" EndNode="59">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="75" EndNode="76">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="44" EndNode="52">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="61" EndNode="69">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="79" EndNode="87">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="101" EndNode="109">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="121" EndNode="129">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="88" EndNode="99">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="132">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

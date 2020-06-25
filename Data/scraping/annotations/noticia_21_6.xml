@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_21_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Conte<Node id="5"/> consideró que "muchos <Node id="28"/>ciudadanos<Node id="38"/> están cansados de los esfuerzos realizados <Node id="82"/>hasta el momento<Node id="98"/> y desean una reducción significativa de estas medidas o incluso su abolición total" y que luego están "las necesidades de las <Node id="225"/>empresas<Node id="233"/> y actividades comerciales para comenzar de nuevo lo antes posible".
+<Node id="302"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="28" EndNode="38">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="82" EndNode="98">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="225" EndNode="233">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="302">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

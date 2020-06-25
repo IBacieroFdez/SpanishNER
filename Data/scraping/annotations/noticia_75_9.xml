@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_75_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>A través de esta iniciativa <Node id="28"/>eBay<Node id="32"/> refuerza su apoyo a las <Node id="57"/>pymes<Node id="62"/> <Node id="63"/>españolas<Node id="72"/>, al poner a su disposición en una única web todos sus <Node id="127"/>recursos<Node id="135"/> y <Node id="138"/>herramientas<Node id="150"/>, con el objetivo de que los pequeños <Node id="188"/>empresarios<Node id="199"/> cuenten con toda la información necesaria sobre ayudas y soluciones para la digitalización.
+<Node id="292"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="28" EndNode="32">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="57" EndNode="62">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="63" EndNode="72">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="127" EndNode="135">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="138" EndNode="150">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="188" EndNode="199">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="292">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

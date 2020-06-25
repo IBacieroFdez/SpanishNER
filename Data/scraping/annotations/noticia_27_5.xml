@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_27_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>“<Node id="1"/>Diez<Node id="5"/> buenas noticias sobre el <Node id="31"/>coronavirus<Node id="42"/>” reúne ideas como que ya se sabe su origen y cómo detectarlo, que el <Node id="112"/>80 %<Node id="116"/> de los casos son leves, que no afecta casi a los <Node id="166"/>menores<Node id="173"/>, que hay prototipos de <Node id="197"/>vacunas<Node id="204"/> y que la <Node id="214"/>Covid-19<Node id="222"/> se cura.
+<Node id="232"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="1" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="31" EndNode="42">
+</Annotation>
+<Annotation Id="3" Type="PERCENT" StartNode="112" EndNode="116">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="166" EndNode="173">
+</Annotation>
+<Annotation Id="5" Type="DRUG" StartNode="197" EndNode="204">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="214" EndNode="222">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="232">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

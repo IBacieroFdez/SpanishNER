@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_51_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Algunos de los <Node id="15"/>países<Node id="21"/> participantes, como <Node id="42"/>Alemania<Node id="50"/> o <Node id="53"/>Austria<Node id="60"/>, tenían ya casi terminado su <Node id="90"/>pabellón<Node id="98"/> en la <Node id="105"/>Expo<Node id="109"/>.
+<Node id="111"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="90" EndNode="98">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="15" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="42" EndNode="50">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="53" EndNode="60">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="105" EndNode="109">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="111">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

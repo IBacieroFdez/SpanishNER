@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_72_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Desde que <Node id="10"/>Botín<Node id="15"/> y <Node id="18"/>López Marra<Node id="29"/> comenzaron a competir en <Node id="55"/>noviembre 2014<Node id="69"/>, y desde un <Node id="82"/>año<Node id="85"/> <Node id="86"/>después<Node id="93"/>, este <Node id="100"/>dúo<Node id="103"/> ha alcanzado el Top10 en <Node id="129"/>37<Node id="131"/> de las <Node id="139"/>40<Node id="141"/> <Node id="142"/>pruebas<Node id="149"/> disputadas. Un <Node id="165"/>noveno<Node id="171"/> puesto en los <Node id="186"/>Juegos<Node id="192"/> de <Node id="196"/>Río<Node id="199"/> <Node id="200"/>2016<Node id="204"/>, un <Node id="209"/>cuarto<Node id="215"/> en el <Node id="222"/>Mundial<Node id="229"/> de <Node id="233"/>Nueva Zelanda<Node id="246"/>, dando paso a la clasificación de <Node id="281"/>España<Node id="287"/> por <Node id="292"/>país<Node id="296"/> de cara a <Node id="307"/>Tokio<Node id="312"/>, o la <Node id="319"/>plata<Node id="324"/> en el <Node id="331"/>Mundial<Node id="338"/> de <Node id="342"/>Australia<Node id="351"/> son alguno de los ejemplos.
+<Node id="380"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="10" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="18" EndNode="29">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="55" EndNode="69">
+</Annotation>
+<Annotation Id="9" Type="TIME" StartNode="82" EndNode="85">
+</Annotation>
+<Annotation Id="10" Type="TIME" StartNode="86" EndNode="93">
+</Annotation>
+<Annotation Id="11" Type="NORP" StartNode="100" EndNode="103">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="129" EndNode="131">
+</Annotation>
+<Annotation Id="13" Type="QUANT" StartNode="139" EndNode="141">
+</Annotation>
+<Annotation Id="14" Type="EVENT" StartNode="142" EndNode="149">
+</Annotation>
+<Annotation Id="15" Type="QUANT" StartNode="165" EndNode="171">
+</Annotation>
+<Annotation Id="16" Type="EVENT" StartNode="186" EndNode="192">
+</Annotation>
+<Annotation Id="17" Type="GPE" StartNode="196" EndNode="199">
+</Annotation>
+<Annotation Id="18" Type="DATE" StartNode="200" EndNode="204">
+</Annotation>
+<Annotation Id="19" Type="QUANT" StartNode="209" EndNode="215">
+</Annotation>
+<Annotation Id="20" Type="EVENT" StartNode="222" EndNode="229">
+</Annotation>
+<Annotation Id="21" Type="GPE" StartNode="233" EndNode="246">
+</Annotation>
+<Annotation Id="22" Type="GPE" StartNode="281" EndNode="287">
+</Annotation>
+<Annotation Id="23" Type="LOC" StartNode="292" EndNode="296">
+</Annotation>
+<Annotation Id="24" Type="GPE" StartNode="307" EndNode="312">
+</Annotation>
+<Annotation Id="25" Type="GPE" StartNode="342" EndNode="351">
+</Annotation>
+<Annotation Id="26" Type="PRODUCT" StartNode="319" EndNode="324">
+</Annotation>
+<Annotation Id="27" Type="EVENT" StartNode="331" EndNode="338">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="380">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

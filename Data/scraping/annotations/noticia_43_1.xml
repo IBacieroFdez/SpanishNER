@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_43_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>Ministerio de Industria<Node id="26"/>, <Node id="28"/>Comercio<Node id="36"/> y <Node id="39"/>Turismo<Node id="46"/> ha lanzado una campaña en la que se recomienda a la población planificar las compras durante la <Node id="143"/>Semana Santa<Node id="155"/> con el objetivo de reducir la movilidad ciudadana y minimizar el riesgo por <Node id="232"/>coronavirus<Node id="243"/>.
+<Node id="245"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="26">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="28" EndNode="36">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="39" EndNode="46">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="143" EndNode="155">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="232" EndNode="243">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="245">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

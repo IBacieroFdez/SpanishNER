@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_80_22.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El informe señala al <Node id="21"/>transporte público<Node id="39"/> como "una vía muy importante de transmisión de la <Node id="90"/>infección<Node id="99"/> por <Node id="104"/>SARS-COV-2<Node id="114"/>" y para evitar aglomeraciones propone mantener una distancia física de metro y medio en <Node id="203"/>andenes<Node id="210"/> y <Node id="213"/>vehículos<Node id="222"/> y recomienda efectuar controles de <Node id="258"/>temperatura<Node id="269"/> en los principales nodos de <Node id="298"/>transporte<Node id="308"/>.
+<Node id="310"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="FAC" StartNode="298" EndNode="308">
+</Annotation>
+<Annotation Id="1" Type="FAC" StartNode="21" EndNode="39">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="90" EndNode="99">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="104" EndNode="114">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="213" EndNode="222">
+</Annotation>
+<Annotation Id="14" Type="FAC" StartNode="203" EndNode="210">
+</Annotation>
+<Annotation Id="15" Type="SCITERM" StartNode="258" EndNode="269">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="310">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

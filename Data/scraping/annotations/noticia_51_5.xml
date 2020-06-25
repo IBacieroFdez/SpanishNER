@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_51_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Tras evaluar las consecuencias sin precedentes de la <Node id="54"/>pandemia<Node id="62"/> de <Node id="66"/>COVID-19<Node id="74"/> en la <Node id="81"/>salud pública<Node id="94"/>, en la actividad económica y en las restricciones mundiales de circulación, la <Node id="174"/>Comisión Ejecutiva<Node id="192"/> del <Node id="197"/>BIE<Node id="200"/> ha recomendado unánimemente aprobar la petición de <Node id="252"/>Emiratos Árabes Unidos<Node id="274"/> de retrasar la <Node id="290"/>Exposición<Node id="300"/>", señaló.
+<Node id="311"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="54" EndNode="62">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="66" EndNode="74">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="81" EndNode="94">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="174" EndNode="192">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="197" EndNode="200">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="252" EndNode="274">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="290" EndNode="300">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="311">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

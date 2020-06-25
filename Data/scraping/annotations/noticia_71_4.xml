@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_71_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>A través del lema ‘Que nada nos quite las ganas de superarnos’, <Node id="64"/>Pastora Soler<Node id="77"/> pone voz al himno de <Node id="99"/>Andalucía<Node id="108"/> en una interpretación que hizo en la <Node id="146"/>ceremonia<Node id="155"/> de entrega de las <Node id="174"/>Medallas<Node id="182"/> del <Node id="187"/>Día de Andalucía<Node id="203"/> del <Node id="208"/>año 2019<Node id="216"/>. La campaña cuenta con un vídeo con los mensajes de cadas <Node id="275"/>deportistas<Node id="286"/>, mensajes que se sumarán, en los próximos <Node id="329"/>días<Node id="333"/>, a los de otros participantes y un momento complicado a lo largo de su carrera o en su vida, acompañado de la superación.
+<Node id="456"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="64" EndNode="77">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="99" EndNode="108">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="146" EndNode="155">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="174" EndNode="182">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="187" EndNode="203">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="208" EndNode="216">
+</Annotation>
+<Annotation Id="7" Type="SPORT" StartNode="275" EndNode="286">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="329" EndNode="333">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="456">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

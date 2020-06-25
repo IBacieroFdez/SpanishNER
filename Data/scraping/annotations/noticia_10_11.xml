@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>“Probablemente no lo hayan preguntado los colegas <Node id="50"/>chinos<Node id="56"/>, no se percataron igual porque les pilló de golpe toda la <Node id="115"/>enfermedad<Node id="125"/>, así como nos ha pillado a nosotros <Node id="162"/>hace un mes<Node id="173"/>, que nos ha venido todo como de golpe”, señala <Node id="221"/>Chiesa<Node id="227"/>, quien trabaja en el servicio de <Node id="261"/>otorrinolaringología<Node id="281"/> del <Node id="286"/>Hospital Universitario<Node id="308"/> de <Node id="312"/>Donostia<Node id="320"/>.
+<Node id="322"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LANG" StartNode="50" EndNode="56">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="115" EndNode="125">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="162" EndNode="173">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="221" EndNode="227">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="261" EndNode="281">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="286" EndNode="308">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="312" EndNode="320">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="322">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

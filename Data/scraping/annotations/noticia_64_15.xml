@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_64_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>OMS<Node id="6"/> explica en su <Node id="21"/>web oficial<Node id="32"/> y en un vídeo en <Node id="50"/>inglés<Node id="56"/> cómo debe colocarse, usarse, retirarse y desecharse correctamente una <Node id="127"/>mascarilla<Node id="137"/>, tanto si es de fabricación casera como si es homologada, ya que hacerlo de manera incorrecta puede resultar no solo ineficaz sino peligroso.
+<Node id="280"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="ORG" StartNode="3" EndNode="6">
+</Annotation>
+<Annotation Id="3" Type="ADDRESS" StartNode="21" EndNode="32">
+</Annotation>
+<Annotation Id="4" Type="LANG" StartNode="50" EndNode="56">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="127" EndNode="137">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="280">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_39_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>gestor<Node id="9"/> <Node id="10"/>aeroportuario<Node id="23"/> ha aprobado además un plan de descuentos en el alquiler de <Node id="83"/>espacios<Node id="91"/> a <Node id="94"/>compañías aéreas<Node id="110"/>, <Node id="112"/>empresas de carga<Node id="129"/> y otras <Node id="138"/>compañías<Node id="147"/>, que van del <Node id="161"/>50 al 75 por ciento<Node id="180"/>. 
+<Node id="183"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="10" EndNode="23">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="83" EndNode="91">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="94" EndNode="110">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="112" EndNode="129">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="138" EndNode="147">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="161" EndNode="180">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="183">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

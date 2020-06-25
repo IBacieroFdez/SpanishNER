@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_20_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El nombre de esta <Node id="18"/>madre<Node id="23"/> de <Node id="27"/>47<Node id="29"/> años y <Node id="37"/>tres<Node id="41"/> <Node id="42"/>hijos<Node id="47"/> ocupa ahora el puesto <Node id="70"/>25<Node id="72"/> de los <Node id="80"/>57<Node id="82"/> incluidos en un <Node id="99"/>monumento<Node id="108"/> erigido en la <Node id="123"/>iglesia<Node id="130"/> para recordar a los que "dieron su vida por <Node id="175"/>Dios<Node id="179"/>".
+<Node id="182"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="27" EndNode="29">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="70" EndNode="72">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="80" EndNode="82">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="37" EndNode="41">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="42" EndNode="47">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="18" EndNode="23">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="99" EndNode="108">
+</Annotation>
+<Annotation Id="8" Type="FAC" StartNode="123" EndNode="130">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="175" EndNode="179">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="182">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

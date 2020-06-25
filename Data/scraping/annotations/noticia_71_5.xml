@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_71_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>ðŸ’ª Que nada nos quite las ganas de superarnos. Los valores del <Node id="65"/>#deporte<Node id="73"/> nos enseÃ±an a superar la adversidad. Nos lo cuentan <Node id="127"/>@CarolinaMarin<Node id="141"/>, <Node id="143"/>@BlancaManchon<Node id="157"/>, <Node id="159"/>@Brahim<Node id="166"/>, <Node id="168"/>@JM_Quintero<Node id="180"/>, <Node id="182"/>@majimenez1964<Node id="196"/> y <Node id="199"/>@alfreyes14<Node id="210"/>, con la voz de <Node id="226"/>@PastoraSoler<Node id="239"/>. â–¶<Node id="244"/>#CampeonesEnValores<Node id="263"/> <Node id="264"/>#Covid-19<Node id="273"/> <Node id="274"/>pic.twitter.com/JGRCJgIWRW<Node id="300"/>
+<Node id="301"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ADDRESS" StartNode="65" EndNode="73">
+</Annotation>
+<Annotation Id="2" Type="ADDRESS" StartNode="127" EndNode="141">
+</Annotation>
+<Annotation Id="3" Type="ADDRESS" StartNode="143" EndNode="157">
+</Annotation>
+<Annotation Id="4" Type="ADDRESS" StartNode="159" EndNode="166">
+</Annotation>
+<Annotation Id="5" Type="ADDRESS" StartNode="168" EndNode="180">
+</Annotation>
+<Annotation Id="6" Type="ADDRESS" StartNode="182" EndNode="196">
+</Annotation>
+<Annotation Id="7" Type="ADDRESS" StartNode="199" EndNode="210">
+</Annotation>
+<Annotation Id="8" Type="ADDRESS" StartNode="226" EndNode="239">
+</Annotation>
+<Annotation Id="9" Type="ADDRESS" StartNode="244" EndNode="263">
+</Annotation>
+<Annotation Id="10" Type="ADDRESS" StartNode="264" EndNode="273">
+</Annotation>
+<Annotation Id="11" Type="ADDRESS" StartNode="274" EndNode="300">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="301">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

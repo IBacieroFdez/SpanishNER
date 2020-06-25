@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_28_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>Tierra<Node id="9"/>, en su recorrido anual alrededor de la <Node id="49"/>estrella<Node id="57"/>, cruza estas <Node id="71"/>nubes<Node id="76"/> de pequeñísimas <Node id="93"/>partículas<Node id="103"/>, llamadas <Node id="114"/>meteoroides<Node id="125"/>, que cuando atraviesan la <Node id="152"/>atmósfera<Node id="161"/> terrestre se produce una intensa fricción que origina los espectaculares trazos luminosos que se ven  surcando el <Node id="276"/>cielo<Node id="281"/>. 
+<Node id="284"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="3" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="49" EndNode="57">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="71" EndNode="76">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="93" EndNode="103">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="114" EndNode="125">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="152" EndNode="161">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="276" EndNode="281">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="284">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

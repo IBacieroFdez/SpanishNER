@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_45.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>embajada<Node id="11"/> de <Node id="15"/>China<Node id="20"/> en el <Node id="27"/>país<Node id="31"/> citó el <Node id="40"/>viernes<Node id="47"/> la declaración de un <Node id="69"/>funcionario<Node id="80"/> <Node id="81"/>checo<Node id="86"/> afirmando que parte del <Node id="111"/>personal<Node id="119"/> no siguió estrictamente las instrucciones al realizar las <Node id="178"/>pruebas<Node id="185"/>. 
+<Node id="188"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="FAC" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="15" EndNode="20">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="27" EndNode="31">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="40" EndNode="47">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="69" EndNode="80">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="81" EndNode="86">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="111" EndNode="119">
+</Annotation>
+<Annotation Id="8" Type="SCITERM" StartNode="178" EndNode="185">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="188">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

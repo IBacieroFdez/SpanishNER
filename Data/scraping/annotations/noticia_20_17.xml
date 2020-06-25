@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_20_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Todas las <Node id="10"/>iglesias<Node id="18"/> y <Node id="21"/>templos<Node id="28"/> del <Node id="33"/>país<Node id="37"/> estaban llamados, a petición del <Node id="71"/>cardenal<Node id="79"/> <Node id="80"/>Malcolm Ranjith<Node id="95"/>, a hacer sonar las campanas <Node id="124"/>al amanecer<Node id="135"/>, seguido de <Node id="148"/>dos minutos<Node id="159"/> de silencio<Node id="171"/> y un programa especial luego para todos los <Node id="216"/>feligreses<Node id="226"/> a las <Node id="233"/>8.45<Node id="237"/> <Node id="238"/>hora local<Node id="248"/> (<Node id="250"/>2.45 GMT<Node id="258"/>), la misma <Node id="270"/>hora<Node id="274"/> en la que, de manera coordinada, se produjeron las explosiones.
+<Node id="339"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="FAC" StartNode="10" EndNode="18">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="21" EndNode="28">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="33" EndNode="37">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="71" EndNode="79">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="80" EndNode="95">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="124" EndNode="135">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="148" EndNode="159">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="148" EndNode="171">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="216" EndNode="226">
+</Annotation>
+<Annotation Id="10" Type="DATE" StartNode="233" EndNode="237">
+</Annotation>
+<Annotation Id="11" Type="DATE" StartNode="238" EndNode="248">
+</Annotation>
+<Annotation Id="12" Type="DATE" StartNode="250" EndNode="258">
+</Annotation>
+<Annotation Id="13" Type="DATE" StartNode="270" EndNode="274">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="339">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

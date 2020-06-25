@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_18_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En su <Node id="6"/>tuit<Node id="10"/>, <Node id="12"/>Trump<Node id="17"/> hizo alusión a la "protección" de <Node id="52"/>trabajos<Node id="60"/> en un momento en el que las medidas de <Node id="100"/>confinamiento<Node id="113"/> contra el <Node id="124"/>coronavirus<Node id="135"/> han destruido <Node id="150"/>22 millones<Node id="161"/> de <Node id="165"/>empleos<Node id="172"/> en <Node id="176"/>todo el país<Node id="188"/> en un periodo de <Node id="206"/>cuatro semanas<Node id="220"/>, algo sin precedentes. 
+<Node id="245"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="6" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="12" EndNode="17">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="52" EndNode="60">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="100" EndNode="113">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="124" EndNode="135">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="150" EndNode="161">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="165" EndNode="172">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="176" EndNode="188">
+</Annotation>
+<Annotation Id="9" Type="TIME" StartNode="206" EndNode="220">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="245">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Diez<Node id="4"/> <Node id="5"/>años<Node id="9"/> después de su muerte el <Node id="34"/>Comité Olímpico Internacional<Node id="63"/> (<Node id="65"/>COI<Node id="68"/>) continúa viviendo del legado de <Node id="102"/>Juan Antonio Samaranch<Node id="124"/>, sobre todo en el aspecto económico, aunque la visión de futuro de la que hacía gala el dirigente <Node id="223"/>barcelonés<Node id="233"/> nunca le habría alcanzado para imaginar que el <Node id="281"/>organismo<Node id="290"/> que presidió durante más de <Node id="319"/>dos<Node id="322"/> <Node id="323"/>décadas<Node id="330"/> tendría que aplazar unos <Node id="356"/>Juegos<Node id="362"/> debido a una <Node id="376"/>pandemia<Node id="384"/>.
+<Node id="386"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="5" EndNode="9">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="34" EndNode="63">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="65" EndNode="68">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="102" EndNode="124">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="223" EndNode="233">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="281" EndNode="290">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="319" EndNode="322">
+</Annotation>
+<Annotation Id="9" Type="TIME" StartNode="323" EndNode="330">
+</Annotation>
+<Annotation Id="10" Type="EVENT" StartNode="356" EndNode="362">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="376" EndNode="384">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="386">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

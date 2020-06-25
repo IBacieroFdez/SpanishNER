@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_104_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>premio<Node id="9"/> fue el último de una serie de <Node id="40"/>victorias<Node id="49"/> para <Node id="55"/>SpaceX<Node id="61"/>, que está a punto de llevar a los <Node id="96"/>astronautas<Node id="107"/> de la <Node id="114"/>NASA<Node id="118"/> a la <Node id="124"/>estación espacial<Node id="141"/> el <Node id="145"/>27 de mayo<Node id="155"/>. <Node id="157"/>Bridenstine<Node id="168"/> dijo que el <Node id="181"/>cohete<Node id="187"/> Falcon Heavy de <Node id="204"/>SpaceX<Node id="210"/> podría utilizarse para lanzar el hábitat y los elementos de <Node id="271"/>potencia<Node id="279"/> y <Node id="282"/>propulsión<Node id="292"/> de una <Node id="300"/>estación espacial<Node id="317"/> en <Node id="321"/>órbita<Node id="327"/> después de que se ensamblaran en <Node id="361"/>tierra<Node id="367"/>.
+<Node id="369"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="3" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="SPORT" StartNode="40" EndNode="49">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="55" EndNode="61">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="96" EndNode="107">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="114" EndNode="118">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="124" EndNode="141">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="145" EndNode="155">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="157" EndNode="168">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="181" EndNode="187">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="204" EndNode="210">
+</Annotation>
+<Annotation Id="11" Type="SCITERM" StartNode="271" EndNode="279">
+</Annotation>
+<Annotation Id="12" Type="SCITERM" StartNode="282" EndNode="292">
+</Annotation>
+<Annotation Id="13" Type="FAC" StartNode="300" EndNode="317">
+</Annotation>
+<Annotation Id="14" Type="SCITERM" StartNode="321" EndNode="327">
+</Annotation>
+<Annotation Id="15" Type="LOC" StartNode="361" EndNode="367">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="369">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

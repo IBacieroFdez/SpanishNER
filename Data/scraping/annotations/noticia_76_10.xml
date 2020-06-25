@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_76_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Si se habla de las funcionalidades con que a las pequeñas y medianas <Node id="69"/>empresas<Node id="77"/> les gustaría contar, y que su <Node id="108"/>entidad<Node id="115"/> no les ofrece, se encuentran <Node id="145"/>servicios<Node id="154"/> de operativa diaria como: <Node id="181"/>tarjetas<Node id="189"/> virtuales (<Node id="201"/>39,7 %<Node id="207"/>), digitalización de facturas (<Node id="238"/>35,1 %<Node id="244"/>), notificaciones en tiempo real (<Node id="278"/>34,4 %<Node id="284"/>) y <Node id="288"/>herramientas<Node id="300"/> de gestión de los <Node id="319"/>empleados<Node id="328"/> (<Node id="330"/>29 %<Node id="334"/>).
+<Node id="337"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="JOB" StartNode="69" EndNode="77">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="108" EndNode="115">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="145" EndNode="154">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="181" EndNode="189">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="319" EndNode="328">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="288" EndNode="300">
+</Annotation>
+<Annotation Id="8" Type="PERCENT" StartNode="201" EndNode="207">
+</Annotation>
+<Annotation Id="9" Type="PERCENT" StartNode="238" EndNode="244">
+</Annotation>
+<Annotation Id="10" Type="PERCENT" StartNode="278" EndNode="284">
+</Annotation>
+<Annotation Id="11" Type="PERCENT" StartNode="330" EndNode="334">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="337">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

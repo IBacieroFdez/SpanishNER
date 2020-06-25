@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_18_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Sin embargo, <Node id="13"/>la semana pasada<Node id="29"/> su <Node id="33"/>Gobierno<Node id="41"/> aprobó que <Node id="53"/>inmigrantes<Node id="64"/> con visados agrícolas puedan extender sus estadías <Node id="116"/>más allá de los tres años<Node id="141"/> permitidos y que puedan cambiar de <Node id="177"/>empleador<Node id="186"/> para evitar así una <Node id="207"/>crisis<Node id="213"/> en la cadena de suministro de <Node id="244"/>alimentos<Node id="253"/>.
+<Node id="255"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="13" EndNode="29">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="33" EndNode="41">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="53" EndNode="64">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="116" EndNode="141">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="177" EndNode="186">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="207" EndNode="213">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="244" EndNode="253">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="255">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

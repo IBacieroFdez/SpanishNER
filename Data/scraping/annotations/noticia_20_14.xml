@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_20_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La familia de <Node id="14"/>Mary<Node id="18"/> pensaba acudir a la <Node id="39"/>misa<Node id="43"/> especial organizada por la <Node id="71"/>Iglesia<Node id="78"/> para conmemorar aquel <Node id="101"/>día<Node id="104"/> devastador, repartir comida en una <Node id="140"/>residencia<Node id="150"/> para <Node id="156"/>ancianos<Node id="164"/> y acabar el <Node id="177"/>día<Node id="180"/> con una <Node id="189"/>cena<Node id="193"/> íntima entre los <Node id="211"/>allegados<Node id="220"/>.
+<Node id="222"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="PER" StartNode="14" EndNode="18">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="71" EndNode="78">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="39" EndNode="43">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="101" EndNode="104">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="140" EndNode="150">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="156" EndNode="164">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="189" EndNode="193">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="211" EndNode="220">
+</Annotation>
+<Annotation Id="10" Type="DATE" StartNode="177" EndNode="180">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="222">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

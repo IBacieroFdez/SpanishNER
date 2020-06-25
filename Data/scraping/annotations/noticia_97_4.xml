@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_97_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Son las <Node id="8"/>mascarillas<Node id="19"/> de fabricación casera más extendidas y las que recomiendan instituciones sanitarias como los <Node id="113"/>CDC<Node id="116"/> <Node id="117"/>estadounidenses<Node id="132"/>. Estos <Node id="140"/>centros<Node id="147"/> aconsejan que el <Node id="165"/>tejido<Node id="171"/> sea <Node id="176"/>algodón<Node id="183"/> de trama cerrada, como el de una <Node id="217"/>sábana<Node id="223"/> o una <Node id="230"/>camiseta<Node id="238"/>, y que cuenten con varias capas o pliegues.
+<Node id="283"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="8" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="113" EndNode="116">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="117" EndNode="132">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="140" EndNode="147">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="165" EndNode="171">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="176" EndNode="183">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="217" EndNode="223">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="230" EndNode="238">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="283">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

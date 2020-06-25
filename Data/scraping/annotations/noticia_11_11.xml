@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_11_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Desde la entrada en vigor del <Node id="30"/>estado de alarma<Node id="46"/> se han desarrollado importantes operaciones contra el tráfico de <Node id="112"/>cocaína<Node id="119"/> que, con participación de <Node id="146"/>Vigilancia Aduanera<Node id="165"/> de la <Node id="172"/>Agencia Tributaria<Node id="190"/>, han dado lugar a la incautación de <Node id="227"/>ocho toneladas<Node id="241"/> de esta sustancia, incluida la aprehensión efectuada en <Node id="298"/>el día de ayer<Node id="312"/> en <Node id="316"/>Bilbao<Node id="322"/>.
+<Node id="324"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="30" EndNode="46">
+</Annotation>
+<Annotation Id="2" Type="DRUG" StartNode="112" EndNode="119">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="146" EndNode="165">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="172" EndNode="190">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="227" EndNode="241">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="298" EndNode="312">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="316" EndNode="322">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="324">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

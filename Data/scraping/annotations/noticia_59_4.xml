@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_59_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El detenido, de nacionalidad <Node id="29"/>egipcia<Node id="36"/>, habría entrado recientemente en <Node id="70"/>España<Node id="76"/> de forma irregular y está considerado uno de los terroristas más buscados en <Node id="154"/>Europa<Node id="160"/>, tanto por su trayectoria criminal en las filas de <Node id="212"/>Dáesh<Node id="217"/> como por su alta peligrosidad, ha informado la <Node id="265"/>Policía<Node id="272"/> en un comunicado.
+<Node id="291"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LANG" StartNode="29" EndNode="36">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="70" EndNode="76">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="154" EndNode="160">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="212" EndNode="217">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="265" EndNode="272">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="291">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

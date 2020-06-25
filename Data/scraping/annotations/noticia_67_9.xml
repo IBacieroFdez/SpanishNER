@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_67_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Federer<Node id="7"/> bromeó con <Node id="19"/>Nadal<Node id="24"/> sobre su condición de zurdo. "No puedo jugar con la derecha, eso es una leyenda", respondió entre risas el <Node id="132"/>balear<Node id="138"/>. "Puedo escribir con la derecha, puedo jugar al <Node id="187"/>baloncesto<Node id="197"/>, pero al <Node id="207"/>tenis<Node id="212"/> y al <Node id="218"/>fútbol<Node id="224"/> soy zurdo", acabó contando.
+<Node id="253"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="19" EndNode="24">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="132" EndNode="138">
+</Annotation>
+<Annotation Id="4" Type="SPORT" StartNode="187" EndNode="197">
+</Annotation>
+<Annotation Id="5" Type="SPORT" StartNode="207" EndNode="212">
+</Annotation>
+<Annotation Id="6" Type="SPORT" StartNode="218" EndNode="224">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="253">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Al final, es cuestión de tamaño. De la misma forma que no se puede ver un <Node id="74"/>virus<Node id="79"/> con un <Node id="87"/>microscopio<Node id="98"/> óptico<Node id="105"/>, porque las ondas de la luz son mayores, y hace falta recurrir a un <Node id="174"/>microscopio<Node id="185"/> electrónico<Node id="197"/> -que utiliza electrones, con una longitud de onda menor que la luz visible-, las ondas de las <Node id="292"/>redes<Node id="297"/> <Node id="298"/>5G<Node id="300"/> son de mayor tamaño y no pueden den interactuar con un <Node id="356"/>virus<Node id="361"/> como el <Node id="370"/>SARS-CoV-2<Node id="380"/>.
+<Node id="382"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="74" EndNode="79">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="87" EndNode="105">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="174" EndNode="197">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="87" EndNode="98">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="174" EndNode="185">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="292" EndNode="297">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="298" EndNode="300">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="356" EndNode="361">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="370" EndNode="380">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="382">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

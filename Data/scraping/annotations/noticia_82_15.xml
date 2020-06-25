@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_82_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>No. Rociar todo el cuerpo con <Node id="30"/>alcohol<Node id="37"/> o <Node id="40"/>cloro<Node id="45"/> no sirve para matar los <Node id="70"/>virus<Node id="75"/> que ya han entrado en el organismo. Pulverizar estas <Node id="129"/>sustancias<Node id="139"/> puede dañar la <Node id="155"/>ropa<Node id="159"/> y las <Node id="166"/>mucosas<Node id="173"/> (es decir, los ojos, la boca, etc.). Tanto el <Node id="220"/>alcohol<Node id="227"/> como el <Node id="236"/>cloro<Node id="241"/> pueden
+    servir para desinfectar las superficies, siempre que se sigan las recomendaciones pertinentes. 
+<Node id="349"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="30" EndNode="37">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="40" EndNode="45">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="70" EndNode="75">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="129" EndNode="139">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="155" EndNode="159">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="166" EndNode="173">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="220" EndNode="227">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="236" EndNode="241">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="349">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

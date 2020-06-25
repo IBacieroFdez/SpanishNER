@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En cuanto a las <Node id="16"/>organizaciones<Node id="30"/> <Node id="31"/>sanitarias<Node id="41"/> internacionales, la <Node id="62"/>OMS<Node id="65"/> ofrece desde finales de <Node id="90"/>febrero<Node id="97"/> en su <Node id="104"/>web<Node id="107"/> oficial<Node id="115"/> algunas respuestas sobre las <Node id="145"/>redes 5G<Node id="153"/> y en ellas asegura que, hasta la fecha, "no se han encontrado relaciones causales entre la exposición a estas <Node id="264"/>tecnologías<Node id="275"/> y efectos adversos en la <Node id="301"/>salud<Node id="306"/>".
+<Node id="309"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="16" EndNode="30">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="31" EndNode="41">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="62" EndNode="65">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="90" EndNode="97">
+</Annotation>
+<Annotation Id="5" Type="ADDRESS" StartNode="104" EndNode="115">
+</Annotation>
+<Annotation Id="6" Type="ADDRESS" StartNode="104" EndNode="107">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="145" EndNode="153">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="264" EndNode="275">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="301" EndNode="306">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="309">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

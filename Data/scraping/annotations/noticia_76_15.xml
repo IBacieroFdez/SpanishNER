@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_76_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Entre los motivos que han llevado a estas <Node id="42"/>empresas<Node id="50"/> a no querer recomendar a las <Node id="80"/>entidades bancarias<Node id="99"/> con las que trabajan se encuentran las comisiones a las que deben hacer frente de forma mensual. En la <Node id="203"/>Comunidad de Madrid<Node id="222"/>, el <Node id="227"/>77%<Node id="230"/> de las <Node id="238"/>startups<Node id="246"/> y el <Node id="252"/>79,4%<Node id="257"/> de las <Node id="265"/>pymes<Node id="270"/> pagan mensualmente comisiones por los servicios que reciben de sus <Node id="338"/>entidades<Node id="347"/>. De ellos, <Node id="359"/>7<Node id="360"/> de cada <Node id="369"/>10<Node id="371"/> pymes y la <Node id="383"/>mitad<Node id="388"/> de las <Node id="396"/>startups<Node id="404"/> encuestadas reconocen pagar hasta <Node id="439"/>500<Node id="442"/> euros de forma mensual. Del mismo modo, un <Node id="486"/>23%<Node id="489"/> de las <Node id="497"/>startups<Node id="505"/> asegura pagar más de <Node id="527"/>1.000 euros<Node id="538"/> al mes frente al <Node id="556"/>2,3%<Node id="560"/> de las <Node id="568"/>pymes<Node id="573"/>.
+<Node id="575"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="42" EndNode="50">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="80" EndNode="99">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="203" EndNode="222">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="227" EndNode="230">
+</Annotation>
+<Annotation Id="5" Type="PERCENT" StartNode="252" EndNode="257">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="359" EndNode="360">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="369" EndNode="371">
+</Annotation>
+<Annotation Id="8" Type="PERCENT" StartNode="439" EndNode="442">
+</Annotation>
+<Annotation Id="9" Type="PERCENT" StartNode="486" EndNode="489">
+</Annotation>
+<Annotation Id="10" Type="PERCENT" StartNode="556" EndNode="560">
+</Annotation>
+<Annotation Id="11" Type="MONEY" StartNode="527" EndNode="538">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="238" EndNode="246">
+</Annotation>
+<Annotation Id="13" Type="ORG" StartNode="265" EndNode="270">
+</Annotation>
+<Annotation Id="14" Type="ORG" StartNode="338" EndNode="347">
+</Annotation>
+<Annotation Id="15" Type="ORG" StartNode="396" EndNode="404">
+</Annotation>
+<Annotation Id="16" Type="ORG" StartNode="497" EndNode="505">
+</Annotation>
+<Annotation Id="17" Type="ORG" StartNode="568" EndNode="573">
+</Annotation>
+<Annotation Id="18" Type="QUANT" StartNode="383" EndNode="388">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="575">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

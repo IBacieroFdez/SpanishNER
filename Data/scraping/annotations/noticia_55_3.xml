@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_55_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El pasado <Node id="10"/>viernes<Node id="17"/> se conoció que el <Node id="36"/>ministerio<Node id="46"/> había distribuido <Node id="65"/>mascarillas<Node id="76"/> defectuosas a las <Node id="95"/>comunidades autónomas<Node id="116"/>, algunas de las cuales ya están tomando medidas como el <Node id="173"/>aislamiento<Node id="184"/> y la realización de <Node id="205"/>PCR<Node id="208"/> a los <Node id="215"/>profesionales<Node id="228"/> que las usaron.
+<Node id="245"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="10" EndNode="17">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="36" EndNode="46">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="65" EndNode="76">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="95" EndNode="116">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="173" EndNode="184">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="205" EndNode="208">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="215" EndNode="228">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="245">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

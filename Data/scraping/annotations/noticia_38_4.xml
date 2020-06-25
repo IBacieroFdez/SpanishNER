@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_38_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Tras una <Node id="9"/>década<Node id="15"/> celebrándose en el <Node id="35"/>Barrio de las Letras<Node id="55"/>, este <Node id="62"/>año<Node id="65"/>, estaba previsto que fuera el <Node id="96"/>Barrio de las Salesas<Node id="117"/> el que acogiera esta <Node id="139"/>fiesta<Node id="145"/> del interiorismo, una <Node id="168"/>zona<Node id="172"/> de la <Node id="179"/>capital<Node id="186"/>, también, vinculada al diseño y la cultura.<Node id="230"/>EFE<Node id="233"/>
+<Node id="234"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="9" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="35" EndNode="55">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="62" EndNode="65">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="96" EndNode="117">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="139" EndNode="145">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="168" EndNode="172">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="179" EndNode="186">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="230" EndNode="233">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="234">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

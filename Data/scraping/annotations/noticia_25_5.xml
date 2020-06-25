@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_25_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>De esta manera, los <Node id="20"/>científicos<Node id="31"/> necesitan inferir los puntos comunes de los <Node id="76"/>cerebros<Node id="84"/> de los antepasados con los <Node id="112"/>escáneres cerebrales<Node id="132"/> de primates <Node id="145"/>vivos<Node id="150"/> y compararlos con los <Node id="173"/>humanos<Node id="180"/>.
+<Node id="182"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="20" EndNode="31">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="76" EndNode="84">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="112" EndNode="132">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="173" EndNode="180">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="145" EndNode="150">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="182">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

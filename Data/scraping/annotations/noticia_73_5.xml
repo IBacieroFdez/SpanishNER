@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_73_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La inspiración de este <Node id="23"/>reto<Node id="27"/> solidario surgió de la idea que hace unos <Node id="70"/>días<Node id="74"/> tuvo el <Node id="83"/>triatleta<Node id="92"/> <Node id="93"/>alemán<Node id="99"/> <Node id="100"/>Jan Frodeno<Node id="111"/>, que realizó un <Node id="128"/>Ironman<Node id="135"/> sin salir de su <Node id="152"/>casa<Node id="156"/> en <Node id="160"/>Girona<Node id="166"/> con el que recaudó más de <Node id="193"/>doscientos mil euros<Node id="213"/>.
+<Node id="215"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="EVENT" StartNode="23" EndNode="27">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="70" EndNode="74">
+</Annotation>
+<Annotation Id="4" Type="SPORT" StartNode="83" EndNode="92">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="93" EndNode="99">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="100" EndNode="111">
+</Annotation>
+<Annotation Id="7" Type="SPORT" StartNode="128" EndNode="135">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="152" EndNode="156">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="160" EndNode="166">
+</Annotation>
+<Annotation Id="10" Type="MONEY" StartNode="193" EndNode="213">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="215">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

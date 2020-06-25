@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_2_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Con esa evolución, toda la atención está centrada ahora en los planes de <Node id="73"/>desconfinamiento<Node id="89"/>, que se comenzarán a poner en marcha a partir del <Node id="140"/>11 de mayo<Node id="150"/>, tras la nueva prórroga de <Node id="178"/>15<Node id="180"/> días, si bien se relajará a partir de la <Node id="222"/>próxima semana<Node id="236"/> con medidas como la salida de los <Node id="271"/>niños<Node id="276"/> a la calle, y en el intento del <Node id="309"/>presidente<Node id="319"/> del <Node id="324"/>Gobierno<Node id="332"/>, <Node id="334"/>Pedro Sánchez<Node id="347"/>, de negociar un pacto de reconstrucción, tras ceder <Node id="400"/>hoy<Node id="403"/> a la demanda del <Node id="421"/>PP<Node id="423"/> de que se haga en una <Node id="446"/>comisión del <Node id="459"/>Parlamento<Node id="469"/>.
+<Node id="471"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="QUANT" StartNode="178" EndNode="180">
+</Annotation>
+<Annotation Id="1" Type="EVENT" StartNode="73" EndNode="89">
+</Annotation>
+<Annotation Id="17" Type="DATE" StartNode="222" EndNode="236">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="140" EndNode="150">
+</Annotation>
+<Annotation Id="18" Type="PER" StartNode="271" EndNode="276">
+</Annotation>
+<Annotation Id="19" Type="JOB" StartNode="309" EndNode="319">
+</Annotation>
+<Annotation Id="20" Type="ORG" StartNode="324" EndNode="332">
+</Annotation>
+<Annotation Id="21" Type="PER" StartNode="334" EndNode="347">
+</Annotation>
+<Annotation Id="22" Type="DATE" StartNode="400" EndNode="403">
+</Annotation>
+<Annotation Id="23" Type="NORP" StartNode="421" EndNode="423">
+</Annotation>
+<Annotation Id="24" Type="ORG" StartNode="459" EndNode="469">
+</Annotation>
+<Annotation Id="25" Type="EVENT" StartNode="446" EndNode="469">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="471">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

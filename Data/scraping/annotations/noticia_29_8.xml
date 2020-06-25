@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_29_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>A lo largo de <Node id="14"/>2020<Node id="18"/> el <Node id="22"/>Grupo BMW<Node id="31"/> tendrá en cartera <Node id="50"/>12<Node id="52"/> <Node id="53"/>coches electrificados<Node id="74"/>, de los cuales dos son <Node id="98"/>eléctricos<Node id="108"/> puros. Uno de ellos es el primer <Node id="142"/>MINI<Node id="146"/> <Node id="147"/>cien por cien<Node id="160"/> eléctrico (presentado en <Node id="186"/>España<Node id="192"/> a primeros de este <Node id="212"/>mes<Node id="215"/>) y a <Node id="221"/>finales<Node id="228"/> del ejercicio llegará el iX3. 
+<Node id="260"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="14" EndNode="18">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="22" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="50" EndNode="52">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="53" EndNode="74">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="98" EndNode="108">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="142" EndNode="146">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="147" EndNode="160">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="186" EndNode="192">
+</Annotation>
+<Annotation Id="12" Type="TIME" StartNode="212" EndNode="215">
+</Annotation>
+<Annotation Id="13" Type="TIME" StartNode="221" EndNode="228">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="260">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

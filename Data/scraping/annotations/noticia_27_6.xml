@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_27_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Un texto que ha sido traducido al <Node id="34"/>inglés<Node id="40"/>, al <Node id="45"/>francés<Node id="52"/>, al <Node id="57"/>portugués<Node id="66"/>, al <Node id="71"/>coreano<Node id="78"/> o al <Node id="84"/>indonesio<Node id="93"/>, “qué no sé como habrá llegado hasta allá”, indica <Node id="145"/>López-Goñi<Node id="155"/>.
+<Node id="157"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LANG" StartNode="34" EndNode="40">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="57" EndNode="66">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="45" EndNode="52">
+</Annotation>
+<Annotation Id="4" Type="LANG" StartNode="71" EndNode="78">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="84" EndNode="93">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="145" EndNode="155">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="157">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

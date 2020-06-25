@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_53_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Casi <Node id="5"/>dos<Node id="8"/> <Node id="9"/>años<Node id="13"/> más <Node id="18"/>tarde<Node id="23"/>, el <Node id="28"/>Tribunal<Node id="36"/> <Node id="37"/>Francófono<Node id="47"/> de primera instancia de <Node id="72"/>Bruselas<Node id="80"/> ante el que presentaron la denuncia, que más tarde ampliaron también al <Node id="153"/>Estado <Node id="160"/>español<Node id="167"/>, resolvió el pasado <Node id="188"/>27 de marzo<Node id="199"/> que no es competente para pronunciarse, decisión que los <Node id="257"/>abogados<Node id="265"/> de <Node id="269"/>Puigdemont<Node id="279"/> han anunciado este <Node id="299"/>martes<Node id="305"/> y que recurrirán ante el <Node id="331"/>Tribunal Supremo<Node id="347"/> <Node id="348"/>belga<Node id="353"/>.
+<Node id="355"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="TIME" StartNode="18" EndNode="23">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="5" EndNode="8">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="9" EndNode="13">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="28" EndNode="36">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="37" EndNode="47">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="72" EndNode="80">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="153" EndNode="167">
+</Annotation>
+<Annotation Id="9" Type="LANG" StartNode="160" EndNode="167">
+</Annotation>
+<Annotation Id="10" Type="DATE" StartNode="188" EndNode="199">
+</Annotation>
+<Annotation Id="11" Type="JOB" StartNode="257" EndNode="265">
+</Annotation>
+<Annotation Id="12" Type="PER" StartNode="269" EndNode="279">
+</Annotation>
+<Annotation Id="13" Type="DATE" StartNode="299" EndNode="305">
+</Annotation>
+<Annotation Id="14" Type="ORG" StartNode="331" EndNode="347">
+</Annotation>
+<Annotation Id="15" Type="LANG" StartNode="348" EndNode="353">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="355">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

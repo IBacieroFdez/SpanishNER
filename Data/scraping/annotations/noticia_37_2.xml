@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_37_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por ello, constituye un hito que, por primera vez en sus <Node id="57"/>32<Node id="59"/> años de historia en nuestro <Node id="88"/>país<Node id="92"/>, su mayor carta de presentación es una <Node id="132"/>ilustración<Node id="143"/> y no una <Node id="153"/>fotografía<Node id="163"/>. 
+<Node id="166"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="57" EndNode="59">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="88" EndNode="92">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="132" EndNode="143">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="153" EndNode="163">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="166">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

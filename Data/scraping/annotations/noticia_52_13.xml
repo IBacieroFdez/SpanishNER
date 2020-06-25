@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_52_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Y mientras la <Node id="14"/>pinacoteca<Node id="24"/> <Node id="25"/>rusa<Node id="29"/> continúa cerrada, el servicio de seguridad del <Node id="77"/>museo<Node id="82"/> se encarga de realzar múltiples labores diarias en la <Node id="137"/>pinacoteca<Node id="147"/>, que van de un inventario online para que los <Node id="194"/>expertos<Node id="202"/> de la institución puedan ver las obras en <Node id="245"/>tiempo real<Node id="256"/> hasta la manutención de los famosos gatos del <Node id="303"/>Hermitage<Node id="312"/>, que cumplen la <Node id="329"/>cuarentena<Node id="339"/> en el <Node id="346"/>museo<Node id="351"/>.
+<Node id="353"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="FAC" StartNode="14" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="25" EndNode="29">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="77" EndNode="82">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="137" EndNode="147">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="194" EndNode="202">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="245" EndNode="256">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="303" EndNode="312">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="329" EndNode="339">
+</Annotation>
+<Annotation Id="9" Type="FAC" StartNode="346" EndNode="351">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="353">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

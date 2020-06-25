@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_27.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Sin embargo, la <Node id="16"/>embajada<Node id="24"/> <Node id="25"/>china<Node id="30"/> en <Node id="34"/>España<Node id="40"/> indicó en un mensaje en <Node id="65"/>Twitter<Node id="72"/> que la <Node id="80"/>fábrica<Node id="87"/> señalada no tenía una licencia oficial de las <Node id="134"/>autoridades médicas<Node id="153"/> <Node id="154"/>chinas<Node id="160"/> para vender sus <Node id="177"/>productos<Node id="186"/>.
+<Node id="188"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="16" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="25" EndNode="30">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="34" EndNode="40">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="65" EndNode="72">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="80" EndNode="87">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="134" EndNode="153">
+</Annotation>
+<Annotation Id="7" Type="LANG" StartNode="154" EndNode="160">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="177" EndNode="186">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="188">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

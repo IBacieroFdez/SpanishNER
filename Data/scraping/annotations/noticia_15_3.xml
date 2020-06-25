@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_15_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>Gobierno<Node id="11"/> pretende que con ese <Node id="33"/>ingreso<Node id="40"/> se garantice "las condiciones mínimas de subsistencia", siempre que cumplan los criterios acordados, a estas <Node id="150"/>mujeres<Node id="157"/>, muchas de ellas extranjeras en situación administrativa irregular, que en general viven en contextos de aislamiento social y sin apenas redes de apoyo, circunstancias que no les permiten estar familiarizadas con sus derechos y con los recursos del entorno.
+<Node id="416"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="MONEY" StartNode="33" EndNode="40">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="150" EndNode="157">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="416">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

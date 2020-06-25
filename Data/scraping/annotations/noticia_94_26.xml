@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_26.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Una fuente del <Node id="15"/>gobierno<Node id="23"/> <Node id="24"/>chino<Node id="29"/> dijo a <Node id="37"/>EFE<Node id="40"/> que "no han detectado irregularidades por el <Node id="86"/>momento<Node id="93"/>" en esos <Node id="103"/>kits<Node id="107"/>, pero la investigación sigue en marcha. 
+<Node id="149"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="15" EndNode="23">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="24" EndNode="29">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="37" EndNode="40">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="86" EndNode="93">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="103" EndNode="107">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="149">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

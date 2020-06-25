@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_49_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En los <Node id="7"/>seis<Node id="11"/> <Node id="12"/>meses<Node id="17"/> que dura de zafra el ingenio se obtienen <Node id="59"/>195.000<Node id="66"/> <Node id="67"/>toneladas<Node id="76"/> de <Node id="80"/>azúcar<Node id="86"/> garantizando la <Node id="103"/>materia prima<Node id="116"/> (<Node id="118"/>melaza<Node id="124"/>) para obtener más de <Node id="146"/>2 millones<Node id="156"/> de <Node id="160"/>litros<Node id="166"/> de <Node id="170"/>alcohol<Node id="177"/>.
+<Node id="179"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="12" EndNode="17">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="7" EndNode="11">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="59" EndNode="66">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="67" EndNode="76">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="80" EndNode="86">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="103" EndNode="116">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="118" EndNode="124">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="146" EndNode="156">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="160" EndNode="166">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="170" EndNode="177">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="179">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

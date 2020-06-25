@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_33_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/> Sorprende que una <Node id="19"/>prenda<Node id="25"/> tan funcional, que antes del <Node id="55"/>confinamiento<Node id="68"/> pasaba desapercibida, a pesar de tener estampados alocados, se ha convertido en un accesorio de gran protagonismo dentro del estilismo elegido, "alegran el <Node id="225"/>día<Node id="228"/> y suben la autoestima, son el accesorio de culto", ha explicado este <Node id="298"/>viernes<Node id="305"/> a <Node id="308"/>Efe<Node id="311"/> la <Node id="315"/>experta<Node id="322"/> en moda <Node id="331"/>Pepa Fernández<Node id="345"/>.
+<Node id="347"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="19" EndNode="25">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="55" EndNode="68">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="225" EndNode="228">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="298" EndNode="305">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="308" EndNode="311">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="315" EndNode="322">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="331" EndNode="345">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="347">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

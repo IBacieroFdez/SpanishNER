@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_6_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>De momento,<Node id="11"/> la semana que viene<Node id="31"/> se inicia el estudio, que "no es fácil" y que se ha retrasado por algunos mecanismos de coordinación y organización logística, comenzará con "algún piloto" y se desarrollará en varias fases, de las que tendrán resultados <Node id="253"/>parciales<Node id="262"/>.
+<Node id="264"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="11" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="253" EndNode="262">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="264">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

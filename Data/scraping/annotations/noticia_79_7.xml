@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_79_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por eso, dice, trabajan con más de <Node id="35"/>60<Node id="37"/> <Node id="38"/>organizaciones<Node id="52"/> de verificación que revisan y califican el contenido en más de <Node id="116"/>50<Node id="118"/> <Node id="119"/>idiomas<Node id="126"/> de todo el mundo, y se ha puesto en marcha un programa de subvenciones para este tipo de <Node id="216"/>organizaciones<Node id="230"/>.
+<Node id="232"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="35" EndNode="37">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="116" EndNode="118">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="38" EndNode="52">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="216" EndNode="230">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="119" EndNode="126">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="232">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

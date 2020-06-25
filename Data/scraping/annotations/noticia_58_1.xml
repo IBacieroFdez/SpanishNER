@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_58_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>portavoz<Node id="11"/> del <Node id="16"/>PP<Node id="18"/> en el <Node id="25"/>Congreso<Node id="33"/>, <Node id="35"/>Cayetana Álvarez de Toledo<Node id="61"/>, ha asegurado este <Node id="81"/>martes<Node id="87"/> que a su <Node id="97"/>partido<Node id="104"/> "le gustaría" presidir la comisión de reconstrucción que se va a constituir en la <Node id="187"/>Cámara baja<Node id="198"/> para pactar entre el <Node id="220"/>Gobierno<Node id="228"/> y los partidos las medidas a adoptar tras la <Node id="274"/>pandemia<Node id="282"/> del <Node id="287"/>coronavirus<Node id="298"/>.
+<Node id="300"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="JOB" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="16" EndNode="18">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="25" EndNode="33">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="35" EndNode="61">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="81" EndNode="87">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="97" EndNode="104">
+</Annotation>
+<Annotation Id="8" Type="FAC" StartNode="187" EndNode="198">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="220" EndNode="228">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="274" EndNode="282">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="287" EndNode="298">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="300">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

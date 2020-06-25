@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_66_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Eso es lo que publicaba el BOE del pasado <Node id="42"/>viernes<Node id="49"/>: Una Orden del <Node id="65"/>Ministerio de Sanidad<Node id="86"/> (la SND/351/2020, de <Node id="108"/>16 de abril<Node id="119"/>) que autoriza a las <Node id="140"/>unidades NBQ<Node id="152"/> de las <Node id="160"/>Fuerzas Armadas<Node id="175"/> y a la <Node id="183"/>Unidad Militar de Emergencias<Node id="212"/> (<Node id="214"/>UME<Node id="217"/>) a utilizar <Node id="230"/>biocidas<Node id="238"/> ya permitidos en las labores de desinfección frente al <Node id="294"/>coronavirus<Node id="305"/>.
+<Node id="307"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="42" EndNode="49">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="65" EndNode="86">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="108" EndNode="119">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="140" EndNode="152">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="160" EndNode="175">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="183" EndNode="212">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="214" EndNode="217">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="230" EndNode="238">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="294" EndNode="305">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="307">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

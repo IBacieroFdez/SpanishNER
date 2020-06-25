@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_73_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>También participarán otros <Node id="27"/>triatletas<Node id="37"/> <Node id="38"/>españoles<Node id="47"/> absolutos como <Node id="63"/>Antonio Serrat<Node id="77"/>, <Node id="79"/>Noelia Juan<Node id="90"/>, <Node id="92"/>Sara Pérez<Node id="102"/>, <Node id="104"/>Ángel Salamanca<Node id="119"/>, <Node id="121"/>Gustavo Rodríguez<Node id="138"/> y los hermanos <Node id="154"/>Ignacio<Node id="161"/> y <Node id="164"/>Alberto González<Node id="180"/>.
+<Node id="182"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SPORT" StartNode="27" EndNode="37">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="38" EndNode="47">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="63" EndNode="77">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="79" EndNode="90">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="92" EndNode="102">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="104" EndNode="119">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="121" EndNode="138">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="154" EndNode="161">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="164" EndNode="180">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="182">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

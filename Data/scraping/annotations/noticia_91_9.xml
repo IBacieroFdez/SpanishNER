@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_91_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El primer indicio de su capacidad para dar con <Node id="47"/>caminos<Node id="54"/> alternativos fue descrito en <Node id="84"/>1948<Node id="88"/> por <Node id="93"/>Edward Tolman<Node id="106"/>, de la <Node id="114"/>Universidad de California<Node id="139"/> en <Node id="143"/>Berkeley<Node id="151"/>. En un curioso <Node id="167"/>experimento<Node id="178"/> concebido por él, una <Node id="201"/>rata<Node id="205"/> hambrienta corría a través de una <Node id="240"/>mesa<Node id="244"/> circular hacia un <Node id="263"/>pasillo<Node id="270"/> angosto y oscuro. Giraba a la izquierda, luego a la derecha y de nuevo a la derecha, se escabullía hacia el otro extremo de un <Node id="398"/>corredor<Node id="406"/> estrecho iluminado donde, al fin, la esperaba un <Node id="456"/>recipiente<Node id="466"/> con <Node id="471"/>comida<Node id="477"/>. No había dónde elegir. El <Node id="505"/>roedor<Node id="511"/> solo podía seguir la única <Node id="539"/>ruta<Node id="543"/> sinuosa disponible, y así lo hizo, una vez tras otra, <Node id="598"/>durante<Node id="605"/> <Node id="606"/>cuatro<Node id="612"/> <Node id="613"/>días<Node id="617"/>.
+<Node id="619"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="47" EndNode="54">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="84" EndNode="88">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="93" EndNode="106">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="114" EndNode="139">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="143" EndNode="151">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="167" EndNode="178">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="201" EndNode="205">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="240" EndNode="244">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="263" EndNode="270">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="398" EndNode="406">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="471" EndNode="477">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="456" EndNode="466">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="505" EndNode="511">
+</Annotation>
+<Annotation Id="14" Type="LOC" StartNode="539" EndNode="543">
+</Annotation>
+<Annotation Id="15" Type="TIME" StartNode="598" EndNode="605">
+</Annotation>
+<Annotation Id="16" Type="QUANT" StartNode="606" EndNode="612">
+</Annotation>
+<Annotation Id="17" Type="TIME" StartNode="613" EndNode="617">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="619">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

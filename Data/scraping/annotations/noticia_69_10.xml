@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_69_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Se estima -señala la <Node id="21"/>FIDE<Node id="25"/>-que se juegan <Node id="40"/>16 millones<Node id="51"/> de <Node id="55"/>juegos<Node id="61"/> en línea todos los <Node id="81"/>días<Node id="85"/> desde que comenzó el <Node id="107"/>bloqueo<Node id="114"/>, <Node id="116"/>nueve millones<Node id="130"/> de ellos solo en <Node id="148"/>Chess.com<Node id="157"/>. 
+<Node id="160"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="21" EndNode="25">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="40" EndNode="51">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="55" EndNode="61">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="81" EndNode="85">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="107" EndNode="114">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="116" EndNode="130">
+</Annotation>
+<Annotation Id="7" Type="ADDRESS" StartNode="148" EndNode="157">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="160">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

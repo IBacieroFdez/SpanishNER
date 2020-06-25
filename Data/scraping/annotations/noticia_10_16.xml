@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>En cuanto a la causa de por qué el <Node id="35"/>coronavirus<Node id="46"/> hace que los <Node id="60"/>contagiados<Node id="71"/> no puedan <Node id="82"/>oler<Node id="86"/>, <Node id="88"/>García<Node id="94"/> apunta que tampoco se sabe muy bien, aunque parece que es por el daño directo que provoca el <Node id="188"/>virus<Node id="193"/> a las <Node id="200"/>terminaciones del nervio olfatorio<Node id="234"/>.
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="35" EndNode="46">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="60" EndNode="71">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="82" EndNode="86">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="4" Type="PER" StartNode="88" EndNode="94">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="188" EndNode="193">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="200" EndNode="234">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

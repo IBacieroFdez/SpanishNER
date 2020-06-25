@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_88_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xd;
+	 <Node id="4"/>Los resultados del <Node id="23"/>estudio<Node id="30"/> confirman <Node id="41"/>estudios<Node id="49"/> previos que indicaban  que estas variantes se concentran en <Node id="110"/>redes funcionales<Node id="127"/> implicadas en  <Node id="143"/>neurogénesis<Node id="155"/> y formación de <Node id="171"/>sinapsis<Node id="179"/> o conexiones entre las <Node id="203"/>células<Node id="210"/>  <Node id="212"/>nerviosas<Node id="221"/> y muestran que aunque en los <Node id="251"/>pacientes<Node id="260"/> con <Node id="265"/>autismo<Node id="272"/> se  encuentran afectadas numerosas áreas y <Node id="316"/>tipos celulares<Node id="331"/> <Node id="332"/>cerebrales<Node id="342"/>, el  efecto de las <Node id="362"/>mutaciones<Node id="372"/> es mayor en tipos concretos, como las  <Node id="412"/>interneuronas<Node id="425"/> de la <Node id="432"/>corteza cerebral<Node id="448"/>, las <Node id="454"/>neuronas<Node id="462"/> piramidales y las  <Node id="482"/>neuronas<Node id="490"/> espinosas medias del estriado.&#xd;
+<Node id="523"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="23" EndNode="30">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="41" EndNode="49">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="110" EndNode="127">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="143" EndNode="155">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="171" EndNode="179">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="203" EndNode="210">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="212" EndNode="221">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="251" EndNode="260">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="265" EndNode="272">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="316" EndNode="331">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="332" EndNode="342">
+</Annotation>
+<Annotation Id="12" Type="SCITERM" StartNode="362" EndNode="372">
+</Annotation>
+<Annotation Id="13" Type="SCITERM" StartNode="412" EndNode="425">
+</Annotation>
+<Annotation Id="14" Type="MEDTERM" StartNode="432" EndNode="448">
+</Annotation>
+<Annotation Id="15" Type="SCITERM" StartNode="454" EndNode="462">
+</Annotation>
+<Annotation Id="16" Type="SCITERM" StartNode="482" EndNode="490">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="4" EndNode="523">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

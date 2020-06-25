@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_69_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Será un <Node id="8"/>torneo virtual<Node id="22"/> e "inclusivo, puesto que todos los <Node id="58"/>equipos<Node id="65"/> deberán contar con al menos una mujer", informa la <Node id="117"/>FIDE<Node id="121"/>, que explica que la <Node id="142"/>competición<Node id="153"/>, que estará coordinada `por la propia <Node id="192"/>federación<Node id="202"/> y la plataforma <Node id="219"/>Chess.com<Node id="228"/>, contará con una bolsa de <Node id="255"/>180.000 dólares<Node id="270"/> en premios.
+<Node id="283"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="8" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="58" EndNode="65">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="117" EndNode="121">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="142" EndNode="153">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="192" EndNode="202">
+</Annotation>
+<Annotation Id="6" Type="ADDRESS" StartNode="219" EndNode="228">
+</Annotation>
+<Annotation Id="7" Type="MONEY" StartNode="255" EndNode="270">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="283">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

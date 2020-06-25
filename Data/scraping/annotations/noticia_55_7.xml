@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_55_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En la <Node id="6"/>Comunidad Valenciana<Node id="26"/>, <Node id="28"/>cinco<Node id="33"/> <Node id="34"/>departamentos<Node id="47"/> de <Node id="51"/>salud<Node id="56"/>, <Node id="58"/>tres<Node id="62"/> de ellos de la <Node id="78"/>provincia de Alicante<Node id="99"/> y <Node id="102"/>dos<Node id="105"/> de la de <Node id="115"/>Valencia<Node id="123"/>, utilizaron esas <Node id="141"/>mascarillas<Node id="152"/> defectuosas, algunos en las <Node id="181"/>UCI<Node id="184"/>, y se les están realizando pruebas para determinar si han podido contagiarse.
+<Node id="263"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="6" EndNode="26">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="28" EndNode="33">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="34" EndNode="47">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="51" EndNode="56">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="58" EndNode="62">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="78" EndNode="99">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="102" EndNode="105">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="115" EndNode="123">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="141" EndNode="152">
+</Annotation>
+<Annotation Id="11" Type="FAC" StartNode="181" EndNode="184">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="263">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

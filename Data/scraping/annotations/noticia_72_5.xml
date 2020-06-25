@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_72_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ahora<Node id="5"/> confinado en <Node id="19"/>casa<Node id="23"/> de sus padres en <Node id="41"/>Santander<Node id="50"/>, <Node id="52"/>Botín<Node id="57"/> recuerda que la última vez que compitió fue en el mes de <Node id="115"/>febrero<Node id="122"/>, cuando logró junto a <Node id="145"/>Iago López-Marra<Node id="161"/> la <Node id="165"/>medalla de plata<Node id="181"/> en el <Node id="188"/>Mundial<Node id="195"/> de <Node id="199"/>Australia<Node id="208"/>. Bromea al decir que “desde que empecé a navegar con <Node id="262"/>seis<Node id="266"/> <Node id="267"/>años<Node id="271"/> no he estado tanto tiempo sin tocar el <Node id="311"/>barco<Node id="316"/>”.
+<Node id="319"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="19" EndNode="23">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="41" EndNode="50">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="52" EndNode="57">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="115" EndNode="122">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="145" EndNode="161">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="165" EndNode="181">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="188" EndNode="195">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="199" EndNode="208">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="262" EndNode="266">
+</Annotation>
+<Annotation Id="11" Type="TIME" StartNode="267" EndNode="271">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="311" EndNode="316">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="319">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

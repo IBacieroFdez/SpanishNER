@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_24.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Aunque <Node id="7"/>todo el mundo<Node id="20"/> da por hecho que no habrá actos masivos <Node id="61"/>en los próximos meses<Node id="82"/>, más allá de cómo evolucione la <Node id="115"/>pandemia<Node id="123"/>, hoy se ha ratificado esa premisa con el anuncio de la suspensión de la <Node id="196"/>fiesta<Node id="202"/> de todas las <Node id="216"/>fiestas<Node id="223"/>, los <Node id="229"/>Sanfermines<Node id="240"/>, paradigma de la aglomeración, que no se celebrarán por vez primera desde la <Node id="318"/>Guerra Civil<Node id="330"/>.
+<Node id="332"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="7" EndNode="20">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="61" EndNode="82">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="115" EndNode="123">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="196" EndNode="202">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="216" EndNode="223">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="229" EndNode="240">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="318" EndNode="330">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="332">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

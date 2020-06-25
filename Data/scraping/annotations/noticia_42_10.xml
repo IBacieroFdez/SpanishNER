@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_42_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En el ámbito de la solidaridad, el <Node id="35"/>presidente<Node id="45"/> de <Node id="49"/>Tendam<Node id="55"/> ha recordado que han puesto todos sus recursos a disposición de las <Node id="124"/>autoridades sanitarias<Node id="146"/>, <Node id="148"/>geriátricos<Node id="159"/> y <Node id="162"/>centros hospitalarios<Node id="183"/>. 
+<Node id="186"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="35" EndNode="45">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="49" EndNode="55">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="124" EndNode="146">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="148" EndNode="159">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="162" EndNode="183">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="186">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

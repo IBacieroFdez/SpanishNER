@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_33.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Pero el <Node id="8"/>país<Node id="12"/> tuvo que adquirir <Node id="31"/>miles<Node id="36"/> de <Node id="40"/>kits<Node id="44"/> luego de que la <Node id="61"/>semana<Node id="67"/> pasada envió a <Node id="83"/>Estados Unidos<Node id="97"/> <Node id="98"/>medio millón<Node id="110"/> de su propia producción, por lo que a medida que el <Node id="163"/>virus<Node id="168"/> se propagó, requirieron más.
+<Node id="198"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="8" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="31" EndNode="36">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="40" EndNode="44">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="61" EndNode="67">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="83" EndNode="97">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="98" EndNode="110">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="163" EndNode="168">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="198">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

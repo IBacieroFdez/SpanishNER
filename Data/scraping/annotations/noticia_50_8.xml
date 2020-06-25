@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_50_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Esto "ayudará a los <Node id="20"/>fabricantes<Node id="31"/> del sector <Node id="43"/>salud<Node id="48"/> y de las ciencias <Node id="67"/>biológicas<Node id="77"/>" a aumentar la disponibilidad de la tecnología soluciones que utilizan los <Node id="153"/>hospitales<Node id="163"/> para <Node id="169"/>diagnosticar<Node id="181"/> y tratar <Node id="191"/>COVID-19<Node id="199"/>.
+<Node id="201"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="20" EndNode="31">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="43" EndNode="48">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="67" EndNode="77">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="153" EndNode="163">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="191" EndNode="199">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="169" EndNode="181">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="201">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

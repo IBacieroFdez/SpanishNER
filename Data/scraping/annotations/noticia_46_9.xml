@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_46_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Durante su intervención, el <Node id="28"/>presidente<Node id="38"/> de <Node id="42"/>Iberdrola<Node id="51"/> ha explicado también cómo la <Node id="81"/>compañía<Node id="89"/> está aprovechando sus capacidades logísticas y financieras para adquirir, de acuerdo con las <Node id="183"/>instituciones competentes<Node id="208"/>, <Node id="210"/>material sanitario<Node id="228"/> y de prevención por un importe de, al menos, <Node id="274"/>25 millones de euros<Node id="294"/>. En concreto, la <Node id="312"/>compañía<Node id="320"/> entregará a las <Node id="337"/>autoridades sanitarias<Node id="359"/> <Node id="360"/>respiradores<Node id="372"/>, <Node id="374"/>trajes sanitarios<Node id="391"/> y <Node id="394"/>mascarillas<Node id="405"/>. 
+<Node id="408"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="28" EndNode="38">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="42" EndNode="51">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="81" EndNode="89">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="183" EndNode="208">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="210" EndNode="228">
+</Annotation>
+<Annotation Id="6" Type="MONEY" StartNode="274" EndNode="294">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="312" EndNode="320">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="337" EndNode="359">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="360" EndNode="372">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="374" EndNode="391">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="394" EndNode="405">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="408">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_17_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>analista<Node id="11"/> <Node id="12"/>Shim Jae-hoon<Node id="25"/> consideró, al ser consultado por <Node id="59"/>Efe<Node id="62"/>, que estas ausencias, unidas al nombramiento de <Node id="111"/>Kim Yo-jong<Node id="122"/> son el motivo perfecto para que se publiquen este tipo de informaciones, con las cuales se muestra "muy escéptico".
+<Node id="239"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="12" EndNode="25">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="59" EndNode="62">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="111" EndNode="122">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="239">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

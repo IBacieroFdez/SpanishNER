@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>A la vez, él mismo mira <Node id="24"/>Fox News<Node id="32"/> <Node id="33"/>por las mañanas<Node id="48"/> y decide qué se supone que tiene que decir. Es un fenómeno asombroso. <Node id="119"/>Rupert Murdoch<Node id="133"/>, <Node id="135"/>Limbaugh<Node id="143"/> y los sociópatas de la <Node id="167"/>Casa Blanca<Node id="178"/> están llevando el <Node id="197"/>país<Node id="201"/> a la destrucción.
+<Node id="220"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="24" EndNode="32">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="33" EndNode="48">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="119" EndNode="133">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="135" EndNode="143">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="167" EndNode="178">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="197" EndNode="201">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="220">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

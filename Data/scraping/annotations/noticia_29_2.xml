@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_29_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La electrificación de su flota (<Node id="32"/>híbridos<Node id="40"/> ligeros, <Node id="50"/>híbridos<Node id="58"/> enchufables y <Node id="73"/>eléctricos<Node id="83"/> puros) en la que está inmersa el <Node id="117"/>Grupo BMW<Node id="126"/> hará que en <Node id="139"/>2025<Node id="143"/> necesite <Node id="153"/>siete<Node id="158"/> veces más de <Node id="172"/>litio<Node id="177"/> para <Node id="183"/>baterías<Node id="191"/> del que precisa <Node id="208"/>ahora<Node id="213"/>.
+<Node id="215"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="139" EndNode="143">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="32" EndNode="40">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="50" EndNode="58">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="73" EndNode="83">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="117" EndNode="126">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="153" EndNode="158">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="172" EndNode="177">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="183" EndNode="191">
+</Annotation>
+<Annotation Id="9" Type="TIME" StartNode="208" EndNode="213">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="215">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

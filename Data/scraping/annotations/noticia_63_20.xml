@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_20.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por último, <Node id="12"/>YouTube<Node id="19"/>, la plataforma de <Node id="38"/>vídeos<Node id="44"/> de <Node id="48"/>Google<Node id="54"/>, ha anunciado la <Node id="72"/>semana<Node id="78"/> pasada que borrará de su catálogo todas las <Node id="123"/>imágenes<Node id="131"/> que vinculen las <Node id="149"/>redes 5G<Node id="157"/> con el <Node id="165"/>coronavirus<Node id="176"/>.
+<Node id="178"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="12" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="38" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="48" EndNode="54">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="72" EndNode="78">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="123" EndNode="131">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="149" EndNode="157">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="165" EndNode="176">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="178">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

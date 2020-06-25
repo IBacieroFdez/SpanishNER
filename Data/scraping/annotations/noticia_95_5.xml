@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_95_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En cuanto a las adquisiciones de <Node id="33"/>material<Node id="41"/> procedente de <Node id="56"/>China<Node id="61"/>, la <Node id="66"/>ministra<Node id="74"/> ha explicado que el <Node id="95"/>Gobierno<Node id="103"/> de aquel <Node id="113"/>país<Node id="117"/> ha introducido nuevas medidas de control de todo lo que exporta, lo cual es, a su juicio, "una buena noticia porque va a dar un plus suplementario a la calidad" de los productos que lleguen.
+<Node id="309"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="33" EndNode="41">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="56" EndNode="61">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="66" EndNode="74">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="95" EndNode="103">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="113" EndNode="117">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="309">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

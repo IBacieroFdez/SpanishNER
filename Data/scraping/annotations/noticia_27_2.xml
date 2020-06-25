@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_27_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>catedrático<Node id="14"/> de <Node id="18"/>Microbiología<Node id="31"/> de la <Node id="38"/>Universidad de Navarra<Node id="60"/> y autor del blog <Node id="78"/>microBIO<Node id="86"/> dice a <Node id="94"/>Efe<Node id="97"/> que “no tenía la intención de que fuera viral” el artículo que publicó el pasado <Node id="179"/>1 de marzo<Node id="189"/> en la versión <Node id="204"/>española<Node id="212"/> de la plataforma de divulgación <Node id="245"/>The Conversation<Node id="261"/>.
+<Node id="263"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="18" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="38" EndNode="60">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="78" EndNode="86">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="94" EndNode="97">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="179" EndNode="189">
+</Annotation>
+<Annotation Id="7" Type="LANG" StartNode="204" EndNode="212">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="245" EndNode="261">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="263">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

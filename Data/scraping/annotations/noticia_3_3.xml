@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_3_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>Comunidad de Madrid<Node id="22"/> va a adquirir en total <Node id="46"/>14 millones<Node id="57"/> de <Node id="61"/>mascarillas<Node id="72"/> "de calidad y de larga duración" para "proteger" a los <Node id="128"/>madrileños<Node id="138"/> y "darles la certeza de que van a poder salir a la <Node id="190"/>calle<Node id="195"/> y recuperar sus actividades con normalidad y con seguridad", <Node id="257"/>a partir del 9 de mayo<Node id="279"/>, ha avanzado la <Node id="296"/>presidenta<Node id="306"/> madrileña.
+<Node id="318"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="3" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="46" EndNode="57">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="61" EndNode="72">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="128" EndNode="138">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="190" EndNode="195">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="257" EndNode="279">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="296" EndNode="306">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="318">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

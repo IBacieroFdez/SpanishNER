@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_93_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Pero la detección de nuevas amenazas solo es posible si los <Node id="60"/>científicos<Node id="71"/> conocen los tipos de <Node id="93"/>virus<Node id="98"/> que están circulando entre las <Node id="130"/>especies<Node id="138"/> con mayor probabilidad de ocasionar nuevos <Node id="182"/>virus<Node id="187"/> pandémicos: <Node id="200"/>aves<Node id="204"/> y <Node id="207"/>cerdos<Node id="213"/>. Y mientras la vigilancia de las primeras ha mejorado <Node id="268"/>durante<Node id="275"/> los últimos <Node id="288"/>cinco<Node id="293"/> o <Node id="296"/>seis<Node id="300"/> años gracias a la preocupación que surgió a raíz de la <Node id="356"/>gripe aviar<Node id="367"/> (el <Node id="372"/>virus<Node id="377"/> <Node id="378"/>H5N1<Node id="382"/>), se sabe muy poco sobre los <Node id="412"/>virus<Node id="417"/> que infectan a los <Node id="437"/>941 millones<Node id="449"/> de <Node id="453"/>cerdos<Node id="459"/> domesticados en todo el <Node id="484"/>mundo<Node id="489"/>.
+<Node id="491"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="60" EndNode="71">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="93" EndNode="98">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="130" EndNode="138">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="182" EndNode="187">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="200" EndNode="204">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="207" EndNode="213">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="288" EndNode="293">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="296" EndNode="300">
+</Annotation>
+<Annotation Id="10" Type="TIME" StartNode="268" EndNode="275">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="356" EndNode="367">
+</Annotation>
+<Annotation Id="13" Type="SCITERM" StartNode="372" EndNode="377">
+</Annotation>
+<Annotation Id="14" Type="DISEASE" StartNode="378" EndNode="382">
+</Annotation>
+<Annotation Id="15" Type="SCITERM" StartNode="412" EndNode="417">
+</Annotation>
+<Annotation Id="16" Type="QUANT" StartNode="437" EndNode="449">
+</Annotation>
+<Annotation Id="17" Type="PRODUCT" StartNode="453" EndNode="459">
+</Annotation>
+<Annotation Id="18" Type="LOC" StartNode="484" EndNode="489">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="491">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

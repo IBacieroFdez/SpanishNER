@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_22.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>aislamiento<Node id="14"/> es una medida importante que adoptan las personas con <Node id="69"/>síntomas<Node id="77"/> de <Node id="81"/>COVID‑19<Node id="89"/> para evitar infectar a otras personas de la <Node id="134"/>comunidad<Node id="143"/>, incluidos sus familiares.
+<Node id="171"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="3" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="69" EndNode="77">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="81" EndNode="89">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="134" EndNode="143">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="171">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

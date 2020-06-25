@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>También han circulado en <Node id="25"/>Twitter<Node id="32"/> mensajes que dan por hecha una relación causa-efecto entre las <Node id="96"/>ondas de radio<Node id="110"/> y la <Node id="116"/>pandemia<Node id="124"/> de <Node id="128"/>1918<Node id="132"/> para enumerar una serie de <Node id="160"/>epidemias<Node id="169"/> supuestamente provocadas por las distintas generaciones de <Node id="229"/>redes de telecomunicaciones<Node id="256"/>: La <Node id="261"/>gripe<Node id="266"/> de <Node id="270"/>1979<Node id="274"/> por la <Node id="282"/>1G<Node id="284"/>, el <Node id="289"/>cólera<Node id="295"/> de <Node id="299"/>1991<Node id="303"/> por la <Node id="311"/>2G<Node id="313"/>, la <Node id="318"/>gripe<Node id="323"/> de <Node id="327"/>1998<Node id="331"/> por la <Node id="339"/>3G<Node id="341"/>, el <Node id="346"/>H1N1<Node id="350"/> de <Node id="354"/>2009<Node id="358"/> por la <Node id="366"/>4G<Node id="368"/> y, claro, la <Node id="382"/>COVID-19<Node id="390"/> por el <Node id="398"/>5G<Node id="400"/>.
+<Node id="402"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="25" EndNode="32">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="96" EndNode="110">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="116" EndNode="124">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="128" EndNode="132">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="160" EndNode="169">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="229" EndNode="256">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="261" EndNode="266">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="289" EndNode="295">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="318" EndNode="323">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="346" EndNode="350">
+</Annotation>
+<Annotation Id="11" Type="DATE" StartNode="382" EndNode="390">
+</Annotation>
+<Annotation Id="12" Type="DATE" StartNode="299" EndNode="303">
+</Annotation>
+<Annotation Id="13" Type="DATE" StartNode="270" EndNode="274">
+</Annotation>
+<Annotation Id="14" Type="DATE" StartNode="327" EndNode="331">
+</Annotation>
+<Annotation Id="15" Type="PRODUCT" StartNode="354" EndNode="358">
+</Annotation>
+<Annotation Id="16" Type="PRODUCT" StartNode="282" EndNode="284">
+</Annotation>
+<Annotation Id="17" Type="PRODUCT" StartNode="311" EndNode="313">
+</Annotation>
+<Annotation Id="18" Type="PRODUCT" StartNode="339" EndNode="341">
+</Annotation>
+<Annotation Id="19" Type="PRODUCT" StartNode="366" EndNode="368">
+</Annotation>
+<Annotation Id="20" Type="PRODUCT" StartNode="398" EndNode="400">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="402">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

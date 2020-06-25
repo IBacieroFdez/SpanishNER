@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_73_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Catalá<Node id="6"/> nadará en estático <Node id="26"/>1.900<Node id="31"/> <Node id="32"/>metros<Node id="38"/> en una <Node id="46"/>piscina<Node id="53"/> hinchable de <Node id="67"/>tres<Node id="71"/> <Node id="72"/>metros<Node id="78"/> de diámetro y <Node id="93"/>setenta<Node id="100"/> <Node id="101"/>centímetros<Node id="112"/> de profundidad, después hará <Node id="142"/>90<Node id="144"/> <Node id="145"/>kilómetros<Node id="155"/> en una <Node id="163"/>bicicleta<Node id="172"/> con rodillo y acabará corriendo en <Node id="208"/>cinta<Node id="213"/> <Node id="214"/>21<Node id="216"/> <Node id="217"/>kilómetros<Node id="227"/>. 
+<Node id="230"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="6">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="26" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="32" EndNode="38">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="46" EndNode="53">
+</Annotation>
+<Annotation Id="17" Type="QUANT" StartNode="67" EndNode="71">
+</Annotation>
+<Annotation Id="18" Type="QUANT" StartNode="72" EndNode="78">
+</Annotation>
+<Annotation Id="19" Type="QUANT" StartNode="93" EndNode="100">
+</Annotation>
+<Annotation Id="20" Type="QUANT" StartNode="101" EndNode="112">
+</Annotation>
+<Annotation Id="21" Type="QUANT" StartNode="142" EndNode="144">
+</Annotation>
+<Annotation Id="22" Type="QUANT" StartNode="145" EndNode="155">
+</Annotation>
+<Annotation Id="23" Type="PRODUCT" StartNode="163" EndNode="172">
+</Annotation>
+<Annotation Id="24" Type="PRODUCT" StartNode="208" EndNode="213">
+</Annotation>
+<Annotation Id="25" Type="QUANT" StartNode="214" EndNode="216">
+</Annotation>
+<Annotation Id="26" Type="QUANT" StartNode="217" EndNode="227">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="230">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

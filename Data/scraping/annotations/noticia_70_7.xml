@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_70_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Presentada y moderada por <Node id="26"/>Helena Lanuza<Node id="39"/>, <Node id="41"/>responsable<Node id="52"/> de <Node id="56"/>Prensa<Node id="62"/> de la <Node id="69"/>FER<Node id="72"/>, la <Node id="77"/>primera<Node id="84"/> ‘<Node id="86"/>videotertulia<Node id="99"/>’ de Conexión <Node id="113"/>FERugby<Node id="120"/> discurrirá sobre la situación de las <Node id="158"/>competiciones nacionales<Node id="182"/>, suspendidas tras decretarse el <Node id="215"/>estado de alarma<Node id="231"/> y que se encuentran a la espera de la ayuda del <Node id="280"/>Consejo Superior de Deportes<Node id="308"/> (<Node id="310"/>CSD<Node id="313"/>) para encontrar una solución que haga posible darlas por finalizadas y, lo más importante de todo, cómo. 
+<Node id="420"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="26" EndNode="39">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="41" EndNode="52">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="56" EndNode="62">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="69" EndNode="72">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="77" EndNode="84">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="86" EndNode="99">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="113" EndNode="120">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="158" EndNode="182">
+</Annotation>
+<Annotation Id="9" Type="EVENT" StartNode="215" EndNode="231">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="280" EndNode="308">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="310" EndNode="313">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="420">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_5_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>WhatsApp<Node id="8"/>, que asegura estar encantada de trabajar con la <Node id="57"/>OMS<Node id="60"/> para presentar este paquete de "<Node id="93"/>stickers<Node id="101"/>", señala que estos pueden ser una "herramienta divertida, educativa y universal que supere barreras como el <Node id="210"/>idioma<Node id="216"/> o la edad, entre otras".
+<Node id="242"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="57" EndNode="60">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="93" EndNode="101">
+</Annotation>
+<Annotation Id="4" Type="LANG" StartNode="210" EndNode="216">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="242">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

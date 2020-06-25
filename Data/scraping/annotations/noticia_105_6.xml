@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_105_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>serie<Node id="8"/> de <Node id="12"/>Ryan Murphy<Node id="23"/> retrata un ambiente hipócrita sometido a una tremenda opresión. Mientras la <Node id="100"/>sociedad<Node id="108"/> y leyes sancionaban duramente la homosexualidad, muchas de las personas más influyentes en la industria era gays. La prostitución masculina, las infidelidades o el sexo a cambio de favores copan momentos muy polémicos de la serie, como es el caso del <Node id="360"/>director<Node id="368"/> de <Node id="372"/>cine<Node id="376"/>, <Node id="378"/>George Cukor<Node id="390"/>, cuyas <Node id="398"/>fiestas<Node id="405"/> se llenaban de lo más exclusivo de <Node id="441"/>Hollywood<Node id="450"/> y donde aquí queda retratado en una escena en la que se produce una <Node id="519"/>orgía<Node id="524"/> en la <Node id="531"/>piscina<Node id="538"/>. Por no hablar de ese <Node id="561"/>prostíbulo<Node id="571"/> disfrazado de <Node id="586"/>gasolinera<Node id="596"/> que regenta <Node id="609"/>Ernie West<Node id="619"/> (<Node id="621"/>Dylan McDermott<Node id="636"/>), y que está inspirado en <Node id="663"/>Scotty Bowers<Node id="676"/>, el mayor <Node id="687"/>proxeneta<Node id="696"/> de <Node id="700"/>Hollywood<Node id="709"/> en esa <Node id="717"/>época<Node id="722"/> y cuya tarea principal fue la de proveer a los poderosos de <Node id="783"/>Hollywood<Node id="792"/> de lo que necesitaban para satisfacer sus deseos sexuales.
+<Node id="852"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="12" EndNode="23">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="100" EndNode="108">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="360" EndNode="368">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="372" EndNode="376">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="378" EndNode="390">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="398" EndNode="405">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="441" EndNode="450">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="519" EndNode="524">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="531" EndNode="538">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="561" EndNode="571">
+</Annotation>
+<Annotation Id="12" Type="LOC" StartNode="586" EndNode="596">
+</Annotation>
+<Annotation Id="13" Type="PER" StartNode="609" EndNode="619">
+</Annotation>
+<Annotation Id="14" Type="PER" StartNode="621" EndNode="636">
+</Annotation>
+<Annotation Id="15" Type="PER" StartNode="663" EndNode="676">
+</Annotation>
+<Annotation Id="16" Type="JOB" StartNode="687" EndNode="696">
+</Annotation>
+<Annotation Id="17" Type="GPE" StartNode="700" EndNode="709">
+</Annotation>
+<Annotation Id="18" Type="TIME" StartNode="717" EndNode="722">
+</Annotation>
+<Annotation Id="19" Type="GPE" StartNode="783" EndNode="792">
+</Annotation>
+<Annotation Id="20" Type="PRODUCT" StartNode="3" EndNode="8">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="852">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

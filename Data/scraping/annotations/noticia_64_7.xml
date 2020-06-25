@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_64_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Las discrepancias empiezan cuando se trata de confirmar si permiten al menos no contagiar a los demás, como ocurre con las <Node id="123"/>quirúrgicas<Node id="134"/>. Frente al escepticismo de esta <Node id="167"/>experta<Node id="174"/> y de la propia <Node id="190"/>OMS<Node id="193"/>, en <Node id="198"/>países<Node id="204"/> como <Node id="210"/>República Checa<Node id="225"/>, <Node id="227"/>Eslovaquia<Node id="237"/> o <Node id="240"/>Estados Unidos<Node id="254"/> se ha optado por recomendar a la población sana el uso de estas <Node id="319"/>mascarillas<Node id="330"/> caseras, siempre combinado con otras medidas de prevención.
+<Node id="391"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="167" EndNode="174">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="190" EndNode="193">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="198" EndNode="204">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="210" EndNode="225">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="227" EndNode="237">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="240" EndNode="254">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="319" EndNode="330">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="123" EndNode="134">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="391">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

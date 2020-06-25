@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_3_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>El objetivo de <Node id="15"/>Díaz Ayuso<Node id="25"/> es que todos los <Node id="43"/>ciudadanos<Node id="53"/> puedan disponer de una <Node id="77"/>mascarilla<Node id="87"/>, aunque está estudiando conseguir la <Node id="125"/>segunda<Node id="132"/>.
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="15" EndNode="25">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="43" EndNode="53">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="3" Type="MEDTERM" StartNode="77" EndNode="87">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="125" EndNode="132">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_6_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ahora<Node id="5"/>, de acuerdo a los últimos datos hay <Node id="42"/>comunidades<Node id="53"/>, <Node id="55"/>provincias<Node id="65"/> o algunas <Node id="76"/>islas<Node id="81"/> en las que los riesgos de transmisión son o <Node id="126"/>nulos<Node id="131"/> o <Node id="134"/>cercanos a nulos<Node id="150"/>, y de ahí la importancia de delimitar esas <Node id="194"/>zonas<Node id="199"/> y la <Node id="205"/>escala de tiempos<Node id="222"/> en la que se debe de hacer este tránsito.
+<Node id="265"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="42" EndNode="53">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="55" EndNode="65">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="76" EndNode="81">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="126" EndNode="131">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="134" EndNode="150">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="194" EndNode="199">
+</Annotation>
+<Annotation Id="8" Type="TIME" StartNode="205" EndNode="222">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="265">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

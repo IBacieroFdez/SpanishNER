@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_65_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Tres<Node id="4"/> <Node id="5"/>fotografías<Node id="16"/> en las que se observan filas con <Node id="50"/>cientos<Node id="57"/> de féretros están siendo difundidas por <Node id="98"/>redes sociales<Node id="112"/> y <Node id="115"/>WhatsApp<Node id="123"/> junto a mensajes como este que las vinculan a la <Node id="173"/>crisis<Node id="179"/> del <Node id="184"/>coronavirus<Node id="195"/> en <Node id="199"/>España<Node id="205"/> y la mala gestión de su <Node id="230"/>Gobierno<Node id="238"/>, presidido por el <Node id="257"/>socialista<Node id="267"/> <Node id="268"/>Pedro Sánchez<Node id="281"/>.
+<Node id="283"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="5" EndNode="16">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="50" EndNode="57">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="98" EndNode="112">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="115" EndNode="123">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="173" EndNode="179">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="184" EndNode="195">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="199" EndNode="205">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="230" EndNode="238">
+</Annotation>
+<Annotation Id="10" Type="NORP" StartNode="257" EndNode="267">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="268" EndNode="281">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="283">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

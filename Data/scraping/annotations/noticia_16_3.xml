@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Desde su <Node id="9"/>casa<Node id="13"/> de <Node id="17"/>Tucson<Node id="23"/> (<Node id="25"/>Arizona<Node id="32"/>) y lejos de su <Node id="48"/>despacho<Node id="56"/> en el <Node id="63"/>Instituto Tecnológico de Massachusetts<Node id="101"/> (<Node id="103"/>MIT<Node id="106"/>), desde el que cambió para siempre el campo de la lingüística, <Node id="170"/>Chomsky<Node id="177"/> repasa en una entrevista con <Node id="207"/>Efe<Node id="210"/> las consecuencias de un <Node id="235"/>virus<Node id="240"/> que deja claro que los <Node id="264"/>gobiernos<Node id="273"/> están siendo "el problema y no la solución".
+<Node id="319"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="9" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="17" EndNode="23">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="25" EndNode="32">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="48" EndNode="56">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="103" EndNode="106">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="170" EndNode="177">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="63" EndNode="101">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="207" EndNode="210">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="235" EndNode="240">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="264" EndNode="273">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="319">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

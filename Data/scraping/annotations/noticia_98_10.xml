@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_98_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Actualmente no hay suficientes pruebas a favor o en contra del uso de <Node id="70"/>mascarillas<Node id="81"/> (<Node id="83"/>médicas<Node id="90"/> o de otro tipo) por personas sanas de la <Node id="132"/>comunidad<Node id="141"/> en general. Sin embargo, la <Node id="170"/>OMS<Node id="173"/> está estudiando activamente los datos <Node id="212"/>científicos<Node id="223"/> acerca
+    del uso de <Node id="246"/>mascarillas<Node id="257"/>, los cuales evolucionan rápidamente, y actualiza continuamente sus orientaciones al respecto.
+<Node id="352"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="70" EndNode="81">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="83" EndNode="90">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="132" EndNode="141">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="170" EndNode="173">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="212" EndNode="223">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="246" EndNode="257">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="352">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

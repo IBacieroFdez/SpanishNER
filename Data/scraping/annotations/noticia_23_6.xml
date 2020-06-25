@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_23_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Gantz<Node id="5"/> finalmente parece haber aceptado los <Node id="43"/>hasta ahora<Node id="54"/> inasumibles que impedían el acuerdo, como que <Node id="101"/>Netanyahu<Node id="110"/> tenga veto para nombrar al próximo <Node id="146"/>fiscal general<Node id="160"/> del <Node id="165"/>Estado<Node id="171"/> y a <Node id="176"/>miembros<Node id="184"/> de la <Node id="191"/>Fiscalía<Node id="199"/>, cuando está previsto que tenga que enfrentar un juicio por delitos de cohecho, fraude y abuso de confianza el próximo <Node id="319"/>24 de mayo<Node id="329"/>. 
+<Node id="332"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="101" EndNode="110">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="43" EndNode="54">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="146" EndNode="160">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="165" EndNode="171">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="191" EndNode="199">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="176" EndNode="184">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="319" EndNode="329">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="332">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

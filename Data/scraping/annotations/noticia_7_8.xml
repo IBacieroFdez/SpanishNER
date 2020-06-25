@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los datos <Node id="10"/>sanitarios<Node id="20"/> se completan con la <Node id="41"/>hospitalización<Node id="56"/> de <Node id="60"/>852<Node id="63"/> <Node id="64"/>personas<Node id="72"/> y <Node id="75"/>1.968<Node id="80"/> altas, que desde el inicio de la <Node id="114"/>crisis<Node id="120"/> ya suman <Node id="130"/>82.514<Node id="136"/>.
+<Node id="138"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="10" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="60" EndNode="63">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="41" EndNode="56">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="64" EndNode="72">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="75" EndNode="80">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="114" EndNode="120">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="130" EndNode="136">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="138">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

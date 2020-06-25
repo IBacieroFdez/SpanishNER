@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Diversos estudios con modelos matemáticos ya han señalado que el <Node id="65"/>porcentaje<Node id="75"/> de <Node id="79"/>personas<Node id="87"/> que han desarrollado <Node id="109"/>inmunidad<Node id="118"/> podría ser como mucho de entre el <Node id="153"/>10 y el 15 por ciento<Node id="174"/> de la población, lo que queda muy lejos de lo que se conoce como <Node id="240"/>inmunidad de grupo<Node id="258"/>, por lo que no podría marcar en exclusiva la pauta para programar el <Node id="328"/>desconfinamiento<Node id="344"/>.
+<Node id="346"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PERCENT" StartNode="65" EndNode="75">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="79" EndNode="87">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="109" EndNode="118">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="153" EndNode="174">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="240" EndNode="258">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="328" EndNode="344">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="346">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

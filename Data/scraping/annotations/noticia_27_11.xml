@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_27_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>“<Node id="1"/>Ahora<Node id="6"/> estamos con que la <Node id="26"/>vacuna<Node id="32"/> pa'cuando -dice parafraseando la canción de <Node id="77"/>Jennifer López<Node id="91"/>- pero has tenido a la <Node id="114"/>ciencia<Node id="121"/> estrangulada durante más de <Node id="150"/>diez<Node id="154"/> <Node id="155"/>años<Node id="159"/> (por falta de <Node id="174"/>recursos<Node id="182"/>) y eso es un problema”.
+<Node id="207"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="1" EndNode="6">
+</Annotation>
+<Annotation Id="4" Type="DRUG" StartNode="26" EndNode="32">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="77" EndNode="91">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="150" EndNode="154">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="155" EndNode="159">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="114" EndNode="121">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="174" EndNode="182">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="207">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

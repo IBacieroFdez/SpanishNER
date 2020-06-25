@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_96_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>estados<Node id="11"/> pueden dudar en entregar sus <Node id="41"/>medicamentos<Node id="53"/> porque han tenido problemas para conseguirlos, pues muchas <Node id="113"/>compañías<Node id="122"/> <Node id="123"/>farmacéuticas<Node id="136"/> se oponen a su utilización en ejecuciones, dijo <Node id="185"/>Robert Dunham<Node id="198"/>, <Node id="200"/>director ejecutivo<Node id="218"/> del Centro de Información sobre la Pena de Muerte.
+<Node id="270"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="4" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="DRUG" StartNode="41" EndNode="53">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="113" EndNode="122">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="123" EndNode="136">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="270">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="185" EndNode="198">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="200" EndNode="218">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

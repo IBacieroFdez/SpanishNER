@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_79_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Facebook<Node id="8"/> va a comenzar a mandar mensajes a aquellos usuarios de todo el <Node id="72"/>mundo<Node id="77"/> que hayan interactuado con afirmaciones sobre la <Node id="127"/>Covid-19<Node id="135"/> dañinas para la <Node id="152"/>salud<Node id="157"/>, y les pondrá en contacto directamente con el apartado de bulos desmentidos por la <Node id="241"/>Organización Mundial de la Salud<Node id="273"/> (<Node id="275"/>OMS<Node id="278"/>).
+<Node id="281"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="72" EndNode="77">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="127" EndNode="135">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="152" EndNode="157">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="241" EndNode="273">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="275" EndNode="278">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="281">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

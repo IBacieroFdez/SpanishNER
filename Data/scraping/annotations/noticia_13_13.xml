@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_13_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Mijatovic<Node id="9"/> visitó <Node id="17"/>el año pasado<Node id="30"/> <Node id="31"/>once<Node id="35"/> <Node id="36"/>países<Node id="42"/> para redactar un informe y para otro tipo de misiones. Su <Node id="101"/>oficina<Node id="108"/> contó en <Node id="118"/>2019<Node id="122"/> con <Node id="127"/>27<Node id="129"/> <Node id="130"/>personas<Node id="138"/> y un presupuesto de <Node id="159"/>3.571.000 euros<Node id="174"/>.
+<Node id="176"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="QUANT" StartNode="127" EndNode="129">
+</Annotation>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="9">
+</Annotation>
+<Annotation Id="17" Type="PER" StartNode="130" EndNode="138">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="17" EndNode="30">
+</Annotation>
+<Annotation Id="18" Type="MONEY" StartNode="159" EndNode="174">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="31" EndNode="35">
+</Annotation>
+<Annotation Id="13" Type="GPE" StartNode="36" EndNode="42">
+</Annotation>
+<Annotation Id="14" Type="FAC" StartNode="101" EndNode="108">
+</Annotation>
+<Annotation Id="15" Type="DATE" StartNode="118" EndNode="122">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="176">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

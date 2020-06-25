@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_21.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>Ministerio de Sanidad, Consumo y Bienestar Social<Node id="52"/> <Node id="53"/>español<Node id="60"/> ya había distribuido a finales de <Node id="95"/>marzo<Node id="100"/> unos <Node id="106"/>8.000<Node id="111"/> <Node id="112"/>kits<Node id="116"/> de diagnóstico rápido del <Node id="143"/>SARS-CoV-2<Node id="153"/>, el nuevo <Node id="164"/>coronavirus<Node id="175"/> causante del <Node id="189"/>covid-19<Node id="197"/>, de un paquete de <Node id="216"/>58.000<Node id="222"/> recibido cuando detectó que carecían de fiabilidad.
+<Node id="275"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="52">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="53" EndNode="60">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="95" EndNode="100">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="106" EndNode="111">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="112" EndNode="116">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="143" EndNode="153">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="164" EndNode="175">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="189" EndNode="197">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="216" EndNode="222">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="275">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_95_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>A pesar de ello, la <Node id="20"/>jefa<Node id="24"/> de la <Node id="31"/>diplomacia<Node id="41"/> <Node id="42"/>española<Node id="50"/> ha remarcado que esta <Node id="73"/>semana<Node id="79"/> tanto el <Node id="89"/>ministro<Node id="97"/> de <Node id="101"/>Sanidad<Node id="108"/> como ella misma, en <Node id="129"/>tres<Node id="133"/> ocasiones, han estado en contacto con las <Node id="176"/>autoridades<Node id="187"/> <Node id="188"/>turcas<Node id="194"/> y que "fruto de ese esfuerzo" se ha materializado la llegada de otro cargamento que incluye <Node id="287"/>mascarillas<Node id="298"/>, <Node id="300"/>equipos de protección individual<Node id="332"/> y <Node id="335"/>gafas<Node id="340"/>.
+<Node id="342"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="20" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="31" EndNode="41">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="42" EndNode="50">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="73" EndNode="79">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="89" EndNode="97">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="101" EndNode="108">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="129" EndNode="133">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="176" EndNode="187">
+</Annotation>
+<Annotation Id="9" Type="LANG" StartNode="188" EndNode="194">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="287" EndNode="298">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="335" EndNode="340">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="300" EndNode="332">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="342">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

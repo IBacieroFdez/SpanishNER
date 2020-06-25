@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_103_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Mi <Node id="4"/>empresa<Node id="11"/> instala sistemas de distribución de <Node id="48"/>energía solar<Node id="61"/>, de almacenamiento y/o de carga de <Node id="97"/>vehículos eléctricos<Node id="117"/>, ¿puede seguir funcionando?
+<Node id="146"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="4" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="48" EndNode="61">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="97" EndNode="117">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="146">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

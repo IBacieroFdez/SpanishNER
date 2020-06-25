@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_57_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>comunidad<Node id="12"/> <Node id="13"/>andaluza<Node id="21"/> registra un contagio en estos <Node id="52"/>centros<Node id="59"/> inferior al <Node id="72"/>2 %<Node id="75"/> en las personas acogidas y al <Node id="106"/>1 %<Node id="109"/> entre los <Node id="120"/>trabajadores<Node id="132"/>, según el <Node id="143"/>consejero<Node id="152"/> de <Node id="156"/>Salud<Node id="161"/>, <Node id="163"/>Jesús Aguirre<Node id="176"/>, que ha indicado también que en más del <Node id="217"/>56 %<Node id="221"/> de las <Node id="229"/>residencias<Node id="240"/> de la <Node id="247"/>comunidad<Node id="256"/> no se ha registrado ningún positivo.
+<Node id="294"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="3" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="13" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="52" EndNode="59">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="72" EndNode="75">
+</Annotation>
+<Annotation Id="5" Type="PERCENT" StartNode="106" EndNode="109">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="120" EndNode="132">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="143" EndNode="152">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="156" EndNode="161">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="163" EndNode="176">
+</Annotation>
+<Annotation Id="10" Type="PERCENT" StartNode="217" EndNode="221">
+</Annotation>
+<Annotation Id="11" Type="FAC" StartNode="229" EndNode="240">
+</Annotation>
+<Annotation Id="12" Type="LOC" StartNode="247" EndNode="256">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="294">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_35_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>A los <Node id="6"/>45 minutos<Node id="16"/> de su exhibición en el <Node id="40"/>Salón<Node id="45"/> se habían cerrado <Node id="64"/>749<Node id="67"/> pedidos previo pago de una fianza de <Node id="105"/>80.000 francos<Node id="119"/> (el coche costaba <Node id="138"/>940.000<Node id="145"/>). Al final de esa <Node id="164"/>jornada<Node id="171"/> las reservas llegaron a <Node id="196"/>12.000<Node id="202"/> y al término del salón a <Node id="228"/>79.000<Node id="234"/>.
+<Node id="236"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="3" Type="TIME" StartNode="6" EndNode="16">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="40" EndNode="45">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="64" EndNode="67">
+</Annotation>
+<Annotation Id="6" Type="MONEY" StartNode="105" EndNode="119">
+</Annotation>
+<Annotation Id="7" Type="MONEY" StartNode="138" EndNode="145">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="196" EndNode="202">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="228" EndNode="234">
+</Annotation>
+<Annotation Id="10" Type="TIME" StartNode="164" EndNode="171">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="16" EndNode="236">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

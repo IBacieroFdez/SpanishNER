@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Son datos muy dispares entre <Node id="29"/>Europa<Node id="35"/> y <Node id="38"/>China<Node id="43"/> sobre este <Node id="55"/>síntoma<Node id="62"/> y los <Node id="69"/>expertos<Node id="77"/> aún no tienen la explicación.
+<Node id="108"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="38" EndNode="43">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="29" EndNode="35">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="55" EndNode="62">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="69" EndNode="77">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="108">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

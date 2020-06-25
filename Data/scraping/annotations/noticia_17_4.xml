@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_17_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Poco antes<Node id="10"/>, una <Node id="16"/>portavoz<Node id="24"/> del <Node id="29"/>Ministerio de Unificación<Node id="54"/> <Node id="55"/>surcoreano<Node id="65"/>, cartera encargada de los lazos con el <Node id="105"/>Norte<Node id="110"/>, había asegurado a <Node id="130"/>Efe<Node id="133"/> que "no hay comentario oficial" con respecto a lo publicado por el <Node id="201"/>Daily NK<Node id="209"/>, un diario con base en <Node id="233"/>Seúl<Node id="237"/> que cuenta con una amplia red de contactos en el <Node id="287"/>país vecino<Node id="298"/>, y la <Node id="305"/>cadena<Node id="311"/> <Node id="312"/>estadounidense<Node id="326"/> <Node id="327"/>CNN<Node id="330"/>.
+<Node id="332"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="0" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="16" EndNode="24">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="29" EndNode="54">
+</Annotation>
+<Annotation Id="4" Type="LANG" StartNode="55" EndNode="65">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="105" EndNode="110">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="130" EndNode="133">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="201" EndNode="209">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="233" EndNode="237">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="287" EndNode="298">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="327" EndNode="330">
+</Annotation>
+<Annotation Id="11" Type="LANG" StartNode="312" EndNode="326">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="305" EndNode="311">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="332">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

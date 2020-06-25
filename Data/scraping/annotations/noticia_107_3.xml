@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_107_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El traspaso se cerró en la última <Node id="34"/>semana<Node id="40"/>, como ha venido informando este medio, aunque las negociaciones ya estaban avanzadas desde antes y listas para un <Node id="155"/>remate<Node id="161"/> final con los últimos detalles. El adiós de <Node id="206"/>Sebastian Vettel<Node id="222"/>, descontento con el rol que le ofrecían en <Node id="266"/>Maranello<Node id="275"/>, desencadenó el resto de movimientos y el mercado no se detiene: <Node id="341"/>Ricciardo<Node id="350"/> irá al <Node id="358"/>McLaren<Node id="365"/> <Node id="366"/>Mercedes<Node id="374"/> que deja vacante <Node id="392"/>Sainz<Node id="397"/> en <Node id="401"/>2021<Node id="405"/> y hay un <Node id="415"/>Renault<Node id="422"/> libre que todavía no tiene dueño. En cuanto al <Node id="470"/>tetracampeón<Node id="482"/> <Node id="483"/>alemán<Node id="489"/>, se le vincula con <Node id="509"/>Mercedes<Node id="517"/> al menos como alternativa, ya que la <Node id="555"/>escudería<Node id="564"/> <Node id="565"/>germana<Node id="572"/> todavía no ha renovado a <Node id="598"/>Hamilton<Node id="606"/> ni <Node id="610"/>Bottas<Node id="616"/>. El <Node id="621"/>finlandés<Node id="630"/> y <Node id="633"/>Ricciardo<Node id="642"/> fueron, precisamente, las otras opciones que estudió <Node id="696"/>Ferrari<Node id="703"/>.
+<Node id="705"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="34" EndNode="40">
+</Annotation>
+<Annotation Id="2" Type="SPORT" StartNode="155" EndNode="161">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="206" EndNode="222">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="266" EndNode="275">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="341" EndNode="350">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="358" EndNode="365">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="366" EndNode="374">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="392" EndNode="397">
+</Annotation>
+<Annotation Id="9" Type="DATE" StartNode="401" EndNode="405">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="415" EndNode="422">
+</Annotation>
+<Annotation Id="11" Type="SPORT" StartNode="470" EndNode="482">
+</Annotation>
+<Annotation Id="12" Type="LANG" StartNode="483" EndNode="489">
+</Annotation>
+<Annotation Id="13" Type="ORG" StartNode="509" EndNode="517">
+</Annotation>
+<Annotation Id="14" Type="ORG" StartNode="555" EndNode="564">
+</Annotation>
+<Annotation Id="15" Type="LANG" StartNode="565" EndNode="572">
+</Annotation>
+<Annotation Id="16" Type="PER" StartNode="598" EndNode="606">
+</Annotation>
+<Annotation Id="17" Type="PER" StartNode="610" EndNode="616">
+</Annotation>
+<Annotation Id="18" Type="LANG" StartNode="621" EndNode="630">
+</Annotation>
+<Annotation Id="19" Type="PER" StartNode="633" EndNode="642">
+</Annotation>
+<Annotation Id="20" Type="ORG" StartNode="696" EndNode="703">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="705">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_23_20.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Esta misma <Node id="11"/>mañana<Node id="17"/> los <Node id="22"/>dos<Node id="25"/> <Node id="26"/>líderes<Node id="33"/> terminaron una reunión sin acuerdo hasta que <Node id="79"/>Gantz<Node id="84"/>, como <Node id="91"/>presidente<Node id="101"/> del <Node id="106"/>Parlamento<Node id="116"/>, aceptó llevar al pleno <Node id="141"/>hoy<Node id="144"/> un proyecto de ley de la <Node id="170"/>oposición<Node id="179"/> para impedir que un <Node id="200"/>acusado<Node id="207"/> pueda ser <Node id="218"/>primer ministro<Node id="233"/>. La amenaza resultó y, <Node id="257"/>por la tarde<Node id="269"/>, volvieron a la mesa de negociaciones y salieron con un <Node id="326"/>Ejecutivo<Node id="335"/> bajo el brazo.
+<Node id="351"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="91" EndNode="101">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="11" EndNode="17">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="22" EndNode="25">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="26" EndNode="33">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="79" EndNode="84">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="106" EndNode="116">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="141" EndNode="144">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="170" EndNode="179">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="200" EndNode="207">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="218" EndNode="233">
+</Annotation>
+<Annotation Id="11" Type="TIME" StartNode="257" EndNode="269">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="326" EndNode="335">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="351">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

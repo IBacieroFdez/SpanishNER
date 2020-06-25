@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Respuesta: La primera lección es que estamos ante otro fallo masivo y colosal de la versión neoliberal del capitalismo. Si no aprendemos eso, la próxima vez que pase algo parecido va a ser peor. Es obvio después de lo que ocurrió tras la <Node id="238"/>epidemia<Node id="246"/> del <Node id="251"/>SARS<Node id="255"/> en <Node id="259"/>2003<Node id="263"/>. Los <Node id="269"/>científicos<Node id="280"/> sabían que vendrían otras <Node id="307"/>pandemias<Node id="316"/>, probablemente de la variedad del <Node id="351"/>coronavirus<Node id="362"/>. Hubiese sido posible prepararse en aquel punto y abordarlo como se hace con la <Node id="443"/>gripe<Node id="448"/>. Pero no se ha hecho.
+<Node id="471"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="238" EndNode="246">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="251" EndNode="255">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="259" EndNode="263">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="269" EndNode="280">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="307" EndNode="316">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="351" EndNode="362">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="443" EndNode="448">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="471">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

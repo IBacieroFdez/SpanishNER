@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>¿Hay alguna base <Node id="17"/>científica<Node id="27"/> que apoye una relación entre las <Node id="61"/>redes<Node id="66"/> <Node id="67"/>5G<Node id="69"/> y el <Node id="75"/>coronavirus<Node id="86"/>? Según <Node id="94"/>Patricia de Llobet<Node id="112"/>, <Node id="114"/>técnica de investigación<Node id="138"/> de Radiaciones del <Node id="158"/>Instituto de Salud Global<Node id="183"/> de <Node id="187"/>Barcelona<Node id="196"/> (<Node id="198"/>ISGlobal<Node id="206"/>), no hay "ninguna".
+<Node id="227"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="17" EndNode="27">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="61" EndNode="66">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="67" EndNode="69">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="75" EndNode="86">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="94" EndNode="112">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="114" EndNode="138">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="158" EndNode="183">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="187" EndNode="196">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="198" EndNode="206">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="227">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

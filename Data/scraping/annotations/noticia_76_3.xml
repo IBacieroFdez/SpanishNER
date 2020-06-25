@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_76_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ésta es una de las conclusiones del estudio "¿Evolución o revolución?. <Node id="71"/>Radiografía<Node id="82"/> de la relación entre <Node id="104"/>pymes<Node id="109"/>, <Node id="111"/>startups<Node id="119"/> y <Node id="122"/>banca<Node id="127"/>, realizado por <Node id="143"/>Qonto<Node id="148"/>, el  <Node id="154"/>neobanco<Node id="162"/> para <Node id="168"/>empresas<Node id="176"/> y <Node id="179"/>autónomos<Node id="188"/>, para el que ha encuestado a más de <Node id="225"/>900<Node id="228"/> <Node id="229"/>pymes<Node id="234"/> y <Node id="237"/>startups<Node id="245"/> <Node id="246"/>españolas<Node id="255"/>.
+<Node id="257"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="71" EndNode="82">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="104" EndNode="109">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="111" EndNode="119">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="122" EndNode="127">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="143" EndNode="148">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="154" EndNode="162">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="168" EndNode="176">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="179" EndNode="188">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="225" EndNode="228">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="229" EndNode="234">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="237" EndNode="245">
+</Annotation>
+<Annotation Id="12" Type="LANG" StartNode="246" EndNode="255">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="257">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

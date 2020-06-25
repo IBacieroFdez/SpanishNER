@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_73_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>prueba<Node id="9"/> comenzará a las <Node id="26"/>9.30 horas<Node id="36"/> y se podrá seguir por las <Node id="63"/>redes sociales<Node id="77"/>. Para amenizar la <Node id="96"/>mañana<Node id="102"/> habrá sorteo de <Node id="119"/>material<Node id="127"/> donado por <Node id="139"/>empresas<Node id="147"/>, algunos <Node id="157"/>clubes<Node id="163"/> de <Node id="167"/>fútbol<Node id="173"/> y participarán invitados ilustres del <Node id="212"/>mundo<Node id="217"/> del <Node id="222"/>deporte<Node id="229"/>.
+<Node id="231"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="26" EndNode="36">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="63" EndNode="77">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="96" EndNode="102">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="119" EndNode="127">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="212" EndNode="217">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="139" EndNode="147">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="157" EndNode="163">
+</Annotation>
+<Annotation Id="8" Type="SPORT" StartNode="167" EndNode="173">
+</Annotation>
+<Annotation Id="9" Type="SPORT" StartNode="222" EndNode="229">
+</Annotation>
+<Annotation Id="10" Type="EVENT" StartNode="3" EndNode="9">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="231">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

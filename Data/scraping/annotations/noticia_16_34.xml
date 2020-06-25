@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_34.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>sanidad<Node id="10"/> universal está en todas partes. En toda <Node id="51"/>Europa<Node id="57"/> de una forma u otra. En países pobres como <Node id="101"/>Brasil<Node id="107"/>, <Node id="109"/>México<Node id="115"/>… ¿Y la <Node id="123"/>educación universitaria<Node id="146"/> gratuita? En todas partes… <Node id="174"/>Finlandia<Node id="183"/>, <Node id="185"/>Alemania<Node id="193"/>, <Node id="195"/>México<Node id="201"/>… en todos lados. Así que lo que dicen los críticos en la izquierda es que <Node id="276"/>Estados Unidos<Node id="290"/> es una sociedad tan atrasada que no se puede poner a la altura del <Node id="358"/>resto del mundo<Node id="373"/>. Y te dice bastante de la naturaleza, la cultura y de la sociedad.
+<Node id="441"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="3" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="51" EndNode="57">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="109" EndNode="115">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="101" EndNode="107">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="123" EndNode="146">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="174" EndNode="183">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="195" EndNode="201">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="185" EndNode="193">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="276" EndNode="290">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="358" EndNode="373">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="441">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_72_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por el momento, el <Node id="19"/>miembro<Node id="26"/> del <Node id="31"/>equipo<Node id="37"/> de <Node id="41"/>España<Node id="47"/> en el <Node id="54"/>circuito Mundial<Node id="70"/> <Node id="71"/>SailGP<Node id="77"/> tendrá que seguir preparando su participación al menos hasta finales de <Node id="150"/>agosto<Node id="156"/>, <Node id="158"/>fecha<Node id="163"/> en la que se plantea volver a competir. “Ese es el <Node id="215"/>futuro<Node id="221"/> ideal, en el que hay más visión de <Node id="257"/>futuro<Node id="263"/>, al igual que la <Node id="281"/>Copa América<Node id="293"/>, otro tema que también me atrae”.
+<Node id="328"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="19" EndNode="26">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="31" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="41" EndNode="47">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="54" EndNode="70">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="71" EndNode="77">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="150" EndNode="156">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="158" EndNode="163">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="215" EndNode="221">
+</Annotation>
+<Annotation Id="9" Type="DATE" StartNode="257" EndNode="263">
+</Annotation>
+<Annotation Id="10" Type="EVENT" StartNode="281" EndNode="293">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="328">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_28.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>R: No hay nada malo con la globalización. Está bien ir de viaje a <Node id="66"/>España<Node id="72"/>, por ejemplo. La pregunta es qué forma de globalización. La que se ha desarrollado ha sido bajo el neoliberalismo. Es la que han diseñado. Ha enriquecido a los más ricos y existe un enorme poder en manos de <Node id="280"/>corporaciones<Node id="293"/> y <Node id="296"/>monopolios<Node id="306"/>. También ha llevado a una forma muy frágil de economía, basada en un modelo de negocio de la eficiencia, haciendo las cosas al menor coste posible. Ese razonamiento te lleva a que los <Node id="491"/>hospitales<Node id="501"/> no tengan ciertas cosas porque no son eficientes, por ejemplo.
+<Node id="565"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="66" EndNode="72">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="280" EndNode="293">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="296" EndNode="306">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="491" EndNode="501">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="565">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

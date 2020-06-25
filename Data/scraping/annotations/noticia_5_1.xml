@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_5_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>WhatsApp<Node id="8"/> y la <Node id="14"/>Organización Mundial de la Salud<Node id="46"/> (<Node id="48"/>OMS<Node id="51"/>) han lanzado un paquete de "<Node id="80"/>stickers<Node id="88"/>" que ayudará a las <Node id="108"/>personas<Node id="116"/> a estar conectadas <Node id="136"/>durante y tras<Node id="150"/> la <Node id="154"/>pandemia<Node id="162"/> de la <Node id="169"/>Covid-19<Node id="177"/> y que, entre otros, incluye opciones para recordar a la <Node id="234"/>gente<Node id="239"/> que se lave las manos o para homenajear a los <Node id="286"/>sanitarios<Node id="296"/>.
+<Node id="298"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="14" EndNode="46">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="48" EndNode="51">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="80" EndNode="88">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="108" EndNode="116">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="169" EndNode="177">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="154" EndNode="162">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="136" EndNode="150">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="286" EndNode="296">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="234" EndNode="239">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="298">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

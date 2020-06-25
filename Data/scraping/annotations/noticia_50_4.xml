@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_50_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Intel<Node id="5"/> "se ha comprometido a acelerar el acceso a la tecnología que puede combatir la <Node id="85"/>pandemia<Node id="93"/> actual y habilitar nuevas tecnologías y descubrimientos <Node id="150"/>científicos<Node id="161"/> que preparen mejor a la <Node id="186"/>sociedad<Node id="194"/> para futuras <Node id="208"/>crisis<Node id="214"/>", añadió.
+<Node id="225"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="85" EndNode="93">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="150" EndNode="161">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="186" EndNode="194">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="208" EndNode="214">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="225">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

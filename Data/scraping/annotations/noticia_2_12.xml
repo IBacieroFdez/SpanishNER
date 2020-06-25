@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_2_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los planes de desescalada tienen dos vertientes, la programación del fin del <Node id="77"/>aislamiento<Node id="88"/> y la vuelta a una cierta normalidad -que todo el <Node id="138"/>mundo<Node id="143"/> ya asume que exigirá por un tiempo indeterminado controles, distancia social y medidas de protección- y la preparación del sistema de <Node id="278"/>atención sanitaria<Node id="296"/> para hacer frente a posibles <Node id="326"/>rebrotes<Node id="334"/> del <Node id="339"/>virus<Node id="344"/>.
+<Node id="346"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="77" EndNode="88">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="138" EndNode="143">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="278" EndNode="296">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="339" EndNode="344">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="326" EndNode="334">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="346">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_88_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xd;
+	 <Node id="4"/>Para ello, los <Node id="19"/>investigadores<Node id="33"/> tomaron, a partir de <Node id="55"/>bases de datos<Node id="69"/>,  información de la expresión en <Node id="103"/>cerebro<Node id="110"/> de los <Node id="118"/>genes<Node id="123"/> que presentan  <Node id="139"/>variantes genéticas<Node id="158"/> (de un solo <Node id="171"/>nucleótido<Node id="181"/> o en el número de copias)  implicadas en el <Node id="226"/>autismo<Node id="233"/>, y cruzaron esa información con la obtenida de  otras <Node id="288"/>bases de datos<Node id="302"/> que recogen las <Node id="319"/>manifestaciones fenotípicas<Node id="346"/>  asociadas a <Node id="360"/>genes<Node id="365"/> concretos. La idea, era correlacionar <Node id="404"/>mutaciones<Node id="414"/> o  <Node id="418"/>genes<Node id="423"/> específicos con manifestaciones concretas de la <Node id="472"/>enfermedad<Node id="482"/>. “Si  podemos entender cómo diferentes <Node id="522"/>mutaciones<Node id="532"/> llevan a distingos rasgos  del desorden del espectro del <Node id="590"/>autismo<Node id="597"/>, quizás seamos capaces de utilizar  los <Node id="638"/>perfiles genéticos<Node id="656"/> de los <Node id="664"/>pacientes<Node id="673"/> para desarrollar <Node id="691"/>herramientas<Node id="703"/>  precisas de <Node id="717"/>diagnóstico<Node id="728"/> y <Node id="731"/>pronóstico<Node id="741"/>, y quizás personalizar el  <Node id="769"/>tratamiento<Node id="780"/>,” afirma <Node id="790"/>Dennos Vitkup<Node id="803"/>, <Node id="805"/>investigador senior<Node id="824"/> del trabajo.&#xd;
+<Node id="839"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="19" EndNode="33">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="55" EndNode="69">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="103" EndNode="110">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="118" EndNode="123">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="139" EndNode="158">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="171" EndNode="181">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="226" EndNode="233">
+</Annotation>
+<Annotation Id="8" Type="SCITERM" StartNode="288" EndNode="302">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="319" EndNode="346">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="360" EndNode="365">
+</Annotation>
+<Annotation Id="11" Type="SCITERM" StartNode="404" EndNode="414">
+</Annotation>
+<Annotation Id="12" Type="SCITERM" StartNode="418" EndNode="423">
+</Annotation>
+<Annotation Id="13" Type="DISEASE" StartNode="472" EndNode="482">
+</Annotation>
+<Annotation Id="14" Type="SCITERM" StartNode="522" EndNode="532">
+</Annotation>
+<Annotation Id="15" Type="DISEASE" StartNode="590" EndNode="597">
+</Annotation>
+<Annotation Id="16" Type="SCITERM" StartNode="638" EndNode="656">
+</Annotation>
+<Annotation Id="17" Type="MEDTERM" StartNode="664" EndNode="673">
+</Annotation>
+<Annotation Id="18" Type="PRODUCT" StartNode="691" EndNode="703">
+</Annotation>
+<Annotation Id="19" Type="MEDTERM" StartNode="717" EndNode="728">
+</Annotation>
+<Annotation Id="20" Type="MEDTERM" StartNode="731" EndNode="741">
+</Annotation>
+<Annotation Id="21" Type="MEDTERM" StartNode="769" EndNode="780">
+</Annotation>
+<Annotation Id="22" Type="PER" StartNode="790" EndNode="803">
+</Annotation>
+<Annotation Id="23" Type="JOB" StartNode="805" EndNode="824">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="4" EndNode="839">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

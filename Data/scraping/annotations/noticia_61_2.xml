@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_61_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Así lo ha dicho en la rueda de prensa telemática del <Node id="53"/>Govern<Node id="59"/>, al ser preguntada por las declaraciones a <Node id="103"/>Ràdio<Node id="108"/> <Node id="109"/>4<Node id="110"/> del <Node id="115"/>presidente<Node id="125"/> del grupo de <Node id="139"/>ERC<Node id="142"/> en el <Node id="149"/>Parlament<Node id="158"/>, <Node id="160"/>Sergi Sabrià<Node id="172"/>, que se ha mostrado a favor de que a partir del próximo <Node id="229"/>lunes<Node id="234"/> las familias <Node id="248"/>catalanas<Node id="257"/> sigan el plan de la <Node id="278"/>Generalitat<Node id="289"/> de desconfinamiento progresivo de los niños, aunque éste no coincida con el del <Node id="370"/>Gobierno<Node id="378"/> <Node id="379"/>español<Node id="386"/>.
+<Node id="388"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="53" EndNode="59">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="103" EndNode="108">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="109" EndNode="110">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="115" EndNode="125">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="139" EndNode="142">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="149" EndNode="158">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="160" EndNode="172">
+</Annotation>
+<Annotation Id="9" Type="DATE" StartNode="229" EndNode="234">
+</Annotation>
+<Annotation Id="10" Type="LANG" StartNode="248" EndNode="257">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="278" EndNode="289">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="370" EndNode="378">
+</Annotation>
+<Annotation Id="13" Type="LANG" StartNode="379" EndNode="386">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="388">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

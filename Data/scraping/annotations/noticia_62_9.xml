@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_62_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Más que nunca hay que garantizar una transición justa que no deje nadie atrás", ha añadido <Node id="92"/>Timmermans<Node id="102"/>, quien destaca que es importante "decirle a los ciudadanos que es una estrategia no es un lujo, es esencial si queremos que <Node id="227"/>Europa<Node id="233"/> tenga un <Node id="243"/>futuro<Node id="249"/>".
+<Node id="252"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="92" EndNode="102">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="227" EndNode="233">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="243" EndNode="249">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="252">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

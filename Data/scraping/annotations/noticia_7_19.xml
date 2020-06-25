@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En cualquier caso, <Node id="19"/>Simón<Node id="24"/> ha insistido en que esas medidas y sus correspondientes mecanismos deben ser “claramente homogéneas” para las distintas <Node id="145"/>comunidades autónomas<Node id="166"/>, aunque se pueden implementar a varias velocidades y en momentos coincidentes, distintos o sucesivos.
+<Node id="269"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="19" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="145" EndNode="166">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="269">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_49_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Un <Node id="3"/>camión<Node id="9"/> cargado de <Node id="21"/>zafra<Node id="26"/> llega el <Node id="36"/>miércoles 8 de abril<Node id="56"/> a la <Node id="62"/>fábrica<Node id="69"/> de <Node id="73"/>alcohol<Node id="80"/> del ingenio azucarero de <Node id="106"/>San Francisco Pujiltic<Node id="128"/>, en el <Node id="136"/>municipio<Node id="145"/> de <Node id="149"/>Venustiano Carranza<Node id="168"/>, <Node id="170"/>estado de Chiapas<Node id="187"/> (<Node id="189"/>México<Node id="195"/>). <Node id="198"/>EFE<Node id="201"/>/<Node id="202"/>Carlos López<Node id="214"/>
+	   
+<Node id="220"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="3" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="21" EndNode="26">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="36" EndNode="56">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="62" EndNode="69">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="73" EndNode="80">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="106" EndNode="128">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="136" EndNode="145">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="149" EndNode="168">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="170" EndNode="187">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="189" EndNode="195">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="198" EndNode="201">
+</Annotation>
+<Annotation Id="12" Type="PER" StartNode="202" EndNode="214">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="220">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

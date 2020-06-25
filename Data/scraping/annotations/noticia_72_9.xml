@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_72_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El parón sufrido por el <Node id="24"/>Covid-19<Node id="32"/> “lo miramos por el lado positivo” apunta <Node id="74"/>Botín<Node id="79"/>, quien cree que no afecte a la progresión mostrada <Node id="131"/>durante<Node id="138"/> <Node id="139"/>2019<Node id="143"/> y lo poco de <Node id="157"/>2020<Node id="161"/>. “El nivel que teníamos no lo vamos a perder, y este <Node id="215"/>confinamiento<Node id="228"/> también nos está haciendo intentar buscar en ámbitos a los que normalmente no dábamos importancia porque no son prioritario, como ver cómo podemos evolucionar en la comunicación <Node id="407"/>Iago<Node id="411"/> y yo, la <Node id="421"/>meteorología<Node id="433"/>, etc”.
+<Node id="441"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="24" EndNode="32">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="74" EndNode="79">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="139" EndNode="143">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="131" EndNode="138">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="157" EndNode="161">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="215" EndNode="228">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="421" EndNode="433">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="407" EndNode="411">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="441">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_65_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>- "Los casi <Node id="12"/>300<Node id="15"/> inmigrantes muertos en <Node id="39"/>Lampedusa<Node id="48"/> recibirán un <Node id="62"/>funeral<Node id="69"/> de <Node id="73"/>Estado<Node id="79"/>", <Node id="82"/>9 de octubre de 2013<Node id="102"/>, <Node id="104"/>El Mundo<Node id="112"/>.
+<Node id="114"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="12" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="39" EndNode="48">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="73" EndNode="79">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="62" EndNode="69">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="82" EndNode="102">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="104" EndNode="112">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="114">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

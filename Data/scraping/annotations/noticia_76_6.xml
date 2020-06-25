@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_76_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Sin embargo, el nivel de confianza de estas <Node id="44"/>empresas<Node id="52"/> en los <Node id="60"/>neobancos<Node id="69"/> crece de forma constante. Tanto es así, que casi <Node id="119"/>5<Node id="120"/> de cada <Node id="129"/>10<Node id="131"/> <Node id="132"/>pymes<Node id="137"/> y <Node id="140"/>startups<Node id="148"/> encuestadas reconocen que les gustaría trabajar con ellos a corto <Node id="215"/>plazo<Node id="220"/>.
+<Node id="222"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="44" EndNode="52">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="60" EndNode="69">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="119" EndNode="120">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="129" EndNode="131">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="132" EndNode="137">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="140" EndNode="148">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="215" EndNode="220">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="222">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

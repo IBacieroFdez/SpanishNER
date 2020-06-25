@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_80_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Después llegaría la apertura de <Node id="32"/>bares<Node id="37"/> y <Node id="40"/>restaurantes<Node id="52"/> y la celebración de <Node id="73"/>actos<Node id="78"/> con aforo inferior a <Node id="100"/>30<Node id="102"/> personas, la apertura de los <Node id="132"/>centros educativos<Node id="150"/> y las <Node id="157"/>escuelas<Node id="165"/>, y en último lugar los negocios con aforo superior a <Node id="219"/>30<Node id="221"/> personas y los <Node id="237"/>acontecimientos<Node id="252"/> culturales y <Node id="266"/>deportivos<Node id="276"/> con público.
+<Node id="290"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="32" EndNode="37">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="40" EndNode="52">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="73" EndNode="78">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="100" EndNode="102">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="132" EndNode="150">
+</Annotation>
+<Annotation Id="8" Type="FAC" StartNode="157" EndNode="165">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="219" EndNode="221">
+</Annotation>
+<Annotation Id="11" Type="EVENT" StartNode="237" EndNode="252">
+</Annotation>
+<Annotation Id="12" Type="SPORT" StartNode="266" EndNode="276">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="290">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

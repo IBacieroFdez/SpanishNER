@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_57_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Más allá de las investigaciones, la <Node id="36"/>Fiscalía<Node id="44"/> ha reconocido la labor realizada por "la inmensa mayoría" de las <Node id="110"/>residencias<Node id="121"/> del <Node id="126"/>país<Node id="130"/>, y por sus <Node id="142"/>trabajadores<Node id="154"/>, elogio al que se ha sumado también la <Node id="194"/>Fundación Economía y Salud<Node id="220"/> a través de su <Node id="236"/>presidente<Node id="246"/>, <Node id="248"/>Alberto Giménez Artés<Node id="269"/>, que les ha calificado de "verdaderos héroes".
+<Node id="317"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="36" EndNode="44">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="110" EndNode="121">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="126" EndNode="130">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="142" EndNode="154">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="194" EndNode="220">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="236" EndNode="246">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="248" EndNode="269">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="317">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

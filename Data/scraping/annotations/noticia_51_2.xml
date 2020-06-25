@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_51_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>Comité Ejecutivo<Node id="19"/> de este <Node id="28"/>organismo<Node id="37"/>, compuesto por <Node id="53"/>doce<Node id="57"/> <Node id="58"/>miembros<Node id="66"/> y bajo <Node id="74"/>presidencia<Node id="85"/> <Node id="86"/>francesa<Node id="94"/>, adoptó por unanimidad esa proposición, que deberá ser refrendada por <Node id="165"/>dos tercios<Node id="176"/> de los <Node id="184"/>171<Node id="187"/> <Node id="188"/>Estados miembros<Node id="204"/> en la <Node id="211"/>Asamblea General<Node id="227"/>, que votará a distancia entre el <Node id="261"/>24<Node id="263"/> y el <Node id="269"/>29 de abril<Node id="280"/>.
+<Node id="282"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="28" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="53" EndNode="57">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="58" EndNode="66">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="74" EndNode="85">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="86" EndNode="94">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="165" EndNode="176">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="184" EndNode="187">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="188" EndNode="204">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="211" EndNode="227">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="261" EndNode="263">
+</Annotation>
+<Annotation Id="12" Type="DATE" StartNode="269" EndNode="280">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="282">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

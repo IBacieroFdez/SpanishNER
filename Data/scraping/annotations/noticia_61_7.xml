@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_61_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Según <Node id="6"/>Budó<Node id="10"/>, la propuesta de <Node id="28"/>desconfinamiento<Node id="44"/> que prepara el <Node id="60"/>Govern<Node id="66"/> y que espera aprobar definitivamente a finales de esta <Node id="122"/>semana<Node id="128"/> "es la que más se ajusta a las necesidades" de <Node id="176"/>Cataluña<Node id="184"/>, con un plan específico para los niños que contemplaría "salidas por <Node id="254"/>franjas horarias<Node id="270"/>, teniendo en cuenta la segregación por edades".
+<Node id="319"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="6" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="28" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="60" EndNode="66">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="122" EndNode="128">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="176" EndNode="184">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="254" EndNode="270">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="319">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_103_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"<Node id="1"/>Tesla<Node id="6"/> no es un caso atípico, ni vamos contracorriente. Desde la primera solicitud de <Node id="86"/>confinamiento<Node id="99"/> del <Node id="104"/>estado<Node id="110"/>, la infraestructura crítica nacional, incluida la fabricación de <Node id="176"/>vehículos<Node id="185"/> como la <Node id="194"/>fábrica<Node id="201"/> de <Node id="205"/>Tesla<Node id="210"/> en <Node id="214"/>Fremont<Node id="221"/>, se consideró vital y se le dio permiso para continuar operando. El <Node id="290"/>gobernador<Node id="300"/> repitió esta dirección esta <Node id="329"/>semana<Node id="335"/> cuando dejó claro que la fabricación debería reanudarse.
+<Node id="393"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="1" EndNode="6">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="86" EndNode="99">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="104" EndNode="110">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="176" EndNode="185">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="194" EndNode="201">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="205" EndNode="210">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="214" EndNode="221">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="290" EndNode="300">
+</Annotation>
+<Annotation Id="9" Type="DATE" StartNode="329" EndNode="335">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="393">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

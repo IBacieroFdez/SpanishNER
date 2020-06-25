@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Desde su muerte se han celebrado <Node id="33"/>dos<Node id="36"/> <Node id="37"/>Juegos Olímpicos<Node id="53"/> de <Node id="57"/>verano<Node id="63"/>, <Node id="65"/>Londres<Node id="72"/> <Node id="73"/>2012<Node id="77"/> y <Node id="80"/>Río<Node id="83"/> <Node id="84"/>206<Node id="87"/>, y <Node id="91"/>dos<Node id="94"/> de <Node id="98"/>invierno<Node id="106"/>, <Node id="108"/>Sochi<Node id="113"/> <Node id="114"/>2014<Node id="118"/> y <Node id="121"/>PyeongChang<Node id="132"/> <Node id="133"/>2018<Node id="137"/>. Y ha ocurrido algo con lo que él nunca habría contado: la falta de interés por los <Node id="222"/>Juegos<Node id="228"/> obligó al <Node id="239"/>COI<Node id="242"/> a repartir las ediciones de <Node id="271"/>2024<Node id="275"/> y <Node id="278"/>2028<Node id="282"/> entre las <Node id="293"/>dos<Node id="296"/> únicas <Node id="304"/>ciudades<Node id="312"/> dispuestas a comprometerse, <Node id="341"/>París<Node id="346"/> y <Node id="349"/>Los Ángeles<Node id="360"/>.
+<Node id="362"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="121" EndNode="132">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="108" EndNode="113">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="65" EndNode="72">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="80" EndNode="83">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="349" EndNode="360">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="341" EndNode="346">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="73" EndNode="77">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="84" EndNode="87">
+</Annotation>
+<Annotation Id="9" Type="DATE" StartNode="114" EndNode="118">
+</Annotation>
+<Annotation Id="10" Type="DATE" StartNode="133" EndNode="137">
+</Annotation>
+<Annotation Id="11" Type="DATE" StartNode="271" EndNode="275">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="278" EndNode="282">
+</Annotation>
+<Annotation Id="13" Type="QUANT" StartNode="91" EndNode="94">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="362">
+</Annotation>
+<Annotation Id="16" Type="TIME" StartNode="222" EndNode="228">
+</Annotation>
+<Annotation Id="17" Type="TIME" StartNode="57" EndNode="63">
+</Annotation>
+<Annotation Id="18" Type="TIME" StartNode="98" EndNode="106">
+</Annotation>
+<Annotation Id="19" Type="ORG" StartNode="239" EndNode="242">
+</Annotation>
+<Annotation Id="20" Type="LOC" StartNode="304" EndNode="312">
+</Annotation>
+<Annotation Id="22" Type="QUANT" StartNode="293" EndNode="296">
+</Annotation>
+<Annotation Id="14" Type="QUANT" StartNode="33" EndNode="36">
+</Annotation>
+<Annotation Id="15" Type="EVENT" StartNode="37" EndNode="53">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

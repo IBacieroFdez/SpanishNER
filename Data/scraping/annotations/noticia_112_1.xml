@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/aspirina_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>No tome este <Node id="13"/>medicamento<Node id="24"/> con el <Node id="32"/>estómago<Node id="40"/> vacío. La administración de este preparado está supeditada a la aparición de los <Node id="122"/>síntomas<Node id="130"/> dolorosos o <Node id="143"/>febriles<Node id="151"/>. Si el <Node id="159"/>dolor<Node id="164"/> se mantiene <Node id="177"/>durante<Node id="184"/> más de <Node id="192"/>5<Node id="193"/> <Node id="194"/>días<Node id="198"/>, o la <Node id="205"/>fiebre<Node id="211"/> <Node id="212"/>durante<Node id="219"/> más de <Node id="227"/>3<Node id="228"/> <Node id="229"/>días<Node id="233"/>, o bien los <Node id="246"/>síntomas<Node id="254"/> empeoran o aparecen otros <Node id="281"/>síntomas<Node id="289"/>, debe interrumpir el <Node id="311"/>tratamiento<Node id="322"/> y consultar al <Node id="338"/>médico<Node id="344"/>. Las <Node id="350"/>dosis<Node id="355"/> superiores a <Node id="369"/>1<Node id="370"/> gramo diario de <Node id="387"/>vitamina C<Node id="397"/> (<Node id="399"/>5<Node id="400"/> ó más <Node id="407"/>comprimidos<Node id="418"/> al <Node id="422"/>día<Node id="425"/>) pueden producir <Node id="443"/>diarrea<Node id="450"/>, <Node id="452"/>cálculos renales<Node id="468"/> y <Node id="471"/>calambres<Node id="480"/> <Node id="481"/>abdominales<Node id="492"/>. En caso de <Node id="505"/>sobredosis<Node id="515"/> o <Node id="518"/>ingestión<Node id="527"/> accidental, consulte inmediatamente a su <Node id="569"/>médico<Node id="575"/> o <Node id="578"/>farmacéutico<Node id="590"/> o acuda a un <Node id="604"/>centro médico<Node id="617"/> inmediatamente o llame al <Node id="644"/>Servicio de Información Toxicológica<Node id="680"/>, teléfono: <Node id="692"/>91 562 04 20<Node id="704"/>, indicando el <Node id="719"/>medicamento<Node id="730"/> y la <Node id="736"/>cantidad<Node id="744"/> ingerida.
+<Node id="755"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="13" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="32" EndNode="40">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="122" EndNode="130">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="143" EndNode="151">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="159" EndNode="164">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="177" EndNode="184">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="205" EndNode="211">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="227" EndNode="228">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="192" EndNode="193">
+</Annotation>
+<Annotation Id="10" Type="TIME" StartNode="194" EndNode="198">
+</Annotation>
+<Annotation Id="11" Type="TIME" StartNode="229" EndNode="233">
+</Annotation>
+<Annotation Id="12" Type="TIME" StartNode="212" EndNode="219">
+</Annotation>
+<Annotation Id="13" Type="DISEASE" StartNode="246" EndNode="254">
+</Annotation>
+<Annotation Id="14" Type="DISEASE" StartNode="281" EndNode="289">
+</Annotation>
+<Annotation Id="15" Type="MEDTERM" StartNode="311" EndNode="322">
+</Annotation>
+<Annotation Id="16" Type="JOB" StartNode="338" EndNode="344">
+</Annotation>
+<Annotation Id="17" Type="SCITERM" StartNode="350" EndNode="355">
+</Annotation>
+<Annotation Id="18" Type="QUANT" StartNode="369" EndNode="370">
+</Annotation>
+<Annotation Id="19" Type="QUANT" StartNode="399" EndNode="400">
+</Annotation>
+<Annotation Id="20" Type="SCITERM" StartNode="387" EndNode="397">
+</Annotation>
+<Annotation Id="21" Type="DRUG" StartNode="407" EndNode="418">
+</Annotation>
+<Annotation Id="22" Type="TIME" StartNode="422" EndNode="425">
+</Annotation>
+<Annotation Id="23" Type="DISEASE" StartNode="443" EndNode="450">
+</Annotation>
+<Annotation Id="24" Type="DISEASE" StartNode="452" EndNode="468">
+</Annotation>
+<Annotation Id="25" Type="DISEASE" StartNode="471" EndNode="480">
+</Annotation>
+<Annotation Id="26" Type="MEDTERM" StartNode="481" EndNode="492">
+</Annotation>
+<Annotation Id="27" Type="DISEASE" StartNode="505" EndNode="515">
+</Annotation>
+<Annotation Id="28" Type="MEDTERM" StartNode="518" EndNode="527">
+</Annotation>
+<Annotation Id="29" Type="JOB" StartNode="569" EndNode="575">
+</Annotation>
+<Annotation Id="30" Type="JOB" StartNode="578" EndNode="590">
+</Annotation>
+<Annotation Id="31" Type="FAC" StartNode="604" EndNode="617">
+</Annotation>
+<Annotation Id="32" Type="ORG" StartNode="644" EndNode="680">
+</Annotation>
+<Annotation Id="33" Type="PHONE" StartNode="692" EndNode="704">
+</Annotation>
+<Annotation Id="34" Type="DRUG" StartNode="719" EndNode="730">
+</Annotation>
+<Annotation Id="35" Type="QUANT" StartNode="736" EndNode="744">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="755">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

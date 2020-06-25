@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_12_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En cuanto a los <Node id="16"/>hospitalizados<Node id="30"/> suman <Node id="37"/>7.930<Node id="42"/>, de los cuales <Node id="58"/>1.076<Node id="63"/> se encuentran ingresados en <Node id="92"/>unidades de cuidados intensivos<Node id="123"/>.
+<Node id="125"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="37" EndNode="42">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="16" EndNode="30">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="58" EndNode="63">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="92" EndNode="123">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="125">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

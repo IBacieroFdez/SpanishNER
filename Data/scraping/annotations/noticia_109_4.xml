@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/paracetamol_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>pacientes<Node id="13"/> en <Node id="17"/>tratamiento<Node id="28"/> con <Node id="33"/>barbitúricos<Node id="45"/> o que padezcan <Node id="61"/>alcoholismo<Node id="72"/> crónico pueden ser más susceptibles a una <Node id="115"/>sobredosis<Node id="125"/> de <Node id="129"/>paracetamol<Node id="140"/>. Si olvidó tomar <Node id="158"/>Paracetamol<Node id="169"/> <Node id="170"/>Kern Pharma<Node id="181"/>. Si tiene cualquier otra duda sobre el uso de este <Node id="233"/>producto<Node id="241"/>, pregunte a su <Node id="257"/>médico<Node id="263"/> o <Node id="266"/>farmacéutico<Node id="278"/>. Al igual que todos los <Node id="303"/>medicamentos<Node id="315"/>, <Node id="317"/>Paracetamol<Node id="328"/> <Node id="329"/>Kern Pharma<Node id="340"/> puede producir efectos adversos, aunque no todas las personas los sufran. <Node id="415"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="4" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="17" EndNode="28">
+</Annotation>
+<Annotation Id="3" Type="DRUG" StartNode="33" EndNode="45">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="61" EndNode="72">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="115" EndNode="125">
+</Annotation>
+<Annotation Id="6" Type="DRUG" StartNode="129" EndNode="140">
+</Annotation>
+<Annotation Id="7" Type="DRUG" StartNode="158" EndNode="169">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="170" EndNode="181">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="233" EndNode="241">
+</Annotation>
+<Annotation Id="11" Type="JOB" StartNode="257" EndNode="263">
+</Annotation>
+<Annotation Id="12" Type="JOB" StartNode="266" EndNode="278">
+</Annotation>
+<Annotation Id="13" Type="DRUG" StartNode="303" EndNode="315">
+</Annotation>
+<Annotation Id="14" Type="DRUG" StartNode="317" EndNode="328">
+</Annotation>
+<Annotation Id="15" Type="ORG" StartNode="329" EndNode="340">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="415">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

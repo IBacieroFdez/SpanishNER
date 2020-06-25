@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Finalmente así será, según ha dicho el <Node id="39"/>ministro<Node id="47"/> <Node id="48"/>Illa<Node id="52"/>, que ha aprovechado su comparecencia para anunciar que el <Node id="111"/>Gobierno<Node id="119"/> ha fijado un precio máximo de venta al <Node id="159"/>público<Node id="166"/> de las <Node id="174"/>mascarillas quirúrgicas<Node id="197"/> de <Node id="201"/>0,96 euros<Node id="211"/> <Node id="212"/>por unidad<Node id="222"/>.
+<Node id="224"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="39" EndNode="47">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="48" EndNode="52">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="111" EndNode="119">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="159" EndNode="166">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="174" EndNode="197">
+</Annotation>
+<Annotation Id="6" Type="MONEY" StartNode="201" EndNode="211">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="212" EndNode="222">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="224">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

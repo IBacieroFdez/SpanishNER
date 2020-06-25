@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Juan Antonio Samaranch<Node id="22"/> nació en <Node id="32"/>Barcelona<Node id="41"/> el <Node id="45"/>17 de julio de 1920<Node id="64"/> y murió en la misma <Node id="85"/>ciudad<Node id="91"/> el <Node id="95"/>21 de abril de 2010<Node id="114"/>, nueve años después de abandonar la presidencia del <Node id="167"/>COI<Node id="170"/>, a la que había llegado en <Node id="198"/>1980<Node id="202"/>.
+<Node id="204"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="22">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="32" EndNode="41">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="45" EndNode="64">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="85" EndNode="91">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="95" EndNode="114">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="167" EndNode="170">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="198" EndNode="202">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="204">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

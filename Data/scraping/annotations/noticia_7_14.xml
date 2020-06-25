@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En su comparecencia tras el <Node id="28"/>Consejo de Ministros<Node id="48"/>, <Node id="50"/>Montero<Node id="57"/> no ha descartado que <Node id="79"/>a lo largo de esta semana<Node id="104"/> se puedan concretar otras medidas para relajar el <Node id="155"/>confinamiento<Node id="168"/>, entre las que figura como prioritaria la de salir para hacer deporte, demanda a la que se han sumado <Node id="271"/>organizaciones<Node id="285"/> de <Node id="289"/>personas mayores<Node id="305"/>, que reclaman que no se prolongue el <Node id="343"/>aislamiento<Node id="354"/> de los que no tienen <Node id="376"/>patologías<Node id="386"/> previas más que al resto de la ciudadanía.
+<Node id="430"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="28" EndNode="48">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="50" EndNode="57">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="79" EndNode="104">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="155" EndNode="168">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="289" EndNode="305">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="271" EndNode="285">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="343" EndNode="354">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="376" EndNode="386">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="430">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

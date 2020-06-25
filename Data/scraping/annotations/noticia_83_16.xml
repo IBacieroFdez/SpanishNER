@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_83_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La mayoría de las <Node id="18"/>enfermedades<Node id="30"/> <Node id="31"/>infecciosas<Node id="42"/> solo tienen complicaciones menores. Pero algunas <Node id="92"/>infecciones<Node id="103"/>, como la <Node id="113"/>neumonía<Node id="121"/>, el <Node id="126"/>sida<Node id="130"/> y la <Node id="136"/>meningitis<Node id="146"/>, pueden poner en peligro la vida. Algunos tipos de <Node id="198"/>infecciones<Node id="209"/> se han relacionado con un aumento a largo plazo del riesgo de <Node id="272"/>cáncer<Node id="278"/>:
+<Node id="280"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="18" EndNode="30">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="31" EndNode="42">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="92" EndNode="103">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="113" EndNode="121">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="126" EndNode="130">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="136" EndNode="146">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="198" EndNode="209">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="272" EndNode="278">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="280">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

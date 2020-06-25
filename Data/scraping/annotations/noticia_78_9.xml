@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_78_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>formaciones<Node id="11"/> y <Node id="14"/>debates<Node id="21"/> por streaming o <Node id="38"/>actividades<Node id="49"/> de <Node id="53"/>nertworking virtual<Node id="72"/>. Desde el <Node id="83"/>blog<Node id="87"/>, la <Node id="92"/>newsletter<Node id="102"/> y las <Node id="109"/>redes sociales<Node id="123"/>, la <Node id="128"/>organización<Node id="140"/> comparte recursos útiles para ayudar al teletrabajo o las <Node id="199"/>reuniones<Node id="208"/> en remoto.
+<Node id="220"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="0" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="14" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="38" EndNode="49">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="53" EndNode="72">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="83" EndNode="87">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="92" EndNode="102">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="109" EndNode="123">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="128" EndNode="140">
+</Annotation>
+<Annotation Id="10" Type="EVENT" StartNode="199" EndNode="208">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="220">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

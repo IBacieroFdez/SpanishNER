@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_72_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>“Tienen un compromiso con la <Node id="29"/>Copa América<Node id="41"/> y quizás no puedan entrenar tanto el tema <Node id="84"/>olímpico<Node id="92"/>” añade <Node id="100"/>Botín<Node id="105"/>. “A día de <Node id="117"/>hoy<Node id="120"/> son los mejores, pero nosotros podemos tener también nuestras opciones”, opinó.
+<Node id="201"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="29" EndNode="41">
+</Annotation>
+<Annotation Id="3" Type="SPORT" StartNode="84" EndNode="92">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="100" EndNode="105">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="117" EndNode="120">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="201">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_86_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>Centro Nacional de <Node id="22"/>Defectos<Node id="30"/> Congénitos y <Node id="44"/>Discapacidades<Node id="58"/> del Desarrollo<Node id="73"/> de los <Node id="81"/>CDC<Node id="84"/> está celebrando <Node id="101"/>20<Node id="103"/> años de salvar a bebés, ayudar a niños, proteger a las personas y mejorar la salud. Para obtener más información sobre nuestro trabajo, visite <Node id="247"/>www.cdc.gov/ncbddd/spanish/<Node id="274"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="73">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="22" EndNode="30">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="44" EndNode="58">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="81" EndNode="84">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="101" EndNode="103">
+</Annotation>
+<Annotation Id="6" Type="ADDRESS" StartNode="247" EndNode="274">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="274">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Federaciones<Node id="12"/> y <Node id="15"/>comités olímpicos<Node id="32"/> comenzaron a recibir una porción creciente de aquellos <Node id="88"/>ingresos<Node id="96"/>. Los programas de solidaridad olímpica se extendieron por todo el <Node id="163"/>planeta<Node id="170"/>. Los <Node id="176"/>países<Node id="182"/> participantes en los <Node id="204"/>Juegos<Node id="210"/> y los que ganaban <Node id="229"/>medalla<Node id="236"/> aumentaban en cada edición. Se acabó con el veto a los <Node id="292"/>deportistas<Node id="303"/> <Node id="304"/>profesionales<Node id="317"/>, incluidos los de la <Node id="339"/>NBA<Node id="342"/>. Los <Node id="348"/>Juegos<Node id="354"/> de <Node id="358"/>verano<Node id="364"/> y los de <Node id="374"/>invierno<Node id="382"/> se alternaron cada <Node id="402"/>dos<Node id="405"/> <Node id="406"/>años<Node id="410"/> para que el <Node id="423"/>dinero<Node id="429"/> de los <Node id="437"/>patrocinadores<Node id="451"/> fluyera de manera constante.
+<Node id="481"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="0" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="15" EndNode="32">
+</Annotation>
+<Annotation Id="3" Type="MONEY" StartNode="88" EndNode="96">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="163" EndNode="170">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="176" EndNode="182">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="204" EndNode="210">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="229" EndNode="236">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="292" EndNode="303">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="304" EndNode="317">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="339" EndNode="342">
+</Annotation>
+<Annotation Id="11" Type="EVENT" StartNode="348" EndNode="354">
+</Annotation>
+<Annotation Id="12" Type="TIME" StartNode="358" EndNode="364">
+</Annotation>
+<Annotation Id="13" Type="TIME" StartNode="374" EndNode="382">
+</Annotation>
+<Annotation Id="14" Type="QUANT" StartNode="402" EndNode="405">
+</Annotation>
+<Annotation Id="15" Type="TIME" StartNode="406" EndNode="410">
+</Annotation>
+<Annotation Id="16" Type="MONEY" StartNode="423" EndNode="429">
+</Annotation>
+<Annotation Id="17" Type="JOB" StartNode="437" EndNode="451">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="481">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

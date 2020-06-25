@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_24_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En particular, comprender cómo la variación de los <Node id="51"/>antígenos<Node id="60"/> <Node id="61"/>leucocitarios<Node id="74"/> <Node id="75"/>humanos<Node id="82"/> (<Node id="84"/>HLA<Node id="87"/>, por sus siglas en <Node id="107"/>inglés<Node id="113"/>) puede afectar el curso de la <Node id="144"/>COVID-19<Node id="152"/> podría ayudar a identificar a los <Node id="187"/>individuos<Node id="197"/> con mayor riesgo de contraer la <Node id="230"/>enfermedad<Node id="240"/>, resumen los <Node id="254"/>autores<Node id="261"/> de este trabajo en una nota.
+<Node id="291"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="51" EndNode="60">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="61" EndNode="74">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="75" EndNode="82">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="84" EndNode="87">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="107" EndNode="113">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="144" EndNode="152">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="187" EndNode="197">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="230" EndNode="240">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="254" EndNode="261">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="291">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

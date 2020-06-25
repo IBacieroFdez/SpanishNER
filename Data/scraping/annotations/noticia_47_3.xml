@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_47_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por ello, desde <Node id="16"/>Anged<Node id="21"/>, que calcula una caída de <Node id="48"/>25.000 millones de euros<Node id="72"/> de <Node id="76"/>ingresos<Node id="84"/> para <Node id="90"/>2020<Node id="94"/>, se solicitan una serie de "medidas urgentes" para un primer momento que pasan por la ampliación de líneas de financiación, dar facilidades fiscales, moratorias y suspensión de la aplicación de impuestos.
+<Node id="300"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="16" EndNode="21">
+</Annotation>
+<Annotation Id="2" Type="MONEY" StartNode="48" EndNode="72">
+</Annotation>
+<Annotation Id="3" Type="MONEY" StartNode="76" EndNode="84">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="90" EndNode="94">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="300">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_91_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Según él, el <Node id="13"/>cerebro<Node id="20"/> hace algo más que aprender asociaciones directas entre <Node id="76"/>estímulos<Node id="85"/>. En realidad, tales asociaciones suelen ser frágiles y quedan obsoletas ante cambios en el ambiente. Desde <Node id="193"/>Tolman<Node id="199"/>, los <Node id="205"/>psicólogos<Node id="215"/> hace <Node id="221"/>décadas<Node id="228"/> que saben que el <Node id="246"/>cerebro<Node id="253"/> construye, guarda y emplea <Node id="281"/>mapas<Node id="286"/> <Node id="287"/>mentales<Node id="295"/>. Estos modelos del <Node id="315"/>mundo<Node id="320"/> nos permiten orientarnos en el entorno pese a la complejidad y variabilidad de los ambientes, dotándonos de la flexibilidad para tomar atajos o rodeos cuando sea necesario. La <Node id="497"/>rata<Node id="501"/> hambrienta de <Node id="516"/>Tolman<Node id="522"/> tuvo que haber recordado la <Node id="551"/>ubicación<Node id="560"/> de la <Node id="567"/>comida<Node id="573"/>, deducido la distancia angular y escogido la <Node id="619"/>ruta<Node id="623"/> más probable que la conduciría hasta ella. En suma, tuvo que trazar un modelo del entorno.
+<Node id="715"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="13" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="76" EndNode="85">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="193" EndNode="199">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="281" EndNode="286">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="287" EndNode="295">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="205" EndNode="215">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="221" EndNode="228">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="246" EndNode="253">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="315" EndNode="320">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="497" EndNode="501">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="516" EndNode="522">
+</Annotation>
+<Annotation Id="12" Type="LOC" StartNode="551" EndNode="560">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="567" EndNode="573">
+</Annotation>
+<Annotation Id="14" Type="LOC" StartNode="619" EndNode="623">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="715">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

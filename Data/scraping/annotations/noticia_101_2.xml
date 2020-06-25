@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_101_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El plantel siguió la misma rutina rigurosa que el <Node id="50"/>día<Node id="53"/> anterior para cumplir con las normas establecidas de distanciamiento e higiene. El objetivo es que los <Node id="157"/>jugadores<Node id="166"/> vayan mecanizando cada <Node id="190"/>día<Node id="193"/> mejor estos nuevos hábitos de convivencia en el trabajo diario.
+<Node id="258"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="50" EndNode="53">
+</Annotation>
+<Annotation Id="2" Type="SPORT" StartNode="157" EndNode="166">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="190" EndNode="193">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="258">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

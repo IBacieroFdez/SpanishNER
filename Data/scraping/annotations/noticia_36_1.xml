@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_36_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Actrices<Node id="8"/>, <Node id="10"/>actores<Node id="17"/>, <Node id="19"/>músicos<Node id="26"/> y <Node id="29"/>artistas<Node id="37"/> se han aliado para realizar un cadena de solidaridad que va en distintas direcciones, pero con un mismo nexo común: ayudar a quienes más lo necesitan y están en condiciones de vulnerabilidad.
+<Node id="230"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="0" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="10" EndNode="17">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="19" EndNode="26">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="29" EndNode="37">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="230">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

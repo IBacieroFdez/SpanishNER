@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_17_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En un mensaje de texto remitido a los <Node id="38"/>medios<Node id="44"/>, el <Node id="49"/>portavoz presidencial<Node id="70"/> de <Node id="74"/>Seúl<Node id="78"/>, <Node id="80"/>Kang Min-seok<Node id="93"/>, aseguró que no hay "nada que confirmar" acerca de esas informaciones y que las <Node id="174"/>autoridades<Node id="185"/> sureñas no han detectado nada fuera de lo normal <Node id="235"/>al norte<Node id="243"/> del <Node id="248"/>paralelo 38<Node id="259"/>.
+<Node id="261"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="38" EndNode="44">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="49" EndNode="70">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="74" EndNode="78">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="80" EndNode="93">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="174" EndNode="185">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="235" EndNode="243">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="248" EndNode="259">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="261">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

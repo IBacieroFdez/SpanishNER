@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_96_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La carta firmada por <Node id="21"/>siete<Node id="26"/> <Node id="27"/>farmacéuticos<Node id="40"/>, <Node id="42"/>expertos<Node id="50"/> en <Node id="54"/>salud pública<Node id="67"/> y <Node id="70"/>médicos<Node id="77"/> de <Node id="81"/>unidades de cuidados intensivos<Node id="112"/> fue enviada este <Node id="130"/>mes<Node id="133"/> a los <Node id="140"/>departamentos correccionales estatales<Node id="178"/> pidiendo que entreguen a los <Node id="208"/>centros de salud<Node id="224"/> las reservas de <Node id="241"/>fármacos<Node id="249"/> que podrían tener.
+<Node id="269"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="21" EndNode="26">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="27" EndNode="40">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="42" EndNode="50">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="54" EndNode="67">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="70" EndNode="77">
+</Annotation>
+<Annotation Id="7" Type="FAC" StartNode="81" EndNode="112">
+</Annotation>
+<Annotation Id="8" Type="TIME" StartNode="130" EndNode="133">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="140" EndNode="178">
+</Annotation>
+<Annotation Id="10" Type="FAC" StartNode="208" EndNode="224">
+</Annotation>
+<Annotation Id="11" Type="DRUG" StartNode="241" EndNode="249">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="269">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

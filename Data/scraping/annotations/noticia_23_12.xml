@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_23_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Otro de los <Node id="12"/>partidos<Node id="20"/> que pierde con este acuerdo es el <Node id="55"/>ultraderechista<Node id="70"/> <Node id="71"/>Israel Nuestro Hoga<Node id="90"/>r, de <Node id="96"/>Avigdor Lieberman<Node id="113"/>, quien acusó al <Node id="130"/>Ejecutivo<Node id="139"/> de unidad de no ser el que la sociedad quería.
+<Node id="187"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="12" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="55" EndNode="70">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="71" EndNode="90">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="96" EndNode="113">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="130" EndNode="139">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="187">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

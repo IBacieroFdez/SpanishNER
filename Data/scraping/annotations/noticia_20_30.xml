@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_20_30.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Charles<Node id="7"/> también estuvo, <Node id="24"/>durante mucho tiempo<Node id="44"/>, paralizada. Mientras la <Node id="70"/>joven<Node id="75"/> se preparaba ahora para organizar el reparto de comida en honor a su <Node id="145"/>madre<Node id="150"/>, recuerda que tardó <Node id="171"/>seis meses<Node id="181"/> en volver a la <Node id="197"/>iglesia<Node id="204"/>. Finalmente, superó el miedo. 
+<Node id="236"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="24" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="70" EndNode="75">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="145" EndNode="150">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="171" EndNode="181">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="197" EndNode="204">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="236">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_89_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xd;
+	 <Node id="4"/>"Las  expectativas desempeñan un papel importante en la eficacia de los  <Node id="77"/>tratamientos<Node id="89"/>, sobre todo en personas con enfermedad de <Node id="132"/>Parkinson<Node id="141"/>",  explica el <Node id="156"/>venezolano<Node id="166"/> <Node id="167"/>Alberto J. Espay<Node id="183"/>, <Node id="185"/>investigador<Node id="197"/> en <Node id="201"/>neurología<Node id="211"/> de la  <Node id="219"/>Universidad de Cincinnati<Node id="244"/> (<Node id="246"/>EE UU<Node id="251"/>) y <Node id="255"/>autor<Node id="260"/> principal del artículo.&#xd;
+<Node id="286"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="77" EndNode="89">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="132" EndNode="141">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="156" EndNode="166">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="167" EndNode="183">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="185" EndNode="197">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="201" EndNode="211">
+</Annotation>
+<Annotation Id="7" Type="FAC" StartNode="219" EndNode="244">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="246" EndNode="251">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="255" EndNode="260">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="4" EndNode="286">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

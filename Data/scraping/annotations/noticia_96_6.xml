@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_96_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Un <Node id="3"/>grupo<Node id="8"/> de <Node id="12"/>profesionales médicos<Node id="33"/> del <Node id="38"/>país<Node id="42"/> está pidiendo a esos <Node id="64"/>estados<Node id="71"/> que les suministren los <Node id="96"/>medicamentos<Node id="108"/> que utilizan tanto para <Node id="133"/>inyecciones<Node id="144"/> letales como para ayudar a pacientes con <Node id="186"/>coronavirus<Node id="197"/> que están en <Node id="211"/>respiradores<Node id="223"/>, pero un <Node id="233"/>médico<Node id="239"/> que está detrás de la solicitud y un <Node id="277"/>experto<Node id="284"/> en pena de muerte dicen que el secreto que rodea las ejecuciones podría obstaculizar esos esfuerzos, porque no saben qué <Node id="406"/>drogas<Node id="412"/> tienen los <Node id="424"/>estados<Node id="431"/>.
+<Node id="433"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="3" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="12" EndNode="33">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="38" EndNode="42">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="64" EndNode="71">
+</Annotation>
+<Annotation Id="5" Type="DRUG" StartNode="96" EndNode="108">
+</Annotation>
+<Annotation Id="6" Type="DRUG" StartNode="133" EndNode="144">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="186" EndNode="197">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="211" EndNode="223">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="233" EndNode="239">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="277" EndNode="284">
+</Annotation>
+<Annotation Id="12" Type="DRUG" StartNode="406" EndNode="412">
+</Annotation>
+<Annotation Id="13" Type="LOC" StartNode="424" EndNode="431">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="433">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

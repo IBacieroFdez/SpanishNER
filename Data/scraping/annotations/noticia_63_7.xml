@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ningún informe <Node id="15"/>científico<Node id="25"/> avala esta tesis. Los <Node id="48"/>expertos<Node id="56"/> explican que es físicamente imposible la interacción entre las ondas de las <Node id="133"/>redes de telecomunicaciones<Node id="160"/> y un <Node id="166"/>virus<Node id="171"/>, la <Node id="176"/>Organización Mundial de la Salud<Node id="208"/> (<Node id="210"/>OMS<Node id="213"/>) no encuentra efectos adversos en el <Node id="251"/>5G<Node id="253"/> y un documento de varios expertos publicado en una prestigiosa <Node id="317"/>revista<Node id="324"/> <Node id="325"/>médica<Node id="331"/> niega que la <Node id="345"/>COVID-19<Node id="353"/> tenga un origen no natural.
+<Node id="382"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="15" EndNode="25">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="48" EndNode="56">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="133" EndNode="160">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="166" EndNode="171">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="176" EndNode="208">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="210" EndNode="213">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="251" EndNode="253">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="345" EndNode="353">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="317" EndNode="324">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="325" EndNode="331">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="382">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

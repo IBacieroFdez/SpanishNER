@@ -1,0 +1,1 @@
+Los test solo tenían una sensibilidad de 30%, cuando los lineamientos de la Organización Mundial de la Salud indican que deben tener 80%.

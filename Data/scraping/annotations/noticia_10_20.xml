@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_20.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Aún hay muchas dudas en torno al <Node id="33"/>coronavirus<Node id="44"/> y la pérdida del <Node id="62"/>olfato<Node id="68"/> que los distintos estudios que hay en marcha, también con <Node id="127"/>hospitales<Node id="137"/> <Node id="138"/>españoles<Node id="147"/>, esperan dar respuestas en <Node id="175"/>no mucho tiempo<Node id="190"/>.
+<Node id="192"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="33" EndNode="44">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="62" EndNode="68">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="127" EndNode="137">
+</Annotation>
+<Annotation Id="4" Type="LANG" StartNode="138" EndNode="147">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="175" EndNode="190">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="192">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

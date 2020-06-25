@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_30_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Este descenso del <Node id="18"/>3,1 %<Node id="23"/> contrasta con el crecimiento del <Node id="57"/>7 %<Node id="60"/> que se anotó en <Node id="77"/>2018<Node id="81"/>, cuando se registró un nuevo récord, al alcanzar los <Node id="135"/>21.415 millones de euros<Node id="159"/>.
+<Node id="161"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PERCENT" StartNode="18" EndNode="23">
+</Annotation>
+<Annotation Id="2" Type="PERCENT" StartNode="57" EndNode="60">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="77" EndNode="81">
+</Annotation>
+<Annotation Id="4" Type="MONEY" StartNode="135" EndNode="159">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="161">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

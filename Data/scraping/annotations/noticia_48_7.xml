@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_48_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>feria<Node id="8"/> pesquera y acuícola tendrá en el <Node id="42"/>2021<Node id="46"/> como tema central la "sostenibilidad" y su objetivo será mejorar estos <Node id="118"/>sectores<Node id="126"/>, público y privado, mediante la innovación y la <Node id="175"/>tecnología<Node id="185"/>, destacaron los <Node id="202"/>organizadores<Node id="215"/>.
+<Node id="217"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="3" EndNode="8">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="42" EndNode="46">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="118" EndNode="126">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="175" EndNode="185">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="202" EndNode="215">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="217">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

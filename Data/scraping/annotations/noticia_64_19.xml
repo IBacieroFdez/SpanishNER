@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_64_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>investigadora<Node id="16"/> del <Node id="21"/>CSIC<Node id="25"/> <Node id="26"/>Beatriz Novoa<Node id="39"/> lo pone fácil: <Node id="55"/>Papel de cocina<Node id="70"/>, <Node id="72"/>dos<Node id="75"/> <Node id="76"/>gomas<Node id="81"/> elásticas y una <Node id="98"/>grapadora<Node id="107"/>. Ese es todo el <Node id="124"/>material<Node id="132"/> que se necesita para construir una <Node id="168"/>mascarilla<Node id="178"/> casera según el tutorial grabado por esta <Node id="221"/>experta<Node id="228"/> en <Node id="232"/>Inmunología<Node id="243"/>.
+<Node id="245"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="16">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="21" EndNode="25">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="26" EndNode="39">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="55" EndNode="70">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="76" EndNode="81">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="72" EndNode="75">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="98" EndNode="107">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="124" EndNode="132">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="168" EndNode="178">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="221" EndNode="228">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="232" EndNode="243">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="245">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

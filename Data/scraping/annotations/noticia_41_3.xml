@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_41_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En consecuencia, ha decidido no presentar ningún Expediente de Regulación Temporal de Empleo en el <Node id="99"/>mes<Node id="102"/> de <Node id="106"/>abril<Node id="111"/> para el <Node id="120"/>personal<Node id="128"/> de tiendas, por lo que la <Node id="155"/>plantilla<Node id="164"/> al completo recibirá su <Node id="189"/>nómina<Node id="195"/> íntegra sufragada por la <Node id="221"/>empresa<Node id="228"/>.
+<Node id="230"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="106" EndNode="111">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="99" EndNode="102">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="120" EndNode="128">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="221" EndNode="228">
+</Annotation>
+<Annotation Id="5" Type="MONEY" StartNode="189" EndNode="195">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="155" EndNode="164">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="230">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_83_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Al tocar un <Node id="12"/>picaporte<Node id="21"/> que tocó alguien que, por ejemplo, padecía <Node id="65"/>influenza<Node id="74"/> o <Node id="77"/>resfrío<Node id="84"/>, puedes llevar contigo los <Node id="112"/>gérmenes<Node id="120"/> que dejó esa persona. Si te tocas los ojos, la boca o la nariz antes de lavarte las manos, es posible que te infectes.
+<Node id="240"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="12" EndNode="21">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="65" EndNode="74">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="77" EndNode="84">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="112" EndNode="120">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="240">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

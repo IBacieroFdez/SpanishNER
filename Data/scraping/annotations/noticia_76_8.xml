@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_76_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En un momento, donde las <Node id="25"/>entidades bancarias<Node id="44"/> recomiendan a sus clientes realizar los trámites de forma online para evitar visitas innecesarias a sus <Node id="149"/>oficinas<Node id="157"/>, cerca de <Node id="168"/>9<Node id="169"/> de cada <Node id="178"/>10<Node id="180"/> <Node id="181"/>directivos<Node id="191"/> de <Node id="195"/>pymes<Node id="200"/> y <Node id="203"/>startups<Node id="211"/> <Node id="212"/>madrileñas<Node id="222"/> reconocen la importancia de tener un buen <Node id="265"/>servicio bancario<Node id="282"/>. 
+<Node id="285"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="25" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="149" EndNode="157">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="168" EndNode="169">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="178" EndNode="180">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="181" EndNode="191">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="195" EndNode="200">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="203" EndNode="211">
+</Annotation>
+<Annotation Id="9" Type="LANG" StartNode="212" EndNode="222">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="265" EndNode="282">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="285">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

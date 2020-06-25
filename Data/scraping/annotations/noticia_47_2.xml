@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_47_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>presidente<Node id="13"/> de <Node id="17"/>Anged<Node id="22"/>, <Node id="24"/>Alfonso Merry del Val<Node id="45"/>, y su <Node id="52"/>director general<Node id="68"/>, <Node id="70"/>Javier Millán-Astray<Node id="90"/>, han asegurado en una vídeoconferencia que "para salvar puestos de trabajo primero hay que salvar las <Node id="193"/>empresas<Node id="201"/>" y que, con una caída de las ventas del <Node id="242"/>50 %<Node id="246"/>, "es imposible" que éstas subsistan con la misma <Node id="296"/>plantilla<Node id="305"/> y en las mismas condiciones laborales.
+<Node id="345"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="17" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="3" EndNode="13">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="24" EndNode="45">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="52" EndNode="68">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="70" EndNode="90">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="193" EndNode="201">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="242" EndNode="246">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="296" EndNode="305">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="345">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

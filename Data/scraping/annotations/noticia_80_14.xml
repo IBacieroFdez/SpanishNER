@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_80_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Como ya estaba previsto, el texto de los <Node id="41"/>expertos<Node id="49"/> recomienda precintar los <Node id="75"/>espacios<Node id="83"/> de ocio infantil y de <Node id="106"/>deporte<Node id="113"/> al <Node id="117"/>aire libre<Node id="127"/> para evitar congregaciones y la <Node id="160"/>transmisión<Node id="171"/> del <Node id="176"/>virus<Node id="181"/>.
+<Node id="183"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="41" EndNode="49">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="75" EndNode="83">
+</Annotation>
+<Annotation Id="3" Type="SPORT" StartNode="106" EndNode="113">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="117" EndNode="127">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="160" EndNode="171">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="176" EndNode="181">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="183">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

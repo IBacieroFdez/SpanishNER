@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/ibuprofeno_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Adultos:En adultos y adolescentes desde <Node id="40"/>14<Node id="42"/> a <Node id="45"/>18<Node id="47"/> años se tomará un <Node id="66"/>comprimido<Node id="76"/> (<Node id="78"/>600<Node id="81"/> mg) cada <Node id="91"/>6<Node id="92"/> a <Node id="95"/>8<Node id="96"/> horas, dependiendo de la intensidad del cuadro y de la respuesta al <Node id="165"/>tratamiento<Node id="176"/>. En algunos procesos pueden requerirse <Node id="216"/>dosis<Node id="221"/> superiores pero, en cualquier caso, se recomienda no sobrepasar la <Node id="289"/>dosis<Node id="294"/> máxima diaria de <Node id="312"/>2400<Node id="316"/> mg en adultos y de <Node id="336"/>1600<Node id="340"/> mg en adolescentes de <Node id="363"/>12<Node id="365"/> a <Node id="368"/>18<Node id="370"/> años.<Node id="376"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="40" EndNode="42">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="45" EndNode="47">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="78" EndNode="81">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="91" EndNode="92">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="95" EndNode="96">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="312" EndNode="316">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="336" EndNode="340">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="363" EndNode="365">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="368" EndNode="370">
+</Annotation>
+<Annotation Id="10" Type="DRUG" StartNode="66" EndNode="76">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="165" EndNode="176">
+</Annotation>
+<Annotation Id="12" Type="SCITERM" StartNode="216" EndNode="221">
+</Annotation>
+<Annotation Id="13" Type="SCITERM" StartNode="289" EndNode="294">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="376">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

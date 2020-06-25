@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_57_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Estas cifran reflejan más del <Node id="30"/>doble<Node id="35"/> de investigaciones de las que informó el pasado <Node id="84"/>viernes<Node id="91"/> el <Node id="95"/>ministerio fiscal<Node id="112"/>, que ha advertido en un comunicado de que los <Node id="159"/>números<Node id="166"/> puede variar en función del transcurso de las diligencias, de las que no ha precisado los presuntos delitos que dieron su origen.
+<Node id="297"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="30" EndNode="35">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="84" EndNode="91">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="95" EndNode="112">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="159" EndNode="166">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="297">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

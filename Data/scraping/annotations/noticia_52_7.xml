@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_52_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>A la vez, <Node id="10"/>Piotrovski<Node id="20"/> expresó su satisfacción por el interés mostrado por los internautas hacia los programas online del <Node id="120"/>Hermitage<Node id="129"/>, que han registrado cerca de <Node id="159"/>20 millones<Node id="170"/> de visitas, mientras antes de la <Node id="204"/>pandemia<Node id="212"/> el principal <Node id="226"/>museo<Node id="231"/> <Node id="232"/>ruso<Node id="236"/> recibía cerca de <Node id="254"/>5 millones<Node id="264"/> de visitantes al <Node id="282"/>año<Node id="285"/>.
+<Node id="287"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="10" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="120" EndNode="129">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="159" EndNode="170">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="204" EndNode="212">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="226" EndNode="231">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="232" EndNode="236">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="254" EndNode="264">
+</Annotation>
+<Annotation Id="8" Type="TIME" StartNode="282" EndNode="285">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="287">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_50_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>firma<Node id="8"/> recordó que trabaja con el <Node id="36"/>Consejo de Investigación Científica e Industrial<Node id="84"/> de la <Node id="91"/>India<Node id="96"/> y el <Node id="102"/>Instituto Internacional de Tecnología de la Información<Node id="157"/> de <Node id="161"/>Hyderabad<Node id="170"/> para implementar soluciones de <Node id="202"/>computadoras<Node id="214"/> y <Node id="217"/>servidores<Node id="227"/> de <Node id="231"/>Intel<Node id="236"/> para ayudar a lograr pruebas más rápidas y menos costosas de <Node id="298"/>COVID-19<Node id="306"/>.
+<Node id="308"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="36" EndNode="84">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="308">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="91" EndNode="96">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="102" EndNode="157">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="161" EndNode="170">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="202" EndNode="214">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="217" EndNode="227">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="231" EndNode="236">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="298" EndNode="306">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

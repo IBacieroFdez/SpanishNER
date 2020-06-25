@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Samaranch<Node id="9"/> cumplió con el sueño de ver unos <Node id="43"/>Juegos Olímpicos<Node id="59"/> en su <Node id="66"/>ciudad<Node id="72"/> natal y tuvo tiempo de comprobar cómo aquel <Node id="117"/>verano<Node id="123"/> de <Node id="127"/>1992<Node id="131"/> cambió para siempre la historia del <Node id="168"/>deporte<Node id="175"/> <Node id="176"/>español<Node id="183"/>.
+<Node id="185"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="43" EndNode="59">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="66" EndNode="72">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="117" EndNode="123">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="127" EndNode="131">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="176" EndNode="183">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="168" EndNode="175">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="185">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

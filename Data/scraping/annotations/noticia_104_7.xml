@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_104_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>empresa<Node id="10"/> ha estado lanzando su módulo de aterrizaje, llamado <Node id="63"/>Blue Moon<Node id="72"/>, desde <Node id="80"/>2017<Node id="84"/>, y <Node id="88"/>Bezos<Node id="93"/> ha dicho que él mismo invertiría fuertemente en él. El <Node id="149"/>año<Node id="152"/> pasado, <Node id="161"/>Blue Origin<Node id="172"/> anunció que se asociaría en el proyecto con <Node id="217"/>Lockheed Martin<Node id="232"/>, <Node id="234"/>Northrop Grumman<Node id="250"/> y <Node id="253"/>Draper<Node id="259"/>: “Un equipo nacional para una prioridad nacional”, dijo <Node id="316"/>Bezos<Node id="321"/> al respecto. “Este es el tipo de cosas que son tan ambiciosas que deben hacerse con socios. Esta es la única manera de volver a la <Node id="453"/>Luna<Node id="457"/> rápido. No vamos a volver a la <Node id="489"/>Luna<Node id="493"/> para visitarla. Vamos a volver a la <Node id="530"/>Luna<Node id="534"/> para quedarnos.”
+<Node id="552"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="63" EndNode="72">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="80" EndNode="84">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="88" EndNode="93">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="149" EndNode="152">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="161" EndNode="172">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="217" EndNode="232">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="234" EndNode="250">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="253" EndNode="259">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="316" EndNode="321">
+</Annotation>
+<Annotation Id="11" Type="LOC" StartNode="453" EndNode="457">
+</Annotation>
+<Annotation Id="12" Type="LOC" StartNode="489" EndNode="493">
+</Annotation>
+<Annotation Id="13" Type="LOC" StartNode="530" EndNode="534">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="552">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

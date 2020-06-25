@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_1_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Captura de la señal institucional de <Node id="37"/>Moncloa<Node id="44"/> de la <Node id="51"/>vicepresidenta económica<Node id="75"/>, <Node id="77"/>Nadia Calviño<Node id="90"/> (d) y la <Node id="100"/>ministra Portavoz<Node id="117"/>, <Node id="119"/>María Jesús Montero<Node id="138"/>, durante la rueda de prensa posterior a la reunión del <Node id="194"/>Consejo de Ministros<Node id="214"/>, <Node id="216"/>este martes<Node id="227"/> en <Node id="231"/>Moncloa<Node id="238"/>. <Node id="240"/>EFE<Node id="243"/>/<Node id="244"/>Moncloa<Node id="251"/>
+	   
+<Node id="257"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="37" EndNode="44">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="51" EndNode="75">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="77" EndNode="90">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="100" EndNode="117">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="119" EndNode="138">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="194" EndNode="214">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="216" EndNode="227">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="231" EndNode="238">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="240" EndNode="243">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="244" EndNode="251">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="257">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

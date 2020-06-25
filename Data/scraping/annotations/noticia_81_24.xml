@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_24.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Si no vive en una <Node id="18"/>zona<Node id="22"/> con <Node id="27"/>paludismo<Node id="36"/> (<Node id="38"/>malaria<Node id="45"/>) o <Node id="49"/>dengue<Node id="55"/>, por favor haga lo siguiente:
+<Node id="86"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="18" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="27" EndNode="36">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="38" EndNode="45">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="49" EndNode="55">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="86">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

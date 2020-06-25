@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_64_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Tela<Node id="4"/>, <Node id="6"/>papel<Node id="11"/> de <Node id="15"/>cocina<Node id="21"/>, <Node id="23"/>filtros<Node id="30"/> de <Node id="34"/>café<Node id="38"/>, <Node id="40"/>botellas<Node id="48"/> de <Node id="52"/>plástico<Node id="60"/>... Es muy variada la lista de <Node id="91"/>materiales<Node id="101"/> entre los que se puede elegir si se buscan tutoriales en <Node id="159"/>internet<Node id="167"/> para confeccionar <Node id="186"/>mascarillas<Node id="197"/> artesanales, pero las opiniones sobre su verdadera eficacia frente al <Node id="268"/>coronavirus<Node id="279"/> son también muy distintas según los <Node id="316"/>especialistas<Node id="329"/> o los <Node id="336"/>organismos sanitarios<Node id="357"/> que se consulten.
+<Node id="376"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="6" EndNode="11">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="15" EndNode="21">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="6" EndNode="21">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="23" EndNode="30">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="34" EndNode="38">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="40" EndNode="48">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="52" EndNode="60">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="23" EndNode="38">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="40" EndNode="60">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="91" EndNode="101">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="159" EndNode="167">
+</Annotation>
+<Annotation Id="13" Type="MEDTERM" StartNode="186" EndNode="197">
+</Annotation>
+<Annotation Id="14" Type="DISEASE" StartNode="268" EndNode="279">
+</Annotation>
+<Annotation Id="15" Type="JOB" StartNode="316" EndNode="329">
+</Annotation>
+<Annotation Id="16" Type="ORG" StartNode="336" EndNode="357">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="376">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

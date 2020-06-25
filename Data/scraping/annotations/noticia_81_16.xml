@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Cuando sea posible, mantenga al menos un metro (<Node id="48"/>3<Node id="49"/> pies) de distancia entre usted y los demás. Esto es especialmente importante si está al lado de alguien que esté tosiendo o estornudando. Dado que es posible que algunas
+    personas infectadas aún no presenten <Node id="261"/>síntomas<Node id="269"/> o que sus <Node id="280"/>síntomas<Node id="288"/> sean leves, conviene que mantenga una distancia física con todas las personas si se encuentra en una zona donde circule el <Node id="412"/>virus<Node id="417"/> de la <Node id="424"/>COVID‑19<Node id="432"/>.
+<Node id="434"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="48" EndNode="49">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="261" EndNode="269">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="280" EndNode="288">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="412" EndNode="417">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="424" EndNode="432">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="434">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_70_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por su parte, el <Node id="17"/>excapitán<Node id="26"/> del <Node id="31"/>XV<Node id="33"/> del León relatará algunas de sus mejores anécdotas de sus <Node id="92"/>años<Node id="96"/> en la <Node id="103"/>selección<Node id="112"/> que actualmente dirige <Node id="136"/>Santi Santos<Node id="148"/>, pues no en vano es el <Node id="172"/>segundo<Node id="179"/> jugador con más <Node id="196"/>partidos<Node id="204"/>, <Node id="206"/>79<Node id="208"/>, solo por detrás de <Node id="229"/>Fran Puertas<Node id="241"/> (<Node id="243"/>93<Node id="245"/>) y por delante de <Node id="264"/>Jon Azkargorta<Node id="278"/> (<Node id="280"/>76<Node id="282"/>), <Node id="285"/>José Julio Álvarez Ruiz de Temiño<Node id="318"/> (<Node id="320"/>75<Node id="322"/>), <Node id="325"/>Albert Malo<Node id="336"/> (<Node id="338"/>74<Node id="340"/>) y <Node id="344"/>Álvar Enciso<Node id="356"/> (<Node id="358"/>70<Node id="360"/>). 
+<Node id="364"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="17" EndNode="26">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="31" EndNode="33">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="92" EndNode="96">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="103" EndNode="112">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="136" EndNode="148">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="172" EndNode="179">
+</Annotation>
+<Annotation Id="7" Type="SPORT" StartNode="196" EndNode="204">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="206" EndNode="208">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="243" EndNode="245">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="280" EndNode="282">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="320" EndNode="322">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="338" EndNode="340">
+</Annotation>
+<Annotation Id="13" Type="QUANT" StartNode="358" EndNode="360">
+</Annotation>
+<Annotation Id="14" Type="PER" StartNode="229" EndNode="241">
+</Annotation>
+<Annotation Id="15" Type="PER" StartNode="264" EndNode="278">
+</Annotation>
+<Annotation Id="16" Type="PER" StartNode="285" EndNode="318">
+</Annotation>
+<Annotation Id="17" Type="PER" StartNode="325" EndNode="336">
+</Annotation>
+<Annotation Id="18" Type="PER" StartNode="344" EndNode="356">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="364">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

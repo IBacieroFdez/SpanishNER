@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_53_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>letrados<Node id="12"/> que asisten a <Node id="27"/>Puigdemont<Node id="37"/> y sus <Node id="44"/>exconsejeros<Node id="56"/> en <Node id="60"/>Bélgica<Node id="67"/> han explicado que recurrirán porque consideran que "la interpretación que hace el <Node id="150"/>tribunal<Node id="158"/> es incompatible con el espacio común de justicia europeo".
+<Node id="218"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="4" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="27" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="44" EndNode="56">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="60" EndNode="67">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="150" EndNode="158">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="218">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

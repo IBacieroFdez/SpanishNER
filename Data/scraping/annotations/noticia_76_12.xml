@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_76_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Carles Marcos i Guàrdia<Node id="23"/>, <Node id="25"/>Country Manager<Node id="40"/> de <Node id="44"/>Qonto<Node id="49"/> en <Node id="53"/>España<Node id="59"/>, asegura que “estamos viviendo momentos difíciles en la economía y las <Node id="131"/>Fintech<Node id="138"/> tenemos la responsabilidad de aportar <Node id="177"/>soluciones<Node id="187"/>. Estar cerca de nuestros clientes y facilitarles su labor profesional es fundamental. Para ello, la <Node id="288"/>tecnología<Node id="298"/> juega un papel clave y su uso durante esta <Node id="342"/>crisis<Node id="348"/> <Node id="349"/>sanitaria<Node id="358"/> está permitiendo identificar los <Node id="392"/>actores<Node id="399"/> que no están preparados para los cambios que se avecinan, además de acelerar la penetración de los <Node id="499"/>neobancos<Node id="508"/> al ser capaces de dar una respuesta a necesidades reales de <Node id="569"/>empresas<Node id="577"/> y clientes particulares”.
+<Node id="604"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="23">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="25" EndNode="40">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="44" EndNode="49">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="53" EndNode="59">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="131" EndNode="138">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="177" EndNode="187">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="288" EndNode="298">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="342" EndNode="348">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="349" EndNode="358">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="392" EndNode="399">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="499" EndNode="508">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="569" EndNode="577">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="604">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

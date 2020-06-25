@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/paracetamol_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>No se tomarán más de <Node id="21"/>4<Node id="22"/> <Node id="23"/>comprimidos<Node id="34"/> (<Node id="36"/>4<Node id="37"/> g) en <Node id="44"/>24<Node id="46"/> horas. <Node id="54"/>Pacientes<Node id="63"/> con <Node id="68"/>enfermedad<Node id="78"/> en el <Node id="85"/>hígado<Node id="91"/> o <Node id="94"/>riñón<Node id="99"/>: deben consultar a su <Node id="122"/>médico<Node id="128"/>. <Node id="130"/>Pacientes<Node id="139"/> de edad avanzada: deben consultar a su <Node id="179"/>médico<Node id="185"/>. Cuando se requiera la administración de <Node id="227"/>dosis<Node id="232"/> inferiores a <Node id="246"/>1<Node id="247"/> g de <Node id="253"/>paracetamol<Node id="264"/> por toma se deberán emplear otras presentaciones de <Node id="317"/>paracetamol<Node id="328"/> que se adapten a la <Node id="349"/>dosificación<Node id="361"/> requerida. <Node id="373"/>Paracetamol<Node id="384"/> <Node id="385"/>Kern Pharma<Node id="396"/> debe tomarse por vía <Node id="418"/>oral<Node id="422"/>. Según sus preferencias, los <Node id="452"/>comprimidos<Node id="463"/> se pueden ingerir directamente o partidos por la <Node id="513"/>mitad<Node id="518"/> con <Node id="523"/>agua<Node id="527"/> u otro <Node id="535"/>líquido<Node id="542"/>.
+<Node id="544"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="21" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="36" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="44" EndNode="46">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="246" EndNode="247">
+</Annotation>
+<Annotation Id="6" Type="DRUG" StartNode="23" EndNode="34">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="54" EndNode="63">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="68" EndNode="78">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="85" EndNode="91">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="94" EndNode="99">
+</Annotation>
+<Annotation Id="11" Type="JOB" StartNode="122" EndNode="128">
+</Annotation>
+<Annotation Id="12" Type="MEDTERM" StartNode="130" EndNode="139">
+</Annotation>
+<Annotation Id="13" Type="JOB" StartNode="179" EndNode="185">
+</Annotation>
+<Annotation Id="14" Type="SCITERM" StartNode="227" EndNode="232">
+</Annotation>
+<Annotation Id="15" Type="DRUG" StartNode="253" EndNode="264">
+</Annotation>
+<Annotation Id="16" Type="DRUG" StartNode="317" EndNode="328">
+</Annotation>
+<Annotation Id="17" Type="SCITERM" StartNode="349" EndNode="361">
+</Annotation>
+<Annotation Id="18" Type="DRUG" StartNode="373" EndNode="384">
+</Annotation>
+<Annotation Id="19" Type="ORG" StartNode="385" EndNode="396">
+</Annotation>
+<Annotation Id="20" Type="MEDTERM" StartNode="418" EndNode="422">
+</Annotation>
+<Annotation Id="21" Type="DRUG" StartNode="452" EndNode="463">
+</Annotation>
+<Annotation Id="22" Type="PRODUCT" StartNode="523" EndNode="527">
+</Annotation>
+<Annotation Id="23" Type="PRODUCT" StartNode="535" EndNode="542">
+</Annotation>
+<Annotation Id="24" Type="QUANT" StartNode="513" EndNode="518">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="544">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

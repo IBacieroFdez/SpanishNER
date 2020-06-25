@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_42_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En relación al ERTE ha señalado que se trata de una "situación especial, <Node id="73"/>temporal<Node id="81"/> y desde todo punto de vista no deseado". Por su parte, desde el <Node id="146"/>sindicato CCOO<Node id="160"/> ha precisado que siguen reclamando al <Node id="199"/>Grupo Tendam<Node id="211"/> el devengo del <Node id="227"/>100 %<Node id="232"/> de las <Node id="240"/>pagas<Node id="245"/> extras y del <Node id="259"/>periodo vacacional<Node id="277"/>, y que la <Node id="288"/>empresa<Node id="295"/> adelante las cuantías de las prestaciones por desempleo en su integridad. 
+<Node id="371"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="73" EndNode="81">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="146" EndNode="160">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="199" EndNode="211">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="227" EndNode="232">
+</Annotation>
+<Annotation Id="5" Type="MONEY" StartNode="240" EndNode="245">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="259" EndNode="277">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="288" EndNode="295">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="371">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

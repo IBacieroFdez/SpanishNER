@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_23_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ayman Odeh<Node id="10"/>, <Node id="12"/>líder<Node id="17"/> de la <Node id="24"/>Lista Unida<Node id="35"/> <Node id="36"/>árabe<Node id="41"/>, que recomendó a <Node id="59"/>Gantz<Node id="64"/> para el cargo tras las <Node id="88"/>elecciones<Node id="98"/>, acusó al <Node id="109"/>centrista<Node id="118"/> de no tener el "coraje suficiente para triunfar y optó por legitimar la <Node id="191"/>anexión<Node id="198"/>, el racismo y la corrupción".
+<Node id="229"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="10">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="12" EndNode="17">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="24" EndNode="35">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="36" EndNode="41">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="59" EndNode="64">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="88" EndNode="98">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="109" EndNode="118">
+</Annotation>
+<Annotation Id="9" Type="EVENT" StartNode="191" EndNode="198">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="229">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

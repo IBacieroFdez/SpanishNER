@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_28_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Pero no será necesario mirar hacia ella para tener la oportunidad de pedir deseo, y bastará con fijar la vista en un punto cualquiera del <Node id="138"/>firmamento<Node id="148"/> y esperar, pacientemente, durante <Node id="183"/>15<Node id="185"/> o <Node id="188"/>20<Node id="190"/> <Node id="191"/>minutos<Node id="198"/>, señala el <Node id="210"/>IAC<Node id="213"/>.
+<Node id="215"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="138" EndNode="148">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="183" EndNode="185">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="188" EndNode="190">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="191" EndNode="198">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="210" EndNode="213">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="215">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

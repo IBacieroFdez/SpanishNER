@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_79_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>movimiento ciudadano<Node id="23"/> <Node id="24"/>Avaaz<Node id="29"/> asegura que la <Node id="45"/>compañía<Node id="53"/> de <Node id="57"/>Mark Zuckerberg<Node id="72"/> ha puesto esta medida en marcha tras descubrir ellos que <Node id="130"/>Facebook<Node id="138"/> "no protegía a <Node id="154"/>millones<Node id="162"/> de usuarios contra la desinformación sobre <Node id="206"/>COVID-19<Node id="214"/>".
+<Node id="217"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="NORP" StartNode="3" EndNode="23">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="57" EndNode="72">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="45" EndNode="53">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="130" EndNode="138">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="154" EndNode="162">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="206" EndNode="214">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="24" EndNode="29">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="217">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

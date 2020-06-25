@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_74_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>sector de la aviación<Node id="24"/> está siendo uno de los que más está sufriendo las consecuencias económicas del <Node id="104"/>coronavirus<Node id="115"/>, con el tráfico aéreo prácticamente paralizado en <Node id="166"/>varias<Node id="172"/> <Node id="173"/>regiones<Node id="181"/> del <Node id="186"/>mundo<Node id="191"/>. 
+<Node id="194"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="3" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="104" EndNode="115">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="173" EndNode="181">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="186" EndNode="191">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="166" EndNode="172">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="194">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

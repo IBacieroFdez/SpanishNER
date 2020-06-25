@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_55_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En <Node id="3"/>Madrid<Node id="9"/>, la <Node id="14"/>Asociación de Médicos y Titulados Superiores<Node id="58"/> de <Node id="62"/>Madrid<Node id="68"/> (<Node id="70"/>Amyts<Node id="75"/>) cree que la cifra de <Node id="98"/>100.000<Node id="105"/> <Node id="106"/>mascarillas<Node id="117"/> defectuosas que se está "manejando" es menor a la real, por lo que ha insistido en la necesidad de tener "datos oficiales".
+<Node id="242"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="3" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="14" EndNode="58">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="62" EndNode="68">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="70" EndNode="75">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="98" EndNode="105">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="106" EndNode="117">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="242">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

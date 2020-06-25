@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_51_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>También modificó sus <Node id="21"/>fechas<Node id="27"/> la de <Node id="34"/>Bruselas<Node id="42"/> de <Node id="46"/>1958<Node id="50"/> y fue anulada la de <Node id="71"/>Filadelfia<Node id="81"/> de <Node id="85"/>1976<Node id="89"/>, mientras que <Node id="104"/>Moscú<Node id="109"/> cedió la edición de <Node id="130"/>1967<Node id="134"/> a <Node id="137"/>Montreal<Node id="145"/> y <Node id="148"/>Chicago<Node id="155"/> la de <Node id="162"/>1992<Node id="166"/> a <Node id="169"/>Sevilla<Node id="176"/>.
+<Node id="178"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="21" EndNode="27">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="46" EndNode="50">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="85" EndNode="89">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="130" EndNode="134">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="162" EndNode="166">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="34" EndNode="42">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="71" EndNode="81">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="104" EndNode="109">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="137" EndNode="145">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="148" EndNode="155">
+</Annotation>
+<Annotation Id="12" Type="GPE" StartNode="169" EndNode="176">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="178">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

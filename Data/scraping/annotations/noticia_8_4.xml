@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_8_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>
+<Node id="1"/>Aunque a lo largo de su historia ha habido varias suspensiones de las fiestas en honor de San Fermín, es la primera vez en los dos últimos siglos que se toma esta decisión por una epidemia, pese a que las ha habido de cólera o gripe española, según recuerda el historiador Miguel Izu. La última suspensión fue parcial, durante un día, y tuvo lugar en 1997 por el asesinato del concejal del PP Miguel Ángel Blanco a manos de ETA. 
+<Node id="431"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="1" EndNode="431">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

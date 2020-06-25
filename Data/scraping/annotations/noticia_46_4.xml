@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_46_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Iberdrola<Node id="9"/>, de acuerdo con las <Node id="30"/>instituciones<Node id="43"/> competentes, está cerrando compras de <Node id="82"/>respiradores<Node id="94"/>, <Node id="96"/>trajes sanitarios<Node id="113"/> y <Node id="116"/>mascarillas<Node id="127"/> para poner a disposición de las <Node id="160"/>autoridades sanitarias<Node id="182"/> 
+<Node id="184"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="30" EndNode="43">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="184">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="82" EndNode="94">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="96" EndNode="113">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="116" EndNode="127">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="160" EndNode="182">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

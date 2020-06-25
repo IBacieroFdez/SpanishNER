@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_103_18.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Llegamos así al <Node id="16"/>11 de mayo<Node id="26"/>, cuando <Node id="35"/>Elon Musk<Node id="44"/> publicó en su perfil de <Node id="69"/>Twitter<Node id="76"/> que <Node id="81"/>Tesla<Node id="86"/> va a retomar la producción "contra las reglas del <Node id="137"/>condado<Node id="144"/> de <Node id="148"/>Alameda<Node id="155"/>". Asegura que él estará en la <Node id="186"/>planta<Node id="192"/> con todos los demás y que "si alguien es arrestado, pido ser solo yo". De acuerdo a las FAQ del <Node id="289"/>condado<Node id="296"/> de <Node id="300"/>Alameda<Node id="307"/>, es un delito violar la orden y puede ser castigado con una multa o incluso encarcelamiento.
+<Node id="401"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="16" EndNode="26">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="35" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="69" EndNode="76">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="81" EndNode="86">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="137" EndNode="144">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="148" EndNode="155">
+</Annotation>
+<Annotation Id="7" Type="FAC" StartNode="186" EndNode="192">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="289" EndNode="296">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="300" EndNode="307">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="401">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

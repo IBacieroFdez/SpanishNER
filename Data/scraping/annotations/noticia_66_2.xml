@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_66_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Nos van a fumigar", proclaman algunos de estos mensajes en <Node id="60"/>Twitter<Node id="67"/>, mientras que otros aseguran que el Boletín Oficial del Estado (BOE) del pasado <Node id="148"/>viernes 17<Node id="158"/> "permite fumigar desde <Node id="182"/>aviones<Node id="189"/> a la población". En parecidos términos, un digital afirmaba que "el <Node id="258"/>Gobierno<Node id="266"/> ordena al <Node id="277"/>Ejército<Node id="285"/> fumigar <Node id="294"/>productos químicos<Node id="312"/> desde <Node id="319"/>aviones<Node id="326"/> para intentar frenar el <Node id="351"/>virus<Node id="356"/>".
+<Node id="359"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="60" EndNode="67">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="148" EndNode="158">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="182" EndNode="189">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="351" EndNode="356">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="258" EndNode="266">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="277" EndNode="285">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="294" EndNode="312">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="319" EndNode="326">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="359">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

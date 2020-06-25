@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_101_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Como en la sesión del <Node id="22"/>lunes<Node id="27"/>, los <Node id="33"/>jugadores<Node id="42"/> trabajaron de forma individual con y sin <Node id="84"/>balón<Node id="89"/>. No más de <Node id="101"/>once<Node id="105"/> <Node id="106"/>jugadores<Node id="115"/> sobre un mismo <Node id="131"/>campo<Node id="136"/>, para poder respetar las distancias, a las órdenes de <Node id="191"/>Zidane<Node id="197"/>, siempre con <Node id="211"/>mascarilla<Node id="221"/> y <Node id="224"/>guantes<Node id="231"/>.
+<Node id="233"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="22" EndNode="27">
+</Annotation>
+<Annotation Id="2" Type="SPORT" StartNode="33" EndNode="42">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="84" EndNode="89">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="101" EndNode="105">
+</Annotation>
+<Annotation Id="5" Type="SPORT" StartNode="106" EndNode="115">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="131" EndNode="136">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="191" EndNode="197">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="211" EndNode="221">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="224" EndNode="231">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="233">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

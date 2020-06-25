@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_35_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Su leyenda se engrandeció con su participación y victoria en los <Node id="65"/>rallies<Node id="72"/> de <Node id="76"/>Lieja<Node id="81"/>-<Node id="82"/>Roma<Node id="86"/>-<Node id="87"/>Lieja<Node id="92"/> (<Node id="94"/>1960<Node id="98"/>), <Node id="101"/>Tour de Corse<Node id="114"/> (<Node id="116"/>1963<Node id="120"/>), <Node id="123"/>East African Safary<Node id="142"/> (<Node id="144"/>1965<Node id="148"/>), <Node id="151"/>Montercarlo<Node id="162"/> (<Node id="164"/>1966<Node id="168"/>) o <Node id="172"/>Portugal<Node id="180"/> (<Node id="182"/>1969<Node id="186"/>).
+<Node id="189"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="65" EndNode="72">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="76" EndNode="81">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="82" EndNode="86">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="87" EndNode="92">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="94" EndNode="98">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="101" EndNode="114">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="123" EndNode="142">
+</Annotation>
+<Annotation Id="9" Type="EVENT" StartNode="151" EndNode="162">
+</Annotation>
+<Annotation Id="10" Type="EVENT" StartNode="172" EndNode="180">
+</Annotation>
+<Annotation Id="11" Type="DATE" StartNode="116" EndNode="120">
+</Annotation>
+<Annotation Id="12" Type="DATE" StartNode="164" EndNode="168">
+</Annotation>
+<Annotation Id="13" Type="DATE" StartNode="144" EndNode="148">
+</Annotation>
+<Annotation Id="14" Type="DATE" StartNode="182" EndNode="186">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="189">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

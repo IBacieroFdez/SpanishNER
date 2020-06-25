@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_78_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>A través de la web Conéctate desde donde estés, la red de emprendimiento recoge los <Node id="84"/>servicios<Node id="93"/> y <Node id="96"/>herramientas<Node id="108"/> que continúan operativos durante el <Node id="145"/>confinamiento<Node id="158"/>, como asesoría para organizar eventos online, consultoría para proyectos de impacto o la Impacteca, su <Node id="262"/>biblioteca<Node id="272"/> digital. Y prepara el lanzamiento de la Community <Node id="323"/>app<Node id="326"/>, una plataforma global para generar conversaciones, ventajas y grupos de interés entre los <Node id="418"/>profesionales<Node id="431"/> de los <Node id="439"/>Impact Hub<Node id="449"/> en <Node id="453"/>ciudades<Node id="461"/> y <Node id="464"/>países<Node id="470"/> de todo el <Node id="482"/>mundo<Node id="487"/>.
+<Node id="489"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="84" EndNode="93">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="96" EndNode="108">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="262" EndNode="272">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="323" EndNode="326">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="145" EndNode="158">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="418" EndNode="431">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="439" EndNode="449">
+</Annotation>
+<Annotation Id="8" Type="LANG" StartNode="453" EndNode="461">
+</Annotation>
+<Annotation Id="9" Type="LANG" StartNode="464" EndNode="470">
+</Annotation>
+<Annotation Id="10" Type="LANG" StartNode="482" EndNode="487">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="489">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

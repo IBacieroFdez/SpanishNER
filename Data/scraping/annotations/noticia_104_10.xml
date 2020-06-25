@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_104_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Aunque los <Node id="11"/>astronautas<Node id="22"/> sólo estarían en la superficie de la <Node id="60"/>Luna<Node id="64"/> durante unos <Node id="78"/>días<Node id="82"/>, como en el caso de Apolo, el objetivo sería estudiar la <Node id="140"/>región<Node id="146"/> alrededor del <Node id="161"/>polo sur<Node id="169"/> lunar para ayudar a la <Node id="193"/>NASA<Node id="197"/> a establecer una presencia permanente allí. La <Node id="245"/>NASA<Node id="249"/> está particularmente interesada en el <Node id="288"/>hielo<Node id="293"/> descubierto en los <Node id="313"/>cráteres<Node id="321"/> en sombra perpetua, y en cómo podría ser usado para sostener la vida e incluso ser convertido en <Node id="419"/>combustible<Node id="430"/> para <Node id="436"/>cohetes<Node id="443"/>.
+<Node id="445"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="11" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="60" EndNode="64">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="78" EndNode="82">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="140" EndNode="146">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="161" EndNode="169">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="193" EndNode="197">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="245" EndNode="249">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="288" EndNode="293">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="313" EndNode="321">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="419" EndNode="430">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="436" EndNode="443">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="445">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

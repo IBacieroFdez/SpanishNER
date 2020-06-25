@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_17_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>También llegan después de <Node id="26"/>tres<Node id="30"/> ausencias notables del <Node id="54"/>dictador<Node id="62"/> en diferentes eventos de peso para el <Node id="101"/>régimen<Node id="108"/>, empezando por la sesión de la <Node id="140"/>Asamblea Popular Suprema<Node id="164"/> (<Node id="166"/>Parlamento<Node id="176"/>) que se celebró -sin explicación- con <Node id="215"/>dos días de retraso<Node id="234"/>, el <Node id="239"/>12 de abril<Node id="250"/>, y sin que <Node id="262"/>Kim<Node id="265"/> estuviera presente.
+<Node id="286"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="26" EndNode="30">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="54" EndNode="62">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="101" EndNode="108">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="140" EndNode="164">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="166" EndNode="176">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="215" EndNode="234">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="239" EndNode="250">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="262" EndNode="265">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="286">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

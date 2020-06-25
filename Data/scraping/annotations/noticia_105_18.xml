@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_105_18.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Hablemos de la bromita (de bastante mal gusto) de <Node id="50"/>Khloé Kardashian<Node id="66"/> a <Node id="69"/>Kourtney<Node id="77"/> que ha enfurecido a <Node id="98"/>Twitter<Node id="105"/> (y con razón)
+<Node id="120"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="50" EndNode="66">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="69" EndNode="77">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="98" EndNode="105">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="120">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

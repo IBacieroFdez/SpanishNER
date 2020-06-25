@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_66_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>- Cuenta de <Node id="12"/>Twitter<Node id="19"/> del equipo de <Node id="34"/>voluntarios<Node id="45"/> digitales en emergencias (<Node id="72"/>VOST<Node id="76"/>) de la <Node id="84"/>Comunidad Valenciana<Node id="104"/>. 
+<Node id="107"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="12" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="34" EndNode="45">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="72" EndNode="76">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="84" EndNode="104">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="107">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

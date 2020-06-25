@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La pérdida total del <Node id="21"/>olfato<Node id="27"/> o <Node id="30"/>anosmia<Node id="37"/> es uno de los <Node id="52"/>síntomas<Node id="60"/> que han aflorado como más frecuentes entre los <Node id="108"/>pacientes<Node id="117"/> con <Node id="122"/>coronavirus<Node id="133"/> en <Node id="137"/>España<Node id="143"/> -algunos estudios hablan del <Node id="173"/>80 %<Node id="177"/> de afectados- algo que en <Node id="204"/>China<Node id="209"/> ocurrió en mucha menor medida, una diferencia sobre la cual hay varias hipótesis pero ninguna certeza.
+<Node id="313"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="21" EndNode="27">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="30" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="122" EndNode="133">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="52" EndNode="60">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="108" EndNode="117">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="137" EndNode="143">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="173" EndNode="177">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="204" EndNode="209">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="313">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

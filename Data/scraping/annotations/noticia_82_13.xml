@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_82_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>No se deben utilizar <Node id="21"/>lámparas ultravioletas<Node id="43"/> para esterilizar las manos u otras partes del cuerpo, ya que la <Node id="108"/>radiación ultravioleta<Node id="130"/> puede causar <Node id="144"/>eritemas<Node id="152"/> (<Node id="154"/>irritación<Node id="164"/> de la piel). 
+<Node id="179"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="21" EndNode="43">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="108" EndNode="130">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="144" EndNode="152">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="154" EndNode="164">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="179">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

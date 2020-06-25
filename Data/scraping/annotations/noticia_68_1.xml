@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Samaranch<Node id="9"/> durante la <Node id="21"/>inauguración<Node id="33"/> de los <Node id="41"/>Juegos<Node id="47"/> de <Node id="51"/>Barcelona 92<Node id="63"/>. <Node id="65"/>Foto<Node id="69"/> Archivo <Node id="78"/>EFE<Node id="81"/>
+	   
+<Node id="87"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="21" EndNode="33">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="41" EndNode="47">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="51" EndNode="63">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="65" EndNode="69">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="78" EndNode="81">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="87">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

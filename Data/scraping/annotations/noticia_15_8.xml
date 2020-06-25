@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_15_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Con el refuerzo del plan de contingencia por el <Node id="48"/>coronavirus<Node id="59"/> contra la violencia de género, el <Node id="94"/>Gobierno<Node id="102"/> explica que cumple con la advertencia del <Node id="145"/>Consejo de Derechos Humanos<Node id="172"/> de las <Node id="180"/>Naciones Unidas<Node id="195"/> de que los <Node id="207"/>Estados<Node id="214"/> deben tomar medidas adicionales de protección social para que su apoyo alcance a aquellas personas en mayor riesgo de ser afectadas de manera desproporcional por la <Node id="380"/>crisis<Node id="386"/> de <Node id="390"/>COVID-19<Node id="398"/>.
+<Node id="400"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="48" EndNode="59">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="94" EndNode="102">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="145" EndNode="172">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="180" EndNode="195">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="207" EndNode="214">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="380" EndNode="386">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="390" EndNode="398">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="400">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

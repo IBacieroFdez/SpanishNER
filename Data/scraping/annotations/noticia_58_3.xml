@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_58_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Álvarez de Toledo<Node id="17"/> ha manifestado su alegría por el acuerdo alcanzado ayer entre el <Node id="83"/>líder<Node id="88"/> del <Node id="93"/>PP<Node id="95"/>, <Node id="97"/>Pablo Casado<Node id="109"/>, y el <Node id="116"/>presidente<Node id="126"/> del <Node id="131"/>Gobierno<Node id="139"/>, <Node id="141"/>Pedro Sánchez<Node id="154"/>, para crear esta <Node id="172"/>comisión<Node id="180"/> que debe empezar a trabajar "cuanto <Node id="217"/>antes<Node id="222"/>", ha afirmado, para lo que su partido llevará una propuesta a la <Node id="288"/>Mesa del Congreso y la Junta<Node id="316"/>.
+<Node id="318"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="17">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="83" EndNode="88">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="93" EndNode="95">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="97" EndNode="109">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="116" EndNode="126">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="131" EndNode="139">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="141" EndNode="154">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="172" EndNode="180">
+</Annotation>
+<Annotation Id="10" Type="TIME" StartNode="217" EndNode="222">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="288" EndNode="316">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="318">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_78_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Con el fin de ayudar a los <Node id="27"/>negocios<Node id="35"/> que más lo necesitan, la red de emprendimiento con impacto <Node id="95"/>Impact Hub<Node id="105"/> <Node id="106"/>Madrid<Node id="112"/> ha lanzado el Programa Impact Care, una iniciativa de asesoramiento de <Node id="184"/>expertos<Node id="192"/> para personas <Node id="207"/>emprendedoras<Node id="220"/>, <Node id="222"/>pymes<Node id="227"/> y <Node id="230"/>autónomos<Node id="239"/> frente al <Node id="250"/>coronavirus<Node id="261"/>, que de momento incluye dos servicios: asesoramiento empresarial (fiscal, <Node id="336"/>contable<Node id="344"/> y legal) y búsqueda de financiación en el marco de la <Node id="399"/>COVID-19<Node id="407"/>.
+<Node id="409"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="27" EndNode="35">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="95" EndNode="105">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="222" EndNode="227">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="106" EndNode="112">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="184" EndNode="192">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="207" EndNode="220">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="230" EndNode="239">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="336" EndNode="344">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="250" EndNode="261">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="399" EndNode="407">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="409">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

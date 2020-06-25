@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_42_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Asimismo, el <Node id="13"/>grupo Tendam<Node id="25"/> ha habilitado una <Node id="44"/>dirección<Node id="53"/> de <Node id="57"/>correo electrónico<Node id="75"/> para los <Node id="85"/>trabajadores<Node id="97"/> que quieran pedir dicho anticipo. 
+<Node id="133"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="13" EndNode="25">
+</Annotation>
+<Annotation Id="3" Type="ADDRESS" StartNode="44" EndNode="53">
+</Annotation>
+<Annotation Id="4" Type="ADDRESS" StartNode="57" EndNode="75">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="85" EndNode="97">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="133">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

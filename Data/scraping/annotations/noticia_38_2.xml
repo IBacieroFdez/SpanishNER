@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_38_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La edición <Node id="11"/>2020<Node id="15"/> de <Node id="19"/>DecorAcción<Node id="30"/> tenía ya <Node id="40"/>fecha<Node id="45"/> prevista en el calendario, del <Node id="77"/>11-14 de junio<Node id="91"/>, pero tanto el <Node id="107"/>Ayuntamiento de Madrid <Node id="130"/>como la <Node id="138"/>revista<Node id="145"/> <Node id="146"/>Nuevo Estilo<Node id="158"/> y <Node id="161"/>Acotex<Node id="167"/> (<Node id="169"/>Asociación Empresarial del Comercio Textil, complementos y Pie<Node id="231"/>l), <Node id="235"/>organizadores<Node id="248"/> del <Node id="253"/>evento<Node id="259"/>, ante la situación de <Node id="282"/>crisis<Node id="288"/> <Node id="289"/>sanitaria<Node id="298"/>, han decidido posponerlo hasta después del <Node id="342"/>verano<Node id="348"/> aunque no han concretado nuevas <Node id="381"/>fechas<Node id="387"/>. 
+<Node id="390"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="11" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="19" EndNode="30">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="40" EndNode="45">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="77" EndNode="91">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="107" EndNode="130">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="138" EndNode="145">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="146" EndNode="158">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="161" EndNode="167">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="169" EndNode="231">
+</Annotation>
+<Annotation Id="11" Type="JOB" StartNode="235" EndNode="248">
+</Annotation>
+<Annotation Id="12" Type="EVENT" StartNode="253" EndNode="259">
+</Annotation>
+<Annotation Id="13" Type="EVENT" StartNode="282" EndNode="288">
+</Annotation>
+<Annotation Id="14" Type="MEDTERM" StartNode="289" EndNode="298">
+</Annotation>
+<Annotation Id="15" Type="TIME" StartNode="342" EndNode="348">
+</Annotation>
+<Annotation Id="17" Type="DATE" StartNode="381" EndNode="387">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="390">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

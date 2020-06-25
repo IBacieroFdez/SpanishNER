@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_43_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La campaña se desarrollará a lo largo de esta <Node id="46"/>semana<Node id="52"/> en las <Node id="60"/>redes sociales<Node id="74"/> <Node id="75"/>institucionales<Node id="90"/> con la etiqueta #planificatuscompras.
+<Node id="129"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="60" EndNode="74">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="75" EndNode="90">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="46" EndNode="52">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="129">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

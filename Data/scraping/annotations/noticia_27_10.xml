@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_27_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>sociedad<Node id="11"/> tiene sus esperanzas puestas en el trabajo de los <Node id="62"/>científicos<Node id="73"/> y el <Node id="79"/>microbiólogo<Node id="91"/> confía en que “esto sea un aldabonazo para darnos cuenta de la importancia de la ciencia, que es una inversión de futuro”. Como tener un seguro de vida o un extintor en <Node id="261"/>casa<Node id="265"/>, “¡ojalá no tengas que usarlos nunca! Pero los necesitas”.
+<Node id="325"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="62" EndNode="73">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="79" EndNode="91">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="261" EndNode="265">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="325">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

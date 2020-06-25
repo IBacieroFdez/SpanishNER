@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_24_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>responsables<Node id="16"/> de esta investigación son <Node id="43"/>científicos<Node id="54"/> de la <Node id="61"/>Universidad de Salud y Ciencias<Node id="92"/> de <Node id="96"/>Oregón<Node id="102"/>, en <Node id="107"/>Portland<Node id="115"/>, y la <Node id="122"/>Fundación de Investigación VA<Node id="151"/> también de <Node id="163"/>Portland<Node id="171"/> (<Node id="173"/>Estados Unidos<Node id="187"/>).
+<Node id="190"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="4" EndNode="16">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="43" EndNode="54">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="61" EndNode="92">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="96" EndNode="102">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="107" EndNode="115">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="122" EndNode="151">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="163" EndNode="171">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="173" EndNode="187">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="190">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

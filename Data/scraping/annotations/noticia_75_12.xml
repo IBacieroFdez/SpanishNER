@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_75_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Asimismo, <Node id="10"/>eBay Fundation<Node id="24"/> donará <Node id="32"/>1 millón de dólares<Node id="51"/> para <Node id="57"/>España<Node id="63"/>, <Node id="65"/>Italia<Node id="71"/> y <Node id="74"/>Francia<Node id="81"/>. Así, cada <Node id="93"/>país<Node id="97"/> recibirá más de <Node id="114"/>300 mil dólares<Node id="129"/> que irán destinados a <Node id="152"/>Médicos Sin Fronteras<Node id="173"/> en <Node id="177"/>España<Node id="183"/>, a <Node id="187"/>La Cruz Roja<Node id="199"/> <Node id="200"/>italiana<Node id="208"/> y a la <Node id="216"/>Fundación Francia<Node id="233"/>.
+<Node id="235"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="GPE" StartNode="57" EndNode="63">
+</Annotation>
+<Annotation Id="1" Type="NORP" StartNode="10" EndNode="24">
+</Annotation>
+<Annotation Id="17" Type="GPE" StartNode="65" EndNode="71">
+</Annotation>
+<Annotation Id="18" Type="GPE" StartNode="74" EndNode="81">
+</Annotation>
+<Annotation Id="19" Type="LOC" StartNode="93" EndNode="97">
+</Annotation>
+<Annotation Id="20" Type="MONEY" StartNode="114" EndNode="129">
+</Annotation>
+<Annotation Id="21" Type="NORP" StartNode="152" EndNode="173">
+</Annotation>
+<Annotation Id="22" Type="GPE" StartNode="177" EndNode="183">
+</Annotation>
+<Annotation Id="23" Type="NORP" StartNode="187" EndNode="199">
+</Annotation>
+<Annotation Id="24" Type="NORP" StartNode="216" EndNode="233">
+</Annotation>
+<Annotation Id="25" Type="LANG" StartNode="200" EndNode="208">
+</Annotation>
+<Annotation Id="15" Type="MONEY" StartNode="32" EndNode="51">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="235">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

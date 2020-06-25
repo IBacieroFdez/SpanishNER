@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_106_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La estimación de este <Node id="22"/>modelo<Node id="28"/> se ubica entre <Node id="44"/>100.000<Node id="51"/> y <Node id="54"/>150.000 dólares<Node id="69"/>. Sin embargo, las marcas hechas por el propio <Node id="116"/>Jordan<Node id="122"/>, además de su firma estampada en ellas hace que <Node id="171"/>Geller<Node id="177"/> sea optimista y que hagan que su precio se dispare: "Existe una clara posibilidad de que derroten a los Moon Shoes", asegura. Sería un nuevo récord en la larga lista de récords de <Node id="358"/>Michael Jordan<Node id="372"/>.
+<Node id="374"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="22" EndNode="28">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="44" EndNode="51">
+</Annotation>
+<Annotation Id="3" Type="MONEY" StartNode="54" EndNode="69">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="116" EndNode="122">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="171" EndNode="177">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="358" EndNode="372">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="374">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

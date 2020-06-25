@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_57_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En <Node id="3"/>Castilla y León<Node id="18"/>, donde la <Node id="29"/>Fiscalía<Node id="37"/> tiene <Node id="44"/>siete<Node id="49"/> investigaciones penales abiertas con <Node id="87"/>residencias<Node id="98"/> afectadas en <Node id="112"/>Soria<Node id="117"/>, <Node id="119"/>Salamanca<Node id="128"/>, <Node id="130"/>León<Node id="134"/> y <Node id="137"/>Valladolid<Node id="147"/>, los datos facilitados este <Node id="176"/>martes<Node id="182"/> por la <Node id="190"/>Junta<Node id="195"/> muestran alarmantes cifras sobre la mortalidad en esos <Node id="251"/>centros<Node id="258"/>.
+<Node id="260"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="3" EndNode="18">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="29" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="44" EndNode="49">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="87" EndNode="98">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="112" EndNode="117">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="119" EndNode="128">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="130" EndNode="134">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="137" EndNode="147">
+</Annotation>
+<Annotation Id="9" Type="DATE" StartNode="176" EndNode="182">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="190" EndNode="195">
+</Annotation>
+<Annotation Id="11" Type="LOC" StartNode="251" EndNode="258">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="260">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

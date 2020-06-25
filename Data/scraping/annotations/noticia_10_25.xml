@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_25.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>presidente<Node id="13"/> de #<Node id="18"/>ESMO<Node id="22"/>, <Node id="24"/>Josep Tabernero<Node id="39"/>, afirma que en reuniones como #<Node id="71"/>ASCO19<Node id="77"/>, además de presentarse investigaciones y <Node id="119"/>avances científicos<Node id="138"/>, los <Node id="144"/>expertos<Node id="152"/> cada vez prestan más atención al control del <Node id="198"/>cáncer<Node id="204"/> y el acceso a las <Node id="223"/>medicamentos<Node id="235"/> y <Node id="238"/>tratamientos<Node id="250"/> en diferentes entornos. <Node id="275"/>pic.twitter.com/FOB1plwi0v<Node id="301"/>
+<Node id="302"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="18" EndNode="22">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="24" EndNode="39">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="71" EndNode="77">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="119" EndNode="138">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="144" EndNode="152">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="198" EndNode="204">
+</Annotation>
+<Annotation Id="8" Type="DRUG" StartNode="223" EndNode="235">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="238" EndNode="250">
+</Annotation>
+<Annotation Id="10" Type="ADDRESS" StartNode="275" EndNode="301">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="302">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

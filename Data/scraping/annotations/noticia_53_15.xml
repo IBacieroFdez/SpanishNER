@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_53_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En esa audiencia, a la que no acudieron ni <Node id="43"/>Llarena<Node id="50"/> ni <Node id="54"/>Puigdemont<Node id="64"/> ni <Node id="68"/>Puig<Node id="72"/>, pero a la que sí asistieron a una parte de la misma <Node id="126"/>Comín<Node id="131"/> y <Node id="134"/>Ponsatí<Node id="141"/>, la <Node id="146"/>presidenta<Node id="156"/> del <Node id="161"/>tribunal<Node id="169"/>, formado por <Node id="183"/>tres<Node id="187"/> <Node id="188"/>magistrados<Node id="199"/>, pidió a los <Node id="213"/>abogados<Node id="221"/> de los <Node id="229"/>políticos<Node id="238"/> independentistas que especificasen cuál es el daño del que los demandantes se consideran víctimas, pues no le había quedado claro.
+<Node id="370"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="43" EndNode="50">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="54" EndNode="64">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="68" EndNode="72">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="126" EndNode="131">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="134" EndNode="141">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="146" EndNode="156">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="161" EndNode="169">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="183" EndNode="187">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="188" EndNode="199">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="213" EndNode="221">
+</Annotation>
+<Annotation Id="11" Type="JOB" StartNode="229" EndNode="238">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="370">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

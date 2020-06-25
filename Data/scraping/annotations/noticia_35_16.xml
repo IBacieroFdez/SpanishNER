@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_35_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>DS<Node id="6"/> presidenciales de <Node id="25"/>Charles de Gaulle<Node id="42"/> y <Node id="45"/>Georges Pompidu<Node id="60"/> de <Node id="64"/>6,5<Node id="67"/> metros de largo, <Node id="85"/>madera<Node id="91"/>, <Node id="93"/>cuero<Node id="98"/> y <Node id="101"/>moqueta<Node id="108"/> especial. En el encargo de estos <Node id="142"/>vehículos<Node id="151"/> especiales se precisó que debían ser más grandes que el <Node id="208"/>Lincoln<Node id="215"/> utilizado por el <Node id="233"/>presidente<Node id="243"/> de <Node id="247"/>Estados Unidos<Node id="261"/>
+<Node id="262"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="4" EndNode="6">
+</Annotation>
+<Annotation Id="17" Type="PRODUCT" StartNode="142" EndNode="151">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="25" EndNode="42">
+</Annotation>
+<Annotation Id="18" Type="ORG" StartNode="208" EndNode="215">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="45" EndNode="60">
+</Annotation>
+<Annotation Id="19" Type="JOB" StartNode="233" EndNode="243">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="64" EndNode="67">
+</Annotation>
+<Annotation Id="20" Type="GPE" StartNode="247" EndNode="261">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="85" EndNode="91">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="101" EndNode="108">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="93" EndNode="98">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="262">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_14_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>Consejo de Ministros<Node id="23"/> ha aprobado <Node id="36"/>este martes<Node id="47"/> la exención del pago de IVA para el suministro de <Node id="98"/>material sanitario<Node id="116"/> a <Node id="119"/>instituciones públicas<Node id="141"/> y la bajada al <Node id="157"/>4 %<Node id="160"/> del de <Node id="168"/>libros<Node id="174"/> y <Node id="177"/>prensa<Node id="183"/> en formato electrónico, ha informado la <Node id="224"/>vicepresidenta<Node id="238"/> de <Node id="242"/>Asuntos Económicos<Node id="260"/>, <Node id="262"/>Nadia Calviño<Node id="275"/>.
+<Node id="277"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="23">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="36" EndNode="47">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="98" EndNode="116">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="119" EndNode="141">
+</Annotation>
+<Annotation Id="6" Type="PERCENT" StartNode="157" EndNode="160">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="168" EndNode="174">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="177" EndNode="183">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="224" EndNode="238">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="242" EndNode="260">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="262" EndNode="275">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="277">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

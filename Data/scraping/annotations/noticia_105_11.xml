@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_105_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Nuestros <Node id="9"/>periodistas<Node id="20"/> recomiendan de manera independiente <Node id="57"/>productos<Node id="66"/> y <Node id="69"/>servicios<Node id="78"/> que puedes comprar o adquirir en Internet. Cada vez que compras a través de algunos enlaces añadidos en nuestros textos, <Node id="200"/>Condenet Iberica S.L.<Node id="221"/> puede recibir una comisión. Lee aquí nuestra política de afiliación.
+<Node id="291"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="9" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="57" EndNode="66">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="69" EndNode="78">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="200" EndNode="221">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="291">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

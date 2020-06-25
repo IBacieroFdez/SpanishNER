@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_23_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La división de cargos otorgará al <Node id="34"/>Likud<Node id="39"/> de <Node id="43"/>Netanyahu<Node id="52"/> y a sus <Node id="61"/>aliados ultraortodoxos<Node id="83"/> y <Node id="86"/>ultraderechistas<Node id="102"/> las carteras de <Node id="119"/>Finanzas<Node id="127"/>, <Node id="129"/>Sanidad<Node id="136"/>, <Node id="138"/>Seguridad Interior<Node id="156"/> y <Node id="159"/>Educación<Node id="168"/>, entre otras, mientras que el Azul y Blanco de <Node id="216"/>Gantz<Node id="221"/> y sus posibles aliados del <Node id="249"/>Partido Laborista<Node id="266"/> obtendrán los <Node id="281"/>ministerios de Exteriores<Node id="306"/>, <Node id="308"/>Justicia<Node id="316"/>, <Node id="318"/>Cultura<Node id="325"/> y <Node id="328"/>Comunicaciones<Node id="342"/>, entre otros.
+<Node id="357"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="34" EndNode="39">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="43" EndNode="52">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="61" EndNode="83">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="86" EndNode="102">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="119" EndNode="127">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="138" EndNode="156">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="129" EndNode="136">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="159" EndNode="168">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="216" EndNode="221">
+</Annotation>
+<Annotation Id="10" Type="NORP" StartNode="249" EndNode="266">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="281" EndNode="306">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="318" EndNode="325">
+</Annotation>
+<Annotation Id="13" Type="ORG" StartNode="308" EndNode="316">
+</Annotation>
+<Annotation Id="14" Type="ORG" StartNode="328" EndNode="342">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="357">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

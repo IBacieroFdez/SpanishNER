@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_30_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Las destinadas a <Node id="17"/>Estados Unidos<Node id="31"/> aumentaron un <Node id="46"/>17 %<Node id="50"/>, hasta los <Node id="62"/>1.017 millones de euros<Node id="85"/>, y a <Node id="91"/>Marruecos<Node id="100"/>, un <Node id="105"/>5,6 %<Node id="110"/>, hasta los <Node id="122"/>964 millones<Node id="134"/>; mientras que a <Node id="151"/>China<Node id="156"/>, donde la producción de <Node id="181"/>vehículos<Node id="190"/> descendió un <Node id="204"/>9,12 %<Node id="210"/> en <Node id="214"/>2019<Node id="218"/>, sufrieron un desplome del <Node id="246"/>28,7 %<Node id="252"/>, rompiendo la tendencia positiva de los últimos <Node id="301"/>años<Node id="305"/>, al acusar la situación macroeconómica del <Node id="349"/>país<Node id="353"/> y la devaluación de su <Node id="377"/>moneda<Node id="383"/>.
+<Node id="385"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="17" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="PERCENT" StartNode="46" EndNode="50">
+</Annotation>
+<Annotation Id="4" Type="MONEY" StartNode="62" EndNode="85">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="91" EndNode="100">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="105" EndNode="110">
+</Annotation>
+<Annotation Id="8" Type="MONEY" StartNode="122" EndNode="134">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="151" EndNode="156">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="181" EndNode="190">
+</Annotation>
+<Annotation Id="11" Type="PERCENT" StartNode="204" EndNode="210">
+</Annotation>
+<Annotation Id="12" Type="DATE" StartNode="214" EndNode="218">
+</Annotation>
+<Annotation Id="13" Type="PERCENT" StartNode="246" EndNode="252">
+</Annotation>
+<Annotation Id="14" Type="TIME" StartNode="301" EndNode="305">
+</Annotation>
+<Annotation Id="15" Type="LOC" StartNode="349" EndNode="353">
+</Annotation>
+<Annotation Id="16" Type="MONEY" StartNode="377" EndNode="383">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="385">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

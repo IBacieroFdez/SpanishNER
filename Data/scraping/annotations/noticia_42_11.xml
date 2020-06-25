@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_42_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ha precisado que han estado involucrados en la producción y envío a <Node id="68"/>España<Node id="74"/> de más de <Node id="85"/>un millón de euros<Node id="103"/> en <Node id="107"/>material sanitario<Node id="125"/>, alguna parte con inversión <Node id="154"/>100 %<Node id="159"/> <Node id="160"/>Tendam<Node id="166"/> y en otros casos poniendo su capacidad de compras y logística al servicio de otras <Node id="250"/>empresas<Node id="258"/> como <Node id="264"/>Openbank<Node id="272"/> y <Node id="275"/>CLH<Node id="278"/>. 
+<Node id="281"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="68" EndNode="74">
+</Annotation>
+<Annotation Id="2" Type="MONEY" StartNode="85" EndNode="103">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="107" EndNode="125">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="154" EndNode="159">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="160" EndNode="166">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="250" EndNode="258">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="264" EndNode="272">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="275" EndNode="278">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="281">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

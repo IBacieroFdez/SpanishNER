@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_27_18.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Este <Node id="5"/>coronavirus<Node id="16"/> “no lo vamos a extinguir”, hay escasísimos casos de extinción como el <Node id="87"/>virus<Node id="92"/> de la <Node id="99"/>viruela<Node id="106"/>. El objetivo es que las <Node id="131"/>infecciones<Node id="142"/> que pueda seguir habiendo se detecten con rapidez y sean asumibles por el sistema sanitario. “Eso, ya es gestión política”, señala.
+<Node id="275"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="5" EndNode="16">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="87" EndNode="92">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="99" EndNode="106">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="131" EndNode="142">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="275">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

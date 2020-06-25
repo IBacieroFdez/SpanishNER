@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_43_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Asimismo, desde la <Node id="19"/>Secretaría de Estado de Comercio<Node id="51"/> se recuerda la importancia de respetar la distancia de seguridad en la compras y evitar los desplazamientos a otros <Node id="168"/>municipios<Node id="178"/>, al tiempo que reconoce la labor que están realizando los <Node id="237"/>trabajadores<Node id="249"/> de <Node id="253"/>mercados<Node id="261"/>, <Node id="263"/>supermercados<Node id="276"/>, <Node id="278"/>tiendas<Node id="285"/> y <Node id="288"/>farmacias<Node id="297"/>.
+<Node id="299"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="19" EndNode="51">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="168" EndNode="178">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="237" EndNode="249">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="253" EndNode="261">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="263" EndNode="276">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="278" EndNode="285">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="288" EndNode="297">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="299">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

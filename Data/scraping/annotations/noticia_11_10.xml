@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_11_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Vigilancia Aduanera<Node id="19"/> ha constatado que las <Node id="42"/>organizaciones<Node id="56"/> están intentando aprovechar la situación de <Node id="101"/>confinamiento<Node id="114"/> derivada de la <Node id="130"/>emergencia sanitaria<Node id="150"/> que se está produciendo <Node id="175"/>en todo el mundo<Node id="191"/> para incrementar su actividad, ante los cual las <Node id="241"/>aduanas<Node id="248"/> de todos los <Node id="262"/>países<Node id="268"/> han intensificado el control sobre el comercio exterior y han establecido canales de intercambio de información.
+<Node id="382"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="42" EndNode="56">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="101" EndNode="114">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="130" EndNode="150">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="175" EndNode="191">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="241" EndNode="248">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="262" EndNode="268">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="382">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

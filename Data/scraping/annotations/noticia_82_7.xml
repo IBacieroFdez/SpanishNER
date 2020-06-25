@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_82_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La mayoría de las personas que contraen la <Node id="43"/>COVID-19<Node id="51"/> pueden recuperarse y eliminar el <Node id="85"/>virus<Node id="90"/> de sus cuerpos. Si contrae la <Node id="121"/>enfermedad<Node id="131"/>, asegúrese de tratar sus <Node id="157"/>síntomas<Node id="165"/>. Si tiene <Node id="176"/>tos<Node id="179"/>, <Node id="181"/>fiebre<Node id="187"/> y dificultad para respirar, busque rápidamente
+    <Node id="239"/>atención médica<Node id="254"/>, pero antes llame por teléfono a su centro de salud. La mayoría de los pacientes se recuperan gracias a los cuidados de apoyo.
+<Node id="382"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="43" EndNode="51">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="85" EndNode="90">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="121" EndNode="131">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="157" EndNode="165">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="176" EndNode="179">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="181" EndNode="187">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="239" EndNode="254">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="382">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

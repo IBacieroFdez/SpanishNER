@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_82_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>¿Se puede matar el nuevo <Node id="25"/>coronavirus<Node id="36"/> con un <Node id="44"/>secador<Node id="51"/> de manos
+?No. Los <Node id="70"/>secadores<Node id="79"/> de manos no matan el
+    <Node id="105"/>2019-nCoV<Node id="114"/>. Para protegerse contra el nuevo <Node id="148"/>coronavirus<Node id="159"/> (<Node id="161"/>2019-nCoV<Node id="170"/>), lávese las manos frecuentemente con un <Node id="212"/>gel hidroalcohólico<Node id="231"/> o con <Node id="238"/>agua<Node id="242"/> y <Node id="245"/>jabón<Node id="250"/>. Una vez limpias, séqueselas bien con <Node id="289"/>toallitas<Node id="298"/> de <Node id="302"/>papel<Node id="307"/> o con un <Node id="317"/>secador<Node id="324"/>
+    de aire caliente.
+<Node id="347"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="25" EndNode="36">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="105" EndNode="114">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="70" EndNode="79">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="44" EndNode="51">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="148" EndNode="159">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="161" EndNode="170">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="212" EndNode="231">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="347">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="238" EndNode="242">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="245" EndNode="250">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="289" EndNode="298">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="302" EndNode="307">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="317" EndNode="324">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

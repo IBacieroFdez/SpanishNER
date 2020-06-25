@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_64_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En líneas generales, no hay <Node id="28"/>informes científicos<Node id="48"/> que confirmen cuál es su nivel de efectividad y tanto <Node id="103"/>expertos<Node id="111"/> como <Node id="117"/>organismos sanitarios<Node id="138"/> coinciden en que, si se opta por su uso, es fundamental no dejar de llevar a cabo medidas preventivas como el lavado de manos, el distanciamiento social o no tocarse la cara.
+<Node id="314"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="28" EndNode="48">
+</Annotation>
+<Annotation Id="14" Type="JOB" StartNode="103" EndNode="111">
+</Annotation>
+<Annotation Id="15" Type="ORG" StartNode="117" EndNode="138">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="314">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

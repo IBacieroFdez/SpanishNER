@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_100_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"La <Node id="4"/>comunidad científica<Node id="24"/> está especialmente impresionada por la gran <Node id="69"/>resistencia<Node id="80"/> de esta nueva receta en comparación con otras mezclas. Además, también le atrae la idea de que permita utilizar <Node id="193"/>material<Node id="201"/> ya disponible en la <Node id="222"/>Luna<Node id="226"/>", explica <Node id="237"/>Marlies Arnhof<Node id="251"/>, iniciadora y <Node id="266"/>coautora<Node id="274"/> del <Node id="279"/>estudio<Node id="286"/> del <Node id="291"/>Equipo de Conceptos Avanzados<Node id="320"/> (<Node id="322"/>ACT<Node id="325"/>) de la <Node id="333"/>ESA<Node id="336"/>.
+<Node id="338"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="4" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="69" EndNode="80">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="193" EndNode="201">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="222" EndNode="226">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="237" EndNode="251">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="266" EndNode="274">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="291" EndNode="320">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="322" EndNode="325">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="333" EndNode="336">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="279" EndNode="286">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="338">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

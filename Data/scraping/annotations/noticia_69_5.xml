@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_69_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Aunque la <Node id="10"/>FIDE<Node id="14"/> señala que será este <Node id="36"/>miércoles<Node id="45"/> cuando se dé a conocer los integrantes de los diferentes <Node id="103"/>equipos<Node id="110"/>, sí que adelantó que <Node id="132"/>Garry Kasparov<Node id="146"/> será el <Node id="155"/>capitán<Node id="162"/> de <Node id="166"/>Europa<Node id="172"/> y <Node id="175"/>Vladimir Kramnik<Node id="191"/>, de <Node id="196"/>India<Node id="201"/>.
+<Node id="203"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="10" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="36" EndNode="45">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="103" EndNode="110">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="132" EndNode="146">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="155" EndNode="162">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="166" EndNode="172">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="175" EndNode="191">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="196" EndNode="201">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="203">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

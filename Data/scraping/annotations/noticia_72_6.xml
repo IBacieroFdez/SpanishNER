@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_72_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Durante el periodo de <Node id="22"/>cuarentena<Node id="32"/>, <Node id="34"/>Botín<Node id="39"/> se muestra muy estricto con su preparación física, apunta que “incluso más” que cuando está en <Node id="135"/>competición<Node id="146"/>, “porque tengo más <Node id="166"/>tiempo<Node id="172"/> para eso”. En su <Node id="190"/>casa<Node id="194"/> tiene la “suerte” de tener “un <Node id="226"/>remoergómetro<Node id="239"/> para hacer <Node id="251"/>cardio<Node id="257"/>, algunas <Node id="267"/>pesas<Node id="272"/>, algunas <Node id="282"/>gomas<Node id="287"/> y un <Node id="293"/>TXR<Node id="296"/>”, y a través de <Node id="313"/>Skype<Node id="318"/> realiza otros <Node id="333"/>ejercicios<Node id="343"/> junto a su <Node id="355"/>preparador físico<Node id="372"/>.
+<Node id="374"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="22" EndNode="32">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="34" EndNode="39">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="135" EndNode="146">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="166" EndNode="172">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="190" EndNode="194">
+</Annotation>
+<Annotation Id="6" Type="SPORT" StartNode="226" EndNode="239">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="251" EndNode="257">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="267" EndNode="272">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="282" EndNode="287">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="293" EndNode="296">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="313" EndNode="318">
+</Annotation>
+<Annotation Id="12" Type="SPORT" StartNode="333" EndNode="343">
+</Annotation>
+<Annotation Id="13" Type="JOB" StartNode="355" EndNode="372">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="374">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

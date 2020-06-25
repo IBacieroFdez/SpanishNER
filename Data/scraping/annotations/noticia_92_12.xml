@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_92_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En <Node id="3"/>2003<Node id="7"/>, el <Node id="12"/>presidente<Node id="22"/> <Node id="23"/>George W. Bush<Node id="37"/> presentó un ambicioso programa de investigación de <Node id="89"/>1200 millones de dólares<Node id="113"/> para generalizar el uso de <Node id="141"/>vehículos<Node id="150"/> de <Node id="154"/>pilas<Node id="159"/> de <Node id="163"/>combustible<Node id="174"/> de <Node id="178"/>hidrógeno<Node id="187"/> en una generación [véase «El <Node id="217"/>vehículo<Node id="225"/> del cambio», por <Node id="243"/>Lawrence D. Burns<Node id="260"/>, <Node id="262"/>J. Byron McCormick<Node id="280"/> y <Node id="283"/>Christopher E. Borroni-Bird<Node id="310"/>; <Node id="312"/>Investigación<Node id="325"/> y <Node id="328"/>Ciencia<Node id="335"/>, <Node id="337"/>diciembre de 2002<Node id="354"/>]. Las <Node id="361"/>pilas<Node id="366"/> de <Node id="370"/>combustible<Node id="381"/> de los <Node id="389"/>garajes<Node id="396"/> también servirían como fuentes de <Node id="431"/>electricidad<Node id="443"/> auxiliares para los <Node id="464"/>hogares<Node id="471"/>. <Node id="473"/>Meses<Node id="478"/> después, la <Node id="491"/>revista<Node id="498"/> <Node id="499"/>Wired<Node id="504"/> publicó un artículo titulado «El <Node id="538"/>hidrógeno<Node id="547"/> puede salvar <Node id="561"/>Estados Unidos<Node id="575"/>», que defendía que este <Node id="600"/>gas<Node id="603"/> podía acabar con la dependencia del <Node id="640"/>petróleo<Node id="648"/> importado contaminante.
+<Node id="673"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="3" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="12" EndNode="22">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="23" EndNode="37">
+</Annotation>
+<Annotation Id="4" Type="MONEY" StartNode="89" EndNode="113">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="141" EndNode="150">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="154" EndNode="159">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="163" EndNode="174">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="178" EndNode="187">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="217" EndNode="225">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="243" EndNode="260">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="262" EndNode="280">
+</Annotation>
+<Annotation Id="12" Type="PER" StartNode="283" EndNode="310">
+</Annotation>
+<Annotation Id="13" Type="SCITERM" StartNode="312" EndNode="325">
+</Annotation>
+<Annotation Id="14" Type="SCITERM" StartNode="328" EndNode="335">
+</Annotation>
+<Annotation Id="15" Type="DATE" StartNode="337" EndNode="354">
+</Annotation>
+<Annotation Id="16" Type="PRODUCT" StartNode="361" EndNode="366">
+</Annotation>
+<Annotation Id="17" Type="PRODUCT" StartNode="370" EndNode="381">
+</Annotation>
+<Annotation Id="18" Type="LOC" StartNode="389" EndNode="396">
+</Annotation>
+<Annotation Id="19" Type="SCITERM" StartNode="431" EndNode="443">
+</Annotation>
+<Annotation Id="20" Type="LOC" StartNode="464" EndNode="471">
+</Annotation>
+<Annotation Id="21" Type="TIME" StartNode="473" EndNode="478">
+</Annotation>
+<Annotation Id="22" Type="PRODUCT" StartNode="491" EndNode="498">
+</Annotation>
+<Annotation Id="23" Type="ORG" StartNode="499" EndNode="504">
+</Annotation>
+<Annotation Id="24" Type="PRODUCT" StartNode="538" EndNode="547">
+</Annotation>
+<Annotation Id="25" Type="GPE" StartNode="561" EndNode="575">
+</Annotation>
+<Annotation Id="26" Type="PRODUCT" StartNode="600" EndNode="603">
+</Annotation>
+<Annotation Id="27" Type="PRODUCT" StartNode="640" EndNode="648">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="673">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Cowan<Node id="5"/> argumenta que <Node id="20"/>Wuhan<Node id="25"/> fue un <Node id="33"/>lugar<Node id="38"/> pionero en la implantación del <Node id="70"/>5G<Node id="72"/> y así relaciona la implantación de esta <Node id="113"/>red de comunicaciones<Node id="134"/> con el <Node id="142"/>brote<Node id="147"/> de <Node id="151"/>coronavirus<Node id="162"/>. Una vinculación que ha sido difundida por personajes conocidos como el <Node id="235"/>boxeador<Node id="243"/> <Node id="244"/>británico<Node id="253"/> <Node id="254"/>Amir Khan<Node id="263"/>, la <Node id="268"/>cantante<Node id="276"/> <Node id="277"/>estadounidense<Node id="291"/> <Node id="292"/>Keri Hilson<Node id="303"/> o los <Node id="310"/>actores<Node id="317"/> <Node id="318"/>Woody Harrelson<Node id="333"/> y <Node id="336"/>John Cusack<Node id="347"/>, aunque muchos han borrado después esos mensajes.
+<Node id="398"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="20" EndNode="25">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="33" EndNode="38">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="70" EndNode="72">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="113" EndNode="134">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="142" EndNode="147">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="151" EndNode="162">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="235" EndNode="243">
+</Annotation>
+<Annotation Id="9" Type="LANG" StartNode="244" EndNode="253">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="254" EndNode="263">
+</Annotation>
+<Annotation Id="11" Type="JOB" StartNode="268" EndNode="276">
+</Annotation>
+<Annotation Id="12" Type="LANG" StartNode="277" EndNode="291">
+</Annotation>
+<Annotation Id="13" Type="PER" StartNode="292" EndNode="303">
+</Annotation>
+<Annotation Id="14" Type="JOB" StartNode="310" EndNode="317">
+</Annotation>
+<Annotation Id="15" Type="PER" StartNode="318" EndNode="333">
+</Annotation>
+<Annotation Id="16" Type="PER" StartNode="336" EndNode="347">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="398">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>R: A <Node id="5"/>Trump<Node id="10"/> hay que concederle un mérito... Es probablemente el hombre más seguro de sí mismo que ha existido nunca. Es capaz de sostener un cartel que dice “os amo, soy vuestro salvador, confiad en mí porque trabajo <Node id="216"/>día y noche<Node id="227"/> para vosotros” y con la otra mano apuñalarte en la espalda. Es así cómo se relaciona con sus votantes, que lo adoran independientemente de lo que haga. Y recibe ayuda por un fenómeno mediático conformado por <Node id="436"/>Fox News<Node id="444"/>, <Node id="446"/>Rush Limbaugh<Node id="459"/>, <Node id="461"/>Breitbart<Node id="470"/>… que son los únicos medios que miran los republicanos.
+<Node id="526"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="5" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="216" EndNode="227">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="436" EndNode="444">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="446" EndNode="459">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="461" EndNode="470">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="526">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

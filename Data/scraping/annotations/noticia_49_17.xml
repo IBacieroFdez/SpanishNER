@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_49_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Para el <Node id="8"/>productor<Node id="17"/> <Node id="18"/>Jesús Alejo Orantes<Node id="37"/>, <Node id="39"/>presidente<Node id="49"/> de la <Node id="56"/>asociación de cañeros<Node id="77"/> de la <Node id="84"/>región<Node id="90"/>, en <Node id="95"/>tiempos<Node id="102"/> difíciles es cuando se debe de mostrar la solidaridad.
+<Node id="158"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="8" EndNode="17">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="18" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="39" EndNode="49">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="56" EndNode="77">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="84" EndNode="90">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="95" EndNode="102">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="158">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

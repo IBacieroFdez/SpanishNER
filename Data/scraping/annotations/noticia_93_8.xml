@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_93_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Frustración: Los factores económicos dificultan la obtención regular de <Node id="72"/>muestras víricas<Node id="88"/> en las <Node id="96"/>granjas porcinas<Node id="112"/>, lo que desalienta a los <Node id="138"/>funcionarios<Node id="150"/> de <Node id="154"/>salud<Node id="159"/>, que desean prepararse mejor ante la próxima <Node id="205"/>pandemia<Node id="213"/>.
+<Node id="215"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="72" EndNode="88">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="96" EndNode="112">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="138" EndNode="150">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="154" EndNode="159">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="205" EndNode="213">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="215">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

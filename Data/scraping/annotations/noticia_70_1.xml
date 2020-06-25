@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_70_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Se pone en marcha <Node id="18"/>mañana<Node id="24"/> <Node id="25"/>miércoles<Node id="34"/> la Conexión <Node id="47"/>FERugby<Node id="54"/>, iniciativa de la <Node id="73"/>federación<Node id="83"/> <Node id="84"/>española<Node id="92"/> para conectar a los aficionados a con <Node id="131"/>jugadores<Node id="140"/> y <Node id="143"/>técnicos<Node id="151"/> para que estén informados de la actualidad  de este <Node id="204"/>deporte<Node id="211"/> y de todo lo que conlleva en estas <Node id="247"/>semanas<Node id="254"/> de <Node id="258"/>confinamiento<Node id="271"/> la ausencia de <Node id="287"/>competiciones<Node id="300"/> y de toda <Node id="311"/>actividad física<Node id="327"/> al aire libre.
+<Node id="343"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="3" Type="DATE" StartNode="18" EndNode="24">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="25" EndNode="34">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="47" EndNode="54">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="73" EndNode="83">
+</Annotation>
+<Annotation Id="7" Type="LANG" StartNode="84" EndNode="92">
+</Annotation>
+<Annotation Id="8" Type="SPORT" StartNode="131" EndNode="140">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="143" EndNode="151">
+</Annotation>
+<Annotation Id="10" Type="SPORT" StartNode="204" EndNode="211">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="343">
+</Annotation>
+<Annotation Id="11" Type="TIME" StartNode="247" EndNode="254">
+</Annotation>
+<Annotation Id="12" Type="EVENT" StartNode="258" EndNode="271">
+</Annotation>
+<Annotation Id="13" Type="EVENT" StartNode="287" EndNode="300">
+</Annotation>
+<Annotation Id="14" Type="SPORT" StartNode="311" EndNode="327">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

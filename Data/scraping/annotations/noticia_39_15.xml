@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_39_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En la videoconferencia con los <Node id="31"/>reyes<Node id="36"/> desde el <Node id="46"/>Palacio de la Zarzuela<Node id="68"/>, han participado también el <Node id="97"/>director general<Node id="113"/> de <Node id="117"/>Aeropuertos<Node id="128"/> de <Node id="132"/>Aena<Node id="136"/>, <Node id="138"/>Javier Marín<Node id="150"/>, y la de <Node id="160"/>Comercial<Node id="169"/>, <Node id="171"/>Inmobiliaria<Node id="183"/> y de <Node id="189"/>Desarrollo Internacional<Node id="213"/>, <Node id="215"/>María José Cuenda<Node id="232"/>.
+<Node id="234"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="31" EndNode="36">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="46" EndNode="68">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="97" EndNode="113">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="117" EndNode="128">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="132" EndNode="136">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="138" EndNode="150">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="160" EndNode="169">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="171" EndNode="183">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="189" EndNode="213">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="215" EndNode="232">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="234">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_46_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>“<Node id="1"/>Durante<Node id="8"/> el pasado ejercicio se incorporaron a <Node id="47"/>Iberdrola<Node id="56"/> <Node id="57"/>3.500<Node id="62"/> nuevos <Node id="70"/>trabajadores<Node id="82"/>, y esperamos alcanzar en <Node id="108"/>2020<Node id="112"/> la cifra récord de <Node id="132"/>5.000<Node id="137"/> nuevas contrataciones. Con ello, superaremos los <Node id="187"/>40.000<Node id="193"/> <Node id="194"/>empleados<Node id="203"/>”, ha subrayado.
+<Node id="220"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="1" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="47" EndNode="56">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="57" EndNode="62">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="70" EndNode="82">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="108" EndNode="112">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="132" EndNode="137">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="187" EndNode="193">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="194" EndNode="203">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="220">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

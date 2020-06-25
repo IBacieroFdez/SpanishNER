@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_71_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Carolina Marín<Node id="14"/>,<Node id="15"/> Alfonso Reyes<Node id="29"/>, <Node id="31"/>Miguel Ángel Jímenez<Node id="51"/>, <Node id="53"/>José Manuel Quintero<Node id="73"/>, <Node id="75"/>Blanca Manchón<Node id="89"/> y <Node id="92"/>Brahim Díaz<Node id="103"/> son los <Node id="112"/>deportistas<Node id="123"/> que colaboran en esta iniciativa. Cada uno de ellos ha compartido un momento donde las adversidades y las dificultades han estado presentes. Momentos en los que tuvieron que hacer frente, y donde los valores del <Node id="336"/>deporte<Node id="343"/> les sirvieron de ayuda para superarlas.
+<Node id="384"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="15" EndNode="29">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="31" EndNode="51">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="53" EndNode="73">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="75" EndNode="89">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="92" EndNode="103">
+</Annotation>
+<Annotation Id="7" Type="SPORT" StartNode="112" EndNode="123">
+</Annotation>
+<Annotation Id="8" Type="SPORT" StartNode="336" EndNode="343">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="384">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

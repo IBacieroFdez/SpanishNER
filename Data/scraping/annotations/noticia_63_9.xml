@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Es, sin duda, un bulo. Es importante informarse en sitios contrastados para evitar que nos engañen", subraya en declaraciones a <Node id="129"/>EFE<Node id="132"/> esta <Node id="138"/>investigadora<Node id="151"/> de <Node id="155"/>ISGlobal<Node id="163"/>, una institución creada por <Node id="192"/>centros hospitalarios<Node id="213"/> y <Node id="216"/>académicos<Node id="226"/> <Node id="227"/>barceloneses<Node id="239"/> con el apoyo de la <Node id="259"/>Fundación La Caixa<Node id="277"/>.
+<Node id="279"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="129" EndNode="132">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="155" EndNode="163">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="138" EndNode="151">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="192" EndNode="213">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="227" EndNode="239">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="216" EndNode="226">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="259" EndNode="277">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="279">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

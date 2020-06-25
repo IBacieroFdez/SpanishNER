@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_18.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>director<Node id="11"/> del <Node id="16"/>Centro de Coordinación de Alertas y Emergencias Sanitarias<Node id="74"/>, <Node id="76"/>Fernando Simón<Node id="90"/>, ha señalado <Node id="104"/>hoy<Node id="107"/> que la macroencuesta, que coordina el <Node id="146"/>Instituto Carlos III<Node id="166"/> con el apoyo del <Node id="184"/>Instituto Nacional de Estadística<Node id="217"/> (INE), no va a ser “el valor único” para el tránsito a la siguiente fase, aunque permitirá orientar y modular algunas medidas, incluso sin esperar a su finalización prevista para <Node id="397"/>dentro de tres semanas<Node id="419"/>.
+<Node id="421"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="16" EndNode="74">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="76" EndNode="90">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="104" EndNode="107">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="146" EndNode="166">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="184" EndNode="217">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="397" EndNode="419">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="421">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

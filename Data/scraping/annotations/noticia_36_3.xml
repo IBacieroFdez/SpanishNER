@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_36_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes> <Node id="1"/>In an effort to focus on organizations providing food assistance, I have joined the <Node id="85"/>#allinchallenge<Node id="100"/> which is raising money for <Node id="128"/>@mealsonwheelsamerica<Node id="149"/>, <Node id="151"/>@nokidhungry<Node id="163"/>, <Node id="165"/>@wckitchen<Node id="175"/>, <Node id="177"/>@feedingamerica<Node id="192"/> and <Node id="197"/>@americasfoodfund<Node id="214"/>. I am donating a dress I wore to the Oscars (and that holds great sentimental value!) which I will personally hand to you over a cup of tea or a glass of wine. Go to allinchallenge.com to bid as 100% of funds will go to help Americans currently experiencing food insecurity. I love you <Node id="501"/>@garyvee<Node id="509"/> for being part of this. I now challenge <Node id="550"/>@drewbarrymore<Node id="564"/> <Node id="565"/>@camerondiaz<Node id="577"/> and <Node id="582"/>@lakebell<Node id="591"/>.
+<Node id="593"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="85" EndNode="100">
+</Annotation>
+<Annotation Id="2" Type="ADDRESS" StartNode="501" EndNode="509">
+</Annotation>
+<Annotation Id="3" Type="ADDRESS" StartNode="550" EndNode="564">
+</Annotation>
+<Annotation Id="4" Type="ADDRESS" StartNode="565" EndNode="577">
+</Annotation>
+<Annotation Id="5" Type="ADDRESS" StartNode="582" EndNode="591">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="197" EndNode="214">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="177" EndNode="192">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="165" EndNode="175">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="128" EndNode="149">
+</Annotation>
+<Annotation Id="10" Type="NORP" StartNode="151" EndNode="163">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="1" EndNode="593">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

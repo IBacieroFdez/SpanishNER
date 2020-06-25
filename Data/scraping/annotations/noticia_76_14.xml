@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_76_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Una cifra negativa que permite que la confianza en los <Node id="55"/>neobancos<Node id="64"/> crezca ante el descontento de <Node id="95"/>pymes<Node id="100"/> y <Node id="103"/>startups<Node id="111"/>. En el caso de las <Node id="131"/>pymes<Node id="136"/>, su nivel de satisfacción con los <Node id="171"/>bancos<Node id="177"/> tradicionales baja hasta el <Node id="206"/>6,11<Node id="210"/>, lo que vinculado con el índice de recomendación <Node id="260"/>NPS<Node id="263"/> se situaría en un <Node id="282"/>-48,9<Node id="287"/>, un dato que confirma el porqué de su mayor confianza en los <Node id="349"/>neobancos<Node id="358"/>. Por el contrario, las <Node id="382"/>startups<Node id="390"/> muestran mayor satisfacción, con una valoración <Node id="439"/>media<Node id="444"/> de <Node id="448"/>6,52<Node id="452"/> y un índice de recomendación de un
+<Node id="488"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="55" EndNode="64">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="95" EndNode="100">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="103" EndNode="111">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="131" EndNode="136">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="171" EndNode="177">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="206" EndNode="210">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="282" EndNode="287">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="448" EndNode="452">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="260" EndNode="263">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="349" EndNode="358">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="382" EndNode="390">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="439" EndNode="444">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="488">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

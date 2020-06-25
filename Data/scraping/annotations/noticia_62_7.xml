@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_62_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ha mencionado líneas como "ayudar a los <Node id="40"/>constructores<Node id="53"/> (inmobiliarios) para que pongan <Node id="86"/>placas solares<Node id="100"/>" en los <Node id="109"/>edificios<Node id="118"/>, "a las familias que quieran comprar un <Node id="159"/>coche<Node id="164"/> nuevo para que compren un <Node id="191"/>coche<Node id="196"/> limpio", a los "<Node id="213"/>agricultores<Node id="225"/> para que las <Node id="239"/>cosechas<Node id="247"/> sean más sostenibles" e "invertir en la economía circular y apostar por la producción más <Node id="338"/>local<Node id="343"/>, más cerca de <Node id="358"/>casa<Node id="362"/>".
+<Node id="365"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="40" EndNode="53">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="86" EndNode="100">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="109" EndNode="118">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="159" EndNode="164">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="191" EndNode="196">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="213" EndNode="225">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="239" EndNode="247">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="338" EndNode="343">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="358" EndNode="362">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="365">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

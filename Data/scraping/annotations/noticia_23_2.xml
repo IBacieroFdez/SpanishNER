@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_23_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Benjamín Netanyahu<Node id="18"/> y <Node id="21"/>Beny Gantz<Node id="31"/> sellaron <Node id="41"/>hoy<Node id="44"/> un acuerdo de <Node id="59"/>gobierno<Node id="67"/> que saca a <Node id="79"/>Israel<Node id="85"/> de un bloqueo político de más de un <Node id="122"/>año<Node id="125"/> y que permitirá al actual <Node id="152"/>primer ministro<Node id="167"/> mantenerse en el cargo <Node id="191"/>un año y medio más<Node id="209"/>, mientras enfrenta un juicio por corrupción.
+<Node id="255"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="18">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="21" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="41" EndNode="44">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="59" EndNode="67">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="79" EndNode="85">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="122" EndNode="125">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="152" EndNode="167">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="191" EndNode="209">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="255">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

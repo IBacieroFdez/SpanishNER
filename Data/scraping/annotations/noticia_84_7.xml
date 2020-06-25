@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_84_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Kawaoka<Node id="7"/> era un joven <Node id="21"/>investigador<Node id="33"/> <Node id="34"/>japonés<Node id="41"/> que había empezado a trabajar en el <Node id="78"/>Hospital de Investigación Pediátrica San Judas<Node id="124"/>, en <Node id="129"/>Memphis<Node id="136"/>. Su <Node id="141"/>jefe<Node id="145"/>, el <Node id="150"/>virólogo<Node id="158"/> <Node id="159"/>Robert Webster<Node id="173"/>, defendía una teoría: los <Node id="200"/>virus<Node id="205"/> de la <Node id="212"/>gripe<Node id="217"/> humana se originaban en poblaciones avícolas, circulaban de forma inofensiva entre los <Node id="305"/>patos<Node id="310"/> y los <Node id="317"/>gansos<Node id="323"/> y, de vez en cuando, una <Node id="349"/>cepa<Node id="353"/> adquiría la capacidad de sobrevivir en las <Node id="397"/>vías respiratorias<Node id="415"/> superiores de los humanos. Afirmaba que, para combatir la <Node id="474"/>gripe<Node id="479"/> humana, había que comprender primero la <Node id="520"/>gripe aviar<Node id="531"/>. En <Node id="536"/>noviembre<Node id="545"/>, cuando <Node id="554"/>Webster<Node id="561"/> se enteró de la gravedad del <Node id="591"/>brote<Node id="596"/>, lo dejó todo y se dirigió a la <Node id="629"/>zona<Node id="633"/> afectada.
+<Node id="644"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="21" EndNode="33">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="34" EndNode="41">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="78" EndNode="124">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="129" EndNode="136">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="141" EndNode="145">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="150" EndNode="158">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="159" EndNode="173">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="200" EndNode="205">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="212" EndNode="217">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="305" EndNode="310">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="317" EndNode="323">
+</Annotation>
+<Annotation Id="13" Type="MEDTERM" StartNode="397" EndNode="415">
+</Annotation>
+<Annotation Id="14" Type="SCITERM" StartNode="349" EndNode="353">
+</Annotation>
+<Annotation Id="15" Type="DISEASE" StartNode="474" EndNode="479">
+</Annotation>
+<Annotation Id="16" Type="DISEASE" StartNode="520" EndNode="531">
+</Annotation>
+<Annotation Id="17" Type="DATE" StartNode="536" EndNode="545">
+</Annotation>
+<Annotation Id="18" Type="PER" StartNode="554" EndNode="561">
+</Annotation>
+<Annotation Id="19" Type="SCITERM" StartNode="591" EndNode="596">
+</Annotation>
+<Annotation Id="20" Type="LOC" StartNode="629" EndNode="633">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="644">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

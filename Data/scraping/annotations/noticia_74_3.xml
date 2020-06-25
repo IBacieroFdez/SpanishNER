@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_74_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Es importante que empecemos a adaptarnos a nuestra nueva realidad <Node id="67"/>ahora<Node id="72"/>", añadió <Node id="82"/>Calhoun<Node id="89"/>, que subrayó que <Node id="107"/>Boeing<Node id="113"/> tendrá que equilibrar el suministro y la demanda durante los próximos <Node id="184"/>años<Node id="188"/> de recuperación. 
+<Node id="207"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="67" EndNode="72">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="82" EndNode="89">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="107" EndNode="113">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="184" EndNode="188">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="207">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

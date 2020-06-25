@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_97_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Hay tutoriales específicos de esta modalidad en <Node id="48"/>Twitter<Node id="55"/> y también en la web de los <Node id="83"/>centros<Node id="90"/> <Node id="91"/>estadounidenses<Node id="106"/> para el control y la prevención de <Node id="142"/>enfermedades<Node id="154"/>.
+<Node id="156"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="48" EndNode="55">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="91" EndNode="106">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="142" EndNode="154">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="83" EndNode="90">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="156">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

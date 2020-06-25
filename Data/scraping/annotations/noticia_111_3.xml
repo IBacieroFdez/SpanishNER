@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/ibuprofeno_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La toma de <Node id="11"/>ibuprofeno<Node id="21"/> puede alterar las siguientes <Node id="51"/>pruebas<Node id="58"/> de <Node id="62"/>laboratorio<Node id="73"/>: Informe a su <Node id="88"/>médico<Node id="94"/> si va a someterse a un <Node id="118"/>análisis<Node id="126"/> <Node id="127"/>clínico<Node id="134"/> y está tomando o ha tomado recientemente <Node id="176"/>ibuprofeno<Node id="186"/>. Uso de <Node id="195"/>Ibuprofeno<Node id="205"/> <Node id="206"/>Kern Pharma<Node id="217"/> <Node id="218"/>600<Node id="221"/> mg con los <Node id="233"/>alimentos<Node id="242"/> y <Node id="245"/>bebidas<Node id="252"/>. Puede tomarlo solo o con los <Node id="283"/>alimentos<Node id="292"/>. En general se recomienda tomarlo <Node id="327"/>antes<Node id="332"/> de las <Node id="340"/>comidas<Node id="347"/> o con <Node id="354"/>leche<Node id="359"/> para reducir así la posibilidad de que se produzcan <Node id="412"/>molestias<Node id="421"/> en el <Node id="428"/>estómago<Node id="436"/>. Aunque sólo pasan pequeñas <Node id="465"/>cantidades<Node id="475"/> del <Node id="480"/>medicamento<Node id="491"/> a la <Node id="497"/>leche<Node id="502"/> materna, se recomienda no tomar <Node id="535"/>ibuprofeno<Node id="545"/> por <Node id="550"/>períodos<Node id="558"/> prolongados <Node id="571"/>durante<Node id="578"/> la lactancia.
+<Node id="593"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="11" EndNode="21">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="62" EndNode="73">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="88" EndNode="94">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="51" EndNode="58">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="118" EndNode="126">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="127" EndNode="134">
+</Annotation>
+<Annotation Id="7" Type="DRUG" StartNode="176" EndNode="186">
+</Annotation>
+<Annotation Id="8" Type="DRUG" StartNode="195" EndNode="205">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="206" EndNode="217">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="218" EndNode="221">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="233" EndNode="242">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="245" EndNode="252">
+</Annotation>
+<Annotation Id="14" Type="PRODUCT" StartNode="283" EndNode="292">
+</Annotation>
+<Annotation Id="15" Type="PRODUCT" StartNode="340" EndNode="347">
+</Annotation>
+<Annotation Id="16" Type="PRODUCT" StartNode="354" EndNode="359">
+</Annotation>
+<Annotation Id="17" Type="TIME" StartNode="327" EndNode="332">
+</Annotation>
+<Annotation Id="18" Type="DISEASE" StartNode="412" EndNode="421">
+</Annotation>
+<Annotation Id="19" Type="MEDTERM" StartNode="428" EndNode="436">
+</Annotation>
+<Annotation Id="20" Type="QUANT" StartNode="465" EndNode="475">
+</Annotation>
+<Annotation Id="21" Type="DRUG" StartNode="480" EndNode="491">
+</Annotation>
+<Annotation Id="22" Type="PRODUCT" StartNode="497" EndNode="502">
+</Annotation>
+<Annotation Id="23" Type="DRUG" StartNode="535" EndNode="545">
+</Annotation>
+<Annotation Id="24" Type="TIME" StartNode="550" EndNode="558">
+</Annotation>
+<Annotation Id="25" Type="TIME" StartNode="571" EndNode="578">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="593">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

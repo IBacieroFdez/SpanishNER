@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_49_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ozuna<Node id="5"/> agregó que el proceso de elaboración del <Node id="47"/>alcohol<Node id="54"/> se hace a través de un manejo automatizado hasta lograr producir <Node id="120"/>60.000 litros<Node id="133"/> de <Node id="137"/>alcohol<Node id="144"/> <Node id="145"/>diarios<Node id="152"/> y con el objetivo de donar, en total, más de <Node id="198"/>un millón y medio de litros<Node id="225"/>.
+<Node id="227"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="47" EndNode="54">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="120" EndNode="133">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="137" EndNode="144">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="145" EndNode="152">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="198" EndNode="225">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="227">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

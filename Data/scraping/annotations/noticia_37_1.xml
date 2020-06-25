@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_37_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por primera vez en su historia, la edición española de la <Node id="58"/>revista<Node id="65"/> <Node id="66"/>Vogue<Node id="71"/> sale en el mes de <Node id="90"/>mayo<Node id="94"/> sin <Node id="99"/>fotografía<Node id="109"/> en su portada, con una ilustración en su lugar del <Node id="161"/>artista<Node id="168"/> <Node id="169"/>Ignasi Monreal<Node id="183"/> que evoca el momento actual, inspirado en el lema “Nunca estar tan lejos nos hizo sentir tan cerca”. 
+<Node id="286"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="66" EndNode="71">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="90" EndNode="94">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="161" EndNode="168">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="169" EndNode="183">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="58" EndNode="65">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="99" EndNode="109">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="286">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

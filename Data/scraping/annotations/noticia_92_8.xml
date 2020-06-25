@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_92_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>hidrógeno<Node id="12"/> circula por las <Node id="29"/>tuberías<Node id="37"/> subterráneas de <Node id="54"/>Cappelle-la-Grande<Node id="72"/> y contribuye al suministro energético de un <Node id="117"/>centenar<Node id="125"/> de <Node id="129"/>hogares<Node id="136"/> de esta <Node id="145"/>población<Node id="154"/> del <Node id="159"/>norte<Node id="164"/> de <Node id="168"/>Francia<Node id="175"/>. En una <Node id="184"/>calle<Node id="189"/> próxima al <Node id="201"/>centro<Node id="207"/>, un <Node id="212"/>electrolizador<Node id="226"/> encerrado en un pequeño <Node id="251"/>contenedor<Node id="261"/> metálico emplea la <Node id="281"/>electricidad<Node id="293"/> procedente de <Node id="308"/>parques eólicos<Node id="323"/> y <Node id="326"/>solares<Node id="333"/> para disociar el <Node id="351"/>agua<Node id="355"/> y producir <Node id="367"/>hidrógeno<Node id="376"/> «renovable», que se añade al flujo de <Node id="415"/>gas natural<Node id="426"/> que ya circula por los conductos. Al reemplazar parte de ese <Node id="488"/>combustible fósil<Node id="505"/>, el <Node id="510"/>hidrógeno<Node id="519"/> reduce hasta un <Node id="536"/>7 por ciento<Node id="548"/> las emisiones de <Node id="566"/>carbono<Node id="573"/> de las <Node id="581"/>calefacciones<Node id="594"/>, los <Node id="600"/>calentadores<Node id="612"/> de <Node id="616"/>agua<Node id="620"/> y las <Node id="627"/>cocinas<Node id="634"/> de la <Node id="641"/>población<Node id="650"/>.
+<Node id="652"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="3" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="29" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="54" EndNode="72">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="117" EndNode="125">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="129" EndNode="136">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="145" EndNode="154">
+</Annotation>
+<Annotation Id="7" Type="LANG" StartNode="159" EndNode="164">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="168" EndNode="175">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="251" EndNode="261">
+</Annotation>
+<Annotation Id="10" Type="ADDRESS" StartNode="184" EndNode="189">
+</Annotation>
+<Annotation Id="11" Type="LOC" StartNode="201" EndNode="207">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="212" EndNode="226">
+</Annotation>
+<Annotation Id="13" Type="SCITERM" StartNode="281" EndNode="293">
+</Annotation>
+<Annotation Id="14" Type="FAC" StartNode="308" EndNode="323">
+</Annotation>
+<Annotation Id="15" Type="SCITERM" StartNode="326" EndNode="333">
+</Annotation>
+<Annotation Id="16" Type="PRODUCT" StartNode="351" EndNode="355">
+</Annotation>
+<Annotation Id="17" Type="PRODUCT" StartNode="367" EndNode="376">
+</Annotation>
+<Annotation Id="18" Type="PRODUCT" StartNode="415" EndNode="426">
+</Annotation>
+<Annotation Id="19" Type="PRODUCT" StartNode="488" EndNode="505">
+</Annotation>
+<Annotation Id="20" Type="PRODUCT" StartNode="510" EndNode="519">
+</Annotation>
+<Annotation Id="21" Type="PERCENT" StartNode="536" EndNode="548">
+</Annotation>
+<Annotation Id="22" Type="PRODUCT" StartNode="566" EndNode="573">
+</Annotation>
+<Annotation Id="23" Type="LOC" StartNode="627" EndNode="634">
+</Annotation>
+<Annotation Id="24" Type="LOC" StartNode="641" EndNode="650">
+</Annotation>
+<Annotation Id="25" Type="PRODUCT" StartNode="581" EndNode="594">
+</Annotation>
+<Annotation Id="26" Type="PRODUCT" StartNode="600" EndNode="612">
+</Annotation>
+<Annotation Id="27" Type="PRODUCT" StartNode="616" EndNode="620">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="652">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

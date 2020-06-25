@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_40_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"La medida a aplicar será, con absoluta prioridad, la suspensión en <Node id="68"/>días<Node id="72"/> completos", han señalado las fuentes, con el objetivo de evitar los desplazamientos al trabajo "todos los <Node id="179"/>días<Node id="183"/> para hacer unas cuantas <Node id="208"/>horas<Node id="213"/>".
+<Node id="216"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="68" EndNode="72">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="179" EndNode="183">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="208" EndNode="213">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="216">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

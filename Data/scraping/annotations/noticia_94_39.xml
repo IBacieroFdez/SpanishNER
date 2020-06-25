@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_39.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Debido a la escasez, podemos encontrarnos en una situación en la que solo hay <Node id="79"/>equipos de protección<Node id="100"/> disponibles que no cumplen con los más altos estándares. Este es un problema en todos los <Node id="191"/>países<Node id="197"/>", advirtió la <Node id="212"/>institución<Node id="223"/>.
+<Node id="225"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="79" EndNode="100">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="191" EndNode="197">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="212" EndNode="223">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="225">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

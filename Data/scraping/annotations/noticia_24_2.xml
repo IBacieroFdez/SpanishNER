@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_24_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Esta es la principal conclusión de una investigación que se publica en la revista <Node id="82"/>Journal of Virology<Node id="101"/>, de la <Node id="109"/>Sociedad Americana de Microbiología<Node id="144"/>, en la que sus <Node id="160"/>responsables<Node id="172"/> constatan que la <Node id="190"/>variación genética<Node id="208"/> individual puede explicar las diferencias en la fuerza de las <Node id="271"/>respuestas inmunológicas<Node id="295"/>.
+<Node id="297"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="82" EndNode="101">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="109" EndNode="144">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="160" EndNode="172">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="190" EndNode="208">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="271" EndNode="295">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="297">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

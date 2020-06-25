@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_15_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Para garantizar el derecho a la información de estas víctimas, se acuerda incidir en la difusión de los <Node id="104"/>teléfonos de atención 24 horas<Node id="134"/> de las entidades especializadas, el <Node id="171"/>teléfono<Node id="179"/> gratuito de la <Node id="195"/>Policía Nacional<Node id="211"/> específica de trata <Node id="232"/>900105090<Node id="241"/>, así como los <Node id="256"/>correos<Node id="263"/> de la <Node id="270"/>Guardia Civil<Node id="283"/> y la <Node id="289"/>Policía Nacional<Node id="305"/>.
+<Node id="307"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PHONE" StartNode="104" EndNode="134">
+</Annotation>
+<Annotation Id="24" Type="PHONE" StartNode="171" EndNode="179">
+</Annotation>
+<Annotation Id="25" Type="ORG" StartNode="195" EndNode="211">
+</Annotation>
+<Annotation Id="26" Type="PHONE" StartNode="232" EndNode="241">
+</Annotation>
+<Annotation Id="27" Type="ADDRESS" StartNode="256" EndNode="263">
+</Annotation>
+<Annotation Id="28" Type="ORG" StartNode="270" EndNode="283">
+</Annotation>
+<Annotation Id="29" Type="ORG" StartNode="289" EndNode="305">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="307">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

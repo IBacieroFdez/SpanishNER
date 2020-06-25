@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_80_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Para combatirlos, abre la puerta a aplicar medidas de <Node id="54"/>confinamiento<Node id="67"/> "focalizado o global" en función del <Node id="105"/>territorio<Node id="115"/>, <Node id="117"/>transitorio<Node id="128"/> o <Node id="131"/>permanente<Node id="141"/> en el tiempo y parcial o total en lo que respecta a la intensidad de las restricciones.
+<Node id="230"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="54" EndNode="67">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="105" EndNode="115">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="117" EndNode="128">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="131" EndNode="141">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="230">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

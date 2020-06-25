@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_69_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El ajedrez hace frente a la <Node id="28"/>crisis<Node id="34"/> <Node id="35"/>sanitaria<Node id="44"/> a través del ajedrez online y así la <Node id="82"/>Federación Internacional de Ajedrez<Node id="117"/> (<Node id="119"/>FIDE<Node id="123"/>) ha anunciado la creación de la <Node id="156"/>Copa de Naciones virtual<Node id="180"/>, una competición de <Node id="201"/>seis<Node id="205"/> <Node id="206"/>equipos<Node id="213"/>, con <Node id="219"/>cuatro<Node id="225"/> jugadores cada uno, que se disputará del <Node id="267"/>5<Node id="268"/> al <Node id="272"/>10 de mayo<Node id="282"/>.
+<Node id="284"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="28" EndNode="34">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="35" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="82" EndNode="117">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="119" EndNode="123">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="156" EndNode="180">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="201" EndNode="205">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="206" EndNode="213">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="219" EndNode="225">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="267" EndNode="268">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="284">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="272" EndNode="282">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

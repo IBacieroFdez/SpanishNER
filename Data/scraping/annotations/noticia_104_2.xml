@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_104_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Boeing<Node id="6"/>, que suele estar entre los principales <Node id="46"/>contratistas<Node id="58"/> de la <Node id="65"/>NASA<Node id="69"/> pero cuyo programa espacial ha experimentado múltiples reveses, también presentó una oferta, pero esta no fue seleccionada.
+<Node id="194"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="6">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="65" EndNode="69">
+</Annotation>
+<Annotation Id="11" Type="JOB" StartNode="46" EndNode="58">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="194">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

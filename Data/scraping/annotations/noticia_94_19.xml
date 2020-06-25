@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Esto mientras <Node id="14"/>Europa<Node id="20"/> se ha convertido en uno de los grandes focos de la <Node id="72"/>pandemia<Node id="80"/> de <Node id="84"/>covid-19<Node id="92"/>.
+<Node id="94"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="14" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="72" EndNode="80">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="84" EndNode="92">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="94">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

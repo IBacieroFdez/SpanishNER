@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_66_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>??<Node id="2"/>#Fake<Node id="7"/> NO, el <Node id="15"/>Eército<Node id="22"/> no va a emplear <Node id="39"/>aviones<Node id="46"/> para fumigar contra el <Node id="70"/>#coronavirus<Node id="82"/>. La Orden SND/351/2020 autoriza el uso de <Node id="125"/>#biocidas<Node id="134"/> por "medios aéreos" es decir, diseminándolos en el aire. Para ello se emplean varias técnicas.Va <Node id="232"/>#Hilo<Node id="237"/> ?? <Node id="241"/>pic.twitter.com/z1LVkqJdmU
+<Node id="268"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ADDRESS" StartNode="2" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="15" EndNode="22">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="39" EndNode="46">
+</Annotation>
+<Annotation Id="4" Type="ADDRESS" StartNode="70" EndNode="82">
+</Annotation>
+<Annotation Id="5" Type="ADDRESS" StartNode="125" EndNode="134">
+</Annotation>
+<Annotation Id="6" Type="ADDRESS" StartNode="232" EndNode="237">
+</Annotation>
+<Annotation Id="7" Type="ADDRESS" StartNode="241" EndNode="268">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="268">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_92_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Esta <Node id="5"/>compañía<Node id="13"/> no está sola. El <Node id="31"/>hidrógeno<Node id="40"/> renovable es fundamental para las perspectivas de la <Node id="94"/>Comisión Europea<Node id="110"/> de alcanzar cero emisiones netas de <Node id="147"/>carbono<Node id="154"/> en <Node id="158"/>2050<Node id="162"/> y también despierta un creciente interés entre los <Node id="214"/>gigantes industriales<Node id="235"/> del <Node id="240"/>continente<Node id="250"/>. A partir del <Node id="265"/>año<Node id="268"/> que viene, las nuevas <Node id="291"/>turbinas<Node id="299"/> para <Node id="305"/>centrales eléctricas<Node id="325"/> fabricadas en la <Node id="343"/>Unión Europea<Node id="356"/> deberían estar preparadas para quemar una mezcla de <Node id="409"/>hidrógeno<Node id="418"/> y <Node id="421"/>gas natural<Node id="432"/>, y los fabricantes de la <Node id="458"/>UE<Node id="460"/> afirman que estarán homologadas para quemar un <Node id="508"/>cien por cien<Node id="521"/> de <Node id="525"/>hidrógeno<Node id="534"/> hacia <Node id="541"/>2030<Node id="545"/>. Mientras tanto, las <Node id="567"/>siderúrgicas<Node id="579"/> <Node id="580"/>europeas<Node id="588"/> experimentan con el <Node id="609"/>hidrógeno<Node id="618"/> renovable como sustitutivo del <Node id="650"/>carbón<Node id="656"/> en sus <Node id="664"/>hornos<Node id="670"/>.
+<Node id="672"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="5" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="31" EndNode="40">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="94" EndNode="110">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="147" EndNode="154">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="158" EndNode="162">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="240" EndNode="250">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="214" EndNode="235">
+</Annotation>
+<Annotation Id="10" Type="DATE" StartNode="265" EndNode="268">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="291" EndNode="299">
+</Annotation>
+<Annotation Id="12" Type="FAC" StartNode="305" EndNode="325">
+</Annotation>
+<Annotation Id="13" Type="GPE" StartNode="343" EndNode="356">
+</Annotation>
+<Annotation Id="14" Type="PRODUCT" StartNode="409" EndNode="418">
+</Annotation>
+<Annotation Id="15" Type="PRODUCT" StartNode="421" EndNode="432">
+</Annotation>
+<Annotation Id="16" Type="GPE" StartNode="458" EndNode="460">
+</Annotation>
+<Annotation Id="17" Type="PERCENT" StartNode="508" EndNode="521">
+</Annotation>
+<Annotation Id="18" Type="PRODUCT" StartNode="525" EndNode="534">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="672">
+</Annotation>
+<Annotation Id="19" Type="DATE" StartNode="541" EndNode="545">
+</Annotation>
+<Annotation Id="20" Type="FAC" StartNode="567" EndNode="579">
+</Annotation>
+<Annotation Id="21" Type="LANG" StartNode="580" EndNode="588">
+</Annotation>
+<Annotation Id="22" Type="PRODUCT" StartNode="609" EndNode="618">
+</Annotation>
+<Annotation Id="23" Type="PRODUCT" StartNode="650" EndNode="656">
+</Annotation>
+<Annotation Id="24" Type="PRODUCT" StartNode="664" EndNode="670">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_8_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>Sanfermines<Node id="15"/> de <Node id="19"/>2020<Node id="23"/> quedan suspendidos por la <Node id="50"/>COVID-19<Node id="58"/>, según ha anunciado con "tristeza" el <Node id="97"/>Ayuntamiento<Node id="109"/> de <Node id="113"/>Pamplona<Node id="121"/>, que ha apuntado que "<Node id="144"/>a día de hoy<Node id="156"/> parece complicado que puedan celebrarse este <Node id="202"/>año<Node id="205"/>" pero van a "esperar a ver como evolucionan los <Node id="254"/>acontecimientos<Node id="269"/>".
+<Node id="272"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="4" EndNode="15">
+</Annotation>
+<Annotation Id="17" Type="GPE" StartNode="113" EndNode="121">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="19" EndNode="23">
+</Annotation>
+<Annotation Id="18" Type="DATE" StartNode="144" EndNode="156">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="50" EndNode="58">
+</Annotation>
+<Annotation Id="19" Type="DATE" StartNode="202" EndNode="205">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="97" EndNode="109">
+</Annotation>
+<Annotation Id="20" Type="EVENT" StartNode="254" EndNode="269">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="272">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

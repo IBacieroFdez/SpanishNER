@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_77_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>compañía<Node id="11"/> también ha anunciado la nueva composición de su <Node id="60"/>Consejo de Administración<Node id="85"/>. Como consecuencia del vencimiento mismo del mandato de <Node id="142"/>Robert A. Gray<Node id="156"/> como <Node id="162"/>vicepresidente<Node id="176"/> y <Node id="179"/>consejero<Node id="188"/> independiente, <Node id="204"/>Carmen Allo Pérez<Node id="221"/> ha sido nombrada <Node id="239"/>consejera<Node id="248"/> independiente y <Node id="265"/>presidenta<Node id="275"/> del <Node id="280"/>Comité de Auditoría<Node id="299"/>. 
+<Node id="302"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="60" EndNode="85">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="142" EndNode="156">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="162" EndNode="176">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="179" EndNode="188">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="239" EndNode="248">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="265" EndNode="275">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="280" EndNode="299">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="204" EndNode="221">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="302">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

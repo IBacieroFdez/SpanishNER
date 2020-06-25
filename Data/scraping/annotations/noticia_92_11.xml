@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_92_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En realidad, la idea de impulsar la economía con <Node id="49"/>hidrógeno<Node id="58"/> renovable no es nueva. Hace casi un <Node id="95"/>siglo<Node id="100"/>, el famoso <Node id="112"/>genetista<Node id="121"/> y <Node id="124"/>matemático<Node id="134"/> <Node id="135"/>británico<Node id="144"/> <Node id="145"/>J. B. S. Haldane<Node id="161"/> vislumbró una <Node id="176"/>era<Node id="179"/> posterior a los <Node id="196"/>combustibles fósiles<Node id="216"/> caracterizada por «grandes <Node id="244"/>centrales eléctricas<Node id="264"/>» que producirían <Node id="282"/>hidrógeno<Node id="291"/>. Esta visión se tornó fascinación en los albores de nuestro <Node id="352"/>siglo<Node id="357"/>. En su futurista <Node id="375"/>libro<Node id="380"/> de <Node id="384"/>2002<Node id="388"/> The hydrogen economy, <Node id="411"/>Jeremy Rifkin<Node id="424"/> profetizó que el <Node id="442"/>gas<Node id="445"/> catalizaría una nueva <Node id="468"/>revolución<Node id="478"/> <Node id="479"/>industrial<Node id="489"/>. Las <Node id="495"/>energías<Node id="503"/> <Node id="504"/>solar<Node id="509"/> y <Node id="512"/>eólica<Node id="518"/> disociarían un recurso ilimitado (el <Node id="556"/>agua<Node id="560"/>) para obtener <Node id="575"/>hidrógeno<Node id="584"/> destinado a la <Node id="600"/>electricidad<Node id="612"/>, la <Node id="617"/>calefacción<Node id="628"/> y la <Node id="634"/>energía<Node id="641"/> <Node id="642"/>industrial<Node id="652"/>, e inofensivo <Node id="667"/>oxígeno<Node id="674"/> como subproducto.
+<Node id="693"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="49" EndNode="58">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="95" EndNode="100">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="112" EndNode="121">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="124" EndNode="134">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="135" EndNode="144">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="145" EndNode="161">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="176" EndNode="179">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="196" EndNode="216">
+</Annotation>
+<Annotation Id="9" Type="FAC" StartNode="244" EndNode="264">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="282" EndNode="291">
+</Annotation>
+<Annotation Id="12" Type="TIME" StartNode="352" EndNode="357">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="375" EndNode="380">
+</Annotation>
+<Annotation Id="14" Type="DATE" StartNode="384" EndNode="388">
+</Annotation>
+<Annotation Id="15" Type="PER" StartNode="411" EndNode="424">
+</Annotation>
+<Annotation Id="16" Type="PRODUCT" StartNode="442" EndNode="445">
+</Annotation>
+<Annotation Id="18" Type="EVENT" StartNode="468" EndNode="478">
+</Annotation>
+<Annotation Id="19" Type="NORP" StartNode="479" EndNode="489">
+</Annotation>
+<Annotation Id="20" Type="SCITERM" StartNode="495" EndNode="503">
+</Annotation>
+<Annotation Id="21" Type="SCITERM" StartNode="504" EndNode="509">
+</Annotation>
+<Annotation Id="22" Type="SCITERM" StartNode="512" EndNode="518">
+</Annotation>
+<Annotation Id="23" Type="PRODUCT" StartNode="556" EndNode="560">
+</Annotation>
+<Annotation Id="24" Type="PRODUCT" StartNode="575" EndNode="584">
+</Annotation>
+<Annotation Id="25" Type="SCITERM" StartNode="600" EndNode="612">
+</Annotation>
+<Annotation Id="26" Type="PRODUCT" StartNode="617" EndNode="628">
+</Annotation>
+<Annotation Id="27" Type="SCITERM" StartNode="634" EndNode="641">
+</Annotation>
+<Annotation Id="28" Type="NORP" StartNode="642" EndNode="652">
+</Annotation>
+<Annotation Id="29" Type="PRODUCT" StartNode="667" EndNode="674">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="693">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

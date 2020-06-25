@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_34_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>reina<Node id="8"/> <Node id="9"/>Isabel II<Node id="18"/>, <Node id="20"/>jefa<Node id="24"/> del <Node id="29"/>Estado<Node id="35"/> <Node id="36"/>británico<Node id="45"/>, cumple este <Node id="59"/>martes<Node id="65"/> <Node id="66"/>94<Node id="68"/> años, pero sin <Node id="84"/>celebraciones<Node id="97"/> especiales al estar confinada en el <Node id="134"/>castillo de Windsor<Node id="153"/>, a las afueras de <Node id="172"/>Londres<Node id="179"/>, por la <Node id="188"/>pandemia<Node id="196"/> de la <Node id="203"/>COVID-19<Node id="211"/>.
+<Node id="213"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="9" EndNode="18">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="20" EndNode="24">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="29" EndNode="35">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="36" EndNode="45">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="59" EndNode="65">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="66" EndNode="68">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="84" EndNode="97">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="134" EndNode="153">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="172" EndNode="179">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="188" EndNode="196">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="203" EndNode="211">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="213">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

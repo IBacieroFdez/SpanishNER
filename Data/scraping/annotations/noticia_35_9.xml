@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_35_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>¿Qué tienen en común <Node id="21"/>Jackie Kennedy<Node id="35"/>, la <Node id="40"/>Reina<Node id="45"/> <Node id="46"/>Isabel II<Node id="55"/>, <Node id="57"/>Sean Connery<Node id="69"/>, <Node id="71"/>Jane Birkin<Node id="82"/>, <Node id="84"/>Catherine Deneuve<Node id="101"/>, <Node id="103"/>Brigitte Bardot<Node id="118"/>, <Node id="120"/>Kirk Douglas<Node id="132"/>, el <Node id="137"/>Papa<Node id="141"/> <Node id="142"/>Juan XXIII<Node id="152"/>, <Node id="154"/>Charles de Gaulle<Node id="171"/>, <Node id="173"/>Cary Grant<Node id="183"/> o J<Node id="187"/>eremy Irons<Node id="198"/>?: El mítico <Node id="211"/>coche<Node id="216"/> <Node id="217"/>Citroën<Node id="224"/> <Node id="225"/>DS Tiburón<Node id="235"/> que este año celebra su <Node id="260"/>65<Node id="262"/> aniversario. 
+<Node id="277"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="21" EndNode="35">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="46" EndNode="55">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="57" EndNode="69">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="71" EndNode="82">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="84" EndNode="101">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="103" EndNode="118">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="120" EndNode="132">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="142" EndNode="152">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="154" EndNode="171">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="173" EndNode="183">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="187" EndNode="198">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="211" EndNode="216">
+</Annotation>
+<Annotation Id="13" Type="ORG" StartNode="217" EndNode="224">
+</Annotation>
+<Annotation Id="14" Type="PRODUCT" StartNode="225" EndNode="235">
+</Annotation>
+<Annotation Id="15" Type="QUANT" StartNode="260" EndNode="262">
+</Annotation>
+<Annotation Id="16" Type="JOB" StartNode="40" EndNode="45">
+</Annotation>
+<Annotation Id="17" Type="JOB" StartNode="137" EndNode="141">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="277">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

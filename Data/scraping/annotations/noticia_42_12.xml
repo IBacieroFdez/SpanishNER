@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_42_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En total, ha dicho, han sido cerca de <Node id="38"/>2,5 toneladas<Node id="51"/> de <Node id="55"/>material sanitario<Node id="73"/>. Adicionalmente, ha subrayado, han lanzado una línea de producción de <Node id="144"/>batas<Node id="149"/> para <Node id="155"/>geriátricos<Node id="166"/>, así como la campaña el "Hilo que nos Une" desde la que han donado cerca de <Node id="243"/>un millón de euros<Node id="261"/> en <Node id="265"/>producto<Node id="273"/> a <Node id="276"/>centros sanitarios<Node id="294"/> y <Node id="297"/>residencias de mayores<Node id="319"/>.
+<Node id="321"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="38" EndNode="51">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="55" EndNode="73">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="144" EndNode="149">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="155" EndNode="166">
+</Annotation>
+<Annotation Id="5" Type="MONEY" StartNode="243" EndNode="261">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="265" EndNode="273">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="276" EndNode="294">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="297" EndNode="319">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="321">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

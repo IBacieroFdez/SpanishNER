@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_57_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Pese a este ejemplo, las <Node id="25"/>cifras<Node id="31"/> de fallecimientos y contagios en estos <Node id="71"/>centros<Node id="78"/> dan muestra del golpe que está asestando la <Node id="123"/>pandemia<Node id="131"/> a sus usuarios y también a sus <Node id="163"/>trabajadores<Node id="175"/> y ha derivado en una labor de seguimiento de la <Node id="224"/>Fiscalía<Node id="232"/>, que investiga si se ha podido cometer o no un delito en algunos de ellos.
+<Node id="308"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="71" EndNode="78">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="25" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="123" EndNode="131">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="163" EndNode="175">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="224" EndNode="232">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="308">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

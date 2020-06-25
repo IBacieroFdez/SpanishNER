@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_54_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Fue el <Node id="7"/>primero<Node id="14"/> del <Node id="19"/>Gobierno<Node id="27"/> en esta línea (posteriormente ha debido aprobar más) y llegó al <Node id="92"/>Congreso<Node id="100"/> el pasado <Node id="111"/>25 de marzo<Node id="122"/> para su convalidación.
+<Node id="146"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="7" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="19" EndNode="27">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="92" EndNode="100">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="111" EndNode="122">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="146">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

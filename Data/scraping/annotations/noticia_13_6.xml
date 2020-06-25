@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_13_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>comisaria<Node id="12"/> centra su informe en la mayor aceptación política y social del racismo, el desprecio hacia <Node id="104"/>inmigrantes<Node id="115"/> y <Node id="118"/>refugiados<Node id="128"/>, las amenazas sobre los derechos de las <Node id="169"/>mujeres<Node id="176"/>, la represión de las protestas y la erosión de la independencia <Node id="241"/>judicial<Node id="249"/>.
+<Node id="251"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="104" EndNode="115">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="118" EndNode="128">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="169" EndNode="176">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="241" EndNode="249">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="251">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

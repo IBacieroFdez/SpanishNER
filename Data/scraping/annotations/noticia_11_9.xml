@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_11_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Una vez llegados los contenedores a <Node id="36"/>Europa<Node id="42"/>, las <Node id="48"/>organizaciones criminales<Node id="73"/> retiran los <Node id="86"/>bultos<Node id="92"/> con la <Node id="100"/>droga<Node id="105"/> del contenedor <Node id="121"/>antes<Node id="126"/> de que el destinatario legítimo tome posesión de su <Node id="179"/>mercancía<Node id="188"/>.
+<Node id="190"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="36" EndNode="42">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="48" EndNode="73">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="86" EndNode="92">
+</Annotation>
+<Annotation Id="4" Type="DRUG" StartNode="100" EndNode="105">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="179" EndNode="188">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="121" EndNode="126">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="190">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Captura tomada de la señal institucional del <Node id="45"/>Palacio de la Moncloa<Node id="66"/> de (de izq a der) el <Node id="88"/>director<Node id="96"/> del <Node id="101"/>Centro de Coordinación de Alertas y Emergencias Sanitarias<Node id="159"/>, <Node id="161"/>Fernando Simón<Node id="175"/>; la <Node id="180"/>secretaria general<Node id="198"/> de <Node id="202"/>Transportes<Node id="213"/>, <Node id="215"/>María José Rallo del Olmo<Node id="240"/>, y el <Node id="247"/>director<Node id="255"/> del <Node id="260"/>gabinete del <Node id="273"/>jefe del Estado Mayor de la Defensa<Node id="308"/> (<Node id="310"/>JEMAD<Node id="315"/>), <Node id="318"/>Carlos Pérez Martínez<Node id="339"/>, durante la <Node id="352"/>rueda de prensa<Node id="367"/> telemática del comité de seguimiento de la <Node id="411"/>pandemia<Node id="419"/>, <Node id="421"/>este martes<Node id="432"/>, en <Node id="437"/>Madrid<Node id="443"/>. <Node id="445"/>EFE<Node id="448"/>/<Node id="449"/>Palacio de la Moncloa<Node id="470"/>
+	   
+<Node id="476"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="45" EndNode="66">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="88" EndNode="96">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="101" EndNode="159">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="161" EndNode="175">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="180" EndNode="198">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="202" EndNode="213">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="215" EndNode="240">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="247" EndNode="255">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="260" EndNode="308">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="273" EndNode="308">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="310" EndNode="315">
+</Annotation>
+<Annotation Id="12" Type="PER" StartNode="318" EndNode="339">
+</Annotation>
+<Annotation Id="13" Type="EVENT" StartNode="352" EndNode="367">
+</Annotation>
+<Annotation Id="14" Type="DISEASE" StartNode="411" EndNode="419">
+</Annotation>
+<Annotation Id="15" Type="DATE" StartNode="421" EndNode="432">
+</Annotation>
+<Annotation Id="16" Type="GPE" StartNode="437" EndNode="443">
+</Annotation>
+<Annotation Id="17" Type="ORG" StartNode="445" EndNode="448">
+</Annotation>
+<Annotation Id="18" Type="LOC" StartNode="449" EndNode="470">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="476">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

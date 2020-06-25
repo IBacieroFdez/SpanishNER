@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_78_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Solo las personas <Node id="18"/>autónomas<Node id="27"/> en <Node id="31"/>España<Node id="37"/> son <Node id="42"/>3,2 millones<Node id="54"/>, más del <Node id="64"/>16%<Node id="67"/> de la población activa, como recoge el informe publicado por la <Node id="132"/>Federación Nacional de Asociaciones<Node id="167"/> de <Node id="171"/>Trabajadores<Node id="183"/> <Node id="184"/>Autónomos<Node id="193"/> con fecha <Node id="204"/>diciembre de 2019<Node id="221"/>. Y las <Node id="229"/>pymes<Node id="234"/> suman un total de <Node id="253"/>2,8 millones<Node id="265"/> contabilizando <Node id="281"/>microempresas<Node id="294"/>, pequeñas y medianas <Node id="316"/>empresas<Node id="324"/>, según datos de este mes de <Node id="353"/>marzo<Node id="358"/> del <Node id="363"/>Ministerio de Industria<Node id="386"/>.
+<Node id="388"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="18" EndNode="27">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="184" EndNode="193">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="171" EndNode="183">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="31" EndNode="37">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="42" EndNode="54">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="253" EndNode="265">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="64" EndNode="67">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="132" EndNode="167">
+</Annotation>
+<Annotation Id="9" Type="DATE" StartNode="204" EndNode="221">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="229" EndNode="234">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="281" EndNode="294">
+</Annotation>
+<Annotation Id="13" Type="ORG" StartNode="316" EndNode="324">
+</Annotation>
+<Annotation Id="14" Type="DATE" StartNode="353" EndNode="358">
+</Annotation>
+<Annotation Id="15" Type="ORG" StartNode="363" EndNode="386">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="388">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

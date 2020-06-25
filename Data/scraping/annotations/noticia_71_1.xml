@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_71_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>Conserjería de Educación y Deporte<Node id="37"/> de <Node id="41"/>Andalucía<Node id="50"/> inicia una campaña protagonizada por algunos de los mejores <Node id="111"/>deportistas<Node id="122"/> de la <Node id="129"/>comunidad<Node id="138"/>, a través de un vídeo, y con la voz de la <Node id="181"/>cantante<Node id="189"/> <Node id="190"/>Pastora Soler<Node id="203"/> bajo el título ‘Que nada nos quite las ganas de superarnos’, con el objetivo de mostrar como con los valores del <Node id="317"/>deporte<Node id="324"/> se puede superar cualquier adversidad.
+<Node id="364"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="37">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="41" EndNode="50">
+</Annotation>
+<Annotation Id="3" Type="SPORT" StartNode="111" EndNode="122">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="129" EndNode="138">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="181" EndNode="189">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="190" EndNode="203">
+</Annotation>
+<Annotation Id="7" Type="SPORT" StartNode="317" EndNode="324">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="364">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_82_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Bañarse en <Node id="11"/>agua<Node id="15"/> caliente no proporciona ninguna protección contra la <Node id="69"/>COVID-19<Node id="77"/>. Con independencia de la <Node id="103"/>temperatura<Node id="114"/> del <Node id="119"/>agua<Node id="123"/> de la <Node id="130"/>bañera<Node id="136"/> o la <Node id="142"/>ducha<Node id="147"/>, la <Node id="152"/>temperatura<Node id="163"/> corporal continuará siendo de <Node id="194"/>36,5 °C<Node id="201"/> a <Node id="204"/>37<Node id="206"/> °C. De hecho,
+    si el agua está muy caliente puede uno quemarse. Lo mejor que se puede hacer para protegerse de la <Node id="324"/>COVID-19<Node id="332"/> es lavarse las manos con frecuencia para eliminar los <Node id="387"/>virus<Node id="392"/> que pueda haber en su superficie y no contagiarnos al tocarnos los ojos,
+    la boca y la nariz. 
+<Node id="491"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="11" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="69" EndNode="77">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="119" EndNode="123">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="103" EndNode="114">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="130" EndNode="136">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="142" EndNode="147">
+</Annotation>
+<Annotation Id="8" Type="SCITERM" StartNode="152" EndNode="163">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="194" EndNode="201">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="204" EndNode="206">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="324" EndNode="332">
+</Annotation>
+<Annotation Id="12" Type="MEDTERM" StartNode="387" EndNode="392">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="491">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_80_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>informe<Node id="10"/> que el <Node id="18"/>epidemiólogo<Node id="30"/> <Node id="31"/>Oriol Mitjà<Node id="42"/> ha trasladado esta <Node id="62"/>mañana<Node id="68"/> al <Node id="72"/>Govern<Node id="78"/> con las pautas y estrategias a seguir para un <Node id="125"/>desconfinamiento<Node id="141"/> efectivo en <Node id="154"/>Cataluña<Node id="162"/> abre la puerta a la creación de un certificado de inmunidad digital y pone el foco en los <Node id="253"/>test<Node id="257"/> masivos para identificar casos positivos.
+<Node id="300"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="_New_" StartNode="3" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="3" EndNode="10">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="18" EndNode="30">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="31" EndNode="42">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="62" EndNode="68">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="72" EndNode="78">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="125" EndNode="141">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="154" EndNode="162">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="253" EndNode="257">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="300">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

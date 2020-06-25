@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_89_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xd;
+	 <Node id="4"/>Los <Node id="8"/>medicamentos<Node id="20"/> crean expectativas de curación en los <Node id="59"/>pacientes<Node id="68"/>. En  numerosas ocasiones, estas esperanzas producen una mejoría similar o  mayor a la que producen los <Node id="172"/>fármacos<Node id="180"/>, lo que se conoce como <Node id="204"/>efecto  placebo<Node id="219"/>. Un nuevo <Node id="230"/>estudio<Node id="237"/>, llevado a cabo por <Node id="258"/>investigadores<Node id="272"/> de la  <Node id="280"/>Academia <Node id="289"/>Estadounidense<Node id="303"/> de <Node id="307"/>Neurología<Node id="317"/> en enfermos con <Node id="334"/>párkinson<Node id="343"/>, indica  que este efecto es mayor cuando el precio de los remedios es elevado. El  artículo ha sido publicado en la <Node id="460"/>revista<Node id="467"/> de la academia, <Node id="484"/>American Academy of Neurology<Node id="513"/>.&#xd;
+<Node id="516"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="8" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="59" EndNode="68">
+</Annotation>
+<Annotation Id="3" Type="DRUG" StartNode="172" EndNode="180">
+</Annotation>
+<Annotation Id="4" Type="DRUG" StartNode="204" EndNode="219">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="230" EndNode="237">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="258" EndNode="272">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="280" EndNode="317">
+</Annotation>
+<Annotation Id="8" Type="SCITERM" StartNode="307" EndNode="317">
+</Annotation>
+<Annotation Id="9" Type="LANG" StartNode="289" EndNode="303">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="334" EndNode="343">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="460" EndNode="467">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="484" EndNode="513">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="4" EndNode="516">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

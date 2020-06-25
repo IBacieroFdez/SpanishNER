@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_35_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Brigitte Bardot<Node id="15"/> aparece al volante de un <Node id="41"/>modelo descapotable<Node id="60"/>, mientras que <Node id="75"/>Catherine Deneuve<Node id="92"/> deslumbra al bajarse de esta <Node id="122"/>coche<Node id="127"/> envuelta en un halo sofisticado y <Node id="162"/>Jaen Birkin<Node id="173"/> impresiona posando con <Node id="197"/>minifalda<Node id="206"/> en el <Node id="213"/>DS tiburón<Node id="223"/>.
+<Node id="225"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="41" EndNode="60">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="75" EndNode="92">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="122" EndNode="127">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="162" EndNode="173">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="213" EndNode="223">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="197" EndNode="206">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="225">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

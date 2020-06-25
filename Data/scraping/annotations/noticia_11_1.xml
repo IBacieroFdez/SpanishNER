@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_11_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>La <Node id="3"/>Agencia Tributaria<Node id="21"/> se ha incautado en el <Node id="44"/>Puerto<Node id="50"/> de <Node id="54"/>Bilbao<Node id="60"/> de <Node id="64"/>1.100 kilos<Node id="75"/> de <Node id="79"/>cocaína<Node id="86"/> oculta en un contenedor que transportaba <Node id="128"/>un cargamento<Node id="141"/> de <Node id="145"/>bananas<Node id="152"/> procedente de <Node id="167"/>Ecuador<Node id="174"/>, ha informado este <Node id="194"/>organismo público<Node id="211"/>. 
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="GPE" StartNode="54" EndNode="60">
+</Annotation>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="21">
+</Annotation>
+<Annotation Id="17" Type="QUANT" StartNode="64" EndNode="75">
+</Annotation>
+<Annotation Id="19" Type="DRUG" StartNode="79" EndNode="86">
+</Annotation>
+<Annotation Id="20" Type="PRODUCT" StartNode="145" EndNode="152">
+</Annotation>
+<Annotation Id="55" Type="QUANT" StartNode="128" EndNode="141">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="18" Type="FAC" StartNode="44" EndNode="50">
+</Annotation>
+<Annotation Id="21" Type="GPE" StartNode="167" EndNode="174">
+</Annotation>
+<Annotation Id="22" Type="ORG" StartNode="194" EndNode="211">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_82_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Las <Node id="4"/>pruebas científicas<Node id="23"/> obtenidas hasta ahora indican que el <Node id="61"/>virus<Node id="66"/> de la <Node id="73"/>COVID-19<Node id="81"/> puede transmitirse en CUALQUIER <Node id="114"/>ZONA<Node id="118"/>, incluidas las de clima cálido y húmedo. Con independencia de las condiciones climáticas, hay que adoptar
+    medidas de protección si se vive en una zona donde se hayan notificado casos de <Node id="309"/>COVID-19<Node id="317"/> o si se viaja a ella. La mejor manera de protegerse contra la <Node id="380"/>COVID-19<Node id="388"/> es lavarse las manos con frecuencia. De esta manera se eliminan los <Node id="457"/>virus<Node id="462"/> que
+    puedan estar en las manos y se evita la infección que podría producirse al tocarse los ojos, la boca y la nariz. 
+<Node id="585"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="73" EndNode="81">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="4" EndNode="23">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="61" EndNode="66">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="114" EndNode="118">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="309" EndNode="317">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="380" EndNode="388">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="457" EndNode="462">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="585">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

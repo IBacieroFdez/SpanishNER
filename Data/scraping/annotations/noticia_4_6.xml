@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_4_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Es por ello que, como ha insistido en dejar claro, fue <Node id="55"/>él<Node id="57"/> quien pidió la creación de un "mando único" liderado por la <Node id="118"/>Consejería de Sanidad<Node id="139"/>, como se estableció el <Node id="163"/>26 de marzo<Node id="174"/>.
+<Node id="176"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="118" EndNode="139">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="163" EndNode="174">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="55" EndNode="57">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="176">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

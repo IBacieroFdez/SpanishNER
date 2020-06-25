@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_86_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>“Parte del aumento en la prevalencia del <Node id="41"/>autismo<Node id="48"/> podría deberse al modo en que se identifica a los niños, se les diagnostica el <Node id="128"/>autismo<Node id="135"/> y reciben servicios en sus comunidades”, dijo el <Node id="185"/>director adjunto<Node id="201"/> de <Node id="205"/>Ciencias del Centro Nacional de Defectos Congénitos y Discapacidades del Desarrollo<Node id="288"/> de los <Node id="296"/>CDC<Node id="299"/>, <Node id="301"/>Stuart Shapira<Node id="315"/>, M.D., Ph.D. “El aumento podría reflejar también reducciones en cuanto a diferencias raciales en la identificación del <Node id="435"/>autismo<Node id="442"/>, ya que esta es la primera vez que el informe de la Red de <Node id="502"/>ADDM<Node id="506"/> identifica que, entre los niños de <Node id="542"/>8<Node id="543"/> años con <Node id="553"/>autismo<Node id="560"/>, los de raza negra tienen las mismas tasas que los de raza blanca”, agregó.
+<Node id="637"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="DISEASE" StartNode="435" EndNode="442">
+</Annotation>
+<Annotation Id="1" Type="DISEASE" StartNode="41" EndNode="48">
+</Annotation>
+<Annotation Id="17" Type="QUANT" StartNode="502" EndNode="506">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="128" EndNode="135">
+</Annotation>
+<Annotation Id="18" Type="DISEASE" StartNode="553" EndNode="560">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="185" EndNode="201">
+</Annotation>
+<Annotation Id="19" Type="QUANT" StartNode="542" EndNode="543">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="296" EndNode="299">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="205" EndNode="288">
+</Annotation>
+<Annotation Id="14" Type="PER" StartNode="301" EndNode="315">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="637">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

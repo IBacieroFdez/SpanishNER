@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_11_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>droga<Node id="8"/> venía oculta en un contenedor que transportaba carga legal desde <Node id="74"/>Ecuador<Node id="81"/>. Se trata del "modus operandi" conocido como "gancho ciego", en el que las <Node id="157"/>organizaciones criminales<Node id="182"/> contaminan en los <Node id="201"/>puertos<Node id="208"/> de origen, o durante la travesía marítima, contenedores de carga legal con <Node id="284"/>mochilas<Node id="292"/> o <Node id="295"/>bolsas<Node id="301"/> que contienen los <Node id="320"/>estupefacientes<Node id="335"/>. 
+<Node id="338"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="3" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="74" EndNode="81">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="157" EndNode="182">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="201" EndNode="208">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="284" EndNode="292">
+</Annotation>
+<Annotation Id="6" Type="DRUG" StartNode="320" EndNode="335">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="295" EndNode="301">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="338">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

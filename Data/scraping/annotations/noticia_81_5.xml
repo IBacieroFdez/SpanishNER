@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>coronavirus<Node id="15"/> son una extensa familia de <Node id="43"/>virus<Node id="48"/> que pueden causar <Node id="67"/>enfermedades<Node id="79"/> tanto en animales como en humanos. En los humanos, se sabe que varios <Node id="150"/>coronavirus<Node id="161"/> causan <Node id="169"/>infecciones<Node id="180"/> <Node id="181"/>respiratorias<Node id="194"/> que pueden ir desde el <Node id="218"/>resfriado<Node id="227"/> común hasta <Node id="240"/>enfermedades<Node id="252"/>
+    más graves como el <Node id="276"/>síndrome respiratorio<Node id="297"/> de <Node id="301"/>Oriente Medio<Node id="314"/> (<Node id="316"/>MERS<Node id="320"/>) y el <Node id="327"/>síndrome respiratorio agudo severo<Node id="361"/> (<Node id="363"/>SRAS<Node id="367"/>). El <Node id="373"/>coronavirus<Node id="384"/> que se ha descubierto más recientemente causa la <Node id="434"/>enfermedad<Node id="444"/> por <Node id="449"/>coronavirus<Node id="460"/> <Node id="461"/>COVID-19<Node id="469"/>.
+<Node id="471"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="4" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="43" EndNode="48">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="67" EndNode="79">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="150" EndNode="161">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="169" EndNode="180">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="181" EndNode="194">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="218" EndNode="227">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="240" EndNode="252">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="301" EndNode="314">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="316" EndNode="320">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="276" EndNode="297">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="327" EndNode="361">
+</Annotation>
+<Annotation Id="13" Type="DISEASE" StartNode="363" EndNode="367">
+</Annotation>
+<Annotation Id="14" Type="DISEASE" StartNode="373" EndNode="384">
+</Annotation>
+<Annotation Id="15" Type="DISEASE" StartNode="434" EndNode="444">
+</Annotation>
+<Annotation Id="16" Type="DISEASE" StartNode="449" EndNode="460">
+</Annotation>
+<Annotation Id="17" Type="DISEASE" StartNode="461" EndNode="469">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="471">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

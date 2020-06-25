@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_36_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Si la <Node id="6"/>semana pasada<Node id="19"/> <Node id="20"/>Leonardo DiCaprio<Node id="37"/> y <Node id="40"/>Robert De Niro<Node id="54"/> iniciaron una <Node id="69"/>subasta benéfica<Node id="85"/> para acompañarlos y participar en el rodaje de "<Node id="134"/>Killers of the Flower Moon<Node id="160"/>", la próxima <Node id="174"/>película<Node id="182"/> de <Node id="186"/>Martin Scorsese<Node id="201"/>, y acudir a su <Node id="217"/>estreno<Node id="224"/>, ahora son la <Node id="239"/>actriz<Node id="245"/> <Node id="246"/>Gwyneth Paltrow<Node id="261"/> y la <Node id="267"/>cantante<Node id="275"/> <Node id="276"/>mexicana<Node id="284"/> <Node id="285"/>Thalía<Node id="291"/> las que lanzan un nuevo <Node id="316"/>reto<Node id="320"/> de solidaridad con los que menos tienen.
+<Node id="362"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="6" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="20" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="40" EndNode="54">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="69" EndNode="85">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="134" EndNode="160">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="174" EndNode="182">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="186" EndNode="201">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="217" EndNode="224">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="239" EndNode="245">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="246" EndNode="261">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="285" EndNode="291">
+</Annotation>
+<Annotation Id="12" Type="JOB" StartNode="267" EndNode="275">
+</Annotation>
+<Annotation Id="13" Type="LANG" StartNode="276" EndNode="284">
+</Annotation>
+<Annotation Id="14" Type="EVENT" StartNode="316" EndNode="320">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="362">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

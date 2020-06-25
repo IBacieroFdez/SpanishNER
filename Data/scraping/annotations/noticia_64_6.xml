@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_64_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Solo hay consenso <Node id="18"/>científico<Node id="28"/> mundial en un punto: No sirven en absoluto para no contagiarse de <Node id="95"/>coronavirus<Node id="106"/>. Pero ni siquiera las <Node id="129"/>mascarillas quirúrgicas<Node id="152"/> homologadas cumplen este fin, salvo las de alta eficacia <Node id="210"/>FPP<Node id="213"/>, según explica a <Node id="231"/>EFE<Node id="234"/> la <Node id="238"/>vicepresidenta<Node id="252"/> del <Node id="257"/>Colegio Oficial de Médicos<Node id="283"/> de <Node id="287"/>Madrid<Node id="293"/>.
+<Node id="295"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="MEDTERM" StartNode="210" EndNode="213">
+</Annotation>
+<Annotation Id="1" Type="JOB" StartNode="18" EndNode="28">
+</Annotation>
+<Annotation Id="17" Type="ORG" StartNode="231" EndNode="234">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="95" EndNode="106">
+</Annotation>
+<Annotation Id="18" Type="JOB" StartNode="238" EndNode="252">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="129" EndNode="152">
+</Annotation>
+<Annotation Id="19" Type="ORG" StartNode="257" EndNode="283">
+</Annotation>
+<Annotation Id="20" Type="GPE" StartNode="287" EndNode="293">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="295">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_82_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>temperatura<Node id="14"/> normal del cuerpo humano se mantiene en torno a <Node id="63"/>36,5°<Node id="68"/> y <Node id="71"/>37°<Node id="74"/>, con independencia de la temperatura exterior o de las <Node id="130"/>condiciones meteorológicas<Node id="156"/>. Por lo tanto, no hay razón para creer que el frío pueda matar el
+    nuevo <Node id="233"/>coronavirus<Node id="244"/> o acabar con otras <Node id="264"/>enfermedades<Node id="276"/>. La forma más eficaz de protegerse contra el <Node id="322"/>2019-nCoV<Node id="331"/> es limpiarse las manos frecuentemente con un <Node id="377"/>desinfectante<Node id="390"/> a base de <Node id="401"/>alcohol<Node id="408"/> o con <Node id="415"/>agua<Node id="419"/> y <Node id="422"/>jabón<Node id="427"/>.
+<Node id="429"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="3" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="63" EndNode="68">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="71" EndNode="74">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="130" EndNode="156">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="233" EndNode="244">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="264" EndNode="276">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="322" EndNode="331">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="377" EndNode="390">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="401" EndNode="408">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="415" EndNode="419">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="422" EndNode="427">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="429">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

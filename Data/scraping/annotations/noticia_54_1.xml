@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_54_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>grupo parlamentario<Node id="22"/> de <Node id="26"/>Cs<Node id="28"/> formalizará <Node id="41"/>mañana<Node id="47"/> una enmienda para suprimir la disposición que permite a <Node id="104"/>Pablo Iglesias<Node id="118"/>, como <Node id="125"/>vicepresidente<Node id="139"/>, entrar en la <Node id="154"/>comisión<Node id="162"/> del <Node id="167"/>CNI<Node id="170"/>, incluida en uno de los primeros proyectos del <Node id="218"/>Gobierno<Node id="226"/> para atajar la <Node id="242"/>crisis<Node id="248"/> económica derivada del <Node id="272"/>coronavirus<Node id="283"/>.
+<Node id="285"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="3" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="26" EndNode="28">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="41" EndNode="47">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="104" EndNode="118">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="218" EndNode="226">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="125" EndNode="139">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="154" EndNode="162">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="167" EndNode="170">
+</Annotation>
+<Annotation Id="10" Type="EVENT" StartNode="242" EndNode="248">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="272" EndNode="283">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="285">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

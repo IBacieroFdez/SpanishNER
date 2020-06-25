@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_55_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>También <Node id="8"/>Canarias<Node id="16"/> hará análisis de <Node id="34"/>coronavirus<Node id="45"/> al <Node id="49"/>personal sanitario<Node id="67"/> que considere que se ha podido exponer a un contagio al utilizar esos <Node id="138"/>equipos<Node id="145"/>.
+<Node id="147"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="8" EndNode="16">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="34" EndNode="45">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="49" EndNode="67">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="138" EndNode="145">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="147">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

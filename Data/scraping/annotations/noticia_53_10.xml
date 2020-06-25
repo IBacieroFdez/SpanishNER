@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_53_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Pero antes de entrar en el fondo del asunto, el <Node id="48"/>tribunal<Node id="56"/> debía establecer si <Node id="77"/>Bélgica<Node id="84"/> puede juzgar a un <Node id="103"/>magistrado<Node id="113"/> de otro <Node id="122"/>país<Node id="126"/> de la <Node id="133"/>Unión Europea<Node id="146"/>, extremo que rechazaba la defensa.
+<Node id="182"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="48" EndNode="56">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="77" EndNode="84">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="103" EndNode="113">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="122" EndNode="126">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="133" EndNode="146">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="182">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

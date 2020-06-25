@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>“Fue el gran impulsor del <Node id="26"/>movimiento olímpico<Node id="45"/> moderno (...). Su visión y su talento fomentaron la grandeza y unión del <Node id="119"/>movimiento olímpico<Node id="138"/>. Siempre recordaré la <Node id="161"/>imagen<Node id="167"/> de un hombre que sabía escuchar, respetar y empatizar con sus interlocutores", afirmó sobre su figura el <Node id="273"/>alemán<Node id="279"/> <Node id="280"/>Thomas Bach<Node id="291"/>, actual <Node id="300"/>presidente<Node id="310"/> del <Node id="315"/>COI<Node id="318"/>.
+<Node id="320"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="26" EndNode="45">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="119" EndNode="138">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="161" EndNode="167">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="280" EndNode="291">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="273" EndNode="279">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="300" EndNode="310">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="315" EndNode="318">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="320">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

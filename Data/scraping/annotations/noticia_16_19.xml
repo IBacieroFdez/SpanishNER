@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El único país que ha demostrado un internacionalismo genuino ha sido <Node id="69"/>Cuba<Node id="73"/>, que ha estado siempre bajo estrangulación económica por parte de <Node id="140"/>EE.UU<Node id="145"/>. y por algún milagro han sobrevivido para seguir mostrándole al mundo lo que es el internacionalismo. Pero esto no lo puedes decir en <Node id="280"/>EE.UU<Node id="285"/>. porque lo que has de hacer es culparles de violaciones de los derechos humanos. De hecho, las peores violaciones de derechos humanos tienen lugar al sudeste de <Node id="447"/>Cuba<Node id="451"/>, en un lugar llamado <Node id="473"/>Guantánamo<Node id="483"/> que <Node id="488"/>Estados Unidos<Node id="502"/> tomó a punta de pistola y se niega a devolver.
+<Node id="550"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="69" EndNode="73">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="140" EndNode="145">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="280" EndNode="285">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="447" EndNode="451">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="473" EndNode="483">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="488" EndNode="502">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="550">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_98_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>¿Por qué? Las <Node id="14"/>autoridades nacionales y locales<Node id="46"/> dispondrán de la información más actualizada sobre la situación en su <Node id="117"/>zona<Node id="121"/>. Llamar con antelación permitirá que
+    su <Node id="166"/>dispensador<Node id="177"/> de <Node id="181"/>atención de salud<Node id="198"/> le dirija rápidamente hacia el <Node id="230"/>centro de salud<Node id="245"/> adecuado. Esto también lo protegerá a usted y ayudará a prevenir la propagación de <Node id="329"/>virus<Node id="334"/> y otras <Node id="343"/>infecciones<Node id="354"/>.
+<Node id="356"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="SCITERM" StartNode="329" EndNode="334">
+</Annotation>
+<Annotation Id="1" Type="ORG" StartNode="14" EndNode="46">
+</Annotation>
+<Annotation Id="17" Type="DISEASE" StartNode="343" EndNode="354">
+</Annotation>
+<Annotation Id="12" Type="LOC" StartNode="117" EndNode="121">
+</Annotation>
+<Annotation Id="13" Type="JOB" StartNode="166" EndNode="177">
+</Annotation>
+<Annotation Id="14" Type="MEDTERM" StartNode="181" EndNode="198">
+</Annotation>
+<Annotation Id="15" Type="FAC" StartNode="230" EndNode="245">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="356">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

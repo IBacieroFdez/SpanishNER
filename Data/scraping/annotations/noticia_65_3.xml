@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_65_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/> “La <Node id="5"/>foto<Node id="9"/> por la que están investigando a <Node id="42"/>cientos<Node id="49"/> de <Node id="53"/>policías<Node id="61"/> y <Node id="64"/>sanitarios<Node id="74"/>” o “<Node id="79"/>imágenes<Node id="87"/> de la <Node id="94"/>España<Node id="100"/> que nos está dejando <Node id="122"/>Pedro Sánchez<Node id="135"/>” son algunos de los mensajes que acompañan a estas <Node id="187"/>fotografías<Node id="198"/>.
+<Node id="200"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="5" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="42" EndNode="49">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="53" EndNode="61">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="64" EndNode="74">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="79" EndNode="87">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="94" EndNode="100">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="122" EndNode="135">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="187" EndNode="198">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="200">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

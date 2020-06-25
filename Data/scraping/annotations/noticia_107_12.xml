@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_107_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En <Node id="3"/>Euromaster<Node id="13"/> tu cambio de <Node id="27"/>aceite<Node id="33"/> tiene <Node id="40"/>premio<Node id="46"/>. Haz tu pedido online con el código: ASA1 y disfruta de un dto de <Node id="113"/>10€<Node id="116"/>.
+<Node id="118"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="27" EndNode="33">
+</Annotation>
+<Annotation Id="3" Type="SPORT" StartNode="40" EndNode="46">
+</Annotation>
+<Annotation Id="4" Type="MONEY" StartNode="113" EndNode="116">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="118">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

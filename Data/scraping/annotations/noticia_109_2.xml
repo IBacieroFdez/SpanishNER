@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/paracetamol_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La utilización de <Node id="18"/>paracetamol<Node id="29"/> en <Node id="33"/>pacientes<Node id="42"/> que consumen habitualmente <Node id="70"/>alcohol<Node id="77"/> (<Node id="79"/>tres<Node id="83"/> o más <Node id="90"/>bebidas<Node id="97"/> alcohólicas al <Node id="113"/>día<Node id="116"/> – <Node id="119"/>cerveza<Node id="126"/>, <Node id="128"/>vino<Node id="132"/>, <Node id="134"/>licor<Node id="139"/>…al <Node id="143"/>día<Node id="146"/>) puede provocar daño en el <Node id="174"/>hígado<Node id="180"/>. Consulte a su <Node id="196"/>médico<Node id="202"/> o <Node id="205"/>farmacéutico<Node id="217"/> antes de utilizar cualquier <Node id="246"/>medicamento<Node id="257"/>. Si está usted <Node id="273"/>embarazada<Node id="283"/> o cree que pudiera estarlo, consulte a su <Node id="326"/>médico<Node id="332"/> antes de tomar este <Node id="353"/>medicamento<Node id="364"/>. El consumo de <Node id="380"/>medicamentos<Node id="392"/> durante el <Node id="404"/>embarazo<Node id="412"/> puede ser peligroso para el <Node id="441"/>embrión<Node id="448"/> o el <Node id="454"/>feto<Node id="458"/>, y debe ser vigilado por su <Node id="487"/>médico<Node id="493"/>. Contacte con su <Node id="511"/>médico<Node id="517"/> si el <Node id="524"/>dolor<Node id="529"/> o la <Node id="535"/>fiebre<Node id="541"/> no disminuyen o si necesita tomar el <Node id="579"/>medicamento<Node id="590"/> con más frecuencia.  
+<Node id="613"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="18" EndNode="29">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="33" EndNode="42">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="70" EndNode="77">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="90" EndNode="97">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="79" EndNode="83">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="119" EndNode="126">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="128" EndNode="132">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="134" EndNode="139">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="174" EndNode="180">
+</Annotation>
+<Annotation Id="11" Type="TIME" StartNode="143" EndNode="146">
+</Annotation>
+<Annotation Id="12" Type="TIME" StartNode="113" EndNode="116">
+</Annotation>
+<Annotation Id="13" Type="JOB" StartNode="196" EndNode="202">
+</Annotation>
+<Annotation Id="14" Type="JOB" StartNode="205" EndNode="217">
+</Annotation>
+<Annotation Id="15" Type="DRUG" StartNode="246" EndNode="257">
+</Annotation>
+<Annotation Id="17" Type="MEDTERM" StartNode="273" EndNode="283">
+</Annotation>
+<Annotation Id="18" Type="JOB" StartNode="326" EndNode="332">
+</Annotation>
+<Annotation Id="19" Type="DRUG" StartNode="353" EndNode="364">
+</Annotation>
+<Annotation Id="20" Type="DRUG" StartNode="380" EndNode="392">
+</Annotation>
+<Annotation Id="21" Type="MEDTERM" StartNode="404" EndNode="412">
+</Annotation>
+<Annotation Id="22" Type="MEDTERM" StartNode="441" EndNode="448">
+</Annotation>
+<Annotation Id="23" Type="MEDTERM" StartNode="454" EndNode="458">
+</Annotation>
+<Annotation Id="24" Type="JOB" StartNode="487" EndNode="493">
+</Annotation>
+<Annotation Id="25" Type="JOB" StartNode="511" EndNode="517">
+</Annotation>
+<Annotation Id="26" Type="DISEASE" StartNode="524" EndNode="529">
+</Annotation>
+<Annotation Id="27" Type="DISEASE" StartNode="535" EndNode="541">
+</Annotation>
+<Annotation Id="28" Type="DRUG" StartNode="579" EndNode="590">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="613">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

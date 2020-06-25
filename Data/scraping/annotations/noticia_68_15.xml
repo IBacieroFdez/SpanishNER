@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Desde que <Node id="10"/>Samaranch<Node id="19"/> dejó la <Node id="28"/>presidencia<Node id="39"/> en <Node id="43"/>2001<Node id="47"/>, en la víspera de su <Node id="69"/>81<Node id="71"/> cumpleaños, el <Node id="87"/>COI<Node id="90"/> ha tenido <Node id="101"/>dos<Node id="104"/> <Node id="105"/>presidentes<Node id="116"/>, el <Node id="121"/>belga<Node id="126"/> <Node id="127"/>Jacques Rogge<Node id="140"/> y el <Node id="146"/>alemán<Node id="152"/> <Node id="153"/>Thomas Bach<Node id="164"/>. Asistió en <Node id="177"/>2004<Node id="181"/> a los <Node id="188"/>Juegos<Node id="194"/> de <Node id="198"/>Atenas<Node id="204"/>, que tanto trabajo le costó sacar adelante, y en <Node id="254"/>2008<Node id="258"/> a los de <Node id="268"/>Pekín<Node id="273"/>, cuya elección le llenó de indisimulada alegría por la apertura del mapa olímpico a un <Node id="361"/>país<Node id="365"/> nuevo del calado de <Node id="386"/>China<Node id="391"/>.
+<Node id="393"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="10" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="43" EndNode="47">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="28" EndNode="39">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="69" EndNode="71">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="87" EndNode="90">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="101" EndNode="104">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="105" EndNode="116">
+</Annotation>
+<Annotation Id="8" Type="LANG" StartNode="121" EndNode="126">
+</Annotation>
+<Annotation Id="9" Type="LANG" StartNode="146" EndNode="152">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="127" EndNode="140">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="153" EndNode="164">
+</Annotation>
+<Annotation Id="12" Type="DATE" StartNode="177" EndNode="181">
+</Annotation>
+<Annotation Id="13" Type="EVENT" StartNode="188" EndNode="194">
+</Annotation>
+<Annotation Id="14" Type="GPE" StartNode="198" EndNode="204">
+</Annotation>
+<Annotation Id="15" Type="DATE" StartNode="254" EndNode="258">
+</Annotation>
+<Annotation Id="16" Type="GPE" StartNode="268" EndNode="273">
+</Annotation>
+<Annotation Id="17" Type="LOC" StartNode="361" EndNode="365">
+</Annotation>
+<Annotation Id="18" Type="GPE" StartNode="386" EndNode="391">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="393">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

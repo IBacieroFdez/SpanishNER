@@ -1,0 +1,1 @@
+Mitjà propone que se rastreen los contactos de las personas con síntomas a través de la tecnología bluetooth de los teléfonos móviles. El inconveniente, tal y como apunta el informe, pasa por el tratamiento de estos datos y la privacidad del usuario, un tema sobre el que recomiendan avanzar "con precaución y sensibilidad".

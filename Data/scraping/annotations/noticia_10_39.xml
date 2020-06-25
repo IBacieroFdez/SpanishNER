@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_39.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Día Mundial Sin <Node id="16"/>Tabaco<Node id="22"/>: <Node id="24"/>Una de cada dos<Node id="39"/> <Node id="40"/>personas<Node id="48"/> a favor de prohibir fumar en <Node id="78"/>coches<Node id="84"/> privados
+<Node id="94"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="0" EndNode="22">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="16" EndNode="22">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="24" EndNode="39">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="40" EndNode="48">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="78" EndNode="84">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="94">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

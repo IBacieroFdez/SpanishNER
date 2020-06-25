@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_12_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>desde el inicio de la <Node id="22"/>pandemia<Node id="30"/>, las <Node id="36"/>personas<Node id="44"/> que han contraído el <Node id="66"/>virus<Node id="71"/> suman en total <Node id="87"/>57.997<Node id="93"/>, es decir, <Node id="105"/>1.034 más<Node id="114"/> que <Node id="119"/>ayer<Node id="123"/>, y supone un  incremento del <Node id="153"/>1,78 %<Node id="159"/>.
+<Node id="161"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="22" EndNode="30">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="36" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="66" EndNode="71">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="87" EndNode="93">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="105" EndNode="114">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="119" EndNode="123">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="153" EndNode="159">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="161">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_85_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>diabetes<Node id="11"/> tipo <Node id="17"/>1<Node id="18"/> es causada por una <Node id="38"/>reacción<Node id="46"/> <Node id="47"/>autoinmunitaria<Node id="62"/> (el cuerpo se ataca a sí mismo por error) que impide que el cuerpo produzca <Node id="139"/>insulina<Node id="147"/>. Aproximadamente del <Node id="169"/>5<Node id="170"/> al <Node id="174"/>10%<Node id="177"/> de las personas que tienen <Node id="205"/>diabetes<Node id="213"/> tienen el tipo <Node id="229"/>1<Node id="230"/>. Por lo general, los <Node id="252"/>síntomas<Node id="260"/> de esta <Node id="269"/>diabetes<Node id="277"/> aparecen rápidamente. Generalmente se <Node id="316"/>diagnostica<Node id="327"/> en niños, adolescentes y adultos jóvenes. Las personas que tienen <Node id="394"/>diabetes<Node id="402"/> tipo <Node id="408"/>1<Node id="409"/>, deben recibir <Node id="425"/>insulina<Node id="433"/> todos los días para sobrevivir. En la actualidad, nadie sabe cómo prevenir la <Node id="512"/>diabetes<Node id="520"/> tipo <Node id="526"/>1<Node id="527"/>.
+<Node id="529"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="17" EndNode="18">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="38" EndNode="46">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="47" EndNode="62">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="139" EndNode="147">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="169" EndNode="170">
+</Annotation>
+<Annotation Id="9" Type="PERCENT" StartNode="174" EndNode="177">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="205" EndNode="213">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="229" EndNode="230">
+</Annotation>
+<Annotation Id="12" Type="MEDTERM" StartNode="252" EndNode="260">
+</Annotation>
+<Annotation Id="13" Type="DISEASE" StartNode="269" EndNode="277">
+</Annotation>
+<Annotation Id="14" Type="MEDTERM" StartNode="316" EndNode="327">
+</Annotation>
+<Annotation Id="15" Type="DISEASE" StartNode="394" EndNode="402">
+</Annotation>
+<Annotation Id="16" Type="DISEASE" StartNode="512" EndNode="520">
+</Annotation>
+<Annotation Id="17" Type="QUANT" StartNode="408" EndNode="409">
+</Annotation>
+<Annotation Id="18" Type="QUANT" StartNode="526" EndNode="527">
+</Annotation>
+<Annotation Id="19" Type="SCITERM" StartNode="425" EndNode="433">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="529">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

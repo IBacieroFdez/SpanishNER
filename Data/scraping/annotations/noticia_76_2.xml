@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_76_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Así, con la gran mayoría de los <Node id="32"/>empleados<Node id="41"/> <Node id="42"/>teletrabajando<Node id="56"/>, casi <Node id="63"/>3<Node id="64"/> de cada <Node id="73"/>10<Node id="75"/> <Node id="76"/>pymes<Node id="81"/> y <Node id="84"/>startups<Node id="92"/> <Node id="93"/>madrileñas<Node id="103"/> ven en los <Node id="115"/>neobancos<Node id="124"/> una forma de realizar cualquier operación de forma online de un modo sencillo. 
+<Node id="205"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="32" EndNode="41">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="42" EndNode="56">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="63" EndNode="64">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="73" EndNode="75">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="76" EndNode="81">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="84" EndNode="92">
+</Annotation>
+<Annotation Id="7" Type="LANG" StartNode="93" EndNode="103">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="115" EndNode="124">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="205">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

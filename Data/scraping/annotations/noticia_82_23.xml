@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_82_23.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El nuevo <Node id="9"/>coronavirus<Node id="20"/> (<Node id="22"/>2019-nCoV<Node id="31"/>) puede infectar a personas de todas las edades, si bien se ha observado que las personas mayores y las que padecen algunas <Node id="155"/>enfermedades<Node id="167"/> (como el <Node id="177"/>asma<Node id="181"/>, la <Node id="186"/>diabetes<Node id="194"/> o las <Node id="201"/>cardiopatías<Node id="213"/>) tienen más <Node id="226"/>probabilidades<Node id="240"/> de enfermarse gravemente cuando adquieren la <Node id="286"/>infección<Node id="295"/>.
+<Node id="297"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="9" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="22" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="155" EndNode="167">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="177" EndNode="181">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="186" EndNode="194">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="201" EndNode="213">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="286" EndNode="295">
+</Annotation>
+<Annotation Id="8" Type="PERCENT" StartNode="226" EndNode="240">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="297">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>“Habitualmente, la causa más frecuenta de pérdida de <Node id="53"/>olfato<Node id="59"/> es el <Node id="66"/>catarro<Node id="73"/> o los brotes de <Node id="90"/>alergia<Node id="97"/>, se <Node id="102"/>congestiona<Node id="113"/> la <Node id="117"/>nariz<Node id="122"/> y el <Node id="128"/>estimulo olfatorio<Node id="146"/> no llega al <Node id="159"/>nervio<Node id="165"/> pero lo característico de la <Node id="195"/>anosmia<Node id="202"/> por <Node id="207"/>COVID-19<Node id="215"/> es que no tienen <Node id="233"/>congestión<Node id="243"/>, en la mayor parte de los casos”, abunda el <Node id="288"/>doctor<Node id="294"/> del <Node id="299"/>12 de Octubre<Node id="312"/>.
+<Node id="314"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="53" EndNode="59">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="66" EndNode="73">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="90" EndNode="97">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="102" EndNode="113">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="117" EndNode="122">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="128" EndNode="146">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="159" EndNode="165">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="195" EndNode="202">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="207" EndNode="215">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="233" EndNode="243">
+</Annotation>
+<Annotation Id="11" Type="JOB" StartNode="288" EndNode="294">
+</Annotation>
+<Annotation Id="12" Type="FAC" StartNode="299" EndNode="312">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="314">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

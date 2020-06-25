@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_25_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>expertos<Node id="12"/> descubrieron en el <Node id="32"/>cerebro<Node id="39"/> un segmento de este proceso del lenguaje que interconecta la <Node id="101"/>corteza auditiva<Node id="117"/> con las <Node id="126"/>regiones<Node id="134"/> del <Node id="139"/>lóbulo frontal<Node id="153"/>, importantes en el proceso del habla.
+<Node id="192"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="4" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="32" EndNode="39">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="101" EndNode="117">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="126" EndNode="134">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="139" EndNode="153">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="192">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

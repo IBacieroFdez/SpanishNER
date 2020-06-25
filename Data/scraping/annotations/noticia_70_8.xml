@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_70_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los invitados a la ‘<Node id="20"/>videotertulia<Node id="33"/>’ son <Node id="39"/>Iñaki Vergara<Node id="52"/>, <Node id="54"/>vicepresidente<Node id="68"/> <Node id="69"/>primero<Node id="76"/> de la <Node id="83"/>FER<Node id="86"/>, <Node id="88"/>presidente<Node id="98"/> del <Node id="103"/>Comité Nacional de Árbitros<Node id="130"/> (<Node id="132"/>CNA<Node id="135"/>), así como de la comisión nombrada por la <Node id="178"/>Comisión Delegada<Node id="195"/> de la <Node id="202"/>FER<Node id="205"/> para estudiar la situación de las <Node id="240"/>competiciones<Node id="253"/>; <Node id="255"/>Miquel Martínez<Node id="270"/>, <Node id="272"/>presidente<Node id="282"/> de la <Node id="289"/>Unió Esportiva Santboiana<Node id="314"/>, el <Node id="319"/>club<Node id="323"/> decano del <Node id="335"/>rugby<Node id="340"/> <Node id="341"/>español<Node id="348"/> que el <Node id="356"/>año<Node id="359"/> que viene cumple <Node id="377"/>cien<Node id="381"/> <Node id="382"/>años<Node id="386"/>; y <Node id="390"/>Mariola Rus<Node id="401"/>, <Node id="403"/>presidenta<Node id="413"/> del <Node id="418"/>Universitario de Sevilla<Node id="442"/>, más conocidas como las <Node id="467"/>Cocodrilas<Node id="477"/>, equipo de la <Node id="492"/>Liga Iberdrola<Node id="506"/>, y <Node id="510"/>directiva<Node id="519"/> de la <Node id="526"/>FER<Node id="529"/>, además de ex <Node id="544"/>jugadora<Node id="552"/> de la <Node id="559"/>Selección española<Node id="577"/>. 
+<Node id="580"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="20" EndNode="33">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="39" EndNode="52">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="54" EndNode="68">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="69" EndNode="76">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="83" EndNode="86">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="88" EndNode="98">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="103" EndNode="130">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="132" EndNode="135">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="178" EndNode="195">
+</Annotation>
+<Annotation Id="10" Type="NORP" StartNode="202" EndNode="205">
+</Annotation>
+<Annotation Id="11" Type="EVENT" StartNode="240" EndNode="253">
+</Annotation>
+<Annotation Id="12" Type="PER" StartNode="255" EndNode="270">
+</Annotation>
+<Annotation Id="13" Type="JOB" StartNode="272" EndNode="282">
+</Annotation>
+<Annotation Id="14" Type="NORP" StartNode="289" EndNode="314">
+</Annotation>
+<Annotation Id="15" Type="NORP" StartNode="319" EndNode="323">
+</Annotation>
+<Annotation Id="16" Type="SPORT" StartNode="335" EndNode="340">
+</Annotation>
+<Annotation Id="17" Type="LANG" StartNode="341" EndNode="348">
+</Annotation>
+<Annotation Id="18" Type="TIME" StartNode="356" EndNode="359">
+</Annotation>
+<Annotation Id="19" Type="QUANT" StartNode="377" EndNode="381">
+</Annotation>
+<Annotation Id="20" Type="TIME" StartNode="382" EndNode="386">
+</Annotation>
+<Annotation Id="21" Type="PER" StartNode="390" EndNode="401">
+</Annotation>
+<Annotation Id="22" Type="JOB" StartNode="403" EndNode="413">
+</Annotation>
+<Annotation Id="23" Type="NORP" StartNode="418" EndNode="442">
+</Annotation>
+<Annotation Id="24" Type="NORP" StartNode="467" EndNode="477">
+</Annotation>
+<Annotation Id="25" Type="ORG" StartNode="492" EndNode="506">
+</Annotation>
+<Annotation Id="26" Type="JOB" StartNode="510" EndNode="519">
+</Annotation>
+<Annotation Id="27" Type="NORP" StartNode="526" EndNode="529">
+</Annotation>
+<Annotation Id="28" Type="SPORT" StartNode="544" EndNode="552">
+</Annotation>
+<Annotation Id="29" Type="NORP" StartNode="559" EndNode="577">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="580">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

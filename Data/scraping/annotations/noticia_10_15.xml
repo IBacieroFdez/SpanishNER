@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>“Sabemos que es un <Node id="19"/>síntoma<Node id="26"/> muy frecuente. Estamos viendo con mucha frecuencia entre los <Node id="88"/>sanitarios<Node id="98"/> y muchos <Node id="108"/>pacientes<Node id="117"/> que el único <Node id="131"/>síntoma<Node id="138"/> que tienen es la falta de <Node id="165"/>olfato<Node id="171"/>”, afirma <Node id="181"/>García<Node id="187"/>.
+<Node id="189"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="19" EndNode="26">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="88" EndNode="98">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="108" EndNode="117">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="131" EndNode="138">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="165" EndNode="171">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="181" EndNode="187">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="189">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

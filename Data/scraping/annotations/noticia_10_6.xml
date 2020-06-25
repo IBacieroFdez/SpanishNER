@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Frente a estos datos que aún son preliminares, un documento de Información <Node id="75"/>Científico<Node id="85"/>-<Node id="86"/>Técnica<Node id="93"/> del <Node id="98"/>Ministerio de Sanidad<Node id="119"/> sobre <Node id="126"/>COVID-19<Node id="134"/>, actualizado a <Node id="150"/>4 de abril<Node id="160"/>, recoge los resultados de un estudio realizado a <Node id="210"/>214<Node id="213"/> <Node id="214"/>pacientes<Node id="223"/> de un <Node id="230"/>hospital<Node id="238"/> de <Node id="242"/>Wuhan<Node id="247"/> (<Node id="249"/>China<Node id="254"/>) que indicaban que solo el <Node id="282"/>5 %<Node id="285"/> de ellos había reportado <Node id="311"/>hiposmia<Node id="319"/> -pérdida parcial del <Node id="341"/>olfato<Node id="347"/>-.
+<Node id="350"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="98" EndNode="119">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="86" EndNode="93">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="75" EndNode="85">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="126" EndNode="134">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="150" EndNode="160">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="210" EndNode="213">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="214" EndNode="223">
+</Annotation>
+<Annotation Id="8" Type="FAC" StartNode="230" EndNode="238">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="242" EndNode="247">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="249" EndNode="254">
+</Annotation>
+<Annotation Id="11" Type="PERCENT" StartNode="282" EndNode="285">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="311" EndNode="319">
+</Annotation>
+<Annotation Id="13" Type="MEDTERM" StartNode="341" EndNode="347">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="350">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

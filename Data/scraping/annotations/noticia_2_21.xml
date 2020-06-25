@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_2_21.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>"Si la <Node id="7"/>gente<Node id="12"/> piensa que esto va a ser abro la puerta y que se junten con los <Node id="77"/>niños<Node id="82"/> de todo el vecindario, podemos tener algún problema”, ha señalado <Node id="149"/>Fernando Simón<Node id="163"/>, quien ha añadido que es "razonable" que se planteen ésta y otras medidas de relajación según se van alcanzando objetivos, como la práctica individual de deporte <Node id="326"/>al aire libre<Node id="339"/>.
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="7" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="77" EndNode="82">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="149" EndNode="163">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="4" Type="LOC" StartNode="326" EndNode="339">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

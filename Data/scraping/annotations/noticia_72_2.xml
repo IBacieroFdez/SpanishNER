@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_72_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Su apellido, ligado a la banca, lleva a recordar a <Node id="51"/>Gonzalo<Node id="58"/>, su padre y un <Node id="74"/>escritor<Node id="82"/> y <Node id="85"/>navegante<Node id="94"/> reconocido, ganador de varios mundiales y <Node id="137"/>regatas<Node id="144"/> de alto nivel al mando de ‘Tales II’, un legendario diseño de su hermano <Node id="218"/>Marcelino<Node id="227"/>. <Node id="229"/>Marcelino Botín<Node id="244"/>, uno de los mejores <Node id="265"/>diseñadores<Node id="276"/> del mundo de <Node id="290"/>barcos<Node id="296"/> de alta competición como los de los <Node id="333"/>equipos<Node id="340"/> de <Node id="344"/>Copa del América<Node id="360"/> de <Node id="364"/>Nueva Zelanda<Node id="377"/>, entre otros.
+<Node id="392"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="51" EndNode="58">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="74" EndNode="82">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="85" EndNode="94">
+</Annotation>
+<Annotation Id="4" Type="SPORT" StartNode="137" EndNode="144">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="218" EndNode="227">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="229" EndNode="244">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="265" EndNode="276">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="290" EndNode="296">
+</Annotation>
+<Annotation Id="9" Type="SPORT" StartNode="344" EndNode="360">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="364" EndNode="377">
+</Annotation>
+<Annotation Id="11" Type="NORP" StartNode="333" EndNode="340">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="392">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

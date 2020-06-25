@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_30_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>diez<Node id="8"/> destinos más importantes para los <Node id="43"/>equipos<Node id="50"/> y <Node id="53"/>componentes<Node id="64"/> <Node id="65"/>españoles<Node id="74"/> <Node id="75"/>durante<Node id="82"/> <Node id="83"/>2019<Node id="87"/> fueron la <Node id="98"/>Unión Europea<Node id="111"/> (<Node id="113"/>UE<Node id="115"/>), <Node id="118"/>Estados Unidos<Node id="132"/>, <Node id="134"/>Marruecos<Node id="143"/>, <Node id="145"/>China<Node id="150"/>, <Node id="152"/>Argelia<Node id="159"/>, <Node id="161"/>México<Node id="167"/>, <Node id="169"/>Turquía<Node id="176"/>, <Node id="178"/>Sudáfrica<Node id="187"/>, <Node id="189"/>Japón<Node id="194"/> y <Node id="197"/>Rusia<Node id="202"/>.
+<Node id="204"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="43" EndNode="50">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="53" EndNode="64">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="65" EndNode="74">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="83" EndNode="87">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="75" EndNode="82">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="98" EndNode="111">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="113" EndNode="115">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="118" EndNode="132">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="134" EndNode="143">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="145" EndNode="150">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="152" EndNode="159">
+</Annotation>
+<Annotation Id="12" Type="GPE" StartNode="161" EndNode="167">
+</Annotation>
+<Annotation Id="13" Type="GPE" StartNode="169" EndNode="176">
+</Annotation>
+<Annotation Id="14" Type="GPE" StartNode="178" EndNode="187">
+</Annotation>
+<Annotation Id="15" Type="GPE" StartNode="189" EndNode="194">
+</Annotation>
+<Annotation Id="16" Type="GPE" StartNode="197" EndNode="202">
+</Annotation>
+<Annotation Id="17" Type="QUANT" StartNode="4" EndNode="8">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="204">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

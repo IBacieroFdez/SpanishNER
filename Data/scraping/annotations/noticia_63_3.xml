@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Esta tesis tiene como punto de partida el vídeo con los <Node id="56"/>10<Node id="58"/> <Node id="59"/>minutos<Node id="66"/> finales de la conferencia que <Node id="97"/>Thomas Cowan<Node id="109"/>, <Node id="111"/>autor<Node id="116"/> de varios libros que se presenta como doctor, pronunció el pasado <Node id="183"/>12 de marzo<Node id="194"/> en un <Node id="201"/>foro<Node id="205"/> organizado en <Node id="220"/>Tucson<Node id="226"/> (<Node id="228"/>EEUU<Node id="232"/>) por el<Node id="240"/> grupo Humans for Humanity Coalition<Node id="276"/>, vinculado al movimiento <Node id="302"/>antivacunas<Node id="313"/>.
+<Node id="315"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="56" EndNode="58">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="59" EndNode="66">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="97" EndNode="109">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="111" EndNode="116">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="183" EndNode="194">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="201" EndNode="205">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="220" EndNode="226">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="228" EndNode="232">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="240" EndNode="276">
+</Annotation>
+<Annotation Id="10" Type="DRUG" StartNode="302" EndNode="313">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="315">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

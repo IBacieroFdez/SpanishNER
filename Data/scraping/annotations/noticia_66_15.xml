@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_66_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Después de recordar que estos sistemas de nebulización "vía aérea" son "muy empleados para la desinfección de <Node id="110"/>quirófanos<Node id="120"/>, <Node id="122"/>laboratorios<Node id="134"/>, <Node id="136"/>salas blancas<Node id="149"/>...", los <Node id="159"/>voluntarios<Node id="170"/> de <Node id="174"/>emergencias<Node id="185"/> argumentan que, además de ser falso que se vaya a fumigar desde <Node id="250"/>aviones<Node id="257"/> o <Node id="260"/>helicópteros<Node id="272"/>, "a esa altura y en esa cantidad no serviría para nada".
+<Node id="330"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="FAC" StartNode="110" EndNode="120">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="122" EndNode="134">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="136" EndNode="149">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="159" EndNode="170">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="174" EndNode="185">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="250" EndNode="257">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="260" EndNode="272">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="330">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

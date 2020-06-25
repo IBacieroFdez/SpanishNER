@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_90_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>científicos<Node id="15"/> han identificado en el <Node id="39"/>espacio<Node id="46"/> <Node id="47"/>moléculas<Node id="56"/> misteriosas y el <Node id="74"/>compuesto<Node id="83"/> con el que se piensa que comenzó la <Node id="120"/>química<Node id="127"/> del <Node id="132"/>cosmos<Node id="138"/>.
+<Node id="140"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="4" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="39" EndNode="46">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="47" EndNode="56">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="74" EndNode="83">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="120" EndNode="127">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="132" EndNode="138">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="140">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

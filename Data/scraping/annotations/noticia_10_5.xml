@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>“La pérdida del <Node id="16"/>olfato<Node id="22"/> es un marcador en <Node id="41"/>urgencias<Node id="50"/> muy claro de la <Node id="67"/>infección<Node id="76"/> por <Node id="81"/>coronavirus<Node id="92"/>. Es un <Node id="100"/>síntoma<Node id="107"/> demasiado llamativo para lo sorprendentemente poco mencionado que es”, opina el <Node id="188"/>doctor<Node id="194"/> <Node id="195"/>Nicolás Pérez<Node id="208"/>, que añade que por el momento hay muchas preguntas y pocas respuestas en torno a este asunto.
+<Node id="303"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="16" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="41" EndNode="50">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="67" EndNode="76">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="81" EndNode="92">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="100" EndNode="107">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="188" EndNode="194">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="195" EndNode="208">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="303">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

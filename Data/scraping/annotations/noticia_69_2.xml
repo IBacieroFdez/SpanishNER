@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_69_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Al igual que ya ocurrió con la disputa del <Node id="43"/>Magnus Carlsen Invitational<Node id="70"/>, dotado con <Node id="83"/>250.000 dólares<Node id="98"/> en premios (<Node id="111"/>70.000<Node id="117"/> para el ganador),  liderado por el campeón del mundo, ahora la <Node id="181"/>FIDE<Node id="185"/> plantea una nueva competición a través de <Node id="228"/>internet<Node id="236"/>, en la que estarán presentes <Node id="266"/>cinco<Node id="271"/> <Node id="272"/>naciones<Node id="280"/>, <Node id="282"/>Rusia<Node id="287"/>, <Node id="289"/>Estados Unidos<Node id="303"/>, <Node id="305"/>Europa<Node id="311"/>, <Node id="313"/>China<Node id="318"/>, <Node id="320"/>India<Node id="325"/>, además de un equipo formado por jugadores "del <Node id="374"/>resto del mundo<Node id="389"/>".
+<Node id="392"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="43" EndNode="70">
+</Annotation>
+<Annotation Id="2" Type="MONEY" StartNode="83" EndNode="98">
+</Annotation>
+<Annotation Id="3" Type="MONEY" StartNode="111" EndNode="117">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="181" EndNode="185">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="228" EndNode="236">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="266" EndNode="271">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="272" EndNode="280">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="282" EndNode="287">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="289" EndNode="303">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="305" EndNode="311">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="313" EndNode="318">
+</Annotation>
+<Annotation Id="12" Type="GPE" StartNode="320" EndNode="325">
+</Annotation>
+<Annotation Id="13" Type="NORP" StartNode="374" EndNode="389">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="392">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

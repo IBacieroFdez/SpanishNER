@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_64_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Padilla<Node id="7"/> coincide con el criterio de la <Node id="39"/>Organización Mundial de la Salud<Node id="71"/> (<Node id="73"/>OMS<Node id="76"/>), institución que, en un reciente informe, advierte además de que las <Node id="147"/>mascarillas<Node id="158"/> confeccionadas con <Node id="178"/>algodón<Node id="185"/> pueden ser incluso una fuente potencial de <Node id="229"/>infección<Node id="238"/>, ya que, al no ser resistentes a los <Node id="276"/>fluidos<Node id="283"/>, pueden retener humedad y contaminarse.
+<Node id="324"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="PER" StartNode="0" EndNode="7">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="39" EndNode="71">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="73" EndNode="76">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="147" EndNode="158">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="178" EndNode="185">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="229" EndNode="238">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="276" EndNode="283">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="324">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

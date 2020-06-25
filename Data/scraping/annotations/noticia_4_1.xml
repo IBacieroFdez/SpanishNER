@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_4_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>consejero<Node id="12"/> madrileño de <Node id="26"/>Políticas Sociales<Node id="44"/>, <Node id="46"/>Igualdad<Node id="54"/>, <Node id="56"/>Familias<Node id="64"/> y <Node id="67"/>Natalidad<Node id="76"/>, ha admitido <Node id="90"/>este martes<Node id="101"/> que las <Node id="110"/>residencias de mayores y personas con discapacidad<Node id="160"/> de la <Node id="167"/>región<Node id="173"/> no estaban "suficientemente preparadas" para afrontar "una <Node id="233"/>crisis <Node id="240"/>sanitaria<Node id="249"/> de las dimensiones de la actual", en particular porque "no cuentan con el material adecuado para hacerlo".
+<Node id="357"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="64" Type="MEDTERM" StartNode="240" EndNode="249">
+</Annotation>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="12">
+</Annotation>
+<Annotation Id="24" Type="ORG" StartNode="26" EndNode="44">
+</Annotation>
+<Annotation Id="25" Type="ORG" StartNode="46" EndNode="54">
+</Annotation>
+<Annotation Id="26" Type="ORG" StartNode="56" EndNode="64">
+</Annotation>
+<Annotation Id="27" Type="ORG" StartNode="67" EndNode="76">
+</Annotation>
+<Annotation Id="28" Type="DATE" StartNode="90" EndNode="101">
+</Annotation>
+<Annotation Id="29" Type="FAC" StartNode="110" EndNode="160">
+</Annotation>
+<Annotation Id="61" Type="GPE" StartNode="167" EndNode="173">
+</Annotation>
+<Annotation Id="62" Type="EVENT" StartNode="233" EndNode="249">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="357">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

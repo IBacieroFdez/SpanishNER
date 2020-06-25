@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_23_22.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Gantz<Node id="5"/>, que prometió en las <Node id="27"/>tres<Node id="31"/> <Node id="32"/>elecciones<Node id="42"/> sacar al <Node id="52"/>mandatario<Node id="62"/> del poder, lo ha aceptado ahora como socio a costa de su futuro político. La <Node id="140"/>coalición centrista<Node id="159"/> que lideró y retó al <Node id="181"/>Likud<Node id="186"/> en votos queda resquebrajada y su imagen comprometida. 
+<Node id="243"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="27" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="32" EndNode="42">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="52" EndNode="62">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="140" EndNode="159">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="181" EndNode="186">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="243">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

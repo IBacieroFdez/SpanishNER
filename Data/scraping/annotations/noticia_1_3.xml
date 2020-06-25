@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_1_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>portavoz<Node id="11"/> del <Node id="16"/>Gobierno<Node id="24"/>, <Node id="26"/>María Jesús Montero<Node id="45"/>, ha avanzado <Node id="59"/>este martes<Node id="70"/> que los <Node id="79"/>menores<Node id="86"/> de <Node id="90"/>catorce<Node id="97"/> años podrán a partir del <Node id="123"/>27 de abril<Node id="134"/> acompañar a un <Node id="150"/>adulto<Node id="156"/> en las actividades que ya permite el <Node id="194"/>estado de alarma<Node id="210"/>, como ir al <Node id="223"/>supermercado<Node id="235"/>, a la <Node id="242"/>farmacia<Node id="250"/> o al <Node id="256"/>banco<Node id="261"/>.
+<Node id="263"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="PER" StartNode="26" EndNode="45">
+</Annotation>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="17" Type="DATE" StartNode="59" EndNode="70">
+</Annotation>
+<Annotation Id="18" Type="QUANT" StartNode="90" EndNode="97">
+</Annotation>
+<Annotation Id="19" Type="DATE" StartNode="123" EndNode="134">
+</Annotation>
+<Annotation Id="20" Type="EVENT" StartNode="194" EndNode="210">
+</Annotation>
+<Annotation Id="21" Type="LOC" StartNode="223" EndNode="235">
+</Annotation>
+<Annotation Id="22" Type="LOC" StartNode="242" EndNode="250">
+</Annotation>
+<Annotation Id="23" Type="LOC" StartNode="256" EndNode="261">
+</Annotation>
+<Annotation Id="24" Type="PER" StartNode="79" EndNode="86">
+</Annotation>
+<Annotation Id="25" Type="PER" StartNode="150" EndNode="156">
+</Annotation>
+<Annotation Id="15" Type="ORG" StartNode="16" EndNode="24">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="263">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_35_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Un <Node id="3"/>año<Node id="6"/> más tarde,  <Node id="19"/>De Gaulle<Node id="28"/> sufrió un <Node id="39"/>atentado<Node id="47"/> perpetrado por el <Node id="66"/>grupo ultranacionalista<Node id="89"/> <Node id="90"/>Mano Negra<Node id="100"/>. A pesar de que los disparos alcanzaron a <Node id="143"/>dos<Node id="146"/> de las <Node id="154"/>ruedas<Node id="160"/>, el <Node id="165"/>vehículo<Node id="173"/> pudo continuar rodando y el <Node id="202"/>presidente<Node id="212"/> salvó la vida.
+<Node id="228"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="3" EndNode="6">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="19" EndNode="28">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="39" EndNode="47">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="66" EndNode="89">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="90" EndNode="100">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="143" EndNode="146">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="154" EndNode="160">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="165" EndNode="173">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="202" EndNode="212">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="228">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

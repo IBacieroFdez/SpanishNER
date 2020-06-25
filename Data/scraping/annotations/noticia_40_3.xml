@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_40_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Esas mismas fuentes han señalado que "más del <Node id="46"/>90 %<Node id="50"/> de los trabajadores cobrarán el <Node id="83"/>82 %<Node id="87"/> de su <Node id="94"/>salario<Node id="101"/> fijo trabajando el <Node id="121"/>40 %<Node id="125"/> de su <Node id="132"/>jornada<Node id="139"/>, y el <Node id="146"/>85 %<Node id="150"/> en el caso de que trabajen la mitad de su tiempo", y ello será posible gracias a un complemento sobre la prestación por desempleo durante los <Node id="293"/>meses<Node id="298"/> de <Node id="302"/>mayo<Node id="306"/> a <Node id="309"/>septiembre<Node id="319"/>.
+<Node id="321"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PERCENT" StartNode="46" EndNode="50">
+</Annotation>
+<Annotation Id="2" Type="PERCENT" StartNode="83" EndNode="87">
+</Annotation>
+<Annotation Id="3" Type="MONEY" StartNode="94" EndNode="101">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="121" EndNode="125">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="132" EndNode="139">
+</Annotation>
+<Annotation Id="6" Type="PERCENT" StartNode="146" EndNode="150">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="302" EndNode="306">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="309" EndNode="319">
+</Annotation>
+<Annotation Id="10" Type="DATE" StartNode="293" EndNode="298">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="321">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

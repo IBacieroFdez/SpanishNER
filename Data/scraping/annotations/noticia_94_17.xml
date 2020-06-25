@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En un blog la <Node id="14"/>semana<Node id="20"/> pasada, el <Node id="32"/>jefe<Node id="36"/> de la <Node id="43"/>diplomacia<Node id="53"/> de la <Node id="60"/>Unión Europea<Node id="73"/>, <Node id="75"/>Josep Borrell<Node id="88"/>, dijo que hay "un componente geopolítico que incluye una lucha por la influencia a través del manejo de la información y la 'política de generosidad'".
+<Node id="241"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="14" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="32" EndNode="36">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="43" EndNode="53">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="60" EndNode="73">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="75" EndNode="88">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="241">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_53_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por parte de la acusación, en esa vista, el <Node id="44"/>letrado<Node id="51"/> <Node id="52"/>Christophe Marchand<Node id="71"/> justificó la denuncia civil en <Node id="103"/>Bélgica<Node id="110"/> contra <Node id="118"/>Llarena<Node id="125"/> al considerar "extremadamente difícil obtener justicia en <Node id="184"/>España<Node id="190"/>".
+<Node id="193"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="44" EndNode="51">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="52" EndNode="71">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="103" EndNode="110">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="118" EndNode="125">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="184" EndNode="190">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="193">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

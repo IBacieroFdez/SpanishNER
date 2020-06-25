@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_56_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En su opinión, <Node id="15"/>Pedro Sánchez<Node id="28"/> tiene "la oportunidad de encontrarse con el partido de la <Node id="87"/>oposición<Node id="96"/> más responsable en los últimos <Node id="128"/>años<Node id="132"/>", ya que, ha defendido, "nunca ha tenido a un partido en la <Node id="193"/>oposición<Node id="202"/> más abierto a dialogar y a construir" que el <Node id="248"/>PP<Node id="250"/>.
+<Node id="252"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="15" EndNode="28">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="87" EndNode="96">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="128" EndNode="132">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="193" EndNode="202">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="248" EndNode="250">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="252">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

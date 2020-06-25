@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_59_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>Policía<Node id="10"/>, que considera aún abierta la investigación, ha registrado el <Node id="73"/>apartamento<Node id="84"/> donde los <Node id="95"/>tres<Node id="99"/> detenidos se ocultaban en la <Node id="129"/>ciudad<Node id="135"/> <Node id="136"/>andaluza<Node id="144"/> y está analizando si todos ellos son combatientes retornados o si estas <Node id="217"/>dos<Node id="220"/> personas pudieran estar ofreciendo al terrorista seguridad y apoyo logístico para la entrada en <Node id="317"/>Europa<Node id="323"/>.
+<Node id="325"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="73" EndNode="84">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="95" EndNode="99">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="129" EndNode="135">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="136" EndNode="144">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="217" EndNode="220">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="317" EndNode="323">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="325">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

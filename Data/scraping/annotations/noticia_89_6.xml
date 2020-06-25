@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_89_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xd;
+	 <Node id="4"/>Sin embargo,  para <Node id="23"/>Peter A. LeWitt<Node id="38"/>, <Node id="40"/>investigador<Node id="52"/> del <Node id="57"/>departamento<Node id="69"/> de <Node id="73"/>Neurología<Node id="83"/> del  <Node id="89"/>Hospital Henry Ford<Node id="108"/> en <Node id="112"/>Michigan<Node id="120"/> (<Node id="122"/>EE UU<Node id="127"/>) y <Node id="131"/>autor<Node id="136"/> del editorial sobre el  estudio, “asumir que se obtienen los mejores resultados con los  <Node id="226"/>medicamentos<Node id="238"/> más caros puede ser una mala noticia para el control de  costes médicos”.&#xd;
+<Node id="314"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="23" EndNode="38">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="40" EndNode="52">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="57" EndNode="69">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="73" EndNode="83">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="89" EndNode="108">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="112" EndNode="120">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="122" EndNode="127">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="131" EndNode="136">
+</Annotation>
+<Annotation Id="9" Type="DRUG" StartNode="226" EndNode="238">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="4" EndNode="314">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

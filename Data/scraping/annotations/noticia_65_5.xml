@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_65_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En concreto, una de las <Node id="24"/>imágenes<Node id="32"/> utilizadas (parte superior) fue realizada por <Node id="79"/>fotógrafos<Node id="89"/> de la <Node id="96"/>Comisión Europea<Node id="112"/> y distribuida por la <Node id="134"/>Agencia EFE<Node id="145"/>, como se puede comprobar en estos artículos publicados por <Node id="205"/>El País<Node id="212"/> y <Node id="215"/>El Mundo<Node id="223"/>.
+<Node id="225"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="24" EndNode="32">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="79" EndNode="89">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="96" EndNode="112">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="134" EndNode="145">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="205" EndNode="212">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="215" EndNode="223">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="225">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

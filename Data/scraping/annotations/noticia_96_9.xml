@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_96_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Sin embargo, no está claro qué <Node id="31"/>medicamentos<Node id="43"/> pueden tener los <Node id="61"/>estados<Node id="68"/>, ya que han tendido a divulgar información sobre protocolos de ejecución y suministros de <Node id="159"/>medicamentos<Node id="171"/> sólo a través de solicitudes de transparencia o demandas judiciales. Sólo un <Node id="249"/>estado<Node id="255"/>, <Node id="257"/>Wyoming<Node id="264"/>, respondió directamente a la carta e indicó que no tiene los <Node id="326"/>medicamentos<Node id="338"/> en cuestión.
+<Node id="352"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="31" EndNode="43">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="61" EndNode="68">
+</Annotation>
+<Annotation Id="4" Type="DRUG" StartNode="159" EndNode="171">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="249" EndNode="255">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="257" EndNode="264">
+</Annotation>
+<Annotation Id="7" Type="DRUG" StartNode="326" EndNode="338">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="352">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

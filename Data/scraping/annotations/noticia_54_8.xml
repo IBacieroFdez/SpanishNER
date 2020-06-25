@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_54_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Exactamente modificaba el artículo <Node id="35"/>6<Node id="36"/>, el que regula la composición de la <Node id="73"/>comisión delegada<Node id="90"/> de este <Node id="99"/>organismo<Node id="108"/>, para dar entrada a los <Node id="133"/>vicepresidentes<Node id="148"/> del <Node id="153"/>Gobierno<Node id="161"/>.
+<Node id="163"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="35" EndNode="36">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="73" EndNode="90">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="99" EndNode="108">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="133" EndNode="148">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="153" EndNode="161">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="163">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_84_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Las <Node id="4"/>aves<Node id="8"/> constituyen el <Node id="24"/>reservorio<Node id="34"/> natural de los <Node id="50"/>virus<Node id="55"/> de la <Node id="62"/>gripe<Node id="67"/> que a veces se transmiten a los humanos. Las <Node id="113"/>cepas<Node id="118"/> <Node id="119"/>H5N1<Node id="123"/> despiertan especial preocupación entre los <Node id="167"/>virólogos<Node id="176"/>, ya que pueden causar una elevada mortalidad en las pocas personas que infectan, a partir, sobre todo, del contacto directo con las <Node id="309"/>aves<Node id="313"/>. Tras los <Node id="324"/>atentados<Node id="333"/> del <Node id="338"/>11-S<Node id="342"/>, la inversión <Node id="357"/>estadounidense<Node id="371"/> en defensa se disparó, lo que ha permitido crear en el <Node id="427"/>laboratorio<Node id="438"/> <Node id="439"/>cepas<Node id="444"/> del <Node id="449"/>H5N1<Node id="453"/> que son transmisibles entre los mamíferos. Ello ha dado pie a un debate entre los <Node id="536"/>expertos<Node id="544"/> en <Node id="548"/>biodefensa<Node id="558"/>, quienes avisan del riesgo potencial de las nuevas <Node id="610"/>cepas<Node id="615"/> del <Node id="620"/>H5N1<Node id="624"/> y desean aplicar restricciones a su investigación, y los <Node id="682"/>científicos<Node id="693"/>, quienes opinan que ese tipo de estudios mejoraría la vigilancia de <Node id="762"/>brotes<Node id="768"/> naturales y su censura conllevaría más daños que beneficios.
+<Node id="830"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="4" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="24" EndNode="34">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="50" EndNode="55">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="113" EndNode="118">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="439" EndNode="444">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="548" EndNode="558">
+</Annotation>
+<Annotation Id="8" Type="SCITERM" StartNode="610" EndNode="615">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="762" EndNode="768">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="62" EndNode="67">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="119" EndNode="123">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="449" EndNode="453">
+</Annotation>
+<Annotation Id="13" Type="DISEASE" StartNode="620" EndNode="624">
+</Annotation>
+<Annotation Id="14" Type="JOB" StartNode="167" EndNode="176">
+</Annotation>
+<Annotation Id="15" Type="JOB" StartNode="536" EndNode="544">
+</Annotation>
+<Annotation Id="16" Type="JOB" StartNode="682" EndNode="693">
+</Annotation>
+<Annotation Id="17" Type="PRODUCT" StartNode="309" EndNode="313">
+</Annotation>
+<Annotation Id="18" Type="EVENT" StartNode="324" EndNode="333">
+</Annotation>
+<Annotation Id="19" Type="DATE" StartNode="338" EndNode="342">
+</Annotation>
+<Annotation Id="20" Type="LANG" StartNode="357" EndNode="371">
+</Annotation>
+<Annotation Id="21" Type="LOC" StartNode="427" EndNode="438">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="830">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

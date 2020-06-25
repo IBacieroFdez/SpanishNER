@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_66_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>No es la primera vez que se propagan bulos parecidos desde que se desató la <Node id="76"/>crisis<Node id="82"/> <Node id="83"/>sanitaria<Node id="92"/> por la <Node id="100"/>COVID-19<Node id="108"/>. A mediados de <Node id="124"/>marzo<Node id="129"/>, <Node id="131"/>EFE<Node id="134"/> Verifica ya alertó sobre la difusión de mensajes falsos en los que se afirmaba que, en Comunidades como <Node id="239"/>Andalucía<Node id="248"/> y el <Node id="254"/>País Vasco<Node id="264"/>, <Node id="266"/>helicópteros<Node id="278"/> iban a pulverizar un <Node id="300"/>producto desinfectante<Node id="322"/> sobre la población durante la <Node id="353"/>noche<Node id="358"/> para eliminar el <Node id="376"/>coronavirus<Node id="387"/>.
+<Node id="389"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="76" EndNode="82">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="100" EndNode="108">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="83" EndNode="92">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="124" EndNode="129">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="131" EndNode="134">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="239" EndNode="248">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="254" EndNode="264">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="266" EndNode="278">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="300" EndNode="322">
+</Annotation>
+<Annotation Id="10" Type="TIME" StartNode="353" EndNode="358">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="376" EndNode="387">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="389">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

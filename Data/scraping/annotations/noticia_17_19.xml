@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_17_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por su parte, <Node id="14"/>funcionarios<Node id="26"/> del <Node id="31"/>Gobierno<Node id="39"/> <Node id="40"/>surcoreano<Node id="50"/> que han pedido el anonimato han indicado a la <Node id="97"/>agencia Yonhap<Node id="111"/> que <Node id="116"/>Kim Jong-un<Node id="127"/> (que según los <Node id="143"/>medios estatales<Node id="159"/> felicitó ayer mismo por su cumpleaños al <Node id="201"/>presidente<Node id="211"/> <Node id="212"/>cubano<Node id="218"/>, <Node id="220"/>Miguel Díaz-Canel<Node id="237"/>) se encontraría ahora mismo fuera de la <Node id="278"/>capital<Node id="285"/>, cerca de <Node id="296"/>Wonsan<Node id="302"/> (<Node id="304"/>costa oriental<Node id="318"/>).
+<Node id="321"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="14" EndNode="26">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="31" EndNode="39">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="40" EndNode="50">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="97" EndNode="111">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="116" EndNode="127">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="143" EndNode="159">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="201" EndNode="211">
+</Annotation>
+<Annotation Id="8" Type="LANG" StartNode="212" EndNode="218">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="220" EndNode="237">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="278" EndNode="285">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="296" EndNode="302">
+</Annotation>
+<Annotation Id="12" Type="LOC" StartNode="304" EndNode="318">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="321">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

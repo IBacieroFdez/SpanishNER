@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_9_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>estudiantes<Node id="15"/> de <Node id="19"/>11<Node id="21"/>, <Node id="23"/>14<Node id="25"/> y <Node id="28"/>16<Node id="30"/> años, además de los de Terminal, que tienen que preparar el paso a la <Node id="101"/>universidad<Node id="112"/>, volverán en <Node id="126"/>la <Node id="129"/>segunda<Node id="136"/> semana<Node id="143"/>, al igual que los de Formación Profesional que tengan formación en <Node id="211"/>talleres<Node id="219"/>.
+<Node id="221"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="3" Type="PER" StartNode="4" EndNode="15">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="19" EndNode="21">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="23" EndNode="25">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="28" EndNode="30">
+</Annotation>
+<Annotation Id="7" Type="FAC" StartNode="101" EndNode="112">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="126" EndNode="143">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="129" EndNode="136">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="211" EndNode="219">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="221">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

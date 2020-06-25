@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_103_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Además, al menos <Node id="17"/>tres<Node id="21"/> <Node id="22"/>condados<Node id="30"/> vecinos en la misma situación ya han reiniciado sus economías, incluida la fabricación, incluidos los <Node id="133"/>condados<Node id="141"/> de <Node id="145"/>Solano<Node id="151"/>, <Node id="153"/>Napa<Node id="157"/> y <Node id="160"/>San Joaquín<Node id="171"/>. Mientras tanto, el <Node id="192"/>condado<Node id="199"/> de <Node id="203"/>Alameda<Node id="210"/>, donde reside nuestra <Node id="233"/>fábrica<Node id="240"/>, y el <Node id="247"/>condado<Node id="254"/> de <Node id="258"/>Santa Clara<Node id="269"/>, al lado, han declarado en sus preguntas frecuentes sobre el regreso al trabajo que la fabricación de recursos de <Node id="384"/>energía<Node id="391"/> distribuida (que se define en la ley estatal para incluir <Node id="450"/>vehículos eléctricos<Node id="470"/>, almacenamiento de <Node id="490"/>energía solar<Node id="503"/> y <Node id="506"/>baterías<Node id="514"/>) se puede reanudar".
+<Node id="536"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="17" EndNode="21">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="22" EndNode="30">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="133" EndNode="141">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="145" EndNode="151">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="153" EndNode="157">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="160" EndNode="171">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="192" EndNode="199">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="203" EndNode="210">
+</Annotation>
+<Annotation Id="9" Type="FAC" StartNode="233" EndNode="240">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="247" EndNode="254">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="258" EndNode="269">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="384" EndNode="391">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="450" EndNode="470">
+</Annotation>
+<Annotation Id="14" Type="PRODUCT" StartNode="490" EndNode="503">
+</Annotation>
+<Annotation Id="16" Type="PRODUCT" StartNode="506" EndNode="514">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="536">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

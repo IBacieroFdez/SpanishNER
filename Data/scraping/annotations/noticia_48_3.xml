@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_48_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La reunión, en su primera edición, estaba programada para celebrarse del <Node id="73"/>23 al 25 de septiembre<Node id="95"/> en la <Node id="102"/>ciudad<Node id="108"/> <Node id="109"/>mexicana<Node id="117"/> de <Node id="121"/>Guadalajara<Node id="132"/>, <Node id="134"/>estado de Jalisco<Node id="151"/>, con un <Node id="160"/>centenar<Node id="168"/> de <Node id="172"/>expositores<Node id="183"/> y más de <Node id="193"/>5.000<Node id="198"/> <Node id="199"/>profesionales<Node id="212"/> de la <Node id="219"/>industria<Node id="228"/>.
+<Node id="230"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="73" EndNode="95">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="102" EndNode="108">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="109" EndNode="117">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="121" EndNode="132">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="134" EndNode="151">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="160" EndNode="168">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="172" EndNode="183">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="193" EndNode="198">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="199" EndNode="212">
+</Annotation>
+<Annotation Id="10" Type="NORP" StartNode="219" EndNode="228">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="230">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_95_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Según ha destacado, las <Node id="24"/>autoridades<Node id="35"/> <Node id="36"/>chinas<Node id="42"/> han "consultado y dialogado" con <Node id="76"/>España<Node id="82"/> acerca de todas estas medidas con el objetivo de que se establezcan los "canales adecuados para que el suministro comprado" en aquel <Node id="216"/>país<Node id="220"/> "siga fluyendo regularmente" a través de los <Node id="266"/>corredores aéreos<Node id="283"/> puestos en marcha y llegue en las "condiciones óptimas".
+<Node id="341"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="24" EndNode="35">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="36" EndNode="42">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="76" EndNode="82">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="216" EndNode="220">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="266" EndNode="283">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="341">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_66_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>“La orden publicada del <Node id="24"/>Ministerio de Sanidad<Node id="45"/> habilita a las <Node id="61"/>Fuerzas Armadas<Node id="76"/> para usar <Node id="87"/>aerosoles<Node id="96"/>, no <Node id="101"/>aeronaves<Node id="110"/>”, recalcó el <Node id="124"/>Jemad<Node id="129"/>, antes de explicar de forma gráfica que se trata de usar <Node id="187"/>productos químicos<Node id="205"/> ya autorizados "como se usa un <Node id="237"/>insecticida<Node id="248"/> en una <Node id="256"/>habitación<Node id="266"/> de nuestra <Node id="278"/>casa<Node id="282"/>”.
+<Node id="285"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="24" EndNode="45">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="61" EndNode="76">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="87" EndNode="96">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="101" EndNode="110">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="124" EndNode="129">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="187" EndNode="205">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="237" EndNode="248">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="256" EndNode="266">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="278" EndNode="282">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="285">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

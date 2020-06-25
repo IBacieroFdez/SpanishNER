@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Todo eso te dice algo de la naturaleza de los bufones sociópatas que manejan el <Node id="80"/>Gobierno<Node id="88"/> y que el <Node id="98"/>país<Node id="102"/> está sufriendo. Ahora buscan desesperadamente culpar a alguien. Culpan a <Node id="176"/>China<Node id="181"/>, a la <Node id="188"/>OMS<Node id="191"/>… y lo que han hecho con la <Node id="219"/>OMS<Node id="222"/> es realmente criminal. ¿Dejar de financiarla? ¿Qué significa eso? La <Node id="292"/>OMS<Node id="295"/> trabaja en <Node id="307"/>todo el mundo<Node id="320"/>, principalmente en <Node id="340"/>países pobres<Node id="353"/>, con temas relacionados con la <Node id="385"/>diarrea<Node id="392"/>, la <Node id="397"/>maternidad<Node id="407"/>… ¿Entonces qué están diciendo? “Vale, matemos a un montón de <Node id="469"/>gente<Node id="474"/> en el sur porque quizás eso nos ayude con nuestras perspectivas electorales”. Eso es un mundo de sociópatas.
+<Node id="584"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="80" EndNode="88">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="98" EndNode="102">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="176" EndNode="181">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="188" EndNode="191">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="219" EndNode="222">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="292" EndNode="295">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="307" EndNode="320">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="340" EndNode="353">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="385" EndNode="392">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="397" EndNode="407">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="469" EndNode="474">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="584">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

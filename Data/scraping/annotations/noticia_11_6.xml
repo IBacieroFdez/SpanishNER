@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_11_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Finalmente, <Node id="12"/>ayer lunes<Node id="22"/> se examinaron los contenedores seleccionados procedentes de <Node id="83"/>Ecuador<Node id="90"/>. Tras la apertura de las puertas de uno de los contenedores que transportaba <Node id="168"/>bananas<Node id="175"/> y la descarga de las primeras filas de cajas, se pudo observar la presencia de una gran cantidad de <Node id="276"/>bolsas<Node id="282"/>. 
+<Node id="285"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="12" EndNode="22">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="83" EndNode="90">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="168" EndNode="175">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="276" EndNode="282">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="285">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

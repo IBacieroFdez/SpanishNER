@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_4_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Entre el 8 de marzo y el 17 de abril<Node id="36"/> se registraron en las <Node id="59"/>residencias<Node id="70"/> de <Node id="74"/>Madrid<Node id="80"/> <Node id="81"/>6.444<Node id="86"/> muertes, de las que <Node id="107"/>5.272<Node id="112"/> son "atribuibles" a la <Node id="136"/>COVID-19<Node id="144"/>. <Node id="146"/>837<Node id="149"/> usuarios de <Node id="162"/>residencias madrileñas<Node id="184"/> fallecieron con <Node id="201"/>contagio<Node id="209"/> confirmado de <Node id="224"/>coronavirus<Node id="235"/> y <Node id="238"/>4.435<Node id="243"/> con <Node id="248"/>sintomatología<Node id="262"/> compatible con la <Node id="281"/>enfermedad<Node id="291"/>.
+<Node id="293"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="0" EndNode="36">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="59" EndNode="70">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="74" EndNode="80">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="81" EndNode="86">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="107" EndNode="112">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="136" EndNode="144">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="146" EndNode="149">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="293">
+</Annotation>
+<Annotation Id="22" Type="MEDTERM" StartNode="201" EndNode="209">
+</Annotation>
+<Annotation Id="23" Type="DISEASE" StartNode="224" EndNode="235">
+</Annotation>
+<Annotation Id="24" Type="QUANT" StartNode="238" EndNode="243">
+</Annotation>
+<Annotation Id="9" Type="FAC" StartNode="162" EndNode="184">
+</Annotation>
+<Annotation Id="25" Type="MEDTERM" StartNode="248" EndNode="262">
+</Annotation>
+<Annotation Id="26" Type="DISEASE" StartNode="281" EndNode="291">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

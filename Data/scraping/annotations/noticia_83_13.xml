@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_83_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>gérmenes<Node id="12"/> que causan <Node id="24"/>enfermedades<Node id="36"/> también pueden infectarte a través de <Node id="75"/>alimentos<Node id="84"/> y <Node id="87"/>agua<Node id="91"/> contaminados. Este <Node id="111"/>mecanismo<Node id="120"/> de transmisión permite que los gérmenes se <Node id="164"/>propaguen<Node id="173"/> a muchas personas a través de una sola fuente. La <Node id="224"/>Escherichia coli<Node id="240"/> (<Node id="242"/>E. coli<Node id="249"/>), por ejemplo, es una <Node id="272"/>bacteria<Node id="280"/> presente en o sobre ciertos <Node id="309"/>alimentos<Node id="318"/>, como las <Node id="329"/>hamburguesas<Node id="341"/> mal cocidas o los <Node id="360"/>jugos de frutas<Node id="375"/> sin <Node id="380"/>pasteurizar<Node id="391"/>.
+<Node id="393"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="4" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="24" EndNode="36">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="75" EndNode="84">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="87" EndNode="91">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="111" EndNode="120">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="164" EndNode="173">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="224" EndNode="240">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="242" EndNode="249">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="272" EndNode="280">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="393">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="309" EndNode="318">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="329" EndNode="341">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="360" EndNode="375">
+</Annotation>
+<Annotation Id="14" Type="SCITERM" StartNode="380" EndNode="391">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

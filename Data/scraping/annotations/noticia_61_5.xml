@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_61_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Esperamos que en las próximas <Node id="31"/>horas<Node id="36"/> el <Node id="40"/>Gobierno<Node id="48"/> acepte esta petición", ha subrayado <Node id="85"/>Budó<Node id="89"/>, que confía en que el <Node id="112"/>Ejecutivo<Node id="121"/> de <Node id="125"/>Pedro Sánchez<Node id="138"/> "escuchará y tendrá en cuenta" los planes que están trabajando las <Node id="206"/>comunidades<Node id="217"/> para sus propios <Node id="235"/>territorios<Node id="246"/>.
+<Node id="248"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="31" EndNode="36">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="40" EndNode="48">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="85" EndNode="89">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="112" EndNode="121">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="125" EndNode="138">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="206" EndNode="217">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="235" EndNode="246">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="248">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

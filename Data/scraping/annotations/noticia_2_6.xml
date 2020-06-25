@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_2_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El número de fallecimientos, que sitúan el total en cerca de <Node id="61"/>23.000<Node id="67"/>, baja por <Node id="78"/>tercer día consecutivo<Node id="100"/> y es el menor <Node id="115"/>desde el 22 de marzo<Node id="135"/>. El de nuevas <Node id="150"/>infecciones<Node id="161"/>, que ya superan las <Node id="182"/>200.000<Node id="189"/>, remite al contabilizado <Node id="215"/>hace 34 días<Node id="227"/>, a falta de las correcciones en marcha tras romperse el <Node id="284"/>pasado miércoles<Node id="300"/> la serie estadística y de que mañana se produzca, con toda probabilidad, el repunte habitual de los <Node id="401"/>martes<Node id="407"/> debido a las notificaciones retrasadas por el <Node id="454"/>fin de semana<Node id="467"/>.
+<Node id="469"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="61" EndNode="67">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="78" EndNode="100">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="115" EndNode="135">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="150" EndNode="161">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="182" EndNode="189">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="215" EndNode="227">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="284" EndNode="300">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="401" EndNode="407">
+</Annotation>
+<Annotation Id="9" Type="DATE" StartNode="454" EndNode="467">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="469">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

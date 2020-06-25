@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>También apunta este <Node id="20"/>doctor<Node id="26"/> otro aspecto que se está investigando y es que hay <Node id="78"/>pacientes<Node id="87"/> que empiezan a recuperar el <Node id="116"/>olfato<Node id="122"/> pero sufren “<Node id="136"/>parosmia<Node id="144"/>”: “son capaces de notar un <Node id="172"/>olor<Node id="176"/> pero no lo asocian con lo que nosotros les estamos haciendo oler sino que es como si olieran otra cosa. Por ejemplo, les das a oler <Node id="309"/>alcohol<Node id="316"/> y te dicen que huele a <Node id="340"/>melocotón<Node id="349"/>”, señala.
+<Node id="360"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="116" EndNode="122">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="20" EndNode="26">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="78" EndNode="87">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="136" EndNode="144">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="172" EndNode="176">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="309" EndNode="316">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="340" EndNode="349">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="360">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

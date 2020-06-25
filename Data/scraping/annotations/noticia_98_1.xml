@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_98_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>¿Por qué? Cuando alguien tose, estornuda o habla despide por la nariz o la boca unas <Node id="85"/>gotículas<Node id="94"/> de <Node id="98"/>líquido<Node id="105"/> que pueden contener el <Node id="129"/>virus<Node id="134"/>. Si la persona que tose, estornuda o habla tiene la <Node id="187"/>enfermedad<Node id="197"/> y usted
+    está demasiado cerca de ella, puede respirar las <Node id="259"/>gotículas<Node id="268"/> y con ellas el <Node id="284"/>virus<Node id="289"/> de la <Node id="296"/>COVID‑19<Node id="304"/>.
+<Node id="306"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="85" EndNode="94">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="98" EndNode="105">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="129" EndNode="134">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="187" EndNode="197">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="259" EndNode="268">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="284" EndNode="289">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="296" EndNode="304">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="306">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

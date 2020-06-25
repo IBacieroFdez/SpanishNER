@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_22_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En su informe anual "Condenas a muerte y ejecuciones <Node id="53"/>2019<Node id="57"/>" publicado este <Node id="74"/>martes<Node id="80"/>, <Node id="82"/>AI<Node id="84"/> constató <Node id="94"/>657<Node id="97"/> ejecuciones, frente a las <Node id="124"/>690<Node id="127"/> de <Node id="131"/>2018<Node id="135"/>, el número más bajo <Node id="156"/>en una década<Node id="169"/> en una estadística en la que no hay cifras concretas de <Node id="226"/>China<Node id="231"/>, el principal ejecutor mundial.
+<Node id="264"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="53" EndNode="57">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="74" EndNode="80">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="264">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="82" EndNode="84">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="94" EndNode="97">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="124" EndNode="127">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="131" EndNode="135">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="156" EndNode="169">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="226" EndNode="231">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

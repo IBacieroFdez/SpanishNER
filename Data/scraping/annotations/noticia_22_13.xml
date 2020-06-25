@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_22_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"El creciente uso que <Node id="22"/>Arabia Saudí<Node id="34"/> hace de la pena de muerte, entre otras cosas como arma contra la <Node id="100"/>disidencia política<Node id="119"/>, constituye una alarmante novedad. También fue impactante el enorme salto en el <Node id="200"/>número<Node id="206"/> de ejecuciones en <Node id="225"/>Irak<Node id="229"/>, que casi se doblaron <Node id="252"/>en sólo un año<Node id="266"/>", dijo la <Node id="277"/>directora<Node id="286"/> de <Node id="290"/>Investigación<Node id="303"/> de <Node id="307"/>AI<Node id="309"/>, <Node id="311"/>Clare Algar<Node id="322"/>.
+<Node id="324"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="22" EndNode="34">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="100" EndNode="119">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="200" EndNode="206">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="225" EndNode="229">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="252" EndNode="266">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="277" EndNode="286">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="290" EndNode="303">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="307" EndNode="309">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="311" EndNode="322">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="324">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

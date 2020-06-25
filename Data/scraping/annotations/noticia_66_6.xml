@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_66_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En virtud de esta orden, la <Node id="28"/>UME<Node id="31"/> y las <Node id="38"/>unidades NBQ<Node id="50"/> del <Node id="55"/>Ejército<Node id="63"/> podrán usar esos <Node id="81"/>biocidas<Node id="89"/> en la "desinfección de <Node id="113"/>espacios<Node id="121"/>, tanto públicos como privados" con "procedimientos de desinfección aérea, a través de las técnicas de nebulización, termonebulización y micronebulización", para así alcanzar todas las <Node id="306"/>superficies<Node id="317"/> de forma idónea y evitar depender de la aplicación manual.
+<Node id="377"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="113" EndNode="121">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="28" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="38" EndNode="50">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="55" EndNode="63">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="81" EndNode="89">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="306" EndNode="317">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="377">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

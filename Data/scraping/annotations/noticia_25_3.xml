@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_25_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El nuevo análisis ha sido resultado de una investigación realizada por un <Node id="74"/>equipo<Node id="80"/> de <Node id="84"/>científicos<Node id="95"/> internacionales, entre ellos expertos de la <Node id="140"/>universidad<Node id="151"/> inglesa de <Node id="163"/>Newcastle<Node id="172"/>, que estudiaron imágenes <Node id="198"/>cerebrales<Node id="208"/> y las <Node id="215"/>regiones<Node id="223"/> <Node id="224"/>auditivas<Node id="233"/> en <Node id="237"/>humanos<Node id="244"/> y monos.
+<Node id="254"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="74" EndNode="80">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="84" EndNode="95">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="140" EndNode="151">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="163" EndNode="172">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="198" EndNode="208">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="215" EndNode="223">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="224" EndNode="233">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="237" EndNode="244">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="254">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_97_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En el propio <Node id="13"/>tutorial<Node id="21"/> que se puede encontrar en <Node id="48"/>YouTube<Node id="55"/> se alerta de que esta <Node id="78"/>mascarilla<Node id="88"/> realizada con <Node id="103"/>filtros de <Node id="114"/>café<Node id="118"/> y <Node id="121"/>gomas elásticas<Node id="136"/> no es la ideal. Los <Node id="157"/>CDC<Node id="160"/> de <Node id="164"/>EEUU<Node id="168"/> proponen utilizar ese <Node id="191"/>material<Node id="199"/> no como <Node id="208"/>mascarilla<Node id="218"/> en sí misma, sino como <Node id="242"/>filtro<Node id="248"/> interior de una <Node id="265"/>mascarilla<Node id="275"/> fabricada con un <Node id="293"/>pañuelo<Node id="300"/>.
+<Node id="302"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="48" EndNode="55">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="13" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="78" EndNode="88">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="103" EndNode="118">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="114" EndNode="118">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="121" EndNode="136">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="157" EndNode="160">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="164" EndNode="168">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="191" EndNode="199">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="208" EndNode="218">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="242" EndNode="248">
+</Annotation>
+<Annotation Id="12" Type="MEDTERM" StartNode="265" EndNode="275">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="293" EndNode="300">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="302">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

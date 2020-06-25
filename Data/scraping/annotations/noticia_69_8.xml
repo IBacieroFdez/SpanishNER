@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_69_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>FIDE<Node id="7"/> recuerda que este <Node id="26"/>torneo<Node id="32"/> forma parte de las iniciativas de para trasladar sus <Node id="86"/>actividades<Node id="97"/> de forma virtual, tras ver interrumpidas las <Node id="143"/>competiciones<Node id="156"/> como el resto de <Node id="174"/>deportes<Node id="182"/>, ante la <Node id="192"/>pandemia<Node id="200"/> del <Node id="205"/>coronavirus<Node id="216"/>, como ocurrió con el <Node id="238"/>Troneo de Candidatos<Node id="258"/> que tuvo que interrumpirse cuando estaba en plena disputa, y la <Node id="323"/>Olimpiada de Ajedrez<Node id="343"/>, que se suponía que tendría lugar en <Node id="381"/>Rusia<Node id="386"/> este <Node id="392"/>verano<Node id="398"/> y que se ha pospuesto hasta <Node id="427"/>2021<Node id="431"/>.
+<Node id="433"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="3" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="26" EndNode="32">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="86" EndNode="97">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="143" EndNode="156">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="174" EndNode="182">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="192" EndNode="200">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="205" EndNode="216">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="238" EndNode="258">
+</Annotation>
+<Annotation Id="9" Type="EVENT" StartNode="323" EndNode="343">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="381" EndNode="386">
+</Annotation>
+<Annotation Id="11" Type="TIME" StartNode="392" EndNode="398">
+</Annotation>
+<Annotation Id="12" Type="DATE" StartNode="427" EndNode="431">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="433">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

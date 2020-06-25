@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_23_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Más de <Node id="7"/>doce meses<Node id="17"/>, <Node id="19"/>tres<Node id="23"/> elecciones, <Node id="36"/>incontables horas<Node id="53"/> de negociación y la lucha contra una <Node id="91"/>pandemia<Node id="99"/> ha necesitado <Node id="114"/>Israel<Node id="120"/> para formar <Node id="133"/>Ejecutivo<Node id="142"/> y evitar unos temidos <Node id="165"/>cuartos<Node id="172"/> <Node id="173"/>comicios<Node id="181"/>.
+<Node id="183"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="7" EndNode="17">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="19" EndNode="23">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="36" EndNode="53">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="91" EndNode="99">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="114" EndNode="120">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="133" EndNode="142">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="165" EndNode="172">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="173" EndNode="181">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="183">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

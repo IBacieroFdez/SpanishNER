@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_83_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Además, es posible que algunas <Node id="31"/>enfermedades<Node id="43"/> <Node id="44"/>infecciosas<Node id="55"/> se silencien y vuelvan a aparecer en el futuro, a veces incluso <Node id="120"/>décadas<Node id="127"/> más <Node id="132"/>tarde<Node id="137"/>. Por ejemplo, alguien que ha tenido <Node id="174"/>varicela<Node id="182"/> puede desarrollar <Node id="201"/>culebrilla<Node id="211"/> mucho más <Node id="222"/>tarde<Node id="227"/> en su vida.
+<Node id="240"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="31" EndNode="43">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="44" EndNode="55">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="120" EndNode="127">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="132" EndNode="137">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="174" EndNode="182">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="201" EndNode="211">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="222" EndNode="227">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="240">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

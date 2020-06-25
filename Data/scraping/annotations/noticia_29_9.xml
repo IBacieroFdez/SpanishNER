@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_29_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Para el año <Node id="12"/>2023<Node id="16"/> la previsión del <Node id="34"/>consorcio<Node id="43"/> <Node id="44"/>germano<Node id="51"/> es disponer de <Node id="67"/>25<Node id="69"/> <Node id="70"/>modelos electrificados<Node id="92"/> de los que la <Node id="107"/>mitad<Node id="112"/> serán <Node id="119"/>100 %<Node id="124"/> eléctricos.
+<Node id="137"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="12" EndNode="16">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="44" EndNode="51">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="34" EndNode="43">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="67" EndNode="69">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="70" EndNode="92">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="107" EndNode="112">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="119" EndNode="124">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="137">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

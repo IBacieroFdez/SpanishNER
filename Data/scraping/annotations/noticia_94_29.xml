@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_29.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Turquía<Node id="7"/> también informó que algunos <Node id="36"/>kits<Node id="40"/> de prueba rápida, fabricados por la misma <Node id="83"/>compañía<Node id="91"/> <Node id="92"/>china<Node id="97"/> del caso de <Node id="110"/>España<Node id="116"/>, no eran lo suficientemente precisos para el <Node id="162"/>diagnostico<Node id="173"/> de la <Node id="180"/>enfermedad<Node id="190"/>.
+<Node id="192"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="0" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="36" EndNode="40">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="92" EndNode="97">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="83" EndNode="91">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="110" EndNode="116">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="162" EndNode="173">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="180" EndNode="190">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="192">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

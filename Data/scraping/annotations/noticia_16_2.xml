@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Para el <Node id="8"/>filósofo<Node id="16"/> y <Node id="19"/>lingüista<Node id="28"/> <Node id="29"/>Noam Chomsky<Node id="41"/>, la primera gran lección de la actual <Node id="80"/>pandemia<Node id="88"/> es que estamos ante "otro fallo masivo y colosal de la versión neoliberal del capitalismo", que en el caso de <Node id="199"/>Estados Unidos<Node id="213"/> está agravado por la naturaleza de los "bufones sociópatas que manejan el <Node id="288"/>Gobierno<Node id="296"/>" liderado por <Node id="311"/>Donald Trump<Node id="323"/>.
+<Node id="325"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="8" EndNode="16">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="19" EndNode="28">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="29" EndNode="41">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="80" EndNode="88">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="199" EndNode="213">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="288" EndNode="296">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="311" EndNode="323">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="325">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

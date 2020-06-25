@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_43.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Sin embargo, el <Node id="16"/>viceministro<Node id="28"/> de <Node id="32"/>Salud<Node id="37"/>, <Node id="39"/>Roman Prymula<Node id="52"/>, rechazó que ese <Node id="70"/>porcentaje<Node id="80"/> fuera real. El <Node id="96"/>gobierno<Node id="104"/> había recibido alrededor de <Node id="133"/>150.000<Node id="140"/> <Node id="141"/>kits<Node id="145"/>.
+<Node id="147"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="16" EndNode="28">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="32" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="39" EndNode="52">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="70" EndNode="80">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="96" EndNode="104">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="133" EndNode="140">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="141" EndNode="145">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="147">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

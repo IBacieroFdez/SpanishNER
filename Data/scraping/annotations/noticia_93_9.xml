@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_93_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>gripe<Node id="8"/> pandémica de <Node id="22"/>2009<Node id="26"/> pareció surgir de la nada. Comenzó con lo que parecía un <Node id="84"/>brote<Node id="89"/> letal en <Node id="99"/>México<Node id="105"/>; luego, se propagó hacia el <Node id="134"/>norte<Node id="139"/> de la <Node id="146"/>frontera<Node id="154"/>. Para cuando las <Node id="172"/>autoridades<Node id="183"/> se dieron cuenta de la alarmante expansión del <Node id="231"/>virus<Node id="236"/> y de la amenaza que suponía para la humanidad, ya no había forma de evitar su propagación por todo el <Node id="339"/>mundo<Node id="344"/>. Gracias a un golpe de suerte, los <Node id="380"/>síntomas<Node id="388"/> fueron leves en la gran mayoría de los casos. ¿Y si la próxima vez no tuviésemos tanta suerte? [véase «Nueva <Node id="498"/>gripe<Node id="503"/> humana de origen <Node id="521"/>porcino<Node id="528"/>», por <Node id="535"/>Esteban Domingo<Node id="550"/>; <Node id="552"/>Investigación<Node id="565"/> y <Node id="568"/>Ciencia<Node id="575"/>, <Node id="577"/>junio de 2009<Node id="590"/>].
+<Node id="593"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="3" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="22" EndNode="26">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="84" EndNode="89">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="99" EndNode="105">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="134" EndNode="139">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="146" EndNode="154">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="172" EndNode="183">
+</Annotation>
+<Annotation Id="8" Type="SCITERM" StartNode="231" EndNode="236">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="339" EndNode="344">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="380" EndNode="388">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="498" EndNode="503">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="521" EndNode="528">
+</Annotation>
+<Annotation Id="13" Type="PER" StartNode="535" EndNode="550">
+</Annotation>
+<Annotation Id="14" Type="SCITERM" StartNode="552" EndNode="565">
+</Annotation>
+<Annotation Id="15" Type="SCITERM" StartNode="568" EndNode="575">
+</Annotation>
+<Annotation Id="16" Type="DATE" StartNode="577" EndNode="590">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="593">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

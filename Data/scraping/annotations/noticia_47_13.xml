@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_47_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Asimismo, plantea la suspensión del pago de tributos y bonificaciones fiscales en el IVA, IRPF o las cotizaciones a la <Node id="119"/>Seguridad Social<Node id="135"/> y extender las bonificaciones a <Node id="168"/>comunidades autónomas<Node id="189"/> y <Node id="192"/>ayuntamientos<Node id="205"/>
+<Node id="206"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="119" EndNode="135">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="168" EndNode="189">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="192" EndNode="205">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="206">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

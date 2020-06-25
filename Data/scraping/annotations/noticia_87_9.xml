@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_87_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>2013<Node id="4"/> ©  <Node id="8"/>Biotech-Spain.com<Node id="25"/> - <Node id="28"/>NewCo Professional S.L.<Node id="51"/> Todos los derechos reservados.
+Terminos y Condiciones | Política de Privacidad
+<Node id="131"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="0" EndNode="4">
+</Annotation>
+<Annotation Id="2" Type="ADDRESS" StartNode="8" EndNode="25">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="28" EndNode="51">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="131">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

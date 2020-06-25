@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_79_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En un 'post', el <Node id="17"/>fundador<Node id="25"/> de <Node id="29"/>Facebook<Node id="37"/>, <Node id="39"/>Mark Zuckerberg<Node id="54"/>, afirma que una de sus principales prioridades es asegurarse de que los usuarios vean información precisa y autorizada en todas las <Node id="187"/>aplicaciones<Node id="199"/> de la <Node id="206"/>compañía<Node id="214"/>: "espero que todos se mantengan seguros, <Node id="256"/>saludables<Node id="266"/> e informados". 
+<Node id="283"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="17" EndNode="25">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="29" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="39" EndNode="54">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="187" EndNode="199">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="206" EndNode="214">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="256" EndNode="266">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="283">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_35_18.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Fue tal la huella que dejó el <Node id="30"/>DS<Node id="32"/>, que incluso en la <Node id="52"/>novela<Node id="58"/> de <Node id="62"/>Miguel Delibes<Node id="76"/> "<Node id="78"/>Cinco horas<Node id="89"/> con <Node id="94"/>Mario<Node id="99"/>" se habla de un <Node id="116"/>DS<Node id="118"/> que circula a "<Node id="134"/>ciento diez<Node id="145"/>" km/h por la <Node id="159"/>carretera<Node id="168"/> de <Node id="172"/>El Pinar<Node id="180"/>.
+<Node id="182"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="30" EndNode="32">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="62" EndNode="76">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="52" EndNode="58">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="78" EndNode="89">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="94" EndNode="99">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="116" EndNode="118">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="134" EndNode="145">
+</Annotation>
+<Annotation Id="9" Type="FAC" StartNode="159" EndNode="168">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="172" EndNode="180">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="182">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

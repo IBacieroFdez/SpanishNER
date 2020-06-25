@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En las últimas 24 horas<Node id="23"/> se han consignado <Node id="42"/>430<Node id="45"/> fallecidos, con lo que el total se eleva a <Node id="89"/>21.282<Node id="95"/>, y <Node id="99"/>3.968<Node id="104"/> nuevos <Node id="112"/>contagiados<Node id="123"/> hasta llegar a los <Node id="143"/>204.178<Node id="150"/> (<Node id="152"/>31.788<Node id="158"/> <Node id="159"/>profesionales sanitarios<Node id="183"/>), lo que sitúa el ritmo de avance de la <Node id="224"/>enfermedad<Node id="234"/> por debajo del <Node id="250"/>2 %<Node id="253"/> y aún podría descender más cuando se recomponga la serie estadística rota por el aumento de test, las disparidades y los errores en las notificaciones.
+<Node id="406"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="0" EndNode="23">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="42" EndNode="45">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="89" EndNode="95">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="99" EndNode="104">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="112" EndNode="123">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="143" EndNode="150">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="159" EndNode="183">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="152" EndNode="158">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="224" EndNode="234">
+</Annotation>
+<Annotation Id="12" Type="PERCENT" StartNode="250" EndNode="253">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="406">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

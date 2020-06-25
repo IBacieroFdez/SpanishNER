@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_47_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>De los <Node id="7"/>250.000<Node id="14"/> <Node id="15"/>trabajadores<Node id="27"/> que tiene <Node id="38"/>Anged<Node id="43"/> identificados en su ámbito, se ha señalado que <Node id="91"/>100.000<Node id="98"/> están afectados por Expedientes de Regulación Temporal de Empleo (ERTE).
+<Node id="172"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="7" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="15" EndNode="27">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="38" EndNode="43">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="91" EndNode="98">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="172">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

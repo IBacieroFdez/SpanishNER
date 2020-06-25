@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_92_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Pero la evolución inmediata no respondió a estas expectativas. Los <Node id="67"/>vehículos eléctricos<Node id="87"/> propulsados por <Node id="104"/>baterías<Node id="112"/>, menos costosos y cada vez más avanzados, acapararon el protagonismo del «<Node id="187"/>coche ecológico<Node id="202"/>». En <Node id="208"/>2009<Node id="212"/>, la <Node id="217"/>administración<Node id="231"/> de <Node id="235"/>Obama<Node id="240"/> aparcó el tema del <Node id="260"/>hidrógeno<Node id="269"/>. Su <Node id="274"/>primer<Node id="280"/> <Node id="281"/>secretario<Node id="291"/> de <Node id="295"/>energía<Node id="302"/>, el <Node id="307"/>físico<Node id="313"/> y <Node id="316"/>premio<Node id="322"/> <Node id="323"/>Nobel<Node id="328"/> <Node id="329"/>Steven Chu<Node id="339"/>, explicó que la <Node id="356"/>tecnología<Node id="366"/> del <Node id="371"/>hidrógeno<Node id="380"/> aún no estaba lista y que quizás las <Node id="418"/>pilas<Node id="423"/> de <Node id="427"/>combustible<Node id="438"/> y los <Node id="445"/>electrolizadores<Node id="461"/> nunca fuesen rentables.
+<Node id="486"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="67" EndNode="87">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="104" EndNode="112">
+</Annotation>
+<Annotation Id="14" Type="PRODUCT" StartNode="187" EndNode="202">
+</Annotation>
+<Annotation Id="15" Type="DATE" StartNode="208" EndNode="212">
+</Annotation>
+<Annotation Id="16" Type="ORG" StartNode="217" EndNode="231">
+</Annotation>
+<Annotation Id="17" Type="PER" StartNode="235" EndNode="240">
+</Annotation>
+<Annotation Id="18" Type="PRODUCT" StartNode="260" EndNode="269">
+</Annotation>
+<Annotation Id="19" Type="JOB" StartNode="281" EndNode="291">
+</Annotation>
+<Annotation Id="20" Type="QUANT" StartNode="274" EndNode="280">
+</Annotation>
+<Annotation Id="21" Type="SCITERM" StartNode="295" EndNode="302">
+</Annotation>
+<Annotation Id="22" Type="JOB" StartNode="307" EndNode="313">
+</Annotation>
+<Annotation Id="23" Type="PRODUCT" StartNode="316" EndNode="322">
+</Annotation>
+<Annotation Id="24" Type="ORG" StartNode="323" EndNode="328">
+</Annotation>
+<Annotation Id="25" Type="PER" StartNode="329" EndNode="339">
+</Annotation>
+<Annotation Id="26" Type="SCITERM" StartNode="356" EndNode="366">
+</Annotation>
+<Annotation Id="27" Type="PRODUCT" StartNode="371" EndNode="380">
+</Annotation>
+<Annotation Id="28" Type="PRODUCT" StartNode="418" EndNode="423">
+</Annotation>
+<Annotation Id="29" Type="PRODUCT" StartNode="427" EndNode="438">
+</Annotation>
+<Annotation Id="30" Type="PRODUCT" StartNode="445" EndNode="461">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="486">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

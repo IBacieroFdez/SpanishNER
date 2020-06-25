@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_80_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El texto no avanza <Node id="19"/>fechas<Node id="25"/>, pero deja entrever que las medidas de intervención podrían extenderse "de forma prolongada o intermitente" <Node id="134"/>entre 12 y 18 meses<Node id="153"/> para evitar el colapso de los <Node id="184"/>hospitales<Node id="194"/> y hacer frente a los <Node id="216"/>brotes<Node id="222"/> "recurrentes" del <Node id="241"/>coronavirus<Node id="252"/>.
+<Node id="254"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="19" EndNode="25">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="134" EndNode="153">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="184" EndNode="194">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="216" EndNode="222">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="241" EndNode="252">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="254">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

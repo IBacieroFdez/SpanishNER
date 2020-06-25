@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_64_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>CDC<Node id="7"/> <Node id="8"/>estadounidenses<Node id="23"/> recomiendan fabricar <Node id="45"/>mascarillas<Node id="56"/> de tela de “<Node id="69"/>algodón<Node id="76"/> de trama cerrada” que cuenten con varias capas o pliegues, cubran nariz y boca, puedan ajustarse de manera firme pero cómoda contra los lados de la cara y se aseguren a las orejas con algún tipo de lazo. Deben permitir respirar sin restricción y han de poder lavarse y secarse sin deformarse.
+<Node id="370"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="4" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="8" EndNode="23">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="45" EndNode="56">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="69" EndNode="76">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="370">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

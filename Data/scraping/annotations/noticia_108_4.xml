@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_108_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Experto<Node id="7"/> en <Node id="11"/>virus<Node id="16"/>, el <Node id="21"/>doctor<Node id="27"/> explicó como este puede ser más peligroso que sus antecesores. "Este es increíblemente infeccioso. No mata como mata el <Node id="148"/>MERS<Node id="152"/>, que tiene una letalidad más alta, pero se transmite menos. Sucede con otros <Node id="230"/>virus<Node id="235"/> con casos con menos <Node id="256"/>síntomas<Node id="264"/>. Probablemente, tienen <Node id="288"/>síntomas<Node id="296"/> serios <Node id="304"/>uno de cada diez o de cada cinco<Node id="336"/>. Uno mira los datos de <Node id="360"/>seroprevalencia<Node id="375"/> y hablan de <Node id="388"/>5%<Node id="390"/> de contagiados. De esos, solo <Node id="421"/>uno de cada cinco<Node id="438"/> tienen <Node id="446"/>síntomas<Node id="454"/>", explicaba <Node id="467"/>Tebas<Node id="472"/>.
+<Node id="474"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="0" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="11" EndNode="16">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="21" EndNode="27">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="148" EndNode="152">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="230" EndNode="235">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="256" EndNode="264">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="288" EndNode="296">
+</Annotation>
+<Annotation Id="8" Type="PERCENT" StartNode="304" EndNode="336">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="360" EndNode="375">
+</Annotation>
+<Annotation Id="10" Type="PERCENT" StartNode="388" EndNode="390">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="446" EndNode="454">
+</Annotation>
+<Annotation Id="12" Type="PERCENT" StartNode="421" EndNode="438">
+</Annotation>
+<Annotation Id="13" Type="PER" StartNode="467" EndNode="472">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="474">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

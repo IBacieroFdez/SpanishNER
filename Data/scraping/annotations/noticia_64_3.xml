@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_64_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>infectóloga<Node id="14"/> <Node id="15"/>Belén Padilla<Node id="28"/>, <Node id="30"/>vicepresidenta<Node id="44"/> del <Node id="49"/>Colegio Oficial de Médicos<Node id="75"/> de <Node id="79"/>Madrid<Node id="85"/> (<Node id="87"/>Icomem<Node id="93"/>), es tajante cuando se le pregunta por estas <Node id="139"/>mascarillas<Node id="150"/>: "No protegen a nadie, ya que, si estás enfermo, filtran el <Node id="211"/>virus<Node id="216"/>; y, si pretendes protegerte de una <Node id="252"/>infección<Node id="261"/>, tampoco hacen de barrera”. Según insiste, mantener la distancia de seguridad de <Node id="343"/>1,5<Node id="346"/> a <Node id="349"/>2<Node id="350"/> <Node id="351"/>metros<Node id="357"/> es exactamente igual de eficaz.
+<Node id="390"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="15" EndNode="28">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="30" EndNode="44">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="49" EndNode="75">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="79" EndNode="85">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="87" EndNode="93">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="139" EndNode="150">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="211" EndNode="216">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="252" EndNode="261">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="343" EndNode="346">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="349" EndNode="350">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="351" EndNode="357">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="390">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_8_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Este año<Node id="8"/> los <Node id="13"/>Sanfermines<Node id="24"/> contaban con un presupuesto de algo más de <Node id="68"/>3 millones de euros<Node id="87"/>, buena parte del cual, según ha apuntado, va a ser destinado a gastos derivados de las actuaciones llevadas a cabo para intentar paliar las consecuencias de la <Node id="248"/>crisis<Node id="254"/> <Node id="255"/>sanitaria<Node id="264"/> ocasionada por el <Node id="283"/>COVID-19<Node id="291"/>.
+<Node id="293"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="0" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="13" EndNode="24">
+</Annotation>
+<Annotation Id="3" Type="MONEY" StartNode="68" EndNode="87">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="248" EndNode="254">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="255" EndNode="264">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="283" EndNode="291">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="293">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

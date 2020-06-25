@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_78_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Impact Hub<Node id="10"/> <Node id="11"/>Madrid<Node id="17"/> fue pionero en el <Node id="36"/>sector del coworking<Node id="56"/> en <Node id="60"/>España<Node id="66"/> y hoy cuenta con <Node id="84"/>6<Node id="85"/> <Node id="86"/>espacios<Node id="94"/> en pleno <Node id="104"/>centro<Node id="110"/> urbano dedicados a la innovación y el emprendimiento, con <Node id="169"/>oficinas<Node id="177"/>, <Node id="179"/>zonas de trabajo<Node id="195"/> compartido y ocio, <Node id="215"/>salas<Node id="220"/> para <Node id="226"/>eventos<Node id="233"/> o <Node id="236"/>reuniones<Node id="245"/> con clientes y una variada programación en torno a la economía de impacto y el emprendimiento.
+<Node id="341"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="11" EndNode="17">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="36" EndNode="56">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="60" EndNode="66">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="84" EndNode="85">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="86" EndNode="94">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="104" EndNode="110">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="169" EndNode="177">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="179" EndNode="195">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="215" EndNode="220">
+</Annotation>
+<Annotation Id="11" Type="EVENT" StartNode="226" EndNode="233">
+</Annotation>
+<Annotation Id="12" Type="EVENT" StartNode="236" EndNode="245">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="341">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

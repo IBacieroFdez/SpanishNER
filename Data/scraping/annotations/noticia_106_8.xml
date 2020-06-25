@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_106_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Y eso que <Node id="10"/>Geller<Node id="16"/> ya las ha sacado rendimiento económico. Este <Node id="62"/>coleccionista<Node id="75"/> las convirtió en la <Node id="96"/>joya<Node id="100"/> de la <Node id="107"/>corona<Node id="113"/> de su <Node id="120"/>museo<Node id="125"/> del <Node id="130"/>calzado<Node id="137"/> llamado ShoeZeum, donde dice que la gente vendría y se sentaría frente a la <Node id="214"/>pantalla<Node id="222"/>, y los mantendría en una <Node id="248"/>caja<Node id="252"/> de seguridad que visitaría ocasionalmente, <Node id="296"/>Geller<Node id="302"/> decidió que era hora de vender las <Node id="338"/>zapatillas<Node id="348"/> un nuevo dueño.
+<Node id="365"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="10" EndNode="16">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="62" EndNode="75">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="96" EndNode="100">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="107" EndNode="113">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="120" EndNode="125">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="130" EndNode="137">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="214" EndNode="222">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="248" EndNode="252">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="296" EndNode="302">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="338" EndNode="348">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="365">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

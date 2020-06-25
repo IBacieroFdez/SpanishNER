@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_47_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>Asociación Nacional Grandes Empresas de Distribución<Node id="55"/> (<Node id="57"/>Anged<Node id="62"/>) prevé una caída de las ventas de hasta el <Node id="106"/>50 %<Node id="110"/> en comercio de no alimentación desde que se cerraron las <Node id="168"/>tiendas<Node id="175"/> hasta que se pueda recuperar la normalidad, por lo que se perderá más que en toda la <Node id="261"/>crisis<Node id="267"/> de <Node id="271"/>2008-2013<Node id="280"/>, cuando el consumo cayó el <Node id="308"/>35 %<Node id="312"/>.
+<Node id="314"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="3" EndNode="55">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="57" EndNode="62">
+</Annotation>
+<Annotation Id="3" Type="PERCENT" StartNode="106" EndNode="110">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="168" EndNode="175">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="261" EndNode="267">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="271" EndNode="280">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="308" EndNode="312">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="314">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

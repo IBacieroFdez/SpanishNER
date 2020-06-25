@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_74_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Hasta <Node id="6"/>ahora<Node id="11"/>, la <Node id="16"/>empresa<Node id="23"/> -que es el mayor exportador <Node id="52"/>estadounidense<Node id="66"/> y uno de los mayores empleadores del <Node id="104"/>país<Node id="108"/> en el ámbito <Node id="122"/>industrial<Node id="132"/>- no ha efectuado despidos en su amplia <Node id="172"/>plantilla<Node id="181"/>, que cuenta con unos <Node id="203"/>161.000<Node id="210"/> <Node id="211"/>trabajadores<Node id="223"/>. 
+<Node id="226"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="6" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="16" EndNode="23">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="52" EndNode="66">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="104" EndNode="108">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="122" EndNode="132">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="172" EndNode="181">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="203" EndNode="210">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="211" EndNode="223">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="226">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

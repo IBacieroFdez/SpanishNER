@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_32_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>firma<Node id="8"/> <Node id="9"/>española<Node id="17"/> de <Node id="21"/>moda inteligente<Node id="37"/> <Node id="38"/>Sepiia<Node id="44"/> se suma al movimiento <Node id="67"/>#yomequedoencasa<Node id="83"/> y ayuda a sobrellevar el <Node id="109"/>confinamiento<Node id="122"/> con <Node id="127"/>prendas inteligentes<Node id="147"/> y <Node id="150"/>tecnológicas<Node id="162"/> que no huelen, no se manchan y no se arrugan, diseños que reducen el impacto medioambiental, ya que ahorran un <Node id="274"/>70 por ciento<Node id="287"/> los lavados. 
+<Node id="302"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="21" EndNode="37">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="38" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="67" EndNode="83">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="109" EndNode="122">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="127" EndNode="147">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="150" EndNode="162">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="274" EndNode="287">
+</Annotation>
+<Annotation Id="8" Type="LANG" StartNode="9" EndNode="17">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="3" EndNode="8">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="302">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

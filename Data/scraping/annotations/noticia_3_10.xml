@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_3_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En el plan de choque, dirigido por el mando único de la <Node id="56"/>Consejería de Sanidad<Node id="77"/>, han intervenido los <Node id="99"/>Departamentos de Políticas Sociales y Justicia<Node id="145"/>, los <Node id="151"/>Bomberos<Node id="159"/> de la <Node id="166"/>Comunidad<Node id="175"/> y del <Node id="182"/>Ayuntamiento de Madrid<Node id="204"/>, <Node id="206"/>Samur-Protección Civil<Node id="228"/>, la <Node id="233"/>Unidad Militar de Emergencias<Node id="262"/> (<Node id="264"/>UME<Node id="267"/>), <Node id="270"/>Policías locales<Node id="286"/>, agrupaciones de <Node id="304"/>Protección Civil<Node id="320"/>, <Node id="322"/>Cruz Roja<Node id="331"/> y <Node id="334"/>Médicos sin Fronteras<Node id="355"/>.
+<Node id="357"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="56" EndNode="77">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="99" EndNode="145">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="151" EndNode="159">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="166" EndNode="175">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="182" EndNode="204">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="206" EndNode="228">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="233" EndNode="262">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="264" EndNode="267">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="270" EndNode="286">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="304" EndNode="320">
+</Annotation>
+<Annotation Id="11" Type="ORG" StartNode="322" EndNode="331">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="334" EndNode="355">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="357">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

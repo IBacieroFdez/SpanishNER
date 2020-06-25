@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_70_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los primeros Conexión <Node id="22"/>FERugby<Node id="29"/> contarán también con la participación estelar de los recientemente nombrados <Node id="107"/>embajadores<Node id="118"/> del <Node id="123"/>rugby<Node id="128"/> <Node id="129"/>español<Node id="136"/>, <Node id="138"/>Patricia García<Node id="153"/> y <Node id="156"/>Jaime Nava<Node id="166"/>. 
+<Node id="169"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="22" EndNode="29">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="107" EndNode="118">
+</Annotation>
+<Annotation Id="3" Type="SPORT" StartNode="123" EndNode="128">
+</Annotation>
+<Annotation Id="4" Type="LANG" StartNode="129" EndNode="136">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="138" EndNode="153">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="156" EndNode="166">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="169">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

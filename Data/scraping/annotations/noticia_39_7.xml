@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_39_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Entre estos aspectos, está la gestión de colas, la desinfección de <Node id="67"/>terminales<Node id="77"/>, el aprovisionamiento de <Node id="103"/>mascarillas<Node id="114"/>, <Node id="116"/>guantes<Node id="123"/> y <Node id="126"/>geles<Node id="131"/> <Node id="132"/>desinfectantes<Node id="146"/>, el control del aforo de <Node id="172"/>tiendas<Node id="179"/> y <Node id="182"/>restaurantes<Node id="194"/> y distancias entre <Node id="214"/>pasajeros<Node id="223"/>, han añadido las fuentes. 
+<Node id="251"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="FAC" StartNode="67" EndNode="77">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="103" EndNode="114">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="116" EndNode="123">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="126" EndNode="131">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="132" EndNode="146">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="172" EndNode="179">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="182" EndNode="194">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="214" EndNode="223">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="251">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

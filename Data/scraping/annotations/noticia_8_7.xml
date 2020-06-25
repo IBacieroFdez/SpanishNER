@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_8_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Se trata de una suspensión que mira <Node id="36"/>al futuro<Node id="45"/> con un mensaje claro, ‘En cuanto podamos…#LosViviremos #<Node id="102"/>Sanfermines<Node id="113"/>’, que se va  a difundir a través de vídeos en <Node id="160"/>castellano<Node id="170"/>, <Node id="172"/>euskera<Node id="179"/>, <Node id="181"/>francés<Node id="188"/> e <Node id="191"/>inglés<Node id="197"/> debido al carácter internacional de las <Node id="238"/>fiestas<Node id="245"/> que tradicionalmente se celebran en <Node id="282"/>Pamplona<Node id="290"/> <Node id="291"/>del 6 al 14 de julio<Node id="311"/>.
+<Node id="313"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="36" EndNode="45">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="102" EndNode="113">
+</Annotation>
+<Annotation Id="4" Type="LANG" StartNode="160" EndNode="170">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="172" EndNode="179">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="181" EndNode="188">
+</Annotation>
+<Annotation Id="7" Type="LANG" StartNode="191" EndNode="197">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="238" EndNode="245">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="282" EndNode="290">
+</Annotation>
+<Annotation Id="10" Type="TIME" StartNode="291" EndNode="311">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="313">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

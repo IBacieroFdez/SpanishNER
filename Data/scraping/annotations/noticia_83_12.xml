@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_83_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Algunos <Node id="8"/>gérmenes<Node id="16"/> dependen de insectos <Node id="38"/>portadores<Node id="48"/>, como mosquitos, pulgas, piojos o garrapatas, para desplazarse de un huésped a otro. Estos <Node id="140"/>portadores<Node id="150"/> son conocidos como <Node id="170"/>vectores<Node id="178"/>. Los mosquitos pueden ser portadores del <Node id="220"/>parásito<Node id="228"/> de la <Node id="235"/>malaria<Node id="242"/> o del <Node id="249"/>virus<Node id="254"/> del Nilo Occidental. Las <Node id="280"/>garrapatas<Node id="290"/> del <Node id="295"/>venado<Node id="301"/> pueden ser <Node id="313"/>portadoras<Node id="323"/> de la <Node id="330"/>bacteria<Node id="338"/> que causa la <Node id="352"/>enfermedad<Node id="362"/> de Lyme.
+<Node id="372"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="8" EndNode="16">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="170" EndNode="178">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="38" EndNode="48">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="140" EndNode="150">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="220" EndNode="228">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="235" EndNode="242">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="249" EndNode="254">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="280" EndNode="290">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="295" EndNode="301">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="313" EndNode="323">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="330" EndNode="338">
+</Annotation>
+<Annotation Id="15" Type="DISEASE" StartNode="352" EndNode="362">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="372">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

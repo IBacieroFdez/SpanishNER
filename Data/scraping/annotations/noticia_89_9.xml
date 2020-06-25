@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_89_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xd;
+	 <Node id="4"/>Cuando se informó a los  participantes de la naturaleza del estudio, los pacientes mostraron  asombro por la gran diferencia que habían notado. “Las personas que  admitieron tener más expectativas con el <Node id="208"/>fármaco<Node id="215"/> caro fueron las que más  mejoría notaron al tomarlo, mientras que aquellos a los que el precio  no les pareció determinante percibieron menos diferencias”, concluye  <Node id="382"/>Espay<Node id="387"/>.&#xd;
+<Node id="390"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="208" EndNode="215">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="382" EndNode="387">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="4" EndNode="390">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

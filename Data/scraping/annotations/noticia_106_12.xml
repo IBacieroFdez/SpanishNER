@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_106_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Hasta <Node id="6"/>ahora<Node id="11"/>, la <Node id="16"/>zapatilla<Node id="25"/> más cara jamás vendida en una <Node id="56"/>subasta<Node id="63"/> es un viejo par de <Node id="83"/>Nikes<Node id="88"/> originales hechas a mano, conocidas como las "Moon Shoes", una de las primeras fabricadas por la marca. Se vendieron por <Node id="210"/>437.500 dólares<Node id="225"/> en <Node id="229"/>Sotheby's<Node id="238"/> el <Node id="242"/>año<Node id="245"/> pasado.
+<Node id="254"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="6" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="16" EndNode="25">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="56" EndNode="63">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="83" EndNode="88">
+</Annotation>
+<Annotation Id="5" Type="MONEY" StartNode="210" EndNode="225">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="229" EndNode="238">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="242" EndNode="245">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="254">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

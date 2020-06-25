@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_12_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>curados<Node id="11"/> alcanzan ya los <Node id="28"/>32.277<Node id="34"/>, al sumarse <Node id="47"/>hoy<Node id="50"/> <Node id="51"/>515<Node id="54"/>, que son <Node id="64"/>1,59 % más<Node id="74"/> que el dato anterior.
+<Node id="97"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="28" EndNode="34">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="51" EndNode="54">
+</Annotation>
+<Annotation Id="3" Type="PERCENT" StartNode="64" EndNode="74">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="47" EndNode="50">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="4" EndNode="11">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="97">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

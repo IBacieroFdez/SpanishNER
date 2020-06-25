@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_105_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En una de las escenas más carismáticas de la <Node id="45"/>película<Node id="53"/> Érase una vez en... Hollywood, sus dos protagonistas, <Node id="108"/>Rick Dalton<Node id="119"/> (<Node id="121"/>Leonardo DiCaprio<Node id="138"/>) y <Node id="142"/>Cliff Booth<Node id="153"/> (<Node id="155"/>Brad Pitt<Node id="164"/>) se reunen en casa para ver una de las series míticas de los <Node id="226"/>60<Node id="228"/>, <Node id="230"/>F.B.I.<Node id="236"/>, en la que el personaje de <Node id="264"/>Dalton<Node id="270"/> hace un cameo como <Node id="290"/>gánster<Node id="297"/> en un episodio mientras se ríen y se toman unas <Node id="346"/>cervezas<Node id="354"/>. No es nuevo decir que a los <Node id="384"/>actores<Node id="391"/> les gusta ver series que hablan sobre <Node id="430"/>actores<Node id="437"/>, donde la trama argumental gira en torno a ellos y donde, en cierto modo, se sienten identificados. Por eso estamos seguras que tanto <Node id="572"/>Brad<Node id="576"/> como <Node id="582"/>Leonardo<Node id="590"/> estarán disfrutando un montón con la nueva <Node id="634"/>serie<Node id="639"/> de <Node id="643"/>Ryan Murphy<Node id="654"/>, <Node id="656"/>Hollywood<Node id="665"/>, que puedes ver en <Node id="685"/>Netflix<Node id="692"/> y que es un precioso homenaje a la meca del <Node id="737"/>cine<Node id="741"/> en los <Node id="749"/>años<Node id="753"/> <Node id="754"/>40<Node id="756"/> y a ese <Node id="765"/>lugar<Node id="770"/> al que llegaba gente de todo el mundo dispuesta a convertirse en una estrella. Pero, y esto es importante reseñarlo, en el que existían también muchas más sombras que luces.
+<Node id="945"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="45" EndNode="53">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="108" EndNode="119">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="121" EndNode="138">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="142" EndNode="153">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="155" EndNode="164">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="226" EndNode="228">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="230" EndNode="236">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="264" EndNode="270">
+</Annotation>
+<Annotation Id="9" Type="JOB" StartNode="290" EndNode="297">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="346" EndNode="354">
+</Annotation>
+<Annotation Id="11" Type="JOB" StartNode="384" EndNode="391">
+</Annotation>
+<Annotation Id="13" Type="JOB" StartNode="430" EndNode="437">
+</Annotation>
+<Annotation Id="14" Type="PER" StartNode="572" EndNode="576">
+</Annotation>
+<Annotation Id="15" Type="PER" StartNode="582" EndNode="590">
+</Annotation>
+<Annotation Id="16" Type="PER" StartNode="643" EndNode="654">
+</Annotation>
+<Annotation Id="17" Type="PRODUCT" StartNode="634" EndNode="639">
+</Annotation>
+<Annotation Id="18" Type="GPE" StartNode="656" EndNode="665">
+</Annotation>
+<Annotation Id="19" Type="ORG" StartNode="685" EndNode="692">
+</Annotation>
+<Annotation Id="20" Type="PRODUCT" StartNode="737" EndNode="741">
+</Annotation>
+<Annotation Id="21" Type="DATE" StartNode="749" EndNode="753">
+</Annotation>
+<Annotation Id="22" Type="QUANT" StartNode="754" EndNode="756">
+</Annotation>
+<Annotation Id="23" Type="LOC" StartNode="765" EndNode="770">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="945">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

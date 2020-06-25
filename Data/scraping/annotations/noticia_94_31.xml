@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_94_31.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Los hemos probado y no funcionan. <Node id="35"/>España<Node id="41"/> cometió un gran error al usarlas", dijo <Node id="82"/>Ates Kara<Node id="91"/>, del <Node id="97"/>equipo de respuesta<Node id="116"/> al <Node id="120"/>coronavirus<Node id="131"/> en el <Node id="138"/>Ministerio de Salud<Node id="157"/> <Node id="158"/>turco<Node id="163"/>, a <Node id="167"/>CNN<Node id="170"/> Turk.
+<Node id="177"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="35" EndNode="41">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="82" EndNode="91">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="97" EndNode="116">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="120" EndNode="131">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="138" EndNode="157">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="158" EndNode="163">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="167" EndNode="170">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="177">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

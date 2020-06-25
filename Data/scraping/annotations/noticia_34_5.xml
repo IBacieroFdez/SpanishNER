@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_34_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Fuentes del <Node id="12"/>palacio de Buckingham<Node id="33"/> han indicado que la <Node id="54"/>reina<Node id="59"/> consideró que no era apropiado celebrar su <Node id="103"/>cumpleaños<Node id="113"/> con <Node id="118"/>salvas de cañón<Node id="133"/> o el repicar de las campanas de la <Node id="169"/>Abadía<Node id="175"/> de Westminster<Node id="190"/>, en <Node id="195"/>Londres<Node id="202"/>, debido a las actuales medidas de <Node id="237"/>cuarentena<Node id="247"/>. <Node id="249"/>EFE<Node id="252"/>
+<Node id="253"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="12" EndNode="33">
+</Annotation>
+<Annotation Id="17" Type="JOB" StartNode="54" EndNode="59">
+</Annotation>
+<Annotation Id="18" Type="EVENT" StartNode="103" EndNode="113">
+</Annotation>
+<Annotation Id="19" Type="EVENT" StartNode="118" EndNode="133">
+</Annotation>
+<Annotation Id="20" Type="FAC" StartNode="169" EndNode="175">
+</Annotation>
+<Annotation Id="21" Type="LOC" StartNode="169" EndNode="190">
+</Annotation>
+<Annotation Id="22" Type="GPE" StartNode="195" EndNode="202">
+</Annotation>
+<Annotation Id="23" Type="EVENT" StartNode="237" EndNode="247">
+</Annotation>
+<Annotation Id="24" Type="ORG" StartNode="249" EndNode="252">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="253">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

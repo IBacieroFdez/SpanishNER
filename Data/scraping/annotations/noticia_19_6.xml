@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_19_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La declaración de <Node id="18"/>Morrison<Node id="26"/> se da tras la reclamación de la <Node id="59"/>ministra<Node id="67"/> de <Node id="71"/>Asuntos Exteriores<Node id="89"/>, <Node id="91"/>Marise Payne<Node id="103"/>, quien el <Node id="114"/>domingo<Node id="121"/> dijo en la televisión pública <Node id="152"/>ABC<Node id="155"/> que <Node id="160"/>Australia<Node id="169"/> "insistirá" en una investigación independiente de la <Node id="223"/>OMS<Node id="226"/> sobre el origen del <Node id="247"/>virus<Node id="252"/> en <Node id="256"/>Wuhan<Node id="261"/>, además de su gestión y el intercambio de información sobre este nuevo <Node id="333"/>coronavirus<Node id="344"/>.
+<Node id="346"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="18" EndNode="26">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="59" EndNode="67">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="71" EndNode="89">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="91" EndNode="103">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="114" EndNode="121">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="152" EndNode="155">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="160" EndNode="169">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="223" EndNode="226">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="247" EndNode="252">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="256" EndNode="261">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="333" EndNode="344">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="346">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

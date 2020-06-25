@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_67_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>tenista<Node id="10"/> <Node id="11"/>español<Node id="18"/> <Node id="19"/>Rafa Nadal<Node id="29"/>, número <Node id="38"/>dos<Node id="41"/> del <Node id="46"/>mundo<Node id="51"/>, organizó un directo en <Node id="76"/>instagram<Node id="85"/> este pasado <Node id="98"/>lunes<Node id="103"/> donde contestó las preguntas de algunos aficionados y además compartió pantalla con <Node id="188"/>Marc López<Node id="198"/>, <Node id="200"/>Roger Federer<Node id="213"/> y <Node id="216"/>Andy Murray<Node id="227"/>. <Node id="229"/>Durante<Node id="236"/> este rato, el mejor <Node id="257"/>deportista<Node id="267"/> <Node id="268"/>español<Node id="275"/> de la historia reconoció no entender que no puedan jugar al <Node id="336"/>tenis<Node id="341"/> si otra gente va a trabajar.
+<Node id="371"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="11" EndNode="18">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="19" EndNode="29">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="38" EndNode="41">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="46" EndNode="51">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="98" EndNode="103">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="76" EndNode="85">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="188" EndNode="198">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="200" EndNode="213">
+</Annotation>
+<Annotation Id="10" Type="PER" StartNode="216" EndNode="227">
+</Annotation>
+<Annotation Id="11" Type="TIME" StartNode="229" EndNode="236">
+</Annotation>
+<Annotation Id="13" Type="SPORT" StartNode="257" EndNode="267">
+</Annotation>
+<Annotation Id="14" Type="LANG" StartNode="268" EndNode="275">
+</Annotation>
+<Annotation Id="15" Type="SPORT" StartNode="336" EndNode="341">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="371">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

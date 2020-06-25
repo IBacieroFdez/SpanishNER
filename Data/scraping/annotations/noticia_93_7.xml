@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_93_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Desprevenidos: La <Node id="18"/>pandemia<Node id="26"/> de <Node id="30"/>2009<Node id="34"/> puso de relieve la posibilidad de que la amenaza principal procediera de los <Node id="112"/>cerdos<Node id="118"/>, no de las <Node id="130"/>aves<Node id="134"/>, ya que el salto de los <Node id="159"/>virus porcinos<Node id="173"/> hacia las personas normalmente resulta más fácil que el de los <Node id="237"/>virus aviares<Node id="250"/>.
+<Node id="252"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="18" EndNode="26">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="30" EndNode="34">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="112" EndNode="118">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="130" EndNode="134">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="159" EndNode="173">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="237" EndNode="250">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="252">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

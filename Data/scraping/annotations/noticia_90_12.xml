@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_90_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Esta <Node id="5"/>hipótesis<Node id="14"/> tiene una base teórica sólida desde hace <Node id="56"/>décadas<Node id="63"/>, pero faltaba corroborarla con observaciones. El HeH+ no puede formarse en la <Node id="142"/>Tierra<Node id="148"/>, salvo en el <Node id="162"/>laboratorio<Node id="173"/>, y <Node id="177"/>durante<Node id="184"/> mucho <Node id="191"/>tiempo<Node id="197"/> no se detectó en el <Node id="218"/>espacio<Node id="225"/>. Sin embargo, el <Node id="243"/>año pasado<Node id="253"/> los <Node id="258"/>astrónomos<Node id="268"/> anunciaron que habían observado la <Node id="304"/>molécula<Node id="312"/> en la pira funeraria de una estrella moribunda. <Node id="361"/>Cuarenta<Node id="369"/> años de búsqueda habían dado sus frutos, añadiendo una pieza nueva y fundamental a nuestra imagen del <Node id="472"/>universo<Node id="480"/> temprano.
+<Node id="491"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="JOB" StartNode="258" EndNode="268">
+</Annotation>
+<Annotation Id="1" Type="SCITERM" StartNode="5" EndNode="14">
+</Annotation>
+<Annotation Id="17" Type="SCITERM" StartNode="304" EndNode="312">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="56" EndNode="63">
+</Annotation>
+<Annotation Id="18" Type="QUANT" StartNode="361" EndNode="369">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="142" EndNode="148">
+</Annotation>
+<Annotation Id="19" Type="LOC" StartNode="472" EndNode="480">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="162" EndNode="173">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="191" EndNode="197">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="177" EndNode="184">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="218" EndNode="225">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="243" EndNode="253">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="491">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

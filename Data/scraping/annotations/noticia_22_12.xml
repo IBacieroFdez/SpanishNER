@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_22_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Arabia Saudí<Node id="12"/>, con <Node id="18"/>184<Node id="21"/> ajusticiamientos frente a los <Node id="52"/>149<Node id="55"/> del <Node id="60"/>año anterior<Node id="72"/>, ocupa el <Node id="83"/>tercer<Node id="89"/> lugar en cantidad de ejecuciones en el <Node id="129"/>mundo<Node id="134"/> mientra que <Node id="147"/>Irak<Node id="151"/> fue el <Node id="159"/>cuarto<Node id="165"/>, con <Node id="171"/>al menos un centenar<Node id="191"/> de casos, casi el <Node id="210"/>doble<Node id="215"/> que el <Node id="223"/>año anterior<Node id="235"/>.
+<Node id="237"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="0" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="18" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="52" EndNode="55">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="60" EndNode="72">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="83" EndNode="89">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="129" EndNode="134">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="147" EndNode="151">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="159" EndNode="165">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="171" EndNode="191">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="210" EndNode="215">
+</Annotation>
+<Annotation Id="11" Type="TIME" StartNode="223" EndNode="235">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="237">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

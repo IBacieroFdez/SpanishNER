@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_39_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Hasta que estalló la <Node id="21"/>emergencia<Node id="31"/> <Node id="32"/>sanitaria<Node id="41"/> por el <Node id="49"/>coronavirus<Node id="60"/>, <Node id="62"/>Aena<Node id="66"/> había registrado <Node id="84"/>33,9 millones<Node id="97"/> de <Node id="101"/>viajeros<Node id="109"/> en los dos primeros <Node id="130"/>meses<Node id="135"/> del <Node id="140"/>año<Node id="143"/>, un <Node id="148"/>3,2 por ciento<Node id="162"/> más que en el mismo <Node id="183"/>periodo<Node id="190"/> de <Node id="194"/>2019<Node id="198"/>. 
+<Node id="201"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="21" EndNode="31">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="32" EndNode="41">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="49" EndNode="60">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="62" EndNode="66">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="84" EndNode="97">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="101" EndNode="109">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="130" EndNode="135">
+</Annotation>
+<Annotation Id="8" Type="TIME" StartNode="140" EndNode="143">
+</Annotation>
+<Annotation Id="9" Type="PERCENT" StartNode="148" EndNode="162">
+</Annotation>
+<Annotation Id="10" Type="DATE" StartNode="194" EndNode="198">
+</Annotation>
+<Annotation Id="11" Type="TIME" StartNode="183" EndNode="190">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="201">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

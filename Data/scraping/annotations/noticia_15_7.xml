@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_15_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El plan contempla que las <Node id="26"/>víctimas de trata y explotación sexual<Node id="64"/>, así como las <Node id="79"/>mujeres<Node id="86"/> en contexto de prostitución, podrán ser beneficiarias de las ayudas vinculadas a la <Node id="171"/>vivienda<Node id="179"/> del programa de ayuda a las <Node id="208"/>víctimas de violencia de género<Node id="239"/>, así como las <Node id="254"/>administraciones públicas<Node id="279"/> y <Node id="282"/>entidades sin ánimo de lucro<Node id="310"/>, cuyo objeto sea dotar de una solución habitacional a estas <Node id="371"/>víctimas<Node id="379"/>.
+<Node id="381"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="26" EndNode="64">
+</Annotation>
+<Annotation Id="26" Type="PER" StartNode="79" EndNode="86">
+</Annotation>
+<Annotation Id="27" Type="LOC" StartNode="171" EndNode="179">
+</Annotation>
+<Annotation Id="28" Type="NORP" StartNode="208" EndNode="239">
+</Annotation>
+<Annotation Id="29" Type="ORG" StartNode="254" EndNode="279">
+</Annotation>
+<Annotation Id="30" Type="NORP" StartNode="282" EndNode="310">
+</Annotation>
+<Annotation Id="31" Type="PER" StartNode="371" EndNode="379">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="381">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

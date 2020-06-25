@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_91_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Al <Node id="3"/>quinto<Node id="9"/>, cuando se encaminó por <Node id="34"/>enésima<Node id="41"/> vez hacia el <Node id="55"/>pasillo<Node id="62"/>, se topó con una pared: la <Node id="90"/>ruta<Node id="94"/> estaba cortada. Volvió a la <Node id="123"/>mesa<Node id="127"/> circular y comenzó a buscar alternativas. De repente, esta también se había transformado: en lugar de un <Node id="233"/>camino<Node id="239"/>, ahora había <Node id="253"/>18<Node id="255"/> <Node id="256"/>rutas<Node id="261"/> radiales que partían de los bordes. Tras aventurarse unos pasos por algunas, finalmente optó por recorrer íntegramente la <Node id="384"/>sexta<Node id="389"/>, la única que conducía a la <Node id="418"/>comida<Node id="424"/>.
+<Node id="426"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="3" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="34" EndNode="41">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="55" EndNode="62">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="90" EndNode="94">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="123" EndNode="127">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="233" EndNode="239">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="253" EndNode="255">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="256" EndNode="261">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="384" EndNode="389">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="418" EndNode="424">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="426">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

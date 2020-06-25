@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_106_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Pero la revalorización de estas <Node id="32"/>zapatillas<Node id="42"/> no solo se debe al documental de <Node id="76"/>Netflix<Node id="83"/>. Las <Node id="89"/>zapatillas<Node id="99"/> de <Node id="103"/>deporte<Node id="110"/> están viviendo una era gloriosa en las <Node id="150"/>casas<Node id="155"/> de <Node id="159"/>subastas<Node id="167"/>, similar a la que tienen los <Node id="197"/>relojes<Node id="204"/> desde hace <Node id="216"/>años<Node id="220"/>. No en vano, ambos son <Node id="244"/>artículos<Node id="253"/> producidos en masa que ven aumentos de valor por escasez y procedencia.
+<Node id="326"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="32" EndNode="42">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="76" EndNode="83">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="89" EndNode="99">
+</Annotation>
+<Annotation Id="4" Type="SPORT" StartNode="103" EndNode="110">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="150" EndNode="155">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="159" EndNode="167">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="197" EndNode="204">
+</Annotation>
+<Annotation Id="8" Type="TIME" StartNode="216" EndNode="220">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="244" EndNode="253">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="326">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

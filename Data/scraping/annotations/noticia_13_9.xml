@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_13_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Asegura la <Node id="11"/>comisaria<Node id="20"/> que los logros alcanzados en igualdad de género "están amenazados por los discursos y las iniciativas de determinados <Node id="139"/>grupos ultraconservadores<Node id="164"/> destinados a relegar a las <Node id="192"/>mujeres<Node id="199"/> en sus roles tradicionales".
+<Node id="229"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="11" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="139" EndNode="164">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="192" EndNode="199">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="229">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

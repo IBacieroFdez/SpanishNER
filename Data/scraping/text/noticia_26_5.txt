@@ -1,0 +1,1 @@
+El estudio combina tres tipos de datos, entre ellos los niveles de contaminación regional de dióxido de nitrógeno medidos por el satélite Sentinel 5P de la Agencia Espacial Europea (ESA), que monitoriza continuamente la contaminación del aire en la tierra.

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_5_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Este conjunto de <Node id="17"/>stickers<Node id="25"/> "Together at Home" (Juntos en <Node id="56"/>casa<Node id="60"/>) ya está disponible en <Node id="84"/>WhatsApp<Node id="92"/> e incluye algunos textos traducidos en 9 <Node id="134"/>idiomas<Node id="141"/> (<Node id="143"/>árabe<Node id="148"/>, <Node id="150"/>francés<Node id="157"/>, <Node id="159"/>alemán<Node id="165"/>, <Node id="167"/>indonesio<Node id="176"/>, <Node id="178"/>italiano<Node id="186"/>, <Node id="188"/>portugués<Node id="197"/>, <Node id="199"/>ruso<Node id="203"/>, <Node id="205"/>español<Node id="212"/> y <Node id="215"/>turco<Node id="220"/>).
+<Node id="223"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="17" EndNode="25">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="56" EndNode="60">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="84" EndNode="92">
+</Annotation>
+<Annotation Id="4" Type="LANG" StartNode="134" EndNode="141">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="143" EndNode="148">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="150" EndNode="157">
+</Annotation>
+<Annotation Id="7" Type="LANG" StartNode="167" EndNode="176">
+</Annotation>
+<Annotation Id="8" Type="LANG" StartNode="159" EndNode="165">
+</Annotation>
+<Annotation Id="9" Type="LANG" StartNode="178" EndNode="186">
+</Annotation>
+<Annotation Id="10" Type="LANG" StartNode="199" EndNode="203">
+</Annotation>
+<Annotation Id="11" Type="LANG" StartNode="205" EndNode="212">
+</Annotation>
+<Annotation Id="12" Type="LANG" StartNode="215" EndNode="220">
+</Annotation>
+<Annotation Id="13" Type="LANG" StartNode="188" EndNode="197">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="223">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

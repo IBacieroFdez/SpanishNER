@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_17_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La propaganda <Node id="14"/>norcoreana<Node id="24"/> tampoco señaló la presencia del <Node id="57"/>líder<Node id="62"/> en un ensayo armamentístico que se llevó a cabo el <Node id="114"/>14 de abril<Node id="125"/> y ante todo no mostró a <Node id="150"/>Kim<Node id="153"/> participando en la tradicional visita al <Node id="195"/>mausoleo<Node id="203"/> donde reposan los restos de su abuelo <Node id="242"/>Kim Il-sung<Node id="253"/>.
+<Node id="255"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="57" EndNode="62">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="14" EndNode="24">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="114" EndNode="125">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="150" EndNode="153">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="195" EndNode="203">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="242" EndNode="253">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="255">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

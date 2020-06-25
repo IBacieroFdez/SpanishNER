@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La mayoría de las personas (alrededor del <Node id="42"/>80%<Node id="45"/>) se recuperan de la <Node id="66"/>enfermedad<Node id="76"/> sin necesidad de tratamiento hospitalario. Alrededor de <Node id="133"/>1<Node id="134"/> de cada <Node id="143"/>5<Node id="144"/> personas que contraen la <Node id="170"/>COVID‑19<Node id="178"/> acaba presentando un <Node id="200"/>cuadro<Node id="206"/> grave y experimenta dificultades para respirar. Las personas mayores y las que padecen <Node id="294"/>afecciones médicas<Node id="312"/> previas como <Node id="326"/>hipertensión<Node id="338"/> <Node id="339"/>arteria<Node id="346"/>l<Node id="347"/>, <Node id="349"/>problemas cardiacos<Node id="368"/> o <Node id="371"/>pulmonares<Node id="381"/>, <Node id="383"/>diabetes<Node id="391"/> o <Node id="394"/>cáncer<Node id="400"/> tienen más probabilidades de presentar cuadros graves. Sin embargo, cualquier persona puede contraer la <Node id="505"/>COVID‑19<Node id="513"/> y caer gravemente enferma. Las personas de cualquier edad que tengan <Node id="583"/>fiebre<Node id="589"/> o <Node id="592"/>tos<Node id="595"/> y además respiren con dificultad, sientan <Node id="638"/>dolor<Node id="643"/> u opresión en el pecho o tengan dificultades para hablar o moverse deben solicitar <Node id="727"/>atención médica<Node id="742"/> inmediatamente. Si es posible, se recomienda llamar primero al <Node id="806"/>profesional sanitario<Node id="827"/> o <Node id="830"/>centro médico<Node id="843"/> para que estos remitan al paciente al <Node id="882"/>establecimiento sanitario<Node id="907"/> adecuado.
+<Node id="918"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PERCENT" StartNode="42" EndNode="45">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="66" EndNode="76">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="133" EndNode="134">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="143" EndNode="144">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="170" EndNode="178">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="200" EndNode="206">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="294" EndNode="312">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="326" EndNode="338">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="339" EndNode="347">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="326" EndNode="346">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="349" EndNode="368">
+</Annotation>
+<Annotation Id="13" Type="MEDTERM" StartNode="371" EndNode="381">
+</Annotation>
+<Annotation Id="14" Type="DISEASE" StartNode="383" EndNode="391">
+</Annotation>
+<Annotation Id="15" Type="DISEASE" StartNode="394" EndNode="400">
+</Annotation>
+<Annotation Id="16" Type="DISEASE" StartNode="505" EndNode="513">
+</Annotation>
+<Annotation Id="17" Type="DISEASE" StartNode="583" EndNode="589">
+</Annotation>
+<Annotation Id="18" Type="DISEASE" StartNode="592" EndNode="595">
+</Annotation>
+<Annotation Id="19" Type="DISEASE" StartNode="638" EndNode="643">
+</Annotation>
+<Annotation Id="20" Type="MEDTERM" StartNode="727" EndNode="742">
+</Annotation>
+<Annotation Id="21" Type="JOB" StartNode="806" EndNode="827">
+</Annotation>
+<Annotation Id="22" Type="FAC" StartNode="830" EndNode="843">
+</Annotation>
+<Annotation Id="23" Type="FAC" StartNode="882" EndNode="907">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="918">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

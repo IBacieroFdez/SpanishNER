@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Es como si yo te diera un <Node id="27"/>rodillo<Node id="34"/> de <Node id="38"/>pintor<Node id="44"/> para dibujar un <Node id="61"/>retrato<Node id="68"/> en un <Node id="75"/>folio<Node id="80"/>. Necesitarás un <Node id="97"/>lapicero<Node id="105"/>, no un <Node id="113"/>rodillo<Node id="120"/>", explica, de forma gráfica, el <Node id="153"/>físico<Node id="159"/> <Node id="160"/>Alberto Nájera<Node id="174"/>. Y continúa: "El tamaño del <Node id="203"/>lapicero<Node id="211"/> sería la longitud de onda y el <Node id="243"/>folio<Node id="248"/> el tamaño de lo que puedes ver; las ondas del <Node id="295"/>5G<Node id="297"/> son de <Node id="305"/>milímetros<Node id="315"/> y una onda de <Node id="330"/>milímetros<Node id="340"/> no puede interactuar con un <Node id="369"/>virus<Node id="374"/>".
+<Node id="377"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="27" EndNode="34">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="38" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="75" EndNode="80">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="61" EndNode="68">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="97" EndNode="105">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="113" EndNode="120">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="153" EndNode="159">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="160" EndNode="174">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="203" EndNode="211">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="243" EndNode="248">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="295" EndNode="297">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="305" EndNode="315">
+</Annotation>
+<Annotation Id="13" Type="QUANT" StartNode="330" EndNode="340">
+</Annotation>
+<Annotation Id="14" Type="MEDTERM" StartNode="369" EndNode="374">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="377">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

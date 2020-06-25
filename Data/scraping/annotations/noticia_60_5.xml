@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_60_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ha insistido en que cada <Node id="25"/>territorio<Node id="35"/> es diferente, con <Node id="54"/>sectores productivos<Node id="74"/> distintos, demografía y orografía diversas, y con realidades de la <Node id="142"/>pandemia<Node id="150"/> que no son iguales. 
+<Node id="172"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="25" EndNode="35">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="54" EndNode="74">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="142" EndNode="150">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="172">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

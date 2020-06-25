@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_53_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"El <Node id="4"/>tribunal<Node id="12"/> considera que las manifestaciones de <Node id="50"/>Llarena<Node id="57"/> se produjeron en su condición de <Node id="91"/>juez<Node id="95"/> y que por tanto quedan amparadas por la inmunidad de jurisdicción y evita por tanto pronunciarse sobre el fondo de las alegaciones", informó la defensa en un comunicado.
+<Node id="266"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="4" EndNode="12">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="50" EndNode="57">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="91" EndNode="95">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="266">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

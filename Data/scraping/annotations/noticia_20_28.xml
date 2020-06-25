@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_20_28.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Incluso si <Node id="12"/>Sri Lanka<Node id="21"/> se recupera, el <Node id="38"/>mundo<Node id="43"/> tendrá que alcanzar un equilibrio antes de que el <Node id="94"/>turismo<Node id="101"/> también se recupere", dijo, mientras el <Node id="142"/>sector turístico<Node id="158"/> y <Node id="161"/>hotelero<Node id="169"/> negocian un paquete de ayuda con el <Node id="206"/>Gobierno<Node id="214"/>.
+<Node id="216"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="12" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="38" EndNode="43">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="206" EndNode="214">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="142" EndNode="158">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="94" EndNode="101">
+</Annotation>
+<Annotation Id="8" Type="NORP" StartNode="161" EndNode="169">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="216">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

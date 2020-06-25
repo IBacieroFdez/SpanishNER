@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_49_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El ingenio <Node id="11"/>Pujiltic<Node id="19"/> del <Node id="24"/>Grupo Zucarmex<Node id="38"/>, <Node id="40"/>Compañía Azucarera La Fe<Node id="64"/>, en la <Node id="72"/>localidad<Node id="81"/> de <Node id="85"/>Venustiano Carranza<Node id="104"/>, es <Node id="109"/>una de las diez<Node id="124"/> <Node id="125"/>empresas<Node id="133"/> <Node id="134"/>azucareras<Node id="144"/> que se han sumado al pedido del <Node id="177"/>Gobierno<Node id="185"/>.
+<Node id="187"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="11" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="24" EndNode="38">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="40" EndNode="64">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="72" EndNode="81">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="85" EndNode="104">
+</Annotation>
+<Annotation Id="6" Type="PERCENT" StartNode="109" EndNode="124">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="125" EndNode="133">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="134" EndNode="144">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="177" EndNode="185">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="187">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

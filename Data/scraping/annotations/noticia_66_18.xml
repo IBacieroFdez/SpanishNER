@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_66_18.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/> - Rueda de prensa posterior a la reunión del <Node id="46"/>Comité Técnico<Node id="60"/> del <Node id="65"/>Coronavirus<Node id="76"/> celebrada el <Node id="90"/>19 de abril de 2020<Node id="109"/>.
+<Node id="111"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="46" EndNode="60">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="65" EndNode="76">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="90" EndNode="109">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="111">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

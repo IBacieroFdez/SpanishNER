@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_2_22.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Algunas <Node id="8"/>comunidades<Node id="19"/>, como <Node id="26"/>Cataluña<Node id="34"/>, preparan sus propios planes para el <Node id="72"/>desconfinamiento<Node id="88"/> gradual con la expectativa de que, tras los <Node id="133"/>niños<Node id="138"/>, los siguientes en poder disfrutar de salidas sean los parados, los <Node id="207"/>teletrabajadores<Node id="223"/>, afectados por un <Node id="242"/>ERTE<Node id="246"/> y <Node id="249"/>deportistas<Node id="260"/>.
+<Node id="262"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="26" EndNode="34">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="8" EndNode="19">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="72" EndNode="88">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="133" EndNode="138">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="207" EndNode="223">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="242" EndNode="246">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="249" EndNode="260">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="262">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

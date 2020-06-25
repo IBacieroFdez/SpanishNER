@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_98_20.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Varios <Node id="7"/>perros<Node id="13"/> y <Node id="16"/>gatos<Node id="21"/> (<Node id="23"/>gatos<Node id="28"/> domésticos y un <Node id="45"/>tigre<Node id="50"/>) en contacto con humanos infectados han dado positivo para la <Node id="113"/>COVID‑19<Node id="121"/>. Además, los <Node id="135"/>hurones<Node id="142"/> parecen ser susceptibles a la <Node id="173"/>infección<Node id="182"/>. En condiciones experimentales, tanto los <Node id="225"/>gatos<Node id="230"/>
+    como los <Node id="244"/>hurones<Node id="251"/> pudieron transmitir la <Node id="275"/>infección<Node id="284"/> a otros <Node id="293"/>animales<Node id="301"/> de la misma <Node id="314"/>especie<Node id="321"/>, pero no hay <Node id="335"/>pruebas<Node id="342"/> de que estos animales puedan transmitir la <Node id="386"/>enfermedad<Node id="396"/> al ser humano y desempeñar un papel en la propagación de la <Node id="457"/>COVID‑19<Node id="465"/>.
+    La <Node id="474"/>COVID‑19<Node id="482"/> se propaga principalmente a través de las <Node id="525"/>gotículas<Node id="534"/> producidas por una persona infectada al toser, estornudar o hablar. 
+<Node id="604"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="7" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="16" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="23" EndNode="28">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="45" EndNode="50">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="113" EndNode="121">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="173" EndNode="182">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="135" EndNode="142">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="225" EndNode="230">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="244" EndNode="251">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="293" EndNode="301">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="275" EndNode="284">
+</Annotation>
+<Annotation Id="13" Type="SCITERM" StartNode="314" EndNode="321">
+</Annotation>
+<Annotation Id="14" Type="SCITERM" StartNode="335" EndNode="342">
+</Annotation>
+<Annotation Id="15" Type="DISEASE" StartNode="386" EndNode="396">
+</Annotation>
+<Annotation Id="16" Type="DISEASE" StartNode="457" EndNode="465">
+</Annotation>
+<Annotation Id="17" Type="DISEASE" StartNode="474" EndNode="482">
+</Annotation>
+<Annotation Id="18" Type="SCITERM" StartNode="525" EndNode="534">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="604">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

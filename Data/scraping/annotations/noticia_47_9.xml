@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_47_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Asimismo, en el <Node id="16"/>sector alimentario<Node id="34"/> en las últimas <Node id="50"/>cuatro<Node id="56"/> <Node id="57"/>semanas<Node id="64"/>, el comercio <Node id="78"/>electrónico<Node id="89"/> ha crecido el <Node id="104"/>doble<Node id="109"/> que el físico, un <Node id="128"/>48 %<Node id="132"/> <Node id="133"/>por ciento<Node id="143"/> frente al <Node id="154"/>23 %<Node id="158"/>, mientras que el <Node id="176"/>sector de tecnología y consumibles del hogar<Node id="220"/> ha crecido un <Node id="235"/>40 %<Node id="239"/> online frente a una caída del <Node id="270"/>45 %<Node id="274"/> en <Node id="278"/>tienda<Node id="284"/> física.
+<Node id="293"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="PERCENT" StartNode="235" EndNode="239">
+</Annotation>
+<Annotation Id="1" Type="NORP" StartNode="16" EndNode="34">
+</Annotation>
+<Annotation Id="17" Type="PERCENT" StartNode="270" EndNode="274">
+</Annotation>
+<Annotation Id="18" Type="LOC" StartNode="278" EndNode="284">
+</Annotation>
+<Annotation Id="19" Type="PRODUCT" StartNode="78" EndNode="89">
+</Annotation>
+<Annotation Id="9" Type="QUANT" StartNode="50" EndNode="56">
+</Annotation>
+<Annotation Id="10" Type="TIME" StartNode="57" EndNode="64">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="104" EndNode="109">
+</Annotation>
+<Annotation Id="12" Type="PERCENT" StartNode="128" EndNode="132">
+</Annotation>
+<Annotation Id="13" Type="PERCENT" StartNode="133" EndNode="143">
+</Annotation>
+<Annotation Id="14" Type="PERCENT" StartNode="154" EndNode="158">
+</Annotation>
+<Annotation Id="15" Type="NORP" StartNode="176" EndNode="220">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="293">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_86_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La Red de <Node id="10"/>ADDM<Node id="14"/> es el mayor programa poblacional para el monitoreo del <Node id="70"/>autismo<Node id="77"/>, y el único sistema de seguimiento del <Node id="117"/>autismo<Node id="124"/> que examina tanto los registros de <Node id="160"/>salud<Node id="165"/> como los de educación. Debido a que la Red de <Node id="212"/>ADDM<Node id="216"/> no proporciona una <Node id="236"/>muestra<Node id="243"/> representativa de todos los <Node id="272"/>Estados Unidos<Node id="286"/>, las <Node id="292"/>estimaciones<Node id="304"/> de prevalencia combinadas que se presentan en el <Node id="354"/>análisis<Node id="362"/> de hoy no se pueden generalizar a todos los niños de <Node id="416"/>8<Node id="417"/> años en los <Node id="430"/>Estados Unidos<Node id="444"/>.
+<Node id="446"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="10" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="70" EndNode="77">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="117" EndNode="124">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="160" EndNode="165">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="212" EndNode="216">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="272" EndNode="286">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="236" EndNode="243">
+</Annotation>
+<Annotation Id="8" Type="SCITERM" StartNode="292" EndNode="304">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="354" EndNode="362">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="416" EndNode="417">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="430" EndNode="444">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="446">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

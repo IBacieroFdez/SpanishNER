@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_61_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por su parte, la <Node id="17"/>consellera<Node id="27"/> de <Node id="31"/>Salud<Node id="36"/>, <Node id="38"/>Alba Vergés<Node id="49"/>, ha dicho no entender "el por qué de ciertas decisiones" del <Node id="111"/>Gobierno<Node id="119"/> del <Node id="124"/>Estado<Node id="130"/>, como limitar las salidas solo a menores de hasta <Node id="181"/>14<Node id="183"/> años y solo para actividades como ir "a la <Node id="227"/>farmacia<Node id="235"/>, al <Node id="240"/>supermercado<Node id="252"/> o al <Node id="258"/>banco<Node id="263"/>".
+<Node id="266"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="17" EndNode="27">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="31" EndNode="36">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="38" EndNode="49">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="111" EndNode="119">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="124" EndNode="130">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="181" EndNode="183">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="227" EndNode="235">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="240" EndNode="252">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="258" EndNode="263">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="266">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

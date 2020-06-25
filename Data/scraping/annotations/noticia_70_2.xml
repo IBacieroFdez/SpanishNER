@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_70_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Así, a partir de las <Node id="21"/>18:00 horas<Node id="32"/> de <Node id="36"/>mañana<Node id="42"/>, la <Node id="47"/>Federación Española de Rugby<Node id="75"/> (<Node id="77"/>FER<Node id="80"/>) estrena en su <Node id="96"/>canal<Node id="101"/> de <Node id="105"/>YouTube<Node id="112"/> <Node id="113"/>FERUGBYTV<Node id="122"/> Conexión <Node id="132"/>FERugby<Node id="139"/>, y unos primeros <Node id="157"/>programas<Node id="166"/> en los que los protagonistas serán los diferentes <Node id="217"/>seleccionadores<Node id="232"/> de XV y de Seven —<Node id="251"/>Santi Santos<Node id="263"/>, <Node id="265"/>José Antonio Barrio<Node id="284"/> ‘<Node id="286"/>Yunque<Node id="292"/>’, <Node id="295"/>Pablo Feijoo<Node id="307"/> y <Node id="310"/>Pedro de Matías<Node id="325"/>— y sus respectivos <Node id="345"/>managers<Node id="353"/> —desde <Node id="361"/>Ángela del Pan<Node id="375"/> a <Node id="378"/>José Manuel Pérez Corchado<Node id="404"/> ‘<Node id="406"/>Sevi<Node id="410"/>’ o <Node id="414"/>Sergio Gericó<Node id="427"/>—.
+<Node id="430"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="TIME" StartNode="21" EndNode="32">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="36" EndNode="42">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="47" EndNode="75">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="77" EndNode="80">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="105" EndNode="112">
+</Annotation>
+<Annotation Id="7" Type="ADDRESS" StartNode="96" EndNode="101">
+</Annotation>
+<Annotation Id="8" Type="ADDRESS" StartNode="113" EndNode="122">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="132" EndNode="139">
+</Annotation>
+<Annotation Id="10" Type="EVENT" StartNode="157" EndNode="166">
+</Annotation>
+<Annotation Id="11" Type="JOB" StartNode="217" EndNode="232">
+</Annotation>
+<Annotation Id="12" Type="PER" StartNode="251" EndNode="263">
+</Annotation>
+<Annotation Id="13" Type="PER" StartNode="265" EndNode="284">
+</Annotation>
+<Annotation Id="14" Type="PER" StartNode="295" EndNode="307">
+</Annotation>
+<Annotation Id="15" Type="PER" StartNode="310" EndNode="325">
+</Annotation>
+<Annotation Id="16" Type="JOB" StartNode="345" EndNode="353">
+</Annotation>
+<Annotation Id="17" Type="PER" StartNode="361" EndNode="375">
+</Annotation>
+<Annotation Id="18" Type="PER" StartNode="378" EndNode="404">
+</Annotation>
+<Annotation Id="19" Type="PER" StartNode="406" EndNode="410">
+</Annotation>
+<Annotation Id="20" Type="PER" StartNode="414" EndNode="427">
+</Annotation>
+<Annotation Id="21" Type="PER" StartNode="286" EndNode="292">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="430">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

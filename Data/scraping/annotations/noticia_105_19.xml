@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_105_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ahora<Node id="5"/> que ya puedes salir a pasear, es hora de dar la bienvenida a las <Node id="71"/>sandalias<Node id="80"/> planas que nadie esperaba y que se convertirán, junto a las <Node id="141"/>zapatillas<Node id="151"/> deportivas y las <Node id="169"/>alpargatas<Node id="179"/>, en un básico en tendencia
+<Node id="207"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="71" EndNode="80">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="141" EndNode="151">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="169" EndNode="179">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="207">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

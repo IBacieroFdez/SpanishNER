@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_26_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El dióxido de nitrógeno es un contaminante del aire que daña el <Node id="64"/>tracto respiratorio<Node id="83"/> y desde hace <Node id="97"/>años<Node id="101"/> que se sabe que causa muchos tipos de <Node id="140"/>enfermedades<Node id="152"/> <Node id="153"/>respiratorias<Node id="166"/> y <Node id="169"/>cardiovasculares<Node id="185"/>.
+<Node id="187"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="64" EndNode="83">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="97" EndNode="101">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="140" EndNode="152">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="169" EndNode="185">
+</Annotation>
+<Annotation Id="21" Type="MEDTERM" StartNode="153" EndNode="166">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="187">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

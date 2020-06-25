@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En <Node id="3"/>España<Node id="9"/>, según <Node id="17"/>García<Node id="23"/>, el <Node id="28"/>30 %<Node id="32"/> de los <Node id="40"/>pacientes<Node id="49"/> de <Node id="53"/>coronavirus<Node id="64"/> <Node id="65"/>asintomáticos<Node id="78"/> reportan la <Node id="91"/>anosmia<Node id="98"/>.
+<Node id="100"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="3" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="17" EndNode="23">
+</Annotation>
+<Annotation Id="3" Type="PERCENT" StartNode="28" EndNode="32">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="40" EndNode="49">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="53" EndNode="64">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="65" EndNode="78">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="91" EndNode="98">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="100">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

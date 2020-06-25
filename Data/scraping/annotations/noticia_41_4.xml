@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_41_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En función del desarrollo de la <Node id="32"/>emergencia<Node id="42"/> <Node id="43"/>sanitaria<Node id="52"/> y del estado de actividad de las <Node id="86"/>tiendas<Node id="93"/>, la <Node id="98"/>empresa<Node id="105"/> podrá estudiar más adelante la posibilidad de aplicar, para el personal de <Node id="181"/>tienda<Node id="187"/>, alguna de las herramientas propuestas por el <Node id="234"/>Gobierno<Node id="242"/> para preservar <Node id="258"/>empleo<Node id="264"/>.
+<Node id="266"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="32" EndNode="42">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="43" EndNode="52">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="86" EndNode="93">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="98" EndNode="105">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="181" EndNode="187">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="234" EndNode="242">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="258" EndNode="264">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="266">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

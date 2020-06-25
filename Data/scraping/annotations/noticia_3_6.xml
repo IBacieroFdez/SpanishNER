@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_3_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Fuentes del <Node id="12"/>Gobierno<Node id="20"/> regional han informado de que el <Node id="54"/>Consejo de Gobierno<Node id="73"/> tiene previsto autorizar <Node id="99"/>el miércoles<Node id="111"/> un gasto de <Node id="124"/>18,5 millones<Node id="137"/> para adquirir <Node id="152"/>7 millones<Node id="162"/> de <Node id="166"/>mascarillas FFP2<Node id="182"/>, así como de <Node id="196"/>520.000<Node id="203"/> trajes de <Node id="214"/>protección<Node id="224"/> individual para <Node id="241"/>sanitarios<Node id="251"/>.
+<Node id="253"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="12" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="54" EndNode="73">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="99" EndNode="111">
+</Annotation>
+<Annotation Id="4" Type="MONEY" StartNode="124" EndNode="137">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="152" EndNode="162">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="166" EndNode="182">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="196" EndNode="203">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="214" EndNode="224">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="241" EndNode="251">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="253">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

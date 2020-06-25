@@ -1,0 +1,1 @@
+La explicación de por qué es falso tiene que ver con el hecho de que las radiofrecuencias que se utilizan en las redes de comunicación (2G, 3G, 4G, 5G, wifi, radio...) pertenecen al rango de las radiaciones no ionizantes, que se diferencian de las ionizantes en que poseen menor frecuencia y energía, de modo que no pueden desestabilizar un átomo.

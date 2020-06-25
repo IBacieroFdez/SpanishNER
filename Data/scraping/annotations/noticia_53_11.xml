@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_53_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Es una tentativa de desestabilización" y "una forma de recusar a ese <Node id="70"/>juez<Node id="74"/>", dijo el <Node id="85"/>letrado<Node id="92"/> contratado por el <Node id="111"/>Estado<Node id="117"/> <Node id="118"/>español<Node id="125"/> para defender tanto a <Node id="148"/>Llarena<Node id="155"/> como al <Node id="164"/>Reino de España<Node id="179"/>, <Node id="181"/>Hakim Boularbah<Node id="196"/>, durante una vista celebrada el pasado <Node id="236"/>20 de febrero<Node id="249"/>.
+<Node id="251"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="70" EndNode="74">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="85" EndNode="92">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="111" EndNode="117">
+</Annotation>
+<Annotation Id="4" Type="LANG" StartNode="118" EndNode="125">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="148" EndNode="155">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="164" EndNode="179">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="181" EndNode="196">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="236" EndNode="249">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="251">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

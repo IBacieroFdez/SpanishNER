@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_59_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>agentes<Node id="11"/> investigan la relación de estos <Node id="44"/>dos<Node id="47"/> detenidos con el terrorista <Node id="76"/>egipcio<Node id="83"/>, que está incluido entre los denominados internacionalmente Foreign Terrorist Fighters (FTT) más buscados de <Node id="193"/>Europa<Node id="199"/>.
+<Node id="201"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="4" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="44" EndNode="47">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="76" EndNode="83">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="193" EndNode="199">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="201">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

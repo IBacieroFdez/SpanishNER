@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_20.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Una <Node id="4"/>persona<Node id="11"/> educada y obediente se supone que tiene que culpar a <Node id="65"/>China<Node id="70"/>, invocar el “peligro amarillo” y decir que los <Node id="118"/>chinos<Node id="124"/> vienen a destruirnos, nosotros somos maravillosos.
+<Node id="176"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="65" EndNode="70">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="4" EndNode="11">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="118" EndNode="124">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="176">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

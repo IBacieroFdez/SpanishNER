@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_1_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Se trata de preservar que la salida de las <Node id="44"/>personas<Node id="52"/> que abandonan su <Node id="70"/>domicilio<Node id="79"/> estén tasadas, que sean por causas que ya estaban previamente delimitadas", ha expuesto la también <Node id="179"/>ministra<Node id="187"/> de <Node id="191"/>Hacienda<Node id="199"/>.
+<Node id="201"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="70" EndNode="79">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="179" EndNode="187">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="191" EndNode="199">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="44" EndNode="52">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="201">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

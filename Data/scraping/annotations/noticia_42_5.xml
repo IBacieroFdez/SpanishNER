@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_42_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En su misiva, el <Node id="17"/>presidente<Node id="27"/> de <Node id="31"/>Tendam<Node id="37"/> ha destacado que ante la situación de excepcionalidad actual, la <Node id="103"/>compañía<Node id="111"/> ha trabajado en proteger la <Node id="140"/>salud<Node id="145"/> y seguridad de <Node id="161"/>empleados<Node id="170"/>, clientes y <Node id="183"/>proveedores<Node id="194"/>, y en cuidar "la <Node id="212"/>salud<Node id="217"/> financiera de la <Node id="235"/>compañía<Node id="243"/>" y colaborar de forma solidaria y activa con la <Node id="292"/>sociedad<Node id="300"/> para combatir los efectos del <Node id="331"/>coronavirus<Node id="342"/>. 
+<Node id="345"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="17" EndNode="27">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="31" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="103" EndNode="111">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="345">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="140" EndNode="145">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="161" EndNode="170">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="183" EndNode="194">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="212" EndNode="217">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="235" EndNode="243">
+</Annotation>
+<Annotation Id="9" Type="NORP" StartNode="292" EndNode="300">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="331" EndNode="342">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

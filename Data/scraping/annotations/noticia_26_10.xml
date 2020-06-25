@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_26_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El siguiente paso fue compara estos datos con los de fallecimientos relacionados con la <Node id="88"/>COVID-19<Node id="96"/>, analizando de manera específica los de <Node id="137"/>España<Node id="143"/>, <Node id="145"/>Italia<Node id="151"/>, <Node id="153"/>Francia<Node id="160"/> y <Node id="163"/>Alemania<Node id="171"/>.
+<Node id="173"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="88" EndNode="96">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="137" EndNode="143">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="153" EndNode="160">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="163" EndNode="171">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="145" EndNode="151">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="173">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

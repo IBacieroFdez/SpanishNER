@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_64_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>También aconsejan su uso en <Node id="28"/>EEUU<Node id="32"/>. Allí, los <Node id="44"/>Centros para el Control y Prevención de Enfermedades<Node id="96"/> (<Node id="98"/>CDC<Node id="101"/>) sostienen que las <Node id="121"/>mascarillas<Node id="132"/> caseras de <Node id="144"/>tela<Node id="148"/> pueden servir para desacelerar la propagación del <Node id="199"/>virus<Node id="204"/> y evitar que quienes puedan sean portadores sin saberlo lo transmitan a otras personas, de modo que las definen como una “medida adicional y voluntaria de <Node id="360"/>salud<Node id="365"/> pública”.
+<Node id="376"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="28" EndNode="32">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="44" EndNode="96">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="98" EndNode="101">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="121" EndNode="132">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="144" EndNode="148">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="199" EndNode="204">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="360" EndNode="365">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="376">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

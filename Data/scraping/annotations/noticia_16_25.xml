@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_25.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>No le han financiado los ricos, no ha tenido apoyo de los <Node id="58"/>medios<Node id="64"/>… El aparato del <Node id="81"/>partido<Node id="88"/> ha tenido que manipular para evitar que ganase la nominación. De la misma manera que en <Node id="177"/>Reino Unido<Node id="188"/> el ala derecha del <Node id="208"/>Partido Laborista<Node id="225"/> ha destruido a <Node id="241"/>Corbyn<Node id="247"/>, que estaba democratizando el <Node id="278"/>partido<Node id="285"/> en una manera que no podían soportar.
+<Node id="324"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="81" EndNode="88">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="177" EndNode="188">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="208" EndNode="225">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="241" EndNode="247">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="278" EndNode="285">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="58" EndNode="64">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="324">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

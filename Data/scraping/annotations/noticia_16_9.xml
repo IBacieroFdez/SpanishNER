@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>R: La manera en la que esto se ha desarrollado es surrealista. En <Node id="66"/>febrero<Node id="73"/> la <Node id="77"/>pandemia<Node id="85"/> estaba ya haciendo estragos, todo el mundo en <Node id="132"/>Estados Unidos<Node id="146"/> lo reconocía. Justo en <Node id="170"/>febrero<Node id="177"/>, <Node id="179"/>Trump<Node id="184"/> presenta unos <Node id="199"/>presupuestos<Node id="211"/> que merece la pena mirar. Recortes en el<Node id="252"/> Centro de Prevención y Control de Enfermedades<Node id="299"/> y en otras partes relacionadas con la <Node id="338"/>salud<Node id="343"/>. Hizo recortes en medio de una <Node id="375"/>pandemia<Node id="383"/> e incrementó la <Node id="400"/>financiación<Node id="412"/> de las <Node id="420"/>industrias de energía fósil<Node id="447"/>, el gasto <Node id="458"/>militar<Node id="465"/>, el famoso muro…
+<Node id="483"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="66" EndNode="73">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="77" EndNode="85">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="132" EndNode="146">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="170" EndNode="177">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="179" EndNode="184">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="199" EndNode="211">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="252" EndNode="299">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="338" EndNode="343">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="375" EndNode="383">
+</Annotation>
+<Annotation Id="11" Type="MONEY" StartNode="400" EndNode="412">
+</Annotation>
+<Annotation Id="12" Type="NORP" StartNode="420" EndNode="447">
+</Annotation>
+<Annotation Id="13" Type="ORG" StartNode="458" EndNode="465">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="483">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

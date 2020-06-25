@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_98_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>¿Por qué? Las <Node id="14"/>mascarillas médicas<Node id="33"/> y <Node id="36"/>respiradores<Node id="48"/> del tipo <Node id="58"/>N95<Node id="61"/>, <Node id="63"/>FFP2<Node id="67"/> o equivalentes se recomiendan y deben reservarse para los <Node id="126"/>trabajadores sanitarios<Node id="149"/> que están atendiendo a pacientes. El contacto cercano con
+    personas con <Node id="225"/>infección<Node id="234"/> probable o confirmada por el <Node id="264"/>virus<Node id="269"/> de la <Node id="276"/>COVID‑19<Node id="284"/> y su entorno es la principal vía de <Node id="321"/>transmisión<Node id="332"/>, lo que significa que los <Node id="359"/>trabajadores sanitarios<Node id="382"/> son los más expuestos.
+<Node id="406"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="DISEASE" StartNode="276" EndNode="284">
+</Annotation>
+<Annotation Id="1" Type="MEDTERM" StartNode="14" EndNode="33">
+</Annotation>
+<Annotation Id="17" Type="SCITERM" StartNode="321" EndNode="332">
+</Annotation>
+<Annotation Id="18" Type="JOB" StartNode="359" EndNode="382">
+</Annotation>
+<Annotation Id="10" Type="PRODUCT" StartNode="36" EndNode="48">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="58" EndNode="61">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="63" EndNode="67">
+</Annotation>
+<Annotation Id="13" Type="JOB" StartNode="126" EndNode="149">
+</Annotation>
+<Annotation Id="14" Type="DISEASE" StartNode="225" EndNode="234">
+</Annotation>
+<Annotation Id="15" Type="SCITERM" StartNode="264" EndNode="269">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="406">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

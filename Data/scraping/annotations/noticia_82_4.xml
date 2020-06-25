@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_82_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>DEMOSTRADO: Exponerse al sol o a <Node id="33"/>temperaturas<Node id="45"/> superiores a los <Node id="63"/>25<Node id="65"/> o
+C NO previene la <Node id="85"/>enfermedad<Node id="95"/> por <Node id="100"/>coronavirus<Node id="111"/> (<Node id="113"/>COVID-19<Node id="121"/>)
+<Node id="123"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="33" EndNode="45">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="63" EndNode="65">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="85" EndNode="95">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="100" EndNode="111">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="113" EndNode="121">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="123">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

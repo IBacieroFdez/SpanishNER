@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_89_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xd;
+	 <Node id="4"/>Al  tomar el <Node id="17"/>fármaco<Node id="24"/> etiquetado como caro, los pacientes mejoraron en un <Node id="77"/>28%<Node id="80"/>  sus <Node id="86"/>habilidades motoras<Node id="105"/> en comparación a cuando tomaban el barato. Este  efecto fue particularmente notable cuando el que creían más costoso se  recibía primero. Los resultados de la <Node id="265"/>resonancia magnética<Node id="285"/> también  mostraron una diferencia a favor del <Node id="332"/>medicamento<Node id="343"/> de mayor valor  económico.&#xd;
+<Node id="372"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="17" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="PERCENT" StartNode="77" EndNode="80">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="86" EndNode="105">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="265" EndNode="285">
+</Annotation>
+<Annotation Id="5" Type="DRUG" StartNode="332" EndNode="343">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="4" EndNode="372">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

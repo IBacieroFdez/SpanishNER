@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_6_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Un estudio desarrollado por el <Node id="31"/>Instituto de Salud Carlos III<Node id="60"/> y en el que están implicadas las <Node id="94"/>comunidades autónomas<Node id="115"/>, que se encargarán de que en sus <Node id="149"/>centros de salud<Node id="165"/> se hagan un total de <Node id="187"/>60.000<Node id="193"/> test a <Node id="201"/>30.000<Node id="207"/> <Node id="208"/>familias<Node id="216"/>.
+<Node id="218"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="31" EndNode="60">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="94" EndNode="115">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="149" EndNode="165">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="187" EndNode="193">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="201" EndNode="207">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="208" EndNode="216">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="218">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_35_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El primer reportaje del <Node id="24"/>DS<Node id="26"/> fue en <Node id="34"/>1955<Node id="38"/>, en la <Node id="46"/>revista Paris Match<Node id="65"/>, con la <Node id="74"/>actriz<Node id="80"/> <Node id="81"/>Gina Lollobrigida<Node id="98"/> al volante y con el titular "Lo que no gusta a las <Node id="150"/>modelos<Node id="157"/> publicitarias <Node id="172"/>francesas<Node id="181"/> ni a las marcas <Node id="198"/>italianas<Node id="207"/>".
+<Node id="210"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="24" EndNode="26">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="34" EndNode="38">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="46" EndNode="65">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="74" EndNode="80">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="81" EndNode="98">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="172" EndNode="181">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="150" EndNode="157">
+</Annotation>
+<Annotation Id="8" Type="LANG" StartNode="198" EndNode="207">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="210">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_16_31.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Todo ha sido diseñado, son decisiones… que tienen consecuencias que hemos visto <Node id="80"/>a lo largo de los años<Node id="102"/> y una de las razones por las que encuentras lo que se ha mal llamado “populismo”. Mucha <Node id="191"/>gente<Node id="196"/> estaba enfadada, resentida y odiaba al <Node id="236"/>gobierno<Node id="244"/> de forma justificada. Eso ha sido un terreno fértil para demagogos que podían decir: soy tu salvador y los inmigrantes esto y lo otro.
+<Node id="380"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="80" EndNode="102">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="191" EndNode="196">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="236" EndNode="244">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="380">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

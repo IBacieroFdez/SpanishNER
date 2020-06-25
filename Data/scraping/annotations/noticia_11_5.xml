@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_11_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>investigadores<Node id="18"/> de <Node id="22"/>Vigilancia Aduanera<Node id="41"/> realizaron un minucioso análisis del tráfico de <Node id="90"/>mercancías<Node id="100"/> procedente de dicho <Node id="121"/>país<Node id="125"/> con destino a <Node id="140"/>Bilbao<Node id="146"/>, con la finalidad de determinar qué contenedor, entre todo el tráfico legal, podría ser el que estuviera <Node id="252"/>contaminado<Node id="263"/>.
+<Node id="265"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="4" EndNode="18">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="22" EndNode="41">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="90" EndNode="100">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="121" EndNode="125">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="140" EndNode="146">
+</Annotation>
+<Annotation Id="6" Type="MEDTERM" StartNode="252" EndNode="263">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="265">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

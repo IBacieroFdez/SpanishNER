@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_39_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En el caso del <Node id="15"/>aeropuerto<Node id="25"/> de <Node id="29"/>Madrid<Node id="35"/>-<Node id="36"/>Barajas<Node id="43"/>, la actividad se ha concentrado en la <Node id="82"/>T4<Node id="84"/> -las otras <Node id="96"/>terminales<Node id="106"/> están cerradas- y en el de <Node id="134"/>El Prat<Node id="141"/> de <Node id="145"/>Barcelona<Node id="154"/>, en las<Node id="162"/> puertas A<Node id="172"/> y D de la <Node id="183"/>T1<Node id="185"/>. 
+<Node id="188"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="FAC" StartNode="15" EndNode="25">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="29" EndNode="35">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="36" EndNode="43">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="82" EndNode="84">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="96" EndNode="106">
+</Annotation>
+<Annotation Id="7" Type="FAC" StartNode="134" EndNode="141">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="145" EndNode="154">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="162" EndNode="172">
+</Annotation>
+<Annotation Id="10" Type="FAC" StartNode="183" EndNode="185">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="188">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

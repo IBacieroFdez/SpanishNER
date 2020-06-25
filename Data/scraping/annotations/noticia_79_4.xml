@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_79_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Facebook<Node id="8"/> ha ido eliminando y lo seguirá haciendo este tipo de contenidos que, precisamente por contener afirmaciones dañinas para la <Node id="133"/>salud<Node id="138"/> de las personas, vulneran las normas de comportamiento de la <Node id="200"/>comunidad de usuarios<Node id="221"/> de esta red, y dirigirá estos nuevos mensajes a los que interactúen con ellos.
+<Node id="301"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="133" EndNode="138">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="200" EndNode="221">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="301">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

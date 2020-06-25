@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_14_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ha detallado que esta bajada del IVA está en línea con la reducción de los aranceles por parte de la <Node id="101"/>Unión Europea<Node id="114"/> y tiene objetivo de garantizar la igualdad de trato entre <Node id="173"/>productores nacionales<Node id="195"/> y <Node id="198"/>extranjeros<Node id="209"/>.
+<Node id="211"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="101" EndNode="114">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="173" EndNode="195">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="198" EndNode="209">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="211">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

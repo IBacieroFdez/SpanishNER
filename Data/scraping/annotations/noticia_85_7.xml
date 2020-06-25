@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_85_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>diabetes<Node id="11"/> <Node id="12"/>gestacional<Node id="23"/> aparece en mujeres embarazadas que nunca han tenido <Node id="76"/>diabetes<Node id="84"/>. Si usted tiene <Node id="101"/>diabetes<Node id="109"/> <Node id="110"/>gestacional<Node id="121"/>, su bebé podría estar en mayor riesgo de presentar complicaciones de <Node id="191"/>salud<Node id="196"/>. La <Node id="201"/>diabetes<Node id="209"/> <Node id="210"/>gestacional<Node id="221"/> generalmente desaparece después de que nace el bebé, pero aumenta el riesgo de que usted tenga <Node id="317"/>diabetes<Node id="325"/> tipo <Node id="331"/>2<Node id="332"/> más adelante en la vida. También hace más probable que cuando el bebé sea niño o adolescente sea <Node id="430"/>obeso<Node id="435"/> y que presente <Node id="451"/>diabetes<Node id="459"/> tipo <Node id="465"/>2<Node id="466"/> más adelante en la vida.
+<Node id="492"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="12" EndNode="23">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="76" EndNode="84">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="101" EndNode="109">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="201" EndNode="209">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="317" EndNode="325">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="451" EndNode="459">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="110" EndNode="121">
+</Annotation>
+<Annotation Id="9" Type="MEDTERM" StartNode="191" EndNode="196">
+</Annotation>
+<Annotation Id="10" Type="MEDTERM" StartNode="210" EndNode="221">
+</Annotation>
+<Annotation Id="11" Type="DISEASE" StartNode="430" EndNode="435">
+</Annotation>
+<Annotation Id="12" Type="QUANT" StartNode="331" EndNode="332">
+</Annotation>
+<Annotation Id="13" Type="QUANT" StartNode="465" EndNode="466">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="492">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

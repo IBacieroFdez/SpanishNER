@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_60_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>lehendakari<Node id="14"/>, <Node id="16"/>Iñigo Urkullu<Node id="29"/> (c), preside la reunión del <Node id="58"/>Consejo de Gobierno<Node id="77"/> celebrada este <Node id="93"/>martes<Node id="99"/> en <Node id="103"/>Vitoria<Node id="110"/> (<Node id="112"/>Alava<Node id="117"/>).<Node id="119"/>EFE<Node id="122"/>/ <Node id="124"/>Irekia<Node id="130"/>
+	   
+<Node id="136"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="16" EndNode="29">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="58" EndNode="77">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="93" EndNode="99">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="103" EndNode="110">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="112" EndNode="117">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="119" EndNode="122">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="124" EndNode="130">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="136">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

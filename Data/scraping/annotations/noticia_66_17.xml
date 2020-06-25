@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_66_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>- Orden Ministerial SND/351/2020, de <Node id="37"/>16 de abril<Node id="48"/>, por la que se autoriza a las <Node id="79"/>Unidades NBQ<Node id="91"/> de las <Node id="99"/>Fuerzas Armadas<Node id="114"/> y a la <Node id="122"/>Unidad Militar de Emergencias<Node id="151"/> a utilizar <Node id="163"/>biocidas<Node id="171"/> autorizados por el <Node id="191"/>Ministerio de Sanidad<Node id="212"/> en las labores de desinfección para hacer frente a la <Node id="267"/>crisis<Node id="273"/> <Node id="274"/>sanitaria<Node id="283"/> ocasionada por el <Node id="302"/>COVID-19<Node id="310"/>.
+<Node id="312"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="37" EndNode="48">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="79" EndNode="91">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="99" EndNode="114">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="122" EndNode="151">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="163" EndNode="171">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="191" EndNode="212">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="267" EndNode="273">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="274" EndNode="283">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="302" EndNode="310">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="312">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

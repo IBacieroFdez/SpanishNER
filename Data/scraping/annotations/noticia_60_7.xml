@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_60_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>A preguntas de los <Node id="19"/>periodistas<Node id="30"/>, <Node id="32"/>Erkoreka<Node id="40"/> ha opinado que en <Node id="59"/>Euskadi<Node id="66"/> hay un consenso "generalizado" en que las decisiones se acuerden en esta <Node id="140"/>comunidad<Node id="149"/>, también con los diferentes <Node id="178"/>sectores<Node id="186"/>, <Node id="188"/>colectivos<Node id="198"/> y <Node id="201"/>asociaciones<Node id="213"/>.
+<Node id="215"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="19" EndNode="30">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="32" EndNode="40">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="59" EndNode="66">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="140" EndNode="149">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="178" EndNode="186">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="201" EndNode="213">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="188" EndNode="198">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="215">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

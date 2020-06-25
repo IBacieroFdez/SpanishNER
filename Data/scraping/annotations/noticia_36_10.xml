@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_36_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por eso dona "la oportunidad de que uno de <Node id="43"/>ustedes<Node id="50"/> participe en uno de mis próximos <Node id="84"/>videos musicales<Node id="100"/>", añade a lo que un divertido <Node id="131"/>Tommy Mottola<Node id="144"/>, su esposo y <Node id="158"/>productor musical<Node id="175"/>, responde "Por favor, inclúyeme a mi en el vídeo".<Node id="226"/>EFE<Node id="229"/>
+<Node id="230"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="43" EndNode="50">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="84" EndNode="100">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="131" EndNode="144">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="158" EndNode="175">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="226" EndNode="229">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="230">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

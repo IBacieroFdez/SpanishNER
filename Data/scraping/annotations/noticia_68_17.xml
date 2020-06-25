@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_68_17.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Si <Node id="3"/>ahora<Node id="8"/> acudiese a una <Node id="24"/>Sesión<Node id="30"/> del <Node id="35"/>COI<Node id="38"/> como las que él presidió <Node id="64"/>durante<Node id="71"/> <Node id="72"/>21<Node id="74"/> <Node id="75"/>años<Node id="79"/>, se encontraría ya con pocas caras familiares. De los <Node id="134"/>100<Node id="137"/> <Node id="138"/>miembros<Node id="146"/> de la actual <Node id="160"/>asamblea<Node id="168"/>, solo el <Node id="178"/>canadiense<Node id="188"/> <Node id="189"/>Richard Pound<Node id="202"/> entró en el <Node id="215"/>COI<Node id="218"/> antes de que <Node id="232"/>Samaranch<Node id="241"/> llegara a la presidencia. Quedan únicamente <Node id="286"/>23<Node id="288"/> de los que accedieron durante su mandato. Los otros <Node id="341"/>76<Node id="343"/> llegaron al <Node id="356"/>organismo<Node id="365"/> a partir de su jubilación como <Node id="397"/>presidente<Node id="407"/>.
+<Node id="409"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="3" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="35" EndNode="38">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="24" EndNode="30">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="64" EndNode="71">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="75" EndNode="79">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="72" EndNode="74">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="134" EndNode="137">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="138" EndNode="146">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="160" EndNode="168">
+</Annotation>
+<Annotation Id="10" Type="LANG" StartNode="178" EndNode="188">
+</Annotation>
+<Annotation Id="11" Type="PER" StartNode="189" EndNode="202">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="215" EndNode="218">
+</Annotation>
+<Annotation Id="13" Type="PER" StartNode="232" EndNode="241">
+</Annotation>
+<Annotation Id="14" Type="QUANT" StartNode="286" EndNode="288">
+</Annotation>
+<Annotation Id="15" Type="QUANT" StartNode="341" EndNode="343">
+</Annotation>
+<Annotation Id="16" Type="ORG" StartNode="356" EndNode="365">
+</Annotation>
+<Annotation Id="17" Type="JOB" StartNode="397" EndNode="407">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="409">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

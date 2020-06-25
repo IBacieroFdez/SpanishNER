@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_33_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ahora<Node id="5"/> es solo cuestión de que se elija el modelo qué vaya con la personalidad, gustos y pasiones. Lo ideal es lucirlos con <Node id="123"/>zapatos<Node id="130"/>, <Node id="132"/>deportivas<Node id="142"/> o <Node id="145"/>sandalias<Node id="154"/> para pisar la <Node id="169"/>calle<Node id="174"/>, algo que de momento tendrá que esperar.<Node id="215"/>EFE<Node id="218"/>
+<Node id="219"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="123" EndNode="130">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="132" EndNode="142">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="145" EndNode="154">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="169" EndNode="174">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="215" EndNode="218">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="219">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

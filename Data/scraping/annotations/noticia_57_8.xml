@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_57_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>consejero<Node id="12"/>, de <Node id="17"/>Ciudadanos<Node id="27"/>, ha reconocido que "en el pico" de la <Node id="66"/>crisis<Node id="72"/> sanitaria hubo "muy pocas derivaciones" de <Node id="116"/>pacientes<Node id="125"/> de <Node id="129"/>COVID-19<Node id="137"/> a <Node id="140"/>hospitales<Node id="150"/>, aunque "en los últimos <Node id="175"/>días<Node id="179"/> se han incrementado", sin querer cuestionar "los criterios clínicos" que ocasionaron esta situación, que no "corresponde" valorar a él "sino a <Node id="323"/>Sanidad<Node id="330"/>".
+<Node id="333"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="12">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="17" EndNode="27">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="66" EndNode="72">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="129" EndNode="137">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="116" EndNode="125">
+</Annotation>
+<Annotation Id="7" Type="FAC" StartNode="140" EndNode="150">
+</Annotation>
+<Annotation Id="8" Type="TIME" StartNode="175" EndNode="179">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="323" EndNode="330">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="333">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_90_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>primeros<Node id="12"/> «<Node id="14"/>átomos<Node id="20"/>» del <Node id="26"/>universo<Node id="34"/> en realidad no eran <Node id="55"/>átomos<Node id="61"/>, sino <Node id="68"/>núcleos<Node id="75"/> que aún no habían encontrado <Node id="105"/>electrones<Node id="115"/>. El <Node id="120"/>núcleo<Node id="126"/> más simple, el del <Node id="146"/>hidrógeno<Node id="155"/>, consiste en un único <Node id="178"/>protón<Node id="184"/>. Tras la gran explosión que dio origen al <Node id="227"/>universo<Node id="235"/>, había una cantidad desmesurada de <Node id="271"/>energía<Node id="278"/> y todo se estrellaba contra todo. Los <Node id="317"/>protones<Node id="325"/> y los <Node id="332"/>neutrones<Node id="341"/> chocaban con frecuencia y algunos formaron <Node id="385"/>núcleos<Node id="392"/> de mayor tamaño, como el del <Node id="422"/>deuterio<Node id="430"/> (que consta de un <Node id="449"/>protón<Node id="455"/> y un <Node id="461"/>neutrón<Node id="468"/>) o el del <Node id="479"/>helio<Node id="484"/>, compuesto por <Node id="500"/>dos<Node id="503"/> <Node id="504"/>protones<Node id="512"/> y <Node id="515"/>dos<Node id="518"/> <Node id="519"/>neutrones<Node id="528"/>. También se produjeron otras combinaciones, pero dado que la identidad de un <Node id="606"/>átomo<Node id="611"/> viene determinada por su número de <Node id="647"/>protones<Node id="655"/>, tales conglomerados no eran sino distintas versiones de <Node id="713"/>hidrógeno<Node id="722"/> y <Node id="725"/>helio<Node id="730"/>, con algunas trazas de <Node id="754"/>litio<Node id="759"/>.
+<Node id="761"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="14" EndNode="20">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="4" EndNode="12">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="26" EndNode="34">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="55" EndNode="61">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="68" EndNode="75">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="105" EndNode="115">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="120" EndNode="126">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="146" EndNode="155">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="178" EndNode="184">
+</Annotation>
+<Annotation Id="11" Type="LOC" StartNode="227" EndNode="235">
+</Annotation>
+<Annotation Id="12" Type="SCITERM" StartNode="271" EndNode="278">
+</Annotation>
+<Annotation Id="13" Type="SCITERM" StartNode="317" EndNode="325">
+</Annotation>
+<Annotation Id="14" Type="SCITERM" StartNode="332" EndNode="341">
+</Annotation>
+<Annotation Id="15" Type="SCITERM" StartNode="385" EndNode="392">
+</Annotation>
+<Annotation Id="16" Type="SCITERM" StartNode="422" EndNode="430">
+</Annotation>
+<Annotation Id="17" Type="SCITERM" StartNode="449" EndNode="455">
+</Annotation>
+<Annotation Id="18" Type="SCITERM" StartNode="461" EndNode="468">
+</Annotation>
+<Annotation Id="19" Type="PRODUCT" StartNode="479" EndNode="484">
+</Annotation>
+<Annotation Id="20" Type="QUANT" StartNode="500" EndNode="503">
+</Annotation>
+<Annotation Id="21" Type="QUANT" StartNode="515" EndNode="518">
+</Annotation>
+<Annotation Id="22" Type="SCITERM" StartNode="606" EndNode="611">
+</Annotation>
+<Annotation Id="23" Type="SCITERM" StartNode="504" EndNode="512">
+</Annotation>
+<Annotation Id="24" Type="SCITERM" StartNode="519" EndNode="528">
+</Annotation>
+<Annotation Id="25" Type="SCITERM" StartNode="647" EndNode="655">
+</Annotation>
+<Annotation Id="26" Type="PRODUCT" StartNode="713" EndNode="722">
+</Annotation>
+<Annotation Id="27" Type="PRODUCT" StartNode="725" EndNode="730">
+</Annotation>
+<Annotation Id="28" Type="PRODUCT" StartNode="754" EndNode="759">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="761">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

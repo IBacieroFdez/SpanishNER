@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_13_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>comisaria<Node id="12"/> de <Node id="16"/>Derechos Humanos<Node id="32"/> del <Node id="37"/>Consejo de Europa<Node id="54"/>, <Node id="56"/>Dunja Mijatovic<Node id="71"/>, publicó <Node id="81"/>este martes<Node id="92"/> su informe anual de actividades en <Node id="128"/>2019<Node id="132"/>, en el que lamenta que los derechos fundamentales "están cada vez más amenazados en <Node id="217"/>Europa<Node id="223"/>".
+<Node id="226"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="16" EndNode="32">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="37" EndNode="54">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="56" EndNode="71">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="81" EndNode="92">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="128" EndNode="132">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="217" EndNode="223">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="226">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_32_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>moda<Node id="7"/> no solo se renueva, evoluciona con la idea de aportar confort y de ser más sostenible. Primero fueron las <Node id="114"/>prendas<Node id="121"/> que no se arrugan, luego las que no se manchan y ahora, durante el <Node id="189"/>confinamiento<Node id="202"/>, llegan las <Node id="215"/>camisas<Node id="222"/> "wellness" -bienestar- con <Node id="250"/>partículas<Node id="260"/> de <Node id="264"/>biocerámica<Node id="275"/> que rebajan el estrés y reducen el cansancio.
+<Node id="322"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="3" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="114" EndNode="121">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="189" EndNode="202">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="215" EndNode="222">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="250" EndNode="260">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="264" EndNode="275">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="322">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

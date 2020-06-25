@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_73_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El Medio <Node id="9"/>Ironman<Node id="16"/>, que se podrá seguir a través de las <Node id="54"/>redes sociales<Node id="68"/> de <Node id="72"/>Héctor Catalá<Node id="85"/>, cuenta con el apoyo de varios <Node id="117"/>patrocinadores<Node id="131"/> que darán para la causa <Node id="156"/>dinero<Node id="162"/>. "Estamos trabajando con una <Node id="192"/>asociación<Node id="202"/> que sirva de puente porque queremos que todo sea totalmente transparente"
+<Node id="277"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SPORT" StartNode="9" EndNode="16">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="54" EndNode="68">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="72" EndNode="85">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="117" EndNode="131">
+</Annotation>
+<Annotation Id="5" Type="MONEY" StartNode="156" EndNode="162">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="192" EndNode="202">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="277">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

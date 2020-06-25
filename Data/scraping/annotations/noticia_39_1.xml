@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_39_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>gestor<Node id="9"/> <Node id="10"/>aeroportuario<Node id="23"/> <Node id="24"/>español<Node id="31"/> <Node id="32"/>Aena<Node id="36"/> prevé, una vez que se alivie la <Node id="69"/>crisis<Node id="75"/> desatada por el <Node id="92"/>coronavirus<Node id="103"/>, recuperar el <Node id="118"/>tráfico aéreo<Node id="131"/> en <Node id="135"/>tres<Node id="139"/> fases, comenzando con los <Node id="166"/>vuelos<Node id="172"/> <Node id="173"/>domésticos<Node id="183"/>, luego las <Node id="195"/>rutas<Node id="200"/> con <Node id="205"/>países<Node id="211"/> de la <Node id="218"/>Unión Europea<Node id="231"/> (<Node id="233"/>UE<Node id="235"/>) y posteriormente, las conexiones al <Node id="273"/>resto de países<Node id="288"/>. 
+<Node id="291"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="FAC" StartNode="10" EndNode="23">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="24" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="32" EndNode="36">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="3" EndNode="9">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="69" EndNode="75">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="92" EndNode="103">
+</Annotation>
+<Annotation Id="7" Type="FAC" StartNode="118" EndNode="131">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="135" EndNode="139">
+</Annotation>
+<Annotation Id="9" Type="FAC" StartNode="166" EndNode="172">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="173" EndNode="183">
+</Annotation>
+<Annotation Id="11" Type="FAC" StartNode="195" EndNode="200">
+</Annotation>
+<Annotation Id="12" Type="LOC" StartNode="205" EndNode="211">
+</Annotation>
+<Annotation Id="13" Type="GPE" StartNode="218" EndNode="231">
+</Annotation>
+<Annotation Id="14" Type="GPE" StartNode="233" EndNode="235">
+</Annotation>
+<Annotation Id="15" Type="LOC" StartNode="273" EndNode="288">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="291">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

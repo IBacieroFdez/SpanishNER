@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_37_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Vogue<Node id="5"/>, <Node id="7"/>Vanity Fair<Node id="18"/>, <Node id="20"/>GQ<Node id="22"/>, <Node id="24"/>AD<Node id="26"/>, <Node id="28"/>Condé Nast Traveler<Node id="47"/>, y <Node id="51"/>Glamour<Node id="58"/> presentan en sus números de <Node id="87"/>mayo<Node id="91"/> un mensaje de esperanza: "Soñamos juntos", un mensaje común desde seis miradas diferentes. Ediciones que estarán disponibles por anticipado en formato digital para <Node id="256"/>todos<Node id="261"/> sin <Node id="266"/>coste<Node id="271"/> ni registro a partir este <Node id="298"/>viernes<Node id="305"/> en la <Node id="312"/>dirección<Node id="321"/> <Node id="322"/>https://revistas.condenast.es.<Node id="352"/>
+<Node id="353"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="ORG" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="7" EndNode="18">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="20" EndNode="22">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="24" EndNode="26">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="28" EndNode="47">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="51" EndNode="58">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="87" EndNode="91">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="256" EndNode="261">
+</Annotation>
+<Annotation Id="10" Type="MONEY" StartNode="266" EndNode="271">
+</Annotation>
+<Annotation Id="11" Type="DATE" StartNode="298" EndNode="305">
+</Annotation>
+<Annotation Id="12" Type="ADDRESS" StartNode="312" EndNode="321">
+</Annotation>
+<Annotation Id="13" Type="ADDRESS" StartNode="322" EndNode="352">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="353">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

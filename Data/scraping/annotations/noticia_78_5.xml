@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_78_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>    Junto a este programa, <Node id="27"/>Impact Hub<Node id="37"/> <Node id="38"/>Madrid<Node id="44"/> ha elaborado un directorio de <Node id="75"/>recursos<Node id="83"/> gratuitos e iniciativas que ofrecen los <Node id="124"/>profesionales<Node id="137"/> y <Node id="140"/>empresas<Node id="148"/> de su <Node id="155"/>comunidad<Node id="164"/>.
+<Node id="166"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="27" EndNode="37">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="38" EndNode="44">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="75" EndNode="83">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="124" EndNode="137">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="140" EndNode="148">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="155" EndNode="164">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="166">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

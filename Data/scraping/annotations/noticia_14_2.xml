@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_14_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En la rueda de prensa posterior al <Node id="35"/>Consejo<Node id="42"/>, <Node id="44"/>Calviño<Node id="51"/> ha precisado que la reducción a <Node id="84"/>cero<Node id="88"/> del IVA del suministro de <Node id="115"/>material sanitario<Node id="133"/> de <Node id="137"/>productores nacionales<Node id="159"/> a <Node id="162"/>entidades públicas<Node id="180"/>, sin ánimo de lucro y <Node id="203"/>centros hospitalarios<Node id="224"/> permitirá ahorrar más de <Node id="250"/>1.000 millones de euros<Node id="273"/>.
+<Node id="275"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="35" EndNode="42">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="44" EndNode="51">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="84" EndNode="88">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="115" EndNode="133">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="137" EndNode="159">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="162" EndNode="180">
+</Annotation>
+<Annotation Id="8" Type="FAC" StartNode="203" EndNode="224">
+</Annotation>
+<Annotation Id="9" Type="MONEY" StartNode="250" EndNode="273">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="275">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_79_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Este movimiento mundial también ha dado a conocer datos de un análisis con más de <Node id="82"/>100<Node id="85"/> noticias falsas sobre el <Node id="111"/>coronavirus<Node id="122"/> en <Node id="126"/>Facebook<Node id="134"/> en <Node id="138"/>seis<Node id="142"/> <Node id="143"/>idiomas<Node id="150"/>.
+<Node id="152"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="82" EndNode="85">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="111" EndNode="122">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="126" EndNode="134">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="138" EndNode="142">
+</Annotation>
+<Annotation Id="5" Type="LANG" StartNode="143" EndNode="150">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="152">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

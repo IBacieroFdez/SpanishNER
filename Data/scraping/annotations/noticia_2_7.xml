@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_2_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los datos de nuevos <Node id="20"/>contagiados<Node id="31"/> los ha disociado Sanidad del total de <Node id="70"/>4.266<Node id="75"/> positivos comunicados, ya que <Node id="106"/>1.385<Node id="111"/> de ellos son casos con <Node id="135"/>síntomas<Node id="143"/> desde <Node id="150"/>hace más de 14 días<Node id="169"/> y, por tanto, no se consideran infecciones recientes, lo que permite situar la tase en el <Node id="260"/>1,5 por ciento<Node id="274"/>, la más baja desde que comenzó la <Node id="309"/>crisis sanitaria<Node id="325"/>.
+<Node id="327"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="20" EndNode="31">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="70" EndNode="75">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="106" EndNode="111">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="135" EndNode="143">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="150" EndNode="169">
+</Annotation>
+<Annotation Id="6" Type="PERCENT" StartNode="260" EndNode="274">
+</Annotation>
+<Annotation Id="7" Type="EVENT" StartNode="309" EndNode="325">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="327">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_93_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Sin embargo, el seguimiento intensivo de los <Node id="45"/>virus<Node id="50"/> porcinos difícilmente se convertirá en una realidad a corto <Node id="111"/>plazo<Node id="116"/>. En la mayoría de los <Node id="139"/>países<Node id="145"/> productores de <Node id="161"/>ganado porcino<Node id="175"/> no se realizan <Node id="191"/>pruebas<Node id="198"/> a los <Node id="205"/>cerdos<Node id="211"/> y, en algunos donde sí se hacen —como <Node id="250"/>Estados Unidos<Node id="264"/>—, los <Node id="271"/>análisis<Node id="279"/> son sufragados por los propios <Node id="311"/>ganaderos<Node id="320"/>, que carecen de incentivos económicos para compartir sus descubrimientos. Ello se debe a que los <Node id="418"/>propietarios<Node id="430"/> de las <Node id="438"/>granjas<Node id="445"/> saben que los precios del <Node id="472"/>ganado porcino<Node id="486"/> se desploman cuando en las noticias aparecen relacionados <Node id="545"/>cerdos<Node id="551"/> y <Node id="554"/>gripe<Node id="559"/>. En <Node id="564"/>EE.UU.<Node id="570"/>, las <Node id="576"/>agencias gubernamentales<Node id="600"/> han diseñado un nuevo programa con el que esperan obtener esos datos tan necesarios sin amenazar el sustento de los <Node id="717"/>productores<Node id="728"/>. Pero muchos <Node id="742"/>expertos<Node id="750"/> en <Node id="754"/>salud<Node id="759"/> temen que los compromisos establecidos para conseguir involucrar a los <Node id="831"/>propietarios<Node id="843"/> de las <Node id="851"/>granjas<Node id="858"/> porcinas hagan tambalear la iniciativa.
+<Node id="899"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="45" EndNode="50">
+</Annotation>
+<Annotation Id="2" Type="TIME" StartNode="111" EndNode="116">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="139" EndNode="145">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="161" EndNode="175">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="205" EndNode="211">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="250" EndNode="264">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="311" EndNode="320">
+</Annotation>
+<Annotation Id="8" Type="SCITERM" StartNode="271" EndNode="279">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="191" EndNode="198">
+</Annotation>
+<Annotation Id="10" Type="JOB" StartNode="418" EndNode="430">
+</Annotation>
+<Annotation Id="11" Type="LOC" StartNode="438" EndNode="445">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="472" EndNode="486">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="545" EndNode="551">
+</Annotation>
+<Annotation Id="14" Type="DISEASE" StartNode="554" EndNode="559">
+</Annotation>
+<Annotation Id="15" Type="GPE" StartNode="564" EndNode="570">
+</Annotation>
+<Annotation Id="16" Type="ORG" StartNode="576" EndNode="600">
+</Annotation>
+<Annotation Id="17" Type="JOB" StartNode="717" EndNode="728">
+</Annotation>
+<Annotation Id="18" Type="JOB" StartNode="742" EndNode="750">
+</Annotation>
+<Annotation Id="19" Type="MEDTERM" StartNode="754" EndNode="759">
+</Annotation>
+<Annotation Id="20" Type="JOB" StartNode="831" EndNode="843">
+</Annotation>
+<Annotation Id="21" Type="LOC" StartNode="851" EndNode="858">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="899">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

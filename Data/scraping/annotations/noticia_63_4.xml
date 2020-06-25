@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En ella, defiende que los <Node id="26"/>virus<Node id="31"/> son la "manifestación de una <Node id="61"/>célula<Node id="67"/> intoxicada" y que "cada <Node id="92"/>pandemia<Node id="100"/> de los últimos <Node id="116"/>150<Node id="119"/> <Node id="120"/>años<Node id="124"/> se corresponde con un salto cuántico en la electrificación de la <Node id="190"/>Tierra<Node id="196"/>": La llamada "<Node id="211"/>gripe<Node id="216"/> <Node id="217"/>española<Node id="225"/>" con la expansión de las ondas de radio, la que se produjo al final de la <Node id="300"/>segunda<Node id="307"/> guerra mundial<Node id="322"/> con la introducción de <Node id="346"/>radares<Node id="353"/>... y la <Node id="362"/>COVID-19<Node id="370"/> con el <Node id="378"/>5G<Node id="380"/>. 
+<Node id="383"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="26" EndNode="31">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="61" EndNode="67">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="92" EndNode="100">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="116" EndNode="119">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="120" EndNode="124">
+</Annotation>
+<Annotation Id="6" Type="LOC" StartNode="190" EndNode="196">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="211" EndNode="216">
+</Annotation>
+<Annotation Id="8" Type="LANG" StartNode="217" EndNode="225">
+</Annotation>
+<Annotation Id="9" Type="EVENT" StartNode="300" EndNode="322">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="300" EndNode="307">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="346" EndNode="353">
+</Annotation>
+<Annotation Id="12" Type="DISEASE" StartNode="362" EndNode="370">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="378" EndNode="380">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="383">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

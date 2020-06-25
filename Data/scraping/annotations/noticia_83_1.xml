@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_83_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Algunas <Node id="8"/>enfermedades<Node id="20"/> <Node id="21"/>infecciosas<Node id="32"/> pueden transmitirse de persona a persona. Algunas son transmitidas por insectos u otros animales. Y puedes contagiar a otras personas consumiendo <Node id="179"/>alimentos<Node id="188"/> o <Node id="191"/>agua<Node id="195"/> contaminados o estando expuesto a organismos en el medio ambiente.
+<Node id="263"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="263">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="8" EndNode="20">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="21" EndNode="32">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="179" EndNode="188">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="191" EndNode="195">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

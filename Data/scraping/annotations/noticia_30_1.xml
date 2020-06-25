@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_30_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El sector <Node id="10"/>español<Node id="17"/> de <Node id="21"/>proveedores de automoción<Node id="46"/> exportó <Node id="55"/>equipos<Node id="62"/> y <Node id="65"/>componentes<Node id="76"/> por valor de <Node id="90"/>20.754 millones de euros<Node id="114"/> en <Node id="118"/>2019<Node id="122"/>, un <Node id="127"/>3,1 %<Node id="132"/> menos que en <Node id="146"/>2018<Node id="150"/>, al acusar el '<Node id="166"/>brexit<Node id="172"/>', la desaceleración en los principales <Node id="212"/>mercados europeos<Node id="229"/> y las tensiones comerciales entre <Node id="264"/>China<Node id="269"/> y <Node id="272"/>Estados Unidos<Node id="286"/>.
+<Node id="288"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LANG" StartNode="10" EndNode="17">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="21" EndNode="46">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="55" EndNode="62">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="65" EndNode="76">
+</Annotation>
+<Annotation Id="5" Type="MONEY" StartNode="90" EndNode="114">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="118" EndNode="122">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="127" EndNode="132">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="146" EndNode="150">
+</Annotation>
+<Annotation Id="10" Type="EVENT" StartNode="166" EndNode="172">
+</Annotation>
+<Annotation Id="11" Type="NORP" StartNode="212" EndNode="229">
+</Annotation>
+<Annotation Id="12" Type="GPE" StartNode="264" EndNode="269">
+</Annotation>
+<Annotation Id="13" Type="GPE" StartNode="272" EndNode="286">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="288">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

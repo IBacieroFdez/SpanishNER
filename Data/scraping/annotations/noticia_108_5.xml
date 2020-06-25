@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_108_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Pablo<Node id="5"/> se encuentra en pleno "<Node id="29"/>adrenalin<Node id="38"/> rush (subidón de <Node id="56"/>adrenalina<Node id="66"/>) como dicen aquí" por saber que puede cambiar la vida de <Node id="124"/>millones<Node id="132"/> de personas con sus conocimientos y su trabajo diario aunque le obligue a que perdonar sus <Node id="224"/>vacaciones<Node id="234"/> en <Node id="238"/>Huesca<Node id="244"/>. La causa lo merece.
+<Node id="266"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="SCITERM" StartNode="56" EndNode="66">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="29" EndNode="38">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="124" EndNode="132">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="224" EndNode="234">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="238" EndNode="244">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="266">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

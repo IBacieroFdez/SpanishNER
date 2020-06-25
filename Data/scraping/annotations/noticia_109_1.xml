@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/paracetamol_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>No tome <Node id="8"/>Paracetamol<Node id="19"/> <Node id="20"/>Kern Pharma<Node id="31"/>. Informe a su <Node id="46"/>médico<Node id="52"/> o <Node id="55"/>farmacéutico<Node id="67"/> si está utilizando o ha utilizado recientemente cualquier otro <Node id="131"/>medicamento<Node id="142"/>, incluso los adquiridos sin <Node id="171"/>receta médica<Node id="184"/>. El <Node id="189"/>paracetamol<Node id="200"/> puede tener interacciones con los siguientes <Node id="246"/>medicamentos<Node id="258"/>: No utilizar con otros <Node id="282"/>analgésicos<Node id="293"/> (<Node id="295"/>medicamentos<Node id="307"/> que disminuyen el <Node id="326"/>dolor<Node id="331"/>) sin consultar al <Node id="350"/>médico<Node id="356"/>. Como norma general para cualquier <Node id="392"/>medicamento<Node id="403"/> es recomendable informar sistemáticamente al <Node id="449"/>médico<Node id="455"/> o <Node id="458"/>farmacéutico<Node id="470"/> si está en <Node id="482"/>tratamiento<Node id="493"/> con otros <Node id="504"/>medicamentos<Node id="516"/>. Uso de <Node id="525"/>Paracetamol<Node id="536"/> <Node id="537"/>Kern Pharma<Node id="548"/> con <Node id="553"/>alimentos<Node id="562"/> y <Node id="565"/>bebida<Node id="571"/> 
+<Node id="573"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="8" EndNode="19">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="20" EndNode="31">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="46" EndNode="52">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="55" EndNode="67">
+</Annotation>
+<Annotation Id="6" Type="DRUG" StartNode="131" EndNode="142">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="171" EndNode="184">
+</Annotation>
+<Annotation Id="15" Type="DRUG" StartNode="189" EndNode="200">
+</Annotation>
+<Annotation Id="16" Type="DRUG" StartNode="246" EndNode="258">
+</Annotation>
+<Annotation Id="17" Type="DRUG" StartNode="282" EndNode="293">
+</Annotation>
+<Annotation Id="18" Type="DRUG" StartNode="295" EndNode="307">
+</Annotation>
+<Annotation Id="19" Type="DISEASE" StartNode="326" EndNode="331">
+</Annotation>
+<Annotation Id="20" Type="JOB" StartNode="350" EndNode="356">
+</Annotation>
+<Annotation Id="21" Type="DRUG" StartNode="392" EndNode="403">
+</Annotation>
+<Annotation Id="22" Type="JOB" StartNode="449" EndNode="455">
+</Annotation>
+<Annotation Id="23" Type="JOB" StartNode="458" EndNode="470">
+</Annotation>
+<Annotation Id="24" Type="MEDTERM" StartNode="482" EndNode="493">
+</Annotation>
+<Annotation Id="25" Type="DRUG" StartNode="504" EndNode="516">
+</Annotation>
+<Annotation Id="26" Type="DRUG" StartNode="525" EndNode="536">
+</Annotation>
+<Annotation Id="27" Type="ORG" StartNode="537" EndNode="548">
+</Annotation>
+<Annotation Id="28" Type="PRODUCT" StartNode="553" EndNode="562">
+</Annotation>
+<Annotation Id="29" Type="PRODUCT" StartNode="565" EndNode="571">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="573">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

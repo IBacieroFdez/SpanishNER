@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_3_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Hasta <Node id="6"/>el viernes 18 de abril<Node id="28"/>, la <Node id="33"/>Comunidad de Madrid<Node id="52"/> tenía cifrados en <Node id="71"/>5.272<Node id="76"/> los fallecidos por <Node id="96"/>coronavirus<Node id="107"/> o sospecha de tenerlo <Node id="130"/>desde el 8 de marzo<Node id="149"/> en <Node id="153"/>residencias<Node id="164"/> de la <Node id="171"/>región<Node id="177"/>, de un total de <Node id="194"/>6.444<Node id="199"/> muertes que se han producido durante ese tiempo en estos <Node id="257"/>centros<Node id="264"/>.
+<Node id="266"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="6" EndNode="28">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="33" EndNode="52">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="71" EndNode="76">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="96" EndNode="107">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="130" EndNode="149">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="153" EndNode="164">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="171" EndNode="177">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="194" EndNode="199">
+</Annotation>
+<Annotation Id="9" Type="FAC" StartNode="257" EndNode="264">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="266">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

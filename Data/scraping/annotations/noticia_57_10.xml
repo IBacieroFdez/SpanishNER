@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_57_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>De acuerdo con las últimas cifras facilitadas por la <Node id="53"/>Generalitat<Node id="64"/> de <Node id="68"/>Cataluña<Node id="76"/>, de los <Node id="85"/>8.441<Node id="90"/> fallecidos a causa del <Node id="114"/>virus<Node id="119"/> en la <Node id="126"/>comunidad<Node id="135"/>, <Node id="137"/>2.328<Node id="142"/> han muerto en <Node id="157"/>residencias de mayores<Node id="179"/>, mientras la situación sigue siendo crítica en muchos <Node id="234"/>geriátricos<Node id="245"/> por el aumento de contagios, que suman <Node id="285"/>7.285<Node id="290"/> positivos y otros <Node id="309"/>12.519<Node id="315"/> son casos sospechosos.
+<Node id="339"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="53" EndNode="64">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="68" EndNode="76">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="85" EndNode="90">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="114" EndNode="119">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="126" EndNode="135">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="137" EndNode="142">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="285" EndNode="290">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="309" EndNode="315">
+</Annotation>
+<Annotation Id="9" Type="FAC" StartNode="157" EndNode="179">
+</Annotation>
+<Annotation Id="10" Type="FAC" StartNode="234" EndNode="245">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="339">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_40_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>división de Viajes<Node id="21"/> de <Node id="25"/>El Corte Inglés<Node id="40"/> ha aprobado esta <Node id="58"/>noche<Node id="63"/> un Expediente de Regulación Temporal de Empleo (ERTE) "por causas productivas" que afectará a <Node id="158"/>4.500<Node id="163"/> <Node id="164"/>trabajadores<Node id="176"/>, el <Node id="181"/>90 %<Node id="185"/> de la plantilla, que cobrarán el <Node id="219"/>85 por ciento<Node id="232"/> de su <Node id="239"/>salario<Node id="246"/> trabajando <Node id="258"/>media jornada<Node id="271"/>.
+<Node id="273"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="3" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="25" EndNode="40">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="58" EndNode="63">
+</Annotation>
+<Annotation Id="5" Type="QUANT" StartNode="158" EndNode="163">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="164" EndNode="176">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="181" EndNode="185">
+</Annotation>
+<Annotation Id="8" Type="PERCENT" StartNode="219" EndNode="232">
+</Annotation>
+<Annotation Id="9" Type="MONEY" StartNode="239" EndNode="246">
+</Annotation>
+<Annotation Id="10" Type="TIME" StartNode="258" EndNode="271">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="273">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

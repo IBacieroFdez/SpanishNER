@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_104_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>NASA<Node id="7"/> dijo que <Node id="17"/>Blue Origin<Node id="28"/> fue el que más lejos llegó con su proyecto y le concedió el mayor premio, <Node id="103"/>579 millones de dólares<Node id="126"/>. <Node id="128"/>Dynetics<Node id="136"/>, que se ha emparejado con la <Node id="166"/>Sierra Nevada Corp.<Node id="185"/>, recibiría <Node id="197"/>253 millones de dólares<Node id="220"/>. <Node id="222"/>SpaceX<Node id="228"/>, que licitó su <Node id="244"/>nave<Node id="248"/> espacial, ganó <Node id="264"/>135 millones de dólares<Node id="287"/>. Los contratos son para la primera <Node id="323"/>etapa<Node id="328"/> del programa y durarían hasta <Node id="359"/>febrero de 2021<Node id="374"/>. Después de eso, la <Node id="395"/>NASA<Node id="399"/> podría decidir si procede con los <Node id="434"/>tres<Node id="438"/> socios o elige a <Node id="456"/>dos<Node id="459"/> de los <Node id="467"/>tres<Node id="471"/>.
+<Node id="473"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="17" EndNode="28">
+</Annotation>
+<Annotation Id="3" Type="MONEY" StartNode="103" EndNode="126">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="128" EndNode="136">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="166" EndNode="185">
+</Annotation>
+<Annotation Id="6" Type="MONEY" StartNode="197" EndNode="220">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="222" EndNode="228">
+</Annotation>
+<Annotation Id="8" Type="PRODUCT" StartNode="244" EndNode="248">
+</Annotation>
+<Annotation Id="9" Type="MONEY" StartNode="264" EndNode="287">
+</Annotation>
+<Annotation Id="10" Type="TIME" StartNode="323" EndNode="328">
+</Annotation>
+<Annotation Id="11" Type="DATE" StartNode="359" EndNode="374">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="395" EndNode="399">
+</Annotation>
+<Annotation Id="13" Type="QUANT" StartNode="434" EndNode="438">
+</Annotation>
+<Annotation Id="14" Type="QUANT" StartNode="456" EndNode="459">
+</Annotation>
+<Annotation Id="15" Type="QUANT" StartNode="467" EndNode="471">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="473">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

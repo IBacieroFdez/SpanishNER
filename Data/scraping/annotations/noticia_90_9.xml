@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_90_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>De los <Node id="7"/>tres<Node id="11"/>, el <Node id="16"/>helio<Node id="21"/> fue el que antes comenzó a formar verdaderos <Node id="67"/>átomos<Node id="73"/>. Un <Node id="78"/>átomo<Node id="83"/> es más que un <Node id="98"/>núcleo<Node id="104"/>: también posee <Node id="120"/>electrones<Node id="130"/>. Los <Node id="136"/>núcleos<Node id="143"/> de <Node id="147"/>helio<Node id="152"/> fueron los primeros en completar su <Node id="189"/>cupo<Node id="193"/> de <Node id="197"/>electrones<Node id="207"/> de forma generalizada. ¿Por qué no los de <Node id="250"/>hidrógeno<Node id="259"/> o los de <Node id="269"/>litio<Node id="274"/>? El <Node id="279"/>helio<Node id="284"/> es el primer gas noble de la <Node id="314"/>tabla periódica<Node id="329"/>, es decir, el primer <Node id="351"/>átomo<Node id="356"/> con suficientes <Node id="373"/>electrones<Node id="383"/> para ocupar completamente los espacios disponibles en su <Node id="441"/>capa electrónica<Node id="457"/>. Por lo tanto, si pensamos en los <Node id="492"/>electrones<Node id="502"/> como la «moneda» de la <Node id="526"/>química<Node id="533"/>, el <Node id="538"/>helio<Node id="543"/> es el elemento más codicioso de la <Node id="579"/>tabla periódica<Node id="594"/>. Se requiere más <Node id="612"/>energía<Node id="619"/> para sustraerle un <Node id="639"/>electrón<Node id="647"/> al <Node id="651"/>helio<Node id="656"/> que a cualquier otro <Node id="678"/>elemento<Node id="686"/>. Y para arrancarle un segundo <Node id="717"/>electrón<Node id="725"/>, hace falta más del <Node id="746"/>doble<Node id="751"/> de <Node id="755"/>energía<Node id="762"/> que con el <Node id="774"/>primero<Node id="781"/>. En el <Node id="789"/>universo<Node id="797"/> temprano, una vez que los <Node id="824"/>núcleos<Node id="831"/> de <Node id="835"/>helio<Node id="840"/> comenzaron a atrapar <Node id="862"/>electrones<Node id="872"/>, llenaron las arcas de sus <Node id="900"/>nubes electrónicas<Node id="918"/> mucho antes de que el <Node id="941"/>hidrógeno<Node id="950"/> pudiera empezar a recuperar <Node id="979"/>terreno<Node id="986"/> y de que hubiese siquiera suficientes <Node id="1025"/>núcleos<Node id="1032"/> de <Node id="1036"/>litio<Node id="1041"/> en busca de sus <Node id="1058"/>tres<Node id="1062"/> <Node id="1063"/>electrones<Node id="1073"/>.
+<Node id="1075"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="QUANT" StartNode="7" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="16" EndNode="21">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="67" EndNode="73">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="147" EndNode="152">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="78" EndNode="83">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="98" EndNode="104">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="120" EndNode="130">
+</Annotation>
+<Annotation Id="8" Type="SCITERM" StartNode="136" EndNode="143">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="197" EndNode="207">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="189" EndNode="193">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="250" EndNode="259">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="269" EndNode="274">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="279" EndNode="284">
+</Annotation>
+<Annotation Id="14" Type="SCITERM" StartNode="314" EndNode="329">
+</Annotation>
+<Annotation Id="15" Type="SCITERM" StartNode="351" EndNode="356">
+</Annotation>
+<Annotation Id="16" Type="SCITERM" StartNode="373" EndNode="383">
+</Annotation>
+<Annotation Id="17" Type="SCITERM" StartNode="441" EndNode="457">
+</Annotation>
+<Annotation Id="18" Type="SCITERM" StartNode="492" EndNode="502">
+</Annotation>
+<Annotation Id="19" Type="SCITERM" StartNode="526" EndNode="533">
+</Annotation>
+<Annotation Id="20" Type="PRODUCT" StartNode="538" EndNode="543">
+</Annotation>
+<Annotation Id="21" Type="SCITERM" StartNode="579" EndNode="594">
+</Annotation>
+<Annotation Id="22" Type="SCITERM" StartNode="612" EndNode="619">
+</Annotation>
+<Annotation Id="23" Type="SCITERM" StartNode="639" EndNode="647">
+</Annotation>
+<Annotation Id="24" Type="PRODUCT" StartNode="651" EndNode="656">
+</Annotation>
+<Annotation Id="25" Type="SCITERM" StartNode="678" EndNode="686">
+</Annotation>
+<Annotation Id="26" Type="SCITERM" StartNode="717" EndNode="725">
+</Annotation>
+<Annotation Id="27" Type="QUANT" StartNode="746" EndNode="751">
+</Annotation>
+<Annotation Id="28" Type="SCITERM" StartNode="755" EndNode="762">
+</Annotation>
+<Annotation Id="29" Type="QUANT" StartNode="774" EndNode="781">
+</Annotation>
+<Annotation Id="30" Type="LOC" StartNode="789" EndNode="797">
+</Annotation>
+<Annotation Id="31" Type="SCITERM" StartNode="824" EndNode="831">
+</Annotation>
+<Annotation Id="32" Type="PRODUCT" StartNode="835" EndNode="840">
+</Annotation>
+<Annotation Id="33" Type="PRODUCT" StartNode="862" EndNode="872">
+</Annotation>
+<Annotation Id="34" Type="SCITERM" StartNode="900" EndNode="918">
+</Annotation>
+<Annotation Id="35" Type="PRODUCT" StartNode="941" EndNode="950">
+</Annotation>
+<Annotation Id="36" Type="SCITERM" StartNode="1025" EndNode="1032">
+</Annotation>
+<Annotation Id="37" Type="SCITERM" StartNode="1063" EndNode="1073">
+</Annotation>
+<Annotation Id="38" Type="PRODUCT" StartNode="1036" EndNode="1041">
+</Annotation>
+<Annotation Id="39" Type="QUANT" StartNode="1058" EndNode="1062">
+</Annotation>
+<Annotation Id="40" Type="LOC" StartNode="979" EndNode="986">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="1075">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

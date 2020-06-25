@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_98_18.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Conocemos bastantes datos sobre otros <Node id="38"/>virus<Node id="43"/> de la familia de los <Node id="65"/>coronavirus<Node id="76"/>, y la mayoría de estos tipos de <Node id="109"/>virus<Node id="114"/> tienen su origen en <Node id="135"/>animales<Node id="143"/>. El <Node id="148"/>virus<Node id="153"/> de la <Node id="160"/>COVID‑19<Node id="168"/> (también llamado <Node id="186"/>SARS-CoV-2<Node id="196"/>) es un nuevo <Node id="210"/>virus<Node id="215"/> en los humanos. La posible
+    fuente <Node id="254"/>animal<Node id="260"/> de la <Node id="267"/>COVID‑19<Node id="275"/> aún no ha sido confirmada, pero se está investigando.
+<Node id="330"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="2" Type="SCITERM" StartNode="38" EndNode="43">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="65" EndNode="76">
+</Annotation>
+<Annotation Id="4" Type="SCITERM" StartNode="109" EndNode="114">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="135" EndNode="143">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="148" EndNode="153">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="160" EndNode="168">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="186" EndNode="196">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="267" EndNode="275">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="210" EndNode="215">
+</Annotation>
+<Annotation Id="11" Type="PRODUCT" StartNode="254" EndNode="260">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="330">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

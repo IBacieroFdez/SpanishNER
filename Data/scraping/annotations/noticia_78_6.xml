@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_78_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Desde <Node id="6"/>asesorías<Node id="15"/> para afrontar los nuevos desafíos de su <Node id="56"/>empresa<Node id="63"/> hasta ideas para mejorar el bienestar diario o programas formativos, esta cadena de favores busca ofrecer y obtener ayuda entre los y las <Node id="202"/>profesionales<Node id="215"/> de la red para que puedan continuar con su actividad y conectar con otras personas durante el <Node id="310"/>confinamiento<Node id="323"/>.
+<Node id="325"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="6" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="56" EndNode="63">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="202" EndNode="215">
+</Annotation>
+<Annotation Id="4" Type="EVENT" StartNode="310" EndNode="323">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="325">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

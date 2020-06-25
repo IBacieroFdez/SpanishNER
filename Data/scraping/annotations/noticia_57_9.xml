@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_57_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Tras <Node id="5"/>Madrid<Node id="11"/>, <Node id="13"/>Cataluña<Node id="21"/> es la siguiente <Node id="38"/>comunidad<Node id="47"/> con más investigaciones penales a sus <Node id="86"/>centros<Node id="93"/> (<Node id="95"/>20<Node id="97"/>) y donde la <Node id="110"/>Fiscalía<Node id="118"/> ha abierto más diligencias en el ámbito civil, con <Node id="170"/>50<Node id="172"/> de un total de <Node id="188"/>126<Node id="191"/> cursadas en todo el <Node id="212"/>país<Node id="216"/>.
+<Node id="218"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="5" EndNode="11">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="38" EndNode="47">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="13" EndNode="21">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="86" EndNode="93">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="110" EndNode="118">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="95" EndNode="97">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="170" EndNode="172">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="188" EndNode="191">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="212" EndNode="216">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="218">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

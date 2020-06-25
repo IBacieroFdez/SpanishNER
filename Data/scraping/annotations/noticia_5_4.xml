@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_5_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"<Node id="1"/>Cada día<Node id="9"/> se envían <Node id="20"/>millones<Node id="28"/> de <Node id="32"/>stickers<Node id="40"/> en <Node id="44"/>WhatsApp<Node id="52"/>, ayudando a <Node id="65"/>la gente<Node id="73"/> a compartir sus pensamientos sin tener que escribir ni una sola palabra", indica la <Node id="158"/>compañía<Node id="166"/> en una comunicación.
+<Node id="188"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="1" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="20" EndNode="28">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="32" EndNode="40">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="44" EndNode="52">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="65" EndNode="73">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="158" EndNode="166">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="188">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

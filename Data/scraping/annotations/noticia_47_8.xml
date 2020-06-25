@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_47_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En relación al comercio electrónico, el <Node id="40"/>director general<Node id="56"/> de <Node id="60"/>Anged<Node id="65"/> también ha subrayado que éste "se ha derrumbado" "quitando <Node id="125"/>alimentación<Node id="137"/> y <Node id="140"/>electrónica<Node id="151"/>".
+<Node id="154"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="40" EndNode="56">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="60" EndNode="65">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="125" EndNode="137">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="140" EndNode="151">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="154">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

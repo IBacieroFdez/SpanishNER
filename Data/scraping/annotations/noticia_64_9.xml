@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_64_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Así lo defiende la <Node id="19"/>investigadora<Node id="32"/> del <Node id="37"/>CSIC<Node id="41"/> <Node id="42"/>Beatriz Novoa<Node id="55"/>, <Node id="57"/>especialista<Node id="69"/> en <Node id="73"/>Inmunología<Node id="84"/> y <Node id="87"/>autora<Node id="93"/> de un tutorial en <Node id="112"/>YouTube<Node id="119"/> para enseñar a fabricar <Node id="144"/>mascarillas<Node id="155"/> con <Node id="160"/>papel de cocina<Node id="175"/>.
+<Node id="177"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="37" EndNode="41">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="19" EndNode="32">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="42" EndNode="55">
+</Annotation>
+<Annotation Id="4" Type="JOB" StartNode="57" EndNode="69">
+</Annotation>
+<Annotation Id="5" Type="MEDTERM" StartNode="73" EndNode="84">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="87" EndNode="93">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="112" EndNode="119">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="144" EndNode="155">
+</Annotation>
+<Annotation Id="9" Type="PRODUCT" StartNode="160" EndNode="175">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="177">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

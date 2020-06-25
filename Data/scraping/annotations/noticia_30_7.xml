@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_30_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>También experimentaron importantes retrocesos las exportaciones a <Node id="66"/>Argelia<Node id="73"/> (<Node id="75"/>27,4 %<Node id="81"/>), <Node id="84"/>Japón<Node id="89"/> (<Node id="91"/>11,6 %<Node id="97"/>), <Node id="100"/>México<Node id="106"/> (<Node id="108"/>8,3 %<Node id="113"/>) y <Node id="117"/>Turquía<Node id="124"/> (<Node id="126"/>6,3 %<Node id="131"/>).
+<Node id="134"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="66" EndNode="73">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="84" EndNode="89">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="117" EndNode="124">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="100" EndNode="106">
+</Annotation>
+<Annotation Id="5" Type="PERCENT" StartNode="75" EndNode="81">
+</Annotation>
+<Annotation Id="6" Type="PERCENT" StartNode="91" EndNode="97">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="108" EndNode="113">
+</Annotation>
+<Annotation Id="8" Type="PERCENT" StartNode="126" EndNode="131">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="134">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

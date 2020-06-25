@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_49_14.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En <Node id="3"/>Venustiano Carranza<Node id="22"/> hay alrededor de <Node id="40"/>17.500<Node id="46"/> hectáreas destinadas a la producción de <Node id="87"/>caña<Node id="91"/> y la temporada de la zafra, que comienza en <Node id="136"/>diciembre<Node id="145"/> y finaliza en <Node id="160"/>mayo<Node id="164"/>, se encuentra a plena actividad.
+<Node id="198"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="3" EndNode="22">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="40" EndNode="46">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="87" EndNode="91">
+</Annotation>
+<Annotation Id="13" Type="DATE" StartNode="136" EndNode="145">
+</Annotation>
+<Annotation Id="14" Type="DATE" StartNode="160" EndNode="164">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="198">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_43_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La campaña recuerda que la <Node id="27"/>Semana Santa<Node id="39"/> también es un tiempo de descanso para los <Node id="82"/>trabajadores<Node id="94"/> que están garantizando el abastecimiento en <Node id="139"/>pueblos<Node id="146"/> y <Node id="149"/>ciudades<Node id="157"/>, y por eso el <Node id="172"/>Ministerio de Industria<Node id="195"/>, <Node id="197"/>Comercio<Node id="205"/> y <Node id="208"/>Turismo<Node id="215"/> ha animado a facilitar su labor y reconocer su esfuerzo. 
+<Node id="274"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="27" EndNode="39">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="82" EndNode="94">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="139" EndNode="146">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="149" EndNode="157">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="172" EndNode="195">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="197" EndNode="205">
+</Annotation>
+<Annotation Id="7" Type="ORG" StartNode="208" EndNode="215">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="274">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

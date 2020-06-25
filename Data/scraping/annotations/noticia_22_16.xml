@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_22_16.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Esta reducción se debe a un considerable descenso en las condenas a muerte registradas en <Node id="91"/>Egipto<Node id="97"/> (de <Node id="102"/>717<Node id="105"/> en <Node id="109"/>2018<Node id="113"/> a <Node id="116"/>435<Node id="119"/> en <Node id="123"/>2019<Node id="127"/>) e Irak (de <Node id="140"/>271<Node id="143"/> en <Node id="147"/>2018<Node id="151"/> a <Node id="154"/>87<Node id="156"/> en <Node id="160"/>2019<Node id="164"/>). Se registraron condenas a muerte en todos los <Node id="213"/>países<Node id="219"/> de la <Node id="226"/>región<Node id="232"/>, excepto en <Node id="245"/>Israel<Node id="251"/> y <Node id="254"/>Libia<Node id="259"/>", reza el estudio.
+<Node id="279"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="91" EndNode="97">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="102" EndNode="105">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="116" EndNode="119">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="140" EndNode="143">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="154" EndNode="156">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="109" EndNode="113">
+</Annotation>
+<Annotation Id="7" Type="DATE" StartNode="123" EndNode="127">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="147" EndNode="151">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="160" EndNode="164">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="213" EndNode="219">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="226" EndNode="232">
+</Annotation>
+<Annotation Id="12" Type="GPE" StartNode="254" EndNode="259">
+</Annotation>
+<Annotation Id="13" Type="GPE" StartNode="245" EndNode="251">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="279">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

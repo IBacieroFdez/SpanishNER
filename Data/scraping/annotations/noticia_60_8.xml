@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_60_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Ha insistido en que el <Node id="23"/>Gobierno<Node id="31"/> <Node id="32"/>Vasco<Node id="37"/> está volcado en la preparación del “Plan de Transición a la Nueva Normalidad” que incluirá diferentes fases de la desescalada para la recuperación gradual y en plenas garantías de los hábitos sociales, aunque no ha avanzado más detalles respecto a lo conocido hasta <Node id="304"/>ahora<Node id="309"/>.
+<Node id="311"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="23" EndNode="31">
+</Annotation>
+<Annotation Id="3" Type="LANG" StartNode="32" EndNode="37">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="304" EndNode="309">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="311">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

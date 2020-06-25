@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_58_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En todo caso, cree que debe de haber una parte de "control a la acción de <Node id="74"/>Gobierno<Node id="82"/>" y otra parte de iniciativas propositivas que se sometan a votación, aunque los detalles de esta <Node id="180"/>comisión<Node id="188"/> se irán "perfilando" lo largo del día de <Node id="230"/>hoy<Node id="233"/> entre los <Node id="244"/>grupos parlamentarios<Node id="265"/>.
+<Node id="267"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="74" EndNode="82">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="180" EndNode="188">
+</Annotation>
+<Annotation Id="3" Type="TIME" StartNode="230" EndNode="233">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="244" EndNode="265">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="267">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

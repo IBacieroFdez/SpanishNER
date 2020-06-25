@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_12_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Respecto a las cifras del conjunto del <Node id="39"/>país<Node id="43"/>, la <Node id="48"/>Comunidad de Madrid<Node id="67"/> acumula el <Node id="79"/>28,4 %<Node id="85"/> de las <Node id="93"/>personas<Node id="101"/> contagiadas, el <Node id="118"/>35,05 %<Node id="125"/> de los fallecidos y el <Node id="149"/>39,11 por ciento<Node id="165"/> de los que se han recuperado.
+<Node id="196"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="GPE" StartNode="39" EndNode="43">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="48" EndNode="67">
+</Annotation>
+<Annotation Id="3" Type="PERCENT" StartNode="79" EndNode="85">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="93" EndNode="101">
+</Annotation>
+<Annotation Id="5" Type="PERCENT" StartNode="118" EndNode="125">
+</Annotation>
+<Annotation Id="6" Type="PERCENT" StartNode="149" EndNode="165">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="196">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

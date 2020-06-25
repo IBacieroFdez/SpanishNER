@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_106_9.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Sin duda, nunca ha habido un mejor momento para estar en el <Node id="60"/>negocio<Node id="67"/> de <Node id="71"/>Jordan<Node id="77"/>. Esta <Node id="84"/>subasta<Node id="91"/> se organizó rápidamente <Node id="116"/>durante<Node id="123"/> las últimas <Node id="136"/>dos<Node id="139"/> <Node id="140"/>semanas<Node id="147"/> después de que <Node id="163"/>Geller<Node id="169"/> se percatara de que las <Node id="194"/>Air Jordan<Node id="204"/> estaban subiendo de <Node id="225"/>precio<Node id="231"/> en todo el <Node id="243"/>mundo<Node id="248"/> por culpa del documental de The Last Dance.
+<Node id="293"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="71" EndNode="77">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="60" EndNode="67">
+</Annotation>
+<Annotation Id="3" Type="EVENT" StartNode="84" EndNode="91">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="136" EndNode="139">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="116" EndNode="123">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="140" EndNode="147">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="163" EndNode="169">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="194" EndNode="204">
+</Annotation>
+<Annotation Id="9" Type="MONEY" StartNode="225" EndNode="231">
+</Annotation>
+<Annotation Id="10" Type="LOC" StartNode="243" EndNode="248">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="293">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

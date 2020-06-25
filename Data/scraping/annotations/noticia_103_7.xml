@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_103_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Elon Musk<Node id="9"/> ha infravalorado la <Node id="30"/>pandemia<Node id="38"/> en diferentes ocasiones, hasta el punto de que en su perfil de <Node id="102"/>Twitter<Node id="109"/> llegó a decir que "el pánico al <Node id="142"/>coronavirus<Node id="153"/> es tonto". También ha comparado las muertes producidas por el <Node id="216"/>virus<Node id="221"/> con los accidentes de tráfico, asegurando que el riesgo de morir por <Node id="291"/>COVID-19<Node id="299"/> "es mucho menor que el riesgo de muerte por conducir tu <Node id="356"/>coche<Node id="361"/> de vuelta a <Node id="374"/>casa<Node id="378"/>".
+<Node id="381"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="30" EndNode="38">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="102" EndNode="109">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="142" EndNode="153">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="216" EndNode="221">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="291" EndNode="299">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="356" EndNode="361">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="374" EndNode="378">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="381">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

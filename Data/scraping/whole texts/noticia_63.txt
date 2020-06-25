@@ -1,0 +1,76 @@
+
+
+
+
+
+
+
+
+No hay evidencia científica alguna que permita vincular la extensión de las redes de telecomunicaciones 5G con la propagación del coronavirus, como afirma una teoría promovida por un supuesto doctor y compartida por figuras conocidas del mundo del cine, la canción y el boxeo.
+
+Con la expansión mundial del nuevo virus descubierto en la ciudad china de Wuhan ha cobrado gran difusión la tesis que atribuye el origen y la propagación de la COVID-19 al despliegue de las redes de telecomunicaciones de quinta generación, conocidas como redes 5G.
+
+Esta tesis tiene como punto de partida el vídeo con los 10 minutos finales de la conferencia que Thomas Cowan, autor de varios libros que se presenta como doctor, pronunció el pasado 12 de marzo en un foro organizado en Tucson (EEUU) por el grupo Humans for Humanity Coalition, vinculado al movimiento antivacunas.
+
+En ella, defiende que los virus son la "manifestación de una célula intoxicada" y que "cada pandemia de los últimos 150 años se corresponde con un salto cuántico en la electrificación de la Tierra": La llamada "gripe española" con la expansión de las ondas de radio, la que se produjo al final de la segunda guerra mundial con la introducción de radares... y la COVID-19 con el 5G. 
+
+Cowan argumenta que Wuhan fue un lugar pionero en la implantación del 5G y así relaciona la implantación de esta red de comunicaciones con el brote de coronavirus. Una vinculación que ha sido difundida por personajes conocidos como el boxeador británico Amir Khan, la cantante estadounidense Keri Hilson o los actores Woody Harrelson y John Cusack, aunque muchos han borrado después esos mensajes.
+
+También han circulado en Twitter mensajes que dan por hecha una relación causa-efecto entre las ondas de radio y la pandemia de 1918 para enumerar una serie de epidemias supuestamente provocadas por las distintas generaciones de redes de telecomunicaciones: La gripe de 1979 por la 1G, el cólera de 1991 por la 2G, la gripe de 1998 por la 3G, el H1N1 de 2009 por la 4G y, claro, la COVID-19 por el 5G.
+
+
+It’s not corona virus ... it’s cell death from 5g radiation ?????? pic.twitter.com/H8Z3DrHN0Q
+
+
+
+Ningún informe científico avala esta tesis. Los expertos explican que es físicamente imposible la interacción entre las ondas de las redes de telecomunicaciones y un virus, la Organización Mundial de la Salud (OMS) no encuentra efectos adversos en el 5G y un documento de varios expertos publicado en una prestigiosa revista médica niega que la COVID-19 tenga un origen no natural.
+
+¿Hay alguna base científica que apoye una relación entre las redes 5G y el coronavirus? Según Patricia de Llobet, técnica de investigación de Radiaciones del Instituto de Salud Global de Barcelona (ISGlobal), no hay "ninguna".
+
+"Es, sin duda, un bulo. Es importante informarse en sitios contrastados para evitar que nos engañen", subraya en declaraciones a EFE esta investigadora de ISGlobal, una institución creada por centros hospitalarios y académicos barceloneses con el apoyo de la Fundación La Caixa.
+
+La explicación de por qué es falso tiene que ver con el hecho de que las radiofrecuencias que se utilizan en las redes de comunicación (2G, 3G, 4G, 5G, wifi, radio...) pertenecen al rango de las radiaciones no ionizantes, que se diferencian de las ionizantes en que poseen menor frecuencia y energía, de modo que no pueden desestabilizar un átomo.
+
+Sí pueden hacerlo las radiaciones ionizantes, como son las presentes en los rayos solares, los rayos X y la energía nuclear. Por eso la exposición al sol puede provocar quemaduras y el uso de las radiografías está muy limitado, recuerda De Llobet.
+
+
+
+Al final, es cuestión de tamaño. De la misma forma que no se puede ver un virus con un microscopio óptico, porque las ondas de la luz son mayores, y hace falta recurrir a un microscopio electrónico -que utiliza electrones, con una longitud de onda menor que la luz visible-, las ondas de las redes 5G son de mayor tamaño y no pueden den interactuar con un virus como el SARS-CoV-2.
+
+"Es como si yo te diera un rodillo de pintor para dibujar un retrato en un folio. Necesitarás un lapicero, no un rodillo", explica, de forma gráfica, el físico Alberto Nájera. Y continúa: "El tamaño del lapicero sería la longitud de onda y el folio el tamaño de lo que puedes ver; las ondas del 5G son de milímetros y una onda de milímetros no puede interactuar con un virus".
+
+Nájera, vocal del Comité Científico Asesor en Radiofrecuencias y Salud (CCARS) -una entidad consultiva del Colegio Oficial de Ingenieros de Telecomunicaciones- concluye que esta diferencia de tamaños hace "imposible" una interacción entre el coronavirus y el 5G e invalida una teórica diseminación del virus por medio de estas redes de nueva generación.
+
+Nájera, que es profesor en la Facultad de Medicina de Albacete (Universidad de Castilla-La Mancha) precisa además que las redes 5G todavía no están implantadas en España, y destaca la experiencia de Corea del Sur como ejemplo de la nula relación entre redes de última generación y coronavirus.
+
+
+
+"Corea del Sur, el país del mundo con más desarrollo del 5G, es uno de los que mejor ha contenido la pandemia", argumenta este físico, si bien puntualiza que el propio desarrollo tecnológico surcoreano -5G incluido- ha podido contribuir a este éxito por el uso masivo de aplicaciones de móvil para controlar el movimiento de la población y reducir los contagios.
+
+En cuanto a las organizaciones sanitarias internacionales, la OMS ofrece desde finales de febrero en su web oficial algunas respuestas sobre las redes 5G y en ellas asegura que, hasta la fecha, "no se han encontrado relaciones causales entre la exposición a estas tecnologías y efectos adversos en la salud".
+
+También la revista médica británica The Lancet, una de las más prestigiosas del mundo, publicó a mediados de febrero una declaración firmada por un grupo de científicos en la que expresaban su condena a "cualquier teoría conspirativa que sugiera que la Covid-19 no tiene un origen natural".
+
+"Las teorías de la conspiración no hacen otra cosa que crear miedo, rumores y prejuicios que dificultan la colaboración global en la lucha contra este virus", añadían los científicos firmantes del estudio.
+
+Por último, YouTube, la plataforma de vídeos de Google, ha anunciado la semana pasada que borrará de su catálogo todas las imágenes que vinculen las redes 5G con el coronavirus.
+
+
+
+- Humans for Humanity Coalition.
+
+- Patricia de Llobet, técnica de investigación de Radiaciones del Instituto de Salud Global de Barcelona (ISGlobal).
+
+- Alberto Nájera, vocal del Comité Científico Asesor en Radiofrecuencias y Salud (CCARS).
+
+- Página de la Organización Mundial de la Salud (OMS) sobre las redes 5G.
+
+- Declaración en apoyo de los científicos, profesionales de la sanidad pública y profesionales médicos de China que luchan contra la COVID-19. The Lancet. 18 de febrero de 2020.
+
+- Artículo "YouTube borrará los vídeos que vinculan el 5G con el coronavirus después de informaciones sobre antenas de telefonía incendiadas". Business Insider. 6 de abril de 2020.
+Unidad de Verificación de la Agencia EFE
+¿Qué es EFE Verifica?
+Una herramienta de la Agencia EFE para mejorar el debate público
+¿Cómo podemos ayudarte?
+Envíanos tus propuestas a verifica@efe.com  o por Facebook,  Instagram y Twitter.
+Sigue la etiqueta #EFEVerifica en redes sociales.

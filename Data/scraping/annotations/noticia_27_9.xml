@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_27_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>De hecho, en algo más de una <Node id="29"/>semana<Node id="35"/> se había identificado al <Node id="61"/>coronavirus<Node id="72"/>, mientras que con el sida “tardamos <Node id="109"/>dos<Node id="112"/> <Node id="113"/>años<Node id="117"/> en saber que el causante era el <Node id="150"/>VIH<Node id="153"/>” y, mientras cuando escribió el artículo había <Node id="201"/>164<Node id="204"/> estudios en las bases de datos sobre este <Node id="247"/>virus<Node id="252"/>, ahora hay más de <Node id="271"/>4.000<Node id="276"/>.
+<Node id="278"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="29" EndNode="35">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="61" EndNode="72">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="109" EndNode="112">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="113" EndNode="117">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="150" EndNode="153">
+</Annotation>
+<Annotation Id="6" Type="QUANT" StartNode="201" EndNode="204">
+</Annotation>
+<Annotation Id="7" Type="MEDTERM" StartNode="247" EndNode="252">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="271" EndNode="276">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="278">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

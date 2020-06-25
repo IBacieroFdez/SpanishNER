@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_27_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>Covid-19<Node id="11"/> ha puesto patas arriba nuestro <Node id="43"/>mundo<Node id="48"/> y vemos cosas que nunca habríamos imaginado, como que un artículo de buenas noticias sobre el <Node id="143"/>coronavirus<Node id="154"/> escrito por un <Node id="170"/>científico<Node id="180"/>, <Node id="182"/>Ignacio López-Goñi<Node id="200"/>, lo hayan leído más de <Node id="224"/>21 millones<Node id="235"/> de <Node id="239"/>personas<Node id="247"/>. “No lo pensaba ni por asomo”, asegura.
+<Node id="288"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="3" EndNode="11">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="43" EndNode="48">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="143" EndNode="154">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="170" EndNode="180">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="182" EndNode="200">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="224" EndNode="235">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="239" EndNode="247">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="288">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

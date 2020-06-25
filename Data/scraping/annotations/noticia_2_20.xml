@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_2_20.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Antes de que se plantee la desescalada a nivel general, la <Node id="59"/>próxima semana<Node id="73"/> se levantarán algunas restricciones, además de la posibilidad de que los <Node id="147"/>niños<Node id="152"/> puedan salir de su <Node id="172"/>casa<Node id="176"/> de forma puntual, <Node id="195"/>durante un tiempo limitado<Node id="221"/>, en una <Node id="230"/>zona acotada<Node id="242"/> y acompañados por un <Node id="264"/>adulto<Node id="270"/>, según ha apuntado la <Node id="293"/>portavoz<Node id="301"/> del <Node id="306"/>Gobierno<Node id="314"/>, <Node id="316"/>María Jesús Montero<Node id="335"/>.
+<Node id="337"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="59" EndNode="73">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="147" EndNode="152">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="172" EndNode="176">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="195" EndNode="221">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="230" EndNode="242">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="264" EndNode="270">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="293" EndNode="301">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="306" EndNode="314">
+</Annotation>
+<Annotation Id="9" Type="PER" StartNode="316" EndNode="335">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="337">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_107_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Es oficial: <Node id="12"/>Carlos Sainz<Node id="24"/> será <Node id="30"/>piloto<Node id="36"/> de <Node id="40"/>Ferrari<Node id="47"/> a partir de la próxima <Node id="71"/>temporada<Node id="80"/>. El <Node id="85"/>piloto<Node id="91"/> <Node id="92"/>madrileño<Node id="101"/> se desvinculará de <Node id="121"/>McLaren<Node id="128"/> cuando acabe esta <Node id="147"/>temporada<Node id="156"/> y firma por <Node id="169"/>dos<Node id="172"/> <Node id="173"/>campañas<Node id="181"/> con la <Node id="189"/>escudería<Node id="198"/> <Node id="199"/>italiana<Node id="207"/>, la más legendaria y exitosa de todas las que han pasado por la <Node id="272"/>Fórmula 1<Node id="281"/>. Con <Node id="287"/>25<Node id="289"/> años, tras pasar por <Node id="311"/>Toro Rosso<Node id="321"/>, <Node id="323"/>Renault<Node id="330"/> y <Node id="333"/>Woking<Node id="339"/> y superar la <Node id="353"/>centena<Node id="360"/> de <Node id="364"/>grandes premios<Node id="379"/>. Da el salto a un grande, a un <Node id="411"/>equipo<Node id="417"/> capaz de luchar por <Node id="438"/>poles<Node id="443"/>, <Node id="445"/>podios<Node id="451"/> y <Node id="454"/>victorias<Node id="463"/> desde el <Node id="473"/>primer<Node id="479"/> <Node id="480"/>día<Node id="483"/>. Su compañero será <Node id="503"/>Charles Leclerc<Node id="518"/>, el gran <Node id="528"/>líder<Node id="533"/> en <Node id="537"/>Maranello<Node id="546"/>, aunque la <Node id="558"/>pista<Node id="563"/> debe poner a cada uno en su sitio cuando empiece la <Node id="616"/>competición<Node id="627"/>.
+<Node id="629"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="12" EndNode="24">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="30" EndNode="36">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="40" EndNode="47">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="71" EndNode="80">
+</Annotation>
+<Annotation Id="6" Type="JOB" StartNode="85" EndNode="91">
+</Annotation>
+<Annotation Id="7" Type="LANG" StartNode="92" EndNode="101">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="121" EndNode="128">
+</Annotation>
+<Annotation Id="9" Type="TIME" StartNode="147" EndNode="156">
+</Annotation>
+<Annotation Id="10" Type="QUANT" StartNode="169" EndNode="172">
+</Annotation>
+<Annotation Id="11" Type="TIME" StartNode="173" EndNode="181">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="189" EndNode="198">
+</Annotation>
+<Annotation Id="13" Type="LANG" StartNode="199" EndNode="207">
+</Annotation>
+<Annotation Id="14" Type="SPORT" StartNode="272" EndNode="281">
+</Annotation>
+<Annotation Id="15" Type="QUANT" StartNode="287" EndNode="289">
+</Annotation>
+<Annotation Id="17" Type="ORG" StartNode="311" EndNode="321">
+</Annotation>
+<Annotation Id="18" Type="ORG" StartNode="323" EndNode="330">
+</Annotation>
+<Annotation Id="19" Type="ORG" StartNode="333" EndNode="339">
+</Annotation>
+<Annotation Id="20" Type="QUANT" StartNode="353" EndNode="360">
+</Annotation>
+<Annotation Id="21" Type="EVENT" StartNode="364" EndNode="379">
+</Annotation>
+<Annotation Id="22" Type="SPORT" StartNode="411" EndNode="417">
+</Annotation>
+<Annotation Id="23" Type="SPORT" StartNode="438" EndNode="443">
+</Annotation>
+<Annotation Id="24" Type="SPORT" StartNode="445" EndNode="451">
+</Annotation>
+<Annotation Id="25" Type="SPORT" StartNode="454" EndNode="463">
+</Annotation>
+<Annotation Id="26" Type="QUANT" StartNode="473" EndNode="479">
+</Annotation>
+<Annotation Id="27" Type="TIME" StartNode="480" EndNode="483">
+</Annotation>
+<Annotation Id="28" Type="PER" StartNode="503" EndNode="518">
+</Annotation>
+<Annotation Id="29" Type="JOB" StartNode="528" EndNode="533">
+</Annotation>
+<Annotation Id="30" Type="GPE" StartNode="537" EndNode="546">
+</Annotation>
+<Annotation Id="31" Type="SPORT" StartNode="558" EndNode="563">
+</Annotation>
+<Annotation Id="32" Type="SPORT" StartNode="616" EndNode="627">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="629">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

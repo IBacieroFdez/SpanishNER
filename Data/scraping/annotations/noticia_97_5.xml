@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_97_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>organización<Node id="15"/> <Node id="16"/>norteamericana<Node id="30"/> explica incluso el procedimiento para confeccionarlas con un trozo de <Node id="101"/>tela<Node id="105"/> o una <Node id="112"/>camiseta<Node id="120"/> tanto en un <Node id="133"/>vídeo<Node id="138"/> en <Node id="142"/>inglés<Node id="148"/> como en su <Node id="160"/>página web<Node id="170"/> en <Node id="174"/>español<Node id="181"/>.
+<Node id="183"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="3" EndNode="15">
+</Annotation>
+<Annotation Id="2" Type="LANG" StartNode="16" EndNode="30">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="101" EndNode="105">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="112" EndNode="120">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="133" EndNode="138">
+</Annotation>
+<Annotation Id="6" Type="LANG" StartNode="142" EndNode="148">
+</Annotation>
+<Annotation Id="7" Type="ADDRESS" StartNode="160" EndNode="170">
+</Annotation>
+<Annotation Id="8" Type="LANG" StartNode="174" EndNode="181">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="183">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

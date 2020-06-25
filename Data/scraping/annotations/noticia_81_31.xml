@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_31.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El distanciamiento físico significa estar físicamente separado. La <Node id="67"/>OMS<Node id="70"/> recomienda mantener una distancia de al menos un metro (<Node id="127"/>3<Node id="128"/> pies) con los demás. Es una medida general que todas las personas deberían adoptar incluso si se encuentran bien y no han tenido una exposición conocida a la <Node id="287"/>COVID‑19<Node id="295"/>.
+<Node id="297"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="67" EndNode="70">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="127" EndNode="128">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="287" EndNode="295">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="297">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

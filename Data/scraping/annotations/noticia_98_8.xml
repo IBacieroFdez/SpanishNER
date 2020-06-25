@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_98_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Aunque algunas soluciones de la <Node id="32"/>medicina<Node id="40"/> <Node id="41"/>occidental<Node id="51"/> o tradicional o remedios caseros pueden resultar reconfortantes y aliviar los <Node id="130"/>síntomas<Node id="138"/> leves de la <Node id="151"/>COVID-19<Node id="159"/>, hasta ahora ningún <Node id="180"/>medicamento<Node id="191"/> ha demostrado prevenir o curar esta <Node id="228"/>enfermedad<Node id="238"/>. La <Node id="243"/>OMS<Node id="246"/> no recomienda automedicarse con ningún <Node id="286"/>fármaco<Node id="293"/>, incluidos los <Node id="309"/>antibióticos<Node id="321"/>, para prevenir o curar la <Node id="348"/>COVID-19<Node id="356"/>. Sin embargo, hay varios <Node id="382"/>ensayos<Node id="389"/> <Node id="390"/>clínicos<Node id="398"/> en marcha, tanto de <Node id="419"/>medicamentos<Node id="431"/> <Node id="432"/>occidentales<Node id="444"/> como tradicionales. La <Node id="468"/>OMS<Node id="471"/> está coordinando la labor de desarrollo de <Node id="515"/>vacunas<Node id="522"/> y <Node id="525"/>medicamentos<Node id="537"/> para prevenir y tratar la <Node id="564"/>COVID-19<Node id="572"/> y seguirá proporcionando información actualizada a medida que se disponga de los resultados de las <Node id="672"/>investigaciones<Node id="687"/>.
+<Node id="689"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DRUG" StartNode="32" EndNode="40">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="41" EndNode="51">
+</Annotation>
+<Annotation Id="3" Type="MEDTERM" StartNode="130" EndNode="138">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="151" EndNode="159">
+</Annotation>
+<Annotation Id="5" Type="DRUG" StartNode="180" EndNode="191">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="228" EndNode="238">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="348" EndNode="356">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="243" EndNode="246">
+</Annotation>
+<Annotation Id="9" Type="DRUG" StartNode="286" EndNode="293">
+</Annotation>
+<Annotation Id="10" Type="DRUG" StartNode="309" EndNode="321">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="390" EndNode="398">
+</Annotation>
+<Annotation Id="12" Type="SCITERM" StartNode="382" EndNode="389">
+</Annotation>
+<Annotation Id="13" Type="DRUG" StartNode="419" EndNode="431">
+</Annotation>
+<Annotation Id="15" Type="LOC" StartNode="432" EndNode="444">
+</Annotation>
+<Annotation Id="16" Type="ORG" StartNode="468" EndNode="471">
+</Annotation>
+<Annotation Id="17" Type="DRUG" StartNode="515" EndNode="522">
+</Annotation>
+<Annotation Id="18" Type="DRUG" StartNode="525" EndNode="537">
+</Annotation>
+<Annotation Id="19" Type="DISEASE" StartNode="564" EndNode="572">
+</Annotation>
+<Annotation Id="20" Type="SCITERM" StartNode="672" EndNode="687">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="689">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

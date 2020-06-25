@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_43_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Según ha explicado la <Node id="22"/>secretaria<Node id="32"/> de <Node id="36"/>Estado de Comercio<Node id="54"/>, <Node id="56"/>Xiana Méndez<Node id="68"/>, es aconsejable consultar el calendario de <Node id="112"/>días festivos<Node id="125"/> fijados por cada <Node id="143"/>comunidad autónoma<Node id="161"/>, organizar el consumo semanal, elegir <Node id="200"/>productos<Node id="209"/> de manera responsable o hacer un esfuerzo para no salir todos los <Node id="276"/>días<Node id="280"/> de <Node id="284"/>casa<Node id="288"/>.
+<Node id="290"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="GPE" StartNode="143" EndNode="161">
+</Annotation>
+<Annotation Id="1" Type="TIME" StartNode="112" EndNode="125">
+</Annotation>
+<Annotation Id="17" Type="PRODUCT" StartNode="200" EndNode="209">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="22" EndNode="32">
+</Annotation>
+<Annotation Id="18" Type="TIME" StartNode="276" EndNode="280">
+</Annotation>
+<Annotation Id="19" Type="LOC" StartNode="284" EndNode="288">
+</Annotation>
+<Annotation Id="14" Type="ORG" StartNode="36" EndNode="54">
+</Annotation>
+<Annotation Id="15" Type="PER" StartNode="56" EndNode="68">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="290">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

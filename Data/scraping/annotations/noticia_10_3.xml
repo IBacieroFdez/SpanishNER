@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_10_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El estudio, cuyos resultados son preliminares, lo ha elaborado el <Node id="66"/>grupo de Jóvenes Investigadores<Node id="97"/> de la <Node id="104"/>Federación Internacional de Sociedades de Otorrinolaringología<Node id="166"/> (<Node id="168"/>YO-IFOS<Node id="175"/>), con el apoyo de la <Node id="197"/>Sociedad Española de Otorrinolaringología y Cirugía de Cabeza y Cuello<Node id="267"/> (<Node id="269"/>SEORL-CCC)<Node id="279"/> y otras <Node id="288"/>sociedades europeas<Node id="307"/>, a partir del testimonio de <Node id="336"/>417<Node id="339"/> <Node id="340"/>pacientes<Node id="349"/> de <Node id="353"/>hospitales<Node id="363"/> de <Node id="367"/>España<Node id="373"/>, <Node id="375"/>Bélgica<Node id="382"/>, <Node id="384"/>Francia<Node id="391"/> e <Node id="394"/>Italia<Node id="400"/>.
+<Node id="402"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="66" EndNode="97">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="104" EndNode="166">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="168" EndNode="175">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="197" EndNode="267">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="269" EndNode="279">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="288" EndNode="307">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="336" EndNode="339">
+</Annotation>
+<Annotation Id="8" Type="MEDTERM" StartNode="340" EndNode="349">
+</Annotation>
+<Annotation Id="9" Type="FAC" StartNode="353" EndNode="363">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="367" EndNode="373">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="384" EndNode="391">
+</Annotation>
+<Annotation Id="12" Type="GPE" StartNode="394" EndNode="400">
+</Annotation>
+<Annotation Id="13" Type="GPE" StartNode="375" EndNode="382">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="402">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

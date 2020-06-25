@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_7_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La medida ha suscitado de inmediato numerosas críticas, que han recorrido <Node id="74"/>de norte a sur<Node id="88"/> las <Node id="93"/>redes sociales<Node id="107"/> con parada en las cuentas de líderes de todo el espectro político (del <Node id="179"/>PP<Node id="181"/> y <Node id="184"/>Cs<Node id="186"/> a <Node id="189"/>ERC<Node id="192"/> y <Node id="195"/>Más País<Node id="203"/>), <Node id="206"/>presidentes autonómicos<Node id="229"/> y <Node id="232"/>alcaldes<Node id="240"/>, y la demanda generalizada de una rectificación que permitiera paseos limitados en las proximidades del <Node id="345"/>domicilio<Node id="354"/>, como inicialmente se pensaba que iba a ser.
+<Node id="400"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="74" EndNode="88">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="93" EndNode="107">
+</Annotation>
+<Annotation Id="3" Type="NORP" StartNode="179" EndNode="181">
+</Annotation>
+<Annotation Id="4" Type="NORP" StartNode="184" EndNode="186">
+</Annotation>
+<Annotation Id="5" Type="NORP" StartNode="189" EndNode="192">
+</Annotation>
+<Annotation Id="6" Type="NORP" StartNode="195" EndNode="203">
+</Annotation>
+<Annotation Id="7" Type="JOB" StartNode="206" EndNode="229">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="232" EndNode="240">
+</Annotation>
+<Annotation Id="9" Type="LOC" StartNode="345" EndNode="354">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="400">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

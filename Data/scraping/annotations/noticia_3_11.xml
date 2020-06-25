@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_3_11.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"Hemos hablado con todos ellos y nos han manifestado su orgullo de pertenencia a un <Node id="84"/>equipo<Node id="90"/>, en el que nadie ha sobrado y en el que, sobre todo, han dado lo mejor de sí mismos para que esta situación en las <Node id="206"/>residencias<Node id="217"/> y con nuestros <Node id="233"/>mayores<Node id="240"/> por fin se haya revertido", ha señalado <Node id="281"/>Díaz Ayuso<Node id="291"/>.
+<Node id="293"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="84" EndNode="90">
+</Annotation>
+<Annotation Id="2" Type="FAC" StartNode="206" EndNode="217">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="233" EndNode="240">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="281" EndNode="291">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="293">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

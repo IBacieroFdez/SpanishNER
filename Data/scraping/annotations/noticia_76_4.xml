@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_76_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La preferencia de <Node id="18"/>pymes<Node id="23"/> y <Node id="26"/>startups<Node id="34"/> por los <Node id="43"/>neobancos<Node id="52"/> no es solo por la operativa <Node id="81"/>100%<Node id="85"/> online sino también por su oferta de <Node id="123"/>productos<Node id="132"/> y servicios alternativos a la <Node id="163"/>banca<Node id="168"/> tradicional, como asegura el <Node id="198"/>45%<Node id="201"/> de los <Node id="209"/>directivos<Node id="219"/> de pequeñas y medianas <Node id="243"/>empresas<Node id="251"/> y <Node id="254"/>startups<Node id="262"/> <Node id="263"/>madrileñas<Node id="273"/>.
+<Node id="275"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="18" EndNode="23">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="26" EndNode="34">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="43" EndNode="52">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="81" EndNode="85">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="123" EndNode="132">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="163" EndNode="168">
+</Annotation>
+<Annotation Id="7" Type="PERCENT" StartNode="198" EndNode="201">
+</Annotation>
+<Annotation Id="8" Type="JOB" StartNode="209" EndNode="219">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="243" EndNode="251">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="254" EndNode="262">
+</Annotation>
+<Annotation Id="11" Type="LANG" StartNode="263" EndNode="273">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="275">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

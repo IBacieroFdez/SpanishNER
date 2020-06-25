@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_22_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>AI<Node id="2"/> contabilizó las ejecuciones a través de información oficial, sentencias y testimonios de <Node id="92"/>familiares<Node id="102"/>, recordando que en <Node id="122"/>naciones<Node id="130"/> como <Node id="136"/>China<Node id="141"/> y <Node id="144"/>Vietnam<Node id="151"/> estos datos están clasificados, y que en otros como <Node id="204"/>Corea del Norte<Node id="219"/> o <Node id="222"/>Laos<Node id="226"/> no se divulgan debido a "prácticas restrictivas del <Node id="279"/>Estado<Node id="285"/>".
+<Node id="288"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="0" EndNode="2">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="92" EndNode="102">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="122" EndNode="130">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="136" EndNode="141">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="144" EndNode="151">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="204" EndNode="219">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="222" EndNode="226">
+</Annotation>
+<Annotation Id="8" Type="ORG" StartNode="279" EndNode="285">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="288">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

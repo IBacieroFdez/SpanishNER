@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_82_6.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los <Node id="4"/>síntomas<Node id="12"/> más comunes de la <Node id="31"/>COVID-19<Node id="39"/> son la <Node id="47"/>tos<Node id="50"/> seca, el <Node id="60"/>cansancio<Node id="69"/> y la <Node id="75"/>fiebre<Node id="81"/>. Algunas personas pueden desarrollar formas más graves de la <Node id="143"/>enfermedad<Node id="153"/>, como la <Node id="163"/>neumonía<Node id="171"/>. La mejor manera de saber si tiene el <Node id="210"/>virus<Node id="215"/> que produce
+    la <Node id="235"/>enfermedad<Node id="245"/> de la <Node id="252"/>COVID-19<Node id="260"/> es someterse a una prueba de <Node id="290"/>laboratorio<Node id="301"/>. No podrá salir de dudas llevando a cabo este ejercicio de respiración, que incluso podría resultar peligroso.
+<Node id="413"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="4" EndNode="12">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="31" EndNode="39">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="47" EndNode="50">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="60" EndNode="69">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="75" EndNode="81">
+</Annotation>
+<Annotation Id="6" Type="DISEASE" StartNode="143" EndNode="153">
+</Annotation>
+<Annotation Id="7" Type="DISEASE" StartNode="163" EndNode="171">
+</Annotation>
+<Annotation Id="8" Type="DISEASE" StartNode="235" EndNode="245">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="252" EndNode="260">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="290" EndNode="301">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="210" EndNode="215">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="413">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

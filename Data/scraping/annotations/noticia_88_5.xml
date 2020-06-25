@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_88_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">CRLF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&#xd;
+	 <Node id="4"/>Los resultados del trabajo establecen un nuevo marco de estudio de  los <Node id="76"/>trastornos<Node id="86"/> del <Node id="91"/>autismo<Node id="98"/>, en el que toda la información obtenida hasta  el momento es integrada para poder obtener una mayor capacidad  analítica dentro del espectro del <Node id="244"/>autismo<Node id="251"/> y una mayor precisión a la  hora de estudiar a cada <Node id="304"/>paciente<Node id="312"/> de forma individualizada.&#xd;
+<Node id="340"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DISEASE" StartNode="76" EndNode="86">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="91" EndNode="98">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="244" EndNode="251">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="304" EndNode="312">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="4" EndNode="340">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

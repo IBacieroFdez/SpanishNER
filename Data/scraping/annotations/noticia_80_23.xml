@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_80_23.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En materia de <Node id="14"/>transporte<Node id="24"/> vuelve a aparecer el polémico certificado de <Node id="70"/>inmunidad<Node id="79"/>: el escrito pide "valorar" su uso como criterio de acceso a <Node id="140"/>trenes<Node id="146"/> y <Node id="149"/>autobuses<Node id="158"/> si acaba poniéndose en marcha.
+<Node id="190"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="FAC" StartNode="14" EndNode="24">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="70" EndNode="79">
+</Annotation>
+<Annotation Id="3" Type="FAC" StartNode="140" EndNode="146">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="149" EndNode="158">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="190">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

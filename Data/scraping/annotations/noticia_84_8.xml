@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_84_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Kawaoka<Node id="7"/> se quedó y siguió el desarrollo de la <Node id="46"/>crisis<Node id="52"/> desde detrás de la <Node id="72"/>cabina<Node id="78"/> de <Node id="82"/>seguridad biológica<Node id="101"/> del <Node id="106"/>laboratorio<Node id="117"/> de <Node id="121"/>biocontención<Node id="134"/> del <Node id="139"/>hospital<Node id="147"/> de <Node id="151"/>Memphis<Node id="158"/>. De las <Node id="167"/>muestras<Node id="175"/> que le enviaron desde el <Node id="201"/>terreno<Node id="208"/> extrajo el <Node id="220"/>virus<Node id="225"/> y lo cultivó. Con él infectó <Node id="255"/>gallinas<Node id="263"/> que introdujo en <Node id="281"/>jaulas<Node id="287"/> alineadas en la pared y esperó a ver qué sucedía. Los resultados le llenaron de preocupación: todas las <Node id="392"/>gallinas<Node id="400"/> habían perecido (la tasa de mortalidad era del <Node id="448"/>cien por cien<Node id="461"/>). Al realizarles la autopsia descubrió que el <Node id="508"/>virus<Node id="513"/> era un <Node id="521"/>patógeno<Node id="529"/> despiadado que afectaba a casi todos los <Node id="571"/>órganos<Node id="578"/>, de modo semejante a como actuaban determinadas <Node id="627"/>cepas<Node id="632"/> del <Node id="637"/>virus<Node id="642"/> del <Node id="647"/>Ébola<Node id="652"/> en los humanos.
+<Node id="669"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="46" EndNode="52">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="72" EndNode="78">
+</Annotation>
+<Annotation Id="4" Type="FAC" StartNode="106" EndNode="117">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="121" EndNode="134">
+</Annotation>
+<Annotation Id="6" Type="FAC" StartNode="139" EndNode="147">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="151" EndNode="158">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="201" EndNode="208">
+</Annotation>
+<Annotation Id="9" Type="SCITERM" StartNode="167" EndNode="175">
+</Annotation>
+<Annotation Id="10" Type="SCITERM" StartNode="82" EndNode="101">
+</Annotation>
+<Annotation Id="11" Type="SCITERM" StartNode="220" EndNode="225">
+</Annotation>
+<Annotation Id="12" Type="PRODUCT" StartNode="255" EndNode="263">
+</Annotation>
+<Annotation Id="13" Type="PRODUCT" StartNode="281" EndNode="287">
+</Annotation>
+<Annotation Id="14" Type="PRODUCT" StartNode="392" EndNode="400">
+</Annotation>
+<Annotation Id="15" Type="PERCENT" StartNode="448" EndNode="461">
+</Annotation>
+<Annotation Id="16" Type="SCITERM" StartNode="508" EndNode="513">
+</Annotation>
+<Annotation Id="17" Type="SCITERM" StartNode="521" EndNode="529">
+</Annotation>
+<Annotation Id="18" Type="SCITERM" StartNode="571" EndNode="578">
+</Annotation>
+<Annotation Id="19" Type="SCITERM" StartNode="627" EndNode="632">
+</Annotation>
+<Annotation Id="20" Type="DISEASE" StartNode="647" EndNode="652">
+</Annotation>
+<Annotation Id="21" Type="DISEASE" StartNode="637" EndNode="642">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="669">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_80_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Mitjà<Node id="5"/> propone que se rastreen los contactos de las personas con <Node id="64"/>síntomas<Node id="72"/> a través de la <Node id="88"/>tecnología bluetooth<Node id="108"/> de los <Node id="116"/>teléfonos móviles<Node id="133"/>. El inconveniente, tal y como apunta el informe, pasa por el tratamiento de estos datos y la privacidad del usuario, un tema sobre el que recomiendan avanzar "con precaución y sensibilidad".
+<Node id="325"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="5">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="64" EndNode="72">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="88" EndNode="108">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="116" EndNode="133">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="325">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

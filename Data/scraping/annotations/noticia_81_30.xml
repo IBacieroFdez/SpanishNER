@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_81_30.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>aislamiento<Node id="14"/> significa separar a las personas que están enfermas con <Node id="71"/>síntomas<Node id="79"/> de <Node id="83"/>COVID‑19<Node id="91"/> y pueden ser contagiosas para prevenir la <Node id="134"/>propagación<Node id="145"/> de la <Node id="152"/>enfermedad<Node id="162"/>.
+<Node id="164"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="3" EndNode="14">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="71" EndNode="79">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="83" EndNode="91">
+</Annotation>
+<Annotation Id="4" Type="DISEASE" StartNode="152" EndNode="162">
+</Annotation>
+<Annotation Id="5" Type="SCITERM" StartNode="134" EndNode="145">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="164">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

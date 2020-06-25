@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_100_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>orina<Node id="8"/> de los <Node id="16"/>astronautas<Node id="27"/> podría servir para mejorar los <Node id="59"/>compuestos<Node id="69"/> que se podrían utilizar para construir una <Node id="113"/>estación espacial<Node id="130"/> en la <Node id="137"/>Luna<Node id="141"/>, según un <Node id="152"/>estudio<Node id="159"/> patrocinado por la <Node id="179"/>Agencia Espacial Europea<Node id="203"/> (<Node id="205"/>ESA<Node id="208"/>) y publicado este <Node id="227"/>viernes<Node id="234"/>.
+<Node id="236"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="SCITERM" StartNode="3" EndNode="8">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="16" EndNode="27">
+</Annotation>
+<Annotation Id="3" Type="SCITERM" StartNode="59" EndNode="69">
+</Annotation>
+<Annotation Id="4" Type="LOC" StartNode="137" EndNode="141">
+</Annotation>
+<Annotation Id="5" Type="FAC" StartNode="113" EndNode="130">
+</Annotation>
+<Annotation Id="6" Type="SCITERM" StartNode="152" EndNode="159">
+</Annotation>
+<Annotation Id="7" Type="SCITERM" StartNode="179" EndNode="203">
+</Annotation>
+<Annotation Id="8" Type="DATE" StartNode="227" EndNode="234">
+</Annotation>
+<Annotation Id="9" Type="ORG" StartNode="205" EndNode="208">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="236">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

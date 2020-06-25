@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_53_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Puigdemont<Node id="10"/> y sus <Node id="17"/>exconsejeros<Node id="29"/> autonómicos huidos en <Node id="52"/>Bélgica<Node id="59"/> <Node id="60"/>Clara Ponsatí<Node id="73"/>, <Node id="75"/>Toni Comín<Node id="85"/>, <Node id="87"/>Lluís Puig<Node id="97"/> y <Node id="100"/>Meritxell Serret<Node id="116"/> denunciaron en un <Node id="135"/>juzgado civil<Node id="148"/> <Node id="149"/>belga<Node id="154"/> en <Node id="158"/>junio de 2018<Node id="171"/> al <Node id="175"/>juez<Node id="179"/> que instruyó la causa del 1-O, al considerar que éste habría vulnerado su presunción de inocencia al decir en una charla en <Node id="304"/>Oviedo<Node id="310"/> en <Node id="314"/>febrero<Node id="321"/> de ese mismo <Node id="335"/>año<Node id="338"/> que los procesados en el caso del "procés" no eran presos <Node id="397"/>políticos<Node id="406"/>.
+<Node id="408"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="10">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="17" EndNode="29">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="52" EndNode="59">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="60" EndNode="73">
+</Annotation>
+<Annotation Id="5" Type="PER" StartNode="75" EndNode="85">
+</Annotation>
+<Annotation Id="6" Type="PER" StartNode="87" EndNode="97">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="100" EndNode="116">
+</Annotation>
+<Annotation Id="8" Type="LANG" StartNode="149" EndNode="154">
+</Annotation>
+<Annotation Id="9" Type="FAC" StartNode="135" EndNode="148">
+</Annotation>
+<Annotation Id="10" Type="DATE" StartNode="158" EndNode="171">
+</Annotation>
+<Annotation Id="19" Type="JOB" StartNode="175" EndNode="179">
+</Annotation>
+<Annotation Id="20" Type="GPE" StartNode="304" EndNode="310">
+</Annotation>
+<Annotation Id="21" Type="DATE" StartNode="314" EndNode="321">
+</Annotation>
+<Annotation Id="22" Type="DATE" StartNode="335" EndNode="338">
+</Annotation>
+<Annotation Id="24" Type="NORP" StartNode="397" EndNode="406">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="408">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

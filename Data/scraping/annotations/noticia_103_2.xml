@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_103_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Así lo ha hecho saber el <Node id="25"/>CEO<Node id="28"/> de la <Node id="35"/>compañía<Node id="43"/> a través de su perfil de <Node id="69"/>Twitter<Node id="76"/>, donde afirma que "<Node id="96"/>Tesla<Node id="101"/> va a retomar <Node id="115"/>hoy<Node id="118"/> [<Node id="120"/>11 de mayo<Node id="130"/>] la producción contra las reglas del <Node id="168"/>condado<Node id="175"/> de <Node id="179"/>Alameda<Node id="186"/>". Asegura que él también estará en la <Node id="225"/>planta<Node id="231"/> y que "si alguien es arrestado, pido ser solo yo". Esta decisión llega justo un <Node id="312"/>día<Node id="315"/> después de que <Node id="331"/>Tesla<Node id="336"/> demandase al <Node id="350"/>condado<Node id="357"/> de <Node id="361"/>Alameda<Node id="368"/> por impedir a la <Node id="386"/>empresa<Node id="393"/> volver al trabajo a pesar de que, según <Node id="434"/>Tesla<Node id="439"/>, la <Node id="444"/>fábrica<Node id="451"/> de <Node id="455"/>Fremont<Node id="462"/> entra dentro de la descripción de "negocios esenciales". En concreto, <Node id="533"/>Tesla<Node id="538"/> cita este apartado:
+<Node id="559"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="25" EndNode="28">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="35" EndNode="43">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="69" EndNode="76">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="96" EndNode="101">
+</Annotation>
+<Annotation Id="5" Type="TIME" StartNode="115" EndNode="118">
+</Annotation>
+<Annotation Id="6" Type="DATE" StartNode="120" EndNode="130">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="168" EndNode="175">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="179" EndNode="186">
+</Annotation>
+<Annotation Id="9" Type="FAC" StartNode="225" EndNode="231">
+</Annotation>
+<Annotation Id="10" Type="ORG" StartNode="331" EndNode="336">
+</Annotation>
+<Annotation Id="11" Type="TIME" StartNode="312" EndNode="315">
+</Annotation>
+<Annotation Id="12" Type="LOC" StartNode="350" EndNode="357">
+</Annotation>
+<Annotation Id="13" Type="GPE" StartNode="361" EndNode="368">
+</Annotation>
+<Annotation Id="14" Type="ORG" StartNode="386" EndNode="393">
+</Annotation>
+<Annotation Id="15" Type="ORG" StartNode="434" EndNode="439">
+</Annotation>
+<Annotation Id="16" Type="FAC" StartNode="444" EndNode="451">
+</Annotation>
+<Annotation Id="17" Type="GPE" StartNode="455" EndNode="462">
+</Annotation>
+<Annotation Id="18" Type="ORG" StartNode="533" EndNode="538">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="559">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

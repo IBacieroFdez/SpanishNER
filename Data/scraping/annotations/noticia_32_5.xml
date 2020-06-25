@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_32_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Tecnología y moda vuelven a trabajar juntas, y en esta ocasión, alumbran un nuevo <Node id="82"/>tejido<Node id="88"/> que "hace que te sientas mejor", ha dicho este <Node id="136"/>lunes<Node id="141"/> a <Node id="144"/>EFE<Node id="147"/> <Node id="148"/>Federico Sainz<Node id="162"/>, <Node id="164"/>CEO<Node id="167"/> de <Node id="171"/>Sepiia<Node id="177"/>.
+<Node id="179"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="82" EndNode="88">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="144" EndNode="147">
+</Annotation>
+<Annotation Id="3" Type="DATE" StartNode="136" EndNode="141">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="148" EndNode="162">
+</Annotation>
+<Annotation Id="5" Type="JOB" StartNode="164" EndNode="167">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="171" EndNode="177">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="179">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

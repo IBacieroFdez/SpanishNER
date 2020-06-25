@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_98_22.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Se pueden consultar más recomendaciones en el <Node id="46"/>sitio web<Node id="55"/> de la <Node id="62"/>OIE<Node id="65"/>: <Node id="67"/>https://www.oie.int/es/nuestra-experiencia-cientifica/informaciones-especificas-y-recomendaciones/preguntas-y-respuestas-del-nuevo-coronavirus-2019/<Node id="215"/>
+<Node id="216"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="62" EndNode="65">
+</Annotation>
+<Annotation Id="2" Type="ADDRESS" StartNode="46" EndNode="55">
+</Annotation>
+<Annotation Id="3" Type="ADDRESS" StartNode="67" EndNode="215">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="216">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

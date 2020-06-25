@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_40_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El pasado <Node id="10"/>14 de abril<Node id="21"/>, los <Node id="27"/>sindicatos<Node id="37"/> ya informaron que <Node id="56"/>Viajes El Corte Inglés<Node id="78"/> estaba estudiando la aplicación de este ERTE por causas productivas que afecta al <Node id="161"/>90 %<Node id="165"/> de la plantilla y que se prolongará hasta <Node id="208"/>marzo de 2021<Node id="221"/>.
+<Node id="223"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="10" EndNode="21">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="27" EndNode="37">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="56" EndNode="78">
+</Annotation>
+<Annotation Id="4" Type="PERCENT" StartNode="161" EndNode="165">
+</Annotation>
+<Annotation Id="5" Type="DATE" StartNode="208" EndNode="221">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="223">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

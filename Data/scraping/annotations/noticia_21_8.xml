@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_21_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"No podemos confiar en decisiones improvisadas para satisfacer una parte de la opinión pública o para satisfacer las solicitudes de algunas categorías de producción, <Node id="166"/>empresas individuales<Node id="187"/> o <Node id="190"/>regiones<Node id="198"/> específicas", agregó ante las muchas peticiones de algunas <Node id="258"/>regiones<Node id="266"/> de iniciar inmediatamente la desescalada.
+<Node id="309"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="166" EndNode="187">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="190" EndNode="198">
+</Annotation>
+<Annotation Id="3" Type="LOC" StartNode="258" EndNode="266">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="309">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

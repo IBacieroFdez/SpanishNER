@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_59_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Fachada de la <Node id="14"/>vivienda<Node id="22"/>, en la <Node id="30"/>calle<Node id="35"/> <Node id="36"/>Cádiz<Node id="41"/> de <Node id="45"/>Almería<Node id="52"/>, donde estaba escondido uno de los terroristas del <Node id="104"/>Dáesh<Node id="109"/> más buscados de <Node id="126"/>Europa<Node id="132"/>, que se encontraba con <Node id="156"/>dos<Node id="159"/> personas en un <Node id="175"/>piso<Node id="179"/> de alquiler y que, aprovechando la <Node id="215"/>pandemia<Node id="223"/> de <Node id="227"/>coronavirus<Node id="238"/>, salía en pocas ocasiones a la <Node id="270"/>calle<Node id="275"/> y siempre con <Node id="290"/>mascarilla<Node id="300"/> para evitar ser reconocido. <Node id="329"/>EFE<Node id="332"/>/<Node id="333"/>Carlos Barba<Node id="345"/>
+	   
+<Node id="351"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="LOC" StartNode="14" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="30" EndNode="35">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="351">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="36" EndNode="41">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="45" EndNode="52">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="104" EndNode="109">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="126" EndNode="132">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="156" EndNode="159">
+</Annotation>
+<Annotation Id="8" Type="LOC" StartNode="175" EndNode="179">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="215" EndNode="223">
+</Annotation>
+<Annotation Id="10" Type="DISEASE" StartNode="227" EndNode="238">
+</Annotation>
+<Annotation Id="11" Type="LOC" StartNode="270" EndNode="275">
+</Annotation>
+<Annotation Id="12" Type="ORG" StartNode="329" EndNode="332">
+</Annotation>
+<Annotation Id="13" Type="MEDTERM" StartNode="290" EndNode="300">
+</Annotation>
+<Annotation Id="14" Type="PER" StartNode="333" EndNode="345">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

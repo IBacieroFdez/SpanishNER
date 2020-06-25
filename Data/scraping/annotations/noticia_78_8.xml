@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_78_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Los beneficios de seguir conectado a una <Node id="41"/>comunidad<Node id="50"/> Además, durante el <Node id="70"/>confinamiento<Node id="83"/>, <Node id="85"/>Impact Hub<Node id="95"/> <Node id="96"/>Madrid<Node id="102"/> ha reinventado su programación y contenidos, con una agenda <Node id="163"/>100%<Node id="167"/> digital que incluye webinars,
+<Node id="198"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="NORP" StartNode="41" EndNode="50">
+</Annotation>
+<Annotation Id="2" Type="EVENT" StartNode="70" EndNode="83">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="85" EndNode="95">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="96" EndNode="102">
+</Annotation>
+<Annotation Id="5" Type="PERCENT" StartNode="163" EndNode="167">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="198">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

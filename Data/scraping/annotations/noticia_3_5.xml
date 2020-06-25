@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_3_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>"<Node id="1"/>Mañana<Node id="7"/>, llevamos al <Node id="21"/>Consejo de Gobierno<Node id="40"/> una <Node id="45"/>primera<Node id="52"/> partida -serán <Node id="68"/>dos<Node id="71"/>- para adquirir este material de primera calidad y así, de esta manera, asegurarnos de que todos los <Node id="172"/>ciudadanos<Node id="182"/> <Node id="183"/>a partir del 9 de mayo<Node id="205"/> podrán salir con mayor protección a la <Node id="245"/>calle<Node id="250"/> y retomar su actividad normal", ha indicado.
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="DATE" StartNode="1" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="ORG" StartNode="21" EndNode="40">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="68" EndNode="71">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="45" EndNode="52">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="5" Type="PER" StartNode="172" EndNode="182">
+</Annotation>
+<Annotation Id="6" Type="TIME" StartNode="183" EndNode="205">
+</Annotation>
+<Annotation Id="7" Type="LOC" StartNode="245" EndNode="250">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

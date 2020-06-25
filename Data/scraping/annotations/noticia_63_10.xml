@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_63_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La explicación de por qué es falso tiene que ver con el hecho de que las radiofrecuencias que se utilizan en las <Node id="113"/>redes de comunicación<Node id="134"/> (<Node id="136"/>2G<Node id="138"/>, <Node id="140"/>3G<Node id="142"/>, <Node id="144"/>4G<Node id="146"/>, <Node id="148"/>5G<Node id="150"/>, <Node id="152"/>wifi<Node id="156"/>, <Node id="158"/>radio<Node id="163"/>...) pertenecen al rango de las radiaciones no ionizantes, que se diferencian de las ionizantes en que poseen menor frecuencia y energía, de modo que no pueden desestabilizar un átomo.
+<Node id="348"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PRODUCT" StartNode="113" EndNode="134">
+</Annotation>
+<Annotation Id="2" Type="PRODUCT" StartNode="140" EndNode="142">
+</Annotation>
+<Annotation Id="3" Type="PRODUCT" StartNode="136" EndNode="138">
+</Annotation>
+<Annotation Id="4" Type="PRODUCT" StartNode="148" EndNode="150">
+</Annotation>
+<Annotation Id="5" Type="PRODUCT" StartNode="144" EndNode="146">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="152" EndNode="156">
+</Annotation>
+<Annotation Id="7" Type="PRODUCT" StartNode="158" EndNode="163">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="348">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

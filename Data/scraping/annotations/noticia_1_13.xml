@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_1_13.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Sobre si tendrán que llevar o no <Node id="33"/>mascarillas<Node id="44"/>, la <Node id="49"/>portavoz<Node id="57"/> ha dicho que la evidencia científica pone de manifiesto que en los <Node id="125"/>niños<Node id="130"/> es menos eficiente, puesto que es complicado que no se toquen la cara o que las mantengan puestas, entre otras dificultades.
+<Node id="256"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="33" EndNode="44">
+</Annotation>
+<Annotation Id="2" Type="JOB" StartNode="49" EndNode="57">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="125" EndNode="130">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="256">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

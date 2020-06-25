@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_22_19.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Por primera vez <Node id="16"/>en una década<Node id="29"/>, <Node id="31"/>Afganistán<Node id="41"/> no ejecutó a nadie, algo que tampoco hicieron <Node id="88"/>Taiwán<Node id="94"/>, <Node id="96"/>Tailandia<Node id="105"/>, <Node id="107"/>Kazajistán<Node id="117"/>, <Node id="119"/>Tayikistán<Node id="129"/>, <Node id="131"/>Malasia<Node id="138"/> o <Node id="141"/>Gambia<Node id="147"/>, muchos de ellos al mantener la moratoria impuesta a la pena de muerte.
+<Node id="220"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="16" EndNode="29">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="31" EndNode="41">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="88" EndNode="94">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="96" EndNode="105">
+</Annotation>
+<Annotation Id="5" Type="GPE" StartNode="119" EndNode="129">
+</Annotation>
+<Annotation Id="6" Type="GPE" StartNode="131" EndNode="138">
+</Annotation>
+<Annotation Id="7" Type="GPE" StartNode="107" EndNode="117">
+</Annotation>
+<Annotation Id="8" Type="GPE" StartNode="141" EndNode="147">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="220">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

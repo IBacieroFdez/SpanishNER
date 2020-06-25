@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_74_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En paralelo a la <Node id="17"/>crisis<Node id="23"/> por el <Node id="31"/>COVID-19<Node id="39"/>, <Node id="41"/>Boeing<Node id="47"/> ya llevaba <Node id="59"/>meses<Node id="64"/> en dificultades a raíz de los <Node id="95"/>escándalos<Node id="105"/> vinculados a su modelo de <Node id="132"/>aeronave<Node id="140"/> 737 Max, que sufrió <Node id="161"/>dos<Node id="164"/> <Node id="165"/>accidentes<Node id="175"/> en <Node id="179"/>Etiopía<Node id="186"/> e <Node id="189"/>Indonesia<Node id="198"/>, con <Node id="204"/>346<Node id="207"/> víctimas mortales, y que lleva <Node id="239"/>meses<Node id="244"/> vetado de los <Node id="259"/>cielos<Node id="265"/>. 
+<Node id="268"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="EVENT" StartNode="17" EndNode="23">
+</Annotation>
+<Annotation Id="2" Type="DISEASE" StartNode="31" EndNode="39">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="41" EndNode="47">
+</Annotation>
+<Annotation Id="4" Type="TIME" StartNode="59" EndNode="64">
+</Annotation>
+<Annotation Id="5" Type="EVENT" StartNode="95" EndNode="105">
+</Annotation>
+<Annotation Id="6" Type="PRODUCT" StartNode="132" EndNode="140">
+</Annotation>
+<Annotation Id="7" Type="QUANT" StartNode="161" EndNode="164">
+</Annotation>
+<Annotation Id="8" Type="EVENT" StartNode="165" EndNode="175">
+</Annotation>
+<Annotation Id="9" Type="GPE" StartNode="179" EndNode="186">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="189" EndNode="198">
+</Annotation>
+<Annotation Id="11" Type="QUANT" StartNode="204" EndNode="207">
+</Annotation>
+<Annotation Id="12" Type="TIME" StartNode="239" EndNode="244">
+</Annotation>
+<Annotation Id="13" Type="LOC" StartNode="259" EndNode="265">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="268">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

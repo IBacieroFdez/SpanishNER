@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_73_1.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Héctor Catalá<Node id="13"/> es uno de los mejores <Node id="36"/>triatletas<Node id="46"/> <Node id="47"/>paralímpicos<Node id="59"/> de la actualidad. En <Node id="81"/>2019<Node id="85"/> se proclamó <Node id="98"/>campeón del mundo<Node id="115"/> de la categoría PVI de discapacitados visuales junto a su guía <Node id="179"/>Gustavo Rodríguez<Node id="196"/> y ahora tenia que estar pensando en los <Node id="237"/>Juegos<Node id="243"/> de <Node id="247"/>Tokio<Node id="252"/>, pero como a todos el <Node id="275"/>coronavirus<Node id="286"/> le ha afectado. 
+<Node id="304"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="PER" StartNode="0" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="SPORT" StartNode="36" EndNode="46">
+</Annotation>
+<Annotation Id="3" Type="SPORT" StartNode="47" EndNode="59">
+</Annotation>
+<Annotation Id="4" Type="DATE" StartNode="81" EndNode="85">
+</Annotation>
+<Annotation Id="5" Type="SPORT" StartNode="98" EndNode="115">
+</Annotation>
+<Annotation Id="8" Type="PER" StartNode="179" EndNode="196">
+</Annotation>
+<Annotation Id="9" Type="EVENT" StartNode="237" EndNode="243">
+</Annotation>
+<Annotation Id="10" Type="GPE" StartNode="247" EndNode="252">
+</Annotation>
+<Annotation Id="11" Type="EVENT" StartNode="275" EndNode="286">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="304">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

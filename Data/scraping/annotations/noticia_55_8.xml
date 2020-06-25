@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_55_8.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Además, los <Node id="12"/>sanitarios<Node id="22"/>, que las usaron en <Node id="42"/>días<Node id="46"/> distintos, han sido apartados del servicio hasta conocer el resultado de las pruebas y las <Node id="138"/>16.000<Node id="144"/> <Node id="145"/>mascarillas<Node id="156"/> recibidas han sido devueltas.
+<Node id="187"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="MEDTERM" StartNode="12" EndNode="22">
+</Annotation>
+<Annotation Id="2" Type="DATE" StartNode="42" EndNode="46">
+</Annotation>
+<Annotation Id="3" Type="QUANT" StartNode="138" EndNode="144">
+</Annotation>
+<Annotation Id="4" Type="MEDTERM" StartNode="145" EndNode="156">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="187">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

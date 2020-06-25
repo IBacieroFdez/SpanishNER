@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_100_15.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En el estudio participaron <Node id="27"/>investigadores<Node id="41"/> de <Node id="45"/>Noruega<Node id="52"/>, <Node id="54"/>España<Node id="60"/> e <Node id="63"/>Italia<Node id="69"/> en el marco de la iniciativa Ariadna.
+<Node id="108"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="27" EndNode="41">
+</Annotation>
+<Annotation Id="2" Type="GPE" StartNode="45" EndNode="52">
+</Annotation>
+<Annotation Id="3" Type="GPE" StartNode="54" EndNode="60">
+</Annotation>
+<Annotation Id="4" Type="GPE" StartNode="63" EndNode="69">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="108">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

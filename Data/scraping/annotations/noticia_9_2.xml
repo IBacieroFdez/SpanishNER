@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_9_2.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En la primera semana<Node id="20"/> solo volverán <Node id="35"/>a clase<Node id="42"/> los <Node id="47"/>alumnos<Node id="54"/> de <Node id="58"/>6<Node id="59"/> años, que están aprendiendo a leer, y los de <Node id="105"/>10<Node id="107"/> años, que preparan el paso al ciclo siguiente, explicó el <Node id="166"/>ministro<Node id="174"/> durante una comparecencia en la <Node id="207"/>Asamblea Nacional<Node id="224"/>.
+<Node id="226"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="JOB" StartNode="166" EndNode="174">
+</Annotation>
+<Annotation Id="1" Type="DATE" StartNode="0" EndNode="20">
+</Annotation>
+<Annotation Id="17" Type="LOC" StartNode="207" EndNode="224">
+</Annotation>
+<Annotation Id="2" Type="LOC" StartNode="35" EndNode="42">
+</Annotation>
+<Annotation Id="13" Type="PER" StartNode="47" EndNode="54">
+</Annotation>
+<Annotation Id="14" Type="QUANT" StartNode="58" EndNode="59">
+</Annotation>
+<Annotation Id="15" Type="QUANT" StartNode="105" EndNode="107">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="226">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_69_7.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>El <Node id="3"/>presidente<Node id="13"/> de la <Node id="20"/>Federación Internacional de Ajedrez<Node id="55"/>, <Node id="57"/>Arkady Dvorkovich<Node id="74"/>, señala en una comunicado que las razones por las que se organiza este torneo de forma virtual son "muy desafortunadas, pero nos complace ver que el ajedrez brinda consuelo a <Node id="250"/>millones<Node id="258"/> de personas que están bloqueadas en su <Node id="298"/>casa<Node id="302"/>: pueden jugar ellos mismos y también pueden disfrutar la emoción de un <Node id="374"/>evento deportivo<Node id="390"/> de primera clase".
+<Node id="410"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="13">
+</Annotation>
+<Annotation Id="2" Type="NORP" StartNode="20" EndNode="55">
+</Annotation>
+<Annotation Id="3" Type="PER" StartNode="57" EndNode="74">
+</Annotation>
+<Annotation Id="4" Type="QUANT" StartNode="250" EndNode="258">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="298" EndNode="302">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="374" EndNode="390">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="410">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

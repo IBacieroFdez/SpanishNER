@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_3_12.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>La <Node id="3"/>presidenta regional<Node id="22"/> ha explicado que ha sido "una situación anómala, con un <Node id="79"/>virus<Node id="84"/>, que asoma la cara incluso <Node id="112"/>dos<Node id="115"/> y <Node id="118"/>tres semanas más tarde<Node id="140"/> después de haber contagiado a una <Node id="175"/>persona<Node id="182"/> y donde los <Node id="195"/>mayores<Node id="202"/> son los más vulnerables, pero gracias al trabajo y al esfuerzo de este gran <Node id="279"/>equipo<Node id="285"/>, formado por todos estos <Node id="311"/>Cuerpos<Node id="318"/>, ahora podemos estar en una situación diferente".
+<Node id="369"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="16" Type="ORG" StartNode="279" EndNode="285">
+</Annotation>
+<Annotation Id="1" Type="JOB" StartNode="3" EndNode="22">
+</Annotation>
+<Annotation Id="17" Type="ORG" StartNode="311" EndNode="318">
+</Annotation>
+<Annotation Id="11" Type="MEDTERM" StartNode="79" EndNode="84">
+</Annotation>
+<Annotation Id="12" Type="DATE" StartNode="118" EndNode="140">
+</Annotation>
+<Annotation Id="13" Type="QUANT" StartNode="112" EndNode="115">
+</Annotation>
+<Annotation Id="14" Type="PER" StartNode="175" EndNode="182">
+</Annotation>
+<Annotation Id="15" Type="PER" StartNode="195" EndNode="202">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="369">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

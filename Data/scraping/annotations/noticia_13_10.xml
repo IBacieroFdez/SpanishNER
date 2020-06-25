@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_13_10.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>En cuanto a las protestas, expresa su desacuerdo con el uso desproporcionado de la fuerza <Node id="90"/>policial<Node id="98"/> contra <Node id="106"/>manifestantes<Node id="119"/> pacíficos y afirma que defensores de derechos humanos y <Node id="176"/>periodistas<Node id="187"/> "trabajan en un ambiente hostil".
+<Node id="222"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="90" EndNode="98">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="106" EndNode="119">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="176" EndNode="187">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="222">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

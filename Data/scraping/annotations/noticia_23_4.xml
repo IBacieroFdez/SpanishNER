@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_23_4.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>"<Node id="1"/>Gobierno<Node id="9"/> de emergencia nacional" es el nombre que han dado sus artífices, <Node id="75"/>Netanyahu<Node id="84"/> y el que será <Node id="99"/>viceprimer ministro<Node id="118"/>, <Node id="120"/>Beny Gantz<Node id="130"/>, a un <Node id="137"/>Ejecutivo<Node id="146"/> de unidad que los <Node id="165"/>primeros<Node id="173"/> <Node id="174"/>seis meses<Node id="184"/> no podrá aprobar legislación que no concierna a la lucha contra el <Node id="252"/>coronavirus<Node id="263"/> y que, a partir de <Node id="283"/>julio<Node id="288"/>, podrá promover la <Node id="308"/>anexión<Node id="315"/> de parte del <Node id="329"/>territorio<Node id="339"/> ocupado de <Node id="351"/>Cisjordania<Node id="362"/>. 
+<Node id="365"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="ORG" StartNode="1" EndNode="9">
+</Annotation>
+<Annotation Id="2" Type="PER" StartNode="75" EndNode="84">
+</Annotation>
+<Annotation Id="3" Type="JOB" StartNode="99" EndNode="118">
+</Annotation>
+<Annotation Id="4" Type="PER" StartNode="120" EndNode="130">
+</Annotation>
+<Annotation Id="5" Type="ORG" StartNode="137" EndNode="146">
+</Annotation>
+<Annotation Id="7" Type="TIME" StartNode="174" EndNode="184">
+</Annotation>
+<Annotation Id="8" Type="QUANT" StartNode="165" EndNode="173">
+</Annotation>
+<Annotation Id="9" Type="DISEASE" StartNode="252" EndNode="263">
+</Annotation>
+<Annotation Id="10" Type="DATE" StartNode="283" EndNode="288">
+</Annotation>
+<Annotation Id="11" Type="GPE" StartNode="351" EndNode="362">
+</Annotation>
+<Annotation Id="12" Type="EVENT" StartNode="308" EndNode="315">
+</Annotation>
+<Annotation Id="13" Type="LOC" StartNode="329" EndNode="339">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="365">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

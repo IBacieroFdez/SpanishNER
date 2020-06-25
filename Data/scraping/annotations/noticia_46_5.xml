@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/noticia_46_5.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>“Quiero reconocer el extraordinario trabajo de los <Node id="51"/>miles<Node id="56"/> de <Node id="60"/>profesionales<Node id="73"/> de las diversas <Node id="90"/>empresas<Node id="98"/> del <Node id="103"/>grupo<Node id="108"/> que están demostrando en todo el <Node id="142"/>mundo<Node id="147"/> un gran sentido del deber y una enorme profesionalidad al servicio de los ciudadanos. Con su dedicación, solidaridad y espíritu de sacrificio, todos y cada uno de ellos están contribuyendo a escribir nuevos capítulos en la historia de nuestra <Node id="391"/>compañía<Node id="399"/>”, ha dicho <Node id="411"/>Sánchez Galán<Node id="424"/>.
+<Node id="426"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="JOB" StartNode="60" EndNode="73">
+</Annotation>
+<Annotation Id="2" Type="QUANT" StartNode="51" EndNode="56">
+</Annotation>
+<Annotation Id="3" Type="ORG" StartNode="90" EndNode="98">
+</Annotation>
+<Annotation Id="4" Type="ORG" StartNode="103" EndNode="108">
+</Annotation>
+<Annotation Id="5" Type="LOC" StartNode="142" EndNode="147">
+</Annotation>
+<Annotation Id="6" Type="ORG" StartNode="391" EndNode="399">
+</Annotation>
+<Annotation Id="7" Type="PER" StartNode="411" EndNode="424">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="426">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>

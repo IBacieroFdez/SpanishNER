@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GateDocument version="3">
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/Users/ignaciobacierofernandez/Desktop/TFG/NLP/Scrap/b/noticia_85_3.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String"></Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0"/>Todavía<Node id="7"/> no existe una <Node id="22"/>cura<Node id="26"/> para la <Node id="35"/>diabetes<Node id="43"/>, pero se puede reducir mucho el efecto que tiene sobre la vida si se practican hábitos de estilo de vida saludables, se toman los <Node id="174"/>medicamentos<Node id="186"/> según sea necesario, se obtiene información sobre el automanejo de la <Node id="257"/>diabetes<Node id="265"/> y no se falta a las <Node id="286"/>citas<Node id="291"/> con el <Node id="299"/>equipo de atención médica<Node id="324"/>.
+<Node id="326"/></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+<Annotation Id="1" Type="TIME" StartNode="0" EndNode="7">
+</Annotation>
+<Annotation Id="2" Type="MEDTERM" StartNode="22" EndNode="26">
+</Annotation>
+<Annotation Id="3" Type="DISEASE" StartNode="35" EndNode="43">
+</Annotation>
+<Annotation Id="4" Type="DRUG" StartNode="174" EndNode="186">
+</Annotation>
+<Annotation Id="5" Type="DISEASE" StartNode="257" EndNode="265">
+</Annotation>
+<Annotation Id="6" Type="EVENT" StartNode="286" EndNode="291">
+</Annotation>
+<Annotation Id="7" Type="NORP" StartNode="299" EndNode="324">
+</Annotation>
+</AnnotationSet>
+
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="326">
+</Annotation>
+</AnnotationSet>
+
+</GateDocument>
