@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3906715.svg)](https://doi.org/10.5281/zenodo.3906715)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3908133.svg)](https://doi.org/10.5281/zenodo.3908133)
 
 This repository includes all the data and scripts needed to acomplish the task of building a custom spaCy NER model in Spanish language. 
 
